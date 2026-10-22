@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "3b7c94ecc72b6d42af9ed7028ad8184cbce1aaa8",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/170: 'Let F(N) be the smallest possible size of A ⊂ {0,1,...,N} such that {0,1,...,N} ⊂ A − A. Find the value of lim F(N)/N^{1/2}.' (The site notes the limit exists by Erdős–Gál and lies in [1.56, √3].) `PerfectRulersLengthN N` is the set of subsets of `Finset.range (N + 1)` = {0,...,N} such that every k ≤ N is `a₁ - a₀` with a₀, a₁ ∈ A. Natural-number truncated subtraction is harmless here: for k ≥ 1, `a₁ - a₀ = k` forces a₁ > a₀ and so is a genuine difference, k = 0 is a − a, and since A − A is symmetric, {0,...,N} ⊂ A − A is exactly this condition. `F N` is the minimum cardinality over this family, which is nonempty because it contains the full ruler. `erdos170` asserts `F N / √N → erdos170.answer` in ℝ (F N is cast to ℝ), which is the right `question value` form since the limit is known to exist. Faithful; open."
+    }
+]

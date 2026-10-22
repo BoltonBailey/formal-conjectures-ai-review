@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "3b7c94ecc72b6d42af9ed7028ad8184cbce1aaa8",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1214: 'Let x, y ≥ 1 be integers such that, for all n ≥ 1, the set of primes dividing x^n − 1 is equal to the set of primes dividing y^n − 1. Must x = y?' (answered positively by Corrales-Rodrigáñez and Schoof). The Lean statement quantifies over naturals x, y ≥ 1, assumes that for every n ≥ 1 the sets {p prime | p ∣ x^n − 1} and {p prime | p ∣ y^n − 1} are equal, and concludes x = y. Truncated subtraction is not an issue since x^n ≥ 1. In the degenerate case x = 1, x^n − 1 = 0 is divisible by every prime, and this forces y = 1 because y ≥ 2 gives y − 1 ≥ 1 with finitely many prime divisors, so the literal statement stays true and matches the source. The `question` tag with the positive proposition and `research solved` are consistent with the known positive answer (Corrales-Rodrigáñez–Schoof show that inclusion of prime supports for all n forces y to be a power of x, so equality gives x = y). Faithful."
+    }
+]

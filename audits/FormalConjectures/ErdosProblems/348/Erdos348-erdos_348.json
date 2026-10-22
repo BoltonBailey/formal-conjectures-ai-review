@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "3b7c94ecc72b6d42af9ed7028ad8184cbce1aaa8",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/348 ('For what values of 0 ≤ m < n is there a complete sequence A = {a_1 ≤ a_2 ≤ ...} of integers such that A remains complete after removing any m elements, but A is not complete after removing any n elements?', with the site noting that the weak notion of completeness allowing finitely many exceptions is most likely intended) and the abstract of Geneson, arXiv:2609.25107, which states that the possible pairs are exactly those with m ≤ 1, for completeness with finitely many exceptions and sums over distinct indices. In Lean, `IsAddCompleteNatSeq' a` says every sufficiently large natural is ∑_{i ∈ B} a i for a finite index set B, which matches that notion with repetition allowed. Deleting the terms at an index set s is modelled by `Function.updateFinset a s 0`, which sets them to 0. That has the same subset sums as deleting them, and `s.card = m` ranges over sets of m distinct indices, as intended. The sequence is `ℕ → ℕ` and `Monotone`. Allowing zero terms adds no spurious pairs: zeros contribute nothing, and dropping finitely many zeros preserves both conditions, while a monotone sequence with infinitely many zeros is identically zero and not complete. The set-builder existentially quantifies m < n and a, and `erdos_348.answer = {(m, n) | m < n ∧ m ≤ 1}` matches the stated result: (0, n) holds via powers of 2 and (1, n) via Fibonacci, since deleting more terms preserves incompleteness. The `question value` form and the `research solved` category are consistent with the cited paper. Faithful."
+    }
+]
