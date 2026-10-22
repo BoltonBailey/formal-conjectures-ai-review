@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "3b7c94ecc72b6d42af9ed7028ad8184cbce1aaa8",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia 'Diameter (group theory)' (diam(G) is the maximum over generating sets S of the diameter of the Cayley graph) and Helfgott–Seress, arXiv:1109.3550 (cited in the file). Their introduction defines the Cayley graph as undirected (words in A ∪ A^{-1}) and diam(G) as the maximum over generating sets A, and records that for G = Alt(n) Babai's conjecture says diam(Alt(n)) = n^{O(1)}, which [BS92] calls a 'folklore' conjecture. I could not access the paywalled Babai–Seress 1992 paper to confirm that it is numbered Conjecture 1.5 there. In Lean, `cayleyGraph S = SimpleGraph.fromRel (g⁻¹ * h ∈ S)` is the undirected Cayley graph on S ∪ S⁻¹ without loops. `groupDiam G` is the sSup over ℕ of `(cayleyGraph S).diam` over generating sets S. The set is nonempty (S = univ) and bounded (a connected finite graph has diameter < |G|), so this is the maximum, and generating sets give connected graphs, so `SimpleGraph.diam`'s junk value 0 for disconnected graphs never arises. The statement `∃ C : ℕ, ∀ n, groupDiam (A_n) ≤ n^C` is equivalent to diam(A_n) = n^{O(1)}: for n ≥ 2 a real exponent can be rounded up to a natural, and for n ≤ 2 A_n is trivial with diameter 0, so 0^C or 1^C cause no problem. The module docstring writes '< n^C' while the theorem uses '≤', which is immaterial. Faithful; open (best known bound is quasipolynomial, Helfgott–Seress)."
+    }
+]
