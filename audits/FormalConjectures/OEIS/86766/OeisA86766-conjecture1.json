@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A086766 (a(n) = smallest r such that (n concatenated r times)·10 + 1 is prime, or 0 if none; offset 1) and Farideh Firoozbakht's question 'What is the smallest integer m > 1 such that a(10^m) is nonzero?' The Lean `a n` takes sInf{r > 0 : n·Σ_{i<r}(10^ℓ)^i·10 + 1 prime}, with ℓ the number of decimal digits of n, so n·Σ(10^ℓ)^i is n written r times; sInf ∅ = 0 gives the 'or 0' convention. The test values 1, 3, 1, 1 match the data (e.g. 21 and 221 composite, 2221 prime). The `question value` statement sets the answer to `some (sInf {m > 1 : a(10^m) ≠ 0})` if such m exists and `none` otherwise, which covers the possibility that no such m exists. Faithful."
+    }
+]

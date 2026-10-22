@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Kourovka Notebook problem 8.8 (Grigorchuk, attributed to Anosov), part (b) as quoted in the file: does there exist a non-cyclic finitely presented group G containing an element a such that every element of G is conjugate to a power of a? The statement asks for `G : Type` with a group structure, ¬IsCyclic G, `Group.IsFinitelyPresented G`, and a : G with every g conjugate to a^n for some n ∈ ℤ, which is exactly the question; the trivial group is excluded as cyclic, and finite examples are impossible (conjugates of a proper subgroup cannot cover a finite group), so the question is genuinely about infinite groups, as intended. Restricting to universe 0 is harmless. Part (a) (finitely generated) was answered by Guba; part (b) is open, matching the tags."
+    }
+]

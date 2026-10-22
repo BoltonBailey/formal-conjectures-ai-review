@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/69: 'Is Σ_{n≥2} ω(n)/2^n irrational?' (ω = number of distinct prime divisors), which the page reports was proved irrational unconditionally by Tao and Teräväinen [TaTe25] (earlier conditionally by Pratt [Pr24]). The statement `Irrational (∑' n, ω (n + 2) / 2 ^ (n + 2))` reindexes the sum from n = 2; the expected type ℝ makes the summand real (ω cast to ℝ), and the companion variant proves the same series equals Σ_p 1/(2^p - 1). So the mathematical content is correct. The metadata is off: the declaration is tagged `@[category textbook]`, although this is a 2025 research result, and the docstring still poses it as a question without recording that it has been solved or by whom. Suggested fix: change the tag to `research solved` and cite [TaTe25] in the docstring."
+    }
+]

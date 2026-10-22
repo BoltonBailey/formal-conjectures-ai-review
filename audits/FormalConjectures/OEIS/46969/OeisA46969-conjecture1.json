@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A046969 (denominators of B_{2n}/(2n(2n-1)), the Stirling coefficients for log Γ, offset 1) and Lorenzo Sauras Altuzarra's 'Conjecture I: if n > 2, then a(A005382(n))/12 is prime', A005382 being primes p with 2p-1 prime (2, 3, 7, 19, ...). The Lean `a n` is the denominator of `bernoulli (2n) / (2n(2n-1))` (Mathlib's B_1 convention is irrelevant for even index), reproducing the data 12, 360, 1260, 1680, 1188, .... Translating 'n > 2' into 'p prime, 2p - 1 prime, p > 3' is correct since 5 is not in A005382. Natural-number division `a p / 12` is exact here: I checked 12 | a(n) for all n <= 300. Observation for the maintainers: for every tested p in the hypothesis set (p < 400), a(p)/12 = 2p - 1 exactly, so the conjecture may follow directly from the hypothesis that 2p - 1 is prime; the `research open` tag may overstate its difficulty, but the statement is faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A080170 (k with gcd(C(2k,k), C(3k,k), ..., C((k+1)k,k)) = 1) and Ralf Stephan's conjecture 'a(n) = A051283(n) - 1', where A051283 is the numbers k whose largest prime-power component P satisfies P < k/P; proved by Guo et al. (arXiv:2606.22997, with Lean proof). `A k` takes the gcd over i ∈ range k of C((i+2)k, k), i.e. multipliers 2..k+1. `B k` takes P as the largest prime-power divisor of k, which equals the largest component p^e in the factorization, and requires k / P > P (exact division since P | k). The statement `2 ≤ k → (A k ↔ B (k+1))` is the set-level form of the sequence identity. I verified numerically that A(k) ↔ B(k+1) for all 2 <= k < 400 and that the A-terms reproduce the OEIS data (29, 59, 69, 83, ...)."
+    }
+]

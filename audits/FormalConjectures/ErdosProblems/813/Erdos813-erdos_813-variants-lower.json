@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/813: h(n) is minimal such that every graph on n vertices in which every 7 vertices contain a triangle has a clique of size >= h(n); the question asks for c_1, c_2 > 0 with n^{1/3+c_1} ≪ h(n) ≪ n^{1/2-c_2}, and Bucić–Sudakov [BuSu23] proved h(n) ≫ n^{5/12-o(1)}. `h n` is the minimum clique number over graphs on Fin n satisfying `EverySevenHasTriangle` (nonempty via the complete graph; h(7) = 3 is proved as a sanity check). This variant states the lower half: ∃ c_1 > 0 with n^{1/3+c_1} = O(h(n)), which follows from 5/12 > 1/3 as the docstring notes. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/113: for bipartite G, ex(n;G) ≪ n^{3/2} if and only if G is 2-degenerate (no subgraph of minimum degree >= 3); disproved by Janzer [Ja23b], who built 3-regular bipartite H with ex(n;H) ≪ n^{4/3+ε}. The statement negates the universal biconditional over finite bipartite graphs, recording the 'disproved' answer. `extremalNumber n G` is Mathlib's Turán number, and `IsDegenerate G 2` (FormalConjecturesForMathlib, Degeneracy.lean) says every nonempty vertex set contains a vertex with at most 2 neighbours inside it, which is the standard 2-degeneracy and equivalent to the source's description. Janzer's H is 3-regular (so not 2-degenerate) while satisfying the O(n^{3/2}) bound, so it refutes the 'only if' direction, as the docstring says; the negated biconditional is exactly what that establishes."
+    }
+]

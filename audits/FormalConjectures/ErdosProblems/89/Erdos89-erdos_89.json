@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/89: does every set of n distinct points in R^2 determine >> n/sqrt(log n) distinct distances? (open, $500; Guth-Katz give n/log n). minimalDistinctDistances ℝ² n is the infimum over n-point finsets of EuclideanSpace ℝ (Fin 2) of the number of distinct pairwise distances (distanceSet uses offDiag, so the zero distance is excluded); the set is nonempty for every n, so sInf is a genuine minimum. The statement (n / sqrt(log n)) =O[atTop] minimalDistinctDistances is exactly the Vinogradov >> bound for all large n, and the junk values of log / sqrt / division at n = 0, 1 are irrelevant for atTop. Stated as the proposition asked about (no @[question] tag, which is acceptable since it is effectively Erdős's conjecture), and the open tag is supported."
+    }
+]

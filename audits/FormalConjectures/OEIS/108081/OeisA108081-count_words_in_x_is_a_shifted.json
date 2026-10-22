@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A108081 (a(n) = Σ_{i=0..n} C(2n-i, n+i), offset 0: 1, 2, 7, 25, 92, ...) and Li-yao Xia's comment defining the smallest set X of integer words containing (0) and closed under L(a)·b and a·R(b) (L/R reverse a word and subtract/add 1 to each term), asking whether the number of words of length n is always given by the sequence. The Lean `XWord` is the inductive closure with exactly these rules (`l` subtracts 1, `r` adds 1, both after reversal), `xN n` the words of length n, and the alternative formula Σ C(n+k-1, k) F(n-k+1) for `a` reproduces the data. The comment says 'a(n+1)', but its own listed examples (1, 2, 7 words of lengths 1, 2, 3) fit a(n-1) with offset 0; the statement uses |X_n| = a(n-1) for n >= 1, the only reading consistent with the examples, as the docstring explains. A Lean proof is linked. Faithful."
+    }
+]

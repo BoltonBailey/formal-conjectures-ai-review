@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1047 (Grunsky, via [EHP58]): for monic f ∈ ℂ[x] with m distinct roots and c > 0 small enough that {z : |f(z)| <= c} has m connected components, must all components be convex? Answered no by Pommerenke [Po61] (f = z^k(z - a), c = 1, two components with the one containing 0 non-convex). The statement negates '∀ monic f, m = |rootSet|, c > 0 with exactly m components of the closed sublevel set, every component is convex'. `componentsIn s` is the set of connected components `connectedComponentIn s z` for z ∈ s. Taking every c with exactly m components, rather than 'c small enough', is equivalent here, since the condition is exactly what makes the question meaningful. Pommerenke's example fits the hypotheses (m = 2, two components), so the negation holds. Faithful."
+    }
+]

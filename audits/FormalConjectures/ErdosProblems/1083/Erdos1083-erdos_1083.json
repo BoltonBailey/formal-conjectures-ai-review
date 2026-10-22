@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1083: for d >= 3, f_d(n) is the minimal number of distinct distances determined by n points in ℝ^d; 'is it true that f_d(n) = n^{2/d - o(1)}?' (known: n^{1/d} ≪ f_d(n) ≪ n^{2/d}; Solymosi–Vu get n^{2/d - c/d²}). `minimalDistinctDistances (ℝ^d) n` is the minimal count over n-point subsets of Euclidean d-space (the same notion as in Erdős 89). The statement asks, for each d >= 3, for o = o(1) with f_d(n) = n^{2/d - o(n)} for large n. Since f_d(n) >= 1 for n >= 2, one can always define o(n) = 2/d - log f_d(n)/log n, so the content is exactly that this tends to 0, i.e. f_d(n) = n^{2/d + o(1)}. Given the known upper bound n^{2/d}, that is the question. Faithful; open."
+    }
+]

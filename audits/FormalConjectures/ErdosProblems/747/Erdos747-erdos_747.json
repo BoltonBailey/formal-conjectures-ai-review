@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/747 (Shamir's problem, recorded by Erdős): how large should ℓ(n) be so that almost surely a random 3-uniform hypergraph on 3n vertices with ℓ(n) edges contains n vertex-disjoint edges? Kahn [Ka23] showed the threshold is ∼ n log n (JKV08 had ≍). `matchingProbability N r m k` is the proportion of r-uniform hypergraphs on Fin N with exactly m edges (uniform fixed-size model) having k disjoint edges. The statement, with answer n log n, says that for each ε ∈ (0, 1) the probability tends to 1 with ⌊(1+ε) n log n⌋ edges and to 0 with ⌊(1-ε) n log n⌋ edges, which is exactly a sharp threshold ∼ n log n. (On 3n vertices the threshold (N/3) log N with N = 3n is ∼ n log n.) Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/403: 'Does the equation 2^m = a_1! + ... + a_k! with a_1 < a_2 < ... < a_k have only finitely many solutions?' (yes, Frankl and Lin; largest solution 2^7 = 2! + 3! + 5!). Solutions are encoded as pairs (m, s) with s a finite set of positive integers (distinctness by set membership) and 2^m = Σ_{a∈s} a!; the statement asserts this set is finite. Excluding a = 0 is a harmless normalisation (0! = 1! would only add the solution {0, 1} for 2^1). Faithful; the docstring notes the linked proof classifies all five solutions."
+    }
+]

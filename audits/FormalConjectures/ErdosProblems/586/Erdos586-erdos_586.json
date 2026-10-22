@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/586: 'Is there a covering system such that no two of the moduli divide each other?' (Schinzel; answered no by Balister–Bollobás–Morris–Sahasrabudhe–Tiba [BBMST22]). `CoveringSystem ℤ` is a finite family of cosets r_i + (m_i) covering ℤ, with each ideal (m_i) ≠ ⊥ (nonzero modulus) and ≠ ⊤ (modulus ≠ ±1, which rules out the trivial one-class cover 0 mod 1 that would otherwise satisfy the condition vacuously). For ideals of ℤ, (m_j) ⊆ (m_i) iff m_i ∣ m_j, so `Pairwise fun i j ↦ ¬ moduli j ≤ moduli i` says no modulus divides another (repeated moduli are excluded too, as they should be). The theorem negates existence, recording the 'no' answer. Faithful."
+    }
+]

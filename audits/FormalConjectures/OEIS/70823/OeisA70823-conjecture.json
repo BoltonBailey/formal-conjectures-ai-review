@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A070823 (a(1) = 0, a(2) = 1, a(n+2) = |concat(a(n+1), a(n)) - concat(a(n), a(n+1))|, offset 1) and its comment 'a(n) == 0 mod 3 if n > 2. Is a(n) always of the form 2^a*3^b*b(n) where b(n) is a squarefree number?' `concatenate x y = x * 10^(digits y) + y` with 0 counted as one digit, which is decimal concatenation (e.g. concat(0, 1) = 1, concat(1, 0) = 10), and the recursion reproduces the data 0, 1, 9, 72, 243; the n = 0 value is junk and excluded by 2 < n. The theorem negates '∀ n > 2, a n ≡ 0 [MOD 3] ∧ a n = 2^j 3^k s with s squarefree'. Bundling the stated mod-3 fact into the negated conjunction is harmless: both concatenations have the same digit multiset, hence the same digit sum, so a(n) ≡ 0 mod 9 for n > 2 and the negation is equivalent to the negation of the squarefree-form question alone. This records the answer 'no' (a(20) is divisible by 13^2), with a linked Lean counterexample."
+    }
+]

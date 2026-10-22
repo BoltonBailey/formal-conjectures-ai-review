@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Beaver Math Olympiad problem 8 on wiki.bbchallenge.org: (a_1, b_1) = (10, 12); if a_n > floor(b_n/2) then (a_{n+1}, b_{n+1}) = (a_n - floor(b_n/2) - 3, 3 floor((b_n+1)/2) + 6), else (3a_n + 5, b_n - 2a_n); does some positive i have a_i = floor(b_i/2) + 1? The Lean recursion matches both cases, with the condition `b n / 2 < a n` equivalent to a_n > floor(b_n/2). The sequences are ℤ-valued and Lean's `/` on ℤ rounds down for divisor 2, so `b n / 2` and `(b n + 1) / 2` are the floors even if values go negative (a can reach -2). Indexing is shifted to start at 0; this does not change the question since at index 0, a = 10 ≠ 12/2 + 1 = 7. The open/question tags match the wiki's 'unsolved' listing."
+    }
+]

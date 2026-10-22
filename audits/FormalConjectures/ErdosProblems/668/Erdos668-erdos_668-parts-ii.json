@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/668: 'Is it always > 1 for n > 3?' (the number of incongruent n-point sets in ℝ² maximising unit distances), with the page noting it is = 1 for n = 4, the unique example being two equilateral triangles joined by an edge. The statement negates 'for every n > 3 there are two incongruent maximisers', i.e. records the answer no, as the `@[question]` convention requires for answered questions. Congruence is expressed via isometries `ℝ² ≃ᵢ ℝ²`, and maximisers are n-point Finsets with `unitDistNum = maxUnitDistances n`, where `maxUnitDistances` (Erdos90) is the sSup of the bounded set of unit-distance counts. The file proves (as a test) that `variants.four_points` implies this statement, so the solved tag rests on the n = 4 uniqueness claim from the source."
+    }
+]

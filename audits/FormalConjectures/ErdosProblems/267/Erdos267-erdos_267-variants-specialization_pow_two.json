@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/267, which records that Good [Go74] and Bicknell–Hoggatt [BiHo76] showed Σ 1/F_{2^n} is irrational, with value (7 - √5)/2. The statement `Irrational (∑' k, 1 / Nat.fib (2^k))` sums from k = 0 (F_1 = 1, F_2 = 1, F_4 = 3, F_8 = 21, ...), and this sum is (7 - √5)/2 ≈ 2.382 (I checked the partial sums), matching the source; the summand elaborates as real division at the expected type ℝ. Faithful. (Unrelated observation: the page says the main problem remains open for 1 < c < 2, while `erdos_267` in this file is tagged research solved with a linked proof; that declaration was not part of this audit.)"
+    }
+]

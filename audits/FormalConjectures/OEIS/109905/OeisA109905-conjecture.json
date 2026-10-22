@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A109905: a(n) = greatest prime of the form k(n-k)+1 with 1 <= k <= floor(n/2), 0 if no such prime exists (offset 1); Robert Israel's comment 'a(n)=0 for [n] = 1, 6, 30 and 54. Are there any others?' (the OEIS text says 'k' there, an evident typo for n), with Fiorentini reporting none up to 10^9. The Lean `a` takes the sup over primes in the image of k ↦ k(n-k)+1 on [1, n/2], and `Finset.sup` of an empty set is 0, matching the convention; n - k cannot truncate since k <= n/2. The test values a(1..5) = 0, 2, 3, 5, 7 match the OEIS data. The statement asks for n > 0 (matching the offset) with a n = 0 outside {1, 6, 30, 54}, which is exactly the question; per the `@[question]` convention the bare existential is the expected form."
+    }
+]

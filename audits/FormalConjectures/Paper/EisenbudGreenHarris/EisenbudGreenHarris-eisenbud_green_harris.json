@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the Eisenbud–Green–Harris conjecture as stated in Caviglia–De Stefani [CDS20, Conjecture 2.3] (from [EGH93], [EGH96]): if a homogeneous ideal I ⊆ k[x_1, ..., x_n] contains a regular sequence of forms of degrees d_1 <= ... <= d_c, then there is a lex ideal L with HF(I) = HF(L + (x_1^{d_1}, ..., x_c^{d_c})). The statement takes c <= n, monotone d, homogeneous I, forms f_i ∈ I homogeneous of degree d_i forming a regular sequence on S (Mathlib `IsRegular`, which rules out unit/degree-0 forms), and asks for L with `IsLexIdeal L` and equal Hilbert functions in every degree. `hilbertFunction I e = dim_k(I ∩ S_e)`; `IsLexIdeal` is a monomial ideal closed upward in `toLex` order within each degree, and Mathlib's Finsupp lex order makes x_1 (index 0) the largest variable, matching x_1 > ... > x_n; `purePowersIdeal` uses the first c variables, consistent with that order. Faithful; open."
+    }
+]

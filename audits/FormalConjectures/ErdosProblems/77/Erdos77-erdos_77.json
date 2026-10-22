@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/77: with R(k) the diagonal Ramsey number (minimal n such that every 2-colouring of K_n has a monochromatic K_k), find lim_{k→∞} R(k)^{1/k}. The statement uses the `@[question value]` pattern: R(k)^{1/k} (real power of `diagonalRamsey k`) tends to `erdos_77.answer`. This encodes both existence of the limit and its value, which is the intended content (existence of the limit is itself part of Erdős's question). Faithful; open."
+    }
+]

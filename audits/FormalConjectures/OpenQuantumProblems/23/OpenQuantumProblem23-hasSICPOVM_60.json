@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the standard definition of SIC-POVMs (Renes–Blume-Kohout–Scott–Caves 2004; IQOQI Open Quantum Problem 23): d^2 unit vectors in ℂ^d with pairwise squared overlaps |⟨φ_i, φ_j⟩|^2 = 1/(d+1). `IsSICFamily d Φ` requires Φ : Fin (d^2) → EuclideanSpace ℂ (Fin d) with every ‖Φ i‖ = 1 and `normSq (Σ conj(φ_i) ψ_i) = (d+1)⁻¹` for all distinct pairs, matching the definition, and `hasSICPOVM_60` asserts existence for d = 60. Status: exact SICs are reported known for all d <= 57 (arXiv:2512.13201) and numerical solutions exist far beyond, so existence in d = 60 is numerically supported but unproven, consistent with the `research open` tag. (The OQP page itself returned an HTTP 500 during this audit, so the status was checked against the recent literature.)"
+    }
+]

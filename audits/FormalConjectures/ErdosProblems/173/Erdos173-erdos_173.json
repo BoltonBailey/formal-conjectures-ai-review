@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/173: 'In any 2-colouring of R^2, for all but at most one triangle T, there is a monochromatic congruent copy of T', with the page noting a single equilateral triangle must sometimes be excluded (alternating strips). `HasMonochromaticCopy c T` asks for a triangle T' with `T'.points ≅ T.points` (congruence of labelled vertex triples, so reflections are allowed and rescaling is not) whose three vertices get one colour. The statement says that for any colouring, any two triangles lacking monochromatic copies are congruent up to a relabelling σ, i.e. at most one congruence class is missed; relabelling is needed because `≅` compares vertices with matching labels. `Triangle ℝ ℝ²` requires affine independence, matching the source's non-degenerate triangles, and colourings are arbitrary (no measurability), as in the source. The open tag matches the page."
+    }
+]

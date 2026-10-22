@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/28 (Erdős–Turán, $500): 'If A ⊆ ℕ is such that A + A contains all but finitely many integers then limsup 1_A∗1_A(n) = ∞.' The statement assumes (A + A)ᶜ is finite and concludes that the limsup along atTop of the representation function `sumRep A n` (cast to ℕ∞) is ⊤. Whether `sumRep` counts ordered or unordered pairs changes the value by at most a factor of 2, which does not affect being unbounded. Faithful; open."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 15 of Arhangel'skii, 'Selected old open problems in general topology' (2013, p. 43): 'Is every homogeneous ω-monolithic compact space X first-countable?', where (p. 42) 'a compact space X is ω-monolithic if the closure of any countable subset of X is metrizable' (compact includes Hausdorff in this tradition). `HomogeneousSpace` requires a self-homeomorphism sending any x to any y, `CountablyMonolithicSpace` requires the closure of every countable set to be metrizable (exactly the source's definition), and the statement asks every compact T2 homogeneous countably monolithic X : Type to be first countable. Faithful; open (the docstring's problem number matches the source)."
+    }
+]

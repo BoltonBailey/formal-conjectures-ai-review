@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1142: 'Are there infinitely many n (or any n > 105) such that n - 2^k is prime for all 1 < 2^k < n?' (known examples 4, 7, 15, 21, 45, 75, 105; OEIS A039669). `Erdos1142Prop n` requires n > 2 and n - 2^k prime for every k >= 1 with 2^k < n, matching 1 < 2^k < n; excluding n <= 2 follows the OEIS convention and only removes vacuous cases. The statement asserts infinitely many such n; the test lemmas verify the seven known values. Faithful; open."
+    }
+]

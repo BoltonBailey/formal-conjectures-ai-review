@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/145: with s_1 < s_2 < ... the squarefree numbers, is it true that for every α >= 0 the limit lim_{x→∞} (1/x) Σ_{s_n ≤ x} (s_{n+1} - s_n)^α exists? (Known for α <= 3.75 by Chan, and for all α under ABC by Granville.) `s n = Nat.nth Squarefree n` is 0-indexed (s 0 = 1, since 0 is not squarefree), and `A x` is the set of indices n with s_n <= ⌊x⌋, i.e. s_n <= x. The statement asks, for every real α >= 0, for a real β with (1/x)·Σ_{n∈A(x)} (s_{n+1} - s_n)^α → β, which is exactly the existence of the (finite) limit. Faithful; open."
+    }
+]

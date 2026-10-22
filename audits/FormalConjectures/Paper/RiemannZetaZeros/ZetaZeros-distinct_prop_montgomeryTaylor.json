@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Theorem A of the cited paper [Cl26] ('More than two thirds of the zeros of the Riemann zeta function are simple and on the critical line', Aug 2026), which proves unconditionally that N_d(T, 2T) >= (1/2)(3 - c_MT^{-1} - o(1)) N(T, 2T) = (0.83625... - o(1)) N(T, 2T) with the Montgomery–Taylor window, where c_MT^{-1} = 1/2 + (1/√2) cot(1/√2), N counts nontrivial zeros with T < γ <= 2T with multiplicity, and N_d counts distinct ones. In the Lean, `nontrivialZeros` is the zero set in the open critical strip with T₁ < Im s <= T₂, `N` sums `analyticOrderAt` over it, and `Nd` is its cardinality, matching the paper. `montgomeryTaylorConst = √2 tan(1/√2) / (1 + tan(1/√2)/√2)`, whose inverse is 1/2 + cot(1/√2)/√2 ≈ 1.3274, as required. The statement '∃ o = o(1), ∀ T > 0, ((3 - c^{-1})/2 - o(T))·N(T, 2T) <= N_d(T, 2T)' is the asymptotic claim (o may absorb small T). Faithful. (This audits the ζ version in namespace ZetaZeros; the file has a same-named L-function version.)"
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/846 (Erdős–Nešetřil–Rödl): an infinite A ⊂ ℝ² such that for some ε > 0 every n-element subset contains at least εn points with no three on a line; 'Is it true that A is the union of a finite number of sets where no three are on a line?' The page marks it disproved (independently by DeepMind and by an OpenAI model [PSV26]; Rödl notes it follows from [RRS24]). `NonTrilinearFor A ε` says every finite B ⊆ A has a subset C with |C| >= ε|B| and no three collinear (`NonTrilinear` = triplewise ¬Collinear), and `WeaklyNonTrilinear A` says A is the union (sSup) of a finite family of non-trilinear sets. The theorem negates the universal statement, recording the 'no' answer per the `@[question]` convention. Minor metadata nit: the AMS tag is 11 (number theory) though the problem is combinatorial geometry (52)."
+    }
+]

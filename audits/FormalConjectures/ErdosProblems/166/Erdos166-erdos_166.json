@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/166: 'Prove that R(4,k) ≫ k^3/(log k)^{O(1)}', proved by Mattheus–Verstraëte [MaVe23] with R(4,k) ≫ k^3/(log k)^4. The statement asks for constants c, C > 0 with R(4,k) >= C·k^3/(log k)^c for all large k, using `SimpleGraph.classicalRamsey 4 k`, the classical two-colour Ramsey number. This is the standard unfolding of k^3/(log k)^{O(1)} as a lower bound; the file proves (as a test) that the Mattheus–Verstraëte variant with exponent 4 implies it. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A103151 (number of decompositions of 2n+1 into 2p+q with p, q odd primes, offset 1) and its comment 'Conjecture: all items for n>=4 are greater than or equal to 1.' The Lean `a n` counts odd primes p <= n with 2p < 2n+1 and 2n+1-2p prime; the remainder is odd, so it is never 2 and 'prime' coincides with 'odd prime', and the strict inequality keeps the natural subtraction honest. The test values a(1..5) = 0, 0, 0, 1, 1 match the OEIS data. The statement `n >= 4 → a n >= 1` is exactly the comment (this is Lemoine's conjecture for odd numbers >= 9). The docstring's 'stronger than Goldbach' is copied from OEIS and is not used formally."
+    }
+]

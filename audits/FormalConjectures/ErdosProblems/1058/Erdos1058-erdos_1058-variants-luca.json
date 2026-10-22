@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1058: with 2 = p_1 < p_2 < ... the primes, n is a solution if n ∈ [p_{k-1}, p_k) and the only primes dividing n! + 1 are p_k and p_{k+1}; 'Luca [Lu01] proved that indeed these are the only solutions', namely n = 1, 2, 3, 4, 5. `IsSolution` uses 0-indexed `Nat.nth Nat.Prime` with lower endpoint 1 when k = 0; setting k = K - 1 recovers the source's [p_{K-1}, p_K) with allowed primes p_K, p_{K+1} (and p_0 = 1). 'Only primes dividing' is read as every prime factor lying in {p_k, p_{k+1}} (not requiring both), which is the reading under which the source's n = 1 (1! + 1 = 2) is a solution. Hand check: n = 1, 2, 3, 4, 5 give 2, 3, 7, 25, 121, each factoring over the allowed primes (2; 3; 7; 5^2; 11^2), and 0 < n excludes n = 0. The statement `{n | IsSolution n} = {1, 2, 3, 4, 5}` is Luca's theorem."
+    }
+]

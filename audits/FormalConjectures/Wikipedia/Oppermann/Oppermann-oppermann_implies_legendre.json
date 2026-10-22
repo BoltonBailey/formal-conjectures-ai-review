@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia's 'Oppermann's conjecture', which states that for every integer x > 1 there is a prime between x(x-1) and x^2 and another between x^2 and x(x+1), and notes it implies Legendre's conjecture (a prime between n^2 and (n+1)^2 for every n >= 1). The hypothesis `P : type_of% oppermann_conjecture` is the file's statement of Oppermann's conjecture (both open intervals, x >= 2), and the conclusion is Legendre's statement for n >= 1 with an open interval, matching `LegendreConjecture.legendre_conjecture`. The implication is proved in the file (apply part i at x = n + 1, since n(n+1) >= n^2). The textbook tag is appropriate."
+    }
+]

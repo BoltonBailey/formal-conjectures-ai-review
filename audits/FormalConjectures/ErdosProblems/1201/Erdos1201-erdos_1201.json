@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1201: is it true that for every ε, η > 0 there is k such that the density of n with P(n(n+1)···(n+k)) > n^{1-ε} is at least 1 - η (P = greatest prime divisor)? `Erdos1201Set ε k` is {n : sSup{p prime, p ∣ ∏_{i≤k}(n+i)} > n^{1-ε}} (for n >= 1 the product is positive and the set of prime divisors finite, so sSup is the largest prime factor; n = 0 is a single junk point). The statement uses the lower asymptotic density (liminf of count/x in EReal) >= 1 - η, the natural reading of 'density at least 1 - η' that does not presuppose the density exists. The `question` attribute with the positive statement follows the upstream convention. Faithful; open."
+    }
+]

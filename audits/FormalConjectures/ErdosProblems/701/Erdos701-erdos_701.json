@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/701 (Chvátal's conjecture): for a family F closed under taking subsets, there is an element x such that every intersecting subfamily F' ⊆ F has |F'| <= |{A ∈ F : x ∈ A}|. The statement takes a finite nonempty ground type X, F : Set (Set X) with `IsLowerSet F` (down-closed), and asks for x : X with #F' <= #{A ∈ F | x ∈ A} for every intersecting F' ⊆ F (cardinals of finite sets). `Set.Intersecting` (pairwise non-disjoint, so the empty set is excluded) is the standard notion. Finiteness of the ground set matches Chvátal's setting, and degenerate F (empty, or {∅}) are handled correctly. Faithful; open."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/677: with M(n,k) = lcm(n+1, ..., n+k), 'Is it true that for all m >= n+k, M(n,k) ≠ M(m,k)?' `lcmInterval n k` (FormalConjecturesForMathlib, GCDMonoid/Finset.lean) is the lcm over `Finset.Ioc n (n + k)` = {n+1, ..., n+k}. The statement adds k > 0, which is necessary (for k = 0 both sides are lcm ∅ = 1) and harmless. A search found no counterexample with 2 <= k <= 12 and n, m < 20000. The open tag is consistent with the page, which notes only finitely many solutions for each fixed k (Thue–Siegel). The test lemma records the two known cross-k coincidences M(4,3) = M(13,2) and M(3,4) = M(19,2)."
+    }
+]

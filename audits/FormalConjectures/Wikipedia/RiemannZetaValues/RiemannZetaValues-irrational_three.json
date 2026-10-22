@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Apéry's theorem (Wikipedia, 'Particular values of the Riemann zeta function'; [Ap79]): ζ(3) is irrational. `riemannZeta : ℂ → ℂ` is Mathlib's zeta function, and the statement asserts some real x with `Irrational x` equals ζ(3) under the coercion ℝ → ℂ, i.e. ζ(3) is real and irrational. This is exactly the theorem, and the solved tag is correct."
+    }
+]

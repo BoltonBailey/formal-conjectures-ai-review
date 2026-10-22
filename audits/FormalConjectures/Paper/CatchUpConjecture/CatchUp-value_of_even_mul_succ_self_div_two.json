@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the Catch-Up game of Isaksen–Ismail–Brams–Nealen (2015) as described in the file: P1 first removes exactly one number; afterwards each turn removes numbers one at a time until the mover's score is at least the opponent's (strictly behind before the last pick); a player who cannot catch up takes everything and the game ends; higher final score wins. The conjecture is that Catch-Up({1, ..., N}) is a draw under optimal play whenever T_N = N(N+1)/2 is even. `valueAux` implements this: the terminal comparison when nothing remains; immediate loss when even taking all remaining numbers leaves the mover behind; the forced single first pick; continuing the same turn while still behind; and swapping (with outcome negation) once caught up. Optimal play is win > draw > loss via `Outcome.best`. Mid-turn the catch-up invariant is preserved, so the pruning rule only bites at turn starts, as intended. I reimplemented these exact rules and found draws for N = 3, 4, 7, 8, 11, 12 (T_N even) and decisive results for the other N <= 12, consistent with the conjecture. The statement `Even (N(N+1)/2) → value (Icc 1 N) = .draw` is the conjecture. Faithful; open."
+    }
+]

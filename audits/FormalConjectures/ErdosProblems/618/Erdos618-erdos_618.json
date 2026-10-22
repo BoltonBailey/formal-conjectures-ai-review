@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/618: for triangle-free G, h_2(G) is the least number of edges to add so that the graph has diameter 2 and stays triangle-free; 'Is it true that if G has maximum degree o(n^{1/2}) then h(G) = o(n^2)?' (yes, by Alon's note). `h2 G` is the sInf of |E(H) \\ E(G)| over triangle-free supergraphs H in which any two distinct vertices are adjacent or share a neighbour (diameter <= 2). Such H always exists for triangle-free G (a maximal triangle-free supergraph has this property), so sInf is genuine. The asymptotic hypothesis and conclusion are expressed for an arbitrary sequence of triangle-free graphs G n on Fin n, the standard reading of the o(·) statement. Faithful."
+    }
+]

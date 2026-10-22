@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A087455 (expansion of (1 - x)/(1 - 2x + 3x²), i.e. a(n) = 2a(n-1) - 3a(n-2), a(0) = a(1) = 1) and Sloane's note 'It is an open question whether or not this sequence satisfies Benford's law [Berger-Hill, 2017]'. The Lean `a` implements the recurrence, matching 1, 1, -1, -5, -7. `significand x = |x| / 10^{(number of digits of |x|) - 1}` lies in [1, 10) for x ≠ 0 (and is 0 at 0), and `SatisfiesBenford s` requires the frequency of n < N with significand ≤ t to tend to log₁₀ t for every t ∈ [1, 10). This is the Berger–Hill (strong, significand) form of Benford's law, the notion under which the question is posed. Faithful; open."
+    }
+]

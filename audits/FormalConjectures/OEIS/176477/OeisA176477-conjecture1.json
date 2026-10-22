@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A176477 (a(1) = 2; for n >= 2, (2n+1)^3 a(n) = 32 n^3 a(n-1) + (21n^3 + 22n^2 + 8n + 1) C(2n-1, n)^4) and Zhi-Wei Sun's conjecture that each a(n) is a positive integer. The Lean `a : ℕ → ℚ` implements the recurrence by solving for a(n) with idx = n + 2 and C(2(n+2) - 1, n + 2), with junk a(0) = 0, and the test values a(1) = 2, a(2) = 181 match the data. `(a n).den = 1 ∧ 0 < a n` for n >= 1 says a(n) is a positive integer. The solved tag is supported by the OEIS Open project (Adamczewski, arXiv:2608.11941) and the linked Lean proof."
+    }
+]

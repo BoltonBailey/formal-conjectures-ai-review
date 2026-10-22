@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/945: F(x) is the maximal k such that there are n+1, ..., n+k <= x with τ(n+1), ..., τ(n+k) all distinct, and Erdős–Mirsky [ErMi52] proved (log x)^{1/2}/log log x ≪ F(x). `F x` is the sSup of k for which some n has n + k <= x and τ injective on (n, n+k], matching the definition (the set is bounded by x, so sSup is a maximum). The statement `(fun x : ℕ ↦ √(log x) / log(log x)) =O[atTop] (fun n ↦ (F n : ℝ))` is the ≪ bound restricted to integer x, which is equivalent since F is constant between consecutive integers and the left side varies slowly. Faithful. (Minor: the docstring of the companion `upper_bound` variant has a stray brace in its LaTeX.)"
+    }
+]

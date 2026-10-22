@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A051903 (a(n) = maximum exponent in the prime factorization of n, offset 1) and Thomas Ordowski's question (***): 'Are there odd numbers n such that a(n) > 1 and n == a(n) (mod ord_n(2))? These are odd numbers n such that a(n) > 1 and 2^n == 2^a(n) (mod n).' The Lean `a` is the maximum multiplicity in `primeFactorsList` (0 for n = 1), matching the test values and the OEIS data. The statement uses the second, equivalent form exactly: Odd n, 1 < a n, 2^n ≡ 2^(a n) [MOD n]; n = 1 is excluded by 1 < a n. Status note: an OEIS comment by Ansh Mishra (Sep 30 2026) states 'Answer to (**): No. Answer to (***): Yes. See Mishra and Senthilkumar (2026).' I could not locate the paper, and a search found no witness among odd n < 3·10^6 or n = m·W^2 (W ∈ {1093, 3511}, m < 4·10^5), so the `research open` tag may be out of date but I could not confirm this. If the claim holds, conjecture2 in the same file (whose answer is claimed to be no) would need negating under the `@[question]` convention."
+    }
+]

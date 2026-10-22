@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the standard Pell-number identity (Wikipedia 'Pell number'; OEIS A000129): P_{2n+1} = P_n² + P_{n+1}², with P_0 = 0, P_1 = 1, P_{n+2} = 2P_{n+1} + P_n. `pellNumber` implements this recurrence (P_2 = 2, P_5 = 29 tested), and the statement is exactly the identity (e.g. P_3 = 5 = 1 + 4, P_5 = 29 = 4 + 25). It is proved in the file jointly with the even-index companion. Faithful; textbook."
+    }
+]

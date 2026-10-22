@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/362: for finite A ⊆ ℕ of size N, 'if we further ask that |S| = l (for any fixed l) then is the number of solutions ≪ 2^N/N^2, with the implied constant independent of l and t?', answered affirmatively by Halász [Ha77]. The statement gives a single constant C uniform over all nonempty `A : Finset ℕ` and all l, t, bounding the number of S in `A.powersetCard l` with Σ S = t by C · 2^|A| / |A|^2, which is exactly the uniform version asked for. Nonemptiness avoids division by zero; small |A| are absorbed by C. Allowing 0 ∈ A is harmless (adding 0 to S changes the cardinality, so it does not double counts within a fixed l). Note: the `formal_proof` link points to the same line (L2541) as the main theorem `erdos_362`, which may be a copy-paste slip worth checking, but it does not affect the statement."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the small Cohen–Macaulay modules conjecture (Wikipedia, 'Homological conjectures in commutative algebra', no. 14; Hochster [Ho17, Conj. 2.1]): a complete Noetherian local ring has a finitely generated nonzero module M on which some system of parameters is a regular sequence. `IsSystemOfParameters R rs` requires length(rs) = dim R and √(rs) = m; `IsSmallCohenMacaulay R M` requires M finitely generated and some system of parameters to be M-regular, where Mathlib's `IsRegular` includes M/(rs)M ≠ 0, forcing M ≠ 0. The statement assumes R is Noetherian, local, and m-adically complete (`IsAdicComplete`) and asserts such an M exists in the same universe. The docstring correctly notes that the domain version is equivalent via R/P for a minimal prime of maximal dimension. Faithful; open. Status note: the openai/math GitHub repository lists a preprint titled 'A Complete Local Domain Without a Small Cohen-Macaulay Module' (September 23, 2026), which would refute this statement (consistent with Hochster's later Conjecture 2.2 cited in the docstring). I have not verified the preprint; if it holds, the `research open` tag should be updated and the statement negated."
+    }
+]

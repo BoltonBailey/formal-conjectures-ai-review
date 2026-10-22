@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 21 of Ben Green's '100 open problems' (p. 13): for integers a_1, ..., a_k not satisfying Rado's condition (no nonempty I with Σ_{i∈I} a_i = 0), c(a_1, ..., a_k) is the least number of colours of ℕ with no monochromatic solution to a_1x_1 + ... + a_kx_k = 0, and Fox–Kleitman [FoKl06] showed c(a_1, a_2, a_3) <= 24. `RadoCondition` is exactly the existence of such a nonempty I, and `minColours a` is the sInf of r admitting col : ℕ → Fin r with no monochromatic solution in positive integers (positivity is needed, since the all-zero tuple would otherwise always be a solution; colouring 0 as well is harmless). The set is nonempty by Rado's theorem, so sInf is a genuine minimum. The variant asserts minColours a <= 24 for every a : Fin 3 → ℤ failing the condition. Faithful."
+    }
+]

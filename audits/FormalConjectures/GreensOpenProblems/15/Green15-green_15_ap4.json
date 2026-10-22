@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 15 of Ben Green's '100 open problems' (p. 10): does there exist a Lipschitz f : ℕ → ℤ whose graph Γ = {(n, f(n))} ⊂ ℤ² is free of 3-term progressions? 'The answer is yes for 4-term progressions', established by Cassaigne, Currie, Schaeffer and Shallit [CCS14] via a word over {0, 1, 3, 4} avoiding additive cubes, with f(n) = x_1 + ... + x_n. The statement asks for K and f with `LipschitzWith K f` and `IsAPOfLengthFree Γ 4`. `Set.IsAPOfLengthWith` requires the progression's set to have exactly l elements, so only non-degenerate progressions (nonzero difference in ℤ²) count; a 4-AP in Γ has nonzero first-coordinate step and corresponds to an additive cube, so the CCS14 construction works. Faithful. Minor: the docstring attributes the 4-term result to [BJP14], whereas Green credits [CCS14] (BJP14 is the general reference)."
+    }
+]

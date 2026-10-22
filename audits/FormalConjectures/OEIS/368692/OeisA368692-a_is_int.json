@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A368692 (a(n) = (12n+6)!(6n+9)!/(108 (4n+2)!(2n+3)!((6n+5)!)²)) and its comment 'It is conjectured here that a(n) are integers.' The statement asserts 108·(4n+2)!(2n+3)!((6n+5)!)² divides (12n+6)!(6n+9)! for every n, which is exactly integrality of a(n); the test values a(0..4) (computed with truncating division in the `a` helper) match the OEIS data. The solved tag is supported by the linked Lean proof and the OEIS note citing Adamczewski. Faithful."
+    }
+]

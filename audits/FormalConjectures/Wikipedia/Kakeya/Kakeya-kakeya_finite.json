@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Bukh and Chao, 'Sharp density bounds on the finite field Kakeya problem' (Discrete Analysis 2021:26, arXiv:2108.00074), Theorem 1: every Kakeya set K ⊆ F_q^n satisfies |K| ≥ (2 - 1/q)^{-(n-1)} q^n. There a Kakeya set is one that contains a line {a + bt : t ∈ F_q} for every direction b ≠ 0, which is exactly `IsKakeyaFinite`. The Lean statement computes q^n / (2 - 1/q)^(n-1) ≤ |K| in ℚ with q = card F ≥ 2, so the division is genuine with no truncation. The natural-number subtraction n - 1 is safe because 0 < n is assumed. That assumption only removes the degenerate n = 0 case, where the empty set is vacuously Kakeya and the bound fails, as the docstring explains. Sanity check at n = 1: the bound is q, and indeed any Kakeya set in F_q must be all of F_q. The `research solved` tag fits a published theorem. The docstring also mentions the weaker Dvir-type c_n q^n conjecture, which is implied."
+    }
+]

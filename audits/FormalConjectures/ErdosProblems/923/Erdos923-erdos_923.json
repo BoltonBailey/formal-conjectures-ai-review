@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Compared against erdosproblems.com/923: 'Is it true that, for every k, there is some f(k) such that if G has chromatic number >= f(k) then G contains a triangle-free subgraph with chromatic number >= k?' (yes, Rödl [Ro77]). In the statement, the source's k is `n` and f(k) is `k`, and the quantifiers are `∀ (V : Type*) (n : ℕ), ∃ k, ∀ G : SimpleGraph V, ...`: the threshold may depend on the vertex type V, whereas in the source f(k) is a single function uniform over all graphs. For finite V the statement is vacuous (take k > |V|, since `chromaticNumber : ℕ∞` is at most |V|). The formulation is still equivalent to the intended one: taking V = ℕ forces one threshold for all finite graphs (each embeds with isolated padding), and by de Bruijn–Erdős a graph on any V with χ >= that finite threshold has a finite subgraph with the same property, so the V = ℕ threshold works universally. Because equivalence needs this argument and the quantifier order differs from every usual formulation, I rate it 3. Suggested fix: move `∃ k` before `∀ V`, i.e. `∀ n, ∃ k, ∀ (V : Type*) (G : SimpleGraph V), ...`, which matches the source and is still what Rödl's theorem gives."
+    }
+]

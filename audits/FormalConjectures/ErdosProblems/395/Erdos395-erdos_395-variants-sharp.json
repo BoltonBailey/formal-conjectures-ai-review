@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/395: for unit complex z_1, ..., z_n and uniform random signs, P(|Σ ε_i z_i| <= √2) ≫ 1/n (He–Juškevičius–Narayanan–Spiro), and 'the bound of 1/n is the best possible, as shown by taking z_k = 1 for 1 <= k <= n/2 and z_k = i otherwise.' `signedSumCount z r` counts sign vectors ε ∈ {±1}^n with |Σ ε_i z_i| <= r, so count/2^n is the probability. The variant asserts some C with, for every n > 0, unit vectors z for which the probability is <= C/n, which is the sharpness claim: in the example the sum is A + iB with A, B independent signed sums of about n/2 terms, and |A + iB| <= √2 forces |A|, |B| <= 1, which has probability Θ(1/√n)² = Θ(1/n). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1067: 'Does every graph with chromatic number aleph_1 contain an infinitely connected subgraph with chromatic number aleph_1?', where infinitely connected means any two vertices are joined by infinitely many pairwise disjoint paths; answered no in ZFC by Soukup [So15] (consistently by Komjáth [Ko13]; simpler example by Bowler–Pitz [BoPi24]). `InfinitelyConnected` (FormalConjecturesForMathlib, Connectivity.lean) requires a nontrivial vertex type and, for each pair of distinct vertices, an infinite set of pairwise internally disjoint paths, matching the page's definition. `chromaticCardinal` is the usual cardinal chromatic number, and the theorem negates the universal statement over `V : Type` and subgraphs H, recording the 'no' answer per the `@[question]` convention; restricting to universe 0 is harmless since the counterexamples live there. Source discrepancy worth flagging (not an issue with this declaration): erdosproblems.com says Thomassen [Th17] 'constructed a counterexample' to the infinite edge-connectivity version, but Thomassen's abstract (Combinatorica 2017) states the positive result that every graph of uncountable chromatic number has a subgraph of uncountable chromatic number and infinite edge-connectivity, which is what `erdos_1067.variants.infinite_edge_connectivity` asserts. The site's wording appears to be the error."
+    }
+]

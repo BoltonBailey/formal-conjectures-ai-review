@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/121: F_k(N) is the size of the largest A ⊆ {1, ..., N} such that no product of k distinct elements of A is a square, and Erdős–Sós–Sárközy [ESS95] proved F_2(N) = (6/π² + o(1))N. The Lean `F k N` is the sSup of sizes of A ⊆ [1, N] with no k-subset S having ∏ S a square (bounded by N, so a true maximum), and the variant asserts F 2 N ~ (6/π²)·N, exactly the cited asymptotic. (For k = 2 this asks for no two distinct elements with square product, i.e. distinct squarefree kernels, whence density 6/π².) Faithful."
+    }
+]

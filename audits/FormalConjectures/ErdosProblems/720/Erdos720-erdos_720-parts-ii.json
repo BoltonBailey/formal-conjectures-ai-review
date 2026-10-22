@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/720: with R̂(G) the size Ramsey number and P_n the path of length n, is it true that R̂(P_n)/n² → 0? (yes, Beck [Be83b]: R̂(P_n) ≪ n.) `sizeRamseyNumber G = sizeRamsey G G`, the least number of edges of a graph every 2-colouring of which has a monochromatic copy of G (as audited for Erdős 560), and `pathGraph (n + 1)` is the path with n + 1 vertices, i.e. length n. The statement R̂(P_n)/n² → 0 in ℝ is exactly the question with its positive answer. Faithful."
+    }
+]

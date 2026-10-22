@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1159: 'Determine whether there exists a constant C > 1 such that ... Let P be a finite projective plane. Must there exist a set of points S such that 1 <= |S ∩ ℓ| <= C for all lines ℓ?' (ESS83 give O(log n)). The statement asks for a natural C > 1 such that for every finite projective plane (Mathlib's `Configuration.ProjectivePlane` on finite point and line types) there is a point set S meeting every line in between 1 and C points. Using a natural C is harmless (only ⌊C⌋ matters for integer intersection sizes), and Mathlib's projective planes are the non-degenerate ones. Faithful; open."
+    }
+]

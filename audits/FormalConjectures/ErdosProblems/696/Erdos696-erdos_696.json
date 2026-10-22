@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/696: h(n) is the longest chain of primes p_1 < ... < p_ℓ dividing n with p_{i+1} ≡ 1 (mod p_i), H(n) the same for arbitrary divisors d_1 < ... < d_u, and the question is whether H(n)/h(n) → ∞ for almost all n; the page reports proofs that log*(n) ≪ h(n) <= H(n) ≪ log*(n) for almost all n, so the ratio is bounded almost always and the answer is no. `ValidChain` encodes strictly increasing chains with consecutive congruences, all elements dividing n and satisfying P, and h, H use `Nat.findGreatest` up to n, which is a valid bound on chain length. 'Tends to ∞ for almost all n' is rendered as 'for every M, {n : h(n) > 0, H(n)/h(n) > M} has density 1', which is equivalent to tending to infinity on a density-1 set (diagonal argument); h(n) > 0 holds for all n >= 2. The theorem negates this. Faithful."
+    }
+]

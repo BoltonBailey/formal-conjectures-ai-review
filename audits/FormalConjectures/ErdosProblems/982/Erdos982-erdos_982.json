@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/982: if n distinct points in ℝ² form a convex polygon, then some vertex has at least ⌊n/2⌋ different distances to other vertices (the regular polygon shows ⌊n/2⌋ is best possible). The statement takes n >= 3 injective points p : Fin n → ℝ² with `IsConvexPolygon p` (counterclockwise or clockwise strictly convex ordering, defined via oriented-angle signs) and asks for i with the set {dist(p_i, p_j) : j ≠ i} of size >= n / 2 (natural division = ⌊n/2⌋). The distance set is finite, so `ncard` is the true count. Faithful; open."
+    }
+]

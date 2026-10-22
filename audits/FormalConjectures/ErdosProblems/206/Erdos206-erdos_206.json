@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/206: for x > 0, R_n(x) is the maximal sum of n distinct unit fractions below x; 'Is it true that, for almost all x, for sufficiently large n, R_{n+1}(x) = R_n(x) + 1/m' with m the least admissible new denominator? Kovač [Ko24b] proved the set of eventually greedy x has Lebesgue measure zero, so the answer is no. `IsBestNTerm` captures a best n-term underapproximation (n distinct positive denominators, sum < x, maximal sum), and `EventuallyGreedy x` says that from some n₀ on, the best n-term underapproximations are the prefixes of one strictly increasing denominator sequence; the formalisation notes justify why this matches the greedy recursion. The statement negates 'almost every x > 0 is eventually greedy' (Lebesgue measure restricted to (0, ∞)), which is the 'no' answer (Kovač's measure-zero result is stronger). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A007918 (least prime >= n, offset 0: 2, 2, 2, 3, 5, 5, 7, ...) and David W. Wilson's comment: 'According to the k-tuple conjecture, a(n) is the initial term of the lexicographically earliest increasing arithmetic progression of n primes.' The Lean `a n` is sInf{p prime : n <= p}, matching the data. `isApOfNPrimes n p0 d` requires d > 0 and p0 + kd prime for all k < n, and the statement asserts, for n > 0, that a(n) equals the least initial term of such a progression. The least initial term of an increasing n-term AP of primes is the first component of the lexicographically earliest one, so the formalisation matches; it also includes the existence of such a progression (otherwise sInf = 0 ≠ a n). Sanity check: 3, 5, 7; 5, 11, 17, 23(, 29); 7, 37, 67, 97, 127, 157 start at a(3), a(4), a(5), a(6). Faithful; open."
+    }
+]

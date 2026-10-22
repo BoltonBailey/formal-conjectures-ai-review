@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/273: 'Is there a covering system all of whose moduli are of the form p - 1 for some primes p >= 5?' (Selfridge found one with divisors of 360 if p = 3 is allowed). The statement asks for a `StrictCoveringSystem ℤ` (finitely many congruence classes with pairwise distinct moduli, covering ℤ) whose every modulus ideal is (p - 1) for a prime p >= 5. Distinct moduli are the covering-system notion Erdős uses (the file's docstring for StrictCoveringSystem cites [ErGr80]), and they are essential: without distinctness the question is trivial (all four classes mod 4 = 5 - 1). Moduli p - 1 >= 4 automatically satisfy the nonzero/non-unit requirements. Faithful; open."
+    }
+]

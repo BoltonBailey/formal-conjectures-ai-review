@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/49: for A = {a_1 < ... < a_t} ⊆ {1, ..., N} with phi(a_1) < ... < phi(a_t), can one show |A| < (1 + o(1)) pi(N)? (solved by Tao). `f N` is the supremum of |A| over finsets A ⊆ [1, N] on which `Nat.totient` is `StrictMonoOn`, which is exactly the source's condition; the set is nonempty (∅) and bounded by N, so `sSup` on ℕ is the true maximum. The theorem states that for every ε > 0, eventually f N ≤ (1 + ε) π(N), which is the standard unfolding of f(N) ≤ (1 + o(1)) π(N); the source's strict '<' versus '≤' is immaterial for an asymptotic bound with arbitrary ε. Sanity check on small N: f(7) = 4 via {1, 3, 5, 7} (totients 1, 2, 4, 6), equal to π(7)."
+    }
+]

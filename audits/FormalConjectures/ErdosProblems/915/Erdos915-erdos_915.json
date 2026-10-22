@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/915 (Bollobás–Erdős): must a graph with 1 + n(m-1) vertices and 1 + n·C(m, 2) edges contain two points joined by m disjoint paths? For internally vertex-disjoint paths this is false: Leonard's counterexample for m = 5 has 57 vertices and 141 edges, and Mader disproved it for all m >= 6. The statement negates the universal claim for m >= 2, n >= 1 over finite graphs with exactly those counts, asking for distinct u, v with m paths that are pairwise `InternallyDisjoint`. Leonard's graph matches with n = 14 (1 + 14·4 = 57, 1 + 14·10 = 141). The docstring explains the reading, and the edge-disjoint reading is a separate variant. Faithful; a Lean proof is linked."
+    }
+]

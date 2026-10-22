@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia's 'Surjunctive group' (Gottschalk 1973): a group G is surjunctive if for every finite alphabet A, every injective continuous G-equivariant map A^G → A^G (product of discrete topologies, left shift action) is surjective; Gottschalk conjectured every group is surjunctive. `shift` is the left shift (g·x)(h) = x(g⁻¹h), `IsShiftEquivariant` is commutation with every shift, and `IsSurjunctive` quantifies over finite nonempty discrete A with continuity in the Pi (product) topology. The statement asserts `IsSurjunctive G` for every group G : Type. Faithful; the empty alphabet is excluded harmlessly, and restricting to universe 0 is harmless."
+    }
+]

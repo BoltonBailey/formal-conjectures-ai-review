@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the standard statement of Dickson's conjecture (Wikipedia): for a finite set of linear forms a_i n + b_i with a_i >= 1, if there is no prime p dividing the product of the forms for every n, then there are infinitely many n at which all forms are simultaneously prime. In the formalization each `f ∈ fs` has degree 1 and satisfies `BunyakovskyCondition` (degree >= 1, irreducible in ℤ[X], positive leading coefficient), so f = a n + b with a >= 1 and gcd(a, b) = 1. `SchinzelCondition fs` says that for every prime p some natural n makes p divide none of the f(n), which is exactly the absence of a fixed prime divisor of the product. The conclusion is that infinitely many natural n make every `(f.eval n).natAbs` prime; because leading coefficients are positive, f(n) > 0 for all large n, so `natAbs` does not change the content. Irreducibility is redundant given the Schinzel condition but harmless. Degenerate case fs = ∅ gives `Infinite ℕ`, which is fine."
+    }
+]

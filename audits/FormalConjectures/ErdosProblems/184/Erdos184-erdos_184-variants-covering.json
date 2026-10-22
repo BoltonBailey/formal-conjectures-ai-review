@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/184, which records Erdős's suggestion [Er71] that only n - 1 cycles and edges are needed if they need not be edge-disjoint; Pyber [Py85, 'An Erdős–Gallai conjecture'] proved that every graph on n vertices can be covered by n - 1 cycles and edges. The statement asks, for every finite nonempty V and graph G, for a finite family D of subgraphs, each a cycle (connected and 2-regular) or a single edge (`IsCycleOrEdge` of the coerced graph; isolated extra vertices are harmless), whose edge sets cover E(G) (union equals E(G); edge-disjointness not required), with |D| <= |V| - 1. This is exactly Pyber's theorem (the empty graph is covered by D = ∅). Faithful."
+    }
+]

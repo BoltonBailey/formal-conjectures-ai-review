@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States Cassels' result as reported on erdosproblems.com/1000 and in Erdős [Er64b, p. 59-60]: there is a sequence n_1 < n_2 < ... with liminf_N (1/N) sum_{k<=N} phi_A(k)/n_k = 0 (i.e. a sequence that is not an 'I-sequence' in Cassels' terminology). In the formalisation the sequence is `n : ℕ → ℕ` with `StrictMono n` and `0 < n 0` (positive integers, indexed from 0). `phiSeq n k` counts 1 <= m <= n k with n_k/gcd(m,n_k) not dividing n_j for every j < k, which is exactly Erdős' original definition 'the number of integers 1 <= a <= n_k for which a/n_k != b/n_j for every 1 <= j < k' (the reduced fraction a/n_k equals some b/n_j iff its reduced denominator divides n_j). Note that the current erdosproblems.com text writes the condition as n_k/(m,n_k) != n_j rather than 'does not divide'; the formalisation follows the original 1964 paper, which I checked directly, so this is not an error. `phiAvg n N` is (1/N) sum_{k<N} phi/n_k, an index shift of the source's average. Since 0 <= phiSeq n k / n k <= 1, the averages lie in [0,1], so Mathlib's real `liminf` is the genuine liminf (no junk from unboundedness). The `research solved` tag is supported (Cassels 1950; it also follows from Haight's stronger result in erdos_1000)."
+    }
+]

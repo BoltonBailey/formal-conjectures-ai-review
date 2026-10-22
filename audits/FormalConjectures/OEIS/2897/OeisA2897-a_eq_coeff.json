@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A002897 (a(n) = binomial(2n,n)^3, offset 0) and Peter Bala's Apr 10 2022 comment: a(n) = [(xyz)^n] (1+x+y+z)^(2n) (1+x+y-z)^n (1+x-y+z)^n. `a n` is `(2n choose n)^3`, `pPoly n` is exactly the stated product in `MvPolynomial (Fin 3) ℤ`, and `xyzPowN n` is the exponent vector (n, n, n), so `coeff (xyzPowN n) (pPoly n)` is the coefficient of x^n y^n z^n. Working over ℤ is necessary because of the minus signs, and the cast of `a n` to ℤ is harmless. The test values 1, 8, 216, 8000, 343000 match the OEIS data. The solved tag is supported by OEIS comments citing a Lean proof and Easwar's preprint."
+    }
+]

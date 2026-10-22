@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/75 (Erdős–Hajnal–Szemerédi): is there a graph of chromatic number ℵ_1 with ℵ_1 vertices such that for all ε > 0, if n is sufficiently large and H is a subgraph on n vertices, then H contains an independent set of size > n^{1-ε}? The statement asks for V : Type and G with `chromaticCardinal G = ℵ_1`, #V = ℵ_1, and, for every ε > 0, eventually in n, for every subgraph H with |H.verts| = n, a finite I ⊆ H.verts independent in G with |I| > n^{1-ε}. Requiring independence in G (rather than in H) on H's vertex set is equivalent, because H ranges over all subgraphs including induced ones, where the two notions coincide, and G-independent sets are H-independent. Faithful; open."
+    }
+]

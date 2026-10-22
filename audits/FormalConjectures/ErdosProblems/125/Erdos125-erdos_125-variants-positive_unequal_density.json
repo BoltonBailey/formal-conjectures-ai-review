@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/125: A, B are the naturals with only digits 0, 1 in base 3 and base 4 respectively; the page reports that DeepMind showed the lower density of A + B is 0 (after showing upper density >= 6/5 · lower density). This variant is 'case 4' of the file's four-way split: it negates 'A + B has positive lower density strictly less than its upper density'. A and B are defined via `Nat.digits` with digit sets ⊆ {0, 1} (0 included, harmless for densities), and A + B is the pointwise sumset. Since the lower density is 0, the negation holds, and it is consistent with the linked proof and the companion `positive_lower_density` variant. The statement faithfully expresses the case it names."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1154: 'Does there exist, for every α ∈ [0, 1], a ring or field in ℝ with Hausdorff dimension α?' (groups: Erdős–Volkmann; fields under CH: Mauldin; analytic subrings have dimension 0 or are ℝ: Edgar–Miller). This part asks, for every a ∈ [0, 1] ⊆ ℝ≥0∞, for a `Subfield ℝ` whose underlying set has `dimH` equal to a, which is the field half of the question in ZFC (the CH version is a separate solved variant, and the endpoints are witnessed by ℚ and ℝ as tests). The `question` attribute with the positive statement follows the upstream convention. Faithful; open."
+    }
+]

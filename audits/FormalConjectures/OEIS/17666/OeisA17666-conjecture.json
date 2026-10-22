@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A017666 (denominator of σ(n)/n, offset 1) and Jaycob Coleman's comment 'Conjecture: If a(n) is in A005153, then n is in A005153' (A005153 = practical numbers). The Lean `a n = n / gcd(n, σ(n))` is the reduced denominator of σ(n)/n (OEIS also gives n/gcd(n, sigma(n))), with junk a(0) = 1, and the test values match the data. `OeisA5153.A n` is `0 < n ∧ Nat.IsPractical n`. The hypothesis 0 < n is needed, as the docstring explains, because a(0) = 1 is practical but 0 is not; this matches the OEIS offset. The statement is exactly the conjecture."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/973, which reports that L. Erdős [Er92f] proved (1.746)^{-n} < M_2 < (1.745)^{-n} for all large n, where M_2 = min over z_j ∈ ℂ with max |z_j| = 1 of max_{2≤k≤n+1} |Σ_{j≤n} z_j^k|. (The ordering is consistent: a larger base gives a smaller value.) The Lean set collects, for each z with all |z_j| <= 1 and some |z_j| = 1, the value M that is the largest of the power-sum moduli for k ∈ [2, n+1] (encoded as attained at some k and dominating all m), and M_2 is its greatest lower bound; quantifying over every M_2 satisfying `IsGLB` is equivalent to stating the bound for the infimum. Whether or not the minimum is attained, the infimum is what is bounded. The statement is the cited result."
+    }
+]

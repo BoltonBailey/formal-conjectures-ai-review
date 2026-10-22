@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/333: 'Let A ⊆ ℕ be a set of density zero. Does there exist a B such that A ⊆ B + B and |B ∩ {1, ..., N}| = o(N^{1/2}) for all large N?', with the page noting that Theorem 2 of Erdős–Newman [ErNe77] already implies a negative answer. The statement negates '∀ A with density 0, ∃ B with A ⊆ B + B (pointwise sumset) and N ↦ |B ∩ [1, N]| = o(√N)', recording the answer no per the `@[question]` convention. Allowing 0 ∈ B and counting B ∩ [1, N] does not change the asymptotic condition. Faithful; a Lean proof is linked."
+    }
+]

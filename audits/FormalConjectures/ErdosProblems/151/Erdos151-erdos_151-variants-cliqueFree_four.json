@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/151: τ(G) is the minimum number of vertices meeting every maximal clique of G with at least two vertices, H(n) is the largest k such that every triangle-free graph on n vertices has an independent set of size k, and the question τ(G) <= n - H(n) is noted to be open even for K_4-free G (Erdős–Gallai [Er88]). `IsBigMaximalClique` is maximality among cliques (as Finsets) together with size >= 2, `cliqueTransversalNumber` is the sInf of transversal sizes (nonempty: the whole vertex set works), and `H n` is the sSup of a nonempty set bounded by n, so n - H n has no truncation issue. The variant restricts to `CliqueFree 4` graphs on Fin n, exactly the case mentioned. Open, matching the tags."
+    }
+]

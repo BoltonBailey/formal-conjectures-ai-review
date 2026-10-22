@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/152: for any M >= 1, if A ⊂ ℕ is a sufficiently large finite Sidon set then there are at least M many a ∈ A + A with a ± 1 ∉ A + A (proved by DeepMind, even with ≫ |A|² such a). `f n` is the infimum over Sidon sets A ⊆ ℕ with |A| = n of #{s ∈ A + A : s - 1 ∉ A + A, s + 1 ∉ A + A}, and the statement is f → ∞, which is exactly 'every sufficiently large Sidon set has at least M such elements' for each M. Natural subtraction at s = 0 is harmless (0 ∈ A + A forces 0 ∈ A, and then the condition '0 - 1 = 0 ∉ A + A' fails, so s = 0 is never counted, which can only lower the count; the result is still true per the linked proof). The set is finite (A + A is finite), so `ncard` is genuine. Faithful."
+    }
+]

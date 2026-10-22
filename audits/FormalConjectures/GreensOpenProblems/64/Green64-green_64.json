@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Ben Green's 100 open problems (people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf), Problem 64: 'Do there exist infinitely many primes for which p − 2 has an odd number of prime factors?', with the comment that this is a weak form of the twin prime conjecture and that integers with an odd number of prime factors have density 1/2. The formal statement {p : ℕ | p.Prime ∧ Odd (Ω (p - 2))}.Infinite reads 'number of prime factors' as Ω (with multiplicity), i.e. λ(p − 2) = −1, which is the standard Liouville-function reading and is stated explicitly in the docstring (ω would also have density-1/2 parity, but Ω is the natural interpretation). Natural-number subtraction only matters at p = 2 (Ω(0) = 0, even), which cannot affect infinitude. As a yes/no question it is correctly stated as the proposition asked about with the `question` tag. The 'research open' tag is supported: the PDF has no update for this problem, and the closest known result (Pintz, arXiv:1004.1065) only gives λ(p + d) = −1 infinitely often for some even 0 < |d| ≤ 16, not for a prescribed d. The test lemmas (5, 7 in; 11 out) are correct."
+    }
+]

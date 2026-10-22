@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1073: 'Let A(x) count the number of composite u < x such that n! + 1 ≡ 0 (mod u) for some n. Is it true that A(x) <= x^{o(1)}?' (examples 25, 121, 169, 437; OEIS A256519). `A x` is the ncard of {u composite, u < x, ∃ n with n! + 1 ≡ 0 [MOD u]}, a finite set, matching the definition. The statement asks for o = o(1) with A(x) <= x^{o(x)} for all x (real power); since o only needs to vanish asymptotically it can absorb small x, so this is equivalent to A(x) <= x^{o(1)}. The `question` attribute with the positive statement follows the upstream convention; open."
+    }
+]

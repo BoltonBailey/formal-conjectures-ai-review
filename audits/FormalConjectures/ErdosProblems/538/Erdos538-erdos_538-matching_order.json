@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/538: for r >= 2 and A ⊆ {1, ..., N} with at most r solutions to m = pa (p prime, a ∈ A) for every m, bound Σ_{n∈A} 1/n; Erdős observed Σ_{n∈A} 1/n · Σ_{p≤N} 1/p <= r Σ_{m≤N²} 1/m, hence Σ 1/n ≪ r log N / log log N. `representations` and `Admissible` encode exactly the hypothesis. The first conjunct is an explicit version of Erdős's bound, loglog(N+1)·Σ 1/a <= 2r(1 + log N²); I re-derived it from the displayed inequality using Σ_{m≤N²} 1/m <= 1 + log N² and Σ_{p≤N} 1/p >= loglog(N+1)/2 for N >= 2. The second conjunct asserts a construction with Σ 1/a >= (log(N+1) - 4)/(8192(log₂log₂N + 1)), giving a matching Θ(log N / log log N) lower bound. That construction is not on the erdosproblems page but has a linked Lean proof, and the docstring correctly says this pins the order but not the 'best possible' bound asked in `erdos_538`. Faithful to its stated claim."
+    }
+]

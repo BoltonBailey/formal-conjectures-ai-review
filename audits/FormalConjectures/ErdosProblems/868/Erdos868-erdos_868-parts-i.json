@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/868: 'If A is an additive basis of order 2, and 1_A∗1_A(n) → ∞, then must A contain a minimal additive basis of order 2?' (minimal: deleting any element creates infinitely many n ∉ A + A), answered in the negative by Larsen and Larsen, who built a basis with representation count > c log n containing no minimal basis. The statement negates '∀ A asymptotic basis of order 2 with representation count → ∞, ∃ B ⊆ A asymptotic basis of order 2 such that B \\ {b} is not one for every b ∈ B', recording the 'no' answer. `ncard_add_repr` counts unordered representations (nondecreasing pairs), which differs from the ordered convolution 1_A∗1_A by at most a factor of 2, so tending to infinity is unaffected. Faithful."
+    }
+]

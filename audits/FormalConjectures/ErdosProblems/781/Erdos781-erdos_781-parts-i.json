@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/781: f(k) is the least n such that every 2-colouring of {1, ..., n} contains a monochromatic k-term descending wave x_1 < ... < x_k with x_j >= (x_{j-1} + x_{j+1})/2 for 1 < j < k; Brown–Erdős–Freedman showed k² - k + 1 <= f(k) <= (k³ - 4k + 9)/3 and Alon–Spencer showed f(k) ≫ k³. `IsDescendingWave` encodes strict monotonicity and x_{j-1} + x_{j+1} <= 2x_j for consecutive triples, and `f k` is the sInf over n such that every colouring of Fin n has a monochromatic wave (a shift of {1, ..., n} to {0, ..., n-1} does not affect the wave condition). The statement f(k) = Θ(k³) is exactly the resolved estimate. Faithful."
+    }
+]

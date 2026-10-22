@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/133: f(n) is the least possible maximum degree of a triangle-free graph on n vertices with diameter 2 (the page phrases it as 'minimal such that every such graph contains a vertex with degree >= f(n)', meaning the largest such threshold, i.e. min over graphs of max degree), and Füredi–Seress [FuSe94] proved the upper bound f(n) <= (2/√3 + o(1))√n. The Lean `f n` is sInf{d : some triangle-free G on Fin n with diam 2 has all degrees <= d}, i.e. the minimum over such graphs of the maximum degree, which is the intended quantity (junk 0 only for the few n with no such graph, irrelevant eventually; e.g. stars exist for all n >= 3). The statement '∀ ε > 0, eventually f n <= (2/√3 + ε)√n' is the standard unfolding of the (1 + o(1)) bound."
+    }
+]

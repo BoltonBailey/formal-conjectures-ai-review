@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/965: is it true that for any 2-colouring of R there is A ⊆ R of cardinality aleph_1 such that all sums a + b with a ≠ b, a, b in A, have the same colour? The page records a negative answer (Komjáth; Soukup-Weiss, without CH). The formal statement negates: not every f : R → Fin 2 admits an uncountable A with f(a + b) = f(c + d) for all a ≠ b, c ≠ d in A, i.e. all such sums monochromatic. 'Uncountable' versus 'cardinality aleph_1' is equivalent here since any uncountable set contains a subset of size aleph_1 and the monochromatic-sums property passes to subsets. Negation with ¬ follows the @[question] convention for a 'no' answer, and the solved tag is supported."
+    }
+]

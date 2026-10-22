@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Serre's dimension inequality (Wikipedia, 'Serre's multiplicity conjectures'; Serre, Local Algebra, Ch. V): for a regular local ring R and finitely generated R-modules M, N with M ⊗_R N of finite length, dim M + dim N <= dim R. The statement assumes `IsRegularLocalRing R`, `Module.Finite` for M and N, and `IsFiniteLength R (M ⊗[R] N)`, and concludes `supportDim R M + supportDim R N <= ringKrullDim R`. `Module.supportDim` is the Krull dimension of the support, i.e. dim M; the zero module gets ⊥ in `WithBot ℕ∞`, making the inequality trivially true in that degenerate case, as expected. Putting R, M, N in one universe is harmless. The solved tag is correct (Serre proved it for all regular local rings)."
+    }
+]

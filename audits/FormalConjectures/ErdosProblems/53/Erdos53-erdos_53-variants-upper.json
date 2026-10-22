@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/53 and the original paper Erdős–Szemerédi, 'On sums and products of integers' (1983), static.renyi.hu/~p_erdos/1983-18.pdf. Theorem 2 there states g(n) < exp(c log² n / log log n), where g(n) is the least number of distinct integers of the form Σ ε_i a_i, Π a_i^{ε_i} (ε_i ∈ {0,1}). I rechecked the proof: with a's the products of p^{α_p} for the first l primes, t = [(log x)^{1/3}], l ≈ 3(log x)^{2/3}/log log x, one gets log n ≈ (log x)^{2/3} and number of products < ((t+1)n)^l = exp((2+o(1)) log² n / log log n), sums < x² = exp(O((log n)^{3/2})). So the paper's form (dividing by log log) is correct, and erdosproblems.com's 'multiplies by log log |A|' is the weaker statement; the docstring flags this discrepancy accurately. The formal statement ∃ c > 0, ∀ N, ∃ A : Finset ℤ, N ≤ |A| ∧ |sumsAndProducts A| ≤ exp(c (log |A|)² / log log |A|) matches 'arbitrarily large sets'. sumsAndProducts uses nonempty subsets, which differs from the paper's ε_i = 0 allowed (empty sum 0, empty product 1) by at most 2 elements, absorbed by the constant. Small-|A| junk (log log ≤ 0) is irrelevant since A can be taken large. Correctly tagged research solved."
+    }
+]

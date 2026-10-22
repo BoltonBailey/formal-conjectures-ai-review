@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the conjecture in the comments of OEIS A108866 (Thomas Ordowski, Mar 02 2020): 'for n > 3, numerator(-2/n + Sum_{k=1..n} 2^k/k) == 0 (mod n^2) if and only if n is prime.' `ratExpression n` is -2/n + sum_{i<n} 2^(i+1)/(i+1), i.e. the sum over k = 1..n, for n > 0 (the junk branch n = 0 is excluded by hn : n > 3). `Rat.num` is the reduced numerator (an integer, possibly signed, which does not affect divisibility), and the congruence is mod n^2 in ℤ, as in the source. The hypothesis n > 3 matches the source. Sanity check: computing the expression exactly for 4 <= n < 60 confirms the equivalence holds there, so the formal statement agrees with the source on small cases. The `research open` tag is appropriate for an unproved OEIS conjecture."
+    }
+]

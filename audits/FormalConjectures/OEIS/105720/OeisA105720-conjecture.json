@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A105720 (sum of the n-th and next n primes, offset 1) and its comment 'Terms are squares at only(?) three values of n = 3, 6, 4072'. The Lean `a n` sums `Nat.nth Nat.Prime i` for i ∈ [n-1, 2n), i.e. p_n through p_{2n} with 1-indexed primes, and the test values 5, 15, 36, 67 match the data. The statement `0 < n → (IsSquare (a n) ↔ n ∈ {3, 6, 4072})` captures both the observed squares and the conjectured 'only'; I checked that a(3) = 36, a(6) = 169, a(4072) = 247590225 = 15735^2 and that no other n < 8000 gives a square, so the reverse direction is true and the open content is the forward direction."
+    }
+]

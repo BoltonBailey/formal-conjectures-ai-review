@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/503: Alweiss observed the lower bound C(d+1,2) via the vectors e_i + e_j (i ≠ j) in ℝ^{d+1}, which lie in the hyperplane Σx = 2 and so embed in ℝ^d; pairwise distances are only √2 or 2, so every triple has two equal sides. Set.IsIsosceles (nonempty and every triple of distinct points has two equal distances) matches the problem, and the statement C(n+1,2) ≤ sSup {A.ncard | A ⊆ ℝ^n isosceles} is a true and faithful rendering. Minor encoding quirk: sSup on ℕ returns 0 for unbounded sets, so proving this 'lower bound' as stated requires knowing the set is bounded above (e.g. Blokhuis' upper bound C(n+2,2), or at least that isosceles sets are finite with bounded size), which a lower-bound statement should not need. Since that bound is a known theorem, the truth value is unaffected. Suggested clearer phrasing: ∃ A : Set (ℝ^n), A.IsIsosceles ∧ (n + 1).choose 2 ≤ A.ncard (with A finite). Edge cases n = 0, 1 are fine (C(1,2) = 0, C(2,2) = 1). Also note erdosproblems.com records Weisenberg's improvement to C(d+1,2)+1, not mentioned in the docstring."
+    }
+]

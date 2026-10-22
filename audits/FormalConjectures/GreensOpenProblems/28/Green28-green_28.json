@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 28 of Ben Green's '100 open problems' (p. 16): 'Suppose that X, Y are two finitely-supported independent random variables taking integer values, and such that X + Y is uniformly distributed on its range. Are X and Y themselves uniformly distributed on their ranges?' The statement models X, Y as PMFs on ℤ with finite support, `indepSum X Y` as the law of X + Y for independent X, Y (monadic bind, i.e. convolution), and `IsUniformOnSupport` as equality with the uniform PMF on some nonempty finite set, necessarily its support. It asserts the implication for all such X, Y. Faithful; open."
+    }
+]

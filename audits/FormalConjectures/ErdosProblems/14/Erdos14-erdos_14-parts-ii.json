@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/14: with B the integers representable in exactly one way as a sum of two elements of A ⊆ N, the second question asks 'Is it possible that |{1,...,N} \\ B| = o(N^{1/2})?'. The formal statement ∃ A : Set ℕ, nonUniqueSumCount A = o(sqrt N) is a faithful rendering of the proposition asked about: nonUniqueSumCount counts {1..N} minus allUniqueSums A, and allUniqueSums uses uniqueness up to swapping the summands (unordered representations, a+a allowed), the natural reading. Allowing 0 ∈ A does not change the question. However, the page now records the problem as solved: 'The answer to the second question is no (and thus the answer to the first question is yes)', since |{1,...,N} \\ B| >> N^{1/2} always holds, with a linked formalised proof. The declaration is still tagged 'research open'. Per the upstream @[question] convention, it should be updated to 'research solved' with the statement negated (¬ ∃ A, ...), likewise for erdos_14.parts.i (answer yes). The mathematical content is right; only the status metadata is out of date, hence severity 2."
+    }
+]

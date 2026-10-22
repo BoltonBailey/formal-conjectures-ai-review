@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A113609 (number of prime powers q <= n such that q + 2 is also a prime power, with 1 counted as a prime power, as the data 1, 2, 3, 3, 4 forces) and its comment '(25,27) is the smallest pair of prime powers (q,q+2) such that both q and q+2 are not primes, conjecture: there are more (but not < 10^6).' `IsOeisPrimePower n := n = 1 ∨ IsPrimePow n` matches the sequence's convention, and the test values match the data. The statement asks for q >= 10^6 with q and q + 2 both such prime powers and neither prime; since the comment says no further pair exists below 10^6, 'there are more' is equivalent to such a q existing. The requirement that neither is prime excludes q = 1 (q + 2 = 3 is prime), as it should. Faithful; open."
+    }
+]

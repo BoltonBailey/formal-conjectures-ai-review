@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A110475 (number of '*' and '^' symbols in the canonical prime factorization of n, offset 1) and Jonathan Vos Post's conjecture that 1, 2, 3, 4, 5, 6, 7, 9, 11 are the only positive integers not representable as a sum of two indices n with a(n) = 1. The Lean `a n = (ω(n) - 1) + #{p : v_p(n) > 1}` (truncated subtraction gives a(1) = 0, as in OEIS; a(0) = 0 so 0 never counts), and the test values match. The statement '∀ m > 0, m ∉ exceptional ↔ ∃ x y, a x = 1 ∧ a y = 1 ∧ m = x + y' is exactly the conjecture. I checked numerically that below 20000 the non-representable positive integers are exactly {1, 2, 3, 4, 5, 6, 7, 9, 11}, using a(n) = 1 iff n = pq (p ≠ q) or n = p^e (e >= 2). Faithful; open."
+    }
+]

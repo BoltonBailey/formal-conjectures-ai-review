@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/493 (Schinzel, via [Er61]): 'Does there exist a k such that every sufficiently large integer can be written in the form ∏_{i≤k} a_i - Σ_{i≤k} a_i for some integers a_i >= 2?', answered yes with k = 2 (Seamans: n = 2(n+2) - (2 + (n+2))). The statement asks for k and N such that every integer n >= N equals ∏ a_i - Σ a_i for some a : Fin k → ℤ with all a_i >= 2, exactly the question as recorded (the page notes Schinzel may have intended an extra constraint not recorded in [Er61]). Faithful; the solved tag is supported by the trivial identity and the linked proof."
+    }
+]

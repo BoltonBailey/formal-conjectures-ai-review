@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/64 ($1000; Erdős–Gyárfás): 'Does every finite graph with minimum degree at least 3 contain a cycle of length 2^k for some k >= 2?' (Liu–Montgomery settled it for large minimum degree; open in general.) The statement quantifies over finite V and G with `minDegree >= 3` (vacuous for the empty graph, whose minDegree is 0) and asks for a cycle (a closed walk with `IsCycle`) of length 2^k with k >= 2. The `question` attribute with the positive statement follows the upstream convention (Erdős–Gyárfás expected 'no'). Faithful; open."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia's 'Wall–Sun–Sun prime' article, which characterises a Wall–Sun–Sun prime as a prime p with L_p ≡ 1 (mod p^2) (L the Lucas numbers), notes none is known (searches up to 2^64 by PrimeGrid), and says it is conjectured that infinitely many exist. `IsWallSunSunPrime p` (FormalConjecturesForMathlib, WallSunSunPrimes.lean) requires `p.Prime` and `lucasNumber p ≡ 1 [ZMOD p^2]`, with `lucasNumber = LucasSequence.V 1 (-1)`, which is L_0 = 2, L_1 = 1, L_{n+2} = L_{n+1} + L_n. The small primes 2 and 5 fail the congruence (L_2 = 3 ≢ 1 mod 4, L_5 = 11 ≢ 1 mod 25), consistent with the Fibonacci-based definition. The statement asserts at least one such prime exists, a consequence of the infinitude conjecture, as the docstring says; the open tag is correct. (Minor: the docstring of `LucasSequence.V` says V_0 = 0 while the code correctly sets V_0 = 2.)"
+    }
+]

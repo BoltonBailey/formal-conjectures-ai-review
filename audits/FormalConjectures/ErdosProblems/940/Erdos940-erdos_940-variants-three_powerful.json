@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/940, which records that Heath-Brown [He88] proved all large numbers are the sum of at most three 2-powerful (squarefull) numbers (see also #941). The statement says that for all sufficiently large x there is a multiset S of at most 3 naturals, each `(2).Full` (every prime divisor appears to at least the second power), with x = ΣS. 'At most three' is encoded by S.card <= 3, and whether 0 or 1 count as 2-full is immaterial for an 'at most' statement. This is exactly Heath-Brown's theorem. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/48: 'Are there infinitely many integers n, m such that φ(n) = σ(m)?' (yes, Ford–Luca–Pomerance [FLP10]: infinitely many common values). The statement asserts that the set of pairs (n, m) ∈ ℕ² with φ(n) = σ_1(m) is infinite. This is equivalent to infinitely many common values: each value a >= 1 has only finitely many n with φ(n) = a and finitely many m with σ(m) = a, so infinitely many pairs force infinitely many values, and the junk pair (0, 0) is a single element. The positive statement for an answered yes-question follows the upstream convention. Faithful."
+    }
+]

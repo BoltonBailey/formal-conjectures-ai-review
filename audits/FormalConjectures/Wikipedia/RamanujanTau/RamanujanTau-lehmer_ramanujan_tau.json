@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia's 'Ramanujan tau function' (Lehmer's conjecture: τ(n) ≠ 0 for all n >= 1). `Δ = X · ∏'_{n>=1} (1 - X^n)^24` in ℤ[[X]] with the coefficientwise (Pi) topology, which is the q-expansion of the discriminant modular form, and `τ n` is its n-th coefficient (τ(0) = 0, τ(1) = 1, τ(2) = -24 as tested). The infinite product converges in this topology (the API lemma `multipliable`, left as sorry, is true), so `tprod` is the genuine product. The statement '∀ n > 0, τ n ≠ 0' is exactly Lehmer's conjecture; open."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A007406 (Wolstenholme numbers: numerator of Σ_{k=1..n} 1/k², offset 1) and the Eldar–Ordowski conjecture 'for n > 3, gcd(n, a(n-1)) = A089026(n)', where A089026(n) = n if n is prime and 1 otherwise. The Lean `a n` is the absolute numerator of the rational sum (junk a(0) = 0), matching the data 1, 5, 49, 205, and `OeisA89026.a n = if n.Prime then n else 1` matches A089026. The statement `3 < n → gcd(n, a(n - 1)) = A089026(n)` is exactly the conjecture (for n > 3, n - 1 >= 3, so no junk value is used). Faithful; open (the prime case follows from Wolstenholme's theorem, as an OEIS comment notes)."
+    }
+]

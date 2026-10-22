@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/426: H is a unique subgraph of G if there is exactly one way to find H as a (not necessarily induced) subgraph of G; 'Is there a graph on n vertices with ≫ 2^{C(n,2)}/n! many distinct unique subgraphs?' (no: Bradač–Christoph [BrCh24] showed f(n) = o(2^{C(n,2)}/n!)). `IsUniqueSubgraph G H` says exactly one spanning subgraph G' ≤ H is isomorphic to G, and `uniqueSubgraphCount H` counts such G ≤ H, one per isomorphism class (the docstring explains why). Spanning subgraphs on n vertices match the 2^{C(n,2)}/n! benchmark, the number of isomorphism classes of n-vertex graphs. The theorem negates 'some c > 0 has, for infinitely many n, an H on Fin n with count >= c·2^{C(n,2)}/n!', which is exactly f(n) = o(2^{C(n,2)}/n!). Faithful."
+    }
+]

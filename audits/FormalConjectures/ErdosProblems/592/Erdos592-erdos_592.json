@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/592: determine which countable ordinals β have the property that, with α = ω^β, every red/blue colouring of the edges of K_α contains a red K_α or a blue K_3 (Specker, Chang, Galvin–Larson, Schipperus give partial answers; open, $1000). `OrdinalCardinalRamsey α β c` says every 2-colouring (complementary graphs on α.ToType) has a red clique of order type β (`typeLT`) or a blue clique of cardinality c, i.e. α → (β, c)². The statement uses the `@[question value]` pattern with an answer predicate on ordinals: for countable β (β.card <= ℵ₀), ω^β → (ω^β, 3)² iff `erdos_592.answer β`. Faithful; open."
+    }
+]

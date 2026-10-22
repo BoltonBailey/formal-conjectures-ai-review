@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia's 'John Selfridge' (PSW conjecture): if p is odd, p ≡ ±2 (mod 5), 2^{p-1} ≡ 1 (mod p) and f_{p+1} ≡ 0 (mod p) (f_k the Fibonacci numbers), then p is prime ($500 for a counterexample). `IsSelfridge p` encodes exactly these four conditions (±2 mod 5 as 2 or 3 mod 5, `Nat.fib (p+1)`), and the statement concludes `p.Prime`. Degenerate p are excluded by the mod-5 condition and oddness. Faithful; open."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia's 'Moving sofa problem' and Baek [Ba24], who proved Gerver's sofa is optimal (area ≈ 2.2195). The hallway is the L-shape (-∞, 1] × [0, 1] ∪ [0, 1] × (-∞, 1] of width 1; `IsMovingSofa s m` requires s connected and closed, m : [0, 1] → E(2) continuous with m(0) = id (so orientation-preserving), s in the horizontal arm initially, every m(t)(s) in the hallway, and m(1)(s) in the vertical arm. `sofaConstant` is the supremum of Lebesgue measure over moving sofas (the unit square test confirms non-vacuity), and the statement equates it with the volume of `gerversSofa`, defined as Gerver's intersection of rotated/translated hallways along his rotation path [Ge92]. The framework faithfully models the problem. I did not independently re-derive the 60-line piecewise definition of Gerver's path; the file lists several Lean proofs of this equality, which would be impossible if the path were mis-specified (unless the error preserved the area), which supports its correctness."
+    }
+]

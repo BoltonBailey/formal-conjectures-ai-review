@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 24 of Ben Green's '100 open problems' (maximum number of affine translates of {0, 1, 3} in an n-set of integers, conjecturally (1/3 + o(1))n²) and Aaronson [Aa19, arXiv:1801.07135], where γ_{a1,a2,a3} = limsup T(S)/|S|² with T(S) the number of solutions in S of a1x1 + a2x2 + a3x3 = 0, and equation (1.2) states 1/12 <= γ <= 3/4 for all coefficients (upper bound via Hardy–Littlewood), with affine copies of {0, 1, 3} corresponding to x + 2y = 3z. `max013AffineTranslates n` counts ordered pairs (x, y) in an n-set A with x ≠ y and x + 3(y - x) ∈ A, i.e. copies {a, a+d, a+3d} with d ≠ 0 of either sign. These are in bijection with the nontrivial solutions (3y - 2x, x, y) of X + 2Y = 3Z, and the trivial solutions contribute only |A| = o(n²), so `gamma` (limsup of max/n²) equals Aaronson's γ_{1,2,-3}. Intervals give 1/3, consistent with Green's conjecture. The variant asserts gamma <= 3/4, Aaronson's bound. Faithful. (Within this file, as namespace Green24.variants.)"
+    }
+]

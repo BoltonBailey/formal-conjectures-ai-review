@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/390: f(n) is the minimal m such that n! = a_1 ··· a_k with n < a_1 < ... < a_k = m, and Erdős, Guy and Selfridge [EGS82] showed f(n) - 2n ≍ n/log n. The Lean `f n` is the sInf of m for which a strictly increasing f with f(0) > n, f(k-1) = m and ∏_{i<k} f(i) = n! exists, which is the definition (for n <= 1 the empty product gives a junk value n + 1, irrelevant asymptotically). The ascription `(fun n ↦ f n - 2 * n : ℕ → ℝ)` makes the subtraction real-valued, so there is no truncation, and `=Θ[atTop] (fun n ↦ n / log n)` is the ≍ statement. Faithful."
+    }
+]

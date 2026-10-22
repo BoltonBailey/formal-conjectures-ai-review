@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A110854 (a(n) = prime(2n+2) - prime(2n+1) - prime(2n) + prime(2n-1), offset 1) and its comment 'Do the absolute values cover A004275?', where A004275 is '1 together with nonnegative even numbers' (0, 1, 2, 4, 6, ...). The Lean `a` uses 1-indexed primes via `Nat.nth Nat.Prime (k - 1)` (junk a(0) = 0), and the test values a(1..4) = 1, 0, 0, 4 match the data. The statement '∀ d, (d = 1 ∨ Even d) → ∃ n > 0, d = |a n|' says every member of A004275 (including 0) occurs as |a(n)| with n in the sequence's domain, which is the question stated positively. The open tag is appropriate."
+    }
+]

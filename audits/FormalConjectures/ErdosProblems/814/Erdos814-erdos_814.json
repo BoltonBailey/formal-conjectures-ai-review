@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/814: for k >= 2 and G with n >= k - 1 vertices and (k-1)(n-k+2) + C(k-2, 2) + 1 edges, is there c_k > 0 such that G contains an induced subgraph on at most (1 - c_k)n vertices with minimum degree at least k? Proved by Sauermann [Sa19]. The Lean edge count uses n + 2 - k, which equals n - k + 2 without truncation because n >= k - 1, and `(k - 2).choose 2`; the conclusion asks for a nonempty S ⊆ Fin n with |S| <= (1 - c)n and minimum degree of G[S] at least k. Nonemptiness is necessary because Mathlib's `minDegree` of the empty graph is 0, and is implied by the source (a graph of minimum degree k has vertices). c is real, as the comparison with (1 - c)·n forces. The statement is faithful, and the solved tag matches."
+    }
+]

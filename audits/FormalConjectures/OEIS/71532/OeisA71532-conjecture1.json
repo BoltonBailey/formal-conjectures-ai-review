@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A071532 (a(n) = -Σ_{k=1..n} (-1)^floor((3/2)^k), offset 1) and its question 'Is a(n) > 0?', refuted by a(331523) = -1 (Schlesinger, with a Lean proof). The Lean `a` uses `3^k / 2^k` in ℕ, which is floor((3/2)^k), and the test values 1, 0, 1, 2, 3 match the data. The statement negates '∀ n > 2, 0 < a n'; excluding n <= 2 is right, since a(2) = 0 would otherwise make the 'no' answer trivial, as the docstring notes. Faithful."
+    }
+]

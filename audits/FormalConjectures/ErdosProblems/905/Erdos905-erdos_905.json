@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/905: 'Every graph with n vertices and > n^2/4 edges contains an edge which is in at least n/6 triangles' (Bollobás–Erdős; proved by Edwards and by Khadzhiivanov–Nikiforov [KhNi79]). The statement quantifies over all simple graphs on `Fin n`, assumes n^2/4 < |E| in ℝ (so the strict bound is not truncated), and concludes some edge `e ∈ G.edgeFinset` has at least n/6 (real division) triangles containing it. `trianglesContaining G e` (FormalConjecturesForMathlib, Clique.lean) is the set of 3-cliques of G whose vertex set contains both endpoints of e, which is exactly the triangles through e. The solved tag is supported by the source."
+    }
+]

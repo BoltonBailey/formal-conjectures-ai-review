@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/551 (Erdős–Faudree–Rousseau–Schelp): 'Prove that R(C_k, K_n) = (k-1)(n-1) + 1 for k >= n >= 3 (except when n = k = 3).' (Known for k >= C log n / log log n by Keevash–Long–Skokan, hence for large n.) The statement quantifies over 3 <= n <= k, excludes (n, k) = (3, 3), and asserts `graphRamsey (cycleGraph k) (completeGraph (Fin n)) = (k-1)(n-1) + 1`, the off-diagonal Ramsey number of the k-cycle versus K_n (Mathlib's cycleGraph k is the k-cycle for k >= 3). Faithful; open."
+    }
+]

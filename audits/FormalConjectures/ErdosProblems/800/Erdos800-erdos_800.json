@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/800: 'If G is a graph on n vertices which has no two adjacent vertices of degree >= 3 then R(G) ≪ n, where the implied constant is absolute' (Burr–Erdős; solved by Alon [Al94]). The statement gives an absolute C > 0 such that every finite graph G on n vertices in which no edge joins two vertices both of degree >= 3 has `diagonalGraphRamsey G <= C·n`, the diagonal Ramsey number R(G) = R(G, G). The hypothesis is written edge-wise as ¬(3 <= deg u ∧ 3 <= deg v) for adjacent u, v, which is the source condition. Faithful; the solved tag matches."
+    }
+]

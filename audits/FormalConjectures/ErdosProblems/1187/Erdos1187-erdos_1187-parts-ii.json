@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1187, second question: for k >= 3, in any finite colouring of the integers, are there monochromatic arithmetic progressions of length k whose common difference is a prime? The page answers 'trivially no' (colour by residue mod 4, or 2 colours by 0,1 vs 2,3 mod 4). The statement negates '∀ k >= 3, ∀ finite colour type κ and colouring c : ℤ → κ, ∃ a, prime p, and S with `S.IsAPOfLengthWith k a p` monochromatic'. This is the `@[question]` convention applied to the parametrised question read as a single universal proposition. Note that ¬∀k is formally weaker than the known 'no for every k >= 3' (the mod 4 colouring defeats every k >= 2), but it is the faithful negation of the question as one proposition, and true. Faithful."
+    }
+]

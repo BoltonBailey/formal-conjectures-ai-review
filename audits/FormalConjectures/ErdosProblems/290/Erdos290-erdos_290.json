@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/290: 'Let a >= 1. Must there exist some b > a such that Σ_{a≤n≤b} 1/n = r_1/s_1 and Σ_{a≤n≤b+1} 1/n = r_2/s_2, in lowest terms, with s_2 < s_1?' (yes, van Doorn [vD24]; e.g. a = 3: 47/60 then 19/20). `harmonicDen a b` is the reduced denominator (`Rat.den`) of `harmonicBlock a b = Σ_{k∈[a,b]} 1/k`, and the statement asserts for every a >= 1 some b > a with harmonicDen a (b+1) < harmonicDen a b, exactly the first question (the growth question is not formalised here). Faithful."
+    }
+]

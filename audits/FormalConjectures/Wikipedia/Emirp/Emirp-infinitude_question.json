@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia's 'Emirp' article ('a prime that results in a different prime when its decimal digits are reversed'; 'It is not known whether there are infinitely many emirps') and OEIS A006567. `reverse10` reverses `Nat.digits 10` and rebuilds with `ofDigits` (so trailing zeros drop, e.g. 120 ↦ 21, irrelevant for primes > 5), and `IsEmirp p` requires p prime, its reversal prime, and the reversal different from p (excluding palindromic primes such as 11, as tested). The statement asks for infinitely many emirps, the open question; the `question` attribute with the positive statement follows the upstream convention."
+    }
+]

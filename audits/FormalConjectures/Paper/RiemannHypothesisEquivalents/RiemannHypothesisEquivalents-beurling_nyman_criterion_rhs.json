@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the Beurling–Nyman criterion (Nyman 1950, Beurling 1955): with ρ_θ(x) = {θ/x}, the Riemann Hypothesis holds iff the functions Σ_{ν=1}^n c_ν ρ_{θ_ν} with 0 < θ_ν <= 1 and Σ c_ν θ_ν = 0 are dense in L²(0, 1). `fractScalarInv θ` is x ↦ fract(θ/x), bounded by 1 and hence in L² of Lebesgue measure on (0, 1] (proved in the file), and `fractScalarInvSumL2` is the corresponding finite real linear combination in `Lp ℝ 2`. This declaration states the right-hand side of the criterion (density of that set), which is the open content equivalent to RH by the companion `beurling_nyman_criterion`. The restriction to Ioc 0 1 rather than (0, 1) is immaterial for L², and real coefficients suffice for real L²(0, 1)."
+    }
+]

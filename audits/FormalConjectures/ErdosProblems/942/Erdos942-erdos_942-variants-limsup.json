@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/942: h(n) counts powerful integers in [n², (n+1)²), and Erdős wrote that 'it is not hard to prove that' limsup h(n) = ∞ (a proof by van Doorn is in the comments; de Koninck–Luca give h(n) ≫ (log n/log log n)^{1/3} infinitely often). `erdos_942.h n` counts `Powerful` m in `Finset.Ico (n^2) ((n+1)^2)`, and the statement is that the limsup of h (cast to ℕ∞) along atTop is ⊤. Working in ℕ∞ (a complete lattice) makes the limsup well defined and ⊤ exactly when h is unbounded. The n = 0 interval contains 0 (which counts as powerful), irrelevant for a limsup. Faithful; the textbook tag matches 'not hard'."
+    }
+]

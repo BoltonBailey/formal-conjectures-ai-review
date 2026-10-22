@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/506: the minimum number of circles determined by n points in ℝ², not all on a circle (and, per Elliott, not all on a line), is C(n-1, 2) + 1 - ⌊(n-1)/2⌋ for n > 393 (Elliott [El67] with the Purdy–Smith correction, also [BaBa94]), attained by n - 1 points on a circle plus one point off it. `numCircles P` counts spheres (circles) in ℝ² through at least three points of P (such circles have positive radius automatically). The variant asserts this value is `IsLeast` over n-point configurations that are neither collinear nor cospherical, with `(n - 1).choose 2 + 1 - (n - 1) / 2` (natural floor division). I checked attainment: the big circle plus one circle per pair of circle points through the extra point, minus the at most ⌊(n-1)/2⌋ pairs collinear with it, gives exactly the formula. Faithful."
+    }
+]

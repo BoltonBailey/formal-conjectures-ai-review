@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/472 (Ulam): given primes q_1 < ... < q_m, extend by taking q_{n+1} to be the smallest prime of the form q_n + q_i - 1 for n >= m; is there an initial sequence for which this continues forever? (e.g. 3, 5, 7, 11, 13, 17, ...). `InitialPrimeSegment m q` requires m > 0 and q_0 < ... < q_{m-1} prime; `EligibleNextPrime q prev t r` requires r prime, r > q_prev, and r = q_prev + q_i - 1 for some i < t; `UlamPrimeExtension` requires each q_t (t >= m) to be the least eligible prime after q_{t-1}. Infinite continuation is expressed by the existence of a total sequence q : ℕ → ℕ satisfying this for all t >= m (if at some step no eligible prime exists, `IsLeast` fails). The extra condition r > q_prev is automatic for q_i >= 2. Faithful (0-indexed); open."
+    }
+]

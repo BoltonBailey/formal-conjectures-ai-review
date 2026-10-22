@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/970: h(k) is Jacobsthal's function, the minimal m such that if n has at most k prime factors then every m consecutive integers contain one coprime to n; is h(k) ≪ k²? (Iwaniec: h(k) ≪ (k log k)².) `IsJacobsthalBound k m` requires, for every n > 0 with at most k distinct prime factors and every integer a, some i < m with a + i coprime to n, and `jacobsthalFunction k` is the sInf of such m (nonempty by Iwaniec), which is h(k). The statement gives C > 0 with h(k) <= C k² for all k > 0. Faithful. Status: the erdosproblems page still lists this as Jacobsthal's open conjecture, but the file tags it solved, citing an OpenAI preprint (Sept 2026); I confirmed the cited Lean file `QuadraticBound.lean` exists at the referenced commit of openai/math, though I did not check the proof itself."
+    }
+]

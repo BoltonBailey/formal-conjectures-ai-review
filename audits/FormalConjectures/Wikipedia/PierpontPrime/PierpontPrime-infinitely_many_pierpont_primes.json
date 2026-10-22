@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia's 'Pierpont prime' (a prime of the form 2^a 3^b + 1 with a, b >= 0; Gleason conjectured there are infinitely many) and OEIS A005109. `IsPierpontPrime p` requires p prime and p = 2^a·3^b + 1 for naturals a, b (so 2 = 2^0 3^0 + 1 counts, as in the OEIS list), and the statement asserts infinitely many such primes. Faithful; open."
+    }
+]

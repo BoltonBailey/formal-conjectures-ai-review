@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/665 (Erdős–Larson). A pairwise balanced design on {1,...,n} is a family of blocks with 2 ≤ |A_i| < n in which every pair of distinct points lies in exactly one block. The question asks whether there is a constant C > 0 such that, for all large n, some such design has every block of size greater than n^{1/2} - C. The Lean statement uses Fin n as the ground set. `IsPairwiseBalancedDesign` requires every block to have size at least 2 and every 2-subset to lie in a unique block, and the statement adds e.card < n and sqrt n - C < e.card for every block. The quantifier order matches: ∃ C > 0, then eventually in n, then ∃ a design. Taking H as a Finset rules out repeated blocks, but repeats would break the unique-cover condition anyway. The comparison is strict, as in the source. The problem is open; Shrikhande and Singhi give a 'no' answer conditional on the prime-power conjecture for projective planes. So the `research open` + `question` tags fit, and stating the proposition asked is the upstream convention."
+    }
+]

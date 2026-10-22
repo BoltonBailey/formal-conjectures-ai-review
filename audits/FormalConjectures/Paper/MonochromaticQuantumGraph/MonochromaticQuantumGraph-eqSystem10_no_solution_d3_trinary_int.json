@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the monochromatic quantum graph problem of Krenn–Gu–Zeilinger [Krenn2017] and Krenn–Gu–Soltész [Krenn2019] as framed in the file: weights on bi-coloured edges of K_N (an edge {u, v} with endpoint colours (i, j)) such that, for each vertex colouring ι, the weighted sum over perfect matchings of products of the edge weights with colours induced by ι is 1 if ι is monochromatic and 0 otherwise. `pmSumListAux` pairs the head of the ordered vertex list with each later vertex and recurses on the rest, so it enumerates every perfect matching once with edges oriented from lower to higher index, consistently with `EdgeN` (entries with u >= v are never used); fuel equal to the list length makes the recursion exact, and odd lengths give 0. `EqSystemN` imposes 1 on constant ι and 0 otherwise. The statement asserts no solution exists for N = 10, D = 3 with all weights in {-1, 0, 1} ⊂ ℤ. Merging parallel same-coloured edges into one weight is the standard normalisation, so the {-1, 0, 1} restriction applies to merged weights, which is the question the file poses. A Lean proof is linked. Faithful."
+    }
+]

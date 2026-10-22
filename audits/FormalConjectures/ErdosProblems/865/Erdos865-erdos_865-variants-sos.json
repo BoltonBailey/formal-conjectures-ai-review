@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/865: f_k(N) is the minimal size forcing a subset of {1, ..., N} to contain k distinct elements whose pairwise sums all lie in the set, and Erdős and Sós conjectured f_k(N) ~ (1/2)(1 + Σ_{1≤r≤k-2} 4^{-r}) N. The Lean `f N k` is the sInf of m such that every A ⊆ [1, N] with |A| >= m contains S ⊆ A with |S| = k and x + y ∈ A for all distinct x, y ∈ S (the set is nonempty, since m = N + 1 works vacuously), and the statement asserts the stated asymptotic for every k >= 2. The k = 2 case gives N/2, consistent with the folklore fact, and k = 3 gives 5N/8, matching the solved main problem. Faithful; open. ('sos' refers to Sós, not sums of squares.)"
+    }
+]

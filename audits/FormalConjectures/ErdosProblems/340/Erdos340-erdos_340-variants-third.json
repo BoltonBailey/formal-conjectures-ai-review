@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/340: A = {1, 2, 4, 8, 13, 21, 31, ...} is the greedy Sidon (Mian–Chowla) sequence, and 'It is trivial that this sequence grows at least like ≫ N^{1/3}.' The Lean `greedySidon` (FormalConjecturesForMathlib, tested against 1, 2, 4, 8, 13, 21, ..., 97) is the greedy Sidon sequence, and the statement is n^{1/3} = O(|range(greedySidon) ∩ [1, n]|), i.e. the counting function is ≫ N^{1/3}. Faithful. Nit: the theorem takes an unused hypothesis (ε : ℝ) (hε : ε > 0), apparently copied from `erdos_340`; it is harmless but should be removed for clarity (the same applies to `erdos_340.variants.isTheta`)."
+    }
+]

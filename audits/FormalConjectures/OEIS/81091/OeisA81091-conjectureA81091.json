@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A081091 ('Primes of the form 2^i + 2^j + 1, i > j > 0'; comment: 'Sam Wagstaff (see paper) conjectured that there are infinite primes with exactly 3 bits set'). `A p` says p is prime and `p.bits.count true = 3`, i.e. the binary popcount of p is 3. This is equivalent to the sequence's definition: a prime with three 1-bits is odd, so its lowest bit is 2^0 and p = 2^i + 2^j + 1 with i > j > 0; conversely such a number has exactly three 1-bits. The tests (7, 11, 13, 19, 37) match the listed terms. `Set.Infinite` states the conjecture as written. It is open, so the `research open` tag fits, and under the `@[question]` convention stating the proposition is correct."
+    }
+]

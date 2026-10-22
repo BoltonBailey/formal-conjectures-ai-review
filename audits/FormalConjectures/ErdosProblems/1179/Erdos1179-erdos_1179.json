@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1179: g_eps(N) is the minimal k such that a uniformly random k-subset A of an abelian group of size N satisfies |F_A(g) - 2^k/N| <= eps 2^k/N for all g with probability -> 1 as N -> infinity; the question is whether g_eps(N) = (1+o(1)) log_2 N, and the page records the trivial lower bound g_eps(N) >= log_2 N and the Erdos-Hall upper bound (1+O_eps(logloglog N/loglog N)) log_2 N, which settles it affirmatively. The formal statement makes the vague 'probability -> 1 as N -> infinity, for groups of size N' precise as: there exist sizes k(N) with k(N)/log_2 N -> 1 such that for every sequence of finite abelian groups with |G_i| -> infinity, the proportion of k(|G_i|)-subsets that are eps-balanced tends to 1. Quantifying over all sequences is equivalent to uniformity over all groups of size N, which is the intended reading. repCount, IsBalanced and successProbability match F_A, the balance condition (non-strict, as in the source) and the uniform k-subset probability. Combined with the separately stated lower bound, this captures g_eps(N) = (1+o(1)) log_2 N. Junk values (k(N) > N giving 0/0 = 0) cannot occur eventually since k(N) ~ log_2 N. The 'research solved' and 'question' tags are consistent with the affirmative answer via [ErHa76]."
+    }
+]

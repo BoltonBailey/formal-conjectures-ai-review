@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia's 'Schanuel's conjecture': given n complex numbers z_1, ..., z_n linearly independent over ℚ, the field ℚ(z_1, ..., z_n, e^{z_1}, ..., e^{z_n}) has transcendence degree at least n over ℚ. The statement takes `z : Fin n → ℂ` with `LinearIndependent ℚ z` (which forces the z_i distinct), forms the intermediate field `adjoin ℚ (range z ∪ range (cexp ∘ z))` of ℂ over ℚ, and asserts n <= its `Algebra.trdeg ℚ` (a cardinal). This is exactly the conjecture."
+    }
+]

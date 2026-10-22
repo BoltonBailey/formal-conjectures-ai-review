@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States Eisenstein's theorem (1852) as described on Litt's problem page (problemsilike.com/1: Eisenstein 'proved that Taylor expansions of algebraic functions lie in Z[1/N][[z]]') and in Lam-Litt (arXiv:2501.13175): a power series f ∈ ℚ[[z]] that is algebraic over ℚ[z] has all coefficients in Z[1/N] for some N. `IsAlgebraic (Polynomial ℚ) f` uses Mathlib's canonical algebra structure ℚ[X] → ℚ⟦X⟧ (the coercion of polynomials to power series). Algebraicity over ℚ[z] is equivalent to algebraicity over ℚ(z) after clearing denominators. `ℤAdjoinInvNat N` = Z[1/N] as a subalgebra of ℚ, and `IsCoeffIntegralAdjointInvNat f N` requires every coefficient to lie in it. The degenerate choice N = 0 gives Z[1/0] = Z (since 1/0 = 0 in ℚ), which only makes the conclusion stronger, so it adds no junk solution. The statement is true and faithful. The `research solved` tag fits a classical theorem (arguably it could be `textbook`, but that is not a faithfulness issue)."
+    }
+]

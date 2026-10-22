@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia's 'Gauss circle problem': Hardy and Landau independently showed E(r) ≠ o(r^{1/2} (log r)^{1/4}), where N(r) = πr^2 + E(r) counts integer points with m^2 + n^2 <= r^2. `N r` counts pairs (m, n) ∈ ℤ² whose image lies in the closed Euclidean ball of radius r, `E r = N r - π r^2`, and the statement is `¬ E =o[atTop] (fun r ↦ √r · √(√(log r)))`, where √√(log r) = (log r)^{1/4}. This matches the cited result exactly."
+    }
+]

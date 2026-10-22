@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A108129 (Riesel problem: for k = 2n-1, a(n) = smallest m >= 1 with k·2^m - 1 prime, or -1 if none; offset 1) and its comment 'It is conjectured that the integer k = 509203 is the smallest Riesel number, that is, the first n such that a(n) = -1 is 254602.' The Lean `a` uses `Nat.find` on {m ≠ 0 : (2n-1)·2^m - 1 prime} and returns -1 otherwise (n = 0 is junk); truncated subtraction is harmless for n >= 1, and the test values 2, 1, 2, 1 match the data. The statement says a(254602) = -1 (k = 2·254602 - 1 = 509203) and a(n) ≠ -1 for 1 <= n < 254602, exactly 'the first n with a(n) = -1 is 254602'. The first conjunct is the known Browkin–Schinzel/Riesel result; the open content is the second."
+    }
+]

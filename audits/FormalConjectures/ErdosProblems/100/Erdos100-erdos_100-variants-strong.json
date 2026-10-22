@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/100: n points in ℝ² with all pairwise distances at least 1, such that distinct distances differ by at least 1; 'Perhaps the diameter is even >= n - 1 for sufficiently large n.' `DistancesSeparated A` quantifies over all quadruples of points of A including coincident pairs, so comparing a distance with the zero distance dist p p forces every nonzero pairwise distance to be >= 1; it therefore encodes both of the source's hypotheses. The statement says that for all sufficiently large n, every n-point set with this property has `diam ≥ n - 1`, which is exactly the stronger conjecture; the open tag matches the page."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 4 of Ben Green's '100 open problems' (p. 4): '(Solved) What is the largest product-free set in the alternating group A_n?', with the 2022 update that Keevash, Lifshitz and Minzer solved it (with a stability result). `ProdFree S` says x, y ∈ S implies x * y ∉ S, the standard notion, and `MaximalFor ProdFree Set.ncard (green_4.answer n)` says the answer set is product-free and no product-free set has larger cardinality, i.e. it is a maximum-size product-free subset of A_n; this is the `@[question value]` pattern. Tag note: Green marks the problem solved, but Keevash–Lifshitz–Minzer's characterisation is for large n, which the file states separately as `large_green_4` (research solved); keeping the all-n question open is defensible. The statement is faithful."
+    }
+]

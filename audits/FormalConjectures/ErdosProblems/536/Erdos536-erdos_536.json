@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/536: with f(N) the largest size of A ⊆ {1, ..., N} containing no distinct a, b, c with [a, b] = [b, c] = [a, c] (lcm), is f(N) = o(N)? The statement says that for every ε > 0, for all large N, every A ⊆ [1, N] with |A| >= εN contains a, b, c with #{a, b, c} = 3 (pairwise distinct) and lcm(a, b) = lcm(b, c) = lcm(a, c), which is exactly f(N) = o(N). The `question` attribute with the positive statement follows the upstream convention. Faithful; open."
+    }
+]

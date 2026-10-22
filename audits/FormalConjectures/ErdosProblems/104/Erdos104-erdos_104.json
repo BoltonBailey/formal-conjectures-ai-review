@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/104: 'Given n points in ℝ² the number of distinct unit circles containing at least three points is o(n²).' `unitCircleCount P` counts spheres (center, radius) in ℝ² with radius 1 containing at least three points of P; this set is finite (each such circle is determined by two of its points, at most two circles per pair), so `ncard` is the true count. `maxUnitCircleCount n` is the sSup over n-point configurations of a set bounded by about n(n-1)/3, hence a true maximum. The statement that this maximum is o(n²) is exactly the conjecture, and the open tag matches the page."
+    }
+]

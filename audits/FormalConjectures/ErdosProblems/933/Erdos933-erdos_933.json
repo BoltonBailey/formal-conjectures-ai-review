@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/933: 'If n(n+1) = 2^k 3^l m, where (m, 6) = 1, then is it true that limsup_{n→∞} 2^k 3^l / (n log n) = ∞?' `k n` and `l n` are the 2-adic and 3-adic valuations of n(n+1), so 2^k 3^l is the {2,3}-part. The statement asserts the limsup along atTop, taken in EReal, of 2^k 3^l / (n log n) is ⊤, which is exactly the question; junk values at n = 0, 1 (log = 0, division by zero = 0) do not affect a limsup. The `question` attribute with the positive statement follows the upstream convention, and the open tag matches the page."
+    }
+]

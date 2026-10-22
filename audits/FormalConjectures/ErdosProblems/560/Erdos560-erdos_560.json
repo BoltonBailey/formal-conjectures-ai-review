@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/560: 'Let R̂(G) denote the size Ramsey number, the minimal number of edges m such that there is a graph H with m edges such that in any 2-colouring of the edges of H there is a monochromatic copy of G. Determine R̂(K_{n,n}).' `sizeRamsey G H` (FormalConjecturesForMathlib, SizeRamsey.lean) is the infimum of edge counts of graphs F on some `Fin n` such that every red subgraph R ≤ F contains G or its complement F \\ R contains H, with `IsContained` meaning a (not necessarily induced) copy; with G = H = K_{n,n} this is the diagonal size Ramsey number. The set is nonempty by Ramsey's theorem (a large complete graph works), so `sInf` is the true minimum. The statement uses the `@[question value]` pattern `erdos_560.answer = fun n ↦ r̂(n)`, as the upstream conventions prescribe for 'Determine' questions; the open tag matches the page, which lists only bounds."
+    }
+]

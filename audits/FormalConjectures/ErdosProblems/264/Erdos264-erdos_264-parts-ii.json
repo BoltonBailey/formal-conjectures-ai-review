@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/264: a sequence of positive integers a_n such that for every bounded integer sequence b_n with a_n + b_n ≠ 0 and b_n ≠ 0 the sum Σ 1/(a_n + b_n) is irrational; 'Are a_n = 2^n or a_n = n! examples?' (2^n was refuted by Kovač–Tao; n! is open). `IsIrrationalitySequence` quantifies over b : ℕ → ℤ bounded above and below, with a_n + b_n ≠ 0 and b_n ≠ 0 for all n, and asks that the real series be irrational; for a_n = n! the terms are O(1/n!), so the series is summable and `tsum` is the genuine sum. Lean indexes `Nat.factorial` from n = 0, adding a term 1/(1 + b_0); since that term is rational and b_0 is a free bounded integer, irrationality is unaffected and the statement is equivalent to the n >= 1 version. Per the `@[question]` convention the open yes/no question is stated positively."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/525, which reports that Konyagin and Schlag [KoSc99] proved limsup_{n→∞} P(m(f) <= ε n^{-1/2}) ≪ ε for any ε > 0, where f is a uniformly random degree-n polynomial with ±1 coefficients and m(f) = min_{|z|=1} |f(z)|. `eval ε z` is Σ_{j<=n} ε_j z^j with ε_j ∈ ℤˣ = {±1} (n + 1 coefficients, degree n), `m` is the infimum of |f| over the unit circle (attained, by compactness), and `prob n P` is the proportion of the 2^{n+1} sign patterns satisfying P. The statement gives one constant C such that for every ε > 0 the (real, bounded) limsup of P(m(f) <= ε/√n) is at most Cε, the uniform-in-ε meaning of ≪. Faithful."
+    }
+]

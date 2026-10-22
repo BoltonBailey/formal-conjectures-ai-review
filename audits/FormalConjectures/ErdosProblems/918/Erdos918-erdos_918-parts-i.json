@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/918: 'Is there a graph with aleph_2 vertices and chromatic number aleph_2 such that every subgraph on aleph_1 vertices has chromatic number <= aleph_0?' The statement asserts the existence of `V : Type u` and `G : SimpleGraph V` with `#V = ℵ_ 2`, `G.chromaticCardinal = ℵ_ 2`, and `(G.induce W).chromaticCardinal ≤ ℵ₀` for every `W : Set V` with `#W = ℵ₁`. `chromaticCardinal` (FormalConjecturesForMathlib) is the infimum of cardinalities of colour types admitting a proper colouring, which is the usual infinite chromatic number. Reading 'subgraph' as induced subgraph follows [ErHa68b] per the file's note, and the file correctly observes (variants.all_subgraphs.parts.i) that for the '<= aleph_0' condition the two readings are equivalent, since chromatic number is monotone under taking subgraphs. Per formal-conjectures' convention for `@[question]`, a yes/no question is stated as the proposition asked about, so the bare existential is the expected form. Universe polymorphism in `u` is harmless as aleph_2 exists in every universe."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/1063: n_k is the least n >= 2k such that n - i divides C(n, k) for all but one 0 <= i < k; 'Estimate n_k', with Cambie's bound n_k <= k·lcm(1, ..., k-1) <= e^{(1+o(1))k}. `n k` is the sInf of m >= 2k with exactly one exceptional i0 < k (small values n_2..n_5 = 4, 6, 9, 12 are proved in the file, matching the page). This `question value` declaration asks for an answer function A with n_k = O(A) and A = o(k·lcm(1..k-1)), i.e. a strictly better upper bound than Cambie's; the docstring correctly explains the ℕ-then-cast placement of lcm. The formalisation is reasonable, but its status is inconsistent: the same file's `erdos_1063.variants.subexponential_upper_bound` (tagged research solved, with a linked Lean proof by the LEAP agent) supplies exactly such an A, so the `research open` tag on this declaration appears stale. Either retag it as solved with that answer, or reformulate it to ask for the true order of n_k (the genuinely open part of 'Estimate n_k')."
+    }
+]

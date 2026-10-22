@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A303656 (number of ways to write n = a^2 + b^2 + 3^c + 5^d with a, b, c, d nonnegative integers, a <= b) and Zhi-Wei Sun's comment 'Conjecture: a(n) > 0 for all n > 1. In other words, any integer n > 1 can be written as the sum of two squares, a power of 3 and a power of 5' ($3500 prize; verified to 2.4·10^11). The predicate `A n` is the existence of naturals a, b, c, d with n = a^2 + b^2 + 3^c + 5^d; the ordering a <= b in the OEIS count does not affect existence. The statement `1 < n → A n` is exactly the conjecture (n = 1 is excluded since 3^c + 5^d >= 2), and the test witnesses check out."
+    }
+]

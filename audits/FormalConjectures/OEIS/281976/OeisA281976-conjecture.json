@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A281976, whose conjecture is a(n) > 0 for all n = 0, 1, 2, ..., where a(n) counts ways to write n = x^2 + y^2 + z^2 + w^2 with x, y, z, w nonnegative integers, z <= w, and both x and x + 24y squares. The predicate `A n` quantifies over natural x, y, z, w with exactly these conditions (`IsSquare x`, `IsSquare (x + 24 * y)`, `z ≤ w`), and `conjecture` asserts `A n` for every `n : ℕ`, matching the range n >= 0. The test witnesses (e.g. 12 = 1 + 1 + 1 + 9 with 1 + 24 = 25, 23 = 1 + 4 + 9 + 9 with 1 + 48 = 49) are consistent with the definition. The second half of Sun's conjecture in OEIS (a(n) = 1 only for n = 0 and 16^k m for listed m) is not formalized, but the docstring only claims the existence statement, so this is not a discrepancy."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the weak Birch and Swinnerton-Dyer conjecture (Clay problem; Tate 1966, Conjecture A; Gross 2011, Conjecture 2.10): for an elliptic curve E over ℚ, L(E, s) has order of vanishing at s = 1 equal to the rank of E(ℚ). `Weak ℚ` quantifies over Weierstrass curves with `IsElliptic`, assumes E(ℚ) finitely generated (Mordell–Weil, so it costs nothing) and any meromorphic L on ℂ agreeing with `E.LSeries` on Re s > 3/2, and asserts `meromorphicOrderAt L 1 = freeRank E(ℚ)`. Mathlib's `WeierstrassCurve.LSeries` (pinned revision 0df444a) is the Euler product over primes of the minimal model's local factors (1 - a_p T + p T^2 for good reduction, 1 ∓ T for split/non-split multiplicative, 1 for additive) at T = p^{-s}, normalised so the centre is s = 1. The order at 1 depends only on the germ, and is determined by the agreement region via the identity theorem, so the choice of continuation is immaterial; over ℚ a continuation exists by modularity, so the statement is not vacuous. Faithful."
+    }
+]

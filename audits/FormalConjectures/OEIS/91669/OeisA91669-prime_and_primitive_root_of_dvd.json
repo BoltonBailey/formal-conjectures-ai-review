@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A091669 (a(n) = (2^(n-1)/n!) * Product_{k=1..n-1} (2^k-1), offset 1) and the Eldar–Ordowski comment: 'Conjecture: (for n > 2), if n | a(n-1) + 2^(n-2), then n is a prime (A001122)', where A001122 is the primes with primitive root 2. The Lean `a` computes the numerator in ℕ (2^k - 1 ≥ 1 for k ≥ 1, so truncated subtraction is harmless) and divides by n!, which is exact since the terms are integers; the test values 1, 1, 2, 7, 42 match the OEIS data, and the n = 0 junk value is never used because n > 2. The conclusion `Nat.Prime n ∧ IsPrimitiveRoot (2 : ZMod n) (Nat.totient n)` says n is prime and 2 has multiplicative order φ(n) = n - 1 mod n, i.e. n ∈ A001122. The solved tag is supported by Ralf Stephan's OEIS comment citing the Lean proof."
+    }
+]

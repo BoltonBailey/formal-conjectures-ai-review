@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/213: n points in ℝ², no three on a line and no four on a circle, with all pairwise distances integers; 'The best construction to date, due to Kreisel and Kurz [KK08], has n = 7.' `Erdos213For n` asks for a finite S ⊆ ℝ² with |S| = n, `NonTrilinear S`, no 4-subset `Cospherical` (in the plane: concyclic; four distinct collinear points are never cospherical, so this is exactly 'no four on a circle'), and all pairwise distances in the image of ℤ. The variant asserts `Erdos213For 7`, the Kreisel–Kurz construction. Faithful."
+    }
+]

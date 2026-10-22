@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Kotzig's conjecture as cited by Rosa (1967): for every tree T with n edges, K_{2n+1} decomposes into 2n+1 edge-disjoint copies of T obtained by cyclically shifting one embedding. The statement gives embeddings f_i : V ↪ Fin (2n+1) with f_i(v) = f_0(v) + i (addition in Fin (2n+1), i.e. mod 2n+1), pairwise edge-disjoint images T.map (f i), and union equal to the complete graph on Fin (2n+1). This is exactly a cyclic decomposition (edge counts match: (2n+1)·n = C(2n+1, 2)). V is finite and a tree is nonempty, so the hypotheses are the intended ones. Faithful; open."
+    }
+]

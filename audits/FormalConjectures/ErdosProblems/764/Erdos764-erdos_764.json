@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/764: 'Let A ⊆ ℕ. Can there exist some constant c > 0 such that Σ_{n≤N} 1_A∗1_A∗1_A(n) = cN + O(1)?', answered no by Vaughan [Va72] in a stronger form. `tripleRep A` is `𝟙_A ∗ 𝟙_A ∗ 𝟙_A`, where `∗` (FormalConjecturesForMathlib, Additive/Convolution.lean) is the Cauchy product over the antidiagonal, so it counts ordered triples. The statement negates the existence of A and c > 0 with (Σ_{n ∈ range (N+1)} tripleRep A n) - cN = O(1), i.e. the sum over n ≤ N; this is the stated 'no' answer, consistent with the `@[question]` convention for answered questions. Allowing 0 ∈ A only enlarges the class of sets ruled out, and Vaughan's generating-function argument covers it (a Lean proof is linked)."
+    }
+]

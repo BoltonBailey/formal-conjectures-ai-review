@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the second part of the question on erdosproblems.com/1109: 'is it true that f(N) <= N^{o(1)}, or even f(N) <= (log N)^{O(1)}?' `f N` is the sSup of sizes of A ⊆ {1,...,N} with every element of A+A squarefree. The set is nonempty (A = ∅) and bounded by N, so sSup is the true maximum. The statement ∃ C > 0, f(N) = O((log N)^C) (IsBigO along atTop on ℕ, via the project's `≪` notation) is the standard reading of f(N) <= (log N)^{O(1)}. The values at N = 0, 1, where log N = 0, don't matter for an eventual bound, and log N >= 0 for natural N, so the real power behaves correctly. Following the formal-conjectures convention for `@[question]`, the yes/no question is stated as the proposition asked about. `research open` matches the site: the best known upper bound is Konyagin's N^{11/15+o(1)}."
+    }
+]

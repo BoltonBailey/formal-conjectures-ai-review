@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/849 (Singmaster's conjecture as posed by Erdős–Gordon): 'Is it true that, for every integer t >= 1, there is some integer a such that C(n,k) = a with 1 <= k <= n/2 has exactly t solutions?' The Lean set counts n for which some k with 1 <= k and 2k <= n has C(n,k) = a. Counting n instead of pairs (n,k) is equivalent because C(n,k) is strictly increasing in k on [1, n/2], so each n contributes at most one k. The set is finite (C(n,k) >= n there, so n <= a), so `ncard` is the true count; e.g. a = 120 gives n ∈ {120, 16, 10}, t = 3, matching the page. The question form with the positive statement follows the upstream convention, and the open tag matches the page (both Erdős and Singmaster expected the answer no)."
+    }
+]

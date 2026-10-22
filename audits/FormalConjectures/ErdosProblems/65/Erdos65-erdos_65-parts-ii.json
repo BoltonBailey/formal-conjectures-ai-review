@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/65 (Erdős–Hajnal): for G with n vertices and kn edges and a_1 < a_2 < ... its cycle lengths, 'Is the sum Σ 1/a_i minimised when G is a complete bipartite graph?' (open). The statement says that for real k > 0, any finite G on n > 0 vertices with kn edges, and any complete bipartite graph K_{A,B} with the same n and kn edges, the sum of reciprocals over K_{A,B}'s distinct cycle lengths is at most that over G's. `cycleLengths` is a set of lengths, so the sum is over distinct lengths a_1 < a_2 < ..., as in the source (finsum over a finite set). Comparing only against complete bipartite graphs with matching parameters is the natural reading of 'minimised when G is complete bipartite'. Faithful; open. (The erdosproblems page notes forthcoming work about the sum being maximised for complete bipartite graphs, an apparent tension in the source itself, not in this formalisation.)"
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A108306 (offset 0: 1, 6, 21, 81, 306, ...; G.f. (3x+1)/(1-3x-3x^2)) and Gary W. Adamson's 2016 comment that the terms are the upper-left entries of powers of [(1,5); (1,2)]. `a` follows the recurrence a(0)=1, a(1)=6, a(n)=3a(n-1)+3a(n-2), which matches the data. The theorem says a(n) = (M^(n+1))_{0,0} with M = [(1,5); (1,2)]. The index shift is correct: M^1_{00}=1, M^2 = [(6,15); (3,9)] gives 6, and M^3_{00}=21. It also holds in general, because M^2 = 3M + 3I (trace 3, determinant -3), so the entries of the powers satisfy the same recurrence. The OEIS comment does not fix an indexing, and n+1 is the indexing that fits offset 0. The INVERT-transform half of the docstring is not part of this statement, but that does not affect correctness. The `textbook` category fits, and a proof is already given."
+    }
+]

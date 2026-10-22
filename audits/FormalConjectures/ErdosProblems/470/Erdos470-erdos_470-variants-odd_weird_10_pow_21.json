@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/470 (weird: σ(n) >= 2n and not pseudoperfect) and its note that Fang [Fa22] showed there are no odd weird numbers below 10^21. The statement says every odd n < 10^21 is not `Nat.Weird`. Mathlib's `Nat.Weird` is `Abundant ∧ ¬Pseudoperfect` with strict abundance (sum of proper divisors > n, i.e. σ(n) > 2n); this agrees with the source's σ(n) >= 2n because perfect numbers are pseudoperfect (the full set of proper divisors sums to n) and hence never weird. `Pseudoperfect` uses subsets of proper divisors, which is the intended reading of 'sum of any set of its divisors'. The bound 10^21 matches the cited result."
+    }
+]

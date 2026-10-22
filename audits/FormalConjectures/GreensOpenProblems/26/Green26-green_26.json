@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green, '100 open problems', Problem 26: 'Let A1,...,A100 be cubes in F_3^n, that is to say images of {0,1}^n under a linear automorphism of F_3^n. Is it true that A1+...+A100 = F_3^n?' (marked Solved; Update 2025 says Yang Yu solved it with 100 replaced by 4). The formal statement quantifies over all n, all families A : Fin 100 -> Set (F_3^n) with each A i = phi '' {x | each coordinate is 0 or 1} for a ZMod 3-linear automorphism phi, and asserts the pointwise Finset sum is univ. This matches the source exactly; n = 0 is trivially true and harmless. The 'research solved' tag is supported by the 4-cube result of Yu, which implies the 100-cube statement (adding further cubes, each containing 0, keeps the sum equal to univ). The source phrases it as a question but it is the JLPT conjecture with answer yes, so omitting the question tag is fine."
+    }
+]

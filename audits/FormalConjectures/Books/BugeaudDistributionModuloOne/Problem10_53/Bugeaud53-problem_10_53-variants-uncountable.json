@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Temur [Tem26, arXiv:2609.16362], which quotes Bugeaud's Problem 10.53 ('There is an irrational real number ξ such that E(ξ) < log 2 and E(ξ,b) < log b for some integer b >= 2 (respectively, for every integer b >= 2)') and states that uncountably many such numbers exist, by Broderick–Bugeaud–Fishman–Kleinbock–Weiss applied to the Gauss–Cantor set {[0; 1, a_1, 1, a_2, ...] : a_j ∈ {1, 2}} (positive Hausdorff dimension ≈ 0.3057). The paper defines p(n, ξ) as the number of length-n blocks of partial quotients c_1 c_2 ... and E(ξ) = lim log p(n, ξ)/n, and similarly for base-b digits. In the Lean, `partQuot` indexes c_1, c_2, ... from 0, `NormalNumber.digitSeq b ξ n` is the (n+1)-th base-b digit of the fractional part, and `blockEntropy` is limsup of log(block count)/n in EReal (equal to the limit by subadditivity, and ⊤ for infinitely many symbols). The statement says the set of irrational ξ with E(ξ) < log 2 and E(ξ, b) < log b for every b >= 2 is not countable, which is the cited consequence."
+    }
+]

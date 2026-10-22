@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/898 and Wikipedia's 'Erdős–Mordell inequality': for a triangle ABC and an interior point P, with N, M, L the feet of the perpendiculars from P to AB, BC, CA, PA + PB + PC >= 2(PM + PN + PL) (Erdős 1932, proved by Mordell). The statement takes affinely independent A, B, C, P in the interior of their convex hull, N on line AB with line PN perpendicular to AB (P ∉ AB, so N ≠ P and N is the foot), and similarly M, L, and concludes the inequality. Using feet on the side lines is the standard Erdős–Mordell inequality; the page's phrase 'meets the triangle' is the usual informal description. Faithful; a Lean proof is linked."
+    }
+]

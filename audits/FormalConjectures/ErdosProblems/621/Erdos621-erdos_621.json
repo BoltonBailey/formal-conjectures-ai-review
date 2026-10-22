@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/621: α_1(G) is the maximum number of edges containing at most one edge from every triangle, τ_1(G) is the minimum number of edges containing at least one edge from every triangle, and the question α_1(G) + τ_1(G) <= n^2/4 was answered yes by Norin and Sun [NoSu16]. The statement takes a = max |A| over A ⊆ E(G) meeting each triangle {xy, yz, xz} in at most one edge (via `IsGreatest`) and t = min |T| over T ⊆ E(G) meeting every triangle (via `IsLeast`), and concludes 4(a + t) <= n^2, the source inequality multiplied by 4 to stay in ℕ. Both sets are nonempty and finite (∅ and E(G) witness them), so the IsGreatest/IsLeast hypotheses always pick the true values. The solved tag matches."
+    }
+]

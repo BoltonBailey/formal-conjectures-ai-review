@@ -1,0 +1,42 @@
+name: Update top issues
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "audits/**"
+      - "models.json"
+      - "scripts/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: top-issues
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 scripts/validate_audits.py
+      # Commit history only (no file contents), for looking up the dates of audited commits.
+      - run: git clone --bare --filter=blob:none https://github.com/google-deepmind/formal-conjectures "$RUNNER_TEMP/formal-conjectures"
+      - run: python3 scripts/top_issues.py --upstream "$RUNNER_TEMP/formal-conjectures" -o top_issues.md
+      - name: Commit if changed
+        run: |
+          git add top_issues.md
+          if git diff --cached --quiet; then
+            echo "top_issues.md is up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update top_issues.md"
+          git pull --rebase
+          git push

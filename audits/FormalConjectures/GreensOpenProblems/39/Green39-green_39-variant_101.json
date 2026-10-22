@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 39 of Ben Green's '100 open problems' (p. 20): 'If A ⊂ Z/pZ is random, |A| = √p, can we almost surely cover Z/pZ with 100√p translates of A?', with the comment 'I do not know how to answer this even with 100 replaced by 1.01.' `proportionCoverable p k c` is the fraction of k-subsets A of ZMod p admitting T with |T| <= c and A + T = ZMod p (uniform random k-subset), and the variant asks that, with k = ⌊√p⌋ and c = ⌊1.01k⌋, this fraction tends to 1 as p → ∞ through primes. This is the 'almost surely' (with probability → 1) reading. It is not trivially false by counting: k·c ≈ 1.01p - O(√p) > p for large p. The test values (e.g. proportionCoverable 7 4 2 = 3/5) sanity-check the definition. Faithful; open."
+    }
+]

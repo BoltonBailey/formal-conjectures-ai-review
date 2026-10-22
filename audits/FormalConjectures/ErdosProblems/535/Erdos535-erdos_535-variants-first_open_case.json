@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/535: for r >= 3, f_r(N) is the size of the largest subset of {1, ..., N} with no r-element subset whose elements all have the same pairwise gcd; Erdős proved f_r(N) > N^{c_r/log log N} and conjectured this is also an upper bound (sunflower-based bounds currently give N^{C_r log log log N / log log N}). The Lean `f r N` is the sSup over subsets of [1, N] with no r-subset S having a common value d for all pairwise gcds, matching the definition (the set of sizes is bounded by N and contains 0, so sSup is a true maximum). The variant states the conjectured upper bound for r = 3: some c > 0 with f_3(N) <= N^{c / log log N} for all large N. This is the r = 3 instance of the conjecture and is open per the page."
+    }
+]

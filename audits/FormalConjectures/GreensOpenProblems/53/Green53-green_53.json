@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 53 of Ben Green's '100 open problems' (p. 26): 'Suppose that F_2^n is partitioned in to sets A_1, ..., A_K. Does 2A_i contain a coset of codimension O_K(1) for some i?' The statement gives a function c : ℕ → ℕ such that for all n, K and every partition (covering, pairwise disjoint; empty parts allowed, which is harmless) of 𝔽₂ n into K parts, some A_i + A_i contains an affine subspace S with n <= dim(direction S) + c K, i.e. codim S <= c(K). Cosets of subspaces of F_2^n are exactly the nonempty affine subspaces; the empty affine subspace could only satisfy the bound when n <= c(K), in which case a single point of the nonempty set A_i + A_i already works, so it adds nothing. 2A_i is the sumset A_i + A_i (pointwise), as in the source. The open tag matches the PDF, which notes the problem is unknown even for K = 3."
+    }
+]

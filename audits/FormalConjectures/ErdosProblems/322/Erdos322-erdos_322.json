@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/322: for k >= 3 and A the set of k-th powers, does there exist c > 0 such that 1_A^{(k)}(n) > n^c for infinitely many n? (Mahler: yes for k = 3 with c = 1/12; open for k >= 4.) `representationCount k n` counts ordered k-tuples of positive integers (bases <= n suffice) with Σ x_i^k = n, which is 1_A^{(k)}(n) with A the positive k-th powers. Ordered and unordered counts differ by at most a factor k!, irrelevant for an n^c bound. The statement asks, for every k >= 3, for c > 0 with infinitely many n exceeding n^c, the question for all k simultaneously. Faithful; open."
+    }
+]

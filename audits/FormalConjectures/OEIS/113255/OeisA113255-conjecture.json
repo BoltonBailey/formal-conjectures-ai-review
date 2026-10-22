@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e750f777b32aeae464c01809e0d223dd62e99fab",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A113255 (the m = 9 member of the family a(n) = m^4 a(n-4) + (2m)^2 a(n-3) - 4a(n-1), a(0) = -1, a(1) = 4, a(2) = -13 + 6(m-1) + 3(m-1)^2, a(3) = (m^2 - 8)^2) and the conjecture that a(m, 2n+1) is a perfect square for all m, n. The Lean recurrence a(n+4) = -4a(n+3) + 324a(n+1) + 6561a(n) matches with (2·9)^2 = 324 and 9^4 = 6561, and the initial values -1, 4, 227 (= -13 + 48 + 192), 5329 (= 73^2) match; a(4) = -26581 agrees with the data. The statement ∀ n, IsSquare (a (2n+1)) is the m = 9 specialisation (a(1) = 4, a(3) = 73^2, a(5) = 206116 = 454^2). Faithful; a Lean proof of the family statement is linked."
+    }
+]
