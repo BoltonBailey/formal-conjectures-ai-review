@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia's minimum overlap problem table: M(n) > (4 − 15^{1/2})^{1/2} n (Haugland, 1996). The statement is this constant < liminf M(N)/N, strict because White's 0.379005 is larger. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/12, first question: is there such an A with liminf |A ∩ {1,…,N}|/N^{1/2} > 0? `IsGood` matches the page. The liminf is real-valued, so a set whose ratio tends to +∞ gets Lean's junk value `liminf = 0` and does not witness the statement, though it would witness the intended one. This does not change the answer: a good set's infinite subsets are good, and thinning a dense example gives ratio bounded away from 0 and ∞; the page records the answer as yes, and a formal proof is linked. Minor edge case only; the statement is correct in substance."
+    }
+]

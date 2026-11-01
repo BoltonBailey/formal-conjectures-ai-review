@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/17: are there infinitely many primes p such that every even n ≤ p − 3 is a difference q_1 − q_2 of primes q_1, q_2 ≤ p? `IsClusterPrime` encodes this with the comparison and difference taken in ℤ, which avoids truncation problems at small p. The test in the file confirms 97 as the first non-cluster prime, matching the page. Faithful."
+    }
+]

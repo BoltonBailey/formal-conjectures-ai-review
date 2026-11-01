@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/5: at least 1/3 of [0,∞) lies in S. The statement λ(S ∩ [0,T]) ≥ T/3 for all T > 0 is the precise form of that claim per the docstring's Corollary 2; `ENNReal.ofReal` is correct for positive T. The uniformity in T was not checked against the paper. Faithful to the page."
+    }
+]

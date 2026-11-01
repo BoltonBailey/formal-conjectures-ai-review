@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/45: for k ≥ 2, is there n_k such that for any k-colouring of D = {1 < d < n_k : d ∣ n_k} there is a monochromatic D' ⊆ D with Σ 1/d = 1? The statement colours all of ℕ by Fin k, which restricts to any colouring of D and so is equivalent, and it asks for a monochromatic D' inside the proper divisors greater than 1 with `reciprocalSum` 1. Follows from Croot, as on the page. Faithful."
+    }
+]

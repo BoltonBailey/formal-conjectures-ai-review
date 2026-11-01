@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/24: does every triangle-free graph on 5n vertices contain at most n^5 copies of C_5? The page records the answer as yes (Grzesik; Hatami et al.). The statement uses Mathlib's `copyCount`, the number of unlabelled subgraph copies of `cycleGraph 5`, which is the right count: the balanced C_5 blow-up has exactly n^5 such cycles. The vertex set is Fin (5n), and n = 0 is trivial. Faithful."
+    }
+]

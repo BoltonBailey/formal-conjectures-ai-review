@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia's minimum overlap problem table: M(n) < (1+o(1))·0.382002…·n (Haugland, 1996). The statement uses the full decimal 0.38200298812318988 in limsup M(N)/N ≤ that value. Wikipedia truncates the decimal, so the trailing digits were not checked there, but this is the same bound. Faithful."
+    }
+]

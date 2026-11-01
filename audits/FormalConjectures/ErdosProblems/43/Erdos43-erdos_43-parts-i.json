@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/43, first question: for Sidon A, B ⊂ {1,…,N} with (A−A) ∩ (B−B) = {0}, is C(|A|,2) + C(|B|,2) ≤ C(f(N),2) + O(1)? The page gives a negative answer following from problem 42. The statement negates ∃ C, for large N, all such A, B satisfy the bound. Truncated ℕ differences on Finset still determine the symmetric difference sets, and the intersection = {0} forces both sets nonempty, which only excludes trivial cases. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia's minimum overlap problem table, which the file cites: Świerczkowski's bound (4 − √6)/5. The statement is (4 − 6^{1/2})/5 < liminf M(N)/N, strict because later bounds are larger. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The case A empty is implied by Singer's construction, cited on erdosproblems.com/30 as h(N) ≥ (1 − o(1))N^{1/2}. The statement is ∀ ε > 0, for large M, ∃ Sidon A ⊆ {1,…,M} with (1−ε)√M ≤ |A|. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/13: for A ⊆ {1,…,N} with no a, b, c ∈ A such that a ∣ (b+c) and a < min(b,c), is |A| ≤ N/3 + O(1)? `IsForbiddenTripleFree` is this condition and, like the page, does not require b ≠ c. The statement gives one constant C for all N and A. The page records the answer as yes (Bedert). Faithful."
+    }
+]

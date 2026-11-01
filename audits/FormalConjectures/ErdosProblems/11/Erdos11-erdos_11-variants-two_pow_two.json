@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/11: Erdős thought proving this with two powers of 2 is perhaps easy. The statement takes odd n > 1 and n = k + 2^l + 2^m. The page does not state a range; n = 3 = 1 + 1 + 1 works, so the range causes no vacuous failure. Faithful."
+    }
+]

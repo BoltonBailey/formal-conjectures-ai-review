@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/30: Singer showed h(N) ≥ (1 − o(1))N^{1/2}. The statement is ∀ ε > 0, for large N, (1 − ε)√N ≤ h N. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The page says Merikoski showed at least 1/3 of [0,∞) lies in S. The docstring gives Theorem 1 of [Me20]: for reals β_1 ≤ … ≤ β_4, some difference with i < j lies in S; the Lean statement encodes that on Fin 4. It matches my recollection, but I did not read the paper here, so the exact form is unverified."
+    }
+]
