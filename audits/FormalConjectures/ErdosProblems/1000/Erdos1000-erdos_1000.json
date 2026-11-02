@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Compared with erdosproblems.com/1000, whose definition is that m/n_k 'does not have denominator n_j for j<k when written in lowest form; equivalently, n_k/(m,n_k)≠n_j'. Discrepancy: phiSeq instead requires n_k/(m,n_k) ∤ n_j, and the docstring states this divisibility as the page's equivalent form. These differ: for A={2,3,6} at n_k=6, m=6 has reduced denominator 1, which divides 2 but is not in A, so it counts on the page but not in Lean. Lean's count is therefore at most the page's, so a sequence with average →0 under the page's definition also works here, but not conversely a priori. The divisibility form is plausibly Cassels' intended 'new fractions' notion, but I could not read [Ca50b] or [Ha]. The rest (strictly increasing positive sequence, Cesàro average →0, existence claim) matches."
+    }
+]

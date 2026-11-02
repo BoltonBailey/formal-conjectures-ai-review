@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API fact supporting Conjecture 4 of arXiv:2607.06396: a cycle in a simple graph has length at least 3. Correct and proved in the file. Its truth relies on the simple-graph specialization, since multigraphs have 2-cycles."
+    }
+]

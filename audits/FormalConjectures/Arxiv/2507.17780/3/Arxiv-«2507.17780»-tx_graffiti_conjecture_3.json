@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches Conjecture 3 of Davila–Brimkov–Pepper (arXiv 2507.17780): if G is r-regular with r > 0 then i(G) <= μ*(G). `indepDominationNumber` is the minimum size of an independent dominating set, which is a maximal independent set as in the paper, and `saturationNumber` is the minimum size of a maximal matching. The `research open` tag is consistent with a search I ran: arXiv 2608.22498 describes the conjecture as open for every Δ >= 3, and random tests of 2340 r-regular graphs (r = 3 to 6, n up to 24) found no violation. Faithful."
+    }
+]

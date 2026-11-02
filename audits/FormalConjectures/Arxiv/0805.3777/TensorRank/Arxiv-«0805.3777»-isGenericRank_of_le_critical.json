@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement matches Friedland (arXiv 0805.3777) Conjecture 5.1 exactly: 3 <= m1 <= m2 <= m3 <= (m1-1)(m2-1), excluding (3,2p+1,2p+1), with grank = ceil(m1 m2 m3/(m1+m2+m3-2)); also BFZ24 (arXiv 1912.06854v4) Conjecture 4.12. The documentation issue is the docstring's claim that the conjecture 'is known for m1 <= 4' citing BFZ24 Section 4.5. That section lists only (3,n,n), (4,n,n) and (n,n,n), which is narrower than all formats with m1 <= 4. The formal statement is unaffected."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Dixmier's Problem 1 for A_1, as described in arXiv:math/0608009: every endomorphism of the first Weyl algebra over a char-0 field is an automorphism. The original Dixmier 1968 paper was not read; I relied on arXiv:math/0608009 for its content. The Lean statement is for every char-0 K (implicit variable), as AvdE and the conjecture have it. Faithful, and reported open."
+    }
+]

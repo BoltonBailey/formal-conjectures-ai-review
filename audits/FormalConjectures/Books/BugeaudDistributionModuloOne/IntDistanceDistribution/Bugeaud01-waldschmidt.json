@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Cambridge Chapter 10 page records Waldschmidt's conjecture ‖eⁿ‖>n^{-c} for some c>0. Lean restricts to n≥2, as the docstring explains: at n=1 the right side is 1 while ‖e‖≤1/2, so the source's statement can only be meant from n=2. Correct adaptation."
+    }
+]

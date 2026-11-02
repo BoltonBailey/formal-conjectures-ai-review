@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Matches the file's own intermediate-growth reading, and is proved from exists_dense_of_growth. Documentation point: it is labelled as a variant of Problem 10.6, but the docstring itself says this reading has no content and is not the problem's intended meaning. Bugeaud's text is paywalled, so I compared with Katz arXiv:1607.00670's discussion of sparse universally densifying sequences. Statement is correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Follows from DC_3⇒JC_3 (Theorem 7 of arXiv:math/0608009, BCW82) and the failure of JC_3 via the non-injective map F with Jacobian -2 in Wikipedia/JacobianConjecture.lean. F is defined over ℤ, so the conclusion holds for every char-0 K. Faithful."
+    }
+]

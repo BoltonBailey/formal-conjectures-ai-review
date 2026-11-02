@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Matches the Amdeberhan-Medina-Moll conjecture as quoted in arXiv:2607.05739: 'If n ≥ 5, then x_n is not an integer.' Z_n=∏(1+ik)=A_n+iB_n and x_n=B_n/A_n as in the paper, and A∣B is integrality of x_n. The docstring's A_n=0 concern is vacuous: mod 3 the factors cycle with (1+i)(1+2i)(1)≡-1, so Z_n mod 3 is ±1 or ±(1+i), and A_n is never 0 (the docstring only claims n≤3000). Minor documentation issue: @[question] is on a conjecture, and upstream CONTRIBUTING's Goldbach example says such a statement should not be tagged."
+    }
+]

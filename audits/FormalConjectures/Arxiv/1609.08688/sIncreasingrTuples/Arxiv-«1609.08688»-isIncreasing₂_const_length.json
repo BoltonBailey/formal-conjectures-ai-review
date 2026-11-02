@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma with a Lean proof: a 2-increasing sequence (Definition 1.2 of Gowers–Long (arXiv 1609.08688)) of constant triples has at most one element, because of strictness. Faithful."
+    }
+]

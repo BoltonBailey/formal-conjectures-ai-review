@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Koksma's metric theorem as summarized in reviews of Bugeaud's book on the Cambridge and MAA pages: for all α>1 and almost all ξ, (ξαⁿ) is uniformly distributed modulo 1. Index from n≥1 is harmless, and the quantifier order (fixed α, a.e. ξ) is correct."
+    }
+]

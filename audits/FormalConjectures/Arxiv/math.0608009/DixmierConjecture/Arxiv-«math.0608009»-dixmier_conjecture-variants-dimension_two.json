@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "DC_2 in the notation of arXiv:math/0608009, stated over any char-0 field. The docstring's status claim is sound: Theorem 7 gives PC_2⇒DC_2, but the known failure of PC_2 (arXiv:2608.23777) and of JC_4 does not imply failure of DC_2, because the chain runs one way. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Dixmier Conjecture as in Adjamagbo-van den Essen arXiv:math/0608009 (every endomorphism of A_n(K) in char 0 is an automorphism; Theorem 7 chain). Bijective AlgHoms are exactly automorphisms, and WeylAlgebra has the relations [x_i,y_i]=1. The negation follows from JC_3's failure: the map F in Wikipedia/JacobianConjecture.lean has Jacobian -2 and is non-injective (reported by Tao, Cook and AFP sources; I could not read the X post itself) together with DC_n⇒JC_n. Holds for any fixed char-0 K, since F is defined over ℚ. Correct."
+    }
+]

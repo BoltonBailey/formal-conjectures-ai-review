@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Poisson Conjecture of arXiv:math/0608009 in characteristic 0: any endomorphism of a canonical Poisson algebra is an automorphism. Lemma 2 justifies testing on generators, and poissonBracket is the canonical one. Negation is justified via JC_3's failure (Theorem 7: PC_3⇒JC_3) or the symplectic lift, and I checked the file's map F on the listed points by hand. Holds for each char-0 K, since F has rational coefficients."
+    }
+]

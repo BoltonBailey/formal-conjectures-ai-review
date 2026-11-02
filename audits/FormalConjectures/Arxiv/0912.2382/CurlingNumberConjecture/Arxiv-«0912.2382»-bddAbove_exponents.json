@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma with a Lean proof: the exponent set in the definition of the curling number is bounded, so the `sSup` in `k` is the true maximum, as Chaffin–Sloane (arXiv 0912.2382) intend. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Follows Theorem 3.1(3) of arXiv:2607.05349: the microscopic weighting ŵ satisfies 1ᵀŵ=1 and Dŵ=μ'_X(0)1, i.e. it is a gauging for D. The Lean conclusion (some gauging exists) is the stated consequence, and the hypothesis is the same. Faithful."
+    }
+]

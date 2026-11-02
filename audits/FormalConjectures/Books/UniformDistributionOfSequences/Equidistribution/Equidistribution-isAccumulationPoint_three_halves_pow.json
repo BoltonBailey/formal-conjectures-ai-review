@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "The docstring says 'Find an accumulation point of (3/2)ⁿ mod 1', research open, @[question value]. The format follows the value-question convention of upstream issue #6690 (def ….answer := sorry). Discrepancy: the statement is closed with no new mathematics by answer := Classical.choose of the file's own test theorem isAccumulationPoint_three_halves_pow_exists, and by the _infinite theorem it is satisfied by infinitely many values, so it does not pin down the explicit point the question wants. Upstream has treated statements closable by a degenerate or self-referential answer as misformalizations: #4977 (Erdős 40, answer closed by ∅, fixed), and #4923 lists reflexive answers for Erdős 422, 539 and 789 as open items. I could not find the source of the 'find' phrasing in the quoted Kuipers-Niederreiter text."
+    }
+]

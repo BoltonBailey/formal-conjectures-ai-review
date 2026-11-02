@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement is the correct negation of Conjecture 4 in Davila–Brimkov–Pepper (arXiv 2507.17780): μ*(G) <= H(G) for nontrivial connected G, with H = sum over edges of 2/(d(u)+d(v)). Gupta (arXiv 2606.15761) records the refutation by Bıyıkoğlu and that the friendship graph F_4 is a smallest counterexample. The file has a Lean proof using `friendshipF4`. Checking by hand: H(F_4) = 8·(1/5) + 4·(1/2) = 18/5; any maximal matching has size 4, since a spoke leaves three rims and otherwise all four rims must be used, so μ* = 4 > 18/5. The docstring's formula H(F_k) = 2k/(k+1) + k/2 also gives failure exactly for k >= 4. The documentation issue is the `question` tag: the source states a conjecture, and upstream CONTRIBUTING.md reserves that tag for statements posed as questions. The formal statement is unaffected."
+    }
+]

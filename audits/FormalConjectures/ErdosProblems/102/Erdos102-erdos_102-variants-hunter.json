@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "erdosproblems.com/102 describes Hunter's {1,…,m}^d construction, which meets lines in ≪_d n^{1/d} points and shows h_c(n)≪n^{1/log(1/c)}. Lean states the underlying form: for each d≥1 there is c>0 with h_c(n)≪_d n^{1/d}. This is what the construction gives, and the docstring explains it, but it is a restatement rather than the page's displayed bound."
+    }
+]

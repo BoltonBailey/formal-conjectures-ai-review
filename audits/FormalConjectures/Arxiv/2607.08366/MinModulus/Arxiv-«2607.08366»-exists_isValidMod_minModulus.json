@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Implied by Theorem A of the Main Theorem of arXiv:2607.08366: the set {2^k-1 : 0≤k≤n-1} is valid at N=2^n-2^⌊log₂n⌋. The Lean statement keeps only the existence of a valid n-element set, not its identity, but this is what its docstring's bound on the least modulus needs. ZMod's positive modulus holds for n≥2. Faithful, though weaker than the named set."
+    }
+]

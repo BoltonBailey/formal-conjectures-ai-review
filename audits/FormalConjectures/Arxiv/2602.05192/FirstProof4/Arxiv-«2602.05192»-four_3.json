@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The n = 3 case of Question 4 of First Proof (arXiv 2602.05192v2), with the same definitions as `four`. It follows from the general proof in Appendix B.4. Faithful."
+    }
+]

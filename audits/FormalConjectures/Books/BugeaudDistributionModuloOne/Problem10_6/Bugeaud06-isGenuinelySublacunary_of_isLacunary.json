@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma about the file's own definition: a ratio floor c>1 dominates 1+(c-1)/log n for n≥3. Correct and proved in the file. Lacunarity is IsLacunary, the standard notion used in arXiv:1607.00670."
+    }
+]

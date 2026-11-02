@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma about the file's own definitions. Summing log(1+c/log k) gives log m_n≫n/log n, which is ≥n^α eventually for α<1, so the lemma is true. It relies on m positive, which the ratio condition forces eventually."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "erdosproblems.com/1041 reports EHP's result that the set always has a connected component containing at least two of the roots. Lean uses a connected subset, which lies in a component, so that part is equivalent. Counting with multiplicity makes the statement trivial for polynomials with a repeated root, taking C as that single point. The docstring states the multiplicity convention, but the page does not specify it, and the lemma's unused parameters n, hn and hnum add nothing."
+    }
+]

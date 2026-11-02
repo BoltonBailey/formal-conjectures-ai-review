@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Basic API lemma for the cycle-list length sum used to state Conjecture 4 of arXiv:2607.06396. It is proved in the file and says what it should: the empty family has total length 0."
+    }
+]

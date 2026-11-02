@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "arXiv:2606.03696 says Conjecture 1 'was proved for k ≤ 3'. Instantiating k=3 gives the bound (n+6)/4 and paths of at most 2 vertices, which is what this states. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "erdosproblems.com/1000 notes φ_A(k)≥φ(n_k). Proved in the file for phiSeq, which uses the divisibility condition rather than the page's ≠ condition. Because Lean's count is the smaller one, the Lean statement implies the page's inequality. True and proved; the only issue is the definition mismatch noted on erdos_1000."
+    }
+]

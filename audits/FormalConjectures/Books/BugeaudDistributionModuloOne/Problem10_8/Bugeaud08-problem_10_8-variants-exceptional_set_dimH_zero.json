@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Wikipedia's 'Littlewood conjecture' page attributes Hausdorff dimension zero of the exceptional set to Einsiedler-Kleinbock. The Lean liminf cannot hit Lean's junk value, since at q=p^k the expression is ‖p^kξ‖≤1/2, so the sequence does not tend to infinity. liminf≠0 is the exceptional set for irrational ξ; rational ξ give 0. Faithful."
+    }
+]

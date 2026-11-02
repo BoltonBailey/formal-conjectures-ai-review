@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Özcan, arXiv:2609.07714, which quotes Problem 10.4 of Bugeaud: for ξ≠0 and α>1, the spectrum of (ξαⁿ) is at most countable, with spectrum {θ∈(0,1)\\ℚ : (x_n-nθ) is not u.d. mod 1}. Spectrum matches that definition, and starting the index at 0 rather than 1 does not affect uniform distribution. The negation is Özcan's result: uncountable spectrum for every α>1. I did not check the counterexample proof."
+    }
+]

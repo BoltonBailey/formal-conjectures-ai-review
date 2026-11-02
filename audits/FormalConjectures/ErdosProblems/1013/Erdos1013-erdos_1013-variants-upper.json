@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "erdosproblems.com/1013 states h_3(k)≤(1+o(1))k²log k, while this states (2+o(1))k²log k, and the docstring flags the difference. I checked it: from f(n)≥(1-o(1))√(n/log n), setting k² = n/log n gives n≈2k²log k, so 2 is what the cited bounds imply and the page's 1 appears to be an error. A documented, justified deviation from the source wording."
+    }
+]

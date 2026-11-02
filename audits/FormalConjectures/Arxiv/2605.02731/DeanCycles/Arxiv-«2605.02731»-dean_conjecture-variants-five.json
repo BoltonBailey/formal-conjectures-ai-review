@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement is the k = 5 case of Dean's conjecture, which both Luo–Ma–Zhao (arXiv 2601.13552) and Choi–Chu–Kim–Park (arXiv 2605.02731, 'known to be true' for other k) leave open. Two documentation points: the `question` tag does not fit, since the source states a conjecture. Also, the docstring says this is the only open case, which agrees with the cited papers, but MathWorld reports a claimed proof (Botsford, Zenodo, Aug 2026) whose reductions have not been independently verified, so the status may change. The formal statement is unaffected."
+    }
+]

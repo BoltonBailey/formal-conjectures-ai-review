@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma with a Lean proof: a prime sum is kept unchanged, matching the rule in Guy–Khovanova–Salazar (arXiv 1207.5099), where only composite sums are divided by their smallest prime divisor. Faithful."
+    }
+]

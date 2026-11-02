@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement ¬PC_3 for every char-0 K is correct: JC_3 fails (Wikipedia/JacobianConjecture.lean's F) and arXiv:math/0608009 Theorem 7 has PC_3⇒JC_3. The docstring's collision is also correct: by hand, F(0,6,-142)=F(1,0,2)=(2,6,0). Documentation error: it calls F a 'degree-6' map, but F's first coordinate contains (1+XY)³Z, which has degree 7, as public write-ups of Alpöge's example also report. The statement is unaffected."
+    }
+]

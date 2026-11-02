@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Evens-Venkov theorem is classical. I checked it against arXiv:math/0301027, whose cocommutative case includes group algebras, but did not read Evens's or Venkov's papers directly. For finite G, H*(G,k)=Ext*_{k[G]}(k,k) is a finitely generated k-algebra over any field. MonoidAlgebra k G with its Hopf structure has the augmentation counit, which is the trivial module. Faithful."
+    }
+]

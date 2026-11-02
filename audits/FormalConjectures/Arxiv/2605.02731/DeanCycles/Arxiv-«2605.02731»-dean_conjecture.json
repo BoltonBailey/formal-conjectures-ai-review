@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement matches Dean's conjecture as given in Choi–Chu–Kim–Park (arXiv 2605.02731) and Luo–Ma–Zhao (arXiv 2601.13552): for each k >= 3, every graph with minimum degree at least k has a cycle of length divisible by k. `cycleLengths` is the set of lengths of `IsCycle` walks, and the empty graph is excluded because `minDegree` is 0. Two documentation points: the `question` tag does not fit, since the source states a conjecture and upstream CONTRIBUTING.md reserves that tag for statements posed as questions. Also, the `research open` status rests on k = 5, for which MathWorld reports a claimed but not independently verified proof (Botsford, Zenodo, Aug 2026), which maintainers may want to track. The formal statement is unaffected."
+    }
+]

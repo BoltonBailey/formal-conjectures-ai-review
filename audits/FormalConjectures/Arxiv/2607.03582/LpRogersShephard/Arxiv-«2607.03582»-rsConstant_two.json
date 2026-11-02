@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Helper fact, proved in the file. At q=2 the constant of Corollary 29 of arXiv:2607.03582 is 2Γ(3/2)²/Γ(2)+2 = π/2+2. The definition of rsConstant matches the corollary, and the arithmetic is correct."
+    }
+]

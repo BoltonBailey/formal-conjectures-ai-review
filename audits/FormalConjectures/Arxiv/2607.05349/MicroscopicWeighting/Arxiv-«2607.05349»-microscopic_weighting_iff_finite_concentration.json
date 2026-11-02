@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Negation of Conjecture 3.3 of arXiv:2607.05349: 'A finite metric space X has a microscopic weighting iff its distance matrix satisfies con(D) ≠ ∞.' HasMicroscopicWeighting is convergence of Z(t)⁻¹1 as t→0⁺. Lean's zero inverse on singular Z(t) is harmless, since det Z is analytic and tends to 1 at infinity, so Z(t) is invertible on some (0,ε). HasFiniteConcentration is existence of a gauging, which matches Definition 2.4. Nonempty rightly excludes the degenerate empty space. Minor documentation issue: the source states a conjecture, while the declaration carries @[question]. The source paper does not contain the disproof. I took the negation from the attributed Kitamura proof, which I did not check."
+    }
+]

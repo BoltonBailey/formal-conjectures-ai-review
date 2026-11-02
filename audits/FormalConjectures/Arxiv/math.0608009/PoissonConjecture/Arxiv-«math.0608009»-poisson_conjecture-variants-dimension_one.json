@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "PC_1 of arXiv:math/0608009 over a char-0 field. By Theorem 7 it follows from JC_2. Here the endomorphism is a pair with bracket 1, i.e. a plane Keller map with Jacobian 1, so this is effectively JC_2 and is still open. Faithful."
+    }
+]

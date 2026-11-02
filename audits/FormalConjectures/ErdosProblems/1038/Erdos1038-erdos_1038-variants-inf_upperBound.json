@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/1038 displays inf≤1.835⋯, which by itself does not give the strict inf<1.835 stated here. The forum thread reports inf≤1.8344304971959906 from an explicit measure, which supports the Lean claim. I did not verify that computation, and the docstring gives no source for the bound."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "erdosproblems.com/1028 writes the sum as Σ_{x≠y∈X} f(x,y) with f:X²→{-1,1}; the Lean file and its docstring use Σ_{x<y}. Taken literally, the page's form allows antisymmetric f with sum 0, giving H=0, so it must intend each unordered pair once. Lean's x<y is the sensible reading, but its docstring presents this as the source's formula. The result H(n)≍n^{3/2} matches the page's Erdős and Erdős-Spencer bounds."
+    }
+]

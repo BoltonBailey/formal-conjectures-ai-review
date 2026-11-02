@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement matches Conjecture 4.1 of arXiv 2501.03234v1: for each odd prime k > 5, S(k) > k. A brute-force check of primes below 8000 found the largest k with S(k) <= k is 5, so the threshold is sharp on that range. The file's numbering is that of arXiv v1 (its test docstring cites v1), but its reference link is unversioned and resolves to v3 (Jan 2026), which renumbers these conjectures. Pinning the reference to v1 would avoid confusion. The formal statement is unaffected."
+    }
+]

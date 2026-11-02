@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Consistent with Boshernitzan's theorem as cited in Katz, arXiv:1607.00670 Theorem 2.6, and in arXiv:2409.00775: if r_{n+1}/r_n→1, the exceptional set has dimension 0. Packing or box dimension there implies Hausdorff dimension 0. The positivity and unboundedness hypotheses are harmless (a bounded sequence is not considered sublacunary)."
+    }
+]

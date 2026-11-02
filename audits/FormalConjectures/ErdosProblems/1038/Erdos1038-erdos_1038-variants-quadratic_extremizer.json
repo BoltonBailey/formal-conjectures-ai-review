@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "x²-1, with roots ±1, has sublevel measure 2√2, consistent with EHP's roots-in-{-1,1} bound on erdosproblems.com/1038. Correct and proved in the file."
+    }
+]

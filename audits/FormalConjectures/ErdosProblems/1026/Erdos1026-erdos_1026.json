@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared with erdosproblems.com/1026: van Doorn's precise form asks for the largest c with max(Σx_{i_r})>(c-o(1))(1/√n)Σx_i for sequences of n real numbers, and the page concludes c=1. Lean restricts to distinct positive sequences, unlike the page's 'real numbers'. The docstring justifies this (for all-negative sequences no c would work) and the proved Cambie conjecture on the page is for positive numbers. o(1) is modelled as uniform ε, and the weak inequality is immaterial. A documented precision of an ambiguous source."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement is correct and true by the paper, but slightly differently shaped from it. Conjecture 1.4 of Badea–Grivaux (arXiv 2303.01089) fixes multiplicatively independent p, q and says T_{q^n} μ converges weak-star to Lebesgue for every continuous T_p-invariant μ; the paper disproves it. The Lean negates the universal over p and q, which is weaker than the paper's result (failure for every such pair), but it is a faithful negation of the conjecture quantified over all pairs. The convergence is in the weak topology on `ProbabilityMeasure`, matching w*. The documentation issue is the `question` tag: the source states a conjecture, while upstream CONTRIBUTING.md reserves `question` for statements the source poses as questions."
+    }
+]

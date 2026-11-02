@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Matches 'Find an asymptotic for h_3(k)' at erdosproblems.com/1013, in the repository's value-question form. Note: answer:=h3 proves it tautologically. This is the generic limitation of value questions, and a real answer needs a closed form, which the statement cannot enforce."
+    }
+]

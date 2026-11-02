@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "erdosproblems.com/100: 'Kanold proved the diameter is ≥n^{3/4}.' The conclusion is correct, and restricting to large n is necessary because n=1 has diameter 0. Minor: the ∃ C>0 is unused in the statement, so it is a vacuous quantifier. Harmless but misleading, since it suggests a constant that does not appear."
+    }
+]

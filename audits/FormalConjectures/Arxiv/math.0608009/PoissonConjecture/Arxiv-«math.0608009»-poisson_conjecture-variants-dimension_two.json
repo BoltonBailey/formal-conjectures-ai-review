@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Long, arXiv:2608.23777 Theorem 1.1: R,T,D,S∈ℚ[x,q,p,z] with {D,R}={S,T}=1 under Long's sign {p,x}={z,q}=1. The docstring's X_1↦R, X_2↦T, X_3↦D, X_4↦S under Lean's {inl i,inr i}=1 has both sign conventions flipped consistently, so it is a Poisson endomorphism. Non-surjectivity because of a two-point collision is valid, and rational coefficients give every char-0 K."
+    }
+]

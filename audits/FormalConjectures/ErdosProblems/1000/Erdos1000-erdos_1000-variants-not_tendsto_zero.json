@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "erdosproblems.com/1000 attributes to Erdős: lim φ_A(k)/n_k cannot be 0. phiSeq uses divisibility, not the page's ≠, so Lean's claim is formally stronger. It still holds: at the first n_i divisible by a large prime p the ratio is ≥1-1/p, and if only finitely many primes occur then φ(n)/n is bounded below. Definition mismatch noted on erdos_1000."
+    }
+]

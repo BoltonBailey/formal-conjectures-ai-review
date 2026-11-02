@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Compared with Conjecture 4 of arXiv:2607.06396: 'Any bridgeless graph G (not necessarily cubic) contains a list of cycles, such that every edge of G lies on at least one of them and the sum of the lengths of these cycles is at most 7/5·|E|.' The original [AlTa85] is about multigraphs, as its title says and as the file's module docstring notes. Discrepancy: the Lean statement quantifies only over finite SimpleGraphs. A disproof on a simple graph would refute the conjecture, but a proof here would not obviously give the multigraph statement, since subdividing edges to remove parallels changes the length/edge ratio. The file labels this as a specialization, so it is documented. Otherwise cover, length and bridgeless encodings are correct, and repetitions are counted via Multiset. Also, @[question] is on a conjecture."
+    }
+]

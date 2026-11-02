@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement is the correct negation of Conjecture 2 in Davila–Brimkov–Pepper (arXiv 2507.17780): connected G with Δ <= 3 and G not K_4 satisfies Z(G) <= α(G) + 1. `G = ⊤ → card V ≠ 4` excludes K_4 exactly. `zeroForcingStep` is the standard colour-change rule, and iterating |V| times reaches the closure since each productive step adds a vertex. The negation is supported by Fischer (arXiv 2607.23664), a connected 24-vertex graph with Δ = 3, α = 9, Z = 11. I rebuilt that graph from the paper's description and confirmed n = 24, m = 30, Δ = 3, connectedness, α = 9 and Z = 11 by exhaustive search over all vertex subsets, using the file's forcing rule. The documentation issue is the `question` tag: the source states a conjecture, and upstream CONTRIBUTING.md reserves that tag for statements posed as questions. The formal statement is unaffected."
+    }
+]

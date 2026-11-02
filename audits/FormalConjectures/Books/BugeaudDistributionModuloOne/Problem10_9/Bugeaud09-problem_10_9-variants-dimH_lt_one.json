@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement is true: Mahler's countability of Z-numbers (reported by sources on Wikipedia and in searches) gives dimH=0<1. The attribution to Flatto-Lagarias-Pollington is unconfirmed: secondary sources I could read describe FLP as bounding the fractional-part range, not giving this dimension bound. The statement is correct but the documentation may be inaccurate."
+    }
+]

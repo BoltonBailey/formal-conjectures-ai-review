@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "True and stronger follows: search results citing Mahler report Z-numbers are at most countable, so the set has Lebesgue measure 0. Mahler's Journal AMS 1968 paper and the book text were not read directly. The statement itself is sound."
+    }
+]

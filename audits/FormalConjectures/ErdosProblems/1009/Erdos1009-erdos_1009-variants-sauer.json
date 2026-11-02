@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches Sauer's example on erdosproblems.com/1009: n=2r+4, ⌊n²/4⌋+2n-6 edges and only 2n-7 edge-disjoint triangles. I checked the edge count of the page's graph (r²+8r+6) against the formula. Lean states ∃G rather than naming the graph, which is weaker but accurate. r≥1 keeps ℕ subtraction harmless."
+    }
+]

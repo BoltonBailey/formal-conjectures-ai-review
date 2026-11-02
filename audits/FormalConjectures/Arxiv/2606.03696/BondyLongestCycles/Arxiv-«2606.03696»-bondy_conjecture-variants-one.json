@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "arXiv:2606.03696 says k=1 of Conjecture 1 is Dirac's theorem. With k=1 the bound becomes n/2 and the conclusion P.support.length+1≤1 is impossible for any path (support is nonempty), so it says G-V(C) is empty, i.e. C is Hamiltonian. That is what Dirac gives for connected graphs with a cycle and δ≥n/2. Faithful."
+    }
+]

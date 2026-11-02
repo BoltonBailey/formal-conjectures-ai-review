@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/100: 'Piepmeyer has an example of 9 such points with diameter <5.' Lean states existence of 9 points with DistancesSeparated and diam<5. Correct; I did not verify the example."
+    }
+]

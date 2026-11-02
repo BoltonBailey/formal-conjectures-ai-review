@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches Question 6 of First Proof (arXiv 2602.05192v2): is there c > 0 such that for every graph G and every ε between 0 and 1, V contains an ε-light subset of size at least cε|V|? `G.induce S |>.spanningCoe` is the paper's G_S (same vertices, only edges within S), and `IsEpsilonLight` is ε L - L_S positive semidefinite. Stating it for graphs on `Fin n` loses nothing, since every finite graph is isomorphic to one. The positive answer stated here agrees with Lemma B.1 in Appendix B.6, which gives size at least εn/42 for 0 < ε < 1. The `question` form follows upstream convention. Faithful."
+    }
+]

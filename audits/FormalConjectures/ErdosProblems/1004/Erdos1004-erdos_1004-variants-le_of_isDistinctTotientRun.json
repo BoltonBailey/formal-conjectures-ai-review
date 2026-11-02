@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Matches the EPS87 remark at erdosproblems.com/1004: if φ(n+k) are distinct for 1≤k≤K then K≤n/exp(c(log n)^{1/3}) for some c>0. ∃c, for large n, is the expected reading; the page does not state 'for large n' explicitly. Minor documentation issue: @[question] on a proved result, which is not a question in the source."
+    }
+]

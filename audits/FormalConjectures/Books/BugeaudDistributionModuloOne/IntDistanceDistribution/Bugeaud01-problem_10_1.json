@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared with the opening of Bugeaud's Chapter 10 on the Cambridge page: 'Are there a transcendental number α and a positive real number ξ such that ‖ξαⁿ‖ tends to 0?' Lean adds 1<|α|, which is not in the quoted text. The docstring explains it: for |α|<1 the question is trivially yes, and |α|=1 is impossible for a transcendental real, so the restriction excludes only the trivial case and captures the Hardy-style question. It is documented, but it is an addition to the source's literal statement. distToNearestInt is |x-round x|, and transcendence over ℚ is correct."
+    }
+]

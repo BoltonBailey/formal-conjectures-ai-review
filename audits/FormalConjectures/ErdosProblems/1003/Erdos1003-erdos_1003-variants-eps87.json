@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the EPS87 remark at erdosproblems.com/1003: the number of n≤x with φ(n)=φ(n+1) is at most x/exp((log x)^{1/3}). The docstring's 'for all large x' is the statement in the ∀ᶠ form. n=0 is not a solution, so the ℕ range does not matter."
+    }
+]

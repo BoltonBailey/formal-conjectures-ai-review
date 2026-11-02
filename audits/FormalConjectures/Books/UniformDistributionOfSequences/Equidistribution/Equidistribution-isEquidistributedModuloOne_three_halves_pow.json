@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The module docstring quotes Kuipers-Niederreiter: 'one does not know whether sequences such as (eⁿ), (πⁿ), or even ((3/2)ⁿ) are equidistributed modulo 1 or not'. Wikipedia's 'Equidistributed sequence' says the same for eⁿ and πⁿ and states the a.e. result, and an MAA review of Bugeaud's book notes the (3/2)ⁿ case is unknown. I could not read the book. The Lean statement correctly says equidistributed mod 1. Documentation point: the source is an open either-way question, not a conjecture that it holds, yet the declaration asserts it positively with no @[question] tag."
+    }
+]

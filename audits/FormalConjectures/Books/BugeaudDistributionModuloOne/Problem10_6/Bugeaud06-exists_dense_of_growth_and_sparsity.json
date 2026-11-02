@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Not a source statement: an observation in the file. Checked directly: run sequences can be placed so far apart that the count of terms ≤N stays below (log log N)², since a run of length L can start after an arbitrarily large gap. The eventual counting bound is therefore achievable while dominating f, and the Lean countingFn counts a strictly increasing sequence correctly. Correct as stated."
+    }
+]

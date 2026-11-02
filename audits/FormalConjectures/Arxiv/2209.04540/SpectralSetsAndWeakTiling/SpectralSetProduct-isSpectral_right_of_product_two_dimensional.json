@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the n = 2 case of Problem 7.2 of Kolountzakis–Lev–Matolcsi (arXiv 2209.04540), which says the problem is proved for n = 2 by [GL20]. Section 1 describes [GL20] as treating a convex polygon factor, and Theorem 1.6 of the same paper shows a convex body factor of a spectral product must be a polytope, so together they cover a general convex body. Faithful."
+    }
+]

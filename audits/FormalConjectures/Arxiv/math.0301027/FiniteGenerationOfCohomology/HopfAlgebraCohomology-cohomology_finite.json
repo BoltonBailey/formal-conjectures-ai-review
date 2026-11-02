@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with the second sentence of Conjecture 2.18 of arXiv:math/0301027: Ext*(1,X) is a finitely generated module over Ext*(1,1), for each X∈C. Formalized for C=Rep(A) with M a finite-dimensional A-module, with the Yoneda action. Module.Finite for a left module matches. Hopf specialization over any field, as documented."
+    }
+]

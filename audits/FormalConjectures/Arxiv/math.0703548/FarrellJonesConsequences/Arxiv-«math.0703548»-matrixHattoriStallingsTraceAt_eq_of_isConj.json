@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: the trace value depends only on the conjugacy class (g), as the Hattori-Stallings rank HS_RG(P) evaluated 'at (g)' in arXiv:math/0703548 Conjecture 0.6 requires. Correct and proved in the file."
+    }
+]

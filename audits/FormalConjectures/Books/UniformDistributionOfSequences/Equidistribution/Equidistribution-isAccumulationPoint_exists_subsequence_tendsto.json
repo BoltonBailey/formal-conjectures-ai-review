@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "General topology fact, not in the cited source; proved in the file. The definition 'x in the closure of range minus {x}' matches the docstring, and the subsequence conclusion follows. No discrepancy."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for maxCollinear in erdosproblems.com/102's setup. sSup over ℕ is bounded by |P|, so the iff is correct. Proved in the file."
+    }
+]

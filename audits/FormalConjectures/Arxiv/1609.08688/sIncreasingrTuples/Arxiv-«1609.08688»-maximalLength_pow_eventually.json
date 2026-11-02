@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the observation after Gowers–Long (arXiv 1609.08688) Lemma 1.7: for every β < α and all large m, F(m) >= m^β. The hypothesis 1 < n is needed for the same reason as in `maximalLength_pow`. Faithful."
+    }
+]

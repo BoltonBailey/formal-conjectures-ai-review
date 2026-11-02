@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement matches Conjecture 1 of Stérin–Woods (arXiv 2107.12475), attributed to Erdős: for all n > 8 there is at least one digit 2 in the base 3 representation of 2^n. A brute-force check for n < 20000 found only n = 0, 2, 8 without a digit 2, so nothing in that range contradicts it. The docstring has two slips. It says 'the base 3 digits of n' where it means 2^n. It also says the conjecture 'is equivalent to the halting' of a 15-state machine, whereas the paper's machine halts if and only if the conjecture is false, so the conjecture corresponds to non-halting. The formal statement is unaffected."
+    }
+]

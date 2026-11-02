@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1008: every graph with m edges has a C_4-free subgraph with ≫m^{2/3} edges; solved affirmatively by Conlon-Fox-Sudakov. ∃c>0 uniformly over finite graphs is the ≫ claim, and Free uses non-induced copies, which is the right notion for 'contains no C_4'."
+    }
+]

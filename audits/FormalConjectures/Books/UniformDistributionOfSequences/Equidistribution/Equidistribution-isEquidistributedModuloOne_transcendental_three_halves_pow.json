@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Not stated in the source; a correct corollary as the docstring argues. The set of x with x(3/2)ⁿ not dense mod 1 is uncountable (Pollington/de Mathan as summarized in arXiv:2412.11062 for lacunary sequences, or the docstring's elementary Cantor construction), and algebraic numbers are countable, so some transcendental x fails. Consistent with the a.e. statement on Wikipedia's 'Equidistributed sequence'. Correct."
+    }
+]

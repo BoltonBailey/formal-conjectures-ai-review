@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma with a Lean proof: two dense open sets meet, so the value of rank on a dense open set is unique. This matches the uniqueness of grank in Friedland (arXiv 0805.3777, Theorem 3.4 as cited). Faithful."
+    }
+]

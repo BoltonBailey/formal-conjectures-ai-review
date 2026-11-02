@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement matches the conjecture in Willms (arXiv 2104.00502) Section 1: no Barker sequence is longer than the known ones, the longest of length 13. `aperiodicAutocorrelation` computes C_k = sum a_j a_{j+k} (`zipWith` truncates to the shorter list), and the definition requires |C_k| <= 1 for 0 < k < n, which is the paper's 0, 1 or -1. Lists of length at most 1 satisfy the definition vacuously, but this does not affect a bound of 13. The documentation issue is the `research open` tag, which may be out of date: OEIS A091704 (comment by Shmulik Cohen, Oct 07 2026) states there are no Barker codes longer than 13, citing a 2026 OpenAI proof, formalized in Lean, that circulant Hadamard matrices exist only for orders 1 and 4. The same formal-conjectures commit tags that result as `research solved` with a linked Lean proof in `FormalConjectures/Arxiv/2402.13202/CirculantHadamard.lean`, and OEIS credits the odd-length case to Turyn–Storer and Schmidt–Willms. The abstract of that OpenAI preprint also claims the Barker-sequence conjecture as a consequence. I did not check the OpenAI proof itself, but on these sources the conjecture should no longer be tagged open. The formal statement is unaffected."
+    }
+]

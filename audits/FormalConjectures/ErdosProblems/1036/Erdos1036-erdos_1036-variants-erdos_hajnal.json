@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared with erdosproblems.com/1036: Erdős-Hajnal's hypothesis is no complete bipartite graph or complement on more than c log n vertices. Lean's NoLargeBiclique forbids only balanced K_{k,k} with 2k>c log n, as the docstring says, which is a weaker hypothesis and hence a stronger theorem than the page's literal wording. The literal unbalanced reading would exclude any graph with a large-degree vertex, so balanced is likely what is meant, but I could not read [ErHa89b] to confirm."
+    }
+]

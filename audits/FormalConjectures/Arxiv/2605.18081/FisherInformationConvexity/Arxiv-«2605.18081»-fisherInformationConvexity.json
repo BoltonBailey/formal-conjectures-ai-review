@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with arXiv:2605.18081v3 Section 7 and Problem (iii) in Section 7.3: 'Determine whether D[f] can ever be negative. Equivalently ... whether Fisher information is always convex along heat flow.' IsAdmissible matches the class A_d (positive Schwartz density, integral 1, finite I, Q, D, Q>0), with H = -∇² log f, and the Q and D integrands match the paper's formulas. Finiteness is encoded as integrability, and the heat-flow variance convention only rescales time, as the paper notes. The all-dimensions quantifier matches the paper's global question (d=0 is excluded because Q=0 there). The negated form follows the repo's @[question] convention given the cited Lean disproof [Ki26]. I did not check that external proof."
+    }
+]

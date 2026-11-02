@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Conjecture 2.18 of Etingof-Ostrik, arXiv:math/0301027: Ext*(1,1) is a finitely generated algebra for a finite tensor category. This is the Hopf case C=Rep(A), with 1=k through the counit, over any field. The docstring's flat base change from the source's algebraically closed k is a valid reduction. Yoneda-product ring ⨁Ext^n in ModuleCat A agrees with Rep(A) for finite-dimensional A, as the definitions file explains. Algebra.FiniteType works for the noncommutative graded-commutative ring. A specialization of the source, documented as such, and correctly stated."
+    }
+]

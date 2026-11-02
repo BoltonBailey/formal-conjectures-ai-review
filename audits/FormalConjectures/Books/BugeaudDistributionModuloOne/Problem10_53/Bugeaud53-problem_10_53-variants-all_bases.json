@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the 'respectively, for every integer b≥2' version of Problem 10.53 as quoted by arXiv:2609.16362, whose Theorem 1 gives this. Faithful."
+    }
+]

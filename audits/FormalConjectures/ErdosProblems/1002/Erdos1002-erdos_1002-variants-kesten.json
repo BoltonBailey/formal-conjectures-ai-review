@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the Kesten remark at erdosproblems.com/1002: f(α,β,n) has asymptotic distribution g(c)=(1/π)∫_{-∞}^{ρc} dt/(1+t²) for an explicit ρ>0. Lean takes (α,β) in the unit square with product Lebesgue measure and states ∃ρ>0, which is weaker than 'explicit' but consistent. The page does not state the (α,β) domain; the unit square is the natural reading. I did not read [Ke60]."
+    }
+]

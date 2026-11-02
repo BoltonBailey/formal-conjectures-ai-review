@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API arithmetic lemma with a Lean proof, the identity implicit in Friedland (arXiv 0805.3777) (5.11) together with Corollary 6.4(2): at m3 = (m1-1)(m2-1) the ceiling equals m3 + 1. Check: m1 = m2 = 3 gives ceil(36/8) = 5 = 4 + 1. Faithful."
+    }
+]

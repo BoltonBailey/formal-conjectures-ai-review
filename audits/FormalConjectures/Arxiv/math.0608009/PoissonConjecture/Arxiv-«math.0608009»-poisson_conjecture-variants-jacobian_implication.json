@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Fixed-field form of CJC(2n,0)⇒CPC(n,0) from arXiv:math/0608009 Theorem 7, justified at a fixed K by Theorem 1 (a Poisson endomorphism has det Jφ=1 when n! is invertible). JC then gives a polynomial inverse, hence bijectivity. Fin(2*n) versus Fin n⊕Fin n is just a reindexing. Faithful."
+    }
+]

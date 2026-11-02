@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Wall's classical theorem, as stated on Wikipedia's 'Normal number' page: x is normal in base b iff (bⁿx) is uniformly distributed mod 1. Bugeaud's Theorem 4.14 is paywalled and was not read. IsNormalInBase uses the windowed block count of fractional-part digits over all block lengths k, the standard definition. Faithful."
+    }
+]

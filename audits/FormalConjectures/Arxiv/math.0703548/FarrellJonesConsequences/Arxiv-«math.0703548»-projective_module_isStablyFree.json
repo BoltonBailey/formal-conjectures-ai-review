@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared with arXiv:math/0703548 Theorem 0.2(ii) and the remark that for R=Z, K̃_0(ZG)=0 holds if torsion-free G satisfies Farrell-Jones with coefficients in Z. The conclusion (every f.g. projective ℤ[G]-module is stably free) is equivalent to K̃_0(ZG)=0. Documentation point: the source states this as a theorem conditional on Farrell-Jones, whereas the Lean statement drops that hypothesis and asserts the unconditional open conjecture. It is the classical K̃_0 vanishing conjecture, and the docstring explains the relationship."
+    }
+]

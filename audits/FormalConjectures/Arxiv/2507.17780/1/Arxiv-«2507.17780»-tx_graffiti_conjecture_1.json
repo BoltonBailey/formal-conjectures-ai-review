@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement is the correct repaired form of Conjecture 1 in Davila–Brimkov–Pepper (arXiv 2507.17780). The paper states α(G) >= (a(G)+R(G))/Δ(G) for every nontrivial connected graph, which fails for the single edge K_2 (a = 1, R = 1, Δ = 1, α = 1). The added hypothesis Δ >= 2 removes exactly that case, as Gupta (arXiv 2606.29553) records in its abstract: the conjecture fails only for the single edge, and holds for every connected graph of maximum degree at least two, which supports the `research solved` tag. The definitions match Section 2 of the paper: `annihilationNumber` is the largest sub-multiset of degrees with sum at most m, equivalent to the paper's sum of the j smallest degrees, and `residue` is the Havel–Hakimi count of final zeros. The documentation issue is that the docstring and header present the Δ >= 2 hypothesis as part of the cited conjecture, without saying it was added to exclude K_2. I read the abstract of the proof, but did not check it."
+    }
+]

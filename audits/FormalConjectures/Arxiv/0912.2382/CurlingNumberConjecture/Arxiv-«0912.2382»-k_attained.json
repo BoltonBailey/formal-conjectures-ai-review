@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma with a Lean proof: the maximum defining the curling number of a nonempty sequence is attained, matching 'choose the one that maximizes k' in Chaffin–Sloane (arXiv 0912.2382). Faithful."
+    }
+]

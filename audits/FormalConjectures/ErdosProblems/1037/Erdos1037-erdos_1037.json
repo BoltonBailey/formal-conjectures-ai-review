@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Negation of the question at erdosproblems.com/1037. 'Much larger than log n' is read as larger than C log n for each C, the natural formal reading of the page's informal wording, and the negation matches the page's answer of a graph with largest trivial subgraph O(log n). Degree multiplicity ≤2 and more than (1/2+ε)n distinct degrees are encoded correctly. Faithful."
+    }
+]

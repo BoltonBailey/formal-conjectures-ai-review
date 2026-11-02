@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Bugeaud's Section 4.4 is paywalled and was not read. Checked independently: IsRichInBase says every finite digit block occurs, which is Wikipedia's definition of a disjunctive/rich number. Density of (bⁿξ) in the circle implies an orbit point in the interior of each b-adic block interval, and conversely any block's occurrence places an orbit point in a small interval. Terminating expansions are neither rich nor dense, so the digit convention causes no problem. Correct."
+    }
+]

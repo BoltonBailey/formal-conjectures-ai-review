@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Matches Conjecture 5 of arXiv:2607.03582: among planar convex bodies with a center of symmetry and containing the origin, for p>1, equality in Corollary 29 holds only for parallelograms with a vertex at the origin. Definitions and quantifiers are correct. Minor documentation issue: the source states a conjecture, while the declaration carries @[question], which upstream CONTRIBUTING reserves for sources asking a question. I did not check the linked external proof."
+    }
+]

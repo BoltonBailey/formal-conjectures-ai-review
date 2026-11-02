@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "This is a deliberate weakening of Theorem 4.2 of Das–Dey–Sharma (arXiv 2604.08040v1), which concludes supersolvable while the Lean concludes only solvable; the file's header and docstring state this openly, citing the lack of a Mathlib class. The weakened statement is true and follows from the theorem, but it does not capture the source's conclusion. It is also implied by `solvable_of_cyc_lt`, since 2^(t+1) < 2^(t+2)."
+    }
+]

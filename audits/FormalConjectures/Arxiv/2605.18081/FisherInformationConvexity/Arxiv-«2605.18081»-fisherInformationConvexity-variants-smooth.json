@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Not a statement of arXiv:2605.18081 itself; the docstring presents it as the same question over a wider class, with the disproof attributed to [Ki26]. Definitions are as in Section 7 of the paper (see the main declaration). IsWeaklyAdmissible (smooth, positive, integral 1, finite Fisher information) contains IsAdmissible, since Schwartz functions are smooth. So the negated universal statement follows from the main one, and it says what the docstring describes. No discrepancy found."
+    }
+]

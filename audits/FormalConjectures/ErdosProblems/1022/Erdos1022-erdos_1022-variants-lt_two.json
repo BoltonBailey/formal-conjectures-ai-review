@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches 'c_t<2 for all t' at erdosproblems.com/1022, via Wood's triangle-free 2-degenerate r-uniform hypergraphs of chromatic number 3. Such a hypergraph has fewer than 2|X| edges in each nonempty X, so SparseImpliesPropertyB t c fails for every c≥2. Faithful, including t≤1."
+    }
+]

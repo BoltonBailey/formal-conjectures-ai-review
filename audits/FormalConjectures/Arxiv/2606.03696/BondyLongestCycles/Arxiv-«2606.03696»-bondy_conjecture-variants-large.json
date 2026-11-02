@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches Theorem 1.1 of arXiv:2606.03696: for each k≥1 there exists n_k such that the conclusion holds for k-connected graphs on n≥n_k vertices with δ(G) ≥ (n+k(k-1))/(k+1). The threshold depends only on k, and the quantifier order is correct. Faithful."
+    }
+]

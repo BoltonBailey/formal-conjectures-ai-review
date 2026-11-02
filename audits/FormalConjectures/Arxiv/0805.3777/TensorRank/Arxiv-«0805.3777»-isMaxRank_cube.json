@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Open question of determining mrank(n,n,n), as described in BFZ24 (arXiv 1912.06854v4) Section 4.6, where only bounds are recorded for n = 4,...,7. The `question value` form with `answer : ℕ → ℕ` and n >= 1 is the repository's convention. Faithful."
+    }
+]

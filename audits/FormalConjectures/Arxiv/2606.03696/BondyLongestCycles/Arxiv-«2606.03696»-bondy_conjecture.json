@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Matches Conjecture 1 of arXiv:2606.03696 (Bondy): for k≥1, G k-connected on n vertices, δ(G) ≥ (n+k(k-1))/(k+1), every path in G-V(C) has at most k-1 vertices for every longest cycle C. The real-valued bound avoids truncation, P.support.length counts vertices, and `+1 ≤ k` is equivalent to `≤ k-1` for k≥1 as stated. IsKConnected requires k<|V| and connectivity after removing fewer than k vertices, which is standard, and acyclic graphs are vacuous. Minor documentation issue only: the theorem carries @[question], but the source states a conjecture, and upstream CONTRIBUTING reserves the tag for sources that ask a question. The mathematical statement is unaffected."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Module part of the cocommutative case recorded in arXiv:math/0301027 after Conjecture 2.18 (Friedlander-Suslin), over an arbitrary field. Finite-dimensional M matches the conjecture's X∈C. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Matches the remark at erdosproblems.com/1003: 'presumably, for every k≥1 the equation φ(n)=φ(n+1)=…=φ(n+k) has infinitely many solutions.' Equalities with φ(n) for i in [1,k] express this. Minor documentation issue: the source expresses an expectation rather than a question, while the declaration carries @[question]."
+    }
+]

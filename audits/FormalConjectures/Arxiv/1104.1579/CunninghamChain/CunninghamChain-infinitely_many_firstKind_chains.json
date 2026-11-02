@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement matches the conjecture recorded in Jones, arXiv 1104.1579, Section 1, for ε = 1: for each positive k there are infinitely many chains of length k, where by Definition 1.1 k is the smallest index with 2p_k + 1 composite. `¬ Prime` is the same as composite here because the term is at least 5, and the k > 0 condition makes p prime. The only issue is documentation: the docstring calls this 'Jones's conjecture', whereas the paper presents it as already conjectured ('it is conjectured') and notes that it follows from Dickson's or Schinzel's conjecture."
+    }
+]

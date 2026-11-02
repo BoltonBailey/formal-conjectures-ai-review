@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for h_3 as defined at erdosproblems.com/1013. The definition is correct, including the sInf being attained by Mycielski graphs. Proved in the file."
+    }
+]
