@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the Erdős–Purdy lower bound n² log log n ≪ g(n), with g(n) the maximum number of positive-area triangles of one common area among n planar points, as on erdosproblems.com/1086. The normalisation of triangle_area (signed or halved) is irrelevant, because the area a is arbitrary."
+    }
+]

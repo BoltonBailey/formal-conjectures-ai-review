@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the exact path formula on the page under the same max-colours convention: for n ≥ k ≥ 5, AR(n,P_k) = max(C(k-2,2) + 1, C(ℓ-1,2) + (ℓ-1)(n-ℓ+1) + ε), with ℓ = ⌊(k-1)/2⌋ and ε = 1 for odd k, 2 for even k. ℕ subtraction is safe because ℓ ≥ 2 and n > ℓ. As a check at k = 5 the formula gives n, which matches the standard construction: one vertex with a rainbow star and the rest monochromatic. Solved status relies on Yuan's announced proof and the linked formalization."
+    }
+]

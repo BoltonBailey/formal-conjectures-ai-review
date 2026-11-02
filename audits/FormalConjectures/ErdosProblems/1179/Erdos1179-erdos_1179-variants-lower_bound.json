@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct statement of the trivial bound quoted on erdosproblems.com/1179 (g_ε(N) ≥ log₂ N). If A is ε-balanced with ε < 1, then F_A(g) ≥ (1-ε)2^{|A|}/N > 0 for every g, so the 2^{|A|} subsets of A must cover all N elements, giving N ≤ 2^{|A|}."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that every positive integer m is a sum of reciprocals of distinct products of three distinct primes. The conjuncts sit syntactically inside '∀ i < k', but since k > 0 that range is nonempty, so the statement is equivalent to the intended one. Formal proof linked."
+    }
+]

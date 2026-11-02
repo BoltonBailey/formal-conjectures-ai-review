@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Geneson's bound: the largest k such that every arrangement ℕ ≃ ℤ of the integers contains a monotone k-term AP (increasing positions, values forming an AP in either direction, via HasMonotoneAP) is at most 5. The ℕ-sSup is not a junk 0, since the set is bounded once some permutation avoids long monotone APs. The one-sided 'arrangement a_1, a_2, …' reading of 'permutation of ℤ' is the one stated in the main docstring."
+    }
+]

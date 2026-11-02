@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The statement W(p+1) ≥ p·2^p for prime p is Berlekamp's theorem and is correct. The docstring misstates it as 'W(p+1) ≥ p^{2^p}', a much larger quantity, and should be fixed to p·2^p."
+    }
+]

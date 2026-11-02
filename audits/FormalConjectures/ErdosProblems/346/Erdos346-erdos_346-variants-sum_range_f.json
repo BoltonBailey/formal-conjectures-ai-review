@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct API lemma: Σ_{i<m} f i + [m even] = f(m+1) for m ≥ 1, with the truncated f 0 = 0. This is Graham's identity (1). The proof is included."
+    }
+]

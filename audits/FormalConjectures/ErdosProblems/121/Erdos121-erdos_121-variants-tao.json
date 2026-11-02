@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Tao's theorem: for k ≥ 4 there is c > 0 with F_k(N) ≤ (1 - c)N for large N. This is equivalent to (1 - c_k + o(1))N after shrinking c."
+    }
+]

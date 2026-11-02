@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1069 (Szemerédi–Trotter): there is an absolute C with #(k-rich lines) ≤ C n²/k³ for every n-point planar set and every 2 ≤ k ≤ √n. Excluding k ≤ 1 is necessary, since there are infinitely many 1-rich lines, and it does not change the content."
+    }
+]

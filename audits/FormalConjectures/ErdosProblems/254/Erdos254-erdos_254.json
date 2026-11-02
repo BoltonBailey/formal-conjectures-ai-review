@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes the statement on erdosproblems.com/254. If |A ∩ [1,2x]| - |A ∩ [1,x]| → ∞ (ℕ subtraction is exact here) and Σ_{n∈A} ‖θn‖ = ∞ for every θ ∈ (0,1), then every large integer is a sum of distinct elements of A. It is tagged `research solved` with a linked formal proof, but my cached copy of the page does not record a resolution, so the solved status rests on the linked proof alone."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes f(n) ≤ (1/4+o(1))n, as quoted on the page, as: for every ε > 0, eventually f(n) ≤ (1/4+ε)n. This follows from the graph version, because f is monotone (deleting a point) and far-apart copies are independent, so the 'for all large n' form is correct."
+    }
+]

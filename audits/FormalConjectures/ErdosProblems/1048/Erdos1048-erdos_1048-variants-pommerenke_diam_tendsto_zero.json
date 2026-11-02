@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes the claim that, for fixed r > 1, all components of {|z^n - r^n| ≤ 1} have diameter tending to 0. For each ε > 0, eventually in n every component has ediam < ε. It quantifies over components via points z of the level set."
+    }
+]

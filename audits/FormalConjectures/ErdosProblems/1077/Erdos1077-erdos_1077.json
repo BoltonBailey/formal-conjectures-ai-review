@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Formalizes the literal statement on erdosproblems.com/1077 and negates it, using IsBalanced (max degree ≤ D·min degree). The negation is correct and nontrivial. The restriction ε < 1 only shrinks the universal, so a counterexample must work for small ε. For α < 1/2 the complete bipartite graph K_{n^α, n} has n^{1+α} edges, yet any D-balanced subgraph has at most (D+1)n^α vertices, which is below n^{1-α} for large n. The page notes that the literal question 'does not really make sense' and offers a corrected guess (m > εn^α), which is not formalized here. It would be worth adding that guess as a variant, together with Jiang–Longbrake's positive result, and mentioning the discrepancy in the docstring. As a formalization of the problem as stated, this is faithful."
+    }
+]

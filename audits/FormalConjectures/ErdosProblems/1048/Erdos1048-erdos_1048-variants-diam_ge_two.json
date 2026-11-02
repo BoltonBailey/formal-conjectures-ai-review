@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes Pommerenke's bound: for 0 ≤ r ≤ 1/2 the component containing 0 has diameter ≥ 2. The formalization uses the closed set {|f| ≤ 1}, whereas the page leaves implicit which set is meant. Closed is the natural choice: 0 lies in it since |f(0)| ≤ r^n, and an open-set component is contained in the corresponding closed one, so the closed version is the safer (weaker) reading."
+    }
+]

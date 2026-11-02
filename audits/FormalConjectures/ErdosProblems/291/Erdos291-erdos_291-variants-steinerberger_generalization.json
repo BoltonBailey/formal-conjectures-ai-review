@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the criterion on the page: for a prime p ≤ n, p | gcd(a_n, L_n) iff p divides the numerator of H_k, where k is the leading base-p digit of n (n / p^{⌊log_p n⌋})."
+    }
+]

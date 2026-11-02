@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Csima–Sawyer: f(n) ≥ 6n/13 for n ≥ 8. The only exception, n = 7, is correctly excluded."
+    }
+]

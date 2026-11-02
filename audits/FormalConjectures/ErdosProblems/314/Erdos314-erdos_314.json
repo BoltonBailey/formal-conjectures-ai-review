@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Intends erdosproblems.com/314's 'liminf n²ε(n) = 0' (true, by Lim–Steinerberger). The definitions of m(n) and ε(n) are correct. However, the liminf is taken in ℝ, where Filter.liminf of a sequence tending to +∞ is the junk value 0. The formal statement would therefore also hold if n²ε(n) → ∞, which is the opposite answer. So it does not faithfully pin down the claim: it only excludes a finite positive liminf. Using EReal or ℝ≥0∞, as other files do, or stating ∀ δ > 0, ∃ᶠ n, n²ε(n) < δ, would fix this. A formal proof is linked, and the statement is true."
+    }
+]

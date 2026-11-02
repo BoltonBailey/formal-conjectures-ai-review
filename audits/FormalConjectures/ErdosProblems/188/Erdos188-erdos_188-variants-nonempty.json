@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that some k works: the plane has a red/blue colouring with no red unit-distance pair and no blue k-term AP of unit step. Erdős–Graham report this as known ('it has been shown that there is a large M'), and the set s, defined via complex numbers, correctly restricts to unit-step APs, which is the reading the page argues is intended. I could not pin down the original proof from the page, which says the explicit bound comes without proof. The existence claim is cited as established in [ErGr80]."
+    }
+]

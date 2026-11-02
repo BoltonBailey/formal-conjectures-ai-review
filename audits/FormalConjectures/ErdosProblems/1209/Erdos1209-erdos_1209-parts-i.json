@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes erdosproblems.com/1209's first question ('for sufficiently fast-growing a, does one n with all n + a_k prime imply infinitely many?') as the negation of the existence of a growth bound f, and proves it. The counterexample is the page's: all a_k prime (so n = 0 works) with n + a_n composite for every n ≥ 1."
+    }
+]

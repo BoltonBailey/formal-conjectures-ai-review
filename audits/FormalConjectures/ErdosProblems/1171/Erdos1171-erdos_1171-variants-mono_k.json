@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A sorried but true API lemma: the multicolour relation is monotone in the number of nonzero colours. A (j+1)-colouring is also a (k+1)-colouring, and any monochromatic set it produces is in a colour ≤ j."
+    }
+]

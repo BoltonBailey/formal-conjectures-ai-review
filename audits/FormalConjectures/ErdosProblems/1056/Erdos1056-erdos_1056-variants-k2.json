@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Proved by decide. The boundaries ![3,5,8] give the intervals {3,4} and {5,6,7}, and 12 ≡ 210 ≡ 1 mod 11, which is Erdős's example quoted on the page."
+    }
+]

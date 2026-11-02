@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes the Erdős–Simonovits compactness question on erdosproblems.com/180 and negates it, per the OpenAI disproof. Restricting to finite nonempty families with no acyclic member is a sensible strengthening. It excludes the page's trivial star-plus-matching counterexample, matching 'this conjecture may still hold for all other F', so the negation reflects the nontrivial disproof. ex(n;F) and compactness (some member G with ex(n;G) ≪ ex(n;F)) are correctly encoded."
+    }
+]

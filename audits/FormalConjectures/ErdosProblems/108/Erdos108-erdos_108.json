@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "The encoding faithfully transcribes the question on erdosproblems.com/108: for all r ≥ 4 and k ≥ 2 there is a finite f such that every graph with χ ≥ f has a subgraph with girth ≥ r and χ ≥ k. Mathlib's girth is ℕ∞-valued with acyclic = ⊤, and graphs of infinite chromatic number reduce to the finite case by de Bruijn–Erdős. However, the page now reports that the answer is negative for r ≥ 5. There are triangle-free graphs of arbitrarily large chromatic number all of whose C4-free subgraphs are 3-colourable, so f(k,r) is finite iff r ≤ 4 or k ∈ {1,2}. The universally quantified statement is therefore false (for example r = 5, k = 4) but is tagged `research open` and stated affirmatively. It should be negated and recategorised as solved, with the true r = 4 case (Rödl) given as a separate variant, as the file's TODO already suggests."
+    }
+]

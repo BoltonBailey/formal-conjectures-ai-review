@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes Melfi's construction: for every ε > 0 there is an infinite increasing sequence d_i ≥ 2 with Σ 1/(d_i - 1) ≤ ε such that, for every k ≥ 1, all large n are finite sums Σ_{i∈I} a_i with a_i ∈ P(d_i,k). The page states it with P(d_i,0), but with infinitely many bases that version is trivial (n copies of 1 = d_i^0), so moving to k ≠ 0, with that justification, is sensible. I could not check whether [Me04, Prop. 1] gives the 'every k ≠ 0' form exactly."
+    }
+]

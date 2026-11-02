@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the Herzog–Schönheim conjecture: in any partition of a nontrivial group into k > 1 cosets, two of the indices coincide. Subgroup.index returns 0 for infinite index, but that case cannot occur in a finite coset partition, so it does not trivialise the statement. Correctly marked open."
+    }
+]

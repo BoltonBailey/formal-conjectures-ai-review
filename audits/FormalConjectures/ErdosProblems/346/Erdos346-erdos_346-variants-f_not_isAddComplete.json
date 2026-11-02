@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful to Graham's second property for a_n = F_n − (−1)^n: removing infinitely many terms destroys completeness. It is proved from the API lemmas, not sorried."
+    }
+]

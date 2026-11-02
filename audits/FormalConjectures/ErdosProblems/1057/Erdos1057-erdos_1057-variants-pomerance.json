@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes Pomerance's heuristic C(x) = x·exp(-(1+o(1))·log x·logloglog x / loglog x) as -log(C(x)/x)·loglog x / (log x·logloglog x) → 1, which is equivalent. It is correctly marked open."
+    }
+]

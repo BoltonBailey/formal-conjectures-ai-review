@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes the main ([Er97]) question 'does A + B have positive lower density?' and its negative resolution (lower density 0), with a formal proof linked."
+    }
+]

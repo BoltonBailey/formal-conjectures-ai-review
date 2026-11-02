@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the Leader–Russell–Walters conjecture that a finite set is Ramsey iff it is subtransitive (congruent to a subset of a finite transitive set in some ℝ^m, following [LRW12]). Correctly marked open."
+    }
+]

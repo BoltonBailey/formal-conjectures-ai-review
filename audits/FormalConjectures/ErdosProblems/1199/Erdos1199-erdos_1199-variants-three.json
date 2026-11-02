@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Hindman's 3-colour counterexample [Hi79]: some 3-colouring of ℕ makes A + A non-monochromatic for every infinite A."
+    }
+]

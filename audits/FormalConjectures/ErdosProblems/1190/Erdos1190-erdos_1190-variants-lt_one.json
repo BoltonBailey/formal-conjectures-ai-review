@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the Mirsky–Newman-type result ε_m < 1: any finite system of disjoint classes with distinct moduli > m ≥ 1 has Σ1/n_i < 1. The hypothesis m ≥ 1 is needed, since modulus 1 alone gives sum 1."
+    }
+]

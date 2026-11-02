@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct, including the edge cases α ≤ 1 and negative or zero α. Every value t·α^n is a multiple of the integer t ≥ 2, so subset sums cannot cover consecutive integers."
+    }
+]

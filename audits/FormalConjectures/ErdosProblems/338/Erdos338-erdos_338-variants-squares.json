@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful. Squares, including 0, have order 4: Lagrange gives ≤ 4, and n ≡ 7 mod 8 rules out 3. They have restricted order 5 by Pall, where restricted order is the ℕ∞-valued infimum. Including 0 does not affect either notion, because HasOrder allows at most h summands and HasRestrictedOrder uses distinct summands, where 0 never helps."
+    }
+]

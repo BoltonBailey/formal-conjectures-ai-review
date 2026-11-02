@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the stronger form on erdosproblems.com/152 (proved by DeepMind): f(n) ≫ n², where f(n) is the minimum over n-element Sidon sets A ⊆ ℕ of the number of isolated elements of A + A (s ∈ A+A with s ± 1 ∉ A+A). There is a harmless boundary artifact: with truncated subtraction, s = 0 is never counted as isolated when 0 ∈ A, which changes counts by at most 1."
+    }
+]

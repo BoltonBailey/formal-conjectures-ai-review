@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A proved API lemma saying the two tsums agree for |t| ≤ 1, where both are 0 through tsum or division junk values. It is mathematically degenerate but is only a helper used to remove the convergence hypothesis from the textbook identity, and it does not affect the main statement."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the existence of perfect difference sets of positive integers (greedy construction, Lev [Le04]). Requiring 0 ∉ A matches [Le04] and is harmless, since translation preserves the property."
+    }
+]

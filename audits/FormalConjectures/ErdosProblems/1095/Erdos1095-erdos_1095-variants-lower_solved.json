@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Konyagin's bound g(k) ≫ exp(c(log k)²), where g(k) is the least n > k+1 with all prime factors of C(n,k) greater than k, as defined on erdosproblems.com/1095."
+    }
+]

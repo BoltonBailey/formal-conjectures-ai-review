@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the ebarschkis/GPT result that no n makes n + 2^{2^k} prime for all k (a formal proof is linked). n = 0 fails trivially at k = 1."
+    }
+]

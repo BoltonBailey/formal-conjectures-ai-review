@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Restates CollatzConjecture.collatz_conjecture via type_of%: for every n > 0, iterating n ↦ n/2 (n even) or 3n+1 (n odd) eventually reaches 1. This is the standard Collatz conjecture, which erdosproblems.com/1135 is, and it is correctly marked open."
+    }
+]

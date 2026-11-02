@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The definitions match erdosproblems.com/1188. Distinct covering systems use distinct moduli ≥ 2 with reduced residues; minimality means no proper subset covers; and F(x) counts those with moduli ≤ x. The open-ended 'estimate F(x)' is answered by the specific claim log log F(x)/log x → 1, i.e. F(x) = exp(x^{1+o(1)}). This is consistent with the page's trivial upper bound exp(O(x log x)) but far beyond its stated lower bound exp((log x)^{3-o(1)}). The page does not record this resolution, and the docstring cites no source. A substantial Lean development exists at the linked formal_proof (a 'sparse construction'), so the solved status appears to rest on that, which I did not check in full. A citation in the docstring would help readers."
+    }
+]

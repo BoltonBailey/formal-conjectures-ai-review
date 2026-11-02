@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Pommerenke's positive result quoted on erdosproblems.com/1043: every monic non-constant polynomial has a direction in which the projection of {|f| ≤ 1} has measure at most 3.3. It uses the same projection setup as the main theorem."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement is correct: for every well-separated A ⊆ (1,∞) (|kx - y| ≥ 1 for distinct x, y and k ≥ 1), liminf |A ∩ [1,x]|/x = 0. Separation gives |A ∩ [1,x]| ≤ x + 1, so the real liminf is meaningful. However, it follows from the result of Koukoulopoulos–Lamzouri–Lichtman [KLL25] reported on erdosproblems.com/143, Σ_{x<n, x∈A} 1/x = o(log n). A positive liminf c would give Σ_{x<n} 1/x ≥ (c - o(1)) log n by partial summation. The `research open` category therefore appears outdated, and the statement could be marked solved."
+    }
+]

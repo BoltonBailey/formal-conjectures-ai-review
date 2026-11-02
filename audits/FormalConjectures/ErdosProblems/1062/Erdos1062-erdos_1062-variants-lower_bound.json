@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The statement ⌈2n/3⌉ ≤ f(n) matches the page, and it carries a proof. The docstring's justification, that [⌊n/3⌋, n] is fork-free, is inaccurate: for n = 9, 3 divides both 6 and 9. The page's example is [m+1, 3m+2]. The theorem itself is unaffected."
+    }
+]

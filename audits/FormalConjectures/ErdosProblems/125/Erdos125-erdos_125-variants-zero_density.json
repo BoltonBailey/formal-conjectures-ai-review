@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Encodes 'Case 1': both upper and lower density are 0. Given the known lower density 0, this is exactly the negation of positive_upper_density in the same file, which is also stated as an open theorem. So the file asserts two contradictory open statements, and exactly one of them is false. Since neither the source nor the docstring indicates which is conjectured, it would be cleaner to keep a single affirmative form (BEGL96 asked about positive upper density) or to state these case analyses as alternatives (e.g. via an answer(sorry)-style or Prop-valued formulation) rather than as theorems."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Existential statement of Goodman's degree-4 simple-roots example: f is monic of degree 4 with 4 distinct roots, and for some c > 0 the closed sublevel set has 4 components, one of them non-convex. It uses the closed sublevel set of the main problem rather than the strict one of Goodman's displayed examples. Since c is existentially quantified this costs nothing, because non-convexity of a component persists when c is lowered slightly below the merging level."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Erdős's doubtful [Er79] suggestion s_{n+1} - s_n ≪ log s_n, correctly marked open."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes Selfridge's belief, reported on the page, that p_r^{1/r} is bounded: there is an M with p_r^{1/r} ≤ M for all r ≥ 1. The p - 1 variant mentioned on the page is not formalised (a TODO in the file), which is fine."
+    }
+]

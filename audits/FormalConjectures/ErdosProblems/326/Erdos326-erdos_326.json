@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful. A strictly increasing a : ℕ → ℕ whose range is inclusion-minimal among asymptotic additive bases of order 2, with a_n/n² → c for some c ≠ 0. Indexing from 0 rather than 1 does not affect the limit. The page's conjectured answer is negative, while the formalization states the affirmative; that is standard for an open question."
+    }
+]

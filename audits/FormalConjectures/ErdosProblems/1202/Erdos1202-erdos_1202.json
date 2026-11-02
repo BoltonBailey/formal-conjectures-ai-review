@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1202 with the negative answer of Price/GPT-5.4 Pro. It negates: for every ε > 0 there is k such that, for all n, any k primes p_1 < ⋯ < p_k < n^{1-ε} with (p_i - 1)/2 forbidden classes each leave at most εn survivors in [1,n]. The page introduces both ε and η but only uses ε in the bound, apparently a typo. Using ε for both is a special case of the general version, and its negation implies the general negation, so nothing is lost. The construction (survivors ≥ (1/2 - c)n with all primes O(√(n log n)) < n^{1-ε}) refutes it for small ε."
+    }
+]

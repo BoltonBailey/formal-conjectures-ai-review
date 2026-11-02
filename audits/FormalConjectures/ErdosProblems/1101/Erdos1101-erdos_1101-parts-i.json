@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the first question on erdosproblems.com/1101, stated as Erdős's believed answer: there is no good sequence with u_n = O(n^k). IsGood encodes strict monotonicity, pairwise coprimality, Σ1/u_i < ∞, and the gap condition max_{a_k<x}(a_{k+1} - a_k) < (1+ε)t_x∏(1 - 1/u_i)^{-1} for large x. t_x is the number of initial u's whose product is ≤ x, which with 0-indexing matches the page's u_1⋯u_{t_x} ≤ x. The degenerate u_0 = 1 (which empties the set A) makes the product 0 and the condition fail, so it cannot be good spuriously. 0 is excluded from A, since every u_i divides 0."
+    }
+]

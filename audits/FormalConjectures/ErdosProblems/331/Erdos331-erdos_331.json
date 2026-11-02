@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful negative resolution. It asserts that not all A, B with √n = O(A(n)) and √n = O(B(n)) admit infinitely many solutions to a₁ + b₂ = a₂ + b₁ with a₁ ≠ a₂, i.e. a₁ − a₂ = b₁ − b₂ ≠ 0. Ruzsa's even-bit/odd-bit sets give unique representations n = a + b, so there are no nontrivial solutions. Nat.count counts [0, n), which is asymptotically the same as |A ∩ [1, N]|. Linked formal proof by van Doorn."
+    }
+]

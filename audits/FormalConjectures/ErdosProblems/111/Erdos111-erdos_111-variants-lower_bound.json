@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the known linear bound h_G(n) ≫ n for every χ = ℵ_1 graph. The page attributes it to the existence of ℵ_1 disjoint odd cycles of a fixed length."
+    }
+]

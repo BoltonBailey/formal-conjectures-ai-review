@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct: for every k ≥ 1, the positive k-th powers are additively complete, i.e. every sufficiently large integer is a sum of distinct k-th powers. This is classical (Sprague for k = 2; Graham/Kim in general) and is the background fact the page relies on for T(n^k) to exist."
+    }
+]

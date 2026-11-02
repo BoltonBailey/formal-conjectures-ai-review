@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes the [Er77c] statement quoted on the page: for primes q in (n,m], Σ 1/(q-n) < Σ_{p<m-n} 1/p + C uniformly in n < m. The page gives no status for it, so the open tag is a reasonable default."
+    }
+]

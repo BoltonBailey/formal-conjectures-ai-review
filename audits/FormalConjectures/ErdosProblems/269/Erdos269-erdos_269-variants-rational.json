@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Asserts that for every finite P of at least two primes, Σ 1/[a_0,…,a_{n-1}] is rational. This directly contradicts erdos_269.variants.irrational in the same file, which is also stated as an open theorem, so at most one of the two can be true. erdosproblems.com/269 asks whether the sum is irrational, and Erdős could prove irrationality after removing duplicate summands, so the 'rational' form is the less natural one. It would be better removed, or recast so that the file does not assert both alternatives as theorems. The series also includes an n = 0 term equal to 1 (the empty lcm), which does not affect rationality."
+    }
+]

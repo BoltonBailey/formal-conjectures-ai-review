@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the MRVZ23 graph-level result: for every ε > 0 there is a nonempty finite planar point set whose unit-distance graph has independence number ≤ (1/4+ε)|X|."
+    }
+]

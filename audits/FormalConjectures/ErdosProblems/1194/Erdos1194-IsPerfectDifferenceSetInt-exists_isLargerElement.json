@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A proved API lemma: in a perfect difference set over ℤ (the offDiag difference map is a bijection onto the nonzero integers), every n ≥ 1 has a representation n = a - b. Correct."
+    }
+]

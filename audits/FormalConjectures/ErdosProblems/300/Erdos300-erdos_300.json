@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Answers erdosproblems.com/300's 'estimate A(N)' with the Liu–Sawhney asymptotic A(N) = (1 - 1/e + o(1))N, encoded as A(N)/N → 1 - 1/e. A(N) is the largest subset of [1,N] with no subset having reciprocal sum exactly 1. Formal proof linked."
+    }
+]

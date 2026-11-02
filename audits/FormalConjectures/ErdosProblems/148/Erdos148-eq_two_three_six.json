@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A proved API lemma: the only solution of 1 = 1/x + 1/y + 1/z with 0 < x < y < z is (2, 3, 6). Correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states d(t,2) ≤ C(t,2)+1: χ ≥ C(t,2)+1 together with ω < t forces two anticomplete sets, each containing an edge. This follows from Wagon's bound χ ≤ C(ω+1,2) for 2K₂-free graphs. The cases t ≤ 2 are vacuous."
+    }
+]

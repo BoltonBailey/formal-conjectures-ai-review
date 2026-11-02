@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1139: for the increasing enumeration u of positive integers with Ω(n) ≤ 2 (1, the primes, and the semiprimes), limsup (u_{k+1} - u_k)/log k = ∞. The limsup is taken in EReal, and log(k+1) correctly accounts for 0-indexing. Reading 'at most 2 prime factors' with multiplicity (Ω) is the standard almost-prime (P₂) interpretation. The distinct-factor reading (ω) would change the set but not the nature of the question."
+    }
+]

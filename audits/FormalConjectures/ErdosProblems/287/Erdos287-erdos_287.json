@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/287: every Egyptian-fraction representation 1 = Σ 1/n_i with 1 < n_1 < ⋯ < n_k (k ≥ 2) has some consecutive gap ≥ 3. max_gap is computed over consecutive pairs, with exact ℕ subtraction by monotonicity. Correctly marked open."
+    }
+]

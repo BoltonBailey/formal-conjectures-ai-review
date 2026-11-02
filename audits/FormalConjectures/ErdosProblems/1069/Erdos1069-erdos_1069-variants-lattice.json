@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A correct textbook statement of the lattice example: for m ≥ 2 the m × m grid (m² points) has at least 2m lines with m points each (rows and columns). This matches the page's '(2+o(1))n^{1/2} many n^{1/2}-rich lines' remark."
+    }
+]

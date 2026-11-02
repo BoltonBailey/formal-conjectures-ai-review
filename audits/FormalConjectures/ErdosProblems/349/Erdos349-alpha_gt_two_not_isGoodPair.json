@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "True and correctly stated. For α > 2, the gaps ⌊tα^{n+1}⌋ − 2⌊tα^n⌋ eventually exceed any bound, so the value set eventually outgrows its partial sums and leaves arbitrarily large non-representable integers. A linked formal proof exists. This is a supplementary partial result, not on the page."
+    }
+]

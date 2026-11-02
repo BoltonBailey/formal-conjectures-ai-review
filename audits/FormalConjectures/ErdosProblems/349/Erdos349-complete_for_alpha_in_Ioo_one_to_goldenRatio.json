@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful to the page's 'seems likely' conjecture that ⌊tα^n⌋ is complete for all t > 0 and 1 < α < φ. IsGoodPair uses the value set range(⌊tα^n⌋) ⊆ ℤ, which matches the page's 'sum of distinct integers of the form ⌊tα^n⌋'. IsAddComplete over ℤ requires all large positive integers."
+    }
+]

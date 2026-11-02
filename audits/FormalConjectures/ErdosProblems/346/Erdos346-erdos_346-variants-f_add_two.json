@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A correct API restatement of the recurrence f(m+2) = f(m+1) + f(m) − (−1)^m for m ≥ 1, written without subtraction. The proof is included."
+    }
+]

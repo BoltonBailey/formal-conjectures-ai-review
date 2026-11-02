@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Erdős's 'easy' claim limsup a_n/n = ∞: for every perfect difference set and every C, a_n ≥ Cn for infinitely many n."
+    }
+]

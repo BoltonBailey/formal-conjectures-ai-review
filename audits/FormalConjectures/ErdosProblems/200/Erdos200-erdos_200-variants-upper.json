@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct: the length is ≤ (1 + o(1)) log N. A k-term AP of primes (k large) must have common difference divisible by every prime < k, so N ≥ ∏_{p<k} p = e^{(1+o(1))k}. Requiring the bound for all n is harmless, since o is unconstrained at small n."
+    }
+]

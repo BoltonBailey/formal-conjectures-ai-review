@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes the ELS93 'right-thinking person' conjecture g(k) ≥ exp(ck/log k) for some c > 0 and all large k. It is correctly marked open."
+    }
+]

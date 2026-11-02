@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful to the open stronger conjecture: |A∩[1,N]| ≥ √(2N) for all large N implies subcomplete. As the docstring explains, 'all large N' is the only sensible reading, since the bound fails at N = 1."
+    }
+]

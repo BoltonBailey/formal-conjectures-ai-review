@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct: the Kelly–Moser 7-point configuration has 3 ordinary lines, matching the 3n/7 bound, so f(7) = 3."
+    }
+]

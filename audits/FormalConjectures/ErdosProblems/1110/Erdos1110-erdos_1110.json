@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Representable (n is the sum of a finite divisibility antichain of numbers p^k q^l) and the hypotheses (p > q ≥ 2 coprime, {p,q} ≠ {2,3}) match erdosproblems.com/1110. The ambiguous phrase 'infinitely many coprime non-representable numbers' is read here as an infinite pairwise-coprime family of non-representable numbers. The more likely intended reading (the page also uses 'coprime' for Yu–Chen's result) is infinitely many non-representable n coprime to pq. The pairwise-coprime version is strictly stronger: in an infinite pairwise-coprime family only finitely many members share a factor with pq. So the formal statement may assert more than intended. Yu–Chen already settle the question for all but {p,q} ∈ {{2,5},{2,9},{3,5}}, which only matters if their result is in the weaker sense. Either the reading should be confirmed against [YuCh22] or the n coprime to pq version stated. The density part of the question is not formalized, which is acceptable for an open-ended 'what can be said' question."
+    }
+]

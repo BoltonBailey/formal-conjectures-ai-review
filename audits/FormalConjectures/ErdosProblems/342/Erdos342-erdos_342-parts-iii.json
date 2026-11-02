@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful to 'Is the density 0?'. Upper density 0 is equivalent to density 0. Numerically the density appears to be about 0.074, so the stated direction is likely false, but it is open and matches the page's question."
+    }
+]

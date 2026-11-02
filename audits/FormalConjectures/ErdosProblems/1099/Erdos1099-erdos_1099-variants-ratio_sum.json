@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes Erdős's question liminf (Σ d_{i+1}/d_i - τ(n) - log n) < ∞ as 'bounded by some C infinitely often'. It is correctly marked solved, since it follows from the main result. Writing r_i for the ratios, Σ(r_i - 1 - log r_i) ≤ Σ(r_i - 1)², and log n = Σ log r_i, so boundedness of h_2 along a sequence suffices."
+    }
+]

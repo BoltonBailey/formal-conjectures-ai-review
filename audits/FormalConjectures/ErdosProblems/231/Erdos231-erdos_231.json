@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes the literal question on erdosproblems.com/231 (must every string of length 2^k - 1 over k letters contain an abelian square?) and its negative answer. As the docstring notes, it already fails at k = 2, 3 (121, 1213121), and for k ≥ 4 via de Bruijn–Erdős and Keränen. Formal proof linked."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the earlier EGMRSS75 bounds 3 ≤ k ≤ 10^12. HasRedCopies is downward closed and fails at 8, so the ℕ-sSup defining k is a genuine maximum."
+    }
+]

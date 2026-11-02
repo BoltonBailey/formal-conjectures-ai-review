@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Shader's theorem: in any 2-colouring of the plane every right triangle has a monochromatic congruent copy. Requiring the right angle at the labelled vertex 1 loses no generality, since any right triangle can be relabelled and HasMonochromaticCopy works up to congruence."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes the Noll–Simmons question: for arbitrarily large k there are a prime p and q_1 < ⋯ < q_k < p with all q_i! congruent mod p. 'Eventually in k' is equivalent to 'arbitrarily large k', because a solution for k restricts to one for k-1. The bound q_i < p correctly rules out the trivial solutions where all the factorials are ≡ 0."
+    }
+]

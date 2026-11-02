@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Answers erdosproblems.com/294's 'estimate t(N)' with the Liu–Sawhney bounds N/((log N)(log log N)³(log log log N)^{O(1)}) ≪ t(N) ≪ N/log N. The O(1) exponent is encoded as an existential real K, which is equivalent. t(N) is the least positive t admitting no Egyptian-fraction representation of 1 with smallest denominator t and all denominators ≤ N."
+    }
+]

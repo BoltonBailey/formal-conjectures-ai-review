@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Neumann's remark that if [G:Z(G)] = n then there is no clique on more than n vertices. This is correct, because two elements in the same coset of the centre commute, so a clique meets each coset at most once."
+    }
+]

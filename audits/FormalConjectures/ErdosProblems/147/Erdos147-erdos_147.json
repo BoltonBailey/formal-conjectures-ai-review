@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/147 (an Erdős–Simonovits conjecture) and Janzer's disproof. It negates: for every bipartite H with minimum degree r ≥ 2 there is ε > 0 with ex(n;H) ≫ n^{2-1/(r-1)+ε}. Janzer's cubic graphs (ex ≪ n^{4/3+ε'}, below n^{3/2}) refute the r = 3 instance. Restricting to r ≥ 2 is justified in the docstring."
+    }
+]

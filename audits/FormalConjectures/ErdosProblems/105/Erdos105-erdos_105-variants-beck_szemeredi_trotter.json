@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes 'true with n - 3 replaced by cn': there is c > 0 such that whenever |B| ≤ c|A|, with A and B disjoint and A non-collinear, some line through two points of A misses B. Small cases are not trivialised, because for large A the set B may still have size of order cn."
+    }
+]

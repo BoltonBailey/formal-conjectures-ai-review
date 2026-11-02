@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1175: for every uncountable κ there is a cardinal λ such that every graph with chromatic cardinal λ has a triangle-free subgraph of chromatic cardinal κ. It is not trivialised by choosing an unrealisable λ, since K_λ has chromatic number λ. Shelah's consistency result only rules out λ = κ = ℵ₁, so the general question is genuinely open, and stating it affirmatively is appropriate."
+    }
+]

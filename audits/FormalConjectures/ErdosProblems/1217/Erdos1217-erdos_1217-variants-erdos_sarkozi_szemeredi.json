@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states ESS66 Theorem 2: if the doubly-harmonic rate equals c > 0, there is a divisibility chain whose rate is ≥ κ(c) > 0, with κ depending only on c."
+    }
+]

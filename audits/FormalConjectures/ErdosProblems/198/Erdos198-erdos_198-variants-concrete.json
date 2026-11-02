@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct: {n! + n} is a Sidon set meeting every infinite AP {a + md}. For n ≡ a (mod d) with n ≥ max(a, d), we have n! + n - a ≡ 0 (mod d). Formal proof linked."
+    }
+]

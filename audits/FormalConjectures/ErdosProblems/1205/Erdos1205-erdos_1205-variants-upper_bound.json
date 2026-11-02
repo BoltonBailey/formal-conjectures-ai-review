@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A correct form of the pigeonhole bound: F(x) ≤ H_x + 1. Summing coverage over m ≤ x gives at most Σ_{n≤x}(x/n + 1) = x·H_x + x, so some m is covered at most H_x + 1 times. The docstring's example F(3) ≥ 2 > H_3 checks out (classes 0 mod 1, 1 mod 2, 2 mod 3), justifying the +1."
+    }
+]

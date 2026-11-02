@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "States Erdős's theorem with the constant chosen after A: for each infinite Sidon set A there is c with liminf ≤ c, i.e. the liminf is finite. The page and [HaRo66] state it with an absolute constant c independent of A. The Lean version is therefore strictly weaker than the cited result, though still a nontrivial true statement. Moving ∃ c before ∀ A would match the source."
+    }
+]

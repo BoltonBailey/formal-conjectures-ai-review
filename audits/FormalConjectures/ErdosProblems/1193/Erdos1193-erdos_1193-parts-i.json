@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes the literal question on erdosproblems.com/1193 ('is the lower density of {n : 1_A∗1_A(n) = g(n)} always 0?', for monotone positive g) and its trivial negative answer. A = ℕ with g(n) = n + 1 gives the whole of ℕ. The docstring transparently notes that Erdős presumably intended extra restrictions, which are not recorded."
+    }
+]

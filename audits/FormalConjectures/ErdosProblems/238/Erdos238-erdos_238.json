@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/238: for all c₁, c₂ > 0 and large x there are more than c₁ log x consecutive primes ≤ x with every consecutive gap > c₂. That is equivalent to all pairwise differences exceeding c₂, since the minimal difference is a consecutive gap. Stated affirmatively as open."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct: for m ≥ 2 the construction gives at least two distinct terms, so n = 2^{m+1} - m - 2 has the property."
+    }
+]

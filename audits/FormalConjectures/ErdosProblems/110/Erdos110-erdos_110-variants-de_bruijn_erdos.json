@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct consequence of de Bruijn–Erdős: a graph of infinite chromatic number has, for each n ≥ 1, a finite subgraph of chromatic number exactly n. A finite subgraph with χ ≥ n exists by compactness, and deleting vertices one at a time lowers χ by at most 1 each step."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The negated universal is weaker than the source question in two respects. The page takes a finite seed of positive integers a₁ < … < a_k. The formalization quantifies over all a : ℕ → ℤ that are eventually greedy, with no positivity and no monotonicity on the initial segment, and the docstring also says 'integers'. Since ¬∀ over a larger class is easier to prove, the formal statement is implied by Li's positive-seed counterexample but does not capture it. A counterexample with negative or non-increasing seeds would also prove it. I see no immediate trivial witness, so the statement remains nontrivial, but restricting a to ℕ (or positive values) with a strictly increasing seed would match the problem exactly. The solved status (Li 2026, with a linked formal proof) is newer than the cached erdosproblems page, which still describes the problem as open."
+    }
+]

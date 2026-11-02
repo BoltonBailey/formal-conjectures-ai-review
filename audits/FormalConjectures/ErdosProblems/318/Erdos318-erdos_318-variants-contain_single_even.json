@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Erdős's observation that any infinite A with exactly one positive even element fails P₁. The infinitude hypothesis is correctly added to avoid vacuous small cases."
+    }
+]

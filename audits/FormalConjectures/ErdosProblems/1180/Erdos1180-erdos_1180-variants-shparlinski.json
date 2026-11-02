@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Shparlinski's ≪ ε^{-3} bound for all sufficiently large primes, with a uniform K and a threshold P depending on ε. The docstring correctly explains why 'all primes' cannot work polynomially."
+    }
+]

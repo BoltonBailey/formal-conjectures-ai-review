@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Hegyvári's bound f(a,K) ≪ a·e^{O(K)} as quoted on erdosproblems.com/1213. There is an absolute C such that every strictly increasing integer sequence starting at a, with gaps ≤ K and last term exceeding C·a·e^{CK}, has two distinct nonempty index intervals with equal sums. Intervals are encoded as distinct pairs [u,v) ≠ [x,y), which is correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Encodes the first question on the page, Σ_{x∈A} 1/(x log x) < ∞ for every well-separated A, in the affirmative and tagged `research open`. erdosproblems.com/143 now reports a formalised negative answer: some such A has Σ 1/(x log x) = ∞. The Lean statement is therefore false. It should be negated and recategorised as solved, ideally citing the formal counterexample."
+    }
+]

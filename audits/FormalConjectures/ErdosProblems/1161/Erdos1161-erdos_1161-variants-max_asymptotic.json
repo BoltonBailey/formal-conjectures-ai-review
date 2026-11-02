@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Beker's Theorem 1.1 as quoted on erdosproblems.com/1161: max_k f_k(n) ~ (n-1)!. maxF takes the supremum of f_k(n) over orders occurring in S_n, which is the maximum over all k ≥ 1."
+    }
+]

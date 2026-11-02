@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Roney-Dougal–Tracey: log₂ f(n) ~ n²/16, which matches their abstract's 2^{n²/16+o(n²)}."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes Bondy's strengthening as quoted on the page: if G has more than ex(n;K_r) edges then some vertex of maximum degree has a neighbourhood with more than ex(d;K_{r-1}) edges. The extra conjunct n ≤ 2d(v) is automatic, because the average degree is already at least n/2 when e(G) > ex(n;K_4) ≥ n²/4."
+    }
+]

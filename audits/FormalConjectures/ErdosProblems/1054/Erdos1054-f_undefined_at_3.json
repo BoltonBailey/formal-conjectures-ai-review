@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A proved sanity check that f 5 = 0, matching the page's remark that f is undefined at n = 5. The declaration name says '3' while the statement (correctly) concerns n = 5, which is only a naming slip."
+    }
+]

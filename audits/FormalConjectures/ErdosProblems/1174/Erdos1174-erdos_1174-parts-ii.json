@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the second question: there is a graph with no uncountable clique such that every ℕ-colouring of its edges has an infinite monochromatic clique. 'No K_{ℵ₁}' is encoded as all cliques countable, and a monochromatic K_{ℵ₀} as an infinite clique with constant colour on distinct pairs. It is open in ZFC and stated affirmatively."
+    }
+]

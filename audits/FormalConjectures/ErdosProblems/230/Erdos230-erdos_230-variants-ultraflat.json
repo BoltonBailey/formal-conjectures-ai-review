@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Kahane's theorem: there are unimodular polynomials with |P_n(z)|/√n → 1 uniformly on |z| = 1, encoded as the supremum of |‖P_n(z)‖/√n - 1| tending to 0. (The page's 'P(z) = (1+o(1))√n' refers to the modulus.)"
+    }
+]

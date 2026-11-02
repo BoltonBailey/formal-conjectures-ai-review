@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct statement of the Erdős sumset conjecture (proved by Moreira–Richter–Robertson): every A ⊆ ℕ of positive upper density contains B + C with B and C both infinite. This matches erdosproblems.com/109 and the MRR19 theorem."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1121 (Goodman–Goodman theorem). 'Circles' are read as closed discs. The non-separability hypothesis says that every line {⟨v,p⟩ = t} missing all the discs has all their centres on one side, which is equivalent to no disc-avoiding line splitting the discs into two nonempty groups. The conclusion is that the union of discs lies in one disc of radius Σr_i."
+    }
+]

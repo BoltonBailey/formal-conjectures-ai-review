@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes 'f(p)/p → 0 for almost all p' as the existence of a set of primes P of relative density 1 among the primes along which f(p)/p → 0. This is the standard reading. The binop elaborator casts the two leaves separately, so the division is real division."
+    }
+]

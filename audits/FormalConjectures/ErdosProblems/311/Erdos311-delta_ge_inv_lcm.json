@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct trivial bound δ(N) ≥ 1/lcm(1..N): every nonzero value is a rational with denominator dividing the lcm."
+    }
+]

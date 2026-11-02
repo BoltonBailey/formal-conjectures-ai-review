@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes the Blomer–Granville estimate A(x) = (log log x)^{O(1)}·x/(log x)^α, with α = 1 - 2^{-1/3}, as two-sided bounds with a common exponent C. This is the standard reading of a (log log x)^{O(1)} factor, and it matches the page."
+    }
+]

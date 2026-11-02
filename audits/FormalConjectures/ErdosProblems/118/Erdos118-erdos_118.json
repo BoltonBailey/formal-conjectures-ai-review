@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the ordinal version of erdosproblems.com/118 with the negative answer of Schipperus and Darby: it is not true that every ordinal α with α → (α, 3)² also satisfies α → (α, n)² for all finite n ≥ 3. The local OrdinalRamsey predicate (red clique of type β or blue clique of type γ) is the standard arrow. Restricting to ordinals is the natural reading, and Larson's ω^{ω²} is an ordinal counterexample."
+    }
+]

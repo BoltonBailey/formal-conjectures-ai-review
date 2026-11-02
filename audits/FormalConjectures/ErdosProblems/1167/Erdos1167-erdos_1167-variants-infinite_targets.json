@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The all-infinite-κ_α case, where κ + 1 = κ. Adding κ_α ≤ λ is justified by the in-file counterexample without it. This is a sensible specialisation, and calling it open is consistent with the page, which lists only partial infinite cases as proved."
+    }
+]

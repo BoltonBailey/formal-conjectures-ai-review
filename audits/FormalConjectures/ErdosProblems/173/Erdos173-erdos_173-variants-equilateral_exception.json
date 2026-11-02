@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct: alternating half-open strips of width (√3/2)·s give a 2-colouring with no monochromatic equilateral triangle of side s. This shows the 'at most one exceptional triangle' in the main problem can actually occur."
+    }
+]

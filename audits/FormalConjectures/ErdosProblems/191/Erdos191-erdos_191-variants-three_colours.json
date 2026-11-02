@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Rödl's negative result for 3 colours: there is a uniform C such that, for every n, some 3-colouring keeps Σ 1/log x < C over every monochromatic X (including singletons, which forces C > 1/log 2 harmlessly)."
+    }
+]

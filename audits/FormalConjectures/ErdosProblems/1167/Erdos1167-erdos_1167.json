@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes the Erdős–Hajnal–Rado 'negative stepping-up' question on erdosproblems.com/1167: 2^λ → (κ_α + 1)^{r+1}_{α<γ} implies λ → (κ_α)^r_{α<γ}, with cardinal +1 and cardinalPartitionRel the standard partition arrow. The extra hypotheses γ ≥ 2 and κ_α > r come from the original Erdős–Hajnal list. The docstring shows both are needed, and the γ = 1 counterexample is proved in-file. It is correctly marked open."
+    }
+]

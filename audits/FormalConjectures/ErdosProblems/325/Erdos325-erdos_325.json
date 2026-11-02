@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful. For k ≥ 3 it asserts x^{3/k} = O(f_{k,3}(x)), where f counts n ≤ x that are sums of three nonnegative k-th powers. The exponent (3 / k : ℝ) is real division, so it is not truncated."
+    }
+]

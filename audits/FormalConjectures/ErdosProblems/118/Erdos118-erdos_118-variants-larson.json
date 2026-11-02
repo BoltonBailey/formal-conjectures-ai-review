@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Larson's result: ω^{ω²} → (ω^{ω²}, 3)² but not → (ω^{ω²}, 5)². Exponentiation is right-associative, so ω ^ ω ^ 2 = ω^{ω²} as intended."
+    }
+]

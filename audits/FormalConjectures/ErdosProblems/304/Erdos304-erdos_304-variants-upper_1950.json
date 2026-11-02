@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Erdős's 1950 bound N(b) ≪ log b/log log b, where N(b) = max_{1≤a<b} N(a,b) and N(a,b) is the least number of distinct unit fractions with denominators > 1 summing to a/b."
+    }
+]

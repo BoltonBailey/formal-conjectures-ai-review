@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes the literal statement on erdosproblems.com/280 and Cambie's trivial disproof (n_k = 2^k, a_k = 2^{k-1} + 1 leaves only m = 1 uncovered). It negates: for every strictly increasing n_k > (1+ε)k log k with reduced residues a_k, the number of m < n_k avoiding the first k classes is not o(k). The 1-indexed classes and the reduced-residue normalisation a_i < n_i are harmless. Formal proof linked."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "This is not on the page. The page states the forward direction: if every finite Sidon set embeds in a perfect difference set, then 1 is attainable. The formal statement is the converse, sSup = 1 → every finite Sidon set embeds in a perfect difference set mod some n > 0. As the docstring says, the consequent is refuted by Hall's {1,2,4,8,13} and by Alexeev–Mixon, so the declaration is equivalent to sSup ≠ 1, the negation of the Erdős–Krückeberg conjecture. That is an acceptable open statement, but the 'converse' framing obscures its real content, and stating sSup ≠ 1 directly would be clearer. Minor: sSup = 1 is not the same as '1 is attained' (max), though either reading works here."
+    }
+]

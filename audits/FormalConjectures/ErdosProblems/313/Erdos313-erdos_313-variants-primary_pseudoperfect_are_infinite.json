@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States the conjecture that infinitely many m occur in solutions, i.e. infinitely many primary pseudoperfect numbers. Defining them as the m appearing in a solution, rather than requiring m = ∏P, is reasonable, since the two notions agree for all known examples. Correctly marked open."
+    }
+]

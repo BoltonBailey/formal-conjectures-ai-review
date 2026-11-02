@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Encodes erdosproblems.com/312: there is c > 0 such that for every K > 1, every sufficiently large finite multiset of integers with Σ 1/a > K has a sub-multiset with reciprocal sum in (1 - e^{-cK}, 1]. However, a : Fin n → ℕ allows entries a_i = 0, which contribute 0 through the junk value 0⁻¹ = 0. Padding any small multiset with zeros therefore satisfies the size hypothesis n ≥ N₀ without changing the sums. As a result, 'sufficiently large' no longer restricts the genuine (positive) multiset, and the statement is formally stronger than intended. Adding ∀ i, 0 < a i would match the source."
+    }
+]

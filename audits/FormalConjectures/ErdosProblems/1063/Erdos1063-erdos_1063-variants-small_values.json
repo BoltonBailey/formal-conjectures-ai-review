@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A proved check of n_2 = 4, n_3 = 6, n_4 = 9 and n_5 = 12, the values given on the page, which confirms that the definition of n is calibrated."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The page lists n - 4 as still possible. The docstring cites a later forum counterexample with |A| = 10 and |B| = 6 and a Lean verification, and the statement negates the universal claim with A.card = B.card + 4, consistent with that. I could not check the forum post independently, but the formal statement is the correct encoding of the 'fails with n - 4' claim."
+    }
+]

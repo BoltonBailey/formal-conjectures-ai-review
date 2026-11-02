@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Lambie-Hanson's Theorem A: for every f there is a χ = ℵ_1 graph in which every finite subgraph with fewer than f(k) vertices has χ < k, for all k ≥ 3. This immediately implies the main negation, taking f = F + 1."
+    }
+]

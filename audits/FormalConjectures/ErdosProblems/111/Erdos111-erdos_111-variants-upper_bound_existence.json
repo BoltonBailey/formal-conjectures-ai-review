@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the EHS82 construction: some χ = ℵ_1 graph has h_G(n) ≪ n^{3/2}. Restricting to V : Type is harmless."
+    }
+]

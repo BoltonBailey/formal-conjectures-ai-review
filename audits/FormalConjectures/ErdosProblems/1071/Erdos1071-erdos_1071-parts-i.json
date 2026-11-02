@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the first question on erdosproblems.com/1071 (answered yes by Danzer): there is a finite family of unit segments in the closed unit square that is maximal among pairwise-disjoint families. The page's segments are open copies of (0,1). SegmentsDisjoint, which says the closed segments meet only in endpoints, is equivalent to the open segments being disjoint: a common interior point cannot be an endpoint of either segment, and touching at an endpoint, including a T-junction, is allowed in both formulations. Encoding a segment as an ordered pair of endpoints causes no double counting, because (a,b) and (b,a) overlap and so cannot both appear."
+    }
+]

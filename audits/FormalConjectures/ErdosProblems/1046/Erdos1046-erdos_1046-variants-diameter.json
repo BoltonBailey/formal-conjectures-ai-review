@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes the EHP conjecture that a connected closed lemniscate {|f| ≤ 1} of a monic f has diameter at least 2. It uses ediam, so f = 1, where the set is all of ℂ, is harmlessly true. The capacity argument in the docstring (cap = 1, Pólya's cap ≤ diam/2) supports the solved status. The 'least possible' phrasing also implies attainment, but that is trivial (f = z gives the closed unit disc, of diameter 2), so stating only the lower bound is fine."
+    }
+]

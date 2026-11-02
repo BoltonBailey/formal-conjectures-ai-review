@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Konyagin's explicit lower bound [Ko14, Thm 1]: F(k) ≥ exp(exp(((log 2 log 3)/3 + o(1))·k/log k)), where F(k) counts k-element sets of positive integers with reciprocal sum 1. This is a precise form of the page's 2^{c^{k/log k}}."
+    }
+]

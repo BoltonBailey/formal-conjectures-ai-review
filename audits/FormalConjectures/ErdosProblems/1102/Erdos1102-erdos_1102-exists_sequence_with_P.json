@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes 'P-sequences can have density going to 0 arbitrarily slowly': for every positive f → ∞ there is a P-sequence with a_j/j ≤ f(j) for all j. This is a faithful rendering of the van Doorn–Tao result."
+    }
+]

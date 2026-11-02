@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes Erdős's guess on erdosproblems.com/161 that the only jump is at α = 0: for every t ≥ 3, all densities 0 < α, β < 1/2 give F^{(t)}(n,α) ≍ F^{(t)}(n,β). F is the least m for which some 2-colouring of t-sets gives every X of size ≥ m at least α·C(|X|,t) edges of each colour (balancedColoringThreshold). The t = 3 case is settled by Conlon–Fox–Sudakov together with Erdős–Spencer, while t ≥ 4 is open, so the open tag for the ∀ t ≥ 3 statement is right. It is a reasonable precise reading of the source's 'only one jump?'."
+    }
+]

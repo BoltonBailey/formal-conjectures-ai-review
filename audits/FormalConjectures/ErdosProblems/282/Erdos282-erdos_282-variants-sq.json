@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes the question whether the greedy algorithm with square denominators terminates for every x in Graham's representable range [0, π²/6 - 1) ∪ [1, π²/6). It is stated in the 'yes' direction with the question tag, although the page says Erdős and Graham believe the answer is no. This is acceptable for an open question, but the docstring could flag the expected direction more prominently."
+    }
+]

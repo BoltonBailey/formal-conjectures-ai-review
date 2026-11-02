@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the first question on erdosproblems.com/1074: does the EHS set S have a natural density? S = {m ≥ 1 : some prime p ≢ 1 (mod m) divides m! + 1} matches the page. m = 1 is automatically excluded, since everything is ≡ 1 mod 1, which is consistent with the sequence starting 8, 9, 13, … (A064164)."
+    }
+]

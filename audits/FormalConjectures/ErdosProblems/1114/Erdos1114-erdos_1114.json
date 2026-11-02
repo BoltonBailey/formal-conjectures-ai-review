@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes the statement on erdosproblems.com/1114 (Bálint's theorem). For f of degree N+1 with roots a + jd (0 ≤ j ≤ N), let b_k be the zero of f' in (a + kd, a + (k+1)d). The gaps between the b_k are a palindrome and are non-decreasing from the midpoint outwards. I checked the index conditions: for N = 2m, RightGapMonotone starts at the central gap b_m - b_{m-1}, and for N = 2m+1 at the gap starting at the central critical point b_m. The page has the typo (a_0, a_m) for (a_0, a_n), and the 'n roots for degree n' mismatch is resolved correctly by taking degree N+1. Reading 'increasing' as non-decreasing gives a slightly weaker statement but is faithful in substance. The symmetry conjunct is an easy consequence of f(2c - x) = ±f(x)."
+    }
+]

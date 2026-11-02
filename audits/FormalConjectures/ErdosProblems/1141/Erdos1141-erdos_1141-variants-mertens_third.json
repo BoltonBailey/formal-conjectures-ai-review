@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A correct weak form of Mertens' third theorem: ∏_{p≤n}(1 - 1/p) ≥ 1/(3 log n) for n ≥ 3. It holds at n = 3, 4 (1/3 ≥ 0.30, 0.24), and asymptotically e^{-γ} ≈ 0.56 > 1/3, with known explicit bounds covering the rest."
+    }
+]

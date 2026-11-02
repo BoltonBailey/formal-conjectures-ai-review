@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully transcribes the question on erdosproblems.com/1119: for every cardinal ℵ₀ < m < 𝔠, any family of entire functions taking at most m values at each point has cardinality at most m. The value-set and cardinality encodings are correct. As the docstring explains, the statement is independent of ZFC (Kumar–Shelah vs Schilhan–Weinert in models with 𝔠 = ℵ₂), so it can be neither proved nor refuted. The `research solved` tag records that the question has been settled in that sense. This is a modelling caveat rather than a misformalization."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful to Hanson–Steele–Stenger: Σ_{n∈A} n^{−s} < 1/(1 − 2^{−s}) for s > 0. The page says s ≥ 0, but at s = 0 the right side is 1/0, so excluding it, as the docstring explains, is the right call. 0 ∉ A as above."
+    }
+]

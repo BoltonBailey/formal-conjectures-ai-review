@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1108: for every k ≥ 2, the set A of finite sums of distinct factorials n! (n ≥ 1) contains only finitely many k-th powers. Restricting the indices to n ≥ 1 agrees with the site's convention ℕ = {1,2,…}. If 0 were allowed, A would also contain 2 + Σ_{n≥2} n!, a slightly different set. The open question is stated affirmatively."
+    }
+]

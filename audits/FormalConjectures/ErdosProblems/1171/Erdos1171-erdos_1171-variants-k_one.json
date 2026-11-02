@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States the k = 1 (two-colour) case ω₁² → (ω₁·ω, 3)², attributed in the docstring to Erdős–Hajnal [EH74]. The page does not mention this result (it only cites Baumgartner's MA result for ω₁·ω → (ω₁·ω, 3)²), and [EH74] is not in the reference list, so I could not verify the attribution. The statement itself is a correct specialisation."
+    }
+]

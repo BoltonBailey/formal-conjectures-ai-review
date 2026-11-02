@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Sierpiński's theorem that there are infinitely many Sierpiński numbers. IsSierpinskiNumber means k is odd and every k·2^n + 1 (n ≥ 0) is composite, which matches erdosproblems.com/1113. Oddness excludes 0, so k is positive."
+    }
+]

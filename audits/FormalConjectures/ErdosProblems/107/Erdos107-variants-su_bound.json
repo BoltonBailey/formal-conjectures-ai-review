@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes Suk's f(n) ≤ 2^{(1+o(1))n} as f(n) ≤ 2^{n + r(n)} with r = o(n) for all n ≥ 3. Requiring it for all n is harmless, because r is unconstrained at finitely many n."
+    }
+]

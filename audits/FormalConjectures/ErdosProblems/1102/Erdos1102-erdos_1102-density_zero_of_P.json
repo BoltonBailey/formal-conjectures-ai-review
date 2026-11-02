@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the van Doorn–Tao result reported on erdosproblems.com/1102: a strictly increasing sequence with property P (for each n ≥ 1, only finitely many a with n + a squarefree) has density 0, encoded as a_j/j → ∞. The j = 0 junk value is irrelevant for the limit."
+    }
+]

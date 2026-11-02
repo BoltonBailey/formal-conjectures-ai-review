@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the second part of Beker's Theorem 1.1: for large n, f_k(n) ≥ (n-1)! implies lcm(1..n-k) | k (Mathlib's Nat.lcmUpto = lcm of Icc 1 m). The added conjuncts 1 ≤ k ≤ n reflect Beker's parametrisation k = n - k' and are consistent with the cited result. A formal proof is linked."
+    }
+]

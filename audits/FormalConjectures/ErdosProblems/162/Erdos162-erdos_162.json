@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes erdosproblems.com/162: for fixed 0 ≤ α < 1/2, F(n,α) ~ c_α log n for some constant. F is the smallest k for which some 2-colouring of K_n gives every vertex set H of size ≥ k more than α·C(|H|,2) edges of each colour. Reading the source's 'largest k' as 'smallest k' and excluding α = 1/2 are both justified in-file (literal 'largest' is vacuous; α = 1/2 gives F = n + 1). At α = 0 this includes the open existence of a diagonal-Ramsey asymptotic constant, consistent with the problem being open."
+    }
+]

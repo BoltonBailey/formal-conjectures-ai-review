@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful to Szemerédi–Vu. There is an absolute C > 0 such that any A ⊆ ℕ with |A∩[1,N]| ≥ C√N for large N is subcomplete, meaning its finite subset sums contain an infinite AP a + kd with d > 0. The ∃C reading is the correct one: the 'for every implied constant' reading is false by Erdős' (2N)^{1/2} sharpness example. countUpTo counts [1,N] as on the page."
+    }
+]

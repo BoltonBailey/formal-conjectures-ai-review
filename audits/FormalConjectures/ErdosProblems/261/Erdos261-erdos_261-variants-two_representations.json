@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct, with formal proof: 7/4 = Σ_{m≥1, m≠4} m/2^m = Σ_{m≥1, m∉{5,6}} m/2^m, since 4/16 = 5/32 + 6/64. This answers Erdős's literal 'two representations' question."
+    }
+]

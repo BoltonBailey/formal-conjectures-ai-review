@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Janzer's conjecture: for every r ≥ 3 and ε > 0 some r-regular H has ex(n;H) ≪ n^{2-2/r+ε}. Bipartiteness is not required, which is harmless for an existence statement since non-bipartite H have quadratic extremal numbers. It is already known for even r ≥ 4 and for r = 3, so only odd r ≥ 5 remain, and the open tag for the full statement is appropriate."
+    }
+]

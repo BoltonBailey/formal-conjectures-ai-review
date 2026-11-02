@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the BEGL96 result for D = {3,4,7} with k = 1, where 1/2 + 1/3 + 1/6 = 1 and the gcd is 1."
+    }
+]

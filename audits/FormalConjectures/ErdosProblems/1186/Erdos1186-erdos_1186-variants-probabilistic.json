@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct probabilistic upper bound: there are about n²/(2(k-1)) k-APs in [n], each monochromatic with probability 2^{1-k}, giving δ_k ≤ 1/((k-1)2^k). As a check, k = 3 gives 1/16 ≈ 0.0625, which is consistent with the PRS upper bound 0.0533."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Encodes a negative answer to Erdős–Nešetřil's 'is c(3m+2) = 3^m?', justified by the Gaspers–Mackenzie lower bound 1.4457 > 3^{1/3}. Gaspers–Mackenzie count minimal (a,b)-separators, which is a strictly larger family than the inclusion-minimal cuts counted by IsMinimalCut / maxMinimalCuts. Unless their construction is checked to produce that many inclusion-minimal cuts, the cited result does not obviously imply this statement. The page makes the same identification. The encoding itself is fine, but the justification for its solved status should be verified."
+    }
+]

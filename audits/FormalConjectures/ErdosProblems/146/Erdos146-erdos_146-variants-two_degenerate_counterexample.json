@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the OpenAI counterexample: a connected bipartite 2-degenerate H with ex(n;H) ≥ c·n^{3/2+ε} for all large n, with a formal proof linked. The docstring says 'infinitely often' while the statement requires 'eventually', which is stronger and consistent with the page's ≫. A cosmetic mismatch only."
+    }
+]

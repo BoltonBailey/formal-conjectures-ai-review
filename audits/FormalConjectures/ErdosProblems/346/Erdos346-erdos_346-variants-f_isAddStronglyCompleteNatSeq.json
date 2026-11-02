@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States Graham's result that a_n = F_n − (−1)^n is strongly complete. In ℕ the definition truncates f 0 to 0 instead of −1, and duplicates appear (f 1 = f 4 = 2, f 2 = 0), so range-based completeness of early tails differs slightly from the multiset notion. Every early tail, however, contains the strictly increasing tail from index 4, and completeness is monotone, so the statement reduces to Graham's theorem for late tails and is true."
+    }
+]

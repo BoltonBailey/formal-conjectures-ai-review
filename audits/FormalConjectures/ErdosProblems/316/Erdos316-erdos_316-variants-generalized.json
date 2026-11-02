@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Sándor's generalisation: for each n ≥ 2 some finite A ⊆ ℕ ∖ {0,1} with Σ 1/k < n admits no partition into at most n parts each with sum < 1. The 'at most n parts' formulation is correctly justified, since Finpartition has no empty parts. Formal proof linked."
+    }
+]

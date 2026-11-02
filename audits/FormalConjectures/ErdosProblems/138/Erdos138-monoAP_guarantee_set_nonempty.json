@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States van der Waerden's theorem: for every number of colours r and length k, some N forces a monochromatic k-AP in every r-colouring of [1,N]. True for all r and k; for r = 0 it holds vacuously, since [1,N] has no colourings once N ≥ 1."
+    }
+]

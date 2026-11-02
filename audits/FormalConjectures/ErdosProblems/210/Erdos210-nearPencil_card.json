@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A proved API lemma about the extremal function f(n) (the minimum number of ordinary lines over non-collinear n-point sets) or the near-pencil construction. Correct as stated."
+    }
+]

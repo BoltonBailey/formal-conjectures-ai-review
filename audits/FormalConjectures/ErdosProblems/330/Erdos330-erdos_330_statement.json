@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful. It asks for A and h such that A is an asymptotic basis of order h, removing any single element destroys this, A has positive upper density, and for every n ∈ A the set of m not in h•(A∖{n}) has positive upper density. Minimality via single-element removal is equivalent to minimality over all proper subsets, because the basis property is monotone. Unrepresentable integers of A itself form a finite set and do not affect the density. I see no degenerate witness: h = 0 is not an asymptotic basis, and order-1 bases are cofinite, hence not minimal. Upper density for both sets matches the page's note. Marked solved, consistent with the page (GPT 5.5 Pro / Turturean construction)."
+    }
+]

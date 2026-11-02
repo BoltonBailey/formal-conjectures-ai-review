@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes the question whether the greedy algorithm terminates whenever Graham's criterion (n/(n,a,d), d/(a,d)) = 1 holds, for denominators ≡ a (mod d), d > 1. The case a ≡ 0 includes 0 in A, but 0 is never selected. Correctly marked open."
+    }
+]

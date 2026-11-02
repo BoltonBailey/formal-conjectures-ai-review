@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes the [Er82c] conjecture: for fixed k and large n, for every m the product of consecutive integers has at least k primes dividing it exactly once. The Lean product is (m+1)⋯(m+n) with m ≥ 1, rather than the source's m(m+1)⋯(m+n). That shifts the window by one and excludes windows starting at 1, an immaterial reindexing for this asymptotic conjecture. It is correctly marked open."
+    }
+]

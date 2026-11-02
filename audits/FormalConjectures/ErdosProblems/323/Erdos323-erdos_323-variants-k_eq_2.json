@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Landau's theorem: the count of sums of two squares up to x is asymptotic to c·x/√(log x) with c > 0. Including 0 in the count is irrelevant asymptotically."
+    }
+]

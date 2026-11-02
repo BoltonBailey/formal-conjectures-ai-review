@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the first question on erdosproblems.com/1206: for some c > 0 and all large N, {1³, …, N³} contains a Sidon subset of size ≥ cN. The open question is stated affirmatively."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct Borwein–Loring identity. Using Σ_{k>n} k/2^k = (n+2)/2^n, the sum Σ_{n<k≤n+m} k/2^k equals n/2^n exactly when 2^{m+1} = n + m + 2, i.e. n = 2^{m+1} - m - 2. Formal proof linked."
+    }
+]

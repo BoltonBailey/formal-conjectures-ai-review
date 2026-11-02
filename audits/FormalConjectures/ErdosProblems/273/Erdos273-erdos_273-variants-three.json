@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States the p ≥ 3 version, which erdosproblems.com/273 reports Selfridge solved (an example with moduli dividing 360): there is a covering system with distinct moduli all of the form p - 1 for primes p ≥ 3. Unlike the main theorem it uses StrictCoveringSystem ℕ rather than ℤ, where cosets are r + mℕ. Existence is equivalent, since a ℤ-covering with residues reduced below the moduli restricts to an ℕ-covering, and conversely. The inconsistency is cosmetic. The proof TODO could cite Selfridge's example from [ErGr80]."
+    }
+]

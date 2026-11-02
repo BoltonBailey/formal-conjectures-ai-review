@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the Erdős–Selfridge theorem: a product of k ≥ 2 consecutive positive integers is never a perfect l-th power (l ≥ 2). The page says k ≥ 3, but the k = 2 case is also true and is covered by [ES75]: coprime consecutive factors would both have to be l-th powers."
+    }
+]

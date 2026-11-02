@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct statement of Müller's set {2^i·m : m ≡ 3 mod 4}, which avoids power-of-2 sums and has density Σ 2^{-(i+2)} = 1/2. I checked avoidance: if i < j the odd part of a + b is m + even ≥ 3, and if i = j then m + m' ≡ 2 mod 4 with (m + m')/2 ≥ 3 odd."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1148 (resolved affirmatively by Chojecki, with a formal proof linked): every large n can be written as x² + y² - z² with max(x², y², z²) ≤ n. Truncated ℕ subtraction is harmless: for n ≥ 1, equality forces z² < x² + y², so the subtraction is genuine. A brute-force check up to 20000 finds 6563 as the largest exception, consistent with the page."
+    }
+]

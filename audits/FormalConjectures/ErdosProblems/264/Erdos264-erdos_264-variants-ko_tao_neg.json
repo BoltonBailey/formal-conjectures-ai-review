@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the general Kovač–Tao negative criterion: strictly increasing, positive, summable reciprocals, and liminf a_n² Σ_{k>n} 1/a_k² > 0 (encoded as an eventual lower bound C > 0) imply that a is not an irrationality sequence."
+    }
+]

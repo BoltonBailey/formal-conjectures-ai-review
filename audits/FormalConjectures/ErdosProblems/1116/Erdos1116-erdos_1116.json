@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1116 in the entire-function case, which Gol'dberg and Toppila resolved positively. There is an entire f such that for all finite a ≠ b, limsup n(r,a)/n(r,b) = ∞. n(r,a) counts the a-points in |z| < r with multiplicity, via the positive part of the divisor of f - a. The division-free UnboundedCountRatio additionally requires n(r,b) > 0 along the witnessing radii. This rules out f omitting b, a mild strengthening that matches the intended reading, since the ratio is undefined when n(r,b) = 0, and the linked formal proof attests that it is achievable."
+    }
+]

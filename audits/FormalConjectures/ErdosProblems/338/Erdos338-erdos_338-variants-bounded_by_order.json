@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful to 'Can it be bounded (when it exists) in terms of the order of the basis?'. There is f : ℕ → ℕ such that every A with HasOrder A h and some restricted order has restricted order ≤ f h. Since HasOrder means order ≤ h, this is equivalent via running maxima, as the docstring notes. HasOrder uses at most h summands, so 0 ∈ A is irrelevant."
+    }
+]

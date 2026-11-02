@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Answers erdosproblems.com/202's 'how large can r be?' with the reported resolution f(N) = N·L(N)^{-1+o(1)}, where L(N) = exp(√(log N log log N)) (GPT-5.4 Pro via [BFV13] plus Park–Pham; formal proof linked). f(N) is the maximum number of distinct moduli ≤ N carrying pairwise disjoint residue classes. Writing it as an exact equality with some o(1) exponent is equivalent to the asymptotic statement, given f(N) > 0 for large N."
+    }
+]

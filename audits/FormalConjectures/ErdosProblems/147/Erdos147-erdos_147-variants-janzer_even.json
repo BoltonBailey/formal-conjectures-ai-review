@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Janzer [Ja23]: for even r ≥ 4 and ε > 0 there is a nonempty r-regular bipartite H with ex(n;H) ≪ n^{2-2/r+ε}."
+    }
+]

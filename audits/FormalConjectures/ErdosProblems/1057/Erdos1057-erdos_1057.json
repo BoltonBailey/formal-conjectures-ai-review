@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The statement is correct: since C(x) ≤ x, C(x) = x^{1-o(1)} is equivalent to log C(x) / log x → 1. IsCarmichael is the standard definition (b^n ≡ b mod n for all b coprime to n, via FermatPsp, which excludes primes). However, erdosproblems.com/1057 now says 'a formal proof that C(x)=x^{1-o(1)} is available' (github.com/JENW1N/erdos1057-lean, created October 2026, crediting Kohlmeyer, Kruer, Howe and Huffman). The `research open` category therefore appears outdated, though the page shows no explicit status badge. The status should be rechecked and the formal_proof link added if the proof holds up."
+    }
+]

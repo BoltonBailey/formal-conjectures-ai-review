@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the page's middle range: for 1/2 < r ≤ (√5-1)/2 the component containing 0 has diameter > 1/r. As in the other variants it uses the closed lemniscate, which contains 0 because |f(0)| ≤ r^n < 1. The endpoints agree with the neighbouring cases: 1/r = 2 - r^2 at r = (√5-1)/2."
+    }
+]

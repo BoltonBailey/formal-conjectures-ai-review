@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes 'is f(n) ≥ n/4?' (for all n) and negates it. Dúcz–Varga (arXiv:2606.28157) construct a finite planar unit-distance graph with independence ratio strictly below 1/4, and I confirmed this from the arXiv abstract, which explicitly says it answers Erdős's question. Taking X to be its vertex set gives f(|X|) < |X|/4, so the negation is correct. The definition of f (any n distinct points, with independence measured in the exact-distance-1 graph) matches erdosproblems.com/1070."
+    }
+]

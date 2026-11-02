@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Answers erdosproblems.com/186's 'order of growth of F(N)' with log F(N)/log N → 1/4. This follows from Bosznay's N^{1/4} ≪ F(N) and Pham–Zakharov's F(N) ≤ N^{1/4+o(1)}. NonAveraging (no a equals the mean of ≥ 2 other elements) matches the page and is calibrated by the {1,2,3}/{1,2,4} tests. Giving only the exponent is a reasonable resolution of an order-of-growth question, since the true order is known only up to N^{o(1)}."
+    }
+]

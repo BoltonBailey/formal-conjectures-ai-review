@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Konieczny's general result: for any ε(n) → 0, for almost every α > 0 the set {n ≥ 1 : ‖αn²‖ < ε(n)} is not an asymptotic basis of order 2. The 'almost every α > 0' is encoded as ∀ᵐ α, 0 < α → …, which is correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct: m internally disjoint paths of length 4 between two vertices (3m+2 vertices) have 3^m inclusion-minimal cuts, one internal vertex per path. I checked that removing a proper subset leaves an intact path, so the graph stays connected."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes Ruzsa's variant: under A(N) ~ c_A√N and B(N) ~ c_B√N with c_A, c_B > 0, there are infinitely many nontrivial solutions. The page lists this only as a suggested variant and does not say it is solved. The 'solved, yes' status rests on Erdős–Freud [ErFr84, Thm 4]. The deduction in the docstring is sound given that theorem as quoted: drop the finitely many elements of A involved in solutions; the asymptotics are preserved, but then the limits exist, contradicting the theorem. I could not check the paper directly."
+    }
+]

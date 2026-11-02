@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the bounds C(d+1, n-1) + 1 ≤ g_d(n) ≤ C(d+n-1, n-1) + 1 for d ≥ 1 and n ≥ 2 (Aletheia's construction and Bannai–Bannai–Stanton), together with the resulting limit 1/(n-1)!, as on the page."
+    }
+]

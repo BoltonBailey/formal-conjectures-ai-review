@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1097 and its negative resolution of 'always O(n^{3/2})?'. Via the equivalence with Bourgain's sums-differences problem, the achievable exponent is at least 1.77898 > 3/2. The set of common differences includes both d and -d, because d ≠ 0 is not required to be positive. This at most doubles the count, so it does not affect the O(n^{3/2}) question."
+    }
+]

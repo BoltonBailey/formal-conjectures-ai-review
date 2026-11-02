@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Tenenbaum's theorem that h_α(n!) is bounded for every α > 1. The degenerate n = 0, 1 give an empty sum."
+    }
+]

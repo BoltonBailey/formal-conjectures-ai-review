@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful. For 1 ≤ m < k it asserts x^{m/k} = O(f_{k,m}(x)), which is the page's f_{k,m}(x) ≫ x^{m/k}."
+    }
+]

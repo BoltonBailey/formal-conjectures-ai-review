@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful. The formal statement asks for infinitely many k ≥ 1 where the least threshold for positive k-th powers strictly exceeds that for (k+1)-th powers. Small conventions differ from the page: here 0 ∈ P(A) via the empty sum, so T(n) = 0 rather than the page's 1, and T is 'least m with all n ≥ m representable'. These only shift values by a constant, or affect k = 1. For k ≥ 2 the thresholds are determined by the largest non-representable number, so the comparisons T(n^k) > T(n^{k+1}) are unchanged. Least-threshold witnesses exist by completeness."
+    }
+]

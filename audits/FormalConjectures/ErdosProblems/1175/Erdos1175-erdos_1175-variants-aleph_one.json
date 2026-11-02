@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Correctly encodes the κ = λ = ℵ₁ case: every graph with χ = ℵ₁ has a triangle-free subgraph with χ = ℵ₁. However, as the docstring itself notes, Shelah (KoSh88) showed that the negation is consistent with ZFC. This affirmative statement therefore cannot be proved, assuming Lean's foundations are compatible with that forcing model. Tagging it `research open` as a conjecture to prove is misleading: it is either refutable or independent. The docstring or category should make clear that a proof is ruled out."
+    }
+]

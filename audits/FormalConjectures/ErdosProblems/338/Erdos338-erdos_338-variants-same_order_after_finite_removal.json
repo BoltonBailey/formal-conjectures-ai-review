@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful to 'What if they are all bases of the same order?'. Every A∖F, for F finite, has the same exact order h, and then A has a restricted order. The docstring's justification that this agrees with the bounded-orders reading is correct, since removal only raises the order and a superset of a set with restricted order inherits it."
+    }
+]

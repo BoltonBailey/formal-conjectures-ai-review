@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct. For r > 1 the only critical value of z^n - r^n is -r^n, of modulus > 1. The closed disc {|w - r^n| ≤ 1} is simply connected and misses 0, so its preimage under z ↦ z^n splits into exactly n components, matching the page's claim about {|f| ≤ 1}. The case n = 1 (one disc) is also consistent."
+    }
+]

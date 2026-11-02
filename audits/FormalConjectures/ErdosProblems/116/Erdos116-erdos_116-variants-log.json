@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the KLR25 lower bound ≫ 1/log n for n ≥ 2, which answers the stronger (log n)^{-O(1)} form."
+    }
+]

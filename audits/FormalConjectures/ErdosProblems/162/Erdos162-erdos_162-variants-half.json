@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A proved textbook fact: at α = 1/2 the two colour counts in H sum to C(|H|,2), so both cannot exceed half, giving F(n, 1/2) = n + 1. Correct, and it justifies excluding α = 1/2."
+    }
+]

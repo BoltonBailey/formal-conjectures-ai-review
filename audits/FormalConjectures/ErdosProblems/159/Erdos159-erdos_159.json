@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/159: there is c > 0 with R(C₄, K_n) ≪ n^{2-c}, encoded with explicit constants for all n ≥ 1, which is equivalent to the asymptotic form. graphRamsey is the standard two-colour graph Ramsey number. Erdős offered the prize for a 'proof or disproof', and stating the conjecture affirmatively as open is appropriate."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes Erdős's classical grid lower bound f_2(n) > n^{1+c/log log n} for all large n, where f_d(n) is the maximum number of unit pairs among n points in ℝ^d. This is a true, well-known result, valid for all large n since f is monotone and grids exist at every scale. erdosproblems.com/1085 now reports a much stronger n^{1+c} bound for infinitely many n (OpenAI), but that does not make this statement wrong."
+    }
+]

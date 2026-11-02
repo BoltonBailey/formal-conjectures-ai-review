@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful. Triangular numbers, with 0, have order 3 by Gauss and restricted order 3 by Schinzel. Neither can be 2, by a counting argument."
+    }
+]

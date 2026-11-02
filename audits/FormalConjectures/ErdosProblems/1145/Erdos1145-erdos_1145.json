@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Encodes the Erdős–Sárközy question on erdosproblems.com/1145: for infinite A, B ⊆ ℕ with a_n/b_n → 1 and A + B containing all large n, limsup 1_A∗1_B(n) = ∞ (computed in ℕ∞). The page explicitly states 1 ≤ a_1 and 1 ≤ b_1, but the formalization deliberately allows 0 ∈ A or B, as the docstring discusses. With 0 allowed, the hypothesis 'A + B ⊇ all large n' becomes easier to satisfy (for example B ⊆ A + B when 0 ∈ A), so the universal statement is formally stronger than the stated problem. A counterexample to the Lean version need not be one to the original. This is a conscious choice tied to the ambiguity discussed under problem 28, but it departs from the page's wording. Adding the hypotheses 0 ∉ A and 0 ∉ B, or a variant with them, would match the source exactly."
+    }
+]

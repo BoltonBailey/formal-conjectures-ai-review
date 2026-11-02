@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "States that the limit α of c(n)^{1/n} satisfies α ≥ 1.4457, attributed to Gaspers–Mackenzie. The issue is the same as for erdos_nesetril: their bound concerns minimal (a,b)-separators, while maxMinimalCuts counts inclusion-minimal disconnecting sets, a smaller family. The lower bound does not transfer automatically. The page states the bound for α, but the formal statement needs a source covering inclusion-minimal cuts, or a check that the construction's separators are inclusion-minimal cuts."
+    }
+]

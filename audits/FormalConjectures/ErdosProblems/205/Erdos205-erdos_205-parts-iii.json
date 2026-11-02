@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully negates the 'any f = o(log log m)' version. Since f is unconstrained on small m, a bad f could make small m representable. The Tao–Alexeev n have every n - 2^k with ≫ (log n/log log n)^{1/2} prime factors, so n - 2^k is large and the negation still holds."
+    }
+]

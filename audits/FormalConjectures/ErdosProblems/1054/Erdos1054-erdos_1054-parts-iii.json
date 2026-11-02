@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "The intended claim limsup f(n)/n = ∞ (computed in EReal) is stated correctly, but it is wrapped in a vestigial `∃ A : Set ℕ, A.HasDensity 1 ∧ …` whose A is never used in the limsup. The statement is therefore equivalent to limsup f(n)/n = ⊤, since A = univ works. This matches the docstring's question but is misleading to read: it looks as if the limsup were restricted to A. The dangling quantifier should be removed."
+    }
+]

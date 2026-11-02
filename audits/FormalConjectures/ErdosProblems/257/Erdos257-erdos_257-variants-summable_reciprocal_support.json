@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States the coprimality-free strengthening: for infinite A with Σ 1/a < ∞ and any base b ≥ 2, Σ_{a∈A} 1/(b^a - 1) is irrational. The page records only Erdős's [Er68d] result under pairwise coprimality, adding that he thought coprimality could be dropped. This statement is therefore stronger than what the page reports as proved, and its solved status rests on the linked formalization (W. Cook). It is well formed."
+    }
+]

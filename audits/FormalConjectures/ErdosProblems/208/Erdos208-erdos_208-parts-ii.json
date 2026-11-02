@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the second question: s_{n+1} - s_n ≤ (1 + o(1))(π²/6) log s_n/log log s_n for all large n. The o(1) is encoded via a sequence c = o(1). The gap is nonnegative, so ℕ subtraction is harmless. Stated affirmatively as open."
+    }
+]

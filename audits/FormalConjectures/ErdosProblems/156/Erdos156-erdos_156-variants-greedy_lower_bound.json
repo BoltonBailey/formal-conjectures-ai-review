@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct: the greedy Sidon set below N has size ≫ N^{1/3}. In fact every maximal Sidon subset of [1,N] does, because its difference-sum set A + A - A must cover [1,N]."
+    }
+]

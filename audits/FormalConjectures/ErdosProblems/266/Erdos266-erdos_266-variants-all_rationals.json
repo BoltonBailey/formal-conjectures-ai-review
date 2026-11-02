@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the stronger Kovač–Tao result: some strictly increasing positive sequence has Σ 1/(a_n + t) converging to a rational for every rational t ≠ -a_n. HasSum to a rational q is the correct encoding. Formal proof linked."
+    }
+]

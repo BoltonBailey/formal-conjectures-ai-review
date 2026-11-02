@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct: for k = 2, 3 every string of length 2^k over k letters contains an abelian square. Proved via the decide lemmas."
+    }
+]

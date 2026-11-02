@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Erdős's stronger [Er92b] conjecture: for every ε > 0, all large n are sums of distinct 2^k 3^l 5^m all lying in [b₁, (1+ε)b₁). No antichain condition is stated, but for ε < 1 it is automatic, since distinct elements within a factor 2 cannot divide each other. It is correctly marked open."
+    }
+]

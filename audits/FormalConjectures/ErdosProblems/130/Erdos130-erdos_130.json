@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes the 'in particular' question on erdosproblems.com/130 in the affirmative: there is an infinite planar set in general position (no three collinear, no four concyclic) whose integer-distance graph (adjacent iff the distance is a positive integer) has infinite chromatic number. The clique-number part is explicitly left out, as the docstring says. The solved status rests on the linked formal proof; my cached copy of the page records no resolution, so I could not cross-check it there."
+    }
+]

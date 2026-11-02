@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "True and correctly stated: for 0 < α ≤ 1, every term lies in [0, ⌊t⌋], so subset sums are bounded. This is a supplementary partial result."
+    }
+]

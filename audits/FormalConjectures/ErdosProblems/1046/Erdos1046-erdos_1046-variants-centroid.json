@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes Pommerenke's refinement that the disc can be centred at the centroid of the roots. Over ℂ a monic polynomial splits, so f.roots.sum / natDegree is (z_1 + ⋯ + z_n)/n. The degenerate case f = 1 again has empty E, so it is excluded by connectedness."
+    }
+]

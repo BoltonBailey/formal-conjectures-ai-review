@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the Haight/Szemerédi theorem cited on erdosproblems.com/1195: there is a measurable S ⊆ (0,∞) of infinite Lebesgue measure such that x/y is never an integer for distinct x, y ∈ S. For positive S, the inclusion of negative integers in IntegerRatioFree is vacuous."
+    }
+]

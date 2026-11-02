@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes the analogous question for parallelograms, with area |ab|·|bc|·sin ∡abc, in the negative direction, marked open. One might worry that the signed oriented angle could make the 'area' negative. However, IsCcwConvexPolygon is defined by sign(∡ p_i p_j p_k) = 1, so sin ∡abc > 0 and the area expression is positive, and the statement is not trivialised. Stating the open question negatively is a choice. The docstring gives no source for which direction is expected, but with no `question` tag this is acceptable."
+    }
+]

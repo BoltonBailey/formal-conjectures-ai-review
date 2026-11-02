@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States Wooley's 2015 bound f_{3,3}(x) ≫ x^{0.91709477}. The page gives 0.917…, and the explicit decimal matches the exponent reported in Wooley's 'Sums of three cubes, II'. Correctly marked solved."
+    }
+]

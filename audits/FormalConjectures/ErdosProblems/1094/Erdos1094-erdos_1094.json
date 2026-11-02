@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1094: only finitely many (n, k) with k ≥ 1 and n ≥ 2k have least prime factor of C(n,k) greater than max(n/k, k). Floor division is harmless, because for an integer p we have p ≤ n/k iff p ≤ ⌊n/k⌋. C(n,k) ≥ 2 in this range, so minFac is a genuine prime. The ELS88 list of 14 exceptions is consistent with the finite-exceptions form."
+    }
+]

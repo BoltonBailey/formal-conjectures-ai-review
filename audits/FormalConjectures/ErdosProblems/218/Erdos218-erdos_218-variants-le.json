@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the first conjecture on erdosproblems.com/218: the indices n with d_{n+1} ≥ d_n have natural density 1/2 (d_n = primeGap n, 0-indexed). It is correctly marked open."
+    }
+]

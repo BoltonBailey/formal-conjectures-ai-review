@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States the strengthened Baumgartner claim (from the end of [Ba75]): in any ℚ-vector space and for each k, some X meets every infinite AP but contains at most 2 points of any k-term AP. Small k are trivially fine. Its solved status rests on Baumgartner's remark that a slight modification of his method gives it. The docstring makes that provenance clear."
+    }
+]

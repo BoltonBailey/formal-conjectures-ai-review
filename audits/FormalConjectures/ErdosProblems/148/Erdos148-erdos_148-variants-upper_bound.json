@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the Elsholtz–Planitzer upper bound F(k) ≤ c₀^{(1/5+o(1))2^k}, with c₀ = lim u_n^{2^{-n}} ≈ 1.5979 defined via the Sylvester-type sequence. The real iSup is bounded by 2, so it is not junk. The docstring transparently notes that erdosproblems.com gives c₀ as 1.26408…, which looks like a typo on the page, and follows the source [ElPl21] instead."
+    }
+]

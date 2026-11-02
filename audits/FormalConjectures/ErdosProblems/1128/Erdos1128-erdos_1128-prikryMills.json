@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States the Prikry–Mills counterexample: some X of cardinality ℵ₁ has a 2-colouring of X³ with no monochromatic box A₁×B₁×C₁ whose sides have cardinality ℵ₀. This matches the disproof reported on erdosproblems.com/1128, and a proof is included."
+    }
+]

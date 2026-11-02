@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes the [Er88c] remark that Σ 1/(2^n + t) should be transcendental for every integer t, with the obvious exception t = 0 that the page mentions, and t ≠ -2^n so that every term is defined. The page's 'This was proved by Borwein' refers to irrationality, so treating transcendence as open is reasonable. The open conjecture is stated in the affirmative."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful negative resolution. The formal statement denies that every lacunary sequence that is strongly complete (every tail is complete, equivalent to A∖B complete for finite B) and becomes incomplete when infinitely many terms are removed must have a_{n+1}/a_n → φ. The page reports a counterexample (GPT Pro / Price) with ratios ≥ 6/5 and two distinct subsequential limits. Lacunarity is required only eventually, a slightly weaker hypothesis than the page's 'for all n', which makes the negation slightly easier. The counterexample satisfies the stronger version anyway, so this is harmless."
+    }
+]

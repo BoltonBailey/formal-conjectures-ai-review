@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States the FLC07 conditional result: for k ≥ 4, the prime k-tuples (Dickson) conjecture for admissible families of k linear forms implies irrationality for σ_k. Tying the tuple length to the same k is a specific choice that I could not verify against [FLC07], but the statement is a well-formed conditional consistent with the page."
+    }
+]

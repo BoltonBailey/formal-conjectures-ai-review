@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Generalises erdosproblems.com/268 (d = 3) to every dimension d, following Kovač–Tao: the set of points (Σ_{n∈A} 1/(n+i))_{i<d}, over infinite A ⊆ ℕ with Σ 1/n < ∞, has nonempty interior. Allowing 0 ∈ A only adds points (via the junk value 1/0 = 0), so the set can only grow and the statement is implied by the positive-integer version. The d = 3 instance is the original problem (Kovač). Formal proof linked."
+    }
+]

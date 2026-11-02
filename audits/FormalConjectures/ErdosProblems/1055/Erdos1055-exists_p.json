@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Each Erdős–Selfridge class r contains a prime. The recursive IsOfClass correctly encodes the exact class: class 1 means (p+1) has prime factors in {2,3}, and class n+1 means p is in no class ≤ n, every prime factor of p+1 is in some class ≤ n, and some factor is in no class < n (hence exactly n). This is the 'one more than the largest class of the factors' definition of OEIS A005113. Labelling the existence claim textbook is justified by an easy argument. If class r were empty then so would be every higher class, since a class-(r+1) prime needs a class-r factor. Finitely many classes, each with at most n^{o(1)} primes up to n (the bound quoted on the page), would then contradict the prime number theorem."
+    }
+]

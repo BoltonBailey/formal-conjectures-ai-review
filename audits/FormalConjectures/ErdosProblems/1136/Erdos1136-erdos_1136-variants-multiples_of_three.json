@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct: the multiples of 3 (including 0, where 0 + 0 = 0 is not a power of 2) avoid power-of-2 sums and have density 1/3, as on the page."
+    }
+]

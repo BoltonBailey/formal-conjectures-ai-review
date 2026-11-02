@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful. IsUlamSequence correctly pins down Ulam's sequence: a 0 = 1, a 1 = 2, and each later term is the least integer above its predecessor with a unique representation a i + a j, i < j < n. The tests confirm 1, 2, 3, 4. The statement asks for infinitely many n with a n + 2 in the sequence, i.e. infinitely many pairs a, a+2."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes 6n - c₁n^{2/3} ≤ f_3(n) ≤ 6n - c₂n^{2/3} for large n, with c₂ > 0. Leaving c₁ unconstrained in sign is harmless, since only large c₁ is needed. The upper bound is established by Bezdek–Reid (f_3(n) < 6n - 0.926n^{2/3}) and the lower bound by close-packed ball clusters, so the solved status is reasonable."
+    }
+]

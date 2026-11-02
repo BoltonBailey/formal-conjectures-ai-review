@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Tang's suggestion on erdosproblems.com/1044. For each fixed degree n ≥ 1, Λ(z^n - 1) is the least value of Λ over admissible f of degree n, which means the infimum is attained by z^n - 1. The polynomial z^n - 1 has its roots on the unit circle, so it is itself admissible."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A correct statement of the Moser spindle bound f(n) ≤ (2/7)n at n = 7m. Placing m far-apart copies of the 7-vertex spindle (independence number 2) gives a 7m-point set with independence number 2m."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/264 with the Kovač–Tao answer that 2^n is not an irrationality sequence. The definition matches the page: for every bounded integer b with a_n + b_n ≠ 0 and b_n ≠ 0, Σ 1/(a_n + b_n) is irrational."
+    }
+]

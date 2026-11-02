@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the EES74 bound g(k) ≤ exp((1+o(1))k), encoded with f → 0. The declaration name says 'conjecture' even though this is a proved result, correctly categorised as solved. That is purely cosmetic."
+    }
+]

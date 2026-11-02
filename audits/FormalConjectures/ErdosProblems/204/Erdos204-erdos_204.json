@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/204 with Adenwalla's negative answer: no n admits residues a_d for its divisors d > 1 that cover ℤ while classes with non-coprime moduli are disjoint. I checked the degenerate n = 0 (all d > 1 are 'divisors'): it is not a spurious witness. Moduli 2, 4, 6 already conflict, since a_4 and a_6 must both be odd to avoid the class of 2, and then the classes mod 4 and mod 6 intersect. Formal proof linked."
+    }
+]

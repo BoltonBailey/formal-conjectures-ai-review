@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the Davies–Illingworth upper bound f(n) ≤ (2 + o(1))√(n/log n), encoded with ε for all large n."
+    }
+]

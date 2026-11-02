@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States, for each k ≥ 2, some A with order exactly k and restricted order exactly 2^{k−2}+k−1. The page says 'at least'. The docstring explains that the HHP07 Theorem 4 construction has restricted order exactly this value, and finiteness is needed to avoid triviality via Bateman's example. I did not verify that equality from the paper. The k = 2 witness {1} ∪ 2ℕ indeed has order 2 and restricted order 2."
+    }
+]

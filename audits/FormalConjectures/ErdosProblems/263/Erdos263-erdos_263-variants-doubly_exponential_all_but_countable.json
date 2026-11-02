@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Koizumi's result that ⌊α^{2^n}⌋ is a (non-decreasing-sense) irrationality sequence for all but countably many α > 1. Using the weak (monotone) predicate is correctly justified, since a₀ = a₁ = 1 for α < 4/3."
+    }
+]

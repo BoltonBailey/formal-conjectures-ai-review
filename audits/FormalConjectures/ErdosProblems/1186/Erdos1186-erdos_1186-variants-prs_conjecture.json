@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the PRS conjecture δ_3 = 117/2192, correctly marked open. Since δ is defined as a liminf, the conjecture concerns that liminf, which equals the limit if it exists."
+    }
+]

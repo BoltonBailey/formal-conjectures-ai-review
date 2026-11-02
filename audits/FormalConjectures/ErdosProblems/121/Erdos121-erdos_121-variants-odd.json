@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully negates the generalisation 'F_{2k+1}(N) = (1 - o(1))N for all k ≥ 1'. It is refuted by Tao's theorem for every k ≥ 2, and one failing k suffices."
+    }
+]

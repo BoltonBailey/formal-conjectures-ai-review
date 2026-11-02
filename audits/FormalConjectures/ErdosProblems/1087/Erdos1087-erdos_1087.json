@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1087. A 4-point set is degenerate when two of its six pairwise distances coincide, encoded as having fewer than C(4,2) = 6 distinct distances. f(n) is the maximum number of degenerate 4-subsets over n-point planar sets. f(n) ≤ n^{3+o(1)} is encoded as f(n) = O(n^{3+ε}) for every ε > 0, which is equivalent. The open question is stated in the affirmative."
+    }
+]

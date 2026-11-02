@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Answers 'how fast does f(n) → ∞?' with linear growth, f(n) = Θ(n). This follows from Kelly–Moser and the near-pencil, and the sharper constant 1/2 is in the Green–Tao variants."
+    }
+]

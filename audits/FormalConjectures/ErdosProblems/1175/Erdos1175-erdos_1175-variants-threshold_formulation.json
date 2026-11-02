@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A stronger variant replacing χ(G) = λ with χ(G) ≥ λ. The in-file test proves that it implies the main statement. It is a reasonable open variant and is correctly stated."
+    }
+]

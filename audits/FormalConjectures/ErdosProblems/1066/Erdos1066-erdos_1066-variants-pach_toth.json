@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes the Pach–Tóth upper bound g(n) ≤ (5/16)n as: for every ε > 0, g(n) ≤ (5/16+ε)n for infinitely many n. As the docstring notes, the literal bound fails for small n (g(1) = 1), so some weakening is needed. This one is faithful in spirit and, given that the limit of g(n)/n exists by subadditivity, equivalent to lim g(n)/n ≤ 5/16."
+    }
+]

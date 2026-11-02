@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Intends the trivial lower bound that ≫ ε^{-1} summands are needed. It is stated for C ε, defined as the least C working for all primes. That quantity is dominated by small primes: for p < 2^{1/ε} only n = 1 is admissible, so roughly 2^{1/ε} summands are needed. The inequality K/ε ≤ C ε therefore holds for a degenerate reason and does not express the intended counting bound for large p (at least log p/(ε log p) = 1/ε summands). The statement is true but weaker and less meaningful than intended. It should be phrased for all sufficiently large primes, like the upper-bound variants."
+    }
+]

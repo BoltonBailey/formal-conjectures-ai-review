@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states LeechLattice's bound h(N) ≪ N^{2/3}, where h(N) is the fewest colours of [1,N] such that every 4-term AP sees at least 3 colours. It is true but outdated: erdosproblems.com/160 reports Hunter's improvement h(N) ≪ N^{log 3/log 22 + o(1)} (≈ N^{0.355}), which could be added as a variant."
+    }
+]

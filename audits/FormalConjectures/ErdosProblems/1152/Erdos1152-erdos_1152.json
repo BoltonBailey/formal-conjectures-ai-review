@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1152. For any triangular array of nodes (n distinct points of [-1,1] in row n) and any ε(n) → 0, there is a continuous f on [-1,1] such that any interpolating sequence p_n with deg p_n < (1+ε(n))n fails to converge to f at almost every point of [-1,1]. As the docstring argues, requiring ε(n) > 0 loses no generality, and exempting n = 0 from the degree bound avoids a vacuous hypothesis. The 'almost all x' reading (for a.e. x, p_n(x) ↛ f(x)) is the natural one. The open question is stated affirmatively."
+    }
+]

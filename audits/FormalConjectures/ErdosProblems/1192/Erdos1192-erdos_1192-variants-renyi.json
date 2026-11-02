@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states the Erdős–Rényi probabilistic result: for each r ≥ 2 some A has Σ f_r(n)² ≪ x and |A ∩ [1,x]| ≫ x^{1/r}. Nat.count counts elements below x, which differs only by an endpoint."
+    }
+]

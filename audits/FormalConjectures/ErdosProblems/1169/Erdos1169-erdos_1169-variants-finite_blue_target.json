@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes the alternative reading ω₁² ↛ (ω₁², k)² for all finite k ≥ 3. This is implied by the k = 3 statement, since a colouring with no blue triangle has no blue K_k. Excluding k ≤ 2 is necessary. A sensible companion to the main statement."
+    }
+]

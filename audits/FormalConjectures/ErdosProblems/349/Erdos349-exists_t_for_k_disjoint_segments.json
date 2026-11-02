@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful to Graham's [Gr64e] result. For each k there is t ∈ (0,1) whose set of α > 0 with a complete sequence has at least k connected components, which formalizes 'at least k disjoint line segments'."
+    }
+]

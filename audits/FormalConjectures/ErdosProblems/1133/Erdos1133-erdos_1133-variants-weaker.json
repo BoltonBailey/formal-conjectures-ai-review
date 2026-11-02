@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully states Erdős's proved result quoted on the page. With m = ⌊(1+ε)n⌋ nodes, there is a polynomial of degree exactly n that is bounded by 1 at all nodes but exceeds C somewhere on [-1,1]."
+    }
+]

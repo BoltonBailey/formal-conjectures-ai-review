@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes Pollack's Theorem 1.3 as used by the APSSV deduction: for ε, A > 0 and every quadratic Dirichlet character χ mod m with m large, the primes ℓ ≤ m^{1/4+ε} with χ(ℓ) = 1 number at least (log m)^A. residuePrimesUpTo implements this set correctly. This is a plausible, correctly typed rendering of a published result. I could not check the exact wording against [Po17]."
+    }
+]

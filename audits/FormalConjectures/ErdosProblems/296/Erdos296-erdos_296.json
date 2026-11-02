@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Answers erdosproblems.com/296 with k(N) = (1 - o(1)) log N, so not o(log N). It combines the trivial bound k ≤ H_N (disjoint blocks each of reciprocal sum 1 inside [1,N]) with the Hunter–Sawhney/Bloom lower bound that ⌊(1 - ε) log N⌋ disjoint decompositions exist for large N. This is a faithful encoding of the asymptotic answer. Formal proof linked."
+    }
+]

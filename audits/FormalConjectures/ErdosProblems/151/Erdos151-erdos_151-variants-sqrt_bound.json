@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States the page's 'easy' bound τ(G) ≤ n - √n with ⌊√n⌋. The docstring correctly explains that the real square root fails for a single edge (n = 2, τ = 1). Using the floor is the right way to make the remark literally true."
+    }
+]

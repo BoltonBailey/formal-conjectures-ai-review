@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States the folklore result that a_n^{1/2^n} → ∞ implies Σ 1/a_n is irrational. No monotonicity is assumed. I was unsure the classical argument goes through without it, but a formal proof is linked, so the statement as written is supported."
+    }
+]

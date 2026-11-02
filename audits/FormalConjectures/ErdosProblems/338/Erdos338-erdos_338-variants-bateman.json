@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Correct and faithful. For h ≥ 3, A = {1} ∪ {positive multiples of h} has order exactly h: n = qh + r uses r ones plus one multiple, and n ≡ h−1 needs h summands. With distinct summands, 1 can be used at most once, so sums are ≡ 0 or 1 mod h, and residue 2 is never reached. Hence there is no restricted order."
+    }
+]

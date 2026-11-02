@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/1192: for every r ≥ 2 there is an asymptotic basis A of order r (f_r(n) > 0 for large n) with Σ_{n≤x} f_r(n)² ≪ x. f_r counts ordered r-tuples from A summing to n, which differs from unordered counts by at most a factor r!, irrelevant for ≪. The open question is stated affirmatively."
+    }
+]

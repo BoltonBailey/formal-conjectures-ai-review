@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes, for each k ≥ 2, the statement r_k(N) = o(N/log N) that the page links to Erdős's [3]. It is correct as a conjecture. For k = 2 it is trivial and for k = 3 it follows from Kelley–Meka, while for general k (≥ 5, with current bounds also k = 4) it is open, so the open tag is fine for the family. The name 'lower' is a misnomer, since this is an upper bound on r_k, but that is cosmetic."
+    }
+]

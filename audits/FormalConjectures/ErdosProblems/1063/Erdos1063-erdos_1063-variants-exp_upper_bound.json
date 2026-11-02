@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Encodes n_k ≤ e^{(1+o(1))k} as the existence of f → 0 with n_k ≤ exp((1+f(k))k) for all k. Requiring it for all k is harmless, because f is unconstrained at finitely many k, and for k = 0, 1 the defining set is empty so n_k = sInf ∅ = 0. This follows from Cambie's bound together with lcm(1..k) = e^{(1+o(1))k}."
+    }
+]

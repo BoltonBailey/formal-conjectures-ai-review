@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithfully encodes erdosproblems.com/154's 'must A + A be well-distributed over small moduli?' with the positive answer. Take Sidon sets A_k ⊆ [0,N_k] with N_k → ∞ and |A_k| ~ N_k^{1/2}. For each fixed modulus m ≥ 2 and residue i, the proportion of A_k + A_k congruent to i mod m tends to 1/m. 'Small moduli' is read as fixed m, which is the natural interpretation. Formal proof linked."
+    }
+]

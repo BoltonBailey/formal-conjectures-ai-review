@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "d995ef5d306637c0a2e489c7e579647168d7df2f",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Faithful to Cassels' result: some strictly increasing sequence whose range is an additive basis of order 2 has a_n/n² → x with x > 0. Using IsAddBasisOfOrder (every n, not just large n) is fine, because adjoining finitely many small elements to Cassels' asymptotic basis does not change the limit. The formalisation note correctly explains why x > 0 is required."
+    }
+]
