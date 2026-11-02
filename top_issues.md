@@ -2,7 +2,35 @@
 
 The most urgent misformalizations reported by audits, ranked as described in CONTRIBUTING.md.
 
-1. `Erdos918.erdos_918.variants.eq_aleph_0.parts.i`: severity 4, essentially misformalized
+1. `Erdos1017.erdos_1017.lower_bound`: severity 4, essentially misformalized
+
+   <details>
+   <summary>Details</summary>
+
+   - **File:** [FormalConjectures/ErdosProblems/1017.lean](https://github.com/google-deepmind/formal-conjectures/blob/d995ef5d306637c0a2e489c7e579647168d7df2f/FormalConjectures/ErdosProblems/1017.lean)
+   - **Commit:** [`d995ef5d3066`](https://github.com/google-deepmind/formal-conjectures/commit/d995ef5d306637c0a2e489c7e579647168d7df2f) (2026-11-01)
+   - **Model:** claude-opus-5-5, MathArena score 83.3
+   - **Audit file:** [Erdos1017-erdos_1017-lower_bound.json](audits/FormalConjectures/ErdosProblems/1017/Erdos1017-erdos_1017-lower_bound.json)
+
+   The source at erdosproblems.com/1017 says 'Estimate f(n,k) for k>n²/4', a vague request (the page says Erdős asks vaguely). Discrepancy: the Lean statement only asks for some function answer with answer n k≤f n k, so answer≡0 proves it with no content. Upstream STATEMENTS.md asks that a value statement constrain the unknown. Whether this is a correct formulation of the problem is therefore unclear, and proving it says nothing about the estimate.
+
+   </details>
+
+2. `Erdos1017.erdos_1017.upper_bound`: severity 4, essentially misformalized
+
+   <details>
+   <summary>Details</summary>
+
+   - **File:** [FormalConjectures/ErdosProblems/1017.lean](https://github.com/google-deepmind/formal-conjectures/blob/d995ef5d306637c0a2e489c7e579647168d7df2f/FormalConjectures/ErdosProblems/1017.lean)
+   - **Commit:** [`d995ef5d3066`](https://github.com/google-deepmind/formal-conjectures/commit/d995ef5d306637c0a2e489c7e579647168d7df2f) (2026-11-01)
+   - **Model:** claude-opus-5-5, MathArena score 83.3
+   - **Audit file:** [Erdos1017-erdos_1017-upper_bound.json](audits/FormalConjectures/ErdosProblems/1017/Erdos1017-erdos_1017-upper_bound.json)
+
+   The source at erdosproblems.com/1017 says 'Estimate f(n,k) for k>n²/4'. Discrepancy: the Lean statement only needs f n k≤answer n k, so taking answer n k:=f n k, or n²/4-type bounds from the Erdős-Goodman-Pósa theorem quoted on the page, proves it. It therefore does not capture any sharpening, which the page says is what Erdős was asking about.
+
+   </details>
+
+3. `Erdos918.erdos_918.variants.eq_aleph_0.parts.i`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
