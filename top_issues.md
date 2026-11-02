@@ -30,7 +30,21 @@ The most urgent misformalizations reported by audits, ranked as described in CON
 
    </details>
 
-3. `Erdos918.erdos_918.variants.eq_aleph_0.parts.i`: severity 4, essentially misformalized
+3. `Erdos328.erdos_328`: severity 4, essentially misformalized
+
+   <details>
+   <summary>Details</summary>
+
+   - **File:** [FormalConjectures/ErdosProblems/328.lean](https://github.com/google-deepmind/formal-conjectures/blob/d995ef5d306637c0a2e489c7e579647168d7df2f/FormalConjectures/ErdosProblems/328.lean)
+   - **Commit:** [`d995ef5d3066`](https://github.com/google-deepmind/formal-conjectures/commit/d995ef5d306637c0a2e489c7e579647168d7df2f) (2026-11-01)
+   - **Model:** claude-opus-5-5, MathArena score 83.3
+   - **Audit file:** [Erdos328-erdos_328.json](audits/FormalConjectures/ErdosProblems/328/Erdos328-erdos_328.json)
+
+   The statement ¬ ∀ C > 0, ∃ t, … is trivially provable with C = 1. Take A = {1}: sumRep A n ≤ 1 for all n, since only n = 2 is represented, once. Any partition must put 1 into some piece P i, and then sumRep (P i) 2 = 1, which is not < 1. With t = 0 the union is empty and cannot equal A. So the formal statement does not capture the content of Nešetřil–Rödl, who show the answer is no for every C, nor Erdős's C = 3, 4 results. Small C are degenerate under the ordered-pair convolution. Simply switching to ∀ C > 0, ¬ ∃ t, … with the ordered sumRep does not fix it, because that is false at C = 3. Ordered count ≤ 3 means each b ∈ A is the middle of at most one progression a < b < c in A, so colouring greedily with b opposite a gives t = 2. A faithful version should count unordered pairs a ≤ b, as in Nešetřil–Rödl Theorem 2, and state ∀ C > 0, ¬ ∃ t, …, ideally even with t depending on A. See issue #6540 and PR #7704.
+
+   </details>
+
+4. `Erdos918.erdos_918.variants.eq_aleph_0.parts.i`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
