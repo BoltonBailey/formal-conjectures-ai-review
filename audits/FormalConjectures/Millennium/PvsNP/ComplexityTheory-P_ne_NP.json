@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States P ≠ NP for these classes. P is the set of L : List Bool → Bool that are poly-time computable via Mathlib's TM2ComputableInPolyTime, using the repo's BitstringEncoding (lists encode each bit as a 3-bit self-delimiting block, a linear blow-up). NP is defined by a poly-time verifier R on (x, w) pairs, using the self-delimiting encoding delimit(x) ++ w, with witnesses of length ≤ p(|x|). This matches Arora–Barak Def. 2.1. All the encodings are polynomially equivalent to standard ones, so the statement is the faithful P vs NP question."
+    }
+]

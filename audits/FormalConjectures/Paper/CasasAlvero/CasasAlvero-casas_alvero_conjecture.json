@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Graf von Bothmer–Labs–Schicho–van de Woestijne (arXiv:math/0605090) and MathOverflow 27851: in characteristic zero, a polynomial of degree d sharing a nontrivial factor with each of its first d-1 derivatives is a d-th power (X-α)^d up to a scalar. The formal version takes P monic (fixing the scalar) over a char-0 field, and requires ¬IsCoprime P (hasseDeriv i P) for i ∈ {0, …, d-1}; i = 0 is automatic for nonconstant P, and Hasse derivatives differ from ordinary ones by the unit i! in characteristic 0. The d = 0 case (P = 1) is trivially true. Common factor over K equals common root over the algebraic closure, so this is the standard statement. Faithful."
+    }
+]

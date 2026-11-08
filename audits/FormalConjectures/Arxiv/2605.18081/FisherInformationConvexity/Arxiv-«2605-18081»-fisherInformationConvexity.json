@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "This is Problem (iii) of Zou–Fan–Gao–Wang §7.3: is the Fisher information I(P_t f) always convex in t along the heat flow, for admissible f? Admissible means a positive Schwartz probability density with finite I, Q, D and Q > 0, matching §7. The heat kernel, the Fisher information and H = −∇² log f are encoded directly. The negative answer rests on KitaKen1's linked Lean proof. Its README says the counterexample satisfies all the paper's conditions and proves `answer(False) ↔ …` with these same definitions. The statement is faithful; the solved tag is backed by a machine-checked proof but no refereed paper."
+    }
+]

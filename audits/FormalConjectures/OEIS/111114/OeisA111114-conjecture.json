@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A111114 (a(n) = floor(prime(n)/π(n)), offset 2): 'Conjecture: As n → infinity, there are infinitely many n's such that a(n) is greater than a(n+1).' The formal a = Nat.nth Nat.Prime (n−1) / primeCounting n (natural division = floor), and ∃ᶠ n in atTop, a(n) > a(n+1) is 'infinitely many such n'. Faithful."
+    }
+]

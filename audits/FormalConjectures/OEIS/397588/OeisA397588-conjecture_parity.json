@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A397588 (g.f. A(x) = x + (xA(x)²)'), P. D. Hanna: 'a(n) is odd iff n is a power of 2 for n >= 1.' The formal recurrence a(n) = (n+1)[x^n]A² matches the g.f. and reproduces the DATA (checked n ≤ 10). The statement for n ≥ 1 matches. Faithful."
+    }
+]

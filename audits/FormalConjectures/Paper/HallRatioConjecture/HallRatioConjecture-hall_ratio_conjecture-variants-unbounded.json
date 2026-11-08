@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "For every real C there is a finite graph with C ρ(G) < χ_f(G); this is the negative answer of Dvořák–Ossona de Mendez–Wu (arXiv:1812.07327) and Blumenthal et al. (arXiv:1811.11116). For C ≤ 0 any nonempty graph works. Faithful."
+    }
+]

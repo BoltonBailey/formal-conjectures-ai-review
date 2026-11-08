@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Norin–Turcotte (JCTB 168, arXiv:2207.04035, 'The burning number conjecture holds asymptotically') prove b(G) ≤ (1 + o(1))√n for connected G on n vertices. The formal version: for every ε > 0 there is n0 such that every connected finite graph with ≥ n0 vertices has b(G) ≤ (1+ε)√n, which is the unpacking of the o(1). Faithful."
+    }
+]

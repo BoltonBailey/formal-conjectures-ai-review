@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "If 2^x, 3^x and 5^x are integers, then x is an integer. This follows from the six exponentials theorem (Lang / Ramachandra), as stated in the question and the accepted answer. The statement is correct and solved; it is arguably research rather than textbook level, but that does not matter."
+    }
+]

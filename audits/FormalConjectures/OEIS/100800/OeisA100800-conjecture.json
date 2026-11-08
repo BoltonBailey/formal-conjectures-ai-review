@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A100800 (offset 1): f(n) = n + digitsum(n); a(n) is the first iterate f(f(…f(n))) divisible by n, or 0 if none; 'Conjecture: No term is zero.' The formal a takes the least k with n | f^[k+1](n) and returns that iterate, else 0, and the conjecture is a(n) ≠ 0 for all n ≥ 1 (equivalently, some iterate is a multiple of n). Faithful."
+    }
+]

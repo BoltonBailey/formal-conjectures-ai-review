@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for OEIS A381355: unfolding of the strong recursion defining F, where f(n) = −[x^n](F_{<n})^{p_n}/p_n, which is the unique choice making [x^n]F^{p_n} = 0 (the coefficient is p_n·f(n) + terms from lower coefficients). True and proved. Correct."
+    }
+]

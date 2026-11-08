@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Gleason–Montgomery–Zippin (1952): a locally Euclidean (Hausdorff) topological group is a Lie group; this is the 'commonly cited solution' of Hilbert's fifth problem referred to on Wikipedia (Hilbert–Smith conjecture) and van den Dries–Goldbring. The statement takes a Hausdorff topological group G with a ChartedSpace structure over ℝ^n on its own topology and asserts a LieGroupPresentation G n: a homeomorphic group isomorphism onto a Hausdorff real-analytic Lie group of the same dimension n. No second countability is required, which is consistent with GMZ (a local result). Faithful."
+    }
+]

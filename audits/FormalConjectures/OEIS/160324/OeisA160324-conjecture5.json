@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Sun (Aug 21 2009): 'for each m=3,4,... all sufficiently large integers have the form p_{m+1}(x_1)+p_{m+2}(x_2)+p_{m+3}(x_3)'. The formal statement is the eventual (∀ᶠ n) version for each m > 2. Faithful."
+    }
+]

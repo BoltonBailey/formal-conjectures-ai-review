@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Is there a prime p with both 2^{p−1} ≡ 1 and 3^{p−1} ≡ 1 (mod p²)? This matches the Wikipedia unsolved-problems list entry citing Dobson. The definitions use p² ∣ a^{p−1} − 1 in ℕ, which is correct for a = 2 and 3. The statement is faithful and open."
+    }
+]

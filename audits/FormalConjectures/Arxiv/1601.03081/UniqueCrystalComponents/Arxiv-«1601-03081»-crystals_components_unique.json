@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "This is the authors' conjecture (end of the Biharmonic mean paper): the components of a crystal n = ab (odd, a, b > 1, B(a,b) ∈ ℕ) are unique up to order. The definition matches Definition 5, and {a,b} = {c,d} as finsets correctly identifies (a,b) with (b,a). A brute-force search over n ≲ 3·10⁶ found no crystal with two distinct component pairs. The statement is faithful and open."
+    }
+]

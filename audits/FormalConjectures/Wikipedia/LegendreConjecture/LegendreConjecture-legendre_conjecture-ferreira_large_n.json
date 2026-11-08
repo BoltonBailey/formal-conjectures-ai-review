@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Legendre's conjecture for all large n, tagged `research solved` and attributed to Ferreira (arXiv:2307.08725). That preprint is unrefereed (\"submitted to Annals\") and claims asymptotics for primes in (x, x + x^λ] for every λ > 0. That would be far beyond the established short-interval results (λ > 7/12), and it is not an accepted result. The eventual Legendre statement remains open: it would need prime gaps O(√p), which is unknown even under RH. The category should be `research open`."
+    }
+]

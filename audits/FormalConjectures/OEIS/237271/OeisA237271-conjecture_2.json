@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A237271 (number of parts in the symmetric representation of σ(n)), O. Pol's Conjecture 2: a(n) is the number of 2-dense sublists of divisors of n (maximal runs of consecutive divisors increasing by a factor ≤ 2). The file defines a(n) by the characterization 1 + #{consecutive divisor pairs (d, d') with d' odd and d' ≥ 2d}. I checked this against the full OEIS b-file (n ≤ 10000) with no mismatches. num2DenseSublists = 1 + #{consecutive pairs with d' > 2d} counts maximal 2-dense runs, and the two agree for n ≤ 10000. The statement a n = num2DenseSublists n is the conjecture, given a faithful a. Faithful."
+    }
+]

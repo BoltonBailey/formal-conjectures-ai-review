@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A051903 (maximum exponent in the prime factorisation of n), T. Ordowski: 'Are there composite numbers n > 4 such that n == a(n) (mod phi(n))?' The formal a computes the maximum multiplicity in primeFactorsList, and the statement ∃ composite n > 4 with φ(n) | n − a(n) is the positive form of the question (a(n) ≤ n, so the subtraction is exact). The docstring's equivalence with Lehmer's totient problem is correct. Faithful."
+    }
+]

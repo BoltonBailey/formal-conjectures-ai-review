@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green's Problem 19 (Solved): C, the infimum of exponents c such that every A ⊆ F₂ⁿ×F₂ⁿ of density α has some d with ≫ α^c N² corners, equals 4 (Fox–Sah–Sawhney–Stoner–Zhao). The formalization keeps the constant K uniform in α, as Green requires, but allows n to be large depending on α (∀ᶠ n), and requires d ≠ 0. These tweaks are harmless: d ≠ 0 excludes the trivial d = 0 corners, which is the intended meaning, and FSSSZ's lower-bound constructions work for arbitrarily large n, so C = 4 is unaffected. The statement is faithful."
+    }
+]

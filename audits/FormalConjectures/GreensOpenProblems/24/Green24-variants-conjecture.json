@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "γ = 1/3, matching Green's \"(1/3 + o(1))n²\" and Aaronson's conjecture γ_{1,2,−3} = 1/3 (the value for an interval). Because intervals already give lim inf ≥ 1/3, limsup = 1/3 is equivalent to the asymptotic (1/3 + o(1))n². I checked the normalization against Aaronson's arXiv:1801.07135 (T(S) counts solutions of x + 2y = 3z in S³). The statement is faithful."
+    }
+]

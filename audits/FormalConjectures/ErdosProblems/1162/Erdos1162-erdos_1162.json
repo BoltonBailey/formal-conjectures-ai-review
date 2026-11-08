@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #1162 (Erdős–Turán): give an asymptotic formula for f(n), the number of subgroups of S_n. It is encoded as f ~ answer with an unknown answer; the vaguer second question is reasonably omitted. The best known result is log f(n) = (1/16 + o(1))n² (Roney-Dougal–Tracey), which falls short of an asymptotic for f itself. The statement is faithful and open."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Knuth's revised 'Claude's Cycles' (14 April 2026, problem stated for all m > 2) reports the even case settled (Ho Boon Suan's construction with a proof for even m ≥ 8, explicit solutions for small even m, Aquino-Michaels). The formal statement asserts a Hamiltonian arc decomposition for every even m > 2, matching. Note the `question` attribute sits on a statement that Knuth posed as a problem expecting a positive answer; harmless. Faithful."
+    }
+]

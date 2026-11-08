@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Wanless (2011), Conjecture 6.7 (Vardi): there exist 0 < c1 < c2 < 1 with c1^n n! ≤ z_n ≤ c2^n n! for all odd n ≥ 3, where z_n counts transversals of the cyclic latin square. The formal statement matches exactly, with z defined as numTransversals of the table i + j over Fin n. Documentation issue only: the file tags this as research open, but Eberhard–Manners–Mrazović (arXiv:1510.05987, 'Additive triples of bijections, or the toroidal semiqueens problem') proved the asymptotic z_n = (e^{-1/2}+o(1)) n!^2/n^{n-1} for odd n, which together with z_n ≥ 1 for odd n settles this conjecture. The statement itself is faithful."
+    }
+]

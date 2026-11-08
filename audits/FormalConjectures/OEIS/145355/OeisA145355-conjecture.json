@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "OEIS A145355 (a(n) = round(round(√(n!))/|round(√(n!))² − n!|), i.e. roughly √(n!)/(distance from n! to the nearest square)): 'This sequence suggests that the distance between a factorial and the closest power is tightly bounded.' This is an informal remark, not a precise conjecture. The formal reading 'a(n) is bounded for n ≥ 2' (n! is never relatively very close to a square) is a reasonable interpretation, and the definition of a matches (no division by zero for n ≥ 2, since n! is not a square). Caveat: if the fractional position of n! between squares behaves randomly, a(n) > C with probability about 2/C for each n, so the bounded version is heuristically false. Severity 2, because the source is vague and the formal pins down one interpretation."
+    }
+]

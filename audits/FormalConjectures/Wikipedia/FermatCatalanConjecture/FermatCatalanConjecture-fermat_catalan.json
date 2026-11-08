@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Fermat–Catalan conjecture: the set of value triples (a^m, b^n, c^k), with a, b, c positive and pairwise coprime, a^m + b^n = c^k, and 1/m + 1/n + 1/k < 1 computed in ℝ, is finite. Counting distinct value triples matches Wikipedia's formulation and avoids the trivial infinitude from 1 = 1^m. The statement is faithful and open."
+    }
+]

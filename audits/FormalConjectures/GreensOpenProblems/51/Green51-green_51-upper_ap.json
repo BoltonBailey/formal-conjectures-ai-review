@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Ruzsa's construction: for α < 1/2 and any ε > 0, some A ⊆ [N] of density α has no AP in A + A longer than exp(c(log N)^{2/3+ε}). This matches Green's \"upper bound ∼ exp(c(log N)^{2/3})\". The ε slack is a reasonable way to absorb lower-order factors."
+    }
+]

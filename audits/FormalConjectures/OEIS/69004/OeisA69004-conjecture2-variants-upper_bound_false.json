@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that π(n) ≥ a(n) fails for some n > 1. I computed a(512720) = 42666 and π(512720) = 42493, confirming the counterexample cited in the docstring. The statement is correct and faithfully tagged as solved."
+    }
+]

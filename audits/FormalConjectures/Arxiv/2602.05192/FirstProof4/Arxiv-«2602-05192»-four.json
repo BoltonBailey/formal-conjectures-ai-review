@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "First Proof Problem 4, the finite free Stam inequality: 1/Φ_n(p ⊞_n q) ≥ 1/Φ_n(p) + 1/Φ_n(q) for monic real-rooted p, q of degree n. The ⊞_n coefficients c_k = Σ_{i+j=k} (n−i)!(n−j)!/(n!(n−k)!) a_i b_j with a_i = coeff(n−i) match the paper. Φ_n is set to ∞ for multiple roots, as in the paper. Real-rootedness is encoded as degree n with n roots. Using ENNReal makes the n ≤ 1 edge cases (Φ = 0) consistent with 1/0 = ∞. Appendix B (Garza Vargas–Srivastava–Stier, Theorem B.1) proves it for all n. The statement is correct and solved."
+    }
+]

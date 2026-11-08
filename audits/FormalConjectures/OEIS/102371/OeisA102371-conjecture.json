@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A102371 (offset 1) comment by D. Corneth: 'Do we have a(n) = 2^n−1−A105033(n−1)?'. The formal a uses the FORMULA a(1) = 1, a(n) = a(n−1) XOR (a(n−1) + n), and OeisA105033.a uses the formula n − Σ 2^{k+1} over k with 2^{k+1} ≤ n and n ≡ k mod 2^{k+1}. I checked numerically that these reproduce the OEIS DATA of both sequences and that the identity holds for 1 ≤ n < 60. The statement for all n ≥ 1 matches the question. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Maxwell's bound of 4 for three arbitrary charges. The paper says \"it is not known even for n = 3 if 4 is the maximum number, except in the case of equal charges\". The statement is faithful and open."
+    }
+]

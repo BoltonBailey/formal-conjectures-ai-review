@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "There are infinitely many Wolstenholme primes. The definition adds p > 7, which is harmless because p = 2, 3, 5, 7 fail the mod-p⁴ congruence anyway. The statement is faithful and open."
+    }
+]

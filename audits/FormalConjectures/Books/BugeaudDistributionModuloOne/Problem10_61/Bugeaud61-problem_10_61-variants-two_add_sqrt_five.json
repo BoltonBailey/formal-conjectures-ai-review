@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "At α = 2 + √5, an explicit open interval in (0, 1) is missed by {ξαⁿ} for all ξ ∈ C(α) and n ≥ 0. This is the strong form, from the covering criterion (Stephan's abstract and Theorem C). A Lean proof is linked. The statement is consistent with the paper."
+    }
+]

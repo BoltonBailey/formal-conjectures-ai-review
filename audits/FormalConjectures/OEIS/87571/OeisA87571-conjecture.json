@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that there are infinitely many composite n (here n > 1, not prime) with a(n) ≠ 0, using ∀ M ∃ n > M. The definition of a scans k = 0, …, n−1 in increasing order. Since the concatenations n‖n−1‖…‖n−k strictly grow with k, the first prime found is the smallest, which matches A087571 (e.g. a(4) = 43 and a(1) = 0). The statement is faithful and tagged open."
+    }
+]

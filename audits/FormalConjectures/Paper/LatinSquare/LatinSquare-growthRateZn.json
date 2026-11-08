@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Wanless (2011), Conjecture 6.9: lim_{n→∞} (1/n) log(z_n/n!) = −1, which (since z_n = 0 for even n) must be read along odd n; the formal statement takes n = 2k+1 and asserts the limit −1 in ℝ. Faithful to the source. Documentation issue: it is tagged research open, but the Eberhard–Manners–Mrazović asymptotic (arXiv:1510.05987) z_n ~ e^{-1/2} n!^2/n^{n-1} gives z_n/n! = e^{-n} n^{O(1)}, so the limit is −1 and the conjecture is proved."
+    }
+]

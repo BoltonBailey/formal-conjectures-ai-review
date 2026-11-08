@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "OEIS A100434 (Dement): define b(2n) = c(2n+1), b(2n+1) = c(2n) and conjecture c(n) + d(n) = b(n). Read literally this fails at n = 0: c(0) + d(0) = 3 but c(1) = −3. The formal file deliberately uses b(2n) = −c(2n+1) (comment pointing to formal-conjectures issue 5025), and with that sign the identity holds; I checked numerically c + d = (3, 1, −17, −7, 99, 41, …) = b_formal for n < 38. This is clearly the intended statement ('c with even- and odd-indexed terms reversed', up to sign), so solving the formal statement settles the intended conjecture. The documented sign correction is a deviation from the literal OEIS text, so severity 2."
+    }
+]

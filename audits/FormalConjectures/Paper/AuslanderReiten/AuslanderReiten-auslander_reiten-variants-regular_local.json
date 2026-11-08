@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Over a regular local ring R every f.g. module M has finite projective dimension p (Auslander–Buchsbaum–Serre), and if p > 0 then Ext^p_R(M, R) ≠ 0 (from a minimal free resolution: the last map's dual has entries in the maximal ideal, so its cokernel is nonzero by Nakayama). Hence Ext^i(M, R) = 0 for all i > 0 forces M free. The formal statement assumes [IsRegularLocalRing R] (Mathlib's class, which includes Noetherian and local), a f.g. M and only the Ext(M, R) vanishing, concluding Module.Free R M. This is a true textbook fact matching the docstring. Faithful."
+    }
+]

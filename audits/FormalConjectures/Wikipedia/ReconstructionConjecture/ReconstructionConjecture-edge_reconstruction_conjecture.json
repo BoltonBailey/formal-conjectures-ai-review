@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Harary's edge reconstruction conjecture: graphs with ≥ 4 edges are determined by their edge-deleted decks (here G and H share the vertex set). The statement is faithful and open."
+    }
+]

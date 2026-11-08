@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A113258 (ascending–descending base–exponent transform of factorials, a(n) = Σ_{i=1}^n (i!)^((n−i+1)!): 1, 3, 11, 125, …): 'Is there a nontrivial power after a(4) = 5^3?' The formal sum, reindexed by i ↦ i+1, matches this definition and the DATA. The statement asks for n > 4 with a(n) = b^e, b > 1, e > 1, the positive form of the question. Faithful."
+    }
+]

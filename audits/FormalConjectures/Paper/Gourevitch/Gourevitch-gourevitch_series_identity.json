@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Gourevitch's identity Σ_{n≥0} binom(2n,n)^7 (168n^3 + 76n^2 + 14n + 1)/2^{20n} = 32/π^3, recorded by Guillera (Exp. Math. 12 (2003)) and covered by Au's WZ-seed method (arXiv:2312.14051, whose abstract mentions a 1/π^3 formula among the Guillera conjectures it proves). The formal statement is exactly this tsum over ℕ in ℝ; the terms decay like 2^{-6n}, so the series is summable and tsum is the true sum. I checked numerically: the partial sum to n = 59 is 1.03204910186238, agreeing with 32/π^3 to 15 digits. Faithful."
+    }
+]

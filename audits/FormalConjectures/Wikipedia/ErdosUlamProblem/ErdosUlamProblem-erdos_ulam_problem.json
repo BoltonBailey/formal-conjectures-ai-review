@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Erdős–Ulam problem: is there a dense subset of the plane with all pairwise distances rational? It is stated in existence form, which is the \"yes\" direction, although the conjectured answer is no (it is conditionally false under Bombieri–Lang, per Tao/Shaffaf). The statement is faithful as a question."
+    }
+]

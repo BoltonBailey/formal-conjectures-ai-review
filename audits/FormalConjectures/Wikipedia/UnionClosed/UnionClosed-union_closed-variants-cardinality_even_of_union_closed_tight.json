@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "This is the first half of Conjecture 3 in Roos (NAW 2023): if Frankl's bound is tight (the max element frequency equals |A|/2), then |A| is a power of 2. The tightness hypothesis via IsGreatest of the range of frequencies is correct. A ≠ ∅ is needed, and is assumed. As a check, I brute-forced all union-closed families over ground sets of size ≤ 4 and found no tight family whose size is not a power of 2. The statement is faithful and open, though the name \"cardinality_even\" undersells it."
+    }
+]

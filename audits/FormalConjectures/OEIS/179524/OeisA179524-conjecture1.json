@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A179524 (a(n) = Σ_k (−4)^k C(n,k)² C(n−k,k)²), Z.-W. Sun: for primes p ≡ 1, 9 (mod 20) with p = x² + 5y², Σ_{k<p} a(k) ≡ 4x² − 2p (mod p²). The formal statement takes any integers x, y with p = x² + 5y² (x² is determined, so this is equivalent). Checked numerically for p < 300. Faithful."
+    }
+]

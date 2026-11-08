@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The folklore conjecture: for odd primes p, the only integer solutions of x² − 2 = y^p are (±1, −1). Katz–Pratt (arXiv:2507.12397) prove it for p ≤ 13 and p > 911, and show nontrivial solutions have y > 10^{1000}, so the full statement (17 ≤ p ≤ 907 remaining) is open. The iff encodes \"these are the only solutions\" correctly. The statement is faithful."
+    }
+]

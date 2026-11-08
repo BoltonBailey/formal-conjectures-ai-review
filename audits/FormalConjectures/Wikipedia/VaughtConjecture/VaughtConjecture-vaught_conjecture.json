@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Vaught's conjecture: for a complete theory in a countable language, the number of countable models up to isomorphism is ≤ ℵ₀ or exactly 2^ℵ₀. Here `equivSetoid` is Mathlib's L-isomorphism setoid on bundled structures, not mere bijection, so the count is genuinely up to isomorphism. Finite models are included, but a complete theory with a finite model has exactly one model, so this is harmless. The statement is faithful and open."
+    }
+]

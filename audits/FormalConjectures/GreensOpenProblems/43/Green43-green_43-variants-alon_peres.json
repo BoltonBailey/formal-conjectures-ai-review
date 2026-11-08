@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Alon–Peres-type question from Green's comments: for large primes p, does every A ⊆ ℤ/pℤ of size ⌊p/2⌋ have a dilate with no gap longer than p^{0.49}? Allowing n = 0 is harmless, since that dilate only has longer gaps. Restricting to large p is justified. The statement is faithful."
+    }
+]

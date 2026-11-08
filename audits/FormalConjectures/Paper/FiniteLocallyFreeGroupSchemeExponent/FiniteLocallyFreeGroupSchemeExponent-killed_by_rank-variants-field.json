@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Schoof's survey (citing SGA 3 Exp. VIIA Prop. 8.5): 'over a field, any finite group scheme, commutative or not, is annihilated by its order'. The formal statement: a finite-dimensional commutative Hopf algebra A of dimension n over a field k (not assumed cocommutative) satisfies IsKilledBy k A n. Faithful."
+    }
+]

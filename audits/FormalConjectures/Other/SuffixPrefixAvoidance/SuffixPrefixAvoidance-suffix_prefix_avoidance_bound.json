@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "If no suffix of a word in A equals a prefix of a word in B, then |A|·|B| ≤ q^{2n}/(en). The abstract of Zakharov (arXiv:2602.20143) only says (1+o(1))/(en), but Theorem 1.1 gives αβ·n ≤ (n/(n+1))^{n+1}, which is strictly below 1/e for every n ≥ 1. So the exact non-asymptotic bound stated here does follow. The overlap definition includes the full-length case (u = w), as in the paper. The statement is correct and solved."
+    }
+]

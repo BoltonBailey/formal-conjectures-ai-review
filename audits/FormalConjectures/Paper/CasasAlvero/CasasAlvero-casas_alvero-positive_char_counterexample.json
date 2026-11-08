@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "arXiv:math/0605090 shows that in each positive characteristic p the conjecture fails. The formal statement asserts that in some field of characteristic p, P = X^(p+1) - X^p = X^p (X - 1) is monic, has the (Hasse-derivative) Casas-Alvero property and is not (X-α)^(p+1). Checking: D^(1)P = (p+1)X^p - pX^(p-1) = X^p shares the root 0; for 2 ≤ i ≤ p-1, D^(i)P = (C(p+1,i))X^(p+1-i) - C(p,i)X^(p-i) = 0 mod p, so not coprime with P; D^(p)P = X - 1 shares the root 1. So the statement is true (and a linked formal proof exists), matching the source. Faithful."
+    }
+]

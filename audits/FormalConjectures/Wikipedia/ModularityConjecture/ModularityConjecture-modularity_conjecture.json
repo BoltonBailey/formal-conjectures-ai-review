@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The modularity theorem (Wiles, Taylor–Wiles, BCDT): for an elliptic curve E/ℚ there is a weight-2 normalized eigenform on Γ₀(N) with a_p(f) = a_p(E) for p ∤ N. a_p(E) is computed as p minus the number of affine points of the coefficientwise reduction mod p, so it is only meaningful for good reduction of the given model. Because N is existential, the finitely many primes where the given (possibly non-minimal) model reduces badly can be absorbed into N, for example using p-stabilized eigenforms, which satisfy the stated a_{p^r} = a_p^r condition. So the statement remains true and faithfully expresses modularity. Eigenform properties are encoded via q-expansion relations (Diamond–Shurman 5.8.5), since Hecke operators are unavailable."
+    }
+]

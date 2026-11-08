@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A002326, A. J. Masad: 'For each k>=2, if p is an odd prime then a(((p^(k+1))−1)/2) = p * a((p^k−1)/2).' Formal statement matches (k ≥ 2, p odd prime). The docstring's remark that this is equivalent to conjecture1 via lifting the exponent is correct but does not affect faithfulness. Faithful."
+    }
+]

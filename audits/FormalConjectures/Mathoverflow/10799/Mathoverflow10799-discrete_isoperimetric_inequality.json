@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The p-biased edge-isoperimetric inequality I^p(F) ≥ (1/p)μ_p(F) log_p μ_p(F), stated for monotone F and 0 < p < 1. At p = 1/2 and μ = 1/2 it gives the classical 2^{n−1} edge bound. The degenerate cases μ ∈ {0, 1} give RHS 0. The statement is correct; the textbook tag fits."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A degree-2 field extension L/K is K-isomorphic to K[x]/(x² − bx − a) for some a, b. Pick any α ∉ K and use its minimal polynomial. This holds in every characteristic. The statement is correct."
+    }
+]

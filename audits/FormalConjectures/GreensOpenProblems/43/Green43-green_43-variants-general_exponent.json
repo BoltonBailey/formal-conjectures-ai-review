@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The exponent-α generalization for all α ∈ (0,1). Green raises \"similar questions with 0.51 replaced by other exponents α\" without asserting the answer is positive for all α (progress near α ≈ 1 would imply Kakeya). Formalizing the uniform positive answer is a reasonable open variant."
+    }
+]

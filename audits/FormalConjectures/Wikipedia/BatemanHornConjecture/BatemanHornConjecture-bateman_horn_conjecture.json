@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Bateman–Horn conjecture: for a nonempty finite set of distinct non-constant irreducible polynomials with positive leading coefficients (BunyakovskyCondition) satisfying Schinzel's local condition, the partial Euler products ∏_{p<N}(1−1/p)^{−k}(1 − ω_p/p) converge to a constant C > 0, and #{n ≤ x : all |f_i(n)| prime} ~ (C/∏deg f_i)·x/(log x)^k. ω_p counts residues mod p where some f_i vanishes, as on Wikipedia. Taking the limit of ordered partial products correctly handles the conditional convergence. Counting from n = 0 and using |f(n)| do not affect the asymptotic. The statement is faithful."
+    }
+]

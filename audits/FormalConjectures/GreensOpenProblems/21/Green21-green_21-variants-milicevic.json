@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Milićević's 2-adic conjecture: for every k there is K such that for all r > 0 and a ∈ (ℤ/2^rℤ)^k there is a K-colouring of ℤ/2^rℤ whose monochromatic solutions all satisfy 2^{r−d} | xᵢ, where d is the largest d (capped at r) with some nonempty subset sum ≡ 0 mod 2^d. Capping at r is harmless, since larger d give the same conclusion. Divisibility is expressed on canonical representatives (val), which is valid since 2^{r−d} | 2^r. The statement is faithful."
+    }
+]

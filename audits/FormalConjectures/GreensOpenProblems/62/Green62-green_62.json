@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Erdős–Odlyzko–Sárközy question: for all large primes p, is every x ∈ [1, p−1] congruent mod p to a product a₁a₂ of primes less than p? The formalization matches exactly (repetition a₁ = a₂ is allowed, as in the source). The statement is faithful and open."
+    }
+]

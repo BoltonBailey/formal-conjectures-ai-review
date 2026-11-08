@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Richards (1974): the two Hardy–Littlewood conjectures are incompatible (the first implies the existence of admissible tuples denser than primes in short intervals). The statement is correct."
+    }
+]

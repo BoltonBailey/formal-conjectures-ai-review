@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with OpenAI, 'A superquadratic separation between sensitivity and block sensitivity' (Sept 2026), §1: s(f, x) counts single-bit flips that change f, s(f) = max_x s(f, x), and bs(f, x) is the largest number of pairwise disjoint nonempty blocks whose flip changes f, with bs(f) = max_x; Nisan–Szegedy suggested bs(f) ≤ s(f)², which the paper disproves. The formal definitions match: flip, sensitivityAt/sensitivity, and blockSensitivityAt as a sup over pairwise disjoint block families each changing f (the empty block can never change f, so nonemptiness is automatic). The statement is the negation of ∀ n f, bs(f) ≤ s(f)². Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Falconer's conjecture in dimension d ≥ 2: dim_H E > d/2 implies positive measure of the distance set. The d = 1 exclusion is correctly justified by a Cantor-set example. The statement is faithful. Its solved status rests on the same 2026 OpenAI claim, which I did not verify."
+    }
+]

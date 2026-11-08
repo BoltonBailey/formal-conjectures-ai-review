@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The lonely runner conjecture in Wikipedia's form: n runners with distinct real speeds starting together on a unit circle; each runner is at some time t ≥ 0 at circular distance ≥ 1/n from all others. The statement is faithful and open (known for n ≤ 7, later extended)."
+    }
+]

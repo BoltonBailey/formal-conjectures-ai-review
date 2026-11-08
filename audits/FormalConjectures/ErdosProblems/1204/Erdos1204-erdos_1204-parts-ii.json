@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #1204, second part: estimate B(k), the minimum of (a₁ + … + a_k)/k over admissible sequences (missing a residue class mod every prime). Admissibility and minSum are encoded correctly. Since B(k) ≍ k log k already follows from the known bounds on A(k), reading \"estimate\" as an asymptotic formula is a sensible, documented choice. The statement is faithful and open."
+    }
+]

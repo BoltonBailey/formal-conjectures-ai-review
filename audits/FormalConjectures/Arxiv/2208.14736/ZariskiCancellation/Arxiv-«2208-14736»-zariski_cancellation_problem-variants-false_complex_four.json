@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "ℂ[x₁..x₄] is not cancellative. This is the OpenAI counterexample (A[w] ≅ ℂ^[5], A ≇ ℂ^[4]), with a linked Lean proof. The statement is correct."
+    }
+]

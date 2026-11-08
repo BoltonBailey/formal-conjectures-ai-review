@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Fermat: 1 is not a congruent number. The definition (rational a, b, c with a² + b² = c² and ab/2 = n) allows signed legs, but for n = 1 > 0 this only adds sign-flipped copies of genuine triangles. The statement is correct."
+    }
+]

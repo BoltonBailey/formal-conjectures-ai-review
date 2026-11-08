@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "arXiv:math/0605090 (abstract) proves the conjecture when the degree is twice a prime power. The formal statement restricts the conjecture to natDegree P = 2 p^k with p prime. Faithful."
+    }
+]

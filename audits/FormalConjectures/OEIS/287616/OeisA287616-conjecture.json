@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A287616 (ways to write n = x(x+1)/2 + y(3y+1)/2 + z(5z+1)/2 with x, y, z ≥ 0), Z.-W. Sun: 'a(n) > 0 for all n = 0,1,2,...' (the $135-prize part). The formal predicate (natural division is exact since each numerator is even) and the statement for all n match. Faithful."
+    }
+]

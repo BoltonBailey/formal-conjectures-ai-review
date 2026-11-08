@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Chowdhury–Sarkis–Shahriari (arXiv:1309.2212, abstract): 'We verify this conjecture when n ≥ 8k^2'. The formal statement is the conjecture with hypothesis 8k^2 ≤ n (zero-sum version, equivalent as above). Faithful."
+    }
+]

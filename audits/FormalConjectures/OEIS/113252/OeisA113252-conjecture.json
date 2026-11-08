@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A113252 is the m = 6 member of the family a(n) = m^4 a(n−4) + (2m)² a(n−3) − 4a(n−1), with a(0) = −1, a(1) = 4, a(2) = −13 + 6(m−1) + 3(m−1)², a(3) = (m² − 8)²; it carries the conjecture that a(m, 2n+1) is always a perfect square. For m = 6 the coefficients 1296, 144 and the initial terms −1, 4, 92, 784 match the formal recurrence and the DATA. The statement (a(2n+1) a square for all n) is the conjecture specialised to this sequence. Faithful."
+    }
+]

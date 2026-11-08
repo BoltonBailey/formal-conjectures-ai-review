@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Elliott–Halberstam conjecture as on Wikipedia: for every θ < 1 and A > 0, Σ_{q ≤ x^θ} max_{(a,q)=1} |π(x;q,a) − π(x)/φ(q)| ≪ x/log^A x. Requiring the bound for all x > 2, rather than only large x, is equivalent by adjusting C. The statement is faithful and open."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The conjecture holds when the ground set has at most 12 elements (Vučković–Živković 2017), as Wikipedia lists. Taking Fintype.card n ≤ 12 bounds the ground set, which bounds the union. The statement is correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős–Szekeres: Q(x) = (ζ(3/2)/ζ(3))√x + O(x^{1/3}) for the count of powerful numbers ≤ x. The statement is correct."
+    }
+]

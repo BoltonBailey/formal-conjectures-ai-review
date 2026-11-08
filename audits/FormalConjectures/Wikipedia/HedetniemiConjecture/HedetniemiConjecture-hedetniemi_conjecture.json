@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The negation of Hedetniemi's conjecture χ(G × H) = min(χ(G), χ(H)) for finite graphs, where × is the tensor product (defined correctly). It is disproved by Shitov (2019). The statement is faithful and correctly tagged solved."
+    }
+]

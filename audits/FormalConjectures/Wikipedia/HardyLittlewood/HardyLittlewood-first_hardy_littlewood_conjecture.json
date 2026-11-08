@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The first Hardy–Littlewood (prime k-tuples) conjecture: π_P(n) ~ C_P ∫₂ⁿ dt/log^{k+1}t. Offsets are encoded as 2m_i (so even), and C_P uses the number of residues of the m_i modulo odd primes q. That equals the number for the 2m_i, since 2 is invertible mod odd q. Admissibility is checked per constellation; for an inadmissible offset pattern, every constellation would contain q and cover all residues, so π_P ≡ 0, consistent with C_P = 0. This matches Wikipedia's formula, and the statement is faithful and open."
+    }
+]

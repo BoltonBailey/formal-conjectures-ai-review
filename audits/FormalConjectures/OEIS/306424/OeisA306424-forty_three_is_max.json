@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A306424 (numbers k whose base-b expansion has at most two distinct digits for every b = 3..k−1): 'Conjecture: The sequence is finite, with 43 being the last term.' Condition k is exactly the defining property, and the statement says 43 satisfies it and no k > 43 does, i.e. 43 is the last term. Faithful."
+    }
+]

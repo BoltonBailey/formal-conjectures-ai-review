@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Lennon's thesis 'On the Likely Number of Stable Marriages' (OSU 2007, eq. (6.0.1) and Section 1.2): 'we conjecture that if ε_n ↓ 0, however slowly, then P(S_n ≥ ε_n E[S_n]) → 1', with instances uniform over all complete strict preference profiles; the CPC 2009 paper's abstract poses the same open question. The formal model: Profile n is a pair of families of rank permutations (uniform PMF = uniform random independent preferences), IsStable is the absence of blocking pairs for a perfect matching, numStableMatchings counts stable matchings, and expectedNumStableMatchings is the integral under the uniform law. The hypotheses (ε positive, antitone, tending to 0) are exactly 'ε_n ↓ 0', and the conclusion is that the probability tends to 1. Faithful."
+    }
+]

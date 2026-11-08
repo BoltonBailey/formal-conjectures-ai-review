@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A113254 is the m = 8 member of the A113249 family: a(n) = 4096 a(n−4) + 256 a(n−3) − 4a(n−1), with initial terms −1, 4, 176 = −13 + 42 + 147, 3136 = 56². The conjecture is that a(2n+1) is a perfect square (proved for m = 8 per the OEIS comment). The formal recurrence and initial values match, and the statement is IsSquare (a(2n+1)) for all n. Faithful."
+    }
+]

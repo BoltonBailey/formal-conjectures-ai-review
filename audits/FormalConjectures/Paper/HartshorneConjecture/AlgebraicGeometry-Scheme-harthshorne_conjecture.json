@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Hartshorne (Bull. AMS 80 (1974), Conjecture 6.3) as cited in arXiv:2405.12620 and math/0410600: 'If N ≥ 7, then every rank 2 bundle E on P^N decomposes' (splits into line bundles). The formal statement: every rank-2 vector bundle F on ℙ^n over ℂ, n ≥ 7, admits a Splitting (Fin 2): F ≅ G_0 ⊕ G_1 with neither G_i isomorphic to F. Such G_i are nonzero direct summands, hence locally free; on connected ℙ^n their ranks are constant, positive and add to 2, so both are line bundles. So this is exactly the conjecture. Faithful."
+    }
+]

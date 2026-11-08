@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The negation of the general Noether problem: it is not true that, for every rational function field L = K(X_i) and every group permuting the indeterminates, the fixed field is rational over K. This is disproved by Swan (C₄₇ over ℚ). The encoding via all identifications e and permutation groups is reasonable. The statement is correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Catalan's conjecture (Mihăilescu's theorem): the only solution of x^a − y^b = 1 with a, b > 1 and x, y > 0 is 3² − 2³. Truncated natural subtraction is harmless, since x^a − y^b = 1 forces x^a = y^b + 1. The statement is faithful, and the solved tag with a linked formal proof is appropriate."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Erdős–Moser conjecture: the only solution of 1^k + ⋯ + (m−1)^k = m^k with k, m > 0 is (1, 3). The power sum and the positivity hypotheses are correct; m = 0 gives a spurious solution, as noted. The statement is faithful and open."
+    }
+]

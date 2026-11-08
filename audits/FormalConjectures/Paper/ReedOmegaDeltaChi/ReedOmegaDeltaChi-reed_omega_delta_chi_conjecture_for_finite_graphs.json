@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The same conjecture (Open Problem Garden: χ ≤ ⌈½(Δ+1) + ½ω⌉) for finite graphs, with χ in ℕ∞ and ω = cliqueNum, Δ = maxDegree in ℕ; 2χ ≤ ω + Δ + 2 is equivalent to the ceiling form. Faithful."
+    }
+]

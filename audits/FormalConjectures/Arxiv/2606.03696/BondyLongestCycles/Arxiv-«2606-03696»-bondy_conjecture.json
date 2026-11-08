@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Bondy's conjecture (Conjecture 1 in Ma–Ning–Zhao): a k-connected graph with δ ≥ (n + k(k−1))/(k+1) has, for every longest cycle C, every path in G − V(C) with at most k − 1 vertices. Encoding \"at most k − 1 vertices\" as support length + 1 ≤ k is correct for k ≥ 1. Longest cycles are cycles whose length is the circumference, and paths are taken in the induced subgraph on the vertices off C. The paper says the conjecture is open for k ≥ 4. The statement is faithful and open."
+    }
+]

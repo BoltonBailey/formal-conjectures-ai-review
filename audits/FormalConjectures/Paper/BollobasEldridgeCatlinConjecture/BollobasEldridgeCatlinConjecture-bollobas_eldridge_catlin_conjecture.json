@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with the statement of the conjecture in 'Packing graphs of bounded codegree' (arXiv:1605.05599, Conjecture 1.3): graphs G1, G2 on n vertices with maximum degrees Δ1, Δ2 pack if (Δ1+1)(Δ2+1) ≤ n+1. Packs is the standard notion (a bijection of the common vertex set mapping no edge of G1 onto an edge of G2), maxDegree is Mathlib's maximum degree, and n = Fintype.card V. Quantifying over V : Type loses nothing. Faithful."
+    }
+]

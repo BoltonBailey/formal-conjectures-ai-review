@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A117545 (least k with Φ_k(n) prime): 'Is a(n) defined for all n?' The formal statement asks, for every n ≥ 1, for some k > 0 with |Φ_k(n)| prime. The absolute value only matters at n = 1, where Φ_1(1) = 0 and Φ_2(1) = 2 is prime (DATA a(1) = 2), and is harmless. This is the positive form of the question. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The invariant subspace problem: every bounded operator on a separable complex Hilbert space of dimension ≥ 2 has a nontrivial closed invariant subspace. Finite dimensions are included but are true anyway, so the open content is the separable infinite-dimensional case. The statement is faithful and open (Enflo's 2023 claimed proof is not accepted)."
+    }
+]

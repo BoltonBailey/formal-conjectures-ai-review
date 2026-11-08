@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The remaining open part of Euler's sum of powers conjecture: for k ≥ 6, if n > 1 positive k-th powers sum to a k-th power, then n ≥ k. Restricting to k > 5 matches Wikipedia's statement that only k = 4 and 5 are known counterexamples. The statement is faithful and open."
+    }
+]

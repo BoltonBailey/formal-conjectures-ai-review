@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "\"Every convex set in ℝ³ has VC₂ dimension ≤ 2.\" This is the file author's own conjecture, with no literature source to compare against. The encoding via HasAddVCNDimAtMost (no (d+1)×(d+1) sum-grid shattered by translates) is consistent with the file's definitions. The statement is internally consistent and open."
+    }
+]

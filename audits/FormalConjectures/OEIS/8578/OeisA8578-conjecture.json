@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Formalizes Gerasimova's conjecture \"the sequence contains exactly those k such that sigma(k) > k*BigOmega(k)\" as: (k = 1 ∨ k prime) ↔ k·Ω(k) < σ(k). The predicate A matches A008578 (1 together with the primes), and `cardFactors` is Ω. At k = 0 both sides are false, as the docstring notes. I checked numerically that the equivalence holds for 1 ≤ k < 3000. The `research solved` tag with a linked formal proof is plausible: the claim σ(k)/k < Ω(k) for composite k is elementary, as Mathar's OEIS note suggests. The statement is faithful."
+    }
+]

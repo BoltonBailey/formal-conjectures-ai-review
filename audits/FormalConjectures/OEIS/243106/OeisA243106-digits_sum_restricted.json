@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A243106 (a(n) = Σ_{k=1}^n (−1)^isprime(k) 10^k): 'There are 2^n ways of taking the partial sum of the first n powers of b=10 ... signs ... assigned arbitrarily. Conjecture: When expressed in base b, the absolute value for any of these terms only contains digits belonging to {0,1,b−2,b−1}', with the remark that the same holds for any base b > 4. The formal statement covers every b ≥ 5 and every sign choice σ on 1..n, asserting all base-b digits of |Σ σ_k b^k| lie in {0, 1, b−2, b−1}. This is the general-base version the comment describes. Faithful."
+    }
+]

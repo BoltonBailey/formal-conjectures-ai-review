@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A001146, M. F. Hasler: 'I conjecture that { a(n) ; n>1 } are the numbers such that n^4−1 divides 2^n−1.' The formal statement is the hard direction: every k > 1 with k^4 − 1 | 2^k − 1 equals 2^(2^n) for some n ≥ 2 (k = 1 is excluded since 0 ∤ 1, and k = 0 is trivial). Together with divisibility_fact this is the conjectured set equality. Numerically the only k < 300000 are 16, 256, 65536. Faithful."
+    }
+]

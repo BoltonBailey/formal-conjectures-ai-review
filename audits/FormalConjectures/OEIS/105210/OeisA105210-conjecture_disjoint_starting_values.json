@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A105210: a(n) = a(n−1) + 1 + (sum of distinct prime factors of a(n−1) that are < a(n−1)), and the comment quotes Cormier–Selfridge: 'There appear to be five sequences beginning with integers less than 1000 which do not merge', namely A003508, A105210–A105213, with starts 1, 393, 412, 668, 932 (checked against the OEIS DATA). sumRelevantPrimeFactors/nextTermFn implement the map, and sequenceSet k is the orbit of k. The statement says these five orbits are pairwise disjoint, i.e. the sequences never merge. Faithful."
+    }
+]

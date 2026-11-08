@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A105565 (Tuenter): with α = log(10)/log(φ) − 4 and β = log(5)/(2 log φ) − 1 as in the FORMULA section, 'Conjecture: β−2 < S(n) − αn < β−1' for the partial sums S(n) = Σ_{k≤n} a(k). The formal a counts indices k < 5n+10 with fib k having exactly n digits (enough indices, since F_k has n digits only for k ≲ 4.79n + 2) and is 1 iff the count is 5, which reproduces the DATA, including a(1) = 0. The constants and the inequality for n ≥ 1 match. I checked the inequality numerically for n < 2000. Faithful."
+    }
+]

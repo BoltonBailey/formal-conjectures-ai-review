@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with OpenAI, 'A classification of finite Euclidean Ramsey configurations' (Sept 2026): 'A finite nonempty set A is Ramsey if, for every integer r ≥ 2, there is an integer D ≥ 1 such that every map c : ℝ^D → {1..r} is constant on a congruent copy of A' (congruence = preservation of all pairwise distances, arbitrary colourings), and the abstract states 'every nonempty set of at most five points on a circle is Ramsey'. The formal statement takes 1 ≤ s ≤ 5 distinct points of ℝ^2 equidistant from some centre and asserts exactly this definition (colors ≥ 2, D ≥ 1, an isometric copy b : Fin s → ℝ^D monochromatic). Any circle lies in a plane, so restricting to ℝ^2 loses nothing. Faithful."
+    }
+]

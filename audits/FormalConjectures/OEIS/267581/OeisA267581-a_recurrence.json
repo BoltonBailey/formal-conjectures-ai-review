@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A267581 (middle column of the Rule 167 cellular automaton from a single ON cell, read as a binary number), A. Cicuttin: a(n) = 2a(n−1) + 1 − floor((1/2)^((2^(n+1)) mod n)) for n ≥ 2. The formal caState evolves the automaton on all of ℤ (so the background correctly flips via rule 167 on 000), a(n) = Σ_k bit_k 2^(n−k), and oeisFloorTerm is 1 exactly when n | 2^(n+1). I simulated the automaton with an evolving background: it reproduces 1, 3, 6, 13, 26, 53, … and the recurrence holds for 2 ≤ n < 300. Faithful."
+    }
+]

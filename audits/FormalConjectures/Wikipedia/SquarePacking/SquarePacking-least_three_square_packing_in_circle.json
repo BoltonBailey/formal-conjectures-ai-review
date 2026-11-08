@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The radius 5√17/16 is optimal for 3 unit squares in a circle. It is tagged solved with 2026 Lean proofs (Vu-Le; Kitamura) of exactly this IsLeast statement. The statement is consistent."
+    }
+]

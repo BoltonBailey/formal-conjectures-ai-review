@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Negates \"if a(k) = 0 then k is an even square\", where a(n) is the least prime p with p + n an n-th power (sInf ∅ = 0 gives the \"0 if none\" convention). OEIS (Irvine, Mar 2026) records the counterexample k = 27: x^27 − 27 = (x^9 − 3)(x^18 + 3x^9 + 9) can be prime only if x^9 − 3 = 1, which is impossible. So a(27) = 0 while 27 is not an even square. The edge case k = 0 is harmless (a(0) = 0 and 0 = (2·0)²). The `research solved` tag and the statement are faithful."
+    }
+]

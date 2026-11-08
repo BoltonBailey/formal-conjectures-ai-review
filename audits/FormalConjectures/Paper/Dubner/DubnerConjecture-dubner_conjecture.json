@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Prime Curios 4208 (t5k.org: 'Harvey A. Dubner conjectured that all even numbers greater than 4208 are the sum of two prime numbers that have a twin'). IsTwinPrime p is 'p prime and p-2 or p+2 prime' (natural subtraction is harmless: for p ≤ 3, p-2 ∈ {0,1} is not prime, while 3 is correctly a twin via 5). The statement asks for twin primes p, q with p + q = n for every even n > 4208. Faithful."
+    }
+]

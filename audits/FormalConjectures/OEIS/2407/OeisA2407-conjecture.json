@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A002407 (cuban primes: primes that are the difference of two consecutive cubes): 'This sequence is believed to be infinite.' The formal predicate (p prime with p + k³ = (k+1)³ for some k > 0; k = 0 gives 1, not prime) matches, and the statement is that the set is infinite. Faithful."
+    }
+]

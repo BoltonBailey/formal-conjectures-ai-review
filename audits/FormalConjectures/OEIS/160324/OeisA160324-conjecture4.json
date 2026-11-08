@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Sun (Aug 21 2009, strong version): for any m > 2, each n is p_{m+1}(x_1) + p_{m+2}(x_2) + p_{m+3}(x_3) + r with r ∈ {0, …, m−3}. The formal statement matches (r ≤ m − 3). Faithful."
+    }
+]

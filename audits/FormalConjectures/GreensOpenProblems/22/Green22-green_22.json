@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "\"Find reasonable bounds for N₀(r)\" is formalized as finding an answer function that eventually bounds N₀(r) from above and is o(exp exp(r^50)), i.e. strictly improving the Green–Sawhney bound. The definitions match Green's text: N₀ is the least N such that every r-colouring of [N] has x, y ≥ 3 with x+y and xy in [N] and the same colour. Green himself notes that the 2025 Green–Sawhney bound \"arguably addresses the original formulation\", so the improvement framing is an interpretive but reasonable choice for an open variant. The statement is sound."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma supporting Abel's open problem (CTF Sozopol 2010, 'Voronovskaja-type formula for the Bézier variant of the Bernstein operators', which defines B_{n,α} f(x) = Σ_k f(k/n)(J_{n,k}^α − J_{n,k+1}^α) with J_{n,k} = Σ_{j≥k} p_{n,j}): B_{n,α}(id)(x) = (1/n) Σ_{k=1}^n J_{n,k}(x)^α for n ≠ 0. True and proved in the file. Correct."
+    }
+]

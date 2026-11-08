@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Goodman's conjecture: for a p-valent f on the disc with f(0) = 0 and n > p, |b_n| ≤ Σ_{k=1}^p 2k(n+p)!/((p−k)!(p+k)!(n−p−1)!(n²−k²))·|b_k|. The bound matches Wikipedia's formula. p-valence is counted at distinct points, which the docstring justifies as equivalent for non-constant analytic f. The test checks the p = 1 reduction to n|b₁|. The statement is faithful and open."
+    }
+]

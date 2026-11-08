@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "States Andrica's inequality for all sufficiently large n and tags it `research solved`, citing Ferreira, arXiv:2307.08725. That preprint (four versions 2023–2026, \"submitted to Annals of Mathematics\", no journal reference) claims an asymptotic count of primes in (x, x + x^λ] for every λ ∈ (0,1). That would vastly exceed the established short-interval results (exponent 7/12, Huxley/Heath-Brown). It is not an accepted result, and the abstract does not even mention Andrica's conjecture; it only claims Legendre's conjecture for large x. The eventual form of Andrica's conjecture (equivalent to p_{n+1} − p_n < 2√p_n + 1 eventually) is still open: the best unconditional gap bound is p^{0.525} (Baker–Harman–Pintz), and even RH gives only O(√p log p). The formal statement is fine as a weakening of Andrica, but the category should be `research open` and the attribution to Ferreira removed or qualified."
+    }
+]

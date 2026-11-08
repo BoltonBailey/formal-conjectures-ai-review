@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Existence of an explicit Steiner system S(t, k, n) with 5 < t < 10, k > t, and n < 200 (Epoch's \"large Steiner systems\" problem). The definition of S(t,k,n) (k-blocks with each t-set in exactly one block) is correct. Formally this is only an existence claim, which captures the problem's content, since Keevash's theorem does not reach n < 200. The statement is faithful and open."
+    }
+]

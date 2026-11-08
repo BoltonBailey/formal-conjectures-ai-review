@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The first open case of Büchi's problem in Hensley's integer formulation (Wikipedia): if (x+n)² + a is a square for n = 0, …, 4 with x, a ∈ ℤ, then a = 0. Hensley's reformulation is stated on Wikipedia as equivalent for the existence of some M. For a fixed M it is the natural integer version, and the docstring's remark about non-trivial sequences of lengths 3 and 4 is consistent. The statement is faithful."
+    }
+]

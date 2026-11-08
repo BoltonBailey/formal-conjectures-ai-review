@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The negation of the Jacobian conjecture: for every nontrivial commutative ring k, some polynomial self-map with unit Jacobian determinant has no polynomial inverse. It is proved in the file using G (det 1, non-injective), which forces 1 = 0 via a left inverse. I independently confirmed det J(G) = 1 and G(1,0,1) = G(0,3,−71). The formalization of the conjecture (unit determinant ⇒ two-sided polynomial inverse) is standard, and the sanity check confirms that the unit condition means a nonzero constant. This is a correct (and remarkable) disproof, and the solved tag is accurate."
+    }
+]

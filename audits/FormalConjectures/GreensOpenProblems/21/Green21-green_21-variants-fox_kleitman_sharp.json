@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Determine the sharp constant max c(a₁,a₂,a₃) over 3-tuples failing Rado's condition. Green remarks it \"might be interesting to determine the sharp constant\" below Fox–Kleitman's 24. It is encoded as IsGreatest of the attained values, and the maximum exists by the ≤ 24 bound. The statement is faithful."
+    }
+]

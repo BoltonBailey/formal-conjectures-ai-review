@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that a SIC-POVM exists in dimension 64, using the standard definition (d² normalized vectors with pairwise |⟨φ,ψ⟩|² = 1/(d+1)). Numerical solutions are known for all d ≤ 196, but per Bengtsson–Grassl (arXiv:2512.13201) exact solutions are only claimed for d ≤ 57, so a rigorous existence proof in dimension 64 is plausibly still open. I did not find a source claiming an exact solution for this dimension. The statement is faithful."
+    }
+]

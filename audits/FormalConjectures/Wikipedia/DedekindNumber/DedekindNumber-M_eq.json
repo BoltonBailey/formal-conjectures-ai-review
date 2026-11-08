@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Intended as Dedekind's problem: find a closed form allowing efficient computation of M(n). As formalized, `M = M_eq.answer` is trivially satisfied by M_eq.answer := kisielewiczFormula, which `M_eq_kisielewiczFormula` in this same file proves equal to M (or simply by M itself). The formalization therefore does not capture the \"efficient closed form\" requirement. The real open content is in `Dedekind_10` (and further values). This declaration should be removed or reformulated, e.g. with a complexity requirement."
+    }
+]

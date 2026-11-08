@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #168: what is lim F(N)/N, where F(N) is the largest subset of [N] avoiding {n, 2n, 3n}? F is defined correctly, as confirmed by the tests and a sanity lemma. The limit exists (Graham–Spencer–Witsenhausen give it as an implicit series over 3-smooth numbers, numerically 0.800965…), but no closed form is known, so asking for its value is reasonably open. Posing it as Tendsto to an unknown answer is fine. The statement is faithful."
+    }
+]

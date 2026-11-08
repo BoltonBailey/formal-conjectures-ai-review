@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Can the unit square be covered by rectangles of sizes 1/(n+1) × 1/(n+2), allowing rigid motions? This is the MO / Concrete Mathematics research exercise (Leo Moser's problem), and it remains open; recent work such as the Sept 2026 tail-packing preprint does not settle the full sequence. Since the areas sum to 1, any such cover is in particular a measure-theoretic packing. The statement is faithful and open."
+    }
+]

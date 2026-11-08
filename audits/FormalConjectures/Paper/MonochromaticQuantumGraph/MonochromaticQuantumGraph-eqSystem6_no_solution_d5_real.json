@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Krenn–Gu–Soltész, 'Questions on the structure of perfect matchings inspired by quantum physics' (arXiv:1902.06023), Question 1: for which n and d is there a bi-coloured graph on n vertices with d colours such that 'all the d monochromatic colorings have unit weight, and every other coloring cancels out', with general amplitudes w ∈ ℂ (Section 3); Bogdanov's lemma settles nonnegative real weights (only d = 2, or d = 3 with n = 4). In the formalisation a weight W(u, v, i, j) is attached to each edge {u, v} of K_N with endpoint colours (i, j) (merging parallel edges of equal colouring is the standard normalisation), pmSumListAux enumerates each perfect matching exactly once by pairing the head of the ordered vertex list with each later vertex (edges oriented low → high, consistent with EdgeN), and EqSystemN N D W demands pmSum = 1 for constant ι and 0 otherwise, i.e. unit weight for the D monochromatic colourings and cancellation for all others. This declaration asserts there is no such weighting with real weights for N = 6, D = 5. This is a restricted-coefficient variant of Question 1; a solution over ℤ or {-1,0,1} would in particular be one over ℂ, so these are weaker statements, correctly phrased. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #1157 (Brown–Erdős–Sós): determine ex_r(n, F), where F is the family of r-uniform hypergraphs with k vertices and s edges. configurationExtremalNumber n r k s (the max edges of an r-uniform family on [n] with no k vertices spanning s edges) is the right quantity. The site's \"t, k, r ≥ 2\" is a typo for s. As an open \"determine\" problem it is posed as equality with an unknown answer function. The statement is faithful and open."
+    }
+]

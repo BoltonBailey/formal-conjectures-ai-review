@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A114216 (a(0) = 0, a(n) = largest odd divisor of a(n−1) + prime(n)): 'Is a(33900) the last term equal to 1?' The formal recurrence uses prime(n) = Nat.nth Nat.Prime (n−1) and the odd part via padicValNat 2. I recomputed the sequence: the 1s up to n < 40000 occur at n = …, 20, 75, 33900, matching the comment. The statement ∀ n > 33900, a(n) ≠ 1 is the positive answer. Faithful."
+    }
+]

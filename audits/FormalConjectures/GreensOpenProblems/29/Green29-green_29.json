@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Formalizes Green's Problem 29 literally: is there S ⊆ A with |S| ≫ K^{−O(1)}|A| and S⁸ ⊆ A⁴ for every K-approximate group A? It asserts the negative answer and is tagged solved, citing a counterexample A = ({−1}×H) ∪ ({1}×H) ∪ {(0,1)} in ℤ×H. I checked the counterexample. A is symmetric and contains 1. A² = {−2,…,2}×H ⊆ A ∪ (1,1)A ∪ (−1,1)A, so A is a 3-approximate group for every H. Any s = (±1, h) ∈ S has s⁸ with first coordinate ±8, outside A⁴ ⊆ {−4,…,4}×H, so S ⊆ A forces S ⊆ {(0,1)}. The counterexample is therefore valid, but it works only because of the literal containment S ⊆ A. If S may lie in A² (or anywhere, as in the known Sanders/Croot–Sisask result recorded in `green_29.variant`), then S = {0}×H has |S| ≈ |A|/2 and S⁸ ⊆ A⁴. The intended question, a polynomial-in-K version of Sanders' theorem, is untouched. So marking the problem \"solved (negative)\" most likely rests on a slip in the phrasing (\"S ⊂ A\") rather than resolving Green's problem. The formalization should either use the intended containment or note that the literal version is trivially false and the real question remains open."
+    }
+]

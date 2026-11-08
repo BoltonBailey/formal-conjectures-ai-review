@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States Bala's conjecture 4: if n is a product of distinct primes from A003625, then n² | a((n−1)/2). This is encoded via a Finset S of such primes with n = ∏_{p∈S} p, so distinctness is automatic. The expression `(∏ p ∈ S, p - 1) / 2` parses as ((∏ p) − 1)/2 because the big-operator body is parsed at precedence 67, so it is the intended (n−1)/2. The empty S gives the trivial 1 | a(0). I checked n = 15, 39, 65, 195 numerically. The statement is faithful."
+    }
+]

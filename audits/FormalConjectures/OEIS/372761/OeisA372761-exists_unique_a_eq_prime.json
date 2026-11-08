@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A372761 (denominator of 1/(2 − 3/(3 − 4/(… (n−1) − n/(n+4))))), T. Scheuerle's Conjecture 2: 'Except for 3 and 5, all odd primes appear in the sequence once.' The formal continued fraction (base R_{n−1} = (n−1) − n/(n+4), with a guard against division by zero) and a(n) = denominator of 1/R_2 reproduce the DATA 11, 4, 7, 13, 31, 1, …; I checked 3 ≤ n < 400 directly. The statement (each odd prime p ∉ {3, 5} equals a(n) for exactly one n ≥ 3) matches, and odd primes 7 ≤ p < 150 each occur exactly once in my computed range. Faithful."
+    }
+]

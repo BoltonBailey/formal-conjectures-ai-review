@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A129365, conjecture C: ordp(a(np), p) = ordp(a(np+1), p) = … = ordp(a(np+p−1), p). The formal statement equates padicValRat p of a(np) and a(np+k) for 0 ≤ k < p, n > 0. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Mahler's 3/2 problem: there are no Z-numbers, i.e. no ξ > 0 with frac(ξ(3/2)^n) < 1/2 for all n ≥ 1. The definition matches Wikipedia, and the statement is faithful and open."
+    }
+]

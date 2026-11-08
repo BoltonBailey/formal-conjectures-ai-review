@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "For a power series solution of f^{(n)} = g(z, f, …, f^{(n−1)}) with g defined at the initial point, ω-integrality with ω(p)/p → ∞ implies bounded denominators. This is (3) ⇒ (2) of Lam–Litt (arXiv:2501.13175) Conjecture 1.1.1, and it follows from the conjectured (3) ⇒ (1) plus Eisenstein. IsSolutionOfAlgebraicODE writes g = p/q with q nonvanishing at the initial values, matching footnote 1. The name says \"algebraicity\" but the conclusion is integrality; the docstring is accurate. The statement is faithful and open."
+    }
+]

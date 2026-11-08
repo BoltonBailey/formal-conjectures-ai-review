@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The topological Poincaré conjecture in dimension 4 (Freedman, 1982). The statement is correct. Calling it `textbook` is somewhat generous for Freedman's theorem, but it is an established result, so the tag is acceptable."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Norwood–Poole: a worm cover of area 0.260437. The statement requires a cover of exactly that area. Since covers are closed under measurable supersets, this holds provided the true area of their region is ≤ 0.260437 (the published figure may be rounded). This is a minor point, and the statement is essentially correct."
+    }
+]

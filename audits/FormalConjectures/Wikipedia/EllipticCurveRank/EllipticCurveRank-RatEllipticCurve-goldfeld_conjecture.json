@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Goldfeld's conjecture in Smith's normalization: among the twists E^d with 0 < |d| ≤ H, the proportions of rank 0 and of rank 1 each tend to 1/2. This uses Mordell–Weil rank, which equals the analytic rank under BSD, as the docstring notes. The statement is faithful and open."
+    }
+]

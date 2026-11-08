@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma used to compute values of OEIS A100474: Nat.nth Nat.Prime 7 = 19 (0-indexed, so the 8th prime is 19). True and proved. Correct."
+    }
+]

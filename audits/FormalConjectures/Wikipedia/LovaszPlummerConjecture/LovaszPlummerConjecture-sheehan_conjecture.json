@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Sheehan's conjecture: every Hamiltonian 4-regular (simple) graph has a second Hamiltonian cycle with a different edge set. This is the standard simple-graph formulation, and the statement is faithful and open."
+    }
+]

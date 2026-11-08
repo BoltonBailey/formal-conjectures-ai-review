@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Telgarsky Conjecture 6.3: for p ∈ (0, 1/2) and m = 2k, P[B(p,m) ≥ m/2] ≥ 1 − Φ((1/2 − p)√m/σ) + ½·C(m, m/2)·σ^m, with σ = √(p(1−p)). This matches the paper's statement. As a sanity check, I evaluated both sides numerically on a grid of p ∈ [0.01, 0.499] and k ≤ 300 and found no violations. The solved tag rests on a linked Logical Intelligence Lean proof. The statement is faithful."
+    }
+]

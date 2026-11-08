@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Rule 30 Prize Problem 1: the center column is not eventually periodic. The update l XOR (c OR r) is Wolfram's rule 30, and the prefix test against OEIS A051023 confirms the seed and orientation. The statement is faithful and open."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "JC_{2n} ⇒ PC_n over a fixed field (AvdE07 Theorem 1: a Poisson endomorphism has Jacobian determinant 1, so JC_{2n} makes it invertible, and the inverse is Poisson). The statement is correct."
+    }
+]

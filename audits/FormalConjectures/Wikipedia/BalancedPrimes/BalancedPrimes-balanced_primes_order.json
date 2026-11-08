@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Asks whether for every order k > 0 there are infinitely many balanced primes of order k (p_n equals the mean of the k primes on each side; k ≤ n avoids negative indices). The definition matches Wikipedia's \"Generalization\" section. However, Wikipedia only conjectures infinitude for ordinary (order-1) balanced primes. It does not state a conjecture for higher orders; it just lists OEIS A082077–A082079. So this statement extrapolates beyond the cited source, and the docstring should cite a source for it or mark it as a natural generalization."
+    }
+]

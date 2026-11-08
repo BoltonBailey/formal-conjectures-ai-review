@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "K2 has no vertex-colouring edge weighting at all, as both endpoints get the weight of the single edge, which is why the conjecture excludes isolated edges. True and proved in the file. Correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Abel (CTF Sozopol 2010), eq. (2): the classical Voronovskaja theorem lim n((B_n f)(x) − f(x)) = ½ x(1−x) f''(x), with B_{n,1} = B_n the Bernstein operators. The formal statement assumes f is C² on [0,1] (stronger than Abel's 'bounded and twice differentiable at x', so a special case), x ∈ [0,1], and uses the second derivative within [0,1]; at the endpoints both sides are 0. bezierBernstein n 1 is B_n, since J_{n,k} − J_{n,k+1} = p_{n,k}. Faithful."
+    }
+]

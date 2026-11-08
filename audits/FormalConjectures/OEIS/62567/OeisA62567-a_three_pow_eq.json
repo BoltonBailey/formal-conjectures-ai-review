@@ -1,0 +1,9 @@
+[
+  {
+    "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+    "model": "claude-opus-5-5",
+    "effort": null,
+    "severity": 1,
+    "explanation": "For n \u2265 2, the statement says a(3^n) = 10^(3^(n-2)) - 1 (the number made of 3^(n-2) nines) iff n \u2208 {2, 3, 4}. This captures both parts: McCranie's original guess holds for n = 2, 3, 4 (a(9) = 9, a(27) = 999, a(81) = 999999999), and Firoozbakht's conjecture says it fails for every n > 4. OEIS (Ralf Stephan, Jun 2026) records that the failure for all n > 4 was proved by an AI agent with a formal Lean proof, so tagging it `research solved` with the linked formal proof is consistent. The definition of `a` (least positive multiple with reversal divisible by n, else 0) matches A062567. The formalization is faithful."
+  }
+]

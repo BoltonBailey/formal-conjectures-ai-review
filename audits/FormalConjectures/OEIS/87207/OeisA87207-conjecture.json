@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that iterating n ↦ a(n) from any n eventually reaches 0, where a(n) = Σ_{p | n} 2^(π(p)−1) encodes the set of prime divisors in binary. The definition matches A087207: a(1) = 0, a(2) = 1, a(6) = 3, and a(0) = 0 via the empty support of factorization 0. The statement is exactly Karttunen's conjecture and is tagged open. It is faithful."
+    }
+]

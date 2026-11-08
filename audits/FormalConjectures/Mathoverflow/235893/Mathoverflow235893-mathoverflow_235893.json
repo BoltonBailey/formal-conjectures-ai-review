@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "For n > 1, if a bijection f : ℝⁿ → ℝⁿ maps connected sets to connected sets, must f⁻¹ do so too? IsConnectedMap (images of connected sets are connected) matches the question's \"connected map\", and the Lean asserts the \"yes\" direction under a question tag. Note that an MO answer (Sept 2026, user random1463) announces a preprint construction of a counterexample for every n ≥ 2, i.e. answer \"no\". That claim is described as \"conditional on the validity of the preprint\" and is not yet verified, so keeping the problem open is defensible, but it should be monitored. The statement is faithful."
+    }
+]

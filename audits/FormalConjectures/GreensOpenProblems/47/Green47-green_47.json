@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Formalizes Green's simplest inverse-large-sieve question literally: if |A mod p| ≤ (p+1)/2 for all large p, is either |A ∩ [X]| ≪ X^{1/2}/log^{100} X, or A ⊆ φ(ℤ) for a rational quadratic φ? It asserts the negative answer and is tagged solved, via a linked Lean counterexample to the exact-containment form. The encoding is accurate; (p+1)/2 is exact for odd p. However, the counterexample hinges on exact containment (A may not differ from a quadratic image by even finitely many elements). The substantive conjecture (Green–Harper 2014, Conj. 1.7, allowing finitely many exceptions) is still open and is captured in `green_47.variants.finite_exceptions`. So the \"solved/negative\" status of the main declaration reflects a technicality in Green's informal wording rather than a resolution of the problem. The docstring should say so explicitly."
+    }
+]

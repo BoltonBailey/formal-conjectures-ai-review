@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A114831 (a(n) = a(n−1) + floor(harmonic mean of a(n−1), a(n−2)); 1, 2, 3, 5, 8, 14, …) asks 'What is this sequence, asymptotically?'. The formal statement answers with the growth ratio a(n+1)/a(n) → √3. That is the natural answer: if the ratio tends to L then L = 1 + 2/(L + 1), so L² = 3, and a Lean proof is linked. The formal recurrence (harmonic mean 2xy/(x+y), floored) matches the definition. A ratio limit is a reasonable precise reading of an open-ended 'asymptotically' question, though weaker than a full asymptotic a(n) ~ C·3^(n/2). Faithful."
+    }
+]

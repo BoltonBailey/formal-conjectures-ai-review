@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #1189, part 1: how many irreducible covering sets of size k are there? Covering sets (distinct moduli > 1, one residue each, covering ℤ) and irreducibility (no proper covering subset) are encoded correctly. There are finitely many of each size, since n_k ≤ 2^{k−1} (Simpson). \"How many\" is read as an asymptotic for log I(k), which is a reasonable and documented interpretation. The statement is faithful and open."
+    }
+]

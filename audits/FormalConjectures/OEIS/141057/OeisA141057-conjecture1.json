@@ -5,5 +5,12 @@
         "effort": null,
         "severity": 1,
         "explanation": "Compared against OEIS A141057 (number of Abelian cubes of length 3n over a 3-letter alphabet, offset 0) and Peter Bala's conjecture 'a(n*p^k) == a(n*p^(k-1)) (mod p^(3*k)) for primes p >= 5 and positive integers n and k'. The Lean `a n = Σ_k C(n,k)^3 Σ_{j<=k} C(k,j)^3` reproduces the data 1, 3, 27, 381, 6219. The statement assumes p prime, p >= 5, k >= 1, n >= 1 and asserts a(n p^k) ≡ a(n p^{k-1}) mod p^{3k} in ℤ, exactly the conjecture. The solved tag is supported by the linked Lean proof and the OEIS note citing Adamczewski."
+    },
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A141057 (Abelian cubes, a(n) = Σ_k C(n,k)³ Σ_{j≤k} C(k,j)³), P. Bala: 'the supercongruences a(n·p^k) ≡ a(n·p^(k−1)) (mod p^(3k)) hold for primes p >= 5 and positive integers n and k.' The formal a is the binomial double sum (matching the DATA 1, 3, 27, 381, …), and the statement is the congruence in ℤ mod p^(3k) for p ≥ 5 prime, k ≥ 1, n ≥ 1. Faithful."
     }
 ]

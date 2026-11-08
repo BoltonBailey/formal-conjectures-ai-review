@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Twists of rank ≥ 2 have density 0. This is solved unconditionally for the Mordell–Weil rank via Smith (2025: 100% of twists have 2^∞-Selmer corank ≤ 1, which bounds the rank). The statement is well formed, and the solved tag is consistent with that source."
+    }
+]

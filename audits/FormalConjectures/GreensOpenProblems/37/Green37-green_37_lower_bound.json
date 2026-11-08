@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The conjecture F_k(N) ≫_k N^{1−c_k} with c_k → 0 (equivalent to the arithmetic Kakeya conjecture, per Green–Ruzsa). It is encoded as an existential sequence c → 0 with N^{1−c_k} = O(m(N,k)) for each k > 0. The k = 0 exclusion is sensible. The statement is faithful."
+    }
+]

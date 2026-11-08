@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Problem 9(i), solved: r₃(N) ≪ N(log N)^{−10}. This follows from Kelley–Meka (with Bloom–Sisask's exponent), as recorded in Green's update. r_k(N) is the largest k-AP-free subset of [1, N] via maxAPFreeCard. The statement is faithful."
+    }
+]

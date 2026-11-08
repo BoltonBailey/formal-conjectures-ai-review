@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Moreira's theorem: for any finite colouring of ℕ there are infinitely many pairs x, y > 0 with x, xy, x+y all the same colour. Green notes that Moreira also gets x in the same colour. This is correctly formalized as the infinitude of the set of such pairs. For r = 0 the statement is vacuous, since there is no colouring ℕ → Fin 0. The statement is correct."
+    }
+]

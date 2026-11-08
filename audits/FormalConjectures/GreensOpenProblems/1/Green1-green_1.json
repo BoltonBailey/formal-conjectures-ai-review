@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green's Problem 1 (now marked \"Solved\" in the December 2025 version): does every set A of n positive integers contain a sum-free subset of size n/3 + Ω(n) with Ω(n) → ∞? The formalization asserts a single function Ω tending to infinity that works uniformly for all n and all A of size n. This is the intended reading. IsSumFree is the standard notion. The `research solved` tag matches Bedert's 2025 result (n/3 + c log log n). The statement is faithful."
+    }
+]

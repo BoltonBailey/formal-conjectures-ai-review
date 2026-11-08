@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Claims bounded sets in ℝ⁴ admit 8 parts of smaller diameter, tagged `research solved` on the basis of Tolmachev–Voronov (arXiv 2605.19068). The docstring itself says this is an unrefereed preprint with floating-point (not exact) computer verification. Labelling it solved overstates its status; `research open`, or a clear caveat in the category, would be more accurate. The formal statement itself is fine."
+    }
+]

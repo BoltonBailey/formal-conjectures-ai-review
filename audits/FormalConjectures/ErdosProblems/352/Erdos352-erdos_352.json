@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #352: is there c > 0 such that every measurable A ⊆ ℝ² of measure ≥ c contains the vertices of a triangle of area 1? Signed area = 1 for some vertex ordering is equivalent to |area| = 1. Erdős's conjectured optimal value is 4π/√27, with Freiling–Mauldin partial results, and the problem is open per the site. The statement is faithful."
+    }
+]

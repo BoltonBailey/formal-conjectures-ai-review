@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A228143 (determinants of the (n+1)×(n+1) Hankel matrices of the Apéry numbers A005259(i+j)), P. Bala: 'if A(x) = 1 + 48x + 161856x² + ... denotes the o.g.f. then A(x/3)^(1/8) has integer coefficients.' aperyLike is A005259 = Σ C(n,k)² C(n+k,k)², a is the (nonnegative) determinant, ogfAScaled is A(x/3) over ℚ, and the statement asks for an integer power series whose 8th power is A(x/3). That is exactly 'has an integral 8th root'. Faithful."
+    }
+]

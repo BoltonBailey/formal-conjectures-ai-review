@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 4,
+        "explanation": "OEIS A103425 (J. Vos Post): 'This is a (3, 1, −3) weighted tribonacci sequence, cf. A102001 ... Is there an (a, b, c) weighted tribonacci sequence with a, b, c relatively prime which is prime-free?' In the cited A102001 a weighted tribonacci sequence is a specific sequence generated from the coefficients (1/(1 − ax − bx² − cx³), i.e. fixed canonical initial terms), and A103425 itself has fixed initial terms. The formal IsWeightedTribonacci a b c x only constrains the recurrence and leaves x's initial values arbitrary, so the question becomes trivial: x ≡ 0 or x ≡ 4 with (1, 1, −1) works, as the docstring's witness shows. That interpretation almost certainly misses the intended question (the canonical sequence determined by (a, b, c), or at least a non-degenerate one), whose answer is not settled by a constant sequence. So the 'research solved' status rests on a degenerate reading. Concrete discrepancy: the initial terms of x are unconstrained."
+    }
+]

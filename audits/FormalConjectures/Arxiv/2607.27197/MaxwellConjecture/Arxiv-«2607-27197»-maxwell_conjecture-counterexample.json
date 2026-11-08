@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Arathoon–Ball–Kvalheim Theorem 1: for small ε > 0, unit charges at (1,0,0) and (−1/2, ±√3/2, 0), plus q_ε = (3/4)ε³ − (5/32)ε⁵ at (0,0,±ε), give at least 24 non-degenerate critical points. The positions and q_ε match the paper exactly. The statement is correct and solved."
+    }
+]

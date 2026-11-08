@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #1205: estimate F(x), the largest k such that residues a_n mod n (n ≤ x) can be chosen so that every m ≤ x satisfies at least k of them. The encoding with Fin indices (modulus i+1, integer m+1) is correct, and F uses Nat.findGreatest. The site's argument gives F(x) ~ log x (a pigeonhole upper bound and a random-choice lower bound), matching the answer. A Lean proof is linked. The statement is correct and solved."
+    }
+]

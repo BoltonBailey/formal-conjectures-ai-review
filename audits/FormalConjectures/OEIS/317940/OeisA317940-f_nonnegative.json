@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A317940 (numerators of the Dirichlet square root of A046644): 'No negative terms among the first 2^20 terms. Is the sequence nonnegative?' The formal a046644 is multiplicative with value 2^A005187(e) at p^e, matching the OEIS formula for A046644, and f follows the FORMULA recurrence. The statement f(n) ≥ 0 for n > 0 is equivalent to nonnegativity of the numerators. Faithful."
+    }
+]

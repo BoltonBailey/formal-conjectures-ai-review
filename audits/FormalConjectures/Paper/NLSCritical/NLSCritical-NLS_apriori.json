@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Colliander–Keel–Staffilani–Takaoka–Tao (Ann. Math. 167 (2008), arXiv:math/0402129: 'global well-posedness, scattering, and global L^10_{t,x} spacetime bounds for energy-class solutions' of the quintic defocusing NLS on ℝ^{1+3}). The formal equation i u_t + Δu = |u|^4 u is the defocusing energy-critical NLS, energy is E(u) = ∫ ½|∇u|^2 + ⅙|u|^6 as in (1.2), and the claim is a bound ∫_{-l}^{l}∫ |u|^10 ≤ f(E(u(0))) uniform over local smooth Schwartz-in-space solutions on [-l, l]. Since CKSTT give ∫_ℝ∫ |u|^10 ≤ C(E) for the (unique, global) solution, this a priori estimate follows; using the 10th power instead of the norm is immaterial because f is arbitrary. The extra structure fields (Schwartz slices, continuity in H¹) are satisfied by such solutions and do not make the statement vacuous (u = 0 qualifies). Faithful."
+    }
+]

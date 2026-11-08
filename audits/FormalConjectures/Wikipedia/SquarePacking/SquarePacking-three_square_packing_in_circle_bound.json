@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Three unit squares pack into a disc of radius 5√17/16 ≈ 1.2885. The statement is correct per Wikipedia and Friedman."
+    }
+]

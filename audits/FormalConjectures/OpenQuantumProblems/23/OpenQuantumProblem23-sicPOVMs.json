@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Zauner's SIC existence conjecture: for every d ≥ 1 there exist d² unit vectors in ℂ^d with pairwise squared overlap 1/(d+1). This is the standard equiangular-lines formulation of the existence of a SIC-POVM (the projectors scaled by 1/d automatically form a POVM). The degenerate d = 0 case is excluded. The statement is faithful and open."
+    }
+]

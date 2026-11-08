@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A153330 (first differences of the Collatz step counts A006577), Ya-Ping Lu: 'Conjecture 1: More than half of the terms are 0.' collatzSteps returns the least k with T^k(n) = 1 (none if it never reaches 1), and a(n) = steps(n+1) − steps(n), so a(1) = 1, a(2) = 6, … match the DATA. The statement liminf (#{i ≤ n : a(i) = 0}/n) > 1/2 is an asymptotic reading of 'more than half'. Numerically the proportion is 0.365, 0.416, 0.450, 0.477, 0.483 for n = 10^3, 10^4, 10^5, 10^6, 2·10^6 (increasing but still below 1/2), so only an asymptotic reading has a chance. Faithful."
+    }
+]

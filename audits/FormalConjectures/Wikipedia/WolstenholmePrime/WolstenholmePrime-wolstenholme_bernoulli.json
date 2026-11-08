@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "For p > 7 prime, the mod-p⁴ congruence is equivalent to p dividing the numerator of B_{p−3}, as Wikipedia states. bernoulli' and bernoulli differ only at index 1, and p − 3 ≥ 5 here, so this is fine. Both sides are false for p ≤ 7. The statement is correct."
+    }
+]

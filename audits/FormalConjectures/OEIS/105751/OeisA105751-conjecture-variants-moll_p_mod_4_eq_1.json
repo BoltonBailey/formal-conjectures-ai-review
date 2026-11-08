@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A105751: '(ii) for the other primes of type 2, the p-adic valuation v_p(a(n)) ~ n/(p − 1)', where type-2 primes are conjectured to be p ≡ 1 (mod 4) together with 2. The formal statement takes p ≡ 1 (mod 4) prime and asserts (p − 1) v_p(a(n))/n → 1, combining the conjectured identification of type-2 primes with the asymptotic, which is how the comment's conjecture reads. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Cho–Choi–Park Conjecture 1.6, even case: i(G) ≤ (D²+4)/(D+2)² · n for isolate-free G with even maximum degree D. Here minDegree > 0 encodes isolate-free and nonempty. Cross-multiplying in ℕ is exact. It was proved by Cho–Kim–Kim–Oum (JCTB 2023, Corollary 1.3: i(G) ≤ (1 − D/⌊(D+2)²/4⌋)n, which expands to this bound for even D). The statement is correct and solved."
+    }
+]

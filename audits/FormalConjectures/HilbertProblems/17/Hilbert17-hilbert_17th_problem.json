@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches Hilbert's 17th problem / Artin's theorem as described on Wikipedia (Hilbert's seventeenth problem): a real polynomial nonnegative on all of ℝ^n is a sum of squares of rational functions. MvRatFunc (Fin n) ℝ is the FractionRing of MvPolynomial (Fin n) ℝ, the field of real rational functions, and algebraMap embeds f. Wikipedia phrases Hilbert's question for forms, but Artin's theorem for arbitrary nonnegative polynomials is the standard modern statement and is equivalent via (de)homogenisation. The extra hypothesis 0 < n only excludes the trivial constant case. Faithful."
+    }
+]

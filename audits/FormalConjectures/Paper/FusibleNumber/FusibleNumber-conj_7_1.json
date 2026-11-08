@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Erickson–Nivasch–Xu (arXiv:2003.14342, Section 7): with y = s(x), m = y - x, ℓ_n = y + 1 - 2^{1-n} m, I_{x,n} = [ℓ_n, ℓ_{n+1}) and s^(n)(x) = x + (2 - 2^{1-n}) m, Conjecture 7.1 says every fusible number in I_{x,n} (n ≥ 1) is s^(n)(x) ∼ z for some fusible z ∈ [x + 1 - 2^{1-n} m, x + 1). The formal version shifts n ↦ n+1 (its ℓ(n) = y + 1 - m/2^n is the paper's ℓ_{n+1}, and x + (2 - 1/2^n) m is s^(n+1)(x)), characterises y as the next fusible number after x, and asserts fusibility of z = 2q - 1 - s^(n+1)(x), the only possible z. I checked the omitted side conditions follow automatically: q ∈ [ℓ_{n+1}, ℓ_{n+2}) gives z ∈ [x + 1 - m/2^n, x + 1), and since m ≤ 1/2 (Lemma 2.12) we get |s^(n+1)(x) - z| < 1, so the fusion is legal. Equivalent to Conjecture 7.1. Faithful."
+    }
+]

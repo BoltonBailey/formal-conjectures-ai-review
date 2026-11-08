@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A182126 (a(n) = prime(n)·prime(n+1) mod prime(n+2)): 'Conjecture: for x>10^9, the most frequent value in a(n), n=0...x, has form 120*k.' The formal statement: for x > 10^9, every value v₀ attaining the maximal count among a(1..x) is divisible by 120. Using the OEIS offset 1 and requiring every maximiser (ties) to be a multiple of 120 is a reasonable reading. Faithful."
+    }
+]

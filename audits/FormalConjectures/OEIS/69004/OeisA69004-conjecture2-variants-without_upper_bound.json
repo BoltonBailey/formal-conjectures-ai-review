@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The surviving part of Noe's conjecture: 5·a(n) ≥ π(n) for n > 1, together with the three stated equalities π(2) = a(2) = 1, π(10) = a(10) = 4, and 5·a(12) = π(12) = 5 (a(12) = 1). The equalities agree with the OEIS data. The lower bound remains an open empirical claim, so the `research open` tag is reasonable. This is a sensible residual variant."
+    }
+]

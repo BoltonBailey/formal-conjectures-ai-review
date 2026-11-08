@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "There is a bijection ℝ → ℝ² whose forward map preserves connectedness but whose inverse does not. This is Gro-Tsen's MO answer 260589 on question 235893, built from a hyperdense-image construction by transfinite induction. The link to /questions/260589 resolves to that answer. The statement is correct and solved."
+    }
+]

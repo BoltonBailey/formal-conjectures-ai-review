@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Ono–Swaminathan (arXiv:2509.09553, §1): 'The Parkin–Shanks conjecture predicts that p(n) is even and odd with natural density 1/2 each'. The formal statement asserts natural density 1/2 for both the even and odd sets (Set.HasDensity). Faithful."
+    }
+]

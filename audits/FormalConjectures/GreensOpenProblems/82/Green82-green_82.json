@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Littlewood's problem 22 (Green's Problem 82): determine the minimal number of zeros of Σ_{a∈A} cos(2πaθ) over θ ∈ [0,1), over n-element A ⊆ ℤ. The answer is the exact minimizing function (minZeros). The parametrization θ ∈ ℝ/ℤ ↔ [0,1) with cos(2πaθ) matches Green's cos(aθ) on ℝ/ℤ, up to the obvious 2π normalization. The statement is faithful."
+    }
+]

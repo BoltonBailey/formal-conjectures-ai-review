@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The 'all n' version, using limsup instead of liminf, asks whether it → ∞. This is a reasonable formalization of Green's closing remark, and the docstring's justification for 𝓝 ⊤ is correct."
+    }
+]

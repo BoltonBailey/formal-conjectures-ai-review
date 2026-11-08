@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States a(5) = 0, i.e. no positive x has σ(x) mod x = 5. Given the Nat.find/0 definition this is equivalent, and it matches the OEIS comment \"the 0 entry for n=5 is only a conjecture\" (McCranie: a(5) > 1.5·10^14 if it exists). The definition requires x > 0 as it should. The statement is faithful and tagged open."
+    }
+]

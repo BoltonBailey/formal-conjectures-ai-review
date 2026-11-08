@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A224515 (least k with sqrt(k² XOR (k+1)²) = 2n+1, or −1 if none), conjecture 1: 'a(n) >= 0', i.e. such k always exists (since proved). The formal statement asks, for every n, for k with Nat.xor (k²) ((k+1)²) = (2n+1)², which is equivalent since the square root equals 2n+1 iff the XOR equals (2n+1)². Faithful."
+    }
+]

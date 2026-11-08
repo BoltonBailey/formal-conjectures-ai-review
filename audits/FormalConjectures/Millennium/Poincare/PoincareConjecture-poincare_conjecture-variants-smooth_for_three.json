@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Smooth 3-dimensional Poincaré: a smooth Hausdorff 3-manifold homotopy equivalent to S³ is diffeomorphic to S³. This is true (Perelman, plus Moise's uniqueness of smooth structures in dimension 3). The statement is correct. The `textbook` tag is generous, since it depends on Perelman, but it is not wrong in substance."
+    }
+]

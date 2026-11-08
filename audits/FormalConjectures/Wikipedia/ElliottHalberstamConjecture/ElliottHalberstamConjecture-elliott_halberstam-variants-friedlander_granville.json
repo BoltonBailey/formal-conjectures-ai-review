@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The conjecture fails at θ = 1 (sum over all q ≤ x). The statement is correct. Note that it is actually elementary in this form: for q ∈ (x/2, x], each E(x;q) is ≈ 1 (a prime a < q gives π(x;q,a) ≥ 1, while π(x)/φ(q) → 0), so the sum is ≫ x. The attribution to Friedlander–Granville, who proved much finer failures near x/(log x)^B, is somewhat overstated, but the statement itself is fine."
+    }
+]

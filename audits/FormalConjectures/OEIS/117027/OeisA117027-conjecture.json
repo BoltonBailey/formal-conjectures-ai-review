@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A117027 (determinants p1·p4 − p2·p3 of 2×2 matrices filled by non-overlapping blocks of four consecutive primes; −1, −12, −48, …): the comment tabulates the ratio of positive to negative terms (0.667, 0.613, 0.769, 0.832, 0.860 for N = 10^2…10^6) and says 'This suggests the ratio is approaching a limit close to 0.87.' The formal a (first·fourth − second·third of each block) reproduces the DATA, positiveCount/negativeCount count terms up to N, and the statement 'the ratio converges to some L ∈ (0.8, 0.9)' is a fair rendering of the comment. Caveat, not a formalisation error: heuristically the claim is likely false. det = p1(g3 − g1) − g1(g1 + g2) in terms of the gaps, so the sign is essentially that of g3 − g1. Hardy–Littlewood heuristics make (g1, g3) exchangeable, and P(g1 = g3) → 0 like 1/log p, which predicts the ratio tends to 1, consistent with the increasing table. The statement faithfully captures the (probably false) conjecture."
+    }
+]

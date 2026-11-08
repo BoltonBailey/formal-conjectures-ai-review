@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The file's f is X0^4 X1^2 + X0^2 X1^4 - 3 X0^2 X1^2 + 1, the dehomogenisation (z = 1) of the Motzkin form z^6 + x^4y^2 + x^2y^4 - 3x^2y^2z^2 given on Wikipedia (Hilbert's seventeenth problem). Its nonnegativity on ℝ^2 (AM-GM) is the classical fact; the statement evaluates f at ![x, y] for all real x, y. Correct, and already proved in the file."
+    }
+]

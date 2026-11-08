@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The right-hand side of Lagarias' criterion for a single n > 1: σ(n) < H_n + e^{H_n} log H_n (Connes arXiv:2602.04022, §4.4.2, with the n = 1 equality case excluded). Faithful."
+    }
+]

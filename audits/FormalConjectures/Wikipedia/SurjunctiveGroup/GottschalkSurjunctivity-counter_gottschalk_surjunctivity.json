@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "There is a non-surjunctive group. Surjunctivity (injective continuous shift-equivariant maps on A^G are surjective, for finite A) matches the cellular-automaton formulation via Curtis–Hedlund–Lyndon. It is tagged solved citing September 2026 OpenAI results: K[G] with ab = 1 ≠ ba, giving an injective non-surjective linear CA. Per the docstring, the linked Lean proof does not cover continuity and equivariance. This is an extraordinary claim that I did not verify. The statement is well formed."
+    }
+]

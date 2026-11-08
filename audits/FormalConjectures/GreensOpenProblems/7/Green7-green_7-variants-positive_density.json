@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Ulam's question \"Does this sequence have positive density?\" The IsUlamSequence definition (from Erdős 342) correctly captures u₁ = 1, u₂ = 2, and each next term being the least larger integer with a unique representation u_i + u_j, i < j. However, the conclusion is only that the *upper* density of the range is positive. \"Has positive density\" for a specific sequence normally means the natural density exists and is positive (numerically ≈ 0.0739). Upper density > 0 is strictly weaker, so a proof of this statement would not settle Ulam's question as usually understood. The statement should use the natural density (e.g. HasDensity with a positive value), or at least lower density, or document the weakening."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős's conjecture (1979), studied by Stérin–Woods: for n > 8, the base-3 expansion of 2^n contains a digit 2, i.e. 2^n is not a sum of distinct powers of 3 (2^8 = 256 = 100111₃ is the last exception). The statement is faithful and open. The docstring's \"base 3 digits of n\" should read \"of 2^n\", which is cosmetic."
+    }
+]

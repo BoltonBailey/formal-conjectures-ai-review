@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A357513 (a(n) = numerator of Σ_{k=1}^n C(n,k)² C(n+k,k)²/k³): the general conjecture u(p−1) ≡ 0 (mod p⁴), now proved by O. Kutal, has exceptional primes exactly those p with p − 1 | 2m + 4 and p ∤ 2m + 7; for m = 1 these are p = 2 and p = 7. The formal statement for this sequence (m = 1: a(p−1) ≡ 0 mod p⁴ for primes p ≥ 3, p ≠ 7) matches. Faithful."
+    }
+]

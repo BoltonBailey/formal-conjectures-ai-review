@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A103662: 'a(40), if it exists, is not known', with Hasler's remark that finiteness 'might be the case already for n=40'. The formal statement asserts no base b > 1 has b^40 zeroless, i.e. the conjectured non-existence of a(40). A natural orientation for an open existence question. Sanity check: congruences mod 400 and 10^4 rule out odd b, so only even b not divisible by 5 remain; a search over b < 200 found none. Faithful."
+    }
+]

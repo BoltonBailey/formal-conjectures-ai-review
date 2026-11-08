@@ -1,0 +1,9 @@
+[
+  {
+    "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+    "model": "claude-opus-5-5",
+    "effort": null,
+    "severity": 1,
+    "explanation": "States that every Catalan\u2013Mersenne number a(0) = 2, a(n+1) = 2^a(n) \u2212 1 is prime. The recursion matches A007013, and the claim is Catalan's classical conjecture. The OEIS entry notes that all listed terms are prime and the status of the next term is unknown. The statement is faithful. The next term is far too large to test, so the `research open` tag is accurate."
+  }
+]

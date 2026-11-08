@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Textbook equivalence: n ∤ !n for all n > 2 iff p ∤ !p for all primes p > 2. The proof (in the file) uses that if p | n and p | !n then p | !p (terms k! with k ≥ p vanish mod p), and handles powers of 2 since 4 ∤ !n for n ≥ 4. The statement is true and proved. Correct."
+    }
+]

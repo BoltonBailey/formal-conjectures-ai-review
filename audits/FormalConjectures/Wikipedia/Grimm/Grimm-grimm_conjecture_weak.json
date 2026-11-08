@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The weaker form: the product of k consecutive composites has at least k distinct prime divisors, encoded as k distinct primes each dividing some n + j. The statement is faithful and open."
+    }
+]

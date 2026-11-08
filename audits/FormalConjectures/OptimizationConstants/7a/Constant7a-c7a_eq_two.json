@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "μ(π) = 2. This rests on the OpenAI preprint (Sept 2026), which I confirmed exists; its Theorem 1.1 proves exactly this. The linked Lean file is the repository's comparator challenge statement, verified externally, rather than a proof file. Tao's page still lists only 2 ≤ C_{7a} < 7.1019. The status is backed by an unrefereed but reportedly machine-checked result. The statement is faithful."
+    }
+]

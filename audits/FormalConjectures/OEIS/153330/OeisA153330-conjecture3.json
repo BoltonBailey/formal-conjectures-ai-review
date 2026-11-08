@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A153330, conjecture 3: 'Except 1, 3 and 6, all terms can be written as 5x + 8y, where x and y are integers', with examples 62 = 5·6 + 8·4 and −101 = 5·(−9) + 8·(−7). Every integer is a ℤ-combination of 5 and 8, so the intended meaning is same-sign coefficients, i.e. |v| = 5x + 8y with x, y ≥ 0, as the formal statement and docstring say. The formal statement also rules out −1, −3, −6; none of these occur up to 2·10^6, and the comment's 'except 1, 3 and 6' refers to the observed values. Faithful."
+    }
+]

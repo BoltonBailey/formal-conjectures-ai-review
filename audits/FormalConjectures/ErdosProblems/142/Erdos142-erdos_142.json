@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 4,
+        "explanation": "The intent (Erdős #142) is an asymptotic formula for r_k(N). However, `erdos_142.answer : ℕ → ℝ` does not depend on k, while the theorem is quantified over every k. The same function would have to be asymptotic to r_k for all k simultaneously. This is impossible: by the file's own API, maxCard 1 N = N, whereas r_3(N) = o(N) by Roth's theorem. So r_1 ~ answer ~ r_3 is contradictory, and the statement is provably false for every choice of answer, so it cannot capture the problem. Fix: make the answer a function of k (answer : ℕ → ℕ → ℝ) and restrict to k ≥ 3."
+    }
+]

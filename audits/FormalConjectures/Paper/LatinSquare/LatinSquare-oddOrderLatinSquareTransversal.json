@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Wanless, 'Transversals in Latin Squares: A Survey' (2011), Conjecture 3.2: 'Each latin square of odd order has at least one transversal.' LatinSquare n is an n×n array over Fin n with injective rows and columns, and IsTransversal L σ (σ injective, symbols L i (σ i) distinct) is a transversal. The statement quantifies over all odd n and all L. Faithful."
+    }
+]

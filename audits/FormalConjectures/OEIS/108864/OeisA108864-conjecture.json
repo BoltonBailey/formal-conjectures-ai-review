@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A108864 (numbers whose perfect deficiency A109883 is ≤ 10): 'Is 1155 the last odd number in this sequence?' A109883 subtracts divisors of n in increasing order until the next divisor exceeds the remainder. The formal perfectDeficiency instead skips divisors larger than the remainder and continues, but since divisors are processed in increasing order, all later divisors are larger too, so the two agree. I checked it reproduces A109883(1..29) and the A108864 DATA, and that 1155 is the 0-indexed term 58 (no odd terms after it below 20000). The statement ∀ n > 58, a(n) even is therefore 'no odd term after 1155'. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Formalizes \"Does a(n) = A034386(n) for infinitely many n?\" as the infinitude of {n | a(n) = primorial n}. Mathlib's `primorial n` is the product of the primes ≤ n, matching A034386. The `term` function correctly computes k^μ(k) (k, 1 or 1/k), and the denominator is taken from the reduced rational. The statement formalizes the expected positive answer to an open question, which is appropriate."
+    }
+]

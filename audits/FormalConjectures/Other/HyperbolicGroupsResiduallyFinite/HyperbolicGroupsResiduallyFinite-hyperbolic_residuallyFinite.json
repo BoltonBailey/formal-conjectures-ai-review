@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "\"Not every hyperbolic group is residually finite.\" Group.IsHyperbolic is the Gromov four-point condition for the word metric of a finite generating family, which is a standard equivalent definition. The solved status rests on the OpenAI preprint (Sept 2026), which I confirmed exists. Its abstract claims a torsion-free word-hyperbolic group that is not residually finite, and the accompanying Lean file proves `∃ G, TorsionFree G ∧ WordHyperbolic G ∧ ¬ ResiduallyFinite G`. The result is unrefereed but machine-checked, modulo the stated gap between the two hyperbolicity definitions. The statement is faithful."
+    }
+]

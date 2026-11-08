@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that for n ≥ 3, floor(n / (4·tan(π/n))) = floor(n²/(4π) − π/12). This is the hedged OEIS comment \"Usually (perhaps always?)\", and the area formula for a regular unit-side n-gon is correct. The restriction n ≥ 3 avoids the degenerate n = 2 (offset 2, a(2) = 0) and is harmless. Because the exact area equals n²/(4π) − π/12 − O(1/n²), the claim can fail only when n²/(4π) − π/12 lies just above an integer, so `research open` is a fair tag. The formalization is faithful."
+    }
+]

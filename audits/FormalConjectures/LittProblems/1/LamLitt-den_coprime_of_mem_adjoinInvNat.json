@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: elements of ℤ[1/N] have denominators coprime to every prime p ∤ N (and ℤ[1/0] = ℤ). This is correct and proved."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Γ(1/n) is transcendental for all n ≥ 2. Wikipedia says that Γ(1/5) and Γ(1/n) for n ≥ 7 are not even known to be irrational, so the general statement is open. The statement is faithful."
+    }
+]

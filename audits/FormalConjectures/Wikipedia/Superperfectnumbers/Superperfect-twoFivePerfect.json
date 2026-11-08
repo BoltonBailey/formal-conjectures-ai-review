@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Are there no (2,5)-perfect numbers (σ(σ(n)) = 5n)? The definition excludes n = 0, avoiding the trivial σ(0) = 0 solution. This is stated as non-existence and matches the Wikipedia list's open question. The statement is faithful."
+    }
+]

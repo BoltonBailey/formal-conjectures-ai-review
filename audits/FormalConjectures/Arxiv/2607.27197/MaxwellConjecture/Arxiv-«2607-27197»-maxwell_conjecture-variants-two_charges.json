@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Two distinct nonzero charges have at most one equilibrium: one on the segment for like charges, one outside it for unequal opposite charges, none for a dipole. The paper notes the bound is \"trivially achieved for n = 2\". The statement is correct; the textbook tag fits."
+    }
+]

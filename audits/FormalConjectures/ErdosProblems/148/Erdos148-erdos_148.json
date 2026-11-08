@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #148: find good estimates for F(k), the number of k-sets of distinct positive integers whose reciprocals sum to 1. It is posed as F ≍ answer (Θ). F is defined correctly, and the tests confirm F(1) = 1 and F(2) = 0. The site now reports (Bloom–van Doorn exposition) that log log F(k) ≍ k, which determines the double-exponential order but not F up to constant factors. The statement is faithful and open."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A271591 (second most significant bit of the tribonacci number T(n), offset 4): 'after the first two 0's, the number of consecutive 0's is only 4 or 5, and the number of consecutive 1's is only 3 or 4.' The formal a takes bit log2(T) − 1 (0 by convention for T ≤ 1, i.e. n ≤ 3), matching the DATA from n = 4. IsMaximalRun requires a run starting at n ≥ 2 that is preceded and followed by a different value. The initial zeros (formal indices 0–5, covering the OEIS's 'first two 0's' a(4), a(5)) cannot form such a run because a(1) = 0, so they are correctly excluded. The statement says maximal 0-runs have length 4 or 5 and 1-runs length 3 or 4. Faithful."
+    }
+]

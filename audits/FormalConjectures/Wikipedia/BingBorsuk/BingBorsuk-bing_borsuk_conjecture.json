@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Bing–Borsuk conjecture: every n-dimensional homogeneous ANR (metrizable, so Hausdorff) is a topological n-manifold, i.e. admits a ChartedSpace structure modelled on ℝⁿ. The dimension uses Lebesgue covering dimension, which agrees with other notions for separable metric spaces. The statement matches Wikipedia. One fine point: the conclusion asks only for some charted-space structure on X's own topology, which is the intended notion of being an n-manifold. The statement is faithful."
+    }
+]

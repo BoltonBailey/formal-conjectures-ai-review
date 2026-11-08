@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A001157, Z.-W. Sun: 'For each k = 2,3,..., all the rational numbers sigma_k(n)/n^k = Sum_{d|n} 1/d^k (n = 1,2,3,...) have pairwise distinct fractional parts.' The formal statement uses ArithmeticFunction.sigma k, divides by n^k in ℚ, and asserts distinct Int.fract for distinct positive n₁, n₂, for every k ≥ 2. Faithful."
+    }
+]

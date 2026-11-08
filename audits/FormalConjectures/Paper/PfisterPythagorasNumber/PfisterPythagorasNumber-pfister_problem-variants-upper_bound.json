@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Pfister's theorem (as in Benoist arXiv:1602.07330: 'the upper bound is Pfister's theorem', p(ℝ(X1..Xn)) ≤ 2^n): every sum of squares in ℝ(X1,…,Xn) is a sum of 2^n squares, i.e. 2^n ∈ pythagorasBounds. Faithful."
+    }
+]

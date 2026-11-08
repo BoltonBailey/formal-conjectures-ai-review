@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "For n ≥ 4: ⌈n³/(3n−2)⌉ ≤ mrank(n,n,n) ≤ n(n+1)/2. The lower bound is the generic rank and the upper bound is (4.22) with m = n, as in BFZ24 (4.25)–(4.28). The statement is correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Wikipedia's third formulation via quality q = log c/log rad(abc): finitely many coprime triples with q > 1 + ε. rad(abc) ≥ 2 always (since c ≥ 2), so the logarithm is positive and the quality is well defined. The statement is faithful."
+    }
+]

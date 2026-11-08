@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A value question extending Grothendieck's question (SGA 3 Exp. VIII Rem. 7.3.1; Schoof's survey 'Is a finite locally free group scheme killed by its order?'): for each rank n, determine the least positive m such that every finite locally free group scheme of rank n over every commutative ring is killed by m. The formal statement equates, for each n : ℕ+, the infimum of the positive universal killing exponents (IsUniversalKillingExponent, whose encoding of 'killed by m' and 'finite locally free of rank n' I checked in the killed_by_rank audit) with optimal_exponent.answer n, using the convention sInf ∅ = 0 if no exponent works, as the docstring states. Restricting to rings and algebras in Type matches killed_by_rank. Determining this function is a faithful formulation of the open problem; the answer is not known (it is not n, already for n = 4). Faithful."
+    }
+]

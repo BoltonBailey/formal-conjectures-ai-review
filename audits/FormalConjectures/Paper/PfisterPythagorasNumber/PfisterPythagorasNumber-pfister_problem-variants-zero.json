@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "p(ℝ) = 1 written for MvRatFunc (Fin 0) ℝ ≅ ℝ, derived in the file from the upper bound 2^0 and the lower bound 0 + 1. Correct textbook value."
+    }
+]

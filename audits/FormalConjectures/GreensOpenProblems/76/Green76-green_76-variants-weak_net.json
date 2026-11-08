@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Do weak ε-nets of size O(1/ε) exist for axis-parallel rectangles? Green believes Problem 76 is an instance of this. It is encoded as ∃ C, ∀ k ≥ 1, ∀ A, some A' with |A'| ≤ C|A|/k hits all rectangles with ≥ k points. The statement is faithful."
+    }
+]

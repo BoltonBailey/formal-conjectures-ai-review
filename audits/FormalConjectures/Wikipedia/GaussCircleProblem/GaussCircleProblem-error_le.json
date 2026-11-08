@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Gauss: |N(r) − πr²| ≤ 2√2πr for large r, where N(r) counts lattice points in the closed disc of radius r. This matches Wikipedia, and the statement is correct."
+    }
+]

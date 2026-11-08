@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Under RH, Mills' constant is 1.30637788386…, which lies in (1.3063778838, 1.3063778839), per Caldwell–Cheng. The statement is correct."
+    }
+]

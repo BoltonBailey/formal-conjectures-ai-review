@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 4,
+        "explanation": "Same issue as OeisA103425.conjecture: the OEIS A103425 question concerns weighted tribonacci sequences in the sense of A102001 (sequences determined by (a, b, c) with canonical initial terms), but the formal version allows arbitrary initial values. Requiring x to be nonconstant does not repair this: x(n) = 4(n+1) satisfies x(n+3) = x(n+2) + x(n+1) − x(n) and is trivially prime-free. The statement is true and proved, but it does not capture the intended question."
+    }
+]

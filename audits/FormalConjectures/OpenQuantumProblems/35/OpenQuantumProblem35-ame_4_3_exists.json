@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "AME(4,3) exists (from a 2-uniform ternary construction / [[4,0,3]]_3 code). This is correct and known; a formal proof is linked."
+    }
+]

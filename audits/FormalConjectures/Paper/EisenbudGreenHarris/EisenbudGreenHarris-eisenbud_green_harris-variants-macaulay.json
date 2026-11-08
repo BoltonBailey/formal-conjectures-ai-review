@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Macaulay's theorem (the c = 0 case of EGH as stated in Caviglia–De Stefani, arXiv:2007.15467): every homogeneous ideal of k[x_1..x_n] has the same Hilbert function as a lex ideal. hilbertFunction I d = dim_k I_d (equivalent to comparing quotients), IsLexIdeal is a monomial ideal closed upward in lex order (toLex on exponent vectors, x_1 most significant) within each degree. Faithful."
+    }
+]

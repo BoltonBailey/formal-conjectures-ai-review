@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Caviglia–De Stefani (arXiv:2007.15467, abstract/Theorem A) prove EGH when the degrees d_1 ≤ … of the regular sequence satisfy d_i ≥ Σ_{j<i}(d_j - 1). The formal version imposes this for 0-based i ≥ 2 (1-based i ≥ 3); the cases i = 1, 2 are automatic from monotonicity, so this matches. The hypotheses (homogeneous I, homogeneous forms f_i of degree d_i in I forming a Mathlib regular sequence, which excludes units so d_i ≥ 1) and conclusion (lex L with I and L + (x_1^{d_1}..x_c^{d_c}) having equal Hilbert functions) match the EGH statement. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "OEIS A100434 conjectures c(n) + d(n) = g(n) + a(n) with g(2n) = 0, g(2n+1) = c(2n+1). The formal statement g(n) + a(n) = b(n) uses the sign-corrected b, equivalent to the OEIS chain given c + d = b (checked numerically for n < 38). Faithful to the intended statement; severity 2 for the phrasing through the corrected b."
+    }
+]

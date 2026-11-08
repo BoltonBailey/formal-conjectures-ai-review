@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Every n×n×3 tensor has rank ≤ 2n − 1 (SMS10 Theorem 4.5). This is consistent with mrank(2,2,3) = 3 and mrank(3,3,3) = 5. The statement is correct."
+    }
+]

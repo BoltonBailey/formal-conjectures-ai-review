@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A368628 (g.f. A(x) = 1 + x(A(x)² − A(−x)²)/2 + x(A(x)⁴ + A(−x)⁴)/2), P. D. Hanna's conjecture: a(n) odd iff n = (4^k − 1)/3, even elsewhere. The coefficient extraction uses the odd part of A² and the even part of A⁴ (A² for even n, A⁴ for odd n), which is exactly the formal recurrence; I checked it reproduces the first 12 DATA terms. The statement Odd (a n) ↔ ∃ k, n = (4^k − 1)/3 (exact division) matches. Faithful."
+    }
+]

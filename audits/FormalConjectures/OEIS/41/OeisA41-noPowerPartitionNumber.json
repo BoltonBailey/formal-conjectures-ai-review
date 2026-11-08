@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A000041 (partition numbers), Z.-W. Sun: 'Conjecture: No a(n) has the form x^m with m > 1 and x > 1.' The repository's IsPerfectPower n requires a base > 1 and an exponent > 1 (so p(0) = p(1) = 1 is correctly not a perfect power), and the statement asserts no partitionNumber k is a perfect power. Faithful."
+    }
+]

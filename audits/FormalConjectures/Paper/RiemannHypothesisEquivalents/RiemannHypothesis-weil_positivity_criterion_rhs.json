@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Weil positivity inequality for a single real smooth compactly supported test function with vanishing transform at ±i/2 (additive form of Connes arXiv:2602.04022, §4.1, as checked for weil_positivity_criterion). Holding for all such g is equivalent to RH. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Ono–Swaminathan (arXiv:2509.09553, §1) quote the Bellaïche–Green–Soundararajan bound #{0 ≤ n ≤ X : p(n) odd} ≫ √X / log log X. The formal statement is (√X / log log X) = O(count) at infinity. Faithful."
+    }
+]

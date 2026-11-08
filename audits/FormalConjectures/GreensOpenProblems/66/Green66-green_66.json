@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Littlewood/Erdős: is there always a sum of two squares in [X − X^{1/4}/10, X]? It is formalized for all sufficiently large real X, which is necessary since small X fail (e.g. X = 3). The statement is faithful and open."
+    }
+]

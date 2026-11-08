@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The weak version proved by Kahn–Kalai: for each ε > 0 there is C_ε such that some p ∈ [n^{−ε}t, t] is (C log(1/p), p)-optimal. The MO post describes this as \"1000 log n replaced by C_ε n^ε\", and the Lean form, with constant C in the optimality factor and window ratio n^ε, is equivalent up to constants. The statement is correct and solved."
+    }
+]

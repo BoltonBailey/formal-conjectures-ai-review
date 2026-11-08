@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The constant 0.38234 is from Yu (Entropy 2023). His abstract says the numerically evaluated bound is \"around 0.38234\", so that paper alone may not rigorously certify the exact decimal. However, Wikipedia now cites the larger constant 0.38271 (Liu 2023), so the statement as written is supported. The statement is essentially faithful."
+    }
+]

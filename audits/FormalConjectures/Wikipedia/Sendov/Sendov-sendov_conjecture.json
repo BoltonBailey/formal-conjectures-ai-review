@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Sendov's conjecture: for a polynomial of degree n ≥ 2 with all roots in the closed unit disc, every root is within distance 1 of a critical point. The derivative has degree ≥ 1, so its root set is nonempty and finite, and infDist ≤ 1 is equivalent to some critical point at distance ≤ 1. Tao's linked repository formalizes a full proof (citing a 2026 proof digested on Tao's blog), using only standard axioms per its README. The statement is faithful and the solved tag is supported."
+    }
+]

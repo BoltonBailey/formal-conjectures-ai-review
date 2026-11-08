@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with the conjecture as described in del Pino–Kowalczyk–Wei (Ann. Math. 174, 2011; 'dkw-pnas' note) and Savin (Ann. Math. 169, 2009): bounded entire solutions of the Allen–Cahn equation Δu + u - u^3 = 0 on ℝ^n that are monotone in one direction (∂_n u > 0) have hyperplane level sets, at least for n ≤ 8. IsBoundedSolution (C^2 classical solution, bounded) matches; boundedness is equivalent to the usual |u| ≤ 1 normalisation since bounded solutions satisfy |u| ≤ 1 by the maximum principle. HasPositiveDeriv uses the first coordinate (WLOG by rotation), and HasHyperplaneLevelSets says each nonempty level set is an affine subspace of dimension n-1, the standard conclusion (equivalent to u being one-dimensional). This declaration states n = 3, proved by Ambrosio–Cabré (JAMS 13, 2000). Faithful."
+    }
+]

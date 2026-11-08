@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Firoozbakht's question \"What is the smallest odd prime p such that (10^(p^2)-1)/(10^p-1) is a prime number?\" is encoded as an Option answer equal to the sInf of such p, or none if none exist. Odd primes are encoded as p.Prime ∧ 2 < p, and the natural-number division is exact. The statement is faithful."
+    }
+]

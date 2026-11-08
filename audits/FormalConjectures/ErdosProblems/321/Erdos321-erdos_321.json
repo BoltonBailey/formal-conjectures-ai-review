@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 4,
+        "explanation": "The intent (Erdős #321) is R(N), the largest A ⊆ [N] with all subset sums of reciprocals distinct. However, `erdos_321.answer : ℕ` is a single constant, while the theorem asserts R N = answer for every N. R(N) is unbounded (R(N) ≫ N/log N by Bleicher–Erdős) and R(1) = 1, so no constant works and the statement is provably false. The answer should be a function of N."
+    }
+]

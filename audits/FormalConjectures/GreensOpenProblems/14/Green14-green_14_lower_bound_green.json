@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green's bound W(3,r) ≫ exp(c(log r)^{4/3−o(1)}), encoded with an existential o(r) → 0. Because o is existentially chosen yet must tend to 0, the exponent (log r)^{4/3−o(r)} still eventually exceeds any multiple of log r, so the statement is not trivial and is a faithful rendering of the bound."
+    }
+]

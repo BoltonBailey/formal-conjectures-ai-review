@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A115257, Z.-W. Sun's conjecture: for any positive integer n, Σ_{k=0}^n C(2k,k)² x^k and Σ_{k=0}^n C(2k,k)² x^k/(k+1) are irreducible over ℚ. polyP and polyQ are exactly these polynomials in ℚ[X] (centralBinom k = C(2k,k)), and the statement asserts both are Irreducible for n ≥ 1. Faithful."
+    }
+]

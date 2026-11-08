@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Chvátal's page (users.encs.concordia.ca/~chvatal/conjecture.html: no independence system contains an intersecting subfamily larger than its largest star) and Chang–Liu–Liu (arXiv:2609.19123: every hereditary family of subsets of a finite set has a largest intersecting subfamily that is a star). Decreasing is 'hereditary/down-closed', Intersecting is pairwise nonempty intersection (so ∅ is never in an intersecting family, as usual), and the conclusion 'some x with every intersecting G ⊆ F having |G| ≤ |{A ∈ F : x ∈ A}|' is equivalent to a star being a maximum intersecting subfamily (the star at x is itself intersecting). Nonempty α is needed and harmless. Faithful."
+    }
+]

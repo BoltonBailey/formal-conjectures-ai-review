@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Question (1) of MO 486451: is there a semiring with a unique maximal left ideal (Mathlib's Ideal R) but at least two maximal right ideals (ideals of Rᵐᵒᵖ)? The encoding is correct. However, the declaration is tagged `research solved` with no reference or proof. The only MO answer (Firsching) addresses question (2) only, and the linked formal-conjectures commit also leaves this theorem as `sorry`. The question post itself notes only indirect evidence (the \"Right Local Semirings\" paper). I could not find support for the solved status; it appears to be open and should probably be re-tagged."
+    }
+]

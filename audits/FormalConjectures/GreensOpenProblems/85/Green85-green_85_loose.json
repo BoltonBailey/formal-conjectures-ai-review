@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The easy Cauchy–Schwarz bound: area ≫ α²(log 1/α)^{−1}, stated for all small α > 0. This matches Green's comment. Restricting to α near 0⁺ is fine, since (log 1/α)^{−1} blows up near α = 1. The statement is faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "States Brocard's conjecture for all large n, tagged `research solved` and attributed to Ferreira (arXiv:2307.08725). That is an unrefereed preprint claiming the prime number theorem in (x, x + x^λ] for every λ ∈ (0,1). This would far exceed established short-interval results, and it is not an accepted theorem. The eventual statement needs primes in intervals of length ≍ √x near x = p_n², which is beyond current knowledge (even Legendre's conjecture is open). The statement is fine as a weakening, but it should be tagged `research open` rather than solved."
+    }
+]

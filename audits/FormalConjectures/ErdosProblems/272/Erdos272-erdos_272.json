@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #272: the largest t such that subsets A₁, …, A_t of [N] have all pairwise intersections non-empty APs. A non-empty AP is encoded as IsAPOfLength l with l > 0, so singletons count. maxArithInterCard is the supremum of family sizes, and the exact value for each N is posed with an unknown answer function. The site records only asymptotic results (Simonovits–Sós; Szabó ~N²/2). The statement is faithful and open."
+    }
+]

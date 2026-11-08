@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The commutative Auslander–Reiten conjecture as in Kimura [Ki23, arXiv:2304.03956]: for a commutative Noetherian ring R and f.g. module M with Ext^i_R(M, R) = 0 and Ext^i_R(M, M) = 0 for all i > 0, M is projective. The hypotheses are Subsingleton of Abelian.Ext in ModuleCat R for all i > 0 and the conclusion Module.Projective R M; R and M live in the same universe, as ModuleCat.of requires, which is harmless. Faithful."
+    }
+]

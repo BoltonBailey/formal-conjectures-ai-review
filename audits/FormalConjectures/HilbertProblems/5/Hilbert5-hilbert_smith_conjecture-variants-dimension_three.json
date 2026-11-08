@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Pardon's 2013 theorem (JAMS 26, cited on Wikipedia, Hilbert–Smith conjecture): the Hilbert–Smith conjecture holds for connected 3-manifolds. The formal statement is hilbert_smith_conjecture with n fixed to 3, same hypotheses (connected Hausdorff X charted on ℝ^3, locally compact G acting continuously and faithfully) and conclusion AdmitsLieGroupStructure G. Pardon states the result as ℤ_p not acting faithfully on a connected 3-manifold; together with the standard reduction (Gleason–Yamabe and the fact that a non-Lie locally compact group acting faithfully on a manifold contains a copy of some ℤ_p) this gives the formal statement. Lack of second countability on X is harmless for the same reason as in the main conjecture. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Rivoal (2012): at least one of γ and the Gompertz constant δ is transcendental. Note that `gompertzConstant` is defined as −e·∫_1^∞ e^{−t}/t dt ≈ −0.5963, which is the negative of the usual δ = e·E₁(1) ≈ 0.5963 (I checked this numerically). Transcendence is invariant under negation, so the statement is unaffected. The statement is faithful and solved."
+    }
+]

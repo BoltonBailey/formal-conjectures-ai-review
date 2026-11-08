@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The MO conjecture: π_σ(n) = #{k ≤ n : s_k prime} ~ n/(2 ln n), where s_k = p₁ + … + p_k. S uses 0-indexed Nat.nth over range n, giving p₁ + … + p_n, which matches s_1 = 2, s_2 = 5. The count over k ∈ [1, n] matches π_σ. The statement is faithful and open."
+    }
+]

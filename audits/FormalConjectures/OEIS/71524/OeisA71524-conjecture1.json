@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that the n×n determinant with entries [i² + j² prime] (1-indexed) is nonzero for every n > 28. The matrix definition matches A071524 (indices shifted by 1 from Fin n), and the statement is exactly Sun's \"a(n) = 0 for no n > 28\". The statement is faithful and tagged open."
+    }
+]

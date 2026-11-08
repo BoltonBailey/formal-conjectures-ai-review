@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A107247 (offset 0, DATA 0×7, 1, 2, 6, 22, 86, …): the comment lists the prime 2 and the semiprimes 6, 22, 86, 1366, 5462, 87382, 348503 = 37·9419, 358201316657 = 71·5045088967, using indices shifted by one from the DATA, as the docstring notes. The formal a(n) = Σ_{k ≤ n+1} F_9(k)² reproduces the DATA with offset 0, and I verified that a(8) = 2 is prime and a(9), a(10), a(11), a(13), a(14), a(16), a(17), a(27) equal the listed values with the listed two-prime factorizations. A correct, checkable statement. Faithful."
+    }
+]

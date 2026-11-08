@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A114137 (difference between the first odd semiprime > 2^n and 2^n): 'does 1 occur infinitely often?' The formal a is sInf of odd semiprimes above 2^n minus 2^n (a(0) = 9 − 1 = 8, matching the DATA), and the statement is that {n | a(n) = 1} is infinite. Faithful."
+    }
+]

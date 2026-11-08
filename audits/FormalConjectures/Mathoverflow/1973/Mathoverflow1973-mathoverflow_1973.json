@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Hopf problem: does S⁶ admit a complex structure? It is encoded as a charted space modelled on ℂ³ that is a C¹ ℂ-manifold, and complex C¹ means holomorphic, so this is a complex structure. The ChartedSpace uses the sphere's subspace topology, so the complex manifold really is S⁶. The top MO answer reports Alpöge's positive solution (Aug 2026) and Alexeev's Lean formalization. The linked Solution.lean exists. The status is backed by that formalization; there is no refereed publication yet. The statement is faithful."
+    }
+]

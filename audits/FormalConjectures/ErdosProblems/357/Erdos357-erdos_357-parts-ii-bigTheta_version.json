@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "\"How does f(n) grow?\", posed as f ≍ answer. This is the non-trivial asymptotic formulation. The known bounds are (2 + o(1))√n ≤ f(n) and f(n) ≤ g(n) ≤ (2/3 − 1/512 + o(1))n. The statement is faithful and open."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A109074: 'It is conjectured that binomial(6n−2,2n)/(2·binomial(4n−1,2n)) = A005156(n+1)/A005156(n)', with A005156 counting (2n+1)×(2n+1) vertically symmetric ASMs (1, 1, 3, 26, …). The formal b enumerates VSASMs (palindromic rows with ASM prefix-sum conditions, column partial sums in {0,1} ending at 1), with offset 0, and the statement frac(n+1) = b(n+1)/b(n) aligns the indices. Checks: frac(1) = 1 = 1/1, frac(2) = 210/70 = 3 = 3/1, frac(3) = 8008/924 = 26/3. The identity follows from Kuperberg's proof of Robbins' VSASM formula, as the docstring says. Faithful."
+    }
+]

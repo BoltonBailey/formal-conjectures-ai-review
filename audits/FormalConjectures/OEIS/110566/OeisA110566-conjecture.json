@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A110566 (a(n) = lcm(1..n)/denominator(H(n))): 'It is conjectured that every odd number occurs in this sequence.' The formal a uses Finset lcm of 1..n divided by Mathlib's harmonic n denominator (reduced), matching the definition, and the statement is: every odd m equals a(n) for some n > 0. Faithful."
+    }
+]

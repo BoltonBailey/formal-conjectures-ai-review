@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Open Problem Garden (Reed's ω, Δ, χ conjecture): χ(G) ≤ ⌈½(Δ(G)+1) + ½ω(G)⌉ for every graph G. Since 2χ is even, 2χ ≤ ω + Δ + 2 is equivalent to χ ≤ ⌈(ω+Δ+1)/2⌉ (check both parities of ω+Δ). The statement is for arbitrary (possibly infinite) graphs with ℕ∞-valued χ, ω, Δ: it is trivial when Δ = ∞ and follows from the finite case by de Bruijn–Erdős compactness otherwise, so it is equivalent to the usual finite conjecture. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A005258 (Apéry numbers), Z.-W. Sun: 'For each n=1,2,3,... the polynomial a_n(x) = Sum_{k=0..n} C(n,k)^2*C(n+k,k)*x^k is irreducible over the field of rational numbers.' aperyPoly n is exactly this polynomial in ℚ[X], and the statement asserts irreducibility for n ≥ 1. Faithful."
+    }
+]

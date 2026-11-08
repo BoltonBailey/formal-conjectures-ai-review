@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Fox–Kleitman's modular analogue: there is f(k) such that for every prime p and every a with no nonempty zero subset sum mod p, some f(k)-colouring of (ℤ/pℤ)^* has no monochromatic solution. f is independent of p, and k > 0 is required, which correctly excludes the degenerate empty tuple. This matches Green's text, and the statement is faithful."
+    }
+]

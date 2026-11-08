@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The CKS05 Conjecture 4.7 version, using the simultaneous double product property. I checked CKS Definition 4.1 (arXiv math/0511460): \"a_i(a'_j)^{-1}b_j(b'_k)^{-1} = 1 implies i = k\", which in additive form is exactly (A_i + B_j) ∩ (A_j + B_k) = ∅ for i ≠ k, as encoded here. Together with the double product property |A_i + B_i| = |A_i||B_i| and the size conditions, this matches Conjecture 4.7. The statement is faithful."
+    }
+]

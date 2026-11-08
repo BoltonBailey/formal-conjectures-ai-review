@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that every k with φ(k²+1) = k·φ(k+1), other than k = 8, has k+1 prime. This formalizes the OEIS comment \"a(n)+1 is prime except for a(5)=8\", which is an empirical observation, and Stephan's related question. The definition of A is correct, and k = 0 is excluded automatically (φ(1) = 1 ≠ 0). The statement is faithful, and the `research open` tag is reasonable."
+    }
+]

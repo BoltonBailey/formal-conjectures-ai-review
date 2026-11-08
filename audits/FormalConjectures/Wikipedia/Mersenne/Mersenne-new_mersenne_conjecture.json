@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The New Mersenne Conjecture (Bateman–Selfridge–Wagstaff): for odd p, any two of the conditions \"2^p − 1 is prime\", \"(2^p + 1)/3 is prime\", and \"p = 2^k ± 1 or 4^k ± 3\" imply the third. This matches Wikipedia, and the statement is faithful and open."
+    }
+]

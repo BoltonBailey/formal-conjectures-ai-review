@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #1194: for a perfect difference set A ⊆ ℕ (every n ≥ 1 is uniquely a_n − b_n), how fast must a_n/n increase? Perfect difference sets are encoded over ℤ via IsPerfectDifferenceSet A 0, excluding 0. a_n is correctly the larger element of the representation (unique by the API lemma). \"Must increase\" is formalized as the set of monotone G such that every such A has a_n ≥ c·G(n)·n infinitely often. That is a reasonable formalization; the site gives a_n ≫ n log n infinitely often, and a_n ≪ n³ for the greedy construction. The statement is faithful and open."
+    }
+]

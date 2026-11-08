@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A003161 (a(n) = Σ_{k≤n/2} (C(n,k) − C(n,k−1))³), P. Bala: with b(n) = a(2n−1), b(n p^k) ≡ b(n p^(k−1)) (mod p^(3k)) for positive n, k and primes p ≥ 5. The formal a (differences are nonnegative for k ≤ n/2, so toNat is harmless), b and the congruence in ℤ match. Faithful."
+    }
+]

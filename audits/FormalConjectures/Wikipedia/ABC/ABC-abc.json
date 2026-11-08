@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The abc conjecture (Wikipedia's first formulation): for each ε > 0 there are finitely many coprime positive triples with a + b = c and c > rad(abc)^{1+ε}. Pairwise coprimality of the set {a, b, c} is equivalent to the usual condition. When a = b, coprimality forces a = b = 1, which is harmless. The radical is correctly the product of the distinct prime factors. The statement is faithful and open (Mochizuki's claimed proof is not generally accepted)."
+    }
+]

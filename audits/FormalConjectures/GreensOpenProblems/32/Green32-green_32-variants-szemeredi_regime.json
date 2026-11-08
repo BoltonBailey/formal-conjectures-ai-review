@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The regime ω(p) ~ cp with 0 < c < 1. The required gap 100p/ω is bounded, and finding a dilate with that gap is equivalent to the complement of A (density ≈ 1 − c > 0) containing a long AP. That follows from Szemerédi's theorem in ℤ/pℤ for large p. The side conditions 100 < ω < p hold eventually. The statement is correct and matches Green's remark."
+    }
+]

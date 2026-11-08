@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "AME(12,5) exists, citing Bevins–Bidav (2026) for a Hermitian self-dual MDS code [12,6,7]_25. The parameters match the standard AME(n,q) ↔ [[n,0,n/2+1]]_q correspondence. The tag is solved without a formal proof. The statement is fine."
+    }
+]

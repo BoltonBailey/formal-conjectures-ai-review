@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A113257: 'What is the first square value after 1?' Since a(1) = 1, the formal answer a(m) with m the least index > 1 for which a(m) is a square is the intended value. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green's Problem 15: is there a Lipschitz f : ℕ → ℤ whose graph {(n, f(n))} ⊂ ℤ² contains no 3-term progression? LipschitzWith K uses the standard metrics on ℕ and ℤ, so it means |f(n+1) − f(n)| ≤ K. IsAPOfLengthFree … 3 forbids nontrivial 3-APs in ℤ² (the AP sets must have exactly 3 elements). Green writes the graph over n ∈ ℤ, which is a typo given the domain ℕ; the formalization uses ℕ, which is the right reading. The statement is faithful and open."
+    }
+]

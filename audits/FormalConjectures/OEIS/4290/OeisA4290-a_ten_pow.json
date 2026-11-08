@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A004290 (least positive multiple of n whose decimal digits are only 0s and 1s): a(10^k) = 10^k, as stated in the entry. True (10^k itself qualifies and any positive multiple is ≥ 10^k) and proved. Correct."
+    }
+]

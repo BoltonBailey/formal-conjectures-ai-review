@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Clay alternative (C). There exist u⁰ satisfying (4) and smooth f satisfying (5) (decay in (1+|x|+t)^{-K} for all derivatives) such that no smooth solution with bounded energy exists. The negated solution class is exactly (1), (2), (3), (6), (7), matching Fefferman's (C). The statement is faithful. Note on the tag: `research solved` rests on OpenAI's September 2026 claim of a forced finite-time blowup with a Lean formalization. Press reports describe it as not yet accepted by the Clay Institute, and I could not check that the linked Lean statement is identical to this one."
+    }
+]

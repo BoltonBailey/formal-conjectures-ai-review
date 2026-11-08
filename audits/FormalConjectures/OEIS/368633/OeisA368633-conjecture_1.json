@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A368633 (g.f. A(x) = 1 + 2xA(x)² − xA(−x)²), P. D. Hanna's conjecture: a(n) odd iff n = 2^k − 1, even elsewhere. The coefficient extraction uses [x^m](2A² − A(−x)²) = (2 − (−1)^m)[x^m]A², i.e. a factor 3 for even n and 1 for odd n, which is exactly the formal recurrence; I checked it reproduces the first 12 DATA terms. The statement Odd (a n) ↔ ∃ k, n + 1 = 2^k (equivalent) matches. Faithful."
+    }
+]

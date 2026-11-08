@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Key API lemma: a uniform superposition over the graph of an injective completion map has a maximally mixed reduction on the first m parties. This is a correct standard fact, since the reduced matrix is (1/d^m)·Σ_z [z = c(x)][z = c(y)] and injectivity gives δ_{xy}."
+    }
+]

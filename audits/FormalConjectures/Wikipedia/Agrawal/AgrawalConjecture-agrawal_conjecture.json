@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Agrawal's conjecture as on Wikipedia: for coprime n > 1, r > 0, if (X−1)^n ≡ X^n − 1 in (ℤ/nℤ)[X]/(X^r − 1), then n is prime or n² ≡ 1 (mod r). Working in ZMod n polynomials modulo X^r − 1 correctly encodes \"mod (n, X^r − 1)\". Excluding n = 1 is harmless (r = 1 makes the conclusion trivial). The statement is faithful and open; Lenstra–Pomerance heuristics suggest it is false."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A331631 (repeatedly take the least missing S and adjoin S, 3S, 9S, … through the first positive power whose value contains S as a decimal substring): 'This is conjectured to be a permutation of the positive integers.' FollowsRule encodes this exactly: each block starts at the least missing positive value, StopsAt picks the first positive exponent with S an infix of S·3^j, the block includes that term (as in the DATA, e.g. 81 ends the first block), and blocks are consecutive. The statement asserts a rule-following sequence that is injective and surjective onto the positive integers. If some block never stopped, no rule-following sequence would exist and the conjecture would also fail, so the existential form is equivalent. Faithful."
+    }
+]

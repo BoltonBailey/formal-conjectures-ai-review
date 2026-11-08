@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: IsKilledBy R A 1 (the first convolution power of id_A equals the convolution unit) is equivalent to id_A = unit ∘ counit. True by unfolding the convolution unit; proved. Correct."
+    }
+]

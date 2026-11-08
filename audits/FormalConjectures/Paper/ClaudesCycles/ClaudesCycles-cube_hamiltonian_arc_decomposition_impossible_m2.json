@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Knuth ('Claude's Cycles', p. 1) states that decompositions exist 'except when m ≤ 2', and the file cites Aubert–Schneider (JCTB 1982) for m = 2. The formal statement ¬HasHamiltonianArcDecomposition 2 uses the same faithful encoding of the decomposition (for m = 2 the three bumps out of each vertex are still distinct). Faithful."
+    }
+]

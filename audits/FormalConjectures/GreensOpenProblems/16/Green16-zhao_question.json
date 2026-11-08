@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Zhao's question: is there a subset of [N] of size N^{1/3−o(1)} with no nontrivial solutions to x + 2y + 3z = x' + 2y' + 3z'? It is formalized as g(N) ≥ N^{1/3−h(N)} eventually, for some h → 0. \"Trivial\" is defined as equality of coefficient sums at every value, which is the standard Ruzsa notion of a trivial solution. The statement is faithful."
+    }
+]

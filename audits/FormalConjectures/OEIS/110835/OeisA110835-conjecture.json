@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A110835 (smallest m > 0 with no primes in [nm, n(m+1)]): 'Sierpinski's conjecture (1958) is precisely that a(n) >= n for all n.' The formal a is sInf of such m (well defined, since arbitrarily long prime-free gaps exist), with the inclusive interval as in the OEIS, and the statement is a(n) ≥ n for n > 0. Faithful."
+    }
+]

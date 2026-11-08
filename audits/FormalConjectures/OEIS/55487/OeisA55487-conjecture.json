@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A055487 (least m with φ(m) = n!), M. F. Hasler: 'Unless n!+1 is prime, a(n)=pq where p is the least prime > sqrt(n!) such that (p−1) | n! and q=n!/(p−1)+1 is prime.' The formal p uses Nat.sqrt(n!) < p, equivalent to p > √(n!) since n! is not a perfect square for n ≥ 2. The excluded n are those with n! + 1 prime (covering n ≤ 3), and the conclusion asserts p exists (is prime) and a(n) = p·q. Faithful."
+    }
+]

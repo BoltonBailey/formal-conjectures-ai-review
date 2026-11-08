@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The local form of the commutative Auslander–Reiten conjecture: over a commutative Noetherian local ring, a f.g. M with Ext^i(M, R) = Ext^i(M, M) = 0 for i > 0 is free. Since f.g. projective modules over a local ring are free, this is equivalent to the commutative conjecture restricted to local rings, which is the usual form in the literature (e.g. Huneke–Leuschke, Kimura arXiv:2304.03956); the general case reduces to it by localisation. Faithful."
+    }
+]

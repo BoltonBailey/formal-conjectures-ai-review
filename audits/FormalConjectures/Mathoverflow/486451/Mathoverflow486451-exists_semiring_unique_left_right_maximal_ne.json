@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Question (2): a semiring with a unique maximal left ideal and a unique maximal right ideal that differ as sets. The MO answer (Firsching–Žužić) gives the ℕ-monoid algebra of the monoid of maps ℕ → ℕ, with a formal proof in the linked commit (lemmas ML_unique, MR_unique, xF_mem_ML, xF_not_mem_MR). The comparison via MulOpposite.op preimage is correct. The statement is correct and solved."
+    }
+]

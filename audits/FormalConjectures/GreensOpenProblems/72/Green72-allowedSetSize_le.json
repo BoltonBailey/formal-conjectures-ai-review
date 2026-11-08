@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Pigeonhole: a subset of the N×N grid with no k collinear points has at most (k−1)N points, since each column holds at most k−1. AllowedSet is correctly defined via collinearity in ℝ² of k-subsets. The statement is correct and proved in the file."
+    }
+]

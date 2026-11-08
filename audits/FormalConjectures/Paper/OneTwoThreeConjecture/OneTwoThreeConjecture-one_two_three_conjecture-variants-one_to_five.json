@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Kalkowski–Karoński–Pfender (JCTB 100, 2010): every graph without isolated edges has a vertex-colouring edge weighting from {1,…,5}; this is the well-known 5-weight theorem cited as background in Keusch (arXiv:2303.02611). The formal statement is the conjecture with bound 5. Faithful."
+    }
+]

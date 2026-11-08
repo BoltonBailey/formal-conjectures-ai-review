@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Ford's theorem: any counterexample exceeds 10^{10^{10}}, i.e. the property holds for 0 < n < 10^{10^{10}}. This matches Wikipedia and Ford (1998), and the statement is correct."
+    }
+]

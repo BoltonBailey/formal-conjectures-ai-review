@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "\"For n large enough does a(n) > sqrt(n) always hold?\" is formalized as ∃ N, ∀ n ≥ N, a(n) > √n. Here a(n) = −Σ_{k=1}^n (−1)^⌊(3/2)^k⌋, and natural-number division 3^k / 2^k correctly computes the floor. The statement is faithful. Note that it is at odds with the (also conjectured) a(n) ~ C·log²(n), and the 2026 counterexample a(331523) = −1 makes it look doubtful, but it remains unresolved, so the `open` tag is acceptable."
+    }
+]

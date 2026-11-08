@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Steininger–Yurkevich (arXiv:2508.18475: a convex body has Rupert's property if a copy can be passed through a straight hole inside it; they 'construct a polyhedron which is provably not Rupert, thus we disprove a conjecture from 2017') and the standard formalisation in the file's header (π(T1 X) ⊆ int π(T2 X) for rigid motions T1, T2). IsRupert takes a polyhedron as the convex hull of finitely many vertices, two rotations in SO(3), a translation in the projection plane (translation along the projection axis is irrelevant), projection onto the first two coordinates, and inner shadow ⊆ interior of the outer shadow. The statement negates 'every convex polyhedron with nonempty interior is Rupert'. Faithful."
+    }
+]

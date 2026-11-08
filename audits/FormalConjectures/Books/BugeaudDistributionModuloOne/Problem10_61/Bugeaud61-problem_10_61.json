@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Bugeaud Problem 10.61 (Mendès France): for a Pisot α > 2 and ξ ∈ C(α) = {(α−1)Σ_{k≥1} ε_k α^{−k}}, the sequence (ξαⁿ)_{n≥1} is not u.d. mod 1. The statement matches the problem as quoted verbatim in Stephan's preprint (I read the PDF in the linked repo). cantorPoint indexes k from 0 with α^{−(k+1)}, which is the same set. The statement is faithful and open."
+    }
+]

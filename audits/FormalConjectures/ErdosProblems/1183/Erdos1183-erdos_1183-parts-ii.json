@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #1183, second part: estimate F(n), the same quantity with closure under unions only (SupClosed), posed as Θ of an unknown answer. The statement is faithful and open."
+    }
+]

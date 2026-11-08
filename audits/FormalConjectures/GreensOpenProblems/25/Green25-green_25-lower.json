@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Asks for a function growing faster than log log N such that every k ≪ it (and 1 ≤ k ≤ N) satisfies the property eventually. This is a faithful formalization of improving the ESS lower bound, and the open tag is appropriate."
+    }
+]

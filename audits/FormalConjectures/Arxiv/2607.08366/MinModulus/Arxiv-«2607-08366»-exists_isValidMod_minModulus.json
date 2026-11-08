@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Theorem A of the paper: the super-increasing set {2^k − 1} is valid mod 2^n − 2^{⌊log₂ n⌋}. The Lean only asserts existence of some valid n-set, which this implies. The paper reports a kernel-checked Lean proof. The statement is correct and solved."
+    }
+]

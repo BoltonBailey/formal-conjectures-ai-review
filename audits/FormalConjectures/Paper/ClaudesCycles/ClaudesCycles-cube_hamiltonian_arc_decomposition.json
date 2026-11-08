@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Knuth, 'Claude's Cycles' (28 Feb 2026, rev. 14 Apr 2026): digraph on vertices ijk (0 ≤ i,j,k < m) with arcs to i⁺jk, ij⁺k, ijk⁺ (mod m); decompose the 3m³ arcs into three directed m³-cycles; Claude's construction works for all odd m (tested 3..101, proved in the paper). HasHamiltonianArcDecomposition asks for three permutations σ_c of (ZMod m)³, each a single cycle with full support whose arcs v → σ_c v are cube arcs, such that each arc (v, bump_b v) is used by exactly one c; since the three bumps out of v are distinct for m > 1, this is exactly an arc partition into three Hamiltonian cycles. Statement for odd m > 1. Faithful."
+    }
+]

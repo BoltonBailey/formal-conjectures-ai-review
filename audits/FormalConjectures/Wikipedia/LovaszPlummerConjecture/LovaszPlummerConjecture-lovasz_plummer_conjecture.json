@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Lovász–Plummer conjecture (proved by Esperet–Kardoš–King–Král'–Norine 2011): bridgeless cubic graphs have ≥ 2^{cn} perfect matchings. It is stated for simple graphs, a special case of the usual multigraph statement, so it is still true. A formal proof is linked. The statement is fine."
+    }
+]

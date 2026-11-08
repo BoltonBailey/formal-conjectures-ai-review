@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "\"Not every convex set in ℝ³ has VC₂ dimension ≤ 1.\" It is tagged solved with a linked Lean counterexample (KitaKen1/vcdim-convex-counterexample), which I confirmed exists and defines an explicit halfspace-intersection C. The name reads like a positive claim but the statement is a negation, consistent with the docstring. The statement is fine."
+    }
+]

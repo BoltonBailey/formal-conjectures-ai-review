@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Strong BSD over K: a meromorphic continuation with order rk E(K) at 1, Sha finite, and leading coefficient Ω·Reg·|Sha|·∏c_v / (√|Δ_K|·|E(K)_tors|²). This matches [DD2010], Conjecture 2.1. I checked the ingredients: - The period is the LMFDB global period: the real place contributes ∫_{E(ℝ)}|ω| = 2∫dx/√F, covering both real components. The complex place contributes ∫|ω∧ω̄| = 4∫dA/|F| = 2·covolume, as in LMFDB. The (|N Δ|/N 𝔡)^{1/12} factor corrects for a non-minimal model. - The regulator uses the x-coordinate naive height and the pairing ⟨P,P⟩ = ĥ(P). This is the BSD normalization (LMFDB), non-normalized over K, as DD2010 requires. - The Tamagawa product runs over the finite places only (the archimedean factors are absorbed into the period). - Sha is the kernel of H¹ → ∏_v H¹(K_v) over all places. The convention trailing coefficient = L^{(r)}(1)/r! is right. I did not verify every infrastructure definition in full detail, but the formula and normalizations are consistent with the cited sources."
+    }
+]

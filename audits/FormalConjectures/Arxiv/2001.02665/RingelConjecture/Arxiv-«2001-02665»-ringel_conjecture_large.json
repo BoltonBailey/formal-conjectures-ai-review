@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Ringel's conjecture for large n (Montgomery–Pokrovskiy–Sudakov): K_{2n+1} decomposes into 2n+1 edge-disjoint copies of any n-edge tree. Copies are images under vertex embeddings, pairwise edge-disjoint with union ⊤. Since 2n+1 copies of n edges cover the n(2n+1) edges exactly, this is an exact decomposition. The statement is correct and solved."
+    }
+]

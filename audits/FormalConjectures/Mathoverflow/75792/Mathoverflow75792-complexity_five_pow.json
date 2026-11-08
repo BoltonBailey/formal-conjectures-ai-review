@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "‖5ⁿ‖ = 5n fails: 5⁶ = 1 + 2³·3²·(1 + 2³·3³) has complexity ≤ 29 < 30. This is proved in the file via Reachable. Reachable is the inductive \"expressible with n ones using + and ×\" relation, so complexity is the integer complexity. The statement is correct and solved."
+    }
+]

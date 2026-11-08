@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A237271, Conjecture 1 (proved by Hoft): a(n) equals the number of odd divisors of n minus the odd divisors m having a divisor d with d < m < 2d (= A001227 − A239657, Pol's formula). The formal A001227 and A239657 match these descriptions, and the statement for n > 0 holds numerically for n ≤ 10000 with the (b-file-verified) a. Faithful."
+    }
+]

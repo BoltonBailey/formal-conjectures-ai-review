@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The known qualitative result (Sanders; Croot–Sisask; BGT Problem 6.5): for each K there is c(K) > 0 such that every K-approximate group A has some S with |S| ≥ c|A| and S⁸ ⊆ A⁴, with S not required to lie in A. This matches Green's \"known with |S| ≫_K |A|\". The statement is correct."
+    }
+]

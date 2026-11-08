@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Schoof, 'Is a finite locally free group scheme killed by its order?' (survey; question from SGA 3 Exp. VIII Rem. 7.3.1) and the Mathlib counterexample Counterexamples/GrothendieckPower. IsKilledBy encodes [m] = e∘(structure map) as id_A^{*m} = η∘ε in the convolution monoid (for commutative A the convolution power of id is the coordinate ring map of the m-th power morphism), and IsUniversalKillingExponent n m quantifies over all commutative rings R and finite projective Hopf algebras A of constant rank n (finite locally free of order n). The statement ¬∀ n, n is universal is the negative answer to Grothendieck's question, matching the cited counterexample (rank 4). Restricting to Type 0 is harmless for a negative statement witnessed in Type. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A100475 asks: 'Starting at other than a(n) = 1, does this sequence ever go into a loop?' for a(n) = reversal(p_{a(n−1)}). The formal statement asks for a positive start x ≠ 1 whose orbit under k ↦ reverseDigits(p_k) is ultimately periodic, the natural reading (positivity excludes the totalisation artefact at 0). The orbit values match the DATA (1, 2, 3, 5, 11, 13, 14, 34, 931, …). As a sanity check I searched starts x < 5000 for cycles (up to 200 steps, values below 3·10^6) and found none, consistent with the question being open. Faithful."
+    }
+]

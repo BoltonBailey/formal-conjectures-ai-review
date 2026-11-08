@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 4,
+        "explanation": "The intent (Erdős #319) is the largest A ⊆ [N] admitting signs δ with Σ δ_n/n = 0 and no vanishing proper non-empty subsum. However, `erdos_319.answer : ℕ` is a single constant, while the theorem asserts IsGreatest {…} answer for every N. The maximum genuinely depends on N: it is 0 for N = 1 (only A = ∅ qualifies) and ≥ (1 − 1/e + o(1))N for large N (erdos_319.variants.lb). So the statement is provably false for every value of the answer. The answer should be a function of N (answer : ℕ → ℕ)."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Every p(p+8) > 65 from a prime quadruple ends in 09: p ≡ 11 (mod 30) gives (30k+11)(30k+19) = 900k(k+1) + 209. This matches the DATA (209, 11009, 38009, …). True textbook statement, proved in the file. Correct."
+    }
+]

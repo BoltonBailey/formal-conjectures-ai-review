@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Formalizes that Borsuk's conjecture fails somewhere in the formerly open range 4 ≤ n ≤ 62, which follows from the claimed 9-dimensional counterexample. BorsukConjecture n correctly encodes \"every bounded set with ≥ 2 points is covered by n + 1 sets of smaller diameter\". Covers rather than partitions are equivalent, since subsets have smaller diameter. The statement is well formed. The solved status rests on OpenAI's 2026 counterexample (rank-one projectors on ℝ⁴ inside the 9-dimensional affine space of trace-one symmetric matrices), which I did not verify."
+    }
+]

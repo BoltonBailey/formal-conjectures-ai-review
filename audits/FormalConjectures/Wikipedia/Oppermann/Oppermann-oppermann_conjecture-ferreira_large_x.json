@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Oppermann's conjecture for all large x, tagged `research solved` and attributed to Ferreira's unrefereed preprint arXiv:2307.08725. That preprint claims prime asymptotics in (x, x + x^λ] for all λ > 0, far beyond accepted results (λ > 7/12), and is not an accepted proof. Even eventual Oppermann requires primes in intervals of length ≈ √y near y, which is open (stronger than eventual Legendre). The statement is fine, but the category should be `research open`."
+    }
+]

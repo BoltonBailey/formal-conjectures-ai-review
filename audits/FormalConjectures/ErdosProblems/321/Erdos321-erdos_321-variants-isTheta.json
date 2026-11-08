@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Θ(R(N)), posed with an unknown answer. erdosproblems.com #321 now states that R(N) ≍ log S(N) ≍ (N/log N)·∏_{j=3}^{k} log_j N (with log_k N = O(1)), the lower bound being implicit in Bettin–Grenié–Molteni–Sanna (2025). So the order of magnitude is determined, and the `research open` tag appears outdated. The statement is otherwise fine."
+    }
+]

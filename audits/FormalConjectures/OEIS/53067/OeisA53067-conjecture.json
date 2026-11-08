@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A053067 (a(n) = decimal concatenation of the next n integers: 1, 23, 456, …), N. J. A. Sloane: 'The second term is a prime. When is the next prime, if there is another?' The formal a concatenates T(n−1)+1 .. T(n) in decimal. The answer is an Option: some (least n > 2 with a(n) prime), or none if no such n exists, which captures both 'when' and 'if there is another'. Faithful."
+    }
+]

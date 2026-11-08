@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A185150 (number of odd primes p in (n², (n+1)²) with (n/p) = 1), Z.-W. Sun: 'Conjecture: a(n)>0 for all n>0.' The formal a counts odd primes in the open interval with jacobiSym n p = 1, which equals the Legendre symbol for odd primes p. The statement 0 < a(n) for n > 0 matches. Faithful."
+    }
+]

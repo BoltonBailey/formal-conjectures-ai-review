@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Kisielewicz's formula: M(n) = Σ_k ∏_j ∏_{i<j} (1 − b_i^k b_j^k ∏_m (1 − b_m^i + b_m^i b_m^j)). I compared it with Wikipedia. The Lean version sums k over [0, 2^{2^n}) instead of [1, 2^{2^n}], and takes j up to 2^n instead of 2^n − 1. Both differences are harmless: the j = 2^n factor is always 1 (bit 2^n of k < 2^{2^n} is 0), and the k = 0 term (value 1) replaces Wikipedia's k = 2^{2^n} term (also 1). Truncated subtraction is safe, since the subtracted product is 0 or 1. The values for n ≤ 3 are checked in the file. The statement is correct."
+    }
+]

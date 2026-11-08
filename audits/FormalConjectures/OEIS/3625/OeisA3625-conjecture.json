@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A003625 (primes ≡ 3, 5, 6 mod 7), F. Provvedi: 'Conjecture: Also such primes p where the polynomial x^2 + x + 2 is irreducible over GF(p).' The formal statement, for every prime p, A p ⇔ X² + X + 2 irreducible in (ZMod p)[X], is that characterisation. It is classically true (discriminant −7, quadratic reciprocity; p = 2 and p = 7 are reducible and not in A). Faithful."
+    }
+]

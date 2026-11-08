@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Formalizes the classical question \"Does the Euclid–Mullin sequence contain every prime?\" as: every prime p equals a(n) for some n ≥ 1. The recursion is correct: b(n) is the product of the first n terms, a(n+1) = minFac(b(n)+1), and a(1) = minFac(2) = 2, a(2) = 3, a(3) = 7, a(4) = 43, a(5) = 13. The a(0) = 1 convention is excluded by n ≥ 1. The statement is faithful and is the expected \"yes\" answer to the open question."
+    }
+]

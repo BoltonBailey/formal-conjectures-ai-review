@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A001223 (prime gaps), M. F. Hasler's remark: 'any subsequence a(n .. n+m) with n > 2 (as to exclude the untypical primes 2 and 3) should occur infinitely many times at other starting points n''. The formal a(n) = p_(n+1) − p_n (Nat.nth 0-indexed), which aligns with the OEIS indexing (a(3) = 7 − 5 = 2), and the statement negates 'for all n ≥ 3 and m, the block a(n..n+m) occurs at infinitely many k'. The negation is correct: the block starting at n = 3 is (2, 4, 2, 4, 2) (primes 5, 7, 11, 13, 17, 19), and a gap pattern p, p+2, p+6, p+8, p+12, p+14 covers all residues mod 5, so it occurs only at p = 5. A faithful formalisation of (a disproof of) the remark."
+    }
+]

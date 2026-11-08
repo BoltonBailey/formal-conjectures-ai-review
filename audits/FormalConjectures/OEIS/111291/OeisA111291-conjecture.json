@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "OEIS A111291: 'Simon Colton conjectures that the number of refactorables less than x is at least x/(2 log(x)).' The formal statement asserts this only for all sufficiently large x (∀ᶠ x in atTop), using the count of refactorable k ≤ ⌊x⌋. That weaker form is indeed a theorem (Zelinsky, JIS 5 (2002): tau numbers eventually exceed any multiple of π(n); also Spiro's asymptotic), consistent with the 'solved' tag. However, the OEIS wording reads as a pointwise inequality for all x, so the formal version quietly replaces the claim by its asymptotic weakening. The docstring is upfront about this, and the pointwise (π-based) form is stated separately in colton_conjecture. Severity 2 for the reinterpretation."
+    }
+]

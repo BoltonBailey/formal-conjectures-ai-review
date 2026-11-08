@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Any N for which every r-colouring (r ≥ 1) of [N] has the property satisfies N ≥ 9, since xy ≥ 9 must lie in [N]. This is elementary and correct. Stating it for every such N avoids the sInf ∅ = 0 junk value."
+    }
+]

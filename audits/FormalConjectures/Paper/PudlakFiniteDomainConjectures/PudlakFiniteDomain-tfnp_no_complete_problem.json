@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Pudlák (arXiv:1601.01487, §4): 'Conjecture (equivalent to TFNP) There is no complete problem in TFNP, i.e., there exist no TFNP problem to which all TFNP problems can be reduced' (Megiddo–Papadimitriou). TFNPProblem is a polytime relation with polynomially bounded, always existing solutions; Reduces is the standard many-one search reduction (f on instances, g mapping solutions back). Pudlák shows completeness under polynomial (oracle) reductions and under many-one reductions give equivalent conjectures. Faithful."
+    }
+]

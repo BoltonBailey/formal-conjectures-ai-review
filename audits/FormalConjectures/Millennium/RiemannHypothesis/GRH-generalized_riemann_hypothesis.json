@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "GRH for primitive Dirichlet characters: every zero of Mathlib's `DirichletCharacter.LFunction` (the entire or meromorphic continuation, not the naive series) outside the trivial zeros has real part 1/2. The trivial zeros are correct: −2, −4, … for the trivial character (q = 1, where L = ζ); −1, −3, … for odd χ; and 0, −2, −4, … for even nontrivial primitive χ, whose L-functions vanish at 0. The only primitive character of modulus 1 is trivial, and every primitive character with q > 1 is nontrivial, so the case split is right. The included test confirms that the q = 1 case reduces to RH. The statement is faithful."
+    }
+]

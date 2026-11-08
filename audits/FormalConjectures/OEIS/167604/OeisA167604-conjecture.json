@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A167604 (a Euclid–Mullin variant: a(n+1) is the least prime dividing Π_{i∈I} a(i) + Π_{i∉I} a(i), minimised over subsets I): 'One can ask whether all primes occur in this sequence.' The terms are distinct primes, so subsets I correspond to divisors d of the squarefree product P, and the candidates are d + P/d. The formal next(P) = minFac(Π_{d|P}(d + P/d)) equals the minimum over d of minFac(d + P/d), since every factor is ≥ 2. Starting from the empty product gives 2, as the comment notes. The statement asks that every prime occurs as some a(n), n ≥ 1. Faithful."
+    }
+]

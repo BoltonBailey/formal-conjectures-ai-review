@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Tunnell's theorem, necessary direction, odd case: if squarefree odd n is congruent, then #{n = 2x² + y² + 8z²} = 2·#{n = 2x² + y² + 32z²}. This matches Wikipedia exactly (B uses 8, A uses 32), and the statement is faithful."
+    }
+]

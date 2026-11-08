@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A400194 (maximum length of a 2-dense sublist of divisors of n): 'Conjecture: a(n) is the product of the ruler function of n and the maximum number of odd terms in a 2-dense sublist of divisors of n.' a is the maximum sublist length, b (A400195) the maximum odd count, and the ruler function A001511(n) = v₂(n) + 1. The statement a(n) = (v₂(n) + 1)·b(n) for n > 0 matches. Faithful."
+    }
+]

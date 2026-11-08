@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The ℤ analogue (Green 2002): for A ⊆ [N] of density α, A + A contains an AP of length ≥ exp(c(log N)^{1/2}), with c depending on α. This matches Green's comment, and the statement is faithful."
+    }
+]

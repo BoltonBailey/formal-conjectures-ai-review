@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Conway's 99-graph problem: is there a graph on 99 vertices in which adjacent pairs have exactly one common neighbour and non-adjacent pairs exactly two? Mathlib's LocallyLinear (every edge in exactly one triangle, triangles edge-disjoint) is equivalent to the first condition, and NonEdgesAreDiagonals encodes the second. The statement is faithful and open (equivalently, an srg(99, 14, 1, 2))."
+    }
+]

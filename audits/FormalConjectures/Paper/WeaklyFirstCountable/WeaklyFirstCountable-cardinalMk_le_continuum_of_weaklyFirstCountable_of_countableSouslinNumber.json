@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Arhangel'skii (BASM 2013), Problem 4: 'Suppose that X is a weakly first-countable space such that the Souslin number of X is countable. Then is it true that |X| ≤ 2^ω?' (spaces Tychonoff by convention). The formal statement assumes T3.5, weak first countability and souslinNumber ≤ ℵ₀ (the supremum of cardinalities of cellular families of disjoint nonempty open sets, the standard Souslin number), and concludes #X ≤ 𝔠. Faithful."
+    }
+]

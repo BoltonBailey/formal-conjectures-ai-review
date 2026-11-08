@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Is the symbol length finite for all m, n and primes p? This is Krashen's Problem 2.1.3.12; it is known for n ≤ 2 and n > m, but open in general for degree ≥ 3 with m ≥ 3. The statement is faithful and open."
+    }
+]

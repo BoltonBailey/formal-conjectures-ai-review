@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Clements–Lindström (JCT 1969), as recalled in arXiv:2007.15467: for d_1 ≤ … ≤ d_c, every homogeneous ideal containing x_1^{d_1}, …, x_c^{d_c} has the Hilbert function of a lex-plus-powers ideal L + (x_1^{d_1}, …, x_c^{d_c}) with L lex. The formal statement assumes purePowersIdeal hc d ≤ I with d monotone and concludes exactly this. Faithful."
+    }
+]

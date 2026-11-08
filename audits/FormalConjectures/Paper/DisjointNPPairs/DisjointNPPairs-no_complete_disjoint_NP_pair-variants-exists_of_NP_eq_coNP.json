@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "If NP = coNP then (SAT, complement of SAT) is a disjoint NP pair, and any disjoint NP pair (A, B) reduces to it via a Karp reduction of A to SAT (which maps A into SAT and the complement of A, hence B, into non-SAT). This is the standard fact underlying Pudlák's remark that DisjNP implies NP ≠ coNP (arXiv:1601.01487). The formal statement is exactly this implication. True. Faithful."
+    }
+]

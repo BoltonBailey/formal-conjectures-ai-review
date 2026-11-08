@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A108306 (G. W. Adamson): 'The INVERT transform of a sequence starting (1, a, a·b, a·b², …) is equivalent to extracting the upper left terms of powers of the 2x2 matrix [(1,a); (1,b)].' invertSeqC is (c1, c2, …) = (1, a, ab, ab², …), invertSeqD is its INVERT transform (d0 = 1, d_m = Σ_{i<m} c_{m−i} d_i, i.e. 1/(1 − C(x))), and the claim is d_n = (M^n)_{00}, with the index alignment checked: d1 = 1, d2 = 1 + a. I verified numerically for 0 ≤ a, b ≤ 5 and n < 15. Faithful."
+    }
+]

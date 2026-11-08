@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A309132 (a(n) = denominator of B_num(n−1)/n + B_den(n−1)/n², with B the Bernoulli numbers A027641/A027642), T. Ordowski: 'composite numbers n such that a(n) is squarefree are only the Carmichael numbers'. The formal a uses Mathlib's bernoulli (the A027641 convention, B_1 = −1/2), and the statement is the iff (composite ∧ a(n) squarefree) ⇔ Carmichael. The reverse direction is implied by the OEIS's Theorem 2: for Carmichael n, a(n) is the denominator of Σ_{p|n} 1/p − 1/n, which divides the squarefree n. So the iff matches the intended characterisation. Faithful."
+    }
+]

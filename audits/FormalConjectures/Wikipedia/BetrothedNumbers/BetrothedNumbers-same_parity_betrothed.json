@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Asks whether there is a betrothed pair (σ(m) = σ(n) = m + n + 1) of the same parity, with m ≠ n. The m ≠ n requirement is justified, since m = n would be a quasiperfect number. Wikipedia notes that all known pairs have opposite parity. The definition matches Wikipedia and OEIS A005276, and the statement is faithful."
+    }
+]

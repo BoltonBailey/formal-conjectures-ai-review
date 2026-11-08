@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Frankl's union-closed sets conjecture, stated as C_{6a} = 1/2. C6a is the supremum of c such that every finite union-closed family A ≠ {∅} of finite subsets of ℕ has an element in ≥ c|A| sets, matching Tao's description. The empty family imposes no constraint. The statement is faithful and open."
+    }
+]

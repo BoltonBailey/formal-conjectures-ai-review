@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "\"Can we improve the lower bound?\" for the largest A ⊆ F₇ⁿ with (A − A) ∩ {−1,0,1}ⁿ = {0} (the Shannon capacity of C₇). The answer function 134753^⌊n/10⌋ lies below the maximum by the IRCR26 construction, and it dominates cⁿ for some c > C₁ = 367^{1/5}. I checked numerically that 134753^{1/10} ≈ 3.258021 > 367^{1/5} ≈ 3.257866 and 134753 > 367² = 134689. The admissibility condition faithfully encodes independence in the strong power of C₇. The statement is well formed. The solved tag depends on the 2026 constructions, which I did not verify."
+    }
+]

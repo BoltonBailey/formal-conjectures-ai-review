@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #1195: how fast can |S ∩ (0,x)| grow for measurable S of infinite measure with no integer ratios x/y? The site records Ho Boon Suan–GPT's resolution: for non-decreasing F → ∞, such S with |S ∩ (0,x)| ≥ F(x) exists iff ∫₁^∞ F(x)/x² dx < ∞. The Lean characterises the set of growth rates admitting such S as exactly those with F/x² integrable on [1,∞). For non-negative F this is equivalent to finiteness of the integral. A Lean proof is linked. The statement is correct and solved."
+    }
+]

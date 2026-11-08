@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Dvořák–Ossona de Mendez–Wu (arXiv:1812.07327): the Hall ratio is max |V(H)|/α(H) over subgraphs H (maximising over induced subgraphs, as hallRatio does, gives the same value since deleting edges cannot decrease α); the abstract says it was asked whether χ_f is bounded by a function of the Hall ratio, answered negatively. The formal statement negates the linear version ∃ C, χ_f(G) ≤ C ρ(G) for all finite graphs, which is the Harris conjecture as cited; it follows from the negative answer. fractionalChromaticNumber is the LP infimum over fractional colourings (nonneg weights on independent sets covering each vertex with weight ≥ 1). Faithful."
+    }
+]

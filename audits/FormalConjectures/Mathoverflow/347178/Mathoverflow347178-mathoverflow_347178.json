@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Ricceri's question: for C¹ f on ℝⁿ (n ≥ 2), is sup f = sup f(x + ∇f(x))? The Lean negates the universal statement, with the suprema taken in EReal (together with equivalence of boundedness). The MO answer gives a log-spiral counterexample in ℝ² with sup f = +∞ but f(x + ∇f(x)) ≤ 0, which refutes both conjuncts; a formal proof is linked. The statement is correct and solved."
+    }
+]

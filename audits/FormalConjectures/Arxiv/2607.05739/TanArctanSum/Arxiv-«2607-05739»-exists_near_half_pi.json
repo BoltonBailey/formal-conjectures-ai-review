@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "For exceptional n (|x_n| > n/2 + 1, or a pole), a_n = Σ arctan(1/k) is within 2/n of a multiple of π/2. This follows because Σ arctan k = nπ/2 − a_n and |tan θ| > n/2 + 1 forces θ within arctan(2/(n+2)) < 2/n of π/2 + ℤπ. A linked Lean proof exists. The statement is correct."
+    }
+]

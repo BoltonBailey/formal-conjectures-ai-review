@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Connes (arXiv:2602.04022, §4.4.1): 'Guy Robin proved that RH is equivalent to the inequality σ(n) < e^γ n log log n for all n > 5040'. The formal statement uses σ 1 (sum of divisors), eulerMascheroniConstant and real log, with RiemannHypothesis from the Millennium file. Faithful."
+    }
+]

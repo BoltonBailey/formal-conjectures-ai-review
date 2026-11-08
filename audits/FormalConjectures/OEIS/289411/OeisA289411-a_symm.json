@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A289411 (a(n) = Σ_{k≤n} sign(s(5k) − s(k)), s the decimal digit sum): 'We also have symmetries: for k = 1..6: let m_k = (10^k)/2−1: for i = 0..m_k, we have a(m_k − i) = a(m_k + i)'. The formal a matches (the sum is nonnegative per the OEIS, so toNat is harmless), and the statement asserts the symmetry for every k ≥ 1, the natural conjectural extension of the observed k ≤ 6 (proved per the link). Faithful."
+    }
+]

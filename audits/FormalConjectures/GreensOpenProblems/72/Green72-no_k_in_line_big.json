@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Grebennikov–Kwan (arXiv:2510.17743): for N ≥ k > 10^37, one can place (k−1)N points with no k on a line. The abstract says n ≥ k ≥ 10^37 for 'at most k per line', so after the index shift the file's k > 10^37 is safely covered. The statement is faithful."
+    }
+]

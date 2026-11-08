@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A363347 (denominator of 1/(2 − 3/(3 − 4/(… (n−1) − n/(−4))))), Conjecture 2: 'The sequence contains all prime numbers which end with a 1 or 9.' The formal continuedFractionDenominator evaluates R_k = k − (k+1)/R_{k+1} with R_{n−1} = (n−1) + n/4, and a(n) = |numerator of R_2| is the denominator of 1/R_2. This matches the DATA (checked n < 20: 11, 5, 31, 11, 59, …). The statement 'every prime ≡ 1, 9 (mod 10) equals some a(n)' matches. Faithful."
+    }
+]

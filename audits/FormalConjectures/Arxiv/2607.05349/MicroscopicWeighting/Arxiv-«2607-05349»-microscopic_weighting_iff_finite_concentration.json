@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "This disproves Roff–Willerton Conjecture 3.3 (microscopic weighting iff finite concentration of D). I checked the 10-point counterexample with exact arithmetic: the matrix is symmetric, positive off the diagonal, and satisfies the triangle inequality. The given g sums to 1 with A·g equal to the stated constant vector, and v is in ker A. The non-existence of the limit relies on the linked KitaKen1 Lean proof. Defining the weighting via Matrix.inv (0 when singular) is harmless, since det Z(t) is a nonzero real-analytic function, so Z(t) is invertible on some (0, δ). The negated formulation matches the \"false\" resolution. The statement is correct."
+    }
+]

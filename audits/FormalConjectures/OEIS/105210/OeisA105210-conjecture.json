@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A105210: 'This suggests that there may be infinitely many different (non-merging) sequences obtained by choosing different starting values.' The formal statement asks for an infinite set K of positive starting values whose orbits under n ↦ n + 1 + (sum of prime factors < n) are pairwise disjoint. That is a faithful rendering of 'infinitely many non-merging sequences'. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Abel (CTF Sozopol 2010) asks to prove existence of lim √n((B_{n,α} f)(x) − f(x)) for α ≠ 1, at least for sufficiently smooth f, and to find an explicit expression. The recorded answer is μ_α √(x(1−x)) f'(x) with μ_α = ∫_0^∞ ((1−Φ)^α + Φ^α − 1) dt. I checked this heuristically: the weights J_{n,k}^α − J_{n,k+1}^α make B_{n,α} f(x) = E f(Y/n), where P(Y ≥ k) = P(Bin(n,x) ≥ k)^α. Normalising Bin(n,x) ≈ nx + √(nx(1−x)) Z, Y's normalised survival function tends to (1−Φ(z))^α, whose mean is ∫_0^∞(1−Φ)^α − ∫_0^∞(1 − Φ^α) = μ_α. Hence √n(B_{n,α} f(x) − f(x)) → f'(x) √(x(1−x)) μ_α for C² f, the second-order term being O(1/√n). The endpoints are consistent (both sides 0), and a linked Lean proof exists. This declaration states the limit for α > 0, α ≠ 1, f ∈ C²[0,1], x ∈ [0,1] equals answer α f x = μ_α √(x(1−x)) · (derivative of f within [0,1]); C² is a reasonable concrete reading of 'sufficiently smooth', as the docstring explains. Faithful."
+    }
+]

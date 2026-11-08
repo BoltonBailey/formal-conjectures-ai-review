@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Barker conjecture: there is no Barker sequence (±1 entries, |C_k| ≤ 1 for 0 < k < n) of length greater than 13. The aperiodic autocorrelation Σ a_i a_{i+k} is computed correctly via zipWith with drop k. Test lemmas confirm the known length-13 and length-4 examples. The statement is faithful and open (Willms; Wikipedia)."
+    }
+]

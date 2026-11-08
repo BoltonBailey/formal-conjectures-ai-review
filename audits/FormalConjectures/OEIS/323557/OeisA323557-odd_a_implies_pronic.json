@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A323557 (G.f. Σ_{n≥0} x^n (1 + x^n)^n/(1 + x^(n+1))^(n+1)): 'Odd terms occur only at positions n*(n+1) for n >= 0'. Expanding (1+x^n)^n = Σ_k C(n,k) x^(nk) and (1+y)^(−(n+1)) = Σ_j (−1)^j C(n+j,j) y^j with y = x^(n+1), the coefficient of x^m is the sum over n(k+1) + (n+1)j = m, which is exactly the formal a. The statement 'a(m) odd ⇒ m = n(n+1)' matches. Faithful."
+    }
+]

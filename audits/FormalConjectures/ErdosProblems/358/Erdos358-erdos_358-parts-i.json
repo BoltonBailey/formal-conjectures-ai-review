@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #358: is there a strictly increasing A with f(n) → ∞, where f counts representations n = Σ_{u≤i≤v} a_i? Yes: Tao constructed one with f(n) ≫ log n, as recorded on the site, and a Lean proof is linked. Indices start at 1, matching a_1 < a_2 < …. The statement is correct and solved."
+    }
+]

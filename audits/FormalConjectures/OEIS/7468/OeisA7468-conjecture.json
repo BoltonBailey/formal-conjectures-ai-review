@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that for n > 0, the sum of the n-th row of the prime triangle is a perfect square iff n = 38. The definition is correct: row n consists of the primes with 0-based indices n(n−1)/2, …, n(n−1)/2 + n − 1, so a(1) = 2, a(2) = 3 + 5 = 8, a(3) = 31. The statement formalizes Olivieri's question \"Is it the only one?\" (207936 = 456² at n = 38) as the conjectured positive answer. \"Perfect square > 1\" is automatically satisfied, since a(n) ≥ 2 for n ≥ 1. The statement is faithful."
+    }
+]

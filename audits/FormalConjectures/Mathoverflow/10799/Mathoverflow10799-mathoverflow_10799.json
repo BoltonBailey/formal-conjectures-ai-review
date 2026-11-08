@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Kalai's MO problem, literal version: for every monotone F and interval [s,t] with t/s > 1000 log n, some p ∈ [s,t] makes F optimal, i.e. I^p(F) ≤ 1000 log(1/p) · μ_p(F) log_p μ_p(F)/p. The μ_p, h(S), I^p and optimality definitions match the MO post. The Lean negates the universal statement, matching the docstring's report of Perles' counterexample to the version without μ_t(F) = 1/2, with a linked formal proof. The statement is faithful."
+    }
+]

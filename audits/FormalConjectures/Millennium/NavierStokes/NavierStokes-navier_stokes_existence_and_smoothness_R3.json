@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Clay alternative (A). For ν > 0 and smooth, divergence-free u⁰ on ℝ³ with all derivatives decaying faster than any polynomial (condition (4), encoded through iteratedFDeriv norms, which is equivalent up to constants), and with f = 0, there exist v, p that satisfy: - equation (1), with ∂_t taken as derivWithin on [0,∞), (v·∇)v as fderiv applied to v, componentwise Laplacian and gradient; - (2) div-free and (3) the initial condition; - (6) C^∞ on ℝ³×[0,∞); - (7) bounded energy. The bounded-energy condition comes with an explicit L² membership, so the Bochner integral is meaningful. This matches Fefferman's official statement, and the statement is faithful."
+    }
+]

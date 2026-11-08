@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Pfister's Problem 1 (ICM 1970 §4; Benoist arXiv:1602.07330): determine p(ℝ(X1, …, Xn)). The formal statement asks for a function answer with IsLeast (pythagorasBounds (MvRatFunc (Fin n) ℝ)) (answer n) for all n, i.e. answer n is the Pythagoras number (the least p such that every sum of squares is a sum of p squares). Known values 1, 2, 4 for n ≤ 2 and bounds n + 2 ≤ p ≤ 2^n otherwise. Faithful."
+    }
+]

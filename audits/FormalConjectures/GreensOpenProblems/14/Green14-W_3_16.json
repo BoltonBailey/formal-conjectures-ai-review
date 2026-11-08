@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States W(3,16) = 238. This matches the exact value in Ahmed–Kullmann–Snevily (2014) and OEIS A007783 (w(n,3;2) data: …, 238, …). W(k,r) is defined as the sInf of N such that every 2-colouring of {1..N} has a colour-0 k-AP or a colour-1 r-AP. IsAPOfLength requires the AP set to have exactly the stated cardinality, so the difference is nonzero. This matches Green's definition."
+    }
+]

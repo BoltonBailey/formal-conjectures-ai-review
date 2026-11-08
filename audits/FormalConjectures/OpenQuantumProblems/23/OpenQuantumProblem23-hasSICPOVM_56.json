@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "States that a SIC-POVM exists in dimension 56 (d² unit vectors in ℂ^d with pairwise squared overlap 1/(d+1), which is the standard definition) and tags it `research open`. However, Bengtsson & Grassl, \"A Conjecture on Almost Flat SIC-POVMs\" (arXiv:2512.13201, Dec 2025), state in the introduction: \"Exact solutions are known for all dimensions d ≤ 57\". So d = 56 appears to be solved rather than open, and the docstring heading \"Smallest open special cases\" is out of date for this dimension. The formal statement itself is correct; only the open status looks wrong."
+    }
+]

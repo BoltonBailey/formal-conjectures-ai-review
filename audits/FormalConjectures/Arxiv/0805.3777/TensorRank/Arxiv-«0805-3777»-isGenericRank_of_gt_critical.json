@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Fri12 (5.1): grank(m₁,m₂,m₃) = min(m₃, m₁m₂) when m₃ ≥ (m₁−1)(m₂−1)+1 and m₁ ≤ m₂ ≤ m₃. The edge cases m₁ = 1 (a matrix) and m₁ = 2 (grank = min(m₃, 2m₂)) agree with the formula. The statement is correct."
+    }
+]

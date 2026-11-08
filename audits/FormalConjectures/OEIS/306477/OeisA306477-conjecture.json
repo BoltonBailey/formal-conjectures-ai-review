@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A306477, Z.-W. Sun's '2-4-6-8 conjecture': every n > 0 is C(w+2,2) + C(x+3,4) + C(y+5,6) + C(z+7,8) with w, x, y, z ≥ 0 (equivalently C(w,2) + C(x,4) + C(y,6) + C(z,8) with w, …, z > 1). The entry now records that it is false, with a(896315812331399) = 0. The formal predicate matches the representation, and the statement negates 'every n > 0 is representable'. Faithful."
+    }
+]

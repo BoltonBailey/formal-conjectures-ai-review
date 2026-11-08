@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "BFZ24 (4.24): mrank(m, n, mn−u) = mn − ⌈u/2⌉ for 3 ≤ m ≤ n and u ≤ min(4, m, n). Since m ≤ n, min(4, m) equals the source's min(4, m, n). Precedence makes mn − (u ⌈/⌉ 2) parse as intended. The statement is correct."
+    }
+]

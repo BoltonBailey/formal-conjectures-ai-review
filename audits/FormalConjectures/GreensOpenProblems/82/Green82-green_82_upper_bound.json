@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Juškevičius–Sahasrabudhe: there exist n-element sets with at most C·(n log n)^{2/3} zeros, which is equivalent up to constants to Green's O(n^{2/3} log^{2/3} n). The statement is faithful."
+    }
+]

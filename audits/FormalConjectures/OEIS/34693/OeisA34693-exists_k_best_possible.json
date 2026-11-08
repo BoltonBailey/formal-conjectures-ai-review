@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A034693, J. L. Pe: '1 + n^(.74) does not work as an upper bound (counterexample: n = 19)'. The formal statement exhibits n = 19 with no k < 1 + 19^0.74 (≈ 9.83) making 19k + 1 prime; indeed a(19) = 10. Proved in the file. Faithful."
+    }
+]

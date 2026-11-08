@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Katz's question (Green's Problem 76): for every finite A ⊆ ℝ², is there A' with |A'| ≤ ⌊|A|/2⌋ meeting every closed axis-parallel rectangle that contains ≥ 1000 points of A? A' need not be a subset of A, which matches Green's wording and Alon's remark that the subset version fails. The readings (\"at most n/2\", \"at least 1000\") are documented and natural. The statement is faithful."
+    }
+]

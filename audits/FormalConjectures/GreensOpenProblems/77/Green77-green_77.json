@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Heilbronn's triangle problem: is α(n) ≤ n^{−2+o(1)}, where α(n) is the supremum over n-point sets in the unit disc of the minimum triangle area? It uses Erdős 507's α, which takes absolute triangle areas over injective triples. Restricting to non-collinear configurations is harmless, since collinear sets give area 0. It is encoded with an existential o → 0 and big-O. The statement is faithful and open, and consistent with Green's updates (best known n^{−7/6+o(1)})."
+    }
+]

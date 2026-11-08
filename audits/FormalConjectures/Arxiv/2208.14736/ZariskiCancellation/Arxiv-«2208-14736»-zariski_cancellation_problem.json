@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Zariski Cancellation Problem in characteristic 0 (Gupta's survey): is every polynomial ring k^[n] cancellative, i.e. does B[X] ≅ k^[n+1] force B ≅ k^[n]? IsCancellative quantifies over finitely generated k-algebras B, which matches the problem. The negation follows from the ℂ, n = 4 counterexample. I confirmed the OpenAI preprint (Sept 2026) exists; it constructs an integral complex affine fourfold X with X × A¹ ≅ A⁵ but X ≇ A⁴. Its Lean `main` proves finite type, domain, dimension, stabilization and nonpolynomiality. The result is unrefereed but machine-checked. The statement is correct and solved."
+    }
+]

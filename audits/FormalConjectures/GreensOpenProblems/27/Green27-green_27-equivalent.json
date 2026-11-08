@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green's Problem 27: the asymptotic size m(p) of the smallest A ⊆ ℤ/pℤ with |A| ≥ 2 and no uniquely represented element of A + A (unordered pairs, matching Bedert's definition). It is encoded as an answer function asymptotically equivalent to m along primes. As with all answer-value encodings, the intended answer is a closed form, not m itself. The definition of m and the restriction to primes are correct, and the statement is faithful."
+    }
+]

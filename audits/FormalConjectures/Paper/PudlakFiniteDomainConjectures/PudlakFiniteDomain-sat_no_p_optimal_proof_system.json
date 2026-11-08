@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Pudlák, 'Incompleteness in the finite domain' (arXiv:1601.01487, §6): a proof system for SAT is a polytime function from Σ* onto SAT, and the conjecture (SAT) is that SAT has no p-optimal proof system. IsProofSystem (polytime, range exactly L), PSimulates (polytime translation h with P∘h = Q) and IsPOptimalProofSystem follow Cook–Reckhow. The statement is made for every NP-complete L instead of SAT; this is equivalent because p-optimal proof systems pass down along many-one reductions (Köbler–Messner–Torán 2003) and all NP-complete sets are many-one equivalent to SAT. Faithful."
+    }
+]

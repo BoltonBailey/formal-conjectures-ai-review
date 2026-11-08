@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A167918 (a(n) = smallest k > n with f(n,k) = (p_k + p_{k+1})/(p_n + p_{n+1}) an integer ≥ 2): '(1) It is conjectured that sequence is infinite', i.e. a(n) is defined for every n. Since k > n gives S(k) > S(n), any multiple is ≥ 2·S(n), so 'integer ≥ 2' is just S(n) | S(k). The formal statement asks for k > n with S(n) | S(k), for every n > 0. Faithful."
+    }
+]

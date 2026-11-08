@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A100474: 'a(11) is the first semiprime in the sequence. What is the next?' The formal statement sets the answer equal to a(m) for m the least index > 11 with a(m) semiprime (offset matches the OEIS, a 1 = 1). So the answer is the semiprime value itself, which matches 'what is the next [semiprime]'. I verified the recorded 133-digit value: it equals a(36) = 251 × (a 131-digit prime, sympy isprime), and every term a(12)…a(35) has at least three prime factors with multiplicity (from small factors plus a composite or nontrivial cofactor). So the recorded answer is correct and the statement is faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Negates \"Are all terms integers?\" by stating that a(n−2) ∤ 2^a(n−1) + 1 for some n ≥ 3. The Lean recursion uses floor division, but the divisibility condition at the first failure only involves exact earlier terms, so this is a correct encoding of integrality. I verified that the divisibility holds for n = 3..6, with a = 1, 1, 3, 9, 171, (2^171+1)/9. At n = 7, 2^a(6) + 1 ≡ 9 (mod 171), so it is divisible by 9 but not by 19, which matches the docstring's \"reduced denominator 19\". The `research solved` tag is justified, and the statement is faithful."
+    }
+]

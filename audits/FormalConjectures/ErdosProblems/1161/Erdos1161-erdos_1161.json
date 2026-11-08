@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #1161: for which k is f_k(n), the number of elements of S_n of order k, maximal? For large n, the maximizers are exactly the least k ≥ 1 with lcm(1..n−k) ∣ k (Beker). The site states this as \"f_k(n) = (n−1)! iff …\", while the Lean follows Beker's Theorem 1.2 (\"maximal iff\"), which the docstring explicitly flags. f and the answer set are encoded correctly, and a Lean proof is linked. The statement is correct and solved."
+    }
+]

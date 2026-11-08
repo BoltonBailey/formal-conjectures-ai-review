@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Every term n factors as n = m·s, where m is primitive, s is squarefree, and gcd(m, s) = 1. This matches Eldar's OEIS comment (\"All the other terms are of the form m*s ...\"). The trivial case s = 1 also covers primitive n. The statement is faithful, and the tag is solved with a linked formal proof."
+    }
+]

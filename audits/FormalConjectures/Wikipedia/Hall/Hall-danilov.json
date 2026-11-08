@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Danilov: the exponent 1/2 cannot be increased. For any δ > 0 there is no C with |y² − x³| > C|x|^{1/2+δ} for all such (x, y), since there are infinitely many pairs with |y² − x³| < 0.97√|x|. The statement is correct."
+    }
+]

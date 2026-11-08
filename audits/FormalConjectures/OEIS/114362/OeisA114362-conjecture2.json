@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A114362, Ordowski: (1 − t(n))/(1 + t(n)) = 1/2^n + 1/3^n + 1/5^n + 1/7^n + O(1/11^n), with t(n) = ζ(2n)/ζ(n)². The formal t uses real parts and the statement is a big-O as n → ∞ (the values at n = 0, 1 are irrelevant). Sanity check of the claim: t = Π_p (1 − p^{−n})/(1 + p^{−n}), so (1 − t)/(1 + t) = tanh(Σ_p artanh(p^{−n})). This is Σ_p p^{−n} up to cubic terms, the largest of which is 12^{−n}, so the O(11^{−n}) error is right, consistent with the 'solved' tag. Faithful."
+    }
+]

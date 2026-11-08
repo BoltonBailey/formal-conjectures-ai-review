@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 4,
+        "explanation": "\"Does there exist a rational Diophantine 7-tuple?\", stated as existence. With 0 not excluded from IsDiophantineTuple, Gibbs' 6-tuple {11/192, 35/192, 155/27, 512/27, 1235/48, 180873/16} together with 0 is a 7-element \"rational Diophantine tuple\". I verified this numerically, since 0·x + 1 = 1. So the open question is trivially answered \"yes\" under this formalization. The definition must require nonzero elements, as its own docstring states."
+    }
+]

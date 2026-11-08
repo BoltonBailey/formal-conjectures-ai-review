@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Austin's naïve-corners question (Green's Problem 18): for every α > 0 there is c > 0 such that every A ⊆ G×G of density ≥ α in a finite group G contains ≥ c|G|³ triples (x, y, g) with (x,y), (gx,y), (x,gy) ∈ A. The formalization adds g ≠ 1 (Austin's nontriviality) and a size threshold m₀. Neither changes the substance: the g = 1 triples number only |A| ≤ |G|², which is lower order, and small groups can be absorbed by shrinking c. Quantifying over all finite groups inside the statement is appropriate. The statement is faithful."
+    }
+]

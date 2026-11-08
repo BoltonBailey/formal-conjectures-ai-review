@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A103885 (P. Bala): for m ≥ 1 the subsequence b(n) = a(mn) conjecturally satisfies (Π_{k=1}^{2m}(2mn+k)) P(2m,n) b(n+1) + (−1)^m (Π_{k=1}^{2m}(2mn−k)) P(2m,−n) b(n−1) = Q(2m,n²) b(n), with P, Q of degree 2m, P(2m,n) = P(2m,1−n) having real zeros in [0,1], and the 4m zeros of Q(2m,n²) in [−1,1]. The formal statement asserts existence of such real polynomials with all of these properties, the recurrence holding for n ≥ 1. It omits only the vaguer 'zeros appear to be approximated by ±k/(3m)' remark. The formal a(n) = Σ_k C(n,k) C(2n+k−1, n−1) reproduces the OEIS DATA (checked n ≤ 10), and for m = 1 the given P(2,n) = 5n²−5n+1, Q(2,n) = 4(55n²−34n+3) satisfy the formal recurrence (checked n < 30) and the zero conditions. Faithful."
+    }
+]

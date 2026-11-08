@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A120424 (the 'Half-Fibonacci' sequence from 1, 3: next term = f(previous) + f(one before), where f halves even numbers): 'For sequences that are infinitely increasing, the following are possible conjectures. Half of the terms are even in the limit.' The formal a uses f(x) = x/2 for even x and reproduces 1, 3, 4, 5, 7, 12, 13, …; the statement says the proportion of even terms among a(0..n−1) tends to 1/2. Faithful. (The entry now mentions an announced disproof by Adamczewski, which I could not inspect; if confirmed, the 'open' tag would need updating, but the statement itself is a faithful formalisation of the conjecture.)"
+    }
+]

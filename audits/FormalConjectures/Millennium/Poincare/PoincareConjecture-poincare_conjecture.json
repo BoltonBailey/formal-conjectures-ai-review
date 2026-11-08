@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that every Hausdorff topological 3-manifold (ChartedSpace over ℝ³) homotopy equivalent to S³ is homeomorphic to S³. Compactness is not assumed, but it is implied: a non-compact connected n-manifold has H_n(M; ℤ/2) = 0 (this needs only Hausdorff and locally Euclidean), so it cannot be homotopy equivalent to Sⁿ. Second countability then follows from compactness. Requiring Hausdorffness rules out non-Hausdorff counterexamples. The statement is the Millennium problem solved by Perelman and is correctly tagged solved."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Whether a complete set of 11 MOLS (equivalently an affine/projective plane) of order 12 exists, the smallest open order of the prime-power conjecture (Wikipedia, Problems in Latin squares). Orthogonal is the usual injectivity of superposition and HasCompleteMOLS n requires n − 1 pairwise orthogonal squares. The statement asserts existence with a question attribute; most expect a negative answer, but as a yes/no question the orientation is acceptable. Faithful."
+    }
+]

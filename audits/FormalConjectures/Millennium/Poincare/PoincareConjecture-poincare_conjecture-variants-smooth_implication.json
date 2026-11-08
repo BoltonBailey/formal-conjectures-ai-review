@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Smooth Poincaré in dimension 3 implies topological Poincaré in dimension 3, because every topological 3-manifold admits a smooth structure (Moise). One fine point: the hypothesis is quantified over `Type u` manifolds while the conclusion is about `Type`. Instantiating at u = 0 handles this, so the statement is correct."
+    }
+]

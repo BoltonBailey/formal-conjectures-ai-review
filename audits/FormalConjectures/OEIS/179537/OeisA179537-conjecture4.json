@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A179537, Sun: Σ_{k=0}^{p−1} (42k + 37)(−1)^k a(k) ≡ p(21(p/7) + 16) (mod p²) 'for any prime p'. The formal statement excludes p = 7, a slight weakening, although numerically the congruence also holds at p = 7 (with (7/7) = 0). Otherwise it matches; checked for p < 300. Faithful (minor harmless restriction)."
+    }
+]

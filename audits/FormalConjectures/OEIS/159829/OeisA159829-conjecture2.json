@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A159829 (Krug): are there infinitely many primes of the form n^k + m^k + 1 for k > 2? The formal statement asserts that for each k ≥ 3 the set of such primes (n, m ≥ 1) is infinite. I see no algebraic factorisation or local obstruction making this trivially false, so this is a reasonable, open, positive reading. Faithful."
+    }
+]

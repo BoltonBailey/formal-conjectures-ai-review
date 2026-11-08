@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A357513: 'Let m be a nonnegative integer and set u(n) = the numerator of Sum_{k = 1..n} 1/k^(2*m+1) * binomial(n,k)^2 * binomial(n+k,k)^2. We conjecture that u(p−1) == 0 (mod p^4) for all primes p, with a finite number of exceptions that depend on m.' The formal u (sum from k = 1, as in the current OEIS text) and the statement (for each m, some finite exception set outside which u(p−1) vanishes mod p⁴) match. The file still tags it open although the entry reports a proof (Kutal, 2026); that is a status issue only. Faithful."
+    }
+]

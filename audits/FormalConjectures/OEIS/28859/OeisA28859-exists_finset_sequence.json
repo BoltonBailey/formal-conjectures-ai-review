@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "OEIS A028859 (a(n+2) = 2a(n+1) + 2a(n), a(0) = 1, a(1) = 3), G. Wiseman's conjecture: a(n) is 'the number of length n + 1 sequences that cover an initial interval of positive integers and whose non-adjacent parts are weakly decreasing.' The formal set S (positive sequences of length n+1 covering 1..max, with σ i ≥ σ j whenever i < j are non-adjacent), finite with cardinality a(n), is exactly this. I brute-forced the count for n ≤ 5: 1, 3, 8, 22, 60, 164, matching. The statement is faithful, but the docstring misdescribes the conjecture ('compositions of n into positive integers such that adjacent parts and the largest part differ by at most 1'), hence severity 2 (documentation only)."
+    }
+]

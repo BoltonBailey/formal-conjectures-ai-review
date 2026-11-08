@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green's Problem 25: for which k = k(N) does every partition of [N] into k parts satisfy |⋃(Aᵢ +̂ Aᵢ)| ≥ N/10? This is encoded as the set of functions k(N) for which the property holds for all large N. Finpartition parts are nonempty, and the count is exactly k, which matches \"partition [N] = A₁ ∪ ⋯ ∪ A_k\". The restricted sumset uses distinct summands, as in Green. The statement is a faithful set-valued answer formulation."
+    }
+]

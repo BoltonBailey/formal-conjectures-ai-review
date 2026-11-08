@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Keating–Snaith as stated in Connes (arXiv:2602.04022, §3.4.5): c_k = a_k f_k with f_k = ∏_{j=0}^{k−1} j!/(j+k)!. The statement asserts moment k ∼ a_k ∏_{j<k} j!/(j+k)! (log T)^{k²} for all k. As consistency checks, k = 1 gives a_1 = 1, f_1 = 1, and k = 2 gives a_2 = ∏(1 − p^{-2}) = 6/π², f_2 = 1/12, so c_2 = 1/(2π²), matching Ingham. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A358684, Conjecture I: 'the dyadic valuation of A093179(n) − 1 does not exceed 2^n − a(n)', with A093179(n) = P_n (proved per the entry). The formal statement v₂(P_n − 1) ≤ 2^n − a(n), with a defined by the (verified equivalent) closed form, matches and is proved in the file. Faithful."
+    }
+]

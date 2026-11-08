@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Asks for k(N) = o(N/log N) for which the property fails eventually. This is tagged `research open`, but the same file's `green_25.variants.upper_pow_23_40` (tagged solved, with a linked Lean proof) exhibits exactly such a k: ⌈N^{23/40}⌉ = o(N/log N) with ∀ᶠ N, ¬Property25. Since atTop is a nontrivial filter, ∀ᶠ ¬P implies ¬∀ᶠ P, so that variant answers this question. The open tag is therefore inconsistent with the file's own solved result. The statement itself is well formed."
+    }
+]

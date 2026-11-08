@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Bunyakovsky conjecture: an irreducible integer polynomial of degree ≥ 1 with positive leading coefficient and no fixed prime divisor (Schinzel's condition for {f}) takes prime values at infinitely many natural numbers. The conditions match Wikipedia's three conditions, and |f(n)| prime is equivalent for large n. The statement is faithful and open."
+    }
+]

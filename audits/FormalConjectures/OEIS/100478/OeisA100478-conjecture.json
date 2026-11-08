@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A100478: a(n) = π(a(n−1) + … + a(n−5)); the comment asks, for other starting values, whether the sequence always sticks at a single integer, can loop, or does something else; Kitamura's comment adds that every start from nonnegative integers is eventually periodic. The formal statement answers precisely: for every positive start (aGeneral is the same recurrence with arbitrary initial values), the sequence is eventually constant at some c ∈ {66, 67, 68, 70, 71, 72}. I checked these are exactly the fixed points c = π(5c) for c < 2000, and simulated 7800 random positive starts (3000 steps each), all ending constant at 66 or 72. Positivity excludes the all-zero start, which stays at 0. A faithful precise formulation of the question's (claimed) answer. Note: the declaration name parses as 'conjecture:' in some tooling because there is no space before the colon in the source. Faithful."
+    }
+]

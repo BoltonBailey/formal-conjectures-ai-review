@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "For a real quadratic field K with discriminant D, there are infinitely many odd primes p ∤ D such that every unit ε satisfies ε^{p−1} ≡ 1 (mod p²) if (D/p) = 1, and ε^{2p+2} ≡ 1 otherwise. This matches Elsenhans–Jahnel Remark 2.2.8 (checked in the arXiv PDF), which uses (d/p) for squarefree d; for odd p this equals (D/p). Quantifying over all units is equivalent to using a fundamental unit, because the exponents are even. Restricting to D > 0 is a reasonable, documented choice. The statement is faithful and open."
+    }
+]

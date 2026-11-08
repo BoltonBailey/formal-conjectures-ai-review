@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Talagrand's question (Green's Problem 54): for a balanced compact K ⊆ ℝ^ℕ with γ∞(K) ≥ 0.99, does the 10-fold sumset 10K contain a compact convex C with γ∞(C) ≥ 0.01? γ∞ is correctly the countable product of standard Gaussians, and compactness is in the product topology, which is the standard setting. `(10 : ℕ) • K` is the iterated sumset under Pointwise, as the module docstring states. The solved tag cites Hua–Song–Tudose (2026), whose finite-dimensional, uniform-in-n result (3(A+A+A) contains a symmetric convex body of measure ≥ 1/4 when γ_n(A) > 5/6) plausibly transfers, since for balanced K the dilate 3·(3K) ⊆ 9K ⊆ 10K. I did not verify the preprint or the infinite-dimensional transfer. The statement itself is faithful."
+    }
+]

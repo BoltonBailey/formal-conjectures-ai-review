@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that a(n) ≤ 1 for all n, where a(n) counts the (possibly overlapping) occurrences of the MSB-first binary word of n inside that of n². This is the OEIS question \"is a(n)<=1 for all n?\" The definition matches the sequence, including a(0) = 1 with the [0] convention. The `research solved` tag is supported by the linked repository, which contains an assumption-free Lean proof of exactly this target. (The OEIS entry itself does not yet record the resolution.) The statement is faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Conjecture 4.4 (v1): for each n, S(k) > nk for all sufficiently large primes k. It is encoded with Filter.atTop and implications on primality and oddness, which is equivalent. The statement is faithful and open."
+    }
+]

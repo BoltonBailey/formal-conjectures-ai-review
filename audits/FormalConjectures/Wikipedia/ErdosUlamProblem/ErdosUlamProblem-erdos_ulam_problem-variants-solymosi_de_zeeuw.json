@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Solymosi–de Zeeuw: if a rational-distance set has infinitely many points on a line or circle, then all but finitely many of its points lie on a line or circle. This is a weakened (finite-exception) form of their theorem, which says all but at most 4 (line) or 3 (circle) points lie on that same curve. It is correct as stated."
+    }
+]

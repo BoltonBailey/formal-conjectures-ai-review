@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Dean's conjecture (Conjecture 1.1 of Choi–Chu–Kim–Park): for k ≥ 3, every finite graph with minimum degree ≥ k has a cycle of length divisible by k. Empty and edgeless graphs have minDegree 0 and are excluded, as intended. The paper says the conjecture is known for all k ≠ 5, so the full statement remains open. The statement is faithful."
+    }
+]

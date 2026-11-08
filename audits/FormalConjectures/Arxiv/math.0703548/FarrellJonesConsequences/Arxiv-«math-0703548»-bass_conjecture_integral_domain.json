@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Bass Conjecture for commutative integral domains (BLR08 Conjecture 0.6): for g of infinite order, or of finite order not invertible in R, the Hattori–Stallings rank of every f.g. projective RG-module vanishes at (g). Projectives are represented by idempotent matrices, and the trace sums coefficients over the conjugacy class, which is correct. g = 1 is automatically excluded, since orderOf 1 = 1 is a unit. The statement is faithful and open."
+    }
+]

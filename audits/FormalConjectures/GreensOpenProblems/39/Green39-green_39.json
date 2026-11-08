@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green's Problem 39: for a uniformly random A ⊆ ℤ/pℤ with |A| = ⌊√p⌋, the probability that some 100⌊√p⌋ translates of A cover ℤ/pℤ tends to 1 as p → ∞ over primes. proportionCoverable computes exactly this probability over uniformly random k-subsets. Using ⌊√p⌋ for \"|A| = √p\" is the natural integer reading. The statement is faithful."
+    }
+]

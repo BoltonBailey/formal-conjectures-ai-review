@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A051903, Ordowski: 'Are there odd numbers n such that a(n) > 1 and n == a(n) (mod lambda(n))?', i.e. b^n ≡ b^(a(n)) (mod n) for all b. The formal statement uses the 'for all b' form, which is equivalent because a(n) is the largest exponent, and negates existence (answer no, with the lifting-the-exponent argument in the docstring). Faithful."
+    }
+]

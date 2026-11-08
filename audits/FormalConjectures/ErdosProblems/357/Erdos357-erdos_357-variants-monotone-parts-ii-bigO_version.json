@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "\"Find g with g = O(h)\". As formalized, this is trivially satisfiable (e.g. answer = 0), a weakness the file's formalisation note acknowledges. Tagging a trivially provable statement `research open` is misleading; the intended content (a good explicit g) is not captured formally. Note also that weak monotonicity plus distinct single-term sums forces strict monotonicity, so h = f and this variant coincides with the corresponding strict version."
+    }
+]

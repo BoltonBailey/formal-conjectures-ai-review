@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Frankl's union-closed sets conjecture. A finite union-closed family A ≠ {∅} has an element in at least half of the sets. The empty family is harmless: #A = 0, and `[Nonempty n]` supplies a witness. The statement is faithful and open."
+    }
+]

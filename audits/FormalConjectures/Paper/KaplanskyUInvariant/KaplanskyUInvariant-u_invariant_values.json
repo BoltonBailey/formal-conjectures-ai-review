@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The 'which integers are u-invariants?' problem (Kaplansky 1953; Merkurjev–Parimala 2025 §5.1; Karpenko's 2026 preprint summarises what is known: 1, all 2-powers, all even numbers, 9, 2^r+1 and everything except 2^r−1, 2^r−3 are attained, and 3, 5, 7 are not). The formal statement characterises the set u_invariant_values.answer as exactly {n | IsUInvariant n}, where IsUInvariant n says some char ≠ 2 field (in Type, justified by Löwenheim–Skolem) has n as the greatest dimension of a nondegenerate anisotropic form, as checked in the variant audits. A set-valued 'determine the answer' statement; faithful."
+    }
+]

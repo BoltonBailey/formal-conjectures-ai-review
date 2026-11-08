@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A105751: 'Moll's conjecture 5.5 extends to this sequence and takes the form: (i) the 2-adic valuation v_2(a(n)) ~ n/4 as n → ∞'. The formal statement 4 v_2(a(n))/n → 1 in ℚ is exactly this. The few zero terms (a(0), a(3)) have padicValInt = 0 by convention, which does not affect the limit. Faithful."
+    }
+]

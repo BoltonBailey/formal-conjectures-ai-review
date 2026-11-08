@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "If NP = coNP, the search problem 'given φ, output a satisfying assignment or a short UNSAT certificate' is total, and every TFNP problem (R, p) reduces to it by mapping x to the always-satisfiable formula ∃y (|y| ≤ p(|x|) ∧ R(x, y)), whose only certificates are satisfying assignments. This is the standard fact behind Pudlák's remark that the TFNP conjecture implies NP ≠ coNP. The formal statement is this implication with the file's definitions. True. Faithful."
+    }
+]

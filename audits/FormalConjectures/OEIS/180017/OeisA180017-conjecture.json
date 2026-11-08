@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A180017 (ternary digit sum minus binary digit sum of n), C. Greathouse: 'Do all integers appear infinitely often?' The formal a matches (Nat.digits sums, as an integer), and the statement asserts that every integer z is attained infinitely often, the positive form of the question. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that for every prime p, the p-adic integers ℤ_[p] (with their p-adic topology, acting additively and continuously) admit no faithful action on a connected Hausdorff topological n-manifold; this is the equivalent formulation given on Wikipedia (Hilbert–Smith conjecture) and Tao's blog. AddAction/ContinuousVAdd/FaithfulVAdd are the right additive notions for the additive group ℤ_[p]. Not assuming X second countable gives an equivalent problem (restrict to a component of the σ-compact invariant open set G·U, on which an open subgroup ≅ ℤ_p acts faithfully). Faithful."
+    }
+]

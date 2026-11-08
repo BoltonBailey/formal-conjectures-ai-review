@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Arhangel'skii, 'Selected old open problems in general topology' (BASM 2013, mathnet.ru basm344), §3: X is weakly first-countable if there are decreasing sequences V_n(x) ∋ x such that U is open iff every x ∈ U has some V_n(x) ⊆ U; he notes 'There are many examples of weakly first-countable spaces that are not first-countable' (e.g. the Arens space). WeaklyFirstCountableTopology matches the definition (antitone, x ∈ V x n, and the openness criterion). The statement asserts existence of such a space in Type. True. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A038107 (number of primes < n²), Z.-W. Sun: 'All the numbers Sum_{i=j,...,k} 1/a(i) with 1 < j <= k have pairwise distinct fractional parts.' a(i) ≥ 2 for i ≥ 2, so the sums are well defined. The formal statement (equal fractional parts of the sums for (j, k), (j', k') with 1 < j ≤ k, 1 < j' ≤ k' forces j = j' and k = k') is that injectivity, computed in ℝ. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Density of hyperbolicity: M lies in the closure of the parameters c for which z² + c has a (finite) attracting cycle. Since hyperbolic parameters with finite attracting cycles lie in M, this is the standard formulation. The attracting-cycle definition (periodic, derivative of the iterate < 1 in modulus, period > 0) is correct. The statement is faithful and open."
+    }
+]

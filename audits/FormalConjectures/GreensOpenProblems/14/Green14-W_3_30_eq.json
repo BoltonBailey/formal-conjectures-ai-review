@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Negates AKS14's conjecture W(3,30) = 903, citing CCH23's partition of {1..903}. The statement is well formed, consistent with AKS14's remark that t = 29, 30 are weaker conjectures. I did not check the CCH23 certificate."
+    }
+]

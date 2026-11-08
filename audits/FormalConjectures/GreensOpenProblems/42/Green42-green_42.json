@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green's Problem 42: is the Cohn–Elkies bound sharp in dimension 2? With the normalization f ≤ 0 for |x| ≥ 2 (minimum distance 2, unit-radius discs), Cohn–Elkies bound the center density by f(0)/f̂(0). The optimal hexagonal packing has center density 1/(2√3) = √3/6, matching the target value. The admissibility, radiality, sign and positivity conditions match Cohn–Elkies Theorem 3.1, and the continuity requirement prevents junk-value cheating. The statement is faithful. The `solved` tag relies on OpenAI's 2026 certificate, which I did not verify."
+    }
+]

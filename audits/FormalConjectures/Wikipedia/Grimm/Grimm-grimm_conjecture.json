@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Grimm's conjecture: if n, …, n+k−1 are all composite, there are distinct primes p_i with p_i | n + i. This is Wikipedia's statement shifted by one, which is equivalent. The embedding Fin k ↪ ℕ encodes distinctness. The statement is faithful and open."
+    }
+]

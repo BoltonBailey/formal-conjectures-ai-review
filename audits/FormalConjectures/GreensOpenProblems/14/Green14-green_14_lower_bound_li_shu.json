@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Li–Shu's bound W(3,r) ≫ (r/log r)². The statement is consistent with the cited result."
+    }
+]

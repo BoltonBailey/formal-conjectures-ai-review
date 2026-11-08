@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Goodman's question (recorded on erdosproblems #1047): the maximum number of non-convex components of {|f| < c} over monic f of degree n and c > 0. The Lean claims the answer is 0 for n ≤ 1, 1 for n = 2, 2 for n = 3, and n for n ≥ 4, stated as IsGreatest. The site does not record an answer, so the solved status rests entirely on the linked KitaKen1 Lean development (which I confirmed exists). The values are plausible: there are at most n components, and the degree-2 lemniscate can be a non-convex \"peanut\". The statement is well formed."
+    }
+]

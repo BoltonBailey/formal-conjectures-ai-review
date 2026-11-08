@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green's Problem 24: the maximum number of affine copies {a, a+d, a+3d} (d ≠ 0) of {0,1,3} contained in an n-element set of integers. The Lean count of pairs (x, y) with x ≠ y and x + 3(y−x) ∈ A enumerates exactly these copies (a = x, d = y − x, both signs of d). This agrees with Aaronson's T(S) for x + 2y = 3z minus the n trivial solutions. Asking for the exact value as a function of n is a faithful (strong) reading of \"what is the maximum number\"."
+    }
+]

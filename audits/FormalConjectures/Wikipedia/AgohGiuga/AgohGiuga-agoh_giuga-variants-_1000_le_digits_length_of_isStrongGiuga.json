@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Giuga: a counterexample has at least 1000 digits. This is implied by the stronger later bounds (Wikipedia cites 13,800 digits by Borwein et al.), so the statement is correct."
+    }
+]

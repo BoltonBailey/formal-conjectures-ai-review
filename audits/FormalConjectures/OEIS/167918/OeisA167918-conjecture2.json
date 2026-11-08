@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A167918: '(5) Open problems: (a) is f(n,k) bounded'. The formal statement asks for a uniform bound on S(a(n))/S(n) (exact division when a(n) is defined, and harmless 0 otherwise, as the docstring explains). A faithful positive reading of the question. Faithful."
+    }
+]

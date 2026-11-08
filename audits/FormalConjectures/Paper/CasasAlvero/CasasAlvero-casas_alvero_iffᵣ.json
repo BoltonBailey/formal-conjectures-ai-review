@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: the Casas-Alvero conjecture stated with the 'not coprime' property is equivalent to the version with the 'common root in K' property (over all char-0 fields in a fixed universe). The forward direction is immediate; the backward one passes to the algebraic closure and recovers α ∈ K as -nextCoeff/deg. True and proved. Correct."
+    }
+]

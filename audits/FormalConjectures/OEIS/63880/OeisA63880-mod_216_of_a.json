@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that every member of A063880 (n > 0 with σ(n) = 2·usigma(n)) satisfies n ≡ 108 (mod 216). This matches Ralf Stephan's 2003 observation in OEIS (\"Numbers so far are all == 108 (mod 216)\", checked to 10^7). The definitions of usigma (sum of divisors d with gcd(d, n/d) = 1) and of membership are correct. Tagging it open is reasonable: it would follow from 108 being the only primitive term, which is itself open."
+    }
+]

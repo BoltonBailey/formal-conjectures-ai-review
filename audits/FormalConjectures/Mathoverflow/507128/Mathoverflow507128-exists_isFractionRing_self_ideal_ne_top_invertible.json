@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "MO 507128 asks whether a commutative ring R that is its own total ring of fractions can have a proper ideal that is an invertible module. This is encoded as IsFractionRing R R, I ≠ ⊤, Module.Invertible R I. The MO answer reports solutions by Purtill and Kitamura via Nagata idealization D ⋉ M (Kitamura with D = K[X,Y]/(Y² − X³), P = (X−1, Y−1)), matching the docstring, and a Lean proof is linked. The statement is correct and solved."
+    }
+]

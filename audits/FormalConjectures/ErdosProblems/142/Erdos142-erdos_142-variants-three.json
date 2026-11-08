@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "An asymptotic formula for r_3(N), with k fixed to 3, posed as r_3 ~ answer. This is open: the best bounds (Kelley–Meka upper, Behrend lower) are far apart, as the site says. The statement is faithful."
+    }
+]

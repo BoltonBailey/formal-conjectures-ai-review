@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A153330, conjecture 2: '1, 6 and 16 appear only once and 3 appears twice, i.e., a(1) = 1, a(2) = 6, a(4) = a(5) = 3, and a(8) = 16.' The formal statement is exactly these equalities of index sets. It matches my computation up to 2·10^6 (one 1, one 6, one 16, two 3s). Faithful."
+    }
+]

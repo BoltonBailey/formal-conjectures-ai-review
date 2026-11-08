@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green's Problem 32: for large primes p, does every A ⊆ ℤ/pℤ with |A| = ⌊√p⌋ have a dilate c·A (c ≠ 0) with a gap of ⌊100p/√p⌋ = ⌊100√p⌋ consecutive missing residues? HasGap and dilation by units are correctly defined. The side conditions 100 < ω(p) < p hold eventually for √p. The statement is faithful."
+    }
+]

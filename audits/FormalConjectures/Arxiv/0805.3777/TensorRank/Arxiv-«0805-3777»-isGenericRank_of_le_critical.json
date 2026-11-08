@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Friedland's Conjecture 5.1 (BFZ24 Conjecture 4.12): in the critical range 3 ≤ m₁ ≤ m₂ ≤ m₃ ≤ (m₁−1)(m₂−1), excluding (3, 2p+1, 2p+1), the generic rank is ⌈m₁m₂m₃/(m₁+m₂+m₃−2)⌉. This matches the source exactly. The statement is faithful and open."
+    }
+]

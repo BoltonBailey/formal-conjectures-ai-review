@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The classical unbounded-rank conjecture: for every n there is a curve over ℚ of rank ≥ n. This is faithful to PPVW's description of expert opinion, and open. It contradicts finite_twentyone_lt_finrank, as noted, but both are legitimate competing conjectures."
+    }
+]

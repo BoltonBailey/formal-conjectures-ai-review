@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A103662: a(n) is the smallest n-th power with base > 1 and no digit 0; 'For statistical reasons it is conjectured that the sequence is finite', where (Hasler) 'Finite means here that for some n, no such power > 1 exists'. The formal a(n) = (sInf of valid bases)^n is 0 exactly when no valid base exists (for n ≥ 1) and ≥ 2 otherwise, so ∃ n, a n = 0 is exactly that finiteness. The docstring's argument for n = 2500 (some trailing digit forced to 0 by congruences mod 16, 32, 625, 3125) is correct, consistent with the 'solved' tag. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Baker–Davenport: 120 is the only d > 8 extending {1, 3, 8}. Because d > 8 excludes 0, the zero issue does not affect this statement. It is correct."
+    }
+]

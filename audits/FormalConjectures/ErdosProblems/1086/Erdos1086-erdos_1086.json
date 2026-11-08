@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős #1086 asks to estimate g(n), the maximum number of equal-area (positive area) triangles determined by n points in the plane. triangleAreaCount counts 3-subsets of P with the given |area|, and g is attained since it is bounded by C(n,3). \"Estimate\" is posed as Θ of an unknown answer function. The site gives n² log log n ≪ g(n) ≪ n^{20/9}. The statement is faithful and open."
+    }
+]

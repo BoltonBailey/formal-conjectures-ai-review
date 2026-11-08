@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Balister–Győri–Schelp conjecture (Conjecture 1 in arXiv:2607.08630): a zero-sum list of 2^{s−1} nonzero vectors in F₂^s has a \"Hadamard pair solution\", i.e. F₂^s can be partitioned into pairs {h_{2i}, h_{2i+1}} with h_{2i} + h_{2i+1} = v_i. The equivalence e : Fin(2^{s−1}) × Fin 2 ≃ F₂^s encodes exactly such a partition. Requiring s ≥ 2 is harmless, since s = 1 is vacuous. The statement is faithful and open."
+    }
+]

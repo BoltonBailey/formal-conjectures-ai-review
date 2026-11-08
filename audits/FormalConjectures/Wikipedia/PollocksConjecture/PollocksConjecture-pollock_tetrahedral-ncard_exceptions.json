@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "\"The largest exception is 343867\" is equivalent to \"there are exactly 241 exceptions\". Each direction reduces to a finite computation over [0, 343867], so the equivalence is provable, and the `textbook` tag is reasonable. The statement is correct."
+    }
+]

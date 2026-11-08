@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "B_b(−2) = 1 for bounded univalent maps, tagged `research open`. Given that `brennan_universalSpectrum` (B(−2) = 1) is tagged solved, this should be solved too: B_b(−2) ≤ B(−2) = 1 trivially (cf. `universalSpectrumBounded_le`), and B_b(−2) ≥ 1 is classical. Equivalently, Makarov's identity B(t) = max(B_b(t), 3t − 1) gives B_b(−2) = B(−2). The statement is fine, but the tag is inconsistent with the rest of the file."
+    }
+]

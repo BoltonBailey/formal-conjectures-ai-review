@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green's Problem 36, as literally stated: for arbitrarily large n, an abelian H with |H| = n^{2±o(1)} and sets A_i, B_i (i ≤ n) with |A_i||B_i| ≥ n^{2−o(1)}, |A_i + B_i| = |A_i||B_i|, and A_i + B_i disjoint from A_j + B_k for j ≠ k. The o(1) terms are encoded as ∀ ε > 0, ∃ᶠ n, which is equivalent by diagonalization. Green36Property matches Green's wording exactly. The docstring correctly notes that this differs from CKS05's condition, which is handled in the variant. The statement is faithful."
+    }
+]

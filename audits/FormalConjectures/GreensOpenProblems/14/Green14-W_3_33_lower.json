@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States W(3,33) > 1063. This matches AKS14 Table 3 ('w(2;3,t) > 1063'), which is certified by a good partition. The statement is correct."
+    }
+]

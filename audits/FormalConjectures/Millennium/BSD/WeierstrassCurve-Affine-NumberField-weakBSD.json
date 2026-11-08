@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Weak BSD over a number field K: there is a meromorphic L on ℂ that agrees with Mathlib's `WeierstrassCurve.LSeries` (the Euler product with the standard good, split/nonsplit multiplicative and additive local factors) on Re s > 3/2, and whose order at s = 1 equals rk E(K). The finite rank comes from the Mordell–Weil instance, a true theorem stated in the repo. `meromorphicOrderAt` ignores values at isolated points, and the continuation is unique by the identity theorem, so the order is well defined. As the docstring explains, asserting the continuation (rather than assuming it) bundles in the Hasse–Weil continuation. This follows [DD2010] Conj. 2.1(1) and is known over ℚ by modularity. The statement is faithful."
+    }
+]

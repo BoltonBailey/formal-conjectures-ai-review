@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A141057, Bala: extending to negative n via a(−n) = Σ_{k=0}^n C(−n,k)³ Σ_{j≤k} C(k,j)³ gives −1, 255, −53893, … 'that appears to satisfy the same supercongruences'. aInt uses C(−n,k) = (−1)^k C(n+k−1,k) (checked aInt(−1) = −1, aInt(−2) = 255) and agrees with a for n ≥ 0. The statement asserts the supercongruences for all nonzero integers n, which covers both the original and the extended claim. Faithful."
+    }
+]

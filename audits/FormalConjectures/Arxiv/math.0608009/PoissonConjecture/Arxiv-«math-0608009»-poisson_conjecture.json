@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "\"PC_n fails for some n.\" PC_n (AvdE07, Notations 5) says every endomorphism of the canonical Poisson algebra K[X₁..X₂ₙ] is an automorphism. The encoding uses K-algebra endomorphisms that preserve the bracket on generators, which is equivalent per AvdE07 Lemma 2, with automorphism meaning bijective. The disproof follows from Long's PC_2 counterexample (arXiv:2608.23777, explicit Poisson endomorphism of P₂ that is not an automorphism) or from the symplectic lift of the JC_3 counterexample. The statement is correct and solved."
+    }
+]

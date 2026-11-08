@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "TxGraffiti Conjecture 1 (Davila–Brimkov–Pepper survey) states α(G) ≥ (a(G) + R(G))/Δ(G) for every nontrivial connected graph. The Lean adds the hypothesis Δ(G) ≥ 2, and the docstring presents this as the conjecture without comment. The original statement is in fact false for K₂ (α = 1, a = 1, R = 1, Δ = 1); arXiv:2606.29553 says it \"fails only for the single edge\" and proves it for Δ ≥ 2. So the Lean statement is the corrected, true version and the solved tag is supported by that preprint. However, the docstring should say that the extra hypothesis repairs a K₂ counterexample rather than present it as the original conjecture. The definitions of the annihilation number and the residue (Havel–Hakimi) are standard."
+    }
+]

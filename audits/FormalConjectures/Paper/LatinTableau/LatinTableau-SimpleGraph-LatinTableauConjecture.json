@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Chow–Tiefenbruck, 'The Latin Tableau Conjecture' (arXiv:2408.04086, EJC 32(2) P2.48): G(λ) has the boxes of λ as vertices, adjacent iff in the same row or column (YoungDiagram.toSimpleGraph via fromRel, matching); α_i is the max size of a union of i stable sets, δ_i = α_i − α_{i−1}; G is CDS-colorable if some proper colouring has sorted class sizes equal to δ; the conjecture is equivalent to CDS-colourability of G(λ) for all λ. The formal CDSColorable asks for a colouring by ℕ whose first k classes have total size α_k (indepNumK) for every k; since δ is nonincreasing this is the same as class sizes equal to δ after relabelling colours, and unions of not-necessarily-disjoint independent sets give the same α_k. Faithful."
+    }
+]

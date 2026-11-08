@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green's Problem 58: for large N, any A, B ⊆ [N] with |A|, |B| ≥ N^{0.49} have a composite number in A + B. The formalization matches. Reading \"size N^{0.49}\" as \"at least N^{0.49}\" is equivalent, since one can pass to subsets. The statement is faithful and open."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Courtade–Kumar (IEEE Trans. IT 60, 2014) as restated in Chen et al. (arXiv:2609.24931): for X uniform on {0,1}^n and Y the output of a memoryless BSC(p), every Boolean g satisfies I(g(X); Y) ≤ 1 - H2(p). The elementary formulation: bsc is the product channel kernel, jointProb(b, y) = 2^{-n} Σ_{x: f x = b} P(y|x) is P(f(X)=b, Y=y), entropy is Shannon entropy in bits via negMulLog / log 2, and mutualInfo = H(f(X)) + H(Y) - H(f(X),Y). binEntropyBits is binary entropy in bits. Allowing p ∈ [0,1] instead of [0,1/2] is equivalent by the symmetry explained in the docstring. Faithful."
+    }
+]

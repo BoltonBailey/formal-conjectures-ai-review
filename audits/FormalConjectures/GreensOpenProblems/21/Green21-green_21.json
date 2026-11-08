@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Rado's boundedness conjecture: there is B(k) such that c(a₁,…,a_k) ≤ B(k) for every tuple failing Rado's condition. RadoCondition is correctly defined (some nonempty I with Σ_{i∈I} aᵢ = 0). minColours is the least r such that some colouring ℕ → Fin r has no monochromatic solution in positive integers (excluding 0 is necessary, as the docstring explains). Edge cases such as k = 0, where the set is empty and sInf = 0, are harmless. The statement is faithful and open."
+    }
+]

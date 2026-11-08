@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "This is Stephan's Theorem C(i) in the quadratic case: if α > 1 is a root of X² − aX − b with nonzero conjugate β = a − α, |β| < 1, and A(α) = log2/logα + log2/log(1/|β|) < 1, then 10.61 holds at α. α > 2 is not assumed, but A < 1 forces α > 4 by C(ii). The hypotheses force α to be a quadratic Pisot number. The source is an unrefereed 2026 preprint, but a Lean proof is linked. The statement is consistent with the paper."
+    }
+]

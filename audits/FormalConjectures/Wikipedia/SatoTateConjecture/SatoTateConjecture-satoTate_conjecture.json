@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Sato–Tate theorem (CHT, Taylor, HST, BGHT): for non-CM E/ℚ, the normalized traces a_p/(2√p) are equidistributed with density (2/π)√(1−x²). It is stated as convergence of the proportion of primes p < N with normalized trace in [a, b]. CM is detected by the 13 rational CM j-invariants, which is the correct list. a_p comes from affine point counts on the given model; the finitely many bad primes do not affect the limit. The interval mass is proved equal to the integral form in the file. The statement is correct and faithful."
+    }
+]

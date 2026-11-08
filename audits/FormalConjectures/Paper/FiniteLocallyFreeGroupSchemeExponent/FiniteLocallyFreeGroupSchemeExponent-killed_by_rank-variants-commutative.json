@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Schoof's survey: 'Pierre Deligne showed in 1969 that the answer to the question is affirmative whenever the group scheme G is commutative ... for an arbitrary base'. Commutativity of G = Spec A is cocommutativity of A, encoded by Coalgebra.IsCocomm R A; A finite projective of constant rank n over any commutative R; conclusion IsKilledBy R A n. Faithful."
+    }
+]

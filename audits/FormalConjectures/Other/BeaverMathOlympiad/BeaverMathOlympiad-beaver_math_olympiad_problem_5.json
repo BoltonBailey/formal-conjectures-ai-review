@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "This matches BMO#5: (a, b) starts at (0, 5), f(x) = 10·2^x − 1, with the stated recursion, re-indexed from 0. It asserts the \"yes\" (halting) answer to an undecided question that is tagged `question`. The ℕ subtractions are safe. The statement is faithful."
+    }
+]

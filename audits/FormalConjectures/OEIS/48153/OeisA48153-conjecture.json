@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A048153 (a(n) = Σ_{k=1}^n (k² mod n)), A. Meissner: 'Conjecture: a(n) <= (n^2−1)/2' (since proved; even n(n−1)/2 holds). The formal a and the bound for n ≥ 1, with natural-number floor division, match: for odd n, (n²−1)/2 is exact, and for even n the floor is still ≥ n(n−1)/2, so the bound is consistent. Faithful."
+    }
+]

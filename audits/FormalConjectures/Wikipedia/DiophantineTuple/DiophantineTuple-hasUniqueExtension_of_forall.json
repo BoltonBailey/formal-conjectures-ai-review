@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 4,
+        "explanation": "The strong Diophantine quintuple conjecture: every Diophantine triple {a, b, c} has at most one extension by d > max(a, b, c), namely the regular one. Because 0 is allowed in the definition, the triple {0, 1, 3} is \"Diophantine\" (products plus one: 1, 1, 4). It has two extensions with d > 3: d = 8 and d = 120, since d + 1 and 3d + 1 are both squares. Hence HasUniqueExtensionOfForall is false as formalized and the open conjecture is trivially disproved. Excluding 0 from the definition repairs it."
+    }
+]

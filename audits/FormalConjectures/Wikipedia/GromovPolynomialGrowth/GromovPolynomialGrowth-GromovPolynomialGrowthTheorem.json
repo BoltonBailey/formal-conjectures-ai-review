@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Gromov's theorem: a finitely generated group has polynomial growth iff it is virtually nilpotent. The test lemma shows the polynomial-growth predicate must exclude n = 0, so HasPolynomialGrowth is presumably defined for large n. The statement is faithful and correctly tagged solved."
+    }
+]

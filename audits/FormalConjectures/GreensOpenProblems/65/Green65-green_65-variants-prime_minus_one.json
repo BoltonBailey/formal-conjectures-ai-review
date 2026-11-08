@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The shifted-prime analogue: A − A contains p − 1 for some prime p whenever |A| ≥ N^{1−c}. This is solved by Green (2022), with c = 10^{−18} by Thorner–Zaman, as Green's update records. Here d ∈ A − A may be negative while p − 1 ≥ 1, but A − A is symmetric, so this is harmless. The statement is faithful."
+    }
+]

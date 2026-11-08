@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Arhangel'skii (BASM 2013), Problem 2: 'Give an example in ZFC of a weakly first-countable compact space X such that |X| > 2^ω' (compact = compact Hausdorff). The formal statement asserts the existence of a weakly first-countable compact T2 X : Type with 𝔠 < #X, the right orientation for a request for a ZFC example. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared with Zhou–Gorshkov (arXiv:2606.22244: an ah-group is a finite group in which distinct conjugacy classes have distinct sizes) and the S3-conjecture of Markel (1973) as recorded by Arad–Muzychuk–Oliver: S3 is the only nontrivial finite ah-group. The formal statement: every nontrivial finite group G (in Type) with injective class-size map is isomorphic to Perm (Fin 3). The direction 'S3 is an ah-group' is a separate test, so this is the substantive half. Faithful."
+    }
+]

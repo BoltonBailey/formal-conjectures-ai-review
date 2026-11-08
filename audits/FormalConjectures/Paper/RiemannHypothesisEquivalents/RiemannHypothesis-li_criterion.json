@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Connes (arXiv:2602.04022, §4.3): Li proved RH ⇔ λ_n = Σ_ρ (1 − (1 − 1/ρ)^n) > 0 for all n ≥ 1, the sum over nontrivial zeros. The formal lambda pairs each zero with its conjugate (sum of 2 Re(·) over zeros with Im ρ > 0), which is absolutely summable since each term is n Re(1/ρ) + O(n²/|ρ|²) = O(1/|ρ|²); no real zeros lie in the critical strip, so nothing is lost. One small difference: the formal sum is over the set of zeros, so it ignores multiplicities, while Li's λ_n counts them. The equivalence remains true for the multiplicity-free sum, because the Bombieri–Lagarias version of Li's criterion holds for any multiset of points satisfying the usual convergence condition. So this is still a correct statement of the criterion. Faithful."
+    }
+]

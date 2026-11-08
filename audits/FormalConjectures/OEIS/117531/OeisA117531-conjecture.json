@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "OEIS A117531 (number of primes in row n of T(n,k) = k² − k + prime(n), 1 ≤ k ≤ n): 'conjecture: a(n) < n for n>13.' The formal a counts k ∈ [1, n] with k² − k + p_n prime (p_n = Nat.nth Nat.Prime (n−1)), and the statement a(n) < n for n > 13 matches. Documentation issue only: the OEIS entry now records a proof (O. Kutal, Aug 2026: a(n) = n would make 4·prime(n) − 1 a Heegner number, forcing prime(n) ≤ 41), but the file still tags it research open."
+    }
+]

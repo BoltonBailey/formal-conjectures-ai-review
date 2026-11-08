@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "7bdc4a42f24c0316f81c73b26121794b2bed96a3",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Sharipov's Conjecture 5.3: P_{abu}(t) (degree 12, eq. 5.1) is irreducible for setwise coprime positive a, b, u avoiding the special cases (5.3): a = b, a = u, b = u, bu = a², au = b² (case a = b = u is implied). All coefficients match (5.1) with c = u, and the statement is faithful."
+    }
+]
