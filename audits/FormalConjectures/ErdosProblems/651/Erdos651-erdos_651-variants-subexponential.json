@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/651: 'The answer is no, even for k=3: Pohoata and Zakharov have proved that f_3(n) ≤ 2^{o(n)}', together with the site's remark f_2(n) > f_3(n) > ⋯. The Lean statement says that for every k ≥ 3 and every c > 0, eventually f k n ≤ (1+c)^n, which is the 2^{o(n)} bound rewritten with ε = log_2(1+c) and extended to all k ≥ 3 by monotonicity in the dimension. `f k n` is the sInf of the N such that every finite set of at least N points of ℝ^k in general position (every ≤ k+1 points affinely independent, which for sets of size ≥ k+1 is 'no k+1 points on a hyperplane') contains n points in convex position (`ConvexIndependent`); for k ≥ 2 this is the genuine minimum, so it is the site's f_k(n) with 'determine a convex polyhedron' read as 'in convex position'. The statement is a correct consequence of the cited result and the docstring explains its derivation."
+    }
+]

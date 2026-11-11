@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/952 (the Gaussian moat problem): 'Is there an infinite sequence of distinct Gaussian primes x_1,x_2,… such that |x_{n+1}−x_n| ≪ 1?' The Lean statement is the negation of: there exist an injective x : ℕ → ℤ[i] and a constant C with every x n prime and norm(x(n+1) − x n) < C. Injectivity encodes 'distinct', `Prime` in GaussianInt is the right notion of Gaussian prime, and bounding the algebraic norm a²+b² is equivalent to bounding the absolute value. All quantifiers are inside the negation as the question convention requires. The negative answer is attributed in the file to an OpenAI preprint [OAI26a] with a linked Lean proof; the copy of the erdosproblems page I fetched does not itself mention a resolution (it only quotes Erdős: 'the answer is almost certainly negative'), so I have not independently confirmed the solved status, only that the statement is the faithful negation of the question."
+    }
+]

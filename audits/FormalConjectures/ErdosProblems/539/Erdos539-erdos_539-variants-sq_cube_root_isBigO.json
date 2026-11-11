@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/539. The statement is ¬(n^{2/3} =O[atTop] cofactorThreshold n), i.e. the lower bound h(n) ≫ n^{2/3} fails. The site records the ProofCouncil result h(n) ≤ e^{O(√log n)} n^{1/2}, hence h(n)=n^{1/2+o(1)}, which implies exactly this negation, and the file cites the same source [Sc+26, Theorem A.1]. `cofactorThreshold` (sSup of valid lower bounds over n-element A ⊆ ℕ) is the intended h(n); allowing 0 ∈ A changes h by at most an additive 1 and is irrelevant here. The docstring is terse ('This lower bound is false') and the `question` tag is attached to something the site does not literally ask, but the statement is a correct consequence of the cited result."
+    }
+]

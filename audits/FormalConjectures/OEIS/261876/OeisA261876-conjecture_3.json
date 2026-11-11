@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A261876, comment (ii) of Zhi-Wei Sun's conjecture: 'For each triple (a,b,c) = (1,8,20), (3,5,15), (6,14,4), (7,29,5), (18,38,18), (39,81,51), (42,98,14), any natural number can be written as x^2+y^2+z^2+w^2 with x,y,z,w nonnegative integers such that x*y*(a*x^2+b*y^2+c*z^2) is a square.' The Lean `triples` finset lists the same seven triples, and the statement, for each triple t and every n : ℕ, asserts ∃ x y z w : ℕ with n = x²+y²+z²+w² and IsSquare (x·y·(t.1·x² + t.2.1·y² + t.2.2·z²)), which is a literal transcription (n = 0 is included and trivial). The OEIS entry notes a 2026 disproof by Adamczewski of 'the above conjecture'; the file attributes that disproof to part (i)'s uniqueness claim (a(69383)=1, formalised as conjecture_2), so keeping part (ii) open is consistent with the file's reading, though I did not check the linked article to confirm part (ii) is untouched."
+    }
+]

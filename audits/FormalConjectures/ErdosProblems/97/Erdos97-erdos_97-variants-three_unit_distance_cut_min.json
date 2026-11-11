@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "This variant is not on erdosproblems.com/97 (which only mentions the 20-point Fishburn–Reeds polygon); I compared it against the abstract of Fishburn–Reeds, 'Unit distances between vertices of a convex polygon', Comput. Geom. 2 (1992) 81–91 (retrieved via Semantic Scholar; the full text was not accessible): 'there are convex n-gons with the following property. The vertices are partitioned into sets A and B on opposite sides of a line such that each a ∈ A is distance 1 from three vertices in B and each b ∈ B is distance 1 from three vertices in A. The smallest n for which this is possible is n = 20.' The Lean statement says the sInf of the set of n = |V| such that V is convex independent and has a cut {A,B} (A ∪ B = V, A and B disjoint and nonempty, with disjoint convex hulls, which for finite sets is the same as being separated by a line) with every point of A at unit distance from at least 3 points of B and every point of B at unit distance from at least 3 points of A, equals 20. The argument order of `HasNUnitDistancePointsOn 3 B A` (points of A, counted in B) is correct. The set is nonempty, so sInf = 20 expresses 'the smallest such n is 20'. One caveat I could not settle from the abstract alone: it says 'from three vertices', and the Lean (like the file's docstring) uses 'at least three'; if the paper's minimality proof were only for 'exactly three' the lower bound here would be a slightly stronger claim. The at-least reading is the natural one for their 0–1 cut-matrix method, so I judge the statement correct."
+    }
+]

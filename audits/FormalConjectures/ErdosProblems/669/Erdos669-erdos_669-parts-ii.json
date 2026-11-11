@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/669: f_k(n) is minimal such that any n points in ℝ² have at most f_k(n) lines passing through exactly k of the points; 'determine lim f_k(n)/n²'. `maxLinesExactly k n` is the sSup over n-point finsets S ⊂ ℝ² of the number of lines spanned by two distinct points of S meeting S in exactly k points (`linesWithPointsFor`); the set of counts is bounded by C(n,2), so the sSup is the maximum, which equals the site's 'minimal upper bound' f_k(n). The value question is encoded with `answer : ℕ → Option ℝ` depending on k and the statement ∀ k ≥ 3, ∀ x, answer k = some x ↔ f_k(n)/n² → x, so the answer is `some` of the limit when it exists and `none` otherwise; this is well-posed (limits are unique) and matches the original 'if they exist' phrasing the docstring cites from [Er97f]. Restricting to k ≥ 3 drops only the trivial case f_2(n) = C(n,2). The broader 'estimate f_k(n)' is not formalised. Faithful."
+    }
+]

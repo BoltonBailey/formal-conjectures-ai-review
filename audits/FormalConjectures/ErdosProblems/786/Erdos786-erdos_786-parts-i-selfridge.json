@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/786: 'Selfridge constructed such a set with density 1/e − ε for any ε > 0: let p_1 < ⋯ < p_k be a sequence of large consecutive primes such that Σ_{i≤k} 1/p_i < 1 < Σ_{i≤k+1} 1/p_i, and let A be those integers divisible by exactly one of p_1,…,p_k.' The Lean statement: for 0 < ε < 1/e and all sufficiently large primes p there is k such that the consecutive primes starting at p (`consecutivePrimesFrom p k`, the first k+1 primes ≥ p) have reciprocal sum < 1 while adding the next prime makes it > 1, and A = {n | Σ_q v_q(n) = 1 over these primes} has a natural density δ > 1/e − ε and satisfies `IsMulCardSet`. The index shift (k+1 primes rather than k) is immaterial. Requiring total multiplicity exactly 1 is the correct precise form of the site's 'divisible by exactly one' (without it p_1² would break the property) and the file cites Erdős's original papers for it; the density is Σ_i (1/p_i)(1−1/p_i)∏_{j≠i}(1−1/p_j) → 1/e as p → ∞, so the claim is true. `IsMulCardSet` is stated for products over Finsets (distinct elements), which is implied by the with-repetition property that Selfridge's set has (the total valuation of a product of r elements is r), so the statement holds; the file flags the repetition ambiguity in a comment. Faithful."
+    }
+]

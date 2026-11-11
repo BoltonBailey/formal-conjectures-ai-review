@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A212496, comment by Zhi-Wei Sun: 'Sun also conjectured that b(n) = Sum_{k=1..n} (-1)^(k-Omega(k))/k < 0 for all n … Moreover, he guessed that b(n) < -1/sqrt(n) for all n > 1'. In Lean b n = Σ_{k=1}^n s(k)/k over ℚ with s(k) = 1 if k + Ω(k) is even and −1 otherwise, which equals (−1)^{k−Ω(k)} (same parity), with Ω the number of prime factors with multiplicity. The statement is (b n : ℝ) < −1/√n for n > 1, exactly as in the comment (e.g. b(2) = −3/2 < −1/√2). Faithful."
+    }
+]

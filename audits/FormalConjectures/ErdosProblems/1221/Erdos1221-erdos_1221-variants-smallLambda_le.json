@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1221 ('They also proved that, for any r ≥ 1, … λ_r ≤ (r/(r+1))·1/log(1+1/r)') and the original paper, de Bruijn–Erdős, 'Sequences of points on a circle' (1949, renyi.hu/~p_erdos/1949-13.pdf), §1 and (4.3). In the paper m_n^r(a) is the minimum length of a sum of r consecutive intervals determined by a_1,…,a_n on the circle of circumference 1, λ_r(a) = liminf n·m_n^r(a) and λ_r = l.u.b. λ_r(a), with no division by r (the paper notes n·M_n^r ≥ r ≥ n·m_n^r, and (4.3) ends with '< r'). The Lean `minSpan a n r` is the minimum over starting points of the cyclic r-span of the sorted first n points mod 1, and `smallLambda r` is the supremum over sequences with pairwise distinct fractional parts of liminf n·minSpan, taken in ℝ≥0∞; this matches the paper's un-normalised definition (and r = 1 gives the sharp value 1/log 4 = (1/2)/log 2). The statement smallLambda r ≤ (r/(r+1))·(1/log(1+1/r)) for r ≥ 1 is therefore the cited inequality. Faithful."
+    }
+]

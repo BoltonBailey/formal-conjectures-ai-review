@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for `numFree H n`, the number of labelled graphs on Fin n not containing H as a (not necessarily induced) subgraph, the quantity in erdosproblems.com/59 ('the number of graphs on n vertices which do not contain G'). The lemma says numFree H n > 0 whenever H has at least one edge (H ≠ ⊥), witnessed by the empty graph, which is H-free; the hypothesis is needed since an edgeless H on k ≤ n vertices is contained in every graph. The set of graphs on Fin n is finite so ncard is a genuine count. Proved in the file without sorry. Correct."
+    }
+]

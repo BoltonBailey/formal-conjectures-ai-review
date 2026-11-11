@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/566: 'Let G be such that any subgraph on k vertices has at most 2k−3 edges. Is it true that, if H has m edges and no isolated vertices, then R(G,H) ≪ m?' The Lean hypothesis bounds the edge count of every induced subgraph on a vertex set S with |S| ≥ 2 by 2|S|−3, which is equivalent to the condition for all subgraphs on k vertices (the k=1 case of the informal condition is degenerate and is sensibly excluded). `IsRamseySizeLinear` asks for c > 0 with graphRamsey G H ≤ c·e(H) for every finite H with all degrees positive, and graphRamsey is the ordinary two-colour graph Ramsey number, so the conclusion is R(G,H) ≪ m with the implied constant depending on G, as intended. Degenerate cases (empty G or H) satisfy the statement trivially and do not affect it."
+    }
+]

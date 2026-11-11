@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/930: 'Is it true that, for every r, there is a k such that if I_1,…,I_r are disjoint intervals of consecutive integers, all of length at least k, then ∏_i ∏_{m∈I_i} m is not a perfect power?' The Lean statement: for every r > 0 there is k such that for endpoints I₁ i ≤ I₂ i with I₁ i > 0, length I₂ i − I₁ i + 1 ≥ k, and I₂ i < I₁ j for i < j (disjoint intervals, listed in increasing order without loss of generality), the product over all intervals is not of the form m^l with l > 1. Positivity of the integers is the intended setting (otherwise the product could be 0), ordering the intervals loses nothing, and the only degenerate product (the value 1) is excluded by taking k ≥ 2. Faithful."
+    }
+]

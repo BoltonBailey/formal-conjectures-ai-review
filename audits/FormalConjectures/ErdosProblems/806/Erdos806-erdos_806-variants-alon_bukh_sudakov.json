@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/806: Alon, Bukh and Sudakov 'proved that for any A ⊆ {1,…,n} with |A| ≤ n^{1/2} there exists some B such that A ⊆ B+B and |B| ≪ (log log n / log n) n^{1/2}.' The Lean statement gives a constant C such that for all sufficiently large n and every A ⊆ Finset.Icc 1 n with |A| ≤ √n there is a finite B ⊂ ℤ with (the image of) A ⊆ B+B and |B| ≤ C·(log log n / log n)·√n. The ≪ is correctly rendered with a uniform constant and 'eventually in n' (needed since log log n is non-positive for small n); B ranges over finite sets of integers as on the site. Faithful."
+    }
+]

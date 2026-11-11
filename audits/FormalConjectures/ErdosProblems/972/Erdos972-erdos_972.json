@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/972: 'Let α>1 be irrational. Are there infinitely many primes p such that ⌊pα⌋ is also prime?' The Lean statement says for every irrational α > 1 the set of primes p with ⌊α·p⌋₊ prime is infinite. Nat.floor agrees with the real floor since α·p > 0. Exact match with the question as posed."
+    }
+]

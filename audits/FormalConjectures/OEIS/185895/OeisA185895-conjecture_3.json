@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A185895, comment of Peter Bala (Mar 17 2022), conjecture 3: 'The Gauss congruences a(n*p^k) == a(n*p^(k-1)) (mod p^k) hold for all primes p and positive integers n and k.' The Lean statement quantifies over primes p and n, k > 0 and asserts a(n·p^k) ≡ a(n·p^(k−1)) [ZMOD p^k], exactly as stated. The sequence `a` is n!·[x^n]∏_{k=1}^n (1 − x^k/k!) with a(0)=1 (offset 0, matching the OEIS e.g.f. and PARI program); factors with k>n do not affect the x^n coefficient, the value is an integer so the `floor` is harmless, and the file's tests reproduce 1,−1,−1,2,3."
+    }
+]

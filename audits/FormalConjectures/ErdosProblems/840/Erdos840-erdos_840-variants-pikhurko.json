@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/840: 'The upper bound was improved by Pikhurko [Pi06] to f(N) ≤ ((1/4 + 1/(π+2)²)^{-1/2} + o(1)) N^{1/2} (the constant here is 1.863…)', where f(N) is the size of the largest quasi-Sidon A ⊆ {1,…,N} (|A+A| = (1+o(1))·C(|A|,2)). Since 'quasi-Sidon' only makes sense for a family of sets, the file formalises it through `IsQuasiSidonConstant c`: there are A_N ⊆ {1,…,N} with |A_N| ~ c√N and |A_N + A_N| ~ C(|A_N|,2). The Lean statement says every such c satisfies c ≤ (1/4 + 1/(π+2)²)^{-1/2}, with the real power exponent −1/2 written correctly. This is the natural asymptotic reading of the bound (stated for sequences defined for all N; Pikhurko's bound applies a fortiori), and c = 0 or negative c are harmless. Faithful to the site's statement."
+    }
+]

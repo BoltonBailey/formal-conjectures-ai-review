@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/408 (third, open-ended question about P^+(φ_k(n)), with the remark that P^+(φ_k(n)) ≤ n^{o(1)} for almost all n is likely) and against Ford–Konyagin–Luca, 'Prime chains and Pratt trees' (arXiv:0904.0473), Theorem 5: 'For every ε > 0 and δ > 0, there is an integer k so that for large x and at least (1 − δ)x integers n ≤ x, P^+(φ_k(n)) ≤ x^ε.' The Lean statement (with the roles of the letters ε and δ swapped, which is immaterial) says: for all ε, δ > 0 there is k such that for all sufficiently large real x, at least (1 − ε)x of the integers n ∈ [1, ⌊x⌋] have maxPrimeFac(φ^[k](n)) ≤ x^δ. `Nat.totient^[k]` is the k-fold iterate φ_k, and the degenerate value of maxPrimeFac at 1 is harmless. Exact match with the cited theorem; the docstring is clear that the site's question itself is open-ended and not formalised."
+    }
+]

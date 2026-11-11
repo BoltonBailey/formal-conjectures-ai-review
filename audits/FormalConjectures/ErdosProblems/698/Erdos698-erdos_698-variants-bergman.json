@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/698: Bergman 'proved that for any 2 ≤ i < j ≤ n/2, gcd(C(n,i), C(n,j)) ≫ n^{1/2} 2^i / i^{3/2}, where the implied constant is absolute.' The Lean statement asserts an absolute c > 0 with c·(√n·2^i/(i·√i)) ≤ gcd(C(n,i),C(n,j)) for all n, i, j with 2 ≤ i < j ≤ n/2; i·√i = i^{3/2} and the natural-number division in j ≤ n/2 is equivalent to the real inequality since j is an integer. Exact transcription of the quoted bound."
+    }
+]

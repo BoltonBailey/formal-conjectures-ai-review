@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 5,
+        "explanation": "Compared against erdosproblems.com/552 (\"Determine the Ramsey number R(C_4,S_n), where S_n=K_{1,n}\"). The intended object is a function of n, but the unknown is declared as a single number `erdos_552.parts.i.answer : ℕ` that does not take n as a parameter, and the statement is `∀ n, graphRamsey C_4 K_{1,n} = erdos_552.parts.i.answer`. This asserts that R(C_4,S_n) is the same for every n, which is false: the site records n+√n−6n^{11/40} ≤ R(C_4,S_n), so the values are unbounded (and the file's own docstring for `succ_le_add_two` notes R(C_4,S_0)=1 ≠ 4=R(C_4,S_1)). So the statement is false for every possible value of the answer, and no determination of R(C_4,S_n) could prove it. The upstream CONTRIBUTING.md says the answer definition should take the theorem's parameters when the unknown depends on them; the fix is `answer : ℕ → ℕ` applied to n. The graphs themselves (cycleGraph 4, completeBipartiteGraph (Fin 1) (Fin n), graphRamsey as least N such that every graph on Fin N contains C_4 or has K_{1,n} in its complement) are a correct rendering."
+    }
+]

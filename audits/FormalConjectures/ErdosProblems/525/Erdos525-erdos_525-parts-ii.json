@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 5,
+        "explanation": "Compared against erdosproblems.com/525 and the cited paper, Cook–Nguyen, 'Universality of the minimum modulus for random trigonometric polynomials' (Discrete Analysis 2021:20, arXiv:2101.07203v3). The site only says lim P(m(f) > ε n^{-1/2}) = e^{-ελ} 'where λ is an explicit constant'; the Lean statement fixes λ = √(π/12), and this value appears to be wrong by a factor of 2. In the paper (eqs. (1.4)–(1.6), Theorem 1.1 and Corollary 1.5, which covers Rademacher signs) the normalised polynomial is P_n(x) = (2n+1)^{-1/2} Σ_{j=-n}^{n} ξ_j e(jx), m_n = min|P_n|, and lim P(m_n > τ/n) = e^{-λτ} with λ = 2√(π/3). Up to a unimodular factor P_n is (2n+1)^{-1/2} F_{2n}, so for the degree N = 2n polynomial f = F_N of the Lean statement, m_n > τ/n means m(f) > τ√(2n+1)/n ≈ 2τ/√N. Putting ε = 2τ gives lim P(m(f) > ε/√N) = e^{-2√(π/3)·ε/2} = e^{-√(π/3) ε}, i.e. λ = √(π/3) ≈ 1.023 in the site's normalisation, not √(π/12) ≈ 0.512. (A first-moment count of near-zeros agrees: the expected number of passes of the curve within δ of 0 is δ√N·√(π/3); √(π/12) arises only as an intermediate quantity, E|P_n'|/n.) Since the limit e^{-√(π/12) ε} differs from the true limit e^{-√(π/3) ε} for every ε > 0, the Lean statement as written is false. The rest of the formalisation (uniform ±1 coefficients on Fin (n+1), m as the infimum of |f| over the unit circle, `prob` as a normalised count) is fine; I did not find the constant √(π/12) in the paper for this normalisation, and the `formal_proof` link is the same line as for part (i), so it does not appear to certify this statement."
+    }
+]

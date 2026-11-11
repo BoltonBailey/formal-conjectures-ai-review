@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against DeLaVina's Written on the Wall II list (archived copy of cms.uhd.edu/faculty/delavinae/research/wowII/all.html and its definitions script wowIIdefs.js): conjecture 36, status F, 'If G is a simple connected graph, then path(G) ≥ 2rad(G)/dp(G)', with the note 'see the counterexample. Path number is 5, radius is 3, and dp is 1', and the definition 'dp(G): the number of pairs of vertices of a graph G which are at distance diam(G)'. The Lean statement is the negation of the conjecture for all finite nontrivial connected graphs (with the harmless extra hypothesis 0 < dp G, automatic for such graphs), using `dp` = number of unordered pairs of distinct vertices at distance diam(G), `radius`, and `path` = order of a largest induced path; these match the source definitions. The file contains a complete proof (no sorry) via an explicit 10-vertex graph with radius 3, dp 1 and path number 5, the same parameters as the source's counterexample, so 5 < 6 refutes the bound. Minor documentation points only: the archived list credits the counterexample to DeLaVina (June 2005) while the archived definitions script credits Waller (Oct 19, 2003), which is what the docstring says; and the `question` tag is attached to what the source states as a conjecture."
+    }
+]

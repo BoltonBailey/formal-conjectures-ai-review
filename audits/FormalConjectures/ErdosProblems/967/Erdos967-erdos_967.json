@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/967 (Erdős–Ingham): for integers 1 < a_1 < ⋯ with Σ 1/a_i < ∞, is 1 + Σ_k a_k^{−(1+it)} ≠ 0 for every real t? The site records Yip's negative answer: for any real t ≠ 0 there is such a sequence with the sum equal to 0. The Lean statement is the negation of: for every strictly increasing a : ℕ → ℕ with 1 < a 0 and Σ 1/a_k summable, and every real t, 1 + Σ' k 1/(a k)^{1+it} ≠ 0. All quantifiers are inside the negation, `summand t n = 1/(n : ℂ)^(1+ti)` is the right term, and the tsum converges absolutely under the summability hypothesis so it is the genuine sum. The Lean only quantifies over infinite sequences, whereas the site's question also covers finite ones (the case {2,3,5} is explicitly left open there); since the answer is negative and Yip's counterexamples are infinite sequences, restricting to infinite sequences still gives a true statement that faithfully records the resolution."
+    }
+]

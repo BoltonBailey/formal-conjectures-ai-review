@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/934, which records the conjecture of Cambie, Cames van Batenburg, de Joannis de Verclos and Kang that h_3(d) ≤ d³ − d² + d + 2; the file cites Kumar–Mohar–Pragada (arXiv:2607.02698, Lemma 3.1) for its refutation, which the copy of the site I fetched does not yet mention. The Lean statement is ¬∀ d, h 3 d + d² ≤ d³ + d + 2, the conjectured inequality rearranged to avoid natural subtraction. `h t d` is the least m such that every finite graph with maximum degree ≤ d and at least m edges has two edges all of whose endpoints are at graph distance ≥ t from each other; this convention matches the site's (t = 2 gives the induced-2K_2 problem with h_2(d) ≤ 5d²/4 + 1, and I checked h 3 2 = 8 = 2³ − 2² + 2 + 2 via C_7). I verified the counterexample directly: in the odd graph KG(7,3) (35 vertices, 4-regular, 70 edges) two vertices are at distance 3 iff the 3-sets meet in exactly one point, and two disjoint edges with all four endpoint pairs at distance 3 would force both endpoints of the second edge to contain the unique point outside the first edge, contradicting their disjointness; so h_3(4) ≥ 71 > 54. The small cases d = 0, 1, 2 satisfy the inequality, so the negation is true for the intended reason. Correct."
+    }
+]

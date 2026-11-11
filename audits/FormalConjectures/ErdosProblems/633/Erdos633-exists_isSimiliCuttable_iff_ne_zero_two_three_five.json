@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/633: 'Soifer proved [So09] that if we relax congruence to similarity then every triangle can be cut into n similar triangles when n ≠ 2,3,5 and there exists a triangle that cannot be cut into 2, 3, or 5 similar triangles.' The Lean statement is ∃ T, ∀ n, IsSimiliCuttable n T ↔ n ≠ 0 ∧ n ≠ 2 ∧ n ≠ 3 ∧ n ≠ 5, which combines the two halves of that sentence for a single triangle T (the reverse direction is the universal result, the forward direction is the existence of a triangle with no dissection into 2, 3 or 5 similar triangles, and n = 0 is impossible since T is nonempty). `IsSimiliCuttable n T` asks for n triangles that are pairwise similar to one another, with pairwise disjoint interiors and closed regions covering exactly T; this is the direct analogue of the file's congruent-pieces `IsCuttable`, matching the site's 'relax congruence to similarity'. Mathlib's `Similar` on indexed point families respects the vertex labelling, but the labellings of the pieces are existentially chosen, so this is no restriction. I relied on the site's summary of Soifer's result; I did not consult Soifer's book directly."
+    }
+]

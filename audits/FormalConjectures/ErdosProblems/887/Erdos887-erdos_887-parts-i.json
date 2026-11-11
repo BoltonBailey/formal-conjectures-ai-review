@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Compared against erdosproblems.com/887: 'Is there an absolute constant K such that, for every C>0, if n is sufficiently large then n has at most K divisors in (n^{1/2}, n^{1/2}+C n^{1/4})?' The counting is right: for natural d, ⌊√n⌋ < d < ⌈√n + C n^{1/4}⌉ is equivalent to √n < d < √n + C n^{1/4}, and the quantifier order (K before C, 'eventually in n' after C) matches. The discrepancy is in the framing: the site asks a yes/no existence question, which the file states correctly as `erdos_887.parts.ii` (∃ K, …), but this declaration recasts it as a `question value` with `erdos_887.parts.i.answer : ℕ := sorry` and the statement 'the divisor count is eventually ≤ answer'. That is not a question with a determined value: if any K works then every larger K also makes the statement true (the statement does not ask for the least K, so e.g. it does not capture Erdős–Rosenfeld's 'is 4 best possible?'), and if the answer to the site's question is 'no' then the statement is false for every value of the answer and the convention of 'fill in the answer and leave the statement unchanged' cannot record the resolution. Proving the statement for some value of the answer is nevertheless equivalent to an affirmative answer to the site's question, so it is a non-standard but not misleading formulation, essentially a duplicate of parts.ii with the witness pulled out."
+    }
+]

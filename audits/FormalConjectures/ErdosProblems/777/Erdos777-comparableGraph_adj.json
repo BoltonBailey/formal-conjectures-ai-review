@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for the bespoke `comparableGraph` used for erdosproblems.com/777, where G_F is the graph on a family F of subsets of {1,…,n} with A ~ B when A and B are comparable (A ⊆ B or B ⊆ A). The definition makes two members adjacent iff one is a proper subset of the other, which is the comparability relation with loops removed, as a simple graph requires. The lemma just unfolds this (`Iff.rfl`, fully proved). Correct."
+    }
+]

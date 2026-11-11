@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/597: 'Let G be a graph on at most ℵ_1 vertices which contains no K_4 and no K_{ℵ_0,ℵ_0}. Is it true that ω_1² → (ω_1ω, G)²?' The Lean statement quantifies over W : Type and G on W with #W ≤ ℵ_1, G.CliqueFree 4, and no pair of disjoint infinite sets A, B completely joined in G (equivalent to containing no K_{ℵ_0,ℵ_0}, as a not-necessarily-induced subgraph), and concludes `OrdinalGraphRamsey (ω_1^2) (ω_1·ω) G`. That relation says every red/blue partition of the complete graph on the ordinal ω_1² (complementary simple graphs on its ToType) has a red clique of order type ω_1·ω or an injective map of W sending edges of G to blue edges, which is the standard meaning of α → (β, G)². Mathlib's ordinal product ω_1 * ω is ω copies of ω_1, the usual ω_1ω. The 'What about finite G?' part is a separate declaration. Faithful."
+    }
+]

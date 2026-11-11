@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/942: 'is there some constant c>0 such that h(n) < (log n)^{c+o(1)} and, for infinitely many n, h(n) > (log n)^{c−o(1)}?' where h(n) counts powerful integers in [n²,(n+1)²). `erdos_942.h` counts m in Finset.Ico (n²) ((n+1)²) with `Powerful m` (every prime divisor p has p² | m), matching the site's definition. The statement asserts ∃ c > 0 and a function o → 0 (encoded as o =o[atTop] 1) such that eventually h(n) < (log n)^{c+o(n)} and h(n) > (log n)^{c−o(n)} for infinitely many n. Using one error function for both bounds is equivalent to using two (take the max of absolute values; log n > 1 eventually), and 'eventually' is the right reading of the upper bound since (log n)^{…} is degenerate for small n. Faithful rendering of the yes/no question; the preceding open-ended 'Estimate h(n)' is not formalised, which is reasonable."
+    }
+]

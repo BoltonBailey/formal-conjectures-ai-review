@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for the bespoke `bookNumber` used to formalise erdosproblems.com/80 (a 'book of size m' is an edge shared by m triangles). `bookNumber G` is the sup over edges e of the number of triangles containing e, and the lemma says it is 0 iff every edge lies in no triangle. This is immediate from the definition (a Finset.sup of naturals is 0 iff every term is 0, and a finset has card 0 iff it is empty), it is the intended meaning, and it is proved in the file by simp with no sorry. Correct."
+    }
+]

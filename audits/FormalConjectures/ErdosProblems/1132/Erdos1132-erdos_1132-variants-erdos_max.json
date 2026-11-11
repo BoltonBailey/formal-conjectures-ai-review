@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1132: 'Erdős [Er61c] proved that, for any fixed x_1,…,x_n ∈ [-1,1], max_{x∈[-1,1]} Σ_{1≤k≤n} |l_k(x)| > (2/π) log n − O(1).' The Lean statement gives an absolute constant C such that for every n ≥ 1 and all nodes x 0,…,x (n−1) in [-1,1] that are pairwise distinct (`Set.InjOn x (Set.Iio n)`, needed for the Lagrange basis to be defined), there is t ∈ [-1,1] with (2/π) log n − C < L_n(t). `lebesgueFunction n x t` is Σ_{k<n} |l_k(t)| with l_k the fundamental Lagrange polynomial on the first n nodes, as in the site's definition; 'the maximum exceeds the bound' is correctly rendered as 'some point exceeds the bound' (L_n is continuous on a compact interval), and the O(1) is an absolute constant as in Erdős's theorem. Faithful."
+    }
+]

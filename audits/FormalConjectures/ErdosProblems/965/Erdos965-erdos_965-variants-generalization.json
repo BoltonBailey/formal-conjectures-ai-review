@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/965 and the Soukup–Weiss paper cited in the file (danieltsoukup.github.io/academic/finset_colouring.pdf). The site states the k-fold result with the colouring chosen after k; the Lean statement is stronger, asserting one colouring f : ℝ → Fin 2 such that for every k ≥ 2 and every uncountable A the sums of k distinct elements of A are not monochromatic (written as ¬∀ f, ∃ k ≥ 2, ∃ uncountable A, all k-subset sums have one colour). This stronger uniform form is what Soukup–Weiss prove: their Theorem 1.1/Lemma 2.1(2) gives a single F : ℝ → 2 that is non-monochromatic on {ΣE : E ∈ [X]^N} for every uncountable X and every N ≥ 2, in ZFC, and they note Komjáth proved the same. Sums of k distinct elements are correctly modelled as sums over k-element Finsets contained in A, and 'uncountable' versus the site's 'cardinality ℵ_1' is equivalent since monochromaticity passes to subsets. The docstring's claim about a single colouring is therefore accurate (only the spelling 'Sokoup' is off)."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/556 (Bondy–Erdős): 'Let R_3(G) denote the minimal m such that if the edges of K_m are 3-coloured then there must be a monochromatic copy of G. Show that R_3(C_n) ≤ 4n−3.' The Lean statement is multicolourRamsey (cycleGraph n) 3 ≤ 4n − 3 for n ≥ 4, where `multicolourRamsey G k` is the least N such that every partition of the edges of the complete graph on Fin N into k colour classes has a class containing a copy of G; this is R_3(C_n). The site does not state a lower bound on n; the file restricts to n ≥ 4 because C_3 = K_3 has R_3 = 17 > 9, which is the only sensible reading (for n ≥ 4 natural subtraction in 4n − 3 is harmless). Known values are consistent (e.g. R_3(C_4)=11 ≤ 13, R_3(C_5)=17, R_3(C_7)=25). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/599 (Erdős–Menger conjecture, proved by Aharoni–Berger): for a possibly infinite graph G and disjoint independent sets A, B, must there exist a family P of disjoint A–B paths and a set S containing exactly one vertex from each path of P such that every A–B path meets S? The Lean statement quantifies over all V : Type, graphs G and A, B with Disjoint A B and both independent, and asserts an indexed family of walks p i from a i ∈ A to b i ∈ B that are paths with pairwise disjoint supports, and a set S contained in the union of the supports, meeting each p i in exactly one vertex (∃!), and meeting the support of every path from A to B. Requiring S to lie on the paths is the standard (slightly stronger than the site's literal wording) form of the Erdős–Menger statement and is what Aharoni–Berger prove, so the statement is true and is the intended theorem. Restricting V to universe 0 is immaterial. The answer is yes and the statement is un-negated, consistent with the question convention."
+    }
+]

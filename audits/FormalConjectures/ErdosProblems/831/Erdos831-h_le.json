@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for the definition of h(n) used for erdosproblems.com/831 (h(n) = the largest number such that any n points in the plane with no three collinear and no four concyclic determine at least h(n) circles of different radii through three of the points). In the file h n is the sInf over n-point finsets P in general position (`InGeneralPosition` = NonTrilinear ∧ NoFourConcyclic) of `numRadii P`, the number of distinct radii of spheres in ℝ² containing at least three points of P; this minimum is the same as the site's 'maximal h such that every configuration has at least h'. The lemma h n ≤ numRadii P for any admissible P with |P| = n is exactly Nat.sInf_le applied to the defining set and is proved in the file without sorry. Correct."
+    }
+]

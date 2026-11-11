@@ -26,5 +26,12 @@
         "matharena": "anthropic_fable_51_low",
         "score": 66.0,
         "as_of": "2026-10-15"
+    },
+    {
+        "id": "claude-fable-5-2",
+        "effort": null,
+        "matharena": null,
+        "score": null,
+        "as_of": "2026-11-10"
     }
 ]

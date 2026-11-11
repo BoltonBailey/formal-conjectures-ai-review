@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/556: 'Luczak [Lu99] has shown that R_3(C_n) ≤ (4+o(1))n for all n'. The Lean statement says for every ε > 0, for all sufficiently large n, multicolourRamsey (cycleGraph n) 3 ≤ (4+ε)·n, which is exactly the (4+o(1))n bound; `multicolourRamsey G 3` is the least N such that every 3-colouring (edge partition) of the complete graph on N vertices has a monochromatic copy of G. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/802: 'Ajtai, Komlós, and Szemerédi proved the conjectured bound when r=3', the conjectured bound being an independent set of size ≫ (log t / t)·n in a K_r-free graph on n vertices with average degree t. The Lean statement gives an absolute c > 0 such that every triangle-free (CliqueFree 3) graph G on Fin n has c·(log t / t)·n ≤ indepNum G with t = G.averageDegree. The statement has no lower bound on t, but this is harmless: for t = 0 the left side is 0 (division by zero), for 0 < t ≤ 1 it is non-positive, and for bounded t the Turán bound α ≥ n/(t+1) covers it after shrinking c, so the unrestricted form is true and equivalent to the usual one. Faithful."
+    }
+]

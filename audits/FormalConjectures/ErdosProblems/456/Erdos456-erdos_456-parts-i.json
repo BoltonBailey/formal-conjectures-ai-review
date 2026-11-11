@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/456: p_n is the smallest prime ≡ 1 (mod n), m_n the smallest integer with n | φ(m_n); 'Is it true that m_n < p_n for almost all n?' In Lean p n = sInf{k prime, k ≡ 1 [MOD n]} and m n = sInf{k > 0, n ∣ φ(k)}, both genuine minima for n ≥ 1 (Dirichlet), with only the junk index n = 0 affected. The statement says #{n < N : m_n < p_n}/N → 1, i.e. the set has natural density 1, the standard reading of 'almost all n'. Faithful."
+    }
+]

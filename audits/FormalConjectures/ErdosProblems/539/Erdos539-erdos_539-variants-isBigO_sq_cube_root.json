@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/539, which records n^{1/2} ≪ h(n) ≪ n^{2/3}. The statement `cofactorThreshold n =O[atTop] n^{2/3}` is the upper bound, and it is true. `cofactorThreshold` is the sSup of the m such that every n-element A ⊆ ℕ has at least m values a/gcd(a,b); the set of such m is nonempty and bounded for each n, so the sSup is the intended maximum. A may contain 0 in Lean (ℕ includes 0, and 0/gcd(0,b)=0, a/gcd(a,0)=1), which changes h(n) by at most replacing it with min(h(n), h(n−1)+1) and does not affect the O-bound. Only the documentation is slightly off: the docstring says Granville and Roesler 'showed' h(n) ≪ n^{2/3}, whereas the site attributes the bound to Freiman and Lev and says a proof can be found in Granville–Roesler."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma about the bespoke definition `IsHofstadterSeq`, compared against erdosproblems.com/423 and OEIS A005243 for the definition. `IsHofstadterSeq a` says a(1)=1, a(2)=2 and for k ≥ 3, a(k) is the least integer > a(k−1) that is a sum of at least two consecutive terms among a(1..k−1), which matches the site's definition (the file's tests reproduce a(3)=3, a(4)=5). The lemma states n ≤ a n for n ≥ 1, which is a true and standard consequence of a(1)=1 and strict monotonicity from index 1; it comes with a complete proof (no sorry). The hypothesis 1 ≤ n is needed because a(0) is unconstrained. Correct."
+    }
+]

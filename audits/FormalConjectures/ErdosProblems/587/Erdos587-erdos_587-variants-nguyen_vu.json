@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/587: 'Essentially solved by Nguyen and Vu, who proved that |A| ≪ N^{1/3}(log N)^{O(1)}' for A ⊆ {1,…,N} with no nonempty subset sum a square. `MaxNotSqSum N` is the maximum cardinality of A ⊆ Finset.Icc 1 N all of whose nonempty subsets S have a non-square sum, which is the quantity in the problem. The statement asserts positive constants O (the exponent) and O' with MaxNotSqSum N ≤ O'·N^{1/3}·(log N)^O for all sufficiently large N, a direct rendering of the ≪ bound with a polylogarithmic factor (`Real.nthRoot 3 N` is the real cube root). Faithful."
+    }
+]

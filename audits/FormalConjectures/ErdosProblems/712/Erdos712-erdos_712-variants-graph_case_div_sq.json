@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/712, which remarks 'Turán proved that, when r=2, this limit is ½(1 − 1/(k−1))'. The Lean statement says ex_2(n,K_k)/n² → ½(1 − 1/(k−1)) for k ≥ 2. `Hypergraph.cliqueExtremalNumber n 2 k` is the maximum size of a family of 2-subsets of Fin n containing no k-set all of whose 2-subsets are present, i.e. the Turán number ex(n,K_k), and Turán's theorem gives ex(n,K_k) ~ (1 − 1/(k−1)) n²/2, so the statement is true (including k=2, where both sides are 0). The site's displayed normalisation is C(n,r), under which the r=2 limit would be 1 − 1/(k−1) rather than the quoted value; the file handles this correctly by giving the C(n,2) version separately (`graph_case`) and stating this variant with denominator n², as its docstring explains."
+    }
+]

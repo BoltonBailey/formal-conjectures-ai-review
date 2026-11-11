@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/704 ('Larman and Rogers … conjecture the truth may be (2^{3/2}+o(1))^n') and against Davies, 'Measurable obstructions for unmeasurable colourings' (arXiv:2610.12301), Theorem 1.5: χ(ℝ^d) ≤ (3√3/2 + o(1))^d (the abstract misprints 3√3/4, as the file notes; the theorem in the body has 3√3/2). The Lean statement is ¬ Tendsto (χ(G_n)^{1/n}) (𝓝 2^{3/2}), with G_n the unit distance graph on EuclideanSpace ℝ (Fin n) and χ taken as `chromaticNumber.toNat` (χ(G_n) is finite for every n, so toNat loses nothing). This is the correct formalisation of the negation of the Larman–Rogers conjecture χ(G_n) = (2^{3/2}+o(1))^n, and it follows from Davies' bound since 3√3/2 ≈ 2.598 < 2.828. Caveat on status only: the copy of the erdosproblems page I fetched does not yet mention Davies' result, so the 'solved' label rests on an October 2026 preprint."
+    }
+]

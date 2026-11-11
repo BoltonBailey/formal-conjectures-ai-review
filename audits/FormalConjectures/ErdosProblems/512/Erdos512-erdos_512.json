@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/512 (Littlewood's conjecture, proved by Konyagin and by McGehee–Pigno–Smith): for finite A ⊂ ℤ of size N, ∫_0^1 |Σ_{n∈A} e(nθ)| dθ ≫ log N with e(x)=e^{2πix}. The Lean statement gives an absolute c > 0 with c·log N ≤ ∫_0^1 ‖Σ_{n∈A} e(nθ)‖ dθ for every N and every A : Finset ℤ with |A| = N; `e` is `additiveChar x = exp(2πx·i)`, the integrand is continuous so the interval integral is the intended one, and N = 0, 1 are harmless since log 0 = log 1 = 0 in Lean. Faithful statement of the affirmative answer."
+    }
+]

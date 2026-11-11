@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "2f91d251c07fbbaf9435166d47c11e884a08a6cf",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/603, which records the resolution: 'for every cardinal C there is a family of countably infinite sets (A_i) such that |A_i ∩ A_j| ≠ 2 for all i ≠ j, and in any colouring of ∪A_i with C colours some A_i is monochromatic.' The Lean statement says: for every cardinal C (in universe 0) there are a type V and a family F of subsets of V, each of cardinality ℵ₀, pairwise (for distinct members) with intersection of cardinality ≠ 2, covering V, such that every colouring c : V → C.out is constant on some A ∈ F. This is the recorded theorem verbatim; ⋃₀ F = univ just identifies V with ∪A_i, `Set.Pairwise` gives the i ≠ j condition, and the Erdős–Rado construction on the site (edges of a complete graph on (2^C)^+ vertices) lives in Type when C does, so the universe restriction is harmless. Degenerate C = 0, 1 are trivially fine. The original 'find the smallest C' is answered by this non-existence result, and the file states it as a plain solved theorem rather than a value question, which is appropriate."
+    }
+]
