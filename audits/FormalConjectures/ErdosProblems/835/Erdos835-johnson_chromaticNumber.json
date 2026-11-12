@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/835: the problem (does some k > 2 admit a (k+1)-colouring of the k-subsets of [2k] in which every (k+1)-set sees all colours?) is equivalent to whether χ(J(2k,k)) = k+1 for some k > 2, since χ(J(2k,k)) ≥ k+1 always (and Ma–Tang show > k+1 unless k+1 is prime). The Lean statement ∀ k ≥ 3, k+2 ≤ χ(J(2k,k)) is precisely the expected negative answer to the main question (given the general lower bound k+1), with J(n,k) the Johnson graph on k-subsets of Fin n (adjacent iff the intersection has size k−1). It is stated as an open yes/no question consistent with the page. Faithful."
+    }
+]

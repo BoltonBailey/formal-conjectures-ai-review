@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/78: 'Erdős gave a simple probabilistic proof that R(k) ≫ k·2^{k/2}', in particular R(k) > C^k for some C > 1 non-constructively. The Lean variant: ∃ C > 1, eventually in k, C^k < diagonalRamsey k (the diagonal Ramsey number R(K_k, K_k)). This is implied by Erdős's bound (e.g. C = √2 works for k ≥ 3) and is the non-constructive counterpart of the main question. Faithful."
+    }
+]

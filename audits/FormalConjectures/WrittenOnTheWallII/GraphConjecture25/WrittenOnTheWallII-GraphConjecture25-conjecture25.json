@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the WOWII archive entry #25 (status F): \"If G is a simple connected graph, then b(G) ≥ 2CEIL[(1 + minimum of dist_even(v))/3]\", disproved by DeLaVina with the #24 counterexample (two copies of K_9, vertices 3,4,5 of one copy joined to 3,4,5 of the other and likewise 6,7,8). The Lean theorem is the negation of the universal statement over finite nontrivial types, with b G = size of a largest induced bipartite subgraph and distEven G v = number of vertices at even distance from v (counting v itself). I checked the counterexample: every vertex has 7 vertices at even distance (itself plus the six of 3..8 in the other copy at distance 2), and b = 4 (at most two vertices from each K_9), so 2⌈8/3⌉ = 6 > 4. The negated statement is therefore true and the \"solved\" tagging is correct. Faithful."
+    }
+]

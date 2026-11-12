@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/867: 'Adenwalla has observed that |A| ≤ (2/3 + o(1))N' for A ⊆ {1,…,N} with no a_i + ⋯ + a_j ∈ A (i < j). The Lean variant: for every ε > 0, eventually in N, every A ⊆ Icc 1 N with ConsecutiveSumFree A (equivalent to the source condition) has |A| ≤ (2/3 + ε)N — the standard encoding of (2/3 + o(1))N uniformly over A. The statement carries a formal-proof link. Faithful."
+    }
+]

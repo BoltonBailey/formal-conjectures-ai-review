@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma supporting the file's refutation of WOWII Conjecture 65 (a lower bound on the largest induced forest via distances between minimum- and maximum-degree vertices). The counterexample graph on Fin 17 is the path 0–1–⋯–12 with triangles {1,13,14} and {11,15,16}; the lemma states that the set of minimum-degree vertices is exactly {0, 12}. I checked by hand: vertices 0 and 12 have degree 1, vertices 2–10 and 13–16 have degree 2, and vertices 1 and 11 have degree 4, so the minimum degree 1 is attained exactly at {0,12}. The statement is correct, self-contained, and proved in the file by decide. Faithful."
+    }
+]

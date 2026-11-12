@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/805 (graphs on n vertices in which every induced subgraph on g(n) vertices contains a clique and an independent set of size ≥ log n). IsLocallyRamsey G m k says every m-subset of vertices contains a k-clique and a k-independent set, and the lemma states that this property for m implies it for every m' ≥ m (pass to an m-subset of the given m'-set). This is mathematically correct, justifies that 'exactly g(n) vertices' and 'at least g(n) vertices' readings agree, and is proved in the file. Faithful."
+    }
+]

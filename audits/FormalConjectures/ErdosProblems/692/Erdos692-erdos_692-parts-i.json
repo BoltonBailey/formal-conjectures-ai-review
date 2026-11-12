@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/692: δ₁(n,m) is the density of integers with exactly one divisor in (n,m); 'Is δ₁(n,m) unimodular for m > n+1?' Cambie showed it fails already for n = 2, 3 (e.g. δ₁(3,6) = 0.35, δ₁(3,7) ≈ 0.33, δ₁(3,8) ≈ 0.3619). The Lean statement is ¬ ∀ δ, (δ a b is the density of {x : exactly one d ∈ (a,b) divides x} for all a, b) → ∀ n, UnimodularOn (δ n) (n+1), where UnimodularOn f a = ∃ M > a, f monotone on (a, M] and antitone on [M, ∞), i.e. unimodular on m > n+1. The density function exists (each set is periodic modulo the lcm of the interval) and is unique, so quantifying over δ satisfying the hypothesis is equivalent to speaking of δ₁ itself and the negation is not vacuous. Weak monotonicity is the right (lenient) notion of unimodular; Cambie's strict dip at m = 7 refutes even this. Faithful."
+    }
+]

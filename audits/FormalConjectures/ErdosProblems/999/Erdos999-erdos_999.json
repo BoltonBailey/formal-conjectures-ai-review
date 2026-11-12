@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/999 (the Duffin–Schaeffer conjecture, proved by Koukoulopoulos and Maynard): for f ≥ 0, almost every α has infinitely many coprime solutions of |α − p/q| < f(q)/q iff Σ φ(q) f(q)/q = ∞. The Lean statement: for every f : ℕ → ℝ with f ≥ 0, (∀ᵐ x, IsApproximable f x) ↔ ¬ Summable (q ↦ φ(q) f(q)/q), where IsApproximable asks for infinitely many q > 0 admitting a p coprime to q with |x − p/q| < f(q)/q (equivalent to infinitely many solutions, since each q has finitely many valid p) and non-summability of a nonnegative series is divergence. Taking f real-valued is the standard (and only sensible) form; the page's 'f : ℕ → ℕ' is evidently a typo. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/670: for A ⊆ ℝ^d of n points with all pairwise distances differing by ≥ 1, is diam A ≥ (1+o(1))n²? The page notes the quantifiers are ambiguous and that Ho [Ho26] disproved the version where n grows with d (infinitely many n with d = n² − n and diameter ≤ (1 − 1/π² + o(1))n²). The Lean variant negates the dimension-uniform reading: ¬ ∀ ε > 0, eventually in n, ∀ d, ∀ A ⊆ ℝ^d with |A| = n and separated distances (|d(a,b) − d(c,e)| ≥ 1 for distinct unordered pairs), (1−ε)n² ≤ diam A. This follows from Ho's construction with any ε < 1/π², and is exactly the uniform-in-d interpretation the page says has a negative answer. Faithful."
+    }
+]

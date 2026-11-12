@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/760: with ζ the cochromatic number, Erdős and Gimbel proved that a graph G with χ(G) = m contains a subgraph H with ζ(H) ≫ (m/log m)^{1/2}. The Lean variant: ∃ c > 0 such that for every finite graph G with chromaticNumber = m there is a subgraph H and k ≤ cochromaticNumber H.coe with c·√(m/log m) ≤ k. This encodes ζ(H) ≥ c·(m/log m)^{1/2} with a uniform constant (taking k as a natural lower bound for the ℕ∞-valued ζ). Small m cause no trouble: for m ≤ 1 the right-hand side is 0 (Lean's division by log 1 = 0), and finitely many small m are absorbed by shrinking c since any nonempty H has ζ ≥ 1. Faithful."
+    }
+]

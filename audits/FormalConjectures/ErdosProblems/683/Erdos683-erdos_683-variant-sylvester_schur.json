@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/683: 'A theorem of Sylvester and Schur (see [Er34]) states that P(C(n,k)) > k if k ≤ n/2', where P is the largest prime divisor. The Lean statement: for all n, k with 0 < k and k ≤ n/2 (natural division, equivalent to 2k ≤ n), P n k > k, where P n k is the maximum of the prime factors of C(n,k) (C(n,k) ≥ 1 here, and for k ≥ 1, 2k ≤ n it is > 1, so the sup is a genuine largest prime factor). This is exactly the classical Sylvester–Schur theorem. Faithful."
+    }
+]

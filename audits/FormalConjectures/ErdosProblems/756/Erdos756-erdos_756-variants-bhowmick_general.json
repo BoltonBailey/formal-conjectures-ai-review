@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/756: Bhowmick [Bh24] 'construct[s], for any m and large n, a set of n points such that ⌊n/(2(m+1))⌋ distances occur at least n+m times.' The Lean variant: for every m ≥ 1, for all large n, there is A ⊆ ℝ² with |A| = n and ⌊n/(2(m+1))⌋ ≤ #(richDistances A (n+m)), where richDistances A k are the distances between distinct points of A whose multiplicity (number of unordered pairs, distanceMultiplicity) is at least k. This matches; restricting to m ≥ 1 follows the docstring's 'positive integer m' (m = 0 is the weaker n+0 case anyway). Faithful."
+    }
+]

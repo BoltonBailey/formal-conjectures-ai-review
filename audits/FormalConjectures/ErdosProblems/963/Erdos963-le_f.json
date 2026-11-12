@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/963, where f(n) is the maximal k such that every n-element A ⊂ ℝ has a dissociated subset of size ≥ k. In Lean f n is the sSup of all such k (dissociated = Mathlib's AddDissociated, i.e. distinct subset sums), and le_f states that any k with the property satisfies k ≤ f n. This holds because the set of valid k is bounded by n (an n-element subset of ℝ exists and B ⊆ A), which is how it is proved (le_csSup). Correct and proved in the file. Faithful."
+    }
+]

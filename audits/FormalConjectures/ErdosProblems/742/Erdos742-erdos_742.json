@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/742 (the Murty–Simon/Plesník conjecture): if G on n vertices has diameter 2 and deleting any edge increases the diameter, does G have at most n²/4 edges? The Lean statement: every finite G with IsDiameter2Critical G (G.diam = 2 and for each edge e, (G − e).diam ≠ 2) has |E(G)| ≤ n²/4 (ℕ floor, equivalent for an integer edge count). With Mathlib's diam, a disconnected graph has diam 0, so an edge deletion that disconnects G counts as 'increasing the diameter', as it should, and deletions cannot decrease the diameter below 2. Stated for all n (the page records Füredi's proof only for large n, so 'open' is appropriate for the full statement). Faithful."
+    }
+]

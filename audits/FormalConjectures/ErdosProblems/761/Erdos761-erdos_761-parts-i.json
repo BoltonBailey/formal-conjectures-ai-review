@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/761: δ(G) is the minimum k such that in any orientation of G there is a k-colouring with no monochromatic oriented cycle; 'Must a graph with large chromatic number have large dichromatic number?' (Erdős–Neumann-Lara). The Lean dichromaticNumber is the infimum over k of Dicolorable G k = ∀ orientation D (IsOrientation: D ⊆ G and exactly one direction per edge), ∃ c : V → Fin k with every colour class acyclic (no closed TransGen walk inside the class), matching the definition (∀ orientation ∃ colouring). The statement, ∀ k ∃ m such that every finite G with χ(G) ≥ m has δ(G) ≥ k, is the standard reading of 'large chromatic number forces large dichromatic number', restricted to finite graphs as the docstring explains. Faithful yes/no formulation."
+    }
+]

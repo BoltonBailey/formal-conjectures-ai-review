@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/394: with t_k(n) the least m such that n | m(m+1)⋯(m+k−1), 'Erdős and Hall conjecture that the sum [Σ_{n≤x} t_2(n)] is o(x²/(log x)^c) for any c < log 2'. In Lean t k n = sInf {m > 0 : n ∣ ∏_{i<k} (m+i)} (positive m, so t_2(p) = p − 1 as on the page; the set is nonempty, e.g. m = n), and the statement is ∀ c < log 2, (x ↦ Σ_{n=1}^{⌊x⌋} t 2 n) =o[atTop] (x ↦ x²/(log x)^c) over real x. This matches the conjecture exactly (it is consistent with the trivial lower bound x²/log x since log 2 < 1). Faithful."
+    }
+]

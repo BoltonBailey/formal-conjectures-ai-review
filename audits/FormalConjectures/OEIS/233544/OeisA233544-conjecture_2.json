@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A233544, Zhi-Wei Sun's conjecture (ii): 'Any integer n > 1 can be written as k + m with k > 0 and m > 0 such that sigma(k)^2 + phi(m) (or sigma(k) + phi(m)^2) is prime.' The Lean statement takes the first alternative: for n > 1, ∃ k, m > 0 with n = k + m and σ(k)² + φ(m) prime (σ 1 = sum of divisors). The parenthetical 'or' is formalised as a separate conjecture (conjecture_3), which is the right reading of Sun's two parallel claims. Faithful."
+    }
+]

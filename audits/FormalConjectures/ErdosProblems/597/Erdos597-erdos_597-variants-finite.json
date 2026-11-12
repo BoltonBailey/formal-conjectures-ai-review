@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/597: for G with ≤ ℵ₁ vertices, no K₄ and no K_{ℵ₀,ℵ₀}, is ω₁² → (ω₁ω, G)²? 'What about finite G?' The Lean variant asks, for every finite K₄-free graph G on a type W, whether OrdinalGraphRamsey (ω₁^2) (ω₁·ω) G holds: every red/blue edge partition of the complete graph on ω₁² has a red clique of order type ω₁·ω or an injective copy of G (not necessarily induced) in blue. For finite G the K_{ℵ₀,ℵ₀} and cardinality hypotheses are automatic, so this is exactly the finite case, stated positively as a yes/no question. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/971: with p(a,d) the least prime ≡ a (mod d), Erdős [Er49c] 'also proved that, for any ε > 0, p(a,d) < ε φ(d) log d for ≫_ε φ(d) many values of a'. The Lean statement: ∀ ε > 0, ∃ C > 0 (depending on ε), eventually in d, C·φ(d) ≤ #{a < d : gcd(a,d) = 1 ∧ leastCongruentPrime a d < ε φ(d) log d}. Restricting to reduced residues a < d coprime to d is the natural reading (only those classes contain primes, by Dirichlet, so leastCongruentPrime is a genuine minimum there), and the ≫_ε constant is allowed to depend on ε. Faithful."
+    }
+]

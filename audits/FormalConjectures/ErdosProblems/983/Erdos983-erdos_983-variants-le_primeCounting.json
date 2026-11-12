@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/983: 'It is trivial that f(k,n) ≤ π(n)' (for π(n) < k ≤ n), where f(k,n) is the least r such that any k-subset A of [1,n] has r primes with more than r elements of A composed only of those primes. The Lean variant: if π(n) < k then f k n ≤ π(n); it is proved in the file by taking S = all primes ≤ n, whereupon every element of A is S-smooth and k > π(n) = |S|. Correct, consistent with the definition, and appropriately tagged textbook. Faithful."
+    }
+]

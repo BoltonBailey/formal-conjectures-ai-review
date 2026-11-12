@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1166 (which cites Erdős–Taylor's bound T_n ≪ (log n)² for the maximal number of visits) and the introduction of Dembo–Peres–Rosen–Zeitouni, Acta Math. 186 (2001), which quotes Erdős and Taylor [(3.11)]: almost surely 1/(4π) ≤ liminf T*_n/(log n)² ≤ limsup T*_n/(log n)² ≤ 1/π for planar simple random walk. The Lean statement: for X satisfying IsSimpleRandomWalkSteps (independent steps uniform on the four unit vectors), almost surely for every ε > 0, eventually 1/(4π) − ε ≤ maxLocalTime/(log n)² and eventually maxLocalTime/(log n)² ≤ 1/π + ε. This is equivalent to the liminf/limsup bounds and avoids junk-value issues. maxLocalTime counts visits at times 0..n (including the start), changing T*_n by at most 1, which is negligible against (log n)². Faithful."
+    }
+]

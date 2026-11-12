@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/944: in the r = 1 case (Dirac's conjecture: a k-vertex-critical graph with no critical edge), 'Lattanzio [La02] proved there exist such graphs for all k such that k − 1 is not prime.' The Lean variant: for k ≥ 4 with k − 1 not prime, there exist V and G with G.IsErdos944 k 1, i.e. G.IsCritical k (χ = k and every vertex deletion lowers χ) and every critical edge set (deletion lowers χ) has more than one element — equivalently, no single edge is critical (the empty set is never critical). Since the witness can be taken finite, the use of ncard for edge sets causes no issue. Faithful."
+    }
+]

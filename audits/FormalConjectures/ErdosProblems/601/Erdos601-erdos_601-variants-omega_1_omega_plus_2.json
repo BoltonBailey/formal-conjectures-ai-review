@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Compared against erdosproblems.com/601 (for which limit ordinals α must every graph on α have an infinite path or an independent set of order type α? EHM70 proved it for α < ω₁^{ω+2}; Erdős offered $250 for 'showing what happens when α = ω₁^{ω+2}'; Larson proved it for all α < 2^ℵ₀ under Martin's Axiom) and the zbMATH/MaRDI review of Baumgartner–Larson, 'A diamond example of an ordinal graph with no infinite paths', Ann. Pure Appl. Logic (1990), which states that if Jensen's ◇ holds then α ↛ (ω₁^{ω+2}, infinite path)² for all α < ω₂. As a transcription, HasPathOrIndepSetOfType (ω_1 ^ (ω+2)) is accurate (an injective ℕ-sequence with consecutive adjacencies is a one-way infinite path; the independent set must have order type ω₁^{ω+2}). The discrepancy is in its status and documentation: taking α = ω₁^{ω+2} < ω₂ in Baumgartner–Larson, ◇ (true in L) refutes the statement, while MA + 2^ℵ₀ = ℵ₂ (where ω₁^{ω+2} < 2^ℵ₀) proves it by Larson's theorem. So the statement is independent of ZFC (and of Lean's foundations), and can be neither proved nor disproved. The theorem is nonetheless tagged 'research open' and its docstring says 'Erdős conjectured the positive answer'; neither the file nor the erdosproblems page mentions the Baumgartner–Larson result. The formula is a faithful reading of the question at ω₁^{ω+2}, but the problem's actual resolution (independence) cannot be reached through this statement, and the open categorisation is misleading. The same independence affects erdos_601.variants.universal, which ◇ refutes, so that one is not provable either."
+    }
+]

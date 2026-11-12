@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/995: Erdős constructed a lacunary sequence and f ∈ L²([0,1]) such that, for every ε > 0 and almost all α, limsup S_N(α)/(N (log log N)^{1/2−ε}) = ∞, where S_N(α) = Σ_{k≤N} f({α n_k}). The Lean variant asserts the existence of a lacunary n and f ∈ L²([0,1]) with ∫₀¹ f = 0 such that for every ε > 0, for a.e. α ∈ [0,1], the limsup (in EReal) of partialSum/(N (log log N)^{1/2−ε}) is ⊤. The added mean-zero condition is the right normalisation (without it f ≡ 1 would make the claim trivial), so it only strengthens the statement to the intended one; restricting α to [0,1] is harmless by periodicity, and summing over k < N vs 1 ≤ k ≤ N is an index shift. Faithful."
+    }
+]

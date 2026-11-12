@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html via the Wayback Machine; the live site did not respond), Conjecture 16 (status T): 'If G is a simple connected graph, then b(G) ≥ 2(rad(G)−1) + maximum of l(v)', with b(G) the order of a largest induced bipartite subgraph and l(v) the local independence number. The Lean statement for connected G on a finite nontrivial type: 2·(rad − 1) + max_v indepNeighborsCard G v ≤ b G in ℝ, with rad = G.radius.toNat (finite for connected finite graphs, so toNat is the true radius) and real subtraction avoiding truncation. Faithful."
+    }
+]

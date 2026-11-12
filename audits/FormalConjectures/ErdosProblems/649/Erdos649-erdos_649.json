@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/649: with P(m) the greatest prime factor, 'Is it true that, for any two primes p, q, there exists some integer n such that P(n) = p and P(n+1) = q?' The page explains the answer as written is no (e.g. p = 2, q = 7, since 2^k ≢ −1 mod 7; Tong and Sampaio give stronger failures). The Lean statement is the negation of ∀ primes p ≠ q, ∃ n, maxPrimeFac n = p ∧ maxPrimeFac (n+1) = q. Adding p ≠ q is the right repair (p = q is trivially impossible since p cannot divide both n and n+1), and the negation is witnessed by the proved no_solution_two_seven variant. Faithful."
+    }
+]

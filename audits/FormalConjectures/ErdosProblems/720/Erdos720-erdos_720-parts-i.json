@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/720: with R̂(G) the size Ramsey number, 'Is it true that, if P_n is the path of length n, then R̂(P_n)/n → ∞?' — answered no by Beck, who proved R̂(P_n) ≪ n. The Lean statement is ¬ Tendsto (n ↦ R̂(pathGraph (n+1))/n) atTop atTop; pathGraph (n+1) has n+1 vertices and n edges, i.e. the path of length n, and sizeRamsey G G is the least edge count of a finite graph F such that every red/blue split of F's edges contains a copy of G in red or in blue, matching the definition. The negation of divergence is exactly the negative answer (and follows from Beck's linear bound). Faithful."
+    }
+]

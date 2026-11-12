@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/999 (the Duffin–Schaeffer equivalence: for almost all α, |α − p/q| < f(q)/q has infinitely many coprime solutions iff Σ φ(q) f(q)/q = ∞; 'Erdős proved this in the special case when f(q)q is bounded'). The Lean variant states the equivalence for nonnegative real f with f(q)·q ≤ C for all q: (∀ᵐ x, IsApproximable f x) ↔ ¬ Summable (q ↦ φ(q) f(q)/q), where IsApproximable asks for infinitely many q > 0 with some p coprime to q satisfying the inequality (for fixed q only finitely many p qualify, so this equals 'infinitely many solutions'). Using real-valued f ≥ 0 is correct (the page's 'f : ℕ → ℕ' is evidently a typo, since integer f ≥ 1 would make the condition trivial). The statement is true (it is a special case of Koukoulopoulos–Maynard). Documentation caveat: to my knowledge Erdős (1970) proved the case f(q) ∈ {0, ε/q}, and the general bounded case f(q) = O(1/q) is due to Vaaler (1978); the docstring follows the website in attributing the bounded case to Erdős [Er64b]. Mathematically faithful; attribution possibly inaccurate."
+    }
+]

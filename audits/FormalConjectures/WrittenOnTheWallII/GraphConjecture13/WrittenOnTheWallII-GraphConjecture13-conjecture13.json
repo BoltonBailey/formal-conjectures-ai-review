@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived copy of cms.uhd.edu/faculty/delavinae/research/wowII/all.html, via the Wayback Machine since the live site did not respond), Conjecture 13 (marked T, proved by DeLaVina and Waller 2004): 'If G is a simple connected graph, then b(G) ≥ diam(G) + maximum of l(v) − 1', where b(G) is the order of a largest induced bipartite subgraph and l(v) is the local independence number (independence number of the neighbourhood of v). The Lean statement for a connected G on a finite nontrivial type: diam G + max_v indepNeighborsCard G v − 1 ≤ b G (in ℝ), with indepNeighborsCard = indepNum of G induced on the neighbour set and b = largest induced bipartite subgraph size. For connected finite graphs Mathlib's diam is the usual diameter. Faithful."
+    }
+]

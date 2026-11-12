@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/820: \"Let H(n) be the smallest integer l such that there exist k<l with (k^n−1,l^n−1)=1. Is it true that H(n)=3 infinitely often? (That is, (2^n−1,3^n−1)=1 infinitely often?)\" The Lean H n is sInf of l with some 2 ≤ k < l and Nat.Coprime (k^n−1) (l^n−1). Restricting k ≥ 2 is the intended reading (k=1 would make (0, l^n−1) and k=0 is degenerate; the docstring notes this is needed to match H(1)=3 from the source, and the file's test lemma H_one_to_ten confirms the listed values 3,3,3,6,3,18,3,6,3,12). The theorem states {n | H n = 3}.Infinite, which by the proven H_eq_three_iff is exactly \"(2^n−1,3^n−1)=1 infinitely often\". Open status matches the site. The \"estimate H(n)\" part is deliberately left to variants. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/823: the main question asks, for α ≥ 1, for sequences n_k, m_k with n_k/m_k → α and σ(n_k) = σ(m_k), and 'Erdős [Er74b] writes it is easy to prove the analogous result for φ(n)'. The Lean variant states exactly that analogue: for every real α ≥ 1 there are sequences of positive integers n_k, m_k with φ(n_k) = φ(m_k) for all k and n_k/m_k → α. Restricting to positive integers avoids the degenerate φ(0) = 0 and division by zero. Faithful."
+    }
+]

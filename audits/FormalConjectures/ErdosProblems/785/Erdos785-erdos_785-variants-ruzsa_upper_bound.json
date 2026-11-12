@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/785: 'Ruzsa [Ru17] has constructed, for any function w(x) → ∞, such a pair of sets with A(x)B(x) − x < w(x) for infinitely many x', where 'such a pair' means infinite sets of positive integers with A+B containing all large integers and A(x)B(x) ~ x (exact additive complements). The Lean statement: for every w : ℕ → ℝ tending to ∞ there exist infinite A, B ⊆ ℕ with 0 ∉ A, B, IsExactAdditiveComplement A B (IsAdditiveComplement = eventually every n ∈ A+B, plus A(x)B(x)/x → 1 with A(x) = |A ∩ [1,x]|), and ∃ᶠ x, A(x)B(x) − x < w(x). This matches the page's description exactly. Faithful."
+    }
+]

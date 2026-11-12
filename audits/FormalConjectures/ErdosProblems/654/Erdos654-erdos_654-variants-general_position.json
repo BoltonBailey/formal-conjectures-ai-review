@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/654: 'In [Er87b] and [ErPa90] Erdős and Pach ask this under the additional assumption that there are no three points on a line (so that the points are in general position), although they only ask the weaker question whether there is a lower bound of the shape (1/3 + c)n for some constant c > 0.' The Lean variant asserts ∃ c > 0 such that for all large n and every n-point A ⊆ ℝ² in general position (InGeneralPosition: no three collinear and no four concyclic), some x ∈ A has more than (1/3 + c)n distinct distances to the other points (distinctDistancesFrom A x = #{dist(y,x) : y ∈ A \\ {x}}). This is exactly the Erdős–Pach question in its positive form. Faithful."
+    }
+]

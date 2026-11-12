@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/813: h(n) is the least clique number forced in n-vertex graphs where every 7 vertices contain a triangle; the question asks whether n^{1/3+c₁} ≪ h(n) ≪ n^{1/2−c₂} for some c₁, c₂ > 0. This variant is the upper half: ∃ c₂ > 0 with h(n) = O(n^{1/2−c₂}). In Lean h n = sInf of clique numbers of graphs on Fin n satisfying EverySevenHasTriangle, i.e. the minimum clique number over such graphs, which equals the largest clique size guaranteed (the complete graph shows the set is nonempty; h(7) = 3 is checked in the file). Splitting the two halves is sensible since the lower half is already resolved by Bucić–Sudakov. Faithful."
+    }
+]

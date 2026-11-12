@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/837: A_k is the set of α ∈ [0,1] for which some β > α has the property that k-uniform sequences with liminf edge density > α contain growing subgraphs with liminf density > β, while the property can fail with ≥ α; what is A_3? (with A_2 = {1 − 1/k : k ≥ 1}). The Lean value question equates {α ∈ [0,1] | ∃ β > α, HasDensityJump 3 α β true ∧ ¬ HasDensityJump 3 α β false} with an unknown set, where HasDensityJump r α β strict says: for every host sequence on v(n) → ∞ vertices with r-uniform G_n and liminf density > α (strict) or ≥ α (weak), there are vertex sets S_n with |S_n| → ∞ and liminf density of the induced subhypergraphs > β. Using induced subgraphs loses nothing (they maximise density on a given vertex set), and using the same β in both clauses is the right reading: I checked that for k = 2 this definition gives exactly {1 − 1/k} via Erdős–Stone and Turán graphs (e.g. α ∈ (1−1/k, 1−1/(k+1)) admits a weak jump, while α = 1−1/k admits only a strict one), matching the known value of A_2. Faithful."
+    }
+]

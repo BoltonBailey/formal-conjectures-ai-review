@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/867: Coppersmith and Phillips [CoPh96] prove that the maximal size of A ⊆ {1,…,N} with no a_i + a_{i+1} + ⋯ + a_j ∈ A (i < j) satisfies (13/24)N − O(1) ≤ |A|. The Lean variant: ∃ C, ∀ N, ∃ A ⊆ Icc 1 N with ConsecutiveSumFree A and (13/24)N − C ≤ |A|, where ConsecutiveSumFree (sums of the elements of A in any interval containing ≥ 2 of them avoid A) is equivalent to the source's condition on consecutive blocks. This is the stated lower bound with a uniform O(1). Faithful."
+    }
+]

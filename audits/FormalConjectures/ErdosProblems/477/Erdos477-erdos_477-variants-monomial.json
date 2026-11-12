@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/477 (is there a polynomial f of degree ≥ 2 and A ⊆ ℤ such that every integer is uniquely a + f(k)?), which records that GPT (prompted by Price and pipeline-math) proved such an A exists for f(n) = n^d for every even d ≥ 6. The Lean variant negates the claim attributed to Sekanina that no X^k (k ≥ 2) admits such a complement: ¬ ∀ k ≥ 2, ∀ A ⊆ ℤ, ∃ z with no unique pair (a,b) ∈ A × range(X^k) with z = a + b. This follows from the k = 6 case, and the ∃! over pairs matches 'exactly one a ∈ A and b in the image' (b is determined by a). Faithful."
+    }
+]

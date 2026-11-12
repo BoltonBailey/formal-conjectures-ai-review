@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/373: the finiteness of solutions of n! = a_1!⋯a_k! with n−1 > a_1 ≥ ⋯ ≥ a_k ≥ 2 'would follow if P(n(n+1))/log n → ∞', P the largest prime factor (see Problem 368). The Lean variant: assuming Tendsto (n ↦ maxPrimeFac(n(n+1))/log n) atTop atTop, the solution set S is finite. S consists of (n, l) with n! = ∏ a! over l, l sorted non-increasingly (so headI l = a_1), a_1 < n − 1 and all a_i ≥ 2, matching the source exactly (empty or singleton lists cannot occur). The conditional is a direct transcription of the stated implication. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/761 (dichromatic number δ(G): the least k such that every orientation of G admits a k-colouring without monochromatic directed cycles). In Lean dichromaticNumber G = ⨅_{k : Dicolorable G k} k in ℕ∞, and the lemma states Dicolorable G k → dichromaticNumber G ≤ k. This is immediate from the definition (iInf₂_le), correct, and proved in the file. Faithful."
+    }
+]

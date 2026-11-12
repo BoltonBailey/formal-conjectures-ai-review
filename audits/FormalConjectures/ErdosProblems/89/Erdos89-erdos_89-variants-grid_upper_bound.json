@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/89: 'A √n×√n integer grid shows that this [n/√log n] would be the best possible.' The Lean statement says minimalDistinctDistances ℝ² n (the least number of distinct distances among n-point subsets of the plane) is O(n/√log n) as n → ∞. This is exactly the Erdős grid upper bound; it holds for all n, not just perfect squares, since any n points of the ⌈√n⌉×⌈√n⌉ grid determine at most as many distances as the full grid, which is O(n/√log n) by the Landau–Ramanujan count of sums of two squares. Faithful."
+    }
+]

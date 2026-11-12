@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/46: 'In [ErGr80] they also ask for a monochromatic representation of any a/b > 0', which the page shows follows from Croot's theorem (infinitely many disjoint monochromatic solutions of 1 = Σ 1/n_i, rescaled by b, pigeonholed to a same-coloured disjoint family, and summed). The Lean variant: for every finite colouring 𝓒 of ℕ and every rational q > 0, there is a finite set S of distinct integers ≥ 2 with Σ_{n∈S} 1/n = q and all elements of S the same colour. Distinct denominators (Finset) and n ≥ 2 match the source's setting; large q is fine since the harmonic series diverges. Faithful."
+    }
+]

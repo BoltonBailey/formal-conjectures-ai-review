@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/703: for fixed r and n large, Frankl and Füredi showed T(n,r) (the maximal family of subsets of [n] with |A ∩ B| ≠ r for all A, B including A = B) is attained by {A : |A| > (n+r)/2 or |A| < r} when n+r is odd and {A : |A \\ {1}| ≥ (n+r)/2 or |A| < r} when n+r is even. The Lean variant states, for each r, that eventually in n, T n r equals the cardinality of exactly these families (with element 0 of Fin n playing the role of 1). I checked the families are admissible (two large sets meet in ≥ r+1 points, any intersection with a set of size < r has size < r, and large sets have size ≠ r), and that for r = 0 both formulas give 2^{n−1}, consistent with the proved T(n,0) = 2^{n−1}. Faithful."
+    }
+]

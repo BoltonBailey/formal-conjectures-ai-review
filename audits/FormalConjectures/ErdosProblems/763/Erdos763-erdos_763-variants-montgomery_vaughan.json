@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/763: Erdős–Fuchs showed Σ_{n≤N} 1_A∗1_A(n) = cN + o(N^{1/4}/(log N)^{1/2}) is impossible, and 'the error term here was improved to o(N^{1/4}) by Jurkat (unpublished) and Montgomery and Vaughan [MoVa90]'. The Lean statement: there is no A ⊆ ℕ and c > 0 with (Σ_{n=0}^{N} sumRep A n) − cN = o(N^{1/4}), where sumRep A n = #{(a,b) ∈ A² : a + b = n} (ordered pairs, i.e. 1_A∗1_A(n)). This is the stated strengthening (o(N^{1/4}) is a weaker hypothesis than o(N^{1/4}/√log N), so ruling it out is stronger). The sum from n = 0 versus n ≥ 1 only changes the left side by a bounded amount. Faithful."
+    }
+]

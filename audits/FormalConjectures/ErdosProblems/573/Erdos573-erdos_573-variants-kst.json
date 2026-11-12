@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/573: Kővári–Sós–Turán showed that the maximum number of edges in an n-vertex graph with no C_4 and no odd cycle is ~ (n/2)^{3/2}. The Lean statement uses cycleExtremalNumber with L = {4} ∪ {odd k ≥ 3}, i.e. the max edge count over graphs on Fin n that are (cycleGraph k)-free (non-induced subgraph containment) for each k ∈ L, and asserts it is asymptotically equivalent to (n/2)^{3/2}. Forbidding all odd cycles is the same as bipartiteness, so this is the bipartite C_4-free (Zarankiewicz z(n/2,n/2;2,2)-type) extremal number, whose asymptotics (n/2)^{3/2} are a known result (upper bound KST, lower bound from incidence graphs of projective planes). The docstring's caveat about attribution is accurate. Faithful."
+    }
+]

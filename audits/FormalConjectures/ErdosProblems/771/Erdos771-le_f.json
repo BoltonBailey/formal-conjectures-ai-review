@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/771, where f(n) is maximal such that for every m ≥ 1 some |S| = f(n) subset of {1,…,n} has no subset sum equal to m. In Lean f n = sSup {k | IsAdmissible n k} with IsAdmissible encoding exactly that property, and le_f states every admissible k satisfies k ≤ f n. This is correct because admissible k are bounded by n (IsAdmissible.le), and it is proved in the file via le_csSup. Faithful."
+    }
+]

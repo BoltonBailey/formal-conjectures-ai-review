@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A262813: a(n) = number of ordered ways to write n = x³ + y² + z(z+1)/2 with x, y ≥ 0, z > 0; conjecture 'a(n) = 1 only for n = 1, 9, 21, 35, 98, 152, 306' (n > 0, verified to 10^11). The Lean a n sums over x, y ∈ [0,n], z ∈ [1,n] (sufficient ranges) the indicator of x³ + y² + triangular z = n, matching the definition (tests a(1..5) = 1,2,2,2,2 agree with the data), and the statement for n > 0 is a n = 1 ↔ n ∈ {1,9,21,35,98,152,306}. The listed values have a(n) = 1 per the OEIS examples. Faithful."
+    }
+]

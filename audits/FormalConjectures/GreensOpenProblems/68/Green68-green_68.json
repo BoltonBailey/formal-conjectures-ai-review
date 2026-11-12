@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 68 of Ben Green's '100 open problems': 'Suppose that A ⊂ F_p^2 is a set meeting every line in at most 2 points. Is it true that all except o(p) points of A lie on a cubic curve?' The Lean statement: for every ε > 0 there is p₀ such that for every prime p ≥ p₀ and every A ⊆ (ZMod p)^2 with no 3-element subset collinear (MeetsLinesInAtMost 2, equivalent to meeting each line in ≤ 2 points), there is a nonzero F ∈ F_p[x,y] of total degree ≤ 3 with #{a ∈ A : F(a) ≠ 0} ≤ εp. Reading o(p) uniformly in A and 'cubic curve' as the zero set of a nonzero polynomial of degree ≤ 3 (including degenerate cubics) is the natural interpretation, explained in the docstring; for large p a nonzero degree-≤3 polynomial cannot vanish on all of F_p^2, so the condition is not trivialised. Green remarks the projective formulation is more natural, but for the o(p) question the affine one is equivalent (the line at infinity contributes at most 2 points of a projective arc). Faithful."
+    }
+]

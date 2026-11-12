@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html via the Wayback Machine), Conjecture 101 (status T): 'If G is a simple connected graph, then α(G) ≤ FLOOR[(n + alphacore(G))/2]'. The α-core in this literature (Boros–Golumbic–Levit, Levit–Mandrescu [LM11]) is the intersection of all maximum independent sets; the Lean alphaCore is the set of v with α(G − v) < α(G), which is the same set (v lies in every maximum independent set iff deleting it lowers α). The Lean statement, for connected G on a finite nontrivial type, is indepNum G ≤ (n + |alphaCore G|)/2 with ℕ floor division, a direct transcription (this is Hajnal's inequality, as the docstring notes). I could not find the WOWII definitions page text for 'alphacore' in the archive, so the identification relies on the standard notion. Faithful."
+    }
+]

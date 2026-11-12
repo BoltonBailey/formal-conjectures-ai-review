@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/522: Yakir [Ya21] proved R_n/(n/2) → 1 in probability, more precisely lim P(|R_n − n/2| ≥ n^{9/10}) = 0, where R_n is the number of roots (with multiplicity) in the closed unit disc of Σ_{k≤n} ε_k z^k with independent uniform ε_k ∈ {−1, 1}. The Lean variant: ∃ p → 0 such that for every probability space, n ≥ 2 and every KacCoefficients sequence on {−1,1} ⊂ ℂ (independent, uniform), P(|#roots in closedBall 0 1 − n/2| ≥ n^{9/10}) ≤ p(n). Since the law of R_n is the same for every such model, a uniform p exists iff the probability tends to 0, so this matches Yakir's statement; leading coefficients are ±1 ≠ 0, so the root multiset is the full set of n roots. Faithful."
+    }
+]

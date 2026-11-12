@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/977: the main question asks whether P(2^n − 1)/n → ∞, and 'In [Er65b] Erdős also asks about P(n!+1)'; the page adds that this case appears to be open, with Murty–Wong's conditional (1+o(1)) n log n and Lai's limsup ≥ 1 + 9 log 2. The Lean statement Tendsto (n ↦ maxPrimeFac(n!+1)/n) atTop atTop is the direct analogue of the main question for n!+1, which is the natural reading of 'also asks about P(n!+1)' and is consistent with the cited partial results. Nat.maxPrimeFac is the greatest prime factor. Faithful."
+    }
+]

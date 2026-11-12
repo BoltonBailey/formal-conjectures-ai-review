@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/567 for G = K_{3,3} (the case Erdős singles out in [Er95]): is it true that R(G,H) ≪ m for every H with m edges and no isolated vertices, i.e. is K_{3,3} Ramsey size linear? K33 is completeBipartiteGraph (Fin 3) (Fin 3), and IsRamseySizeLinear G says ∃ c > 0 such that for every finite H (on Fin n) with all degrees positive, graphRamsey G H ≤ c·|E(H)|, where graphRamsey G H is the least N such that every graph C on Fin N contains G or its complement contains H (the two-colour Ramsey number R(G,H)). The uniform constant c is the meaning of ≪. Faithful (positive form of the yes/no question)."
+    }
+]

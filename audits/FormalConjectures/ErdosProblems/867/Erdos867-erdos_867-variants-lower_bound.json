@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/867: 'Taking A = (N/2, N] ∩ ℕ shows |A| ≥ N/2 − O(1) is possible' for sets A = {a_1 < … < a_t} ⊆ {1,…,N} with no a_i + a_{i+1} + … + a_j ∈ A (i < j). ConsecutiveSumFree A says that for every interval [m,n] containing ≥ 2 elements of A, the sum of those elements is not in A; the elements of A in an interval are exactly a block of consecutive a_i, so this is equivalent to the source condition. The statement ∃ C, ∀ N, ∃ A ⊆ [1,N] consecutive-sum-free with N/2 − C ≤ |A| is the stated lower bound, and it is proved in the file with A = Icc (N/2+1) N and C = 0. Faithful."
+    }
+]

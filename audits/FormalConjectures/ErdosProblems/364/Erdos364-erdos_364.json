@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/364: 'Are there any triples of consecutive positive integers all of which are powerful (i.e. if p | n then p^2 | n)?', where Erdős believed the answer is no. The Lean statement ¬ ∃ n, Powerful n ∧ Powerful (n+1) ∧ Powerful (n+2), with Powerful = Nat.Full 2 (every prime factor p of n has p^2 | n), formalises the expected negative answer. Allowing n = 0 is harmless: 0 and 1 are powerful but 2 is not, so the triple starting at 0 is not a counterexample, and the statement is equivalent to the one over positive integers. The theorem is stated as a claim (no @[question] tag) in the direction Erdős conjectured, which is acceptable since he explicitly believed the answer is no. Faithful."
+    }
+]

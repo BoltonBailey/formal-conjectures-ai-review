@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/959: for A ⊂ ℝ² of size n with distance multiplicities ordered f(d_1) ≥ f(d_2) ≥ ⋯, 'Estimate max (f(d_1) − f(d_2))' over all A of size n. In Lean frequency counts unordered pairs (i < j) at distance d, multiplicityGap P = sup over distances d of f(d) − (largest multiplicity of another distance) (truncated, so this equals f(d_1) − f(d_2), and 0 on ties), Admissible requires n distinct points with at least two distinct distances (so d_2 exists), and extremalGap n is the largest attainable gap (found within the valid range [0, C(n,2)]). The value question asks for answer with extremalGap n = Θ(answer n), the natural reading of 'estimate' (the page records ≫ n log n and a conjectured n^{1+c/log log n}). Faithful."
+    }
+]

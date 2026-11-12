@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1182, which records that [BEFRS80] proved n^{3/2}(log n)^{1/2} ≪ f(n) ≪ n^{5/3}(log n)^{2/3}, where f(n) is the maximum number of edges of a connected n-vertex graph G with R(K_3,G) = 2n−1. In Lean, f n is the sSup of edge counts of connected graphs on Fin n satisfying IsTriangleGood (graphRamsey ⊤_3 G = 2n−1); the set is nonempty (paths) and bounded by n choose 2, so sSup is a true maximum. The statement ∃ A > 0, eventually A·n^{3/2}·√(log n) < f n is exactly the ≫ lower bound (strict vs non-strict is immaterial after shrinking A). Faithful."
+    }
+]

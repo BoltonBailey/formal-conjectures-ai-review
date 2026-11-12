@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/902: f(n) is the least number of vertices of a tournament in which every set of n vertices is dominated by some other vertex, and 'Szekeres and Szekeres [SzSz65] proved that f(3) = 19'. The Lean f n = sInf of m ≥ n admitting a tournament on Fin m with HasPropertyS (every n-set E has some x ∉ E with x → e for all e ∈ E); the condition n ≤ m correctly excludes vacuous small tournaments, and the file's proofs of f(1) = 3 confirm the definitions behave as intended. The statement f 3 = 19 is exactly the cited result. Faithful."
+    }
+]

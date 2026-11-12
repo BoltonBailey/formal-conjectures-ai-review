@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/983 and the original Erdős paper [Er70b] (renyi.hu/~p_erdos/1970-20.pdf), p. 139, display (14): f(π(x)+1, x) ≤ 2s + 1, where s is the number of primes up to x^{1/2}, with f(k,x) the least r such that every k-element A ⊆ [1,x] has r primes with more than r elements of A composed only of them. The Lean statement f(π(n)+1, n) ≤ 2π(⌊√n⌋) + 1 for every n matches (π(⌊√n⌋) = π(√n)). f is defined as the sInf of admissible r with numSmooth counting elements all of whose prime factors lie in S (1 counted, as in the source's 'composed of the primes'); for k = π(n)+1 the admissible set is nonempty so this is the true minimum. Faithful."
+    }
+]

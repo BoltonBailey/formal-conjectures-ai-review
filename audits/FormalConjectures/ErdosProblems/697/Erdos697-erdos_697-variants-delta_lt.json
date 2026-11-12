@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/697: \"It is trivial that δ(m,α) < (m^α+1)/m → 0 if α < 1\", where δ(m,α) is the density of integers divisible by some d ≡ 1 (mod m) with 1 < d < exp(m^α). In Lean δ m α is the (chosen) density from density_exists, and the variant states δ m α < (m^α + 1)/m for m > 0 and all real α. I checked this holds in this generality: by subadditivity δ ≤ Σ_{k≥1, 1+km<e^{m^α}} 1/(1+km) < (1/m)·H_K with K < e^{m^α}/m, so δ < (1/m)(1 + m^α − log m) ≤ (m^α+1)/m whenever some d exists; when no d exists δ = 0 < (m^α+1)/m. Edge case m = 1 (δ = 1/2 < 2) also fine. The m > 0 hypothesis is needed and correctly explained. Faithful."
+    }
+]

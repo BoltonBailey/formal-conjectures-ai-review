@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/964 (Eberhard proved that all positive rationals can be written as τ(n+1)/τ(n)) and the abstract of Eberhard, arXiv:2505.00727, which says the sequence of ratios 'attains every positive rational infinitely many times'. The Lean statement: for every rational q > 0, {n | 0 < n ∧ tauRatio n = q} is infinite, with tauRatio n = σ₀(n+1)/σ₀(n) in ℝ and q cast to ℝ. Excluding n = 0 avoids the junk value. This matches the abstract exactly. Faithful."
+    }
+]

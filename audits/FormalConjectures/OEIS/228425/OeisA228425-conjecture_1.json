@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A228425: a(n) = number of ways to write n = x + y (x, y > 0) with x(x+1)/2 + y² prime; 'Conjecture: a(n) > 0 for all n > 1.' The Lean a n counts x ∈ [1, n) with x(x+1)/2 + (n−x)² prime (y = n − x ≥ 1, ℕ division exact since x(x+1) is even), i.e. ordered pairs as in the OEIS definition (tests a(1..5) = 0,1,1,2,2 match the data), and the statement is a n > 0 for n > 1. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/690: with d_k(p) the density of integers whose k-th smallest prime factor is p, is d_k(p) unimodular in p for every fixed k ≥ 1? (no: Cambie shows unimodality fails for 4 ≤ k ≤ 20). The Lean statement negates: ∀ k ≥ 1, ∀ d recording the densities d(p) of kthPrimeFactorSet k p (n > 0, p | n, exactly k−1 smaller prime factors) at all primes p, d is unimodal on primes (weakly increasing up to some prime m, weakly decreasing after). Since these densities exist (a separate proved variant), quantifying over such d is equivalent to speaking of d_k itself, and only values at primes matter. The negation is witnessed by any k in 4..20. Faithful."
+    }
+]

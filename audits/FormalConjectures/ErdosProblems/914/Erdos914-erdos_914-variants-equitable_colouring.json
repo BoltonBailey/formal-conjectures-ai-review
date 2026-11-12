@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/914: 'Equivalently, every graph with rm vertices and maximum degree at most m−1 has a proper vertex colouring with m colours in which every colour class has exactly r vertices (an equitable colouring).' The Lean variant states exactly this for r ≥ 2, m ≥ 1: a finite G on rm vertices with maxDegree ≤ m − 1 has a proper colouring C : G.Coloring (Fin m) with every colour class of size r. This is the Hajnal–Szemerédi theorem (equivalent to the main statement by taking complements). Faithful."
+    }
+]

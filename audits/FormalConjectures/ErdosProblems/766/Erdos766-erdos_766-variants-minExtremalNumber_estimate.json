@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/766: f(n;k,l) = min ex(n;G) over graphs G with k vertices and l edges; 'Give good estimates for f(n;k,l) in the range k < l ≤ k²/4.' The Lean variant (the file's main parts follow [Er64c]'s f_1, while this variant uses the website's function) defines minExtremalNumber n k l = ⨅ over G on Fin k with l edges of extremalNumber n G (in ℕ∞; finite in the stated range since such G exist), and asks, as a value question, for a function answer k l with n ↦ minExtremalNumber n k l = Θ(answer k l n) for each k < l ≤ ⌊k²/4⌋. Reading 'good estimates' as determining the order of growth in n for fixed k and l is the natural formalisation: in this range G can be bipartite, so ex(n;G) = o(n²) and the content is the growth rate. As with all value questions, the answer must be explicit to count (the function itself would be a trivial witness). Faithful."
+    }
+]

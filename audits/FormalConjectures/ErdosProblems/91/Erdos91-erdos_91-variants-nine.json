@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/91: 'In [Er87b] Erdős says that there are at least two non-similar examples for 6 ≤ n ≤ 9' of n-point planar sets minimising the number of distinct distances. The Lean variant ¬ UniqueMinimizer 9 says there exist two optimal 9-point sets (|A| = 9 and distinctDistances A = minimalDistinctDistances ℝ² 9) that are not related by a dilation equivalence ℝ² ≃ᵈ ℝ² (bijections scaling all distances by a fixed factor, i.e. similarities of the Euclidean plane). This is exactly the n = 9 case of Erdős's claim. Faithful."
+    }
+]

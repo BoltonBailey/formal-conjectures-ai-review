@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/424: starting from 2, 3 and repeatedly appending a_i a_j − 1 (i ≠ j), does the set of integers that appear have positive density? The page explains that 'positive density' most likely means positive lower density (the 'almost all' reading in [ErGr80] is trivially false since no n ≡ 1 mod 3 appears). The Lean generatedSet is the union of A_0 = {2,3}, A_{n+1} = A_n ∪ {xy − 1 : x ≠ y ∈ A_n}; using distinct values rather than distinct indices is equivalent since the elements of a set are distinct, and truncated subtraction is harmless (x, y ≥ 2). The statement 0 < generatedSet.lowerDensity is the positive-lower-density reading (resolved by Korsky), with the stronger exact-density reading split off as a separate variant. Faithful."
+    }
+]

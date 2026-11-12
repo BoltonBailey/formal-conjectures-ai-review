@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/619: Erdős, Gyárfás and Ruszinkó [EGR98] proved 'there exist connected graphs G on n vertices with h_3(G) ≥ n − c for some constant c > 0', where h_r(G) is the minimum number of edges to add to a triangle-free G to reach diameter ≤ r while staying triangle-free (the EGR98 abstract says the maximum of h_3 is n − 1). The Lean statement: ∃ c > 0, ∀ n > 0, ∃ connected triangle-free G on an n-element type with n − c ≤ minNewEdges 3 G, where minNewEdges 3 G = sInf of |E(H) \\ E(G)| over triangle-free supergraphs H with ediam ≤ 3 (nonempty for connected triangle-free G by the add_edges_diam_three variant, so the sInf = 0 convention is not triggered). Quantifying over every n > 0 is fine since finitely many small n can be absorbed into c. I did not read the full EGR98 construction, but the statement matches the page and abstract. Faithful."
+    }
+]

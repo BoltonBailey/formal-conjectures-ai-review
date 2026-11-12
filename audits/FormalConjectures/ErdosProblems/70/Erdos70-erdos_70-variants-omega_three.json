@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/70: 'Let 𝔠 be the ordinal of the real numbers, β any countable ordinal, and 2 ≤ n < ω. Is it true that 𝔠 → (β, n)^3_2?' (Erdős–Rado proved 𝔠 → (ω+n, 4)^3_2). This variant states OrdinalCardinalRamsey3 (𝔠).ord ω 3: for every permutation-invariant red/blue colouring of triples of the well-order (𝔠).ord, there is a red set of order type ω or a blue set of size 3. This is true and trivial (a blue triple is itself a blue 3-set; otherwise every ω-sequence is red), as the docstring explains, and it carries a formal proof link. The discrepancy is that the problem's 𝔠 is the order type of ℝ (as used by RealCardinalRamsey3 for the main statement), whereas this variant uses the initial ordinal of the continuum, a different (well-ordered) structure; so it is not literally the n = 3, β = ω case of Problem 70, although that case is equally trivial (ℝ contains a copy of ω). The docstring flags the change ('stated for the initial ordinal'), but the main theorem's note 'compare omega_three' suggests a closer correspondence than exists. Mathematically correct; documentation slightly misleading."
+    }
+]

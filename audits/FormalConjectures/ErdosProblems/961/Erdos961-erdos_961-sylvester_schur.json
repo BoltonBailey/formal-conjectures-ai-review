@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/961: 'Sylvester and Schur (see [Er34]) proved f(k) ≤ k', i.e. every k consecutive integers greater than k include one divisible by a prime > k. The Lean statement Erdos961Prop k k (for k > 0) says: for every m ≥ k+1, some i ∈ [m, m+k) is not in Nat.smoothNumbers (k+1), i.e. (as i ≥ 2 is nonzero) i has a prime factor ≥ k+1. This is exactly the classical Sylvester–Schur theorem in the 'consecutive integers' form. Faithful."
+    }
+]

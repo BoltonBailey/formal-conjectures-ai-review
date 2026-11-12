@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/651, which states 'One can show that f_2(n) > f_3(n) > ⋯', where f_k(n) is the least N such that any N points in general position in ℝ^k contain n points in convex position. The Lean statement is the non-strict f (k+1) n ≤ f k n for k ≥ 2 and all n. The docstring explains the deviation: the strict version fails for small n (e.g. f_2(3) = f_3(3) = 3), and Pohoata–Zakharov state only the non-strict inequality, so the formal statement is the correct one. It holds by Valtr's projection argument: a generic projection of a general-position set in ℝ^{k+1} to ℝ^k is injective and keeps every ≤ k+1 points affinely independent, and points in convex position downstairs lift to points in convex position, so every N ∈ cardSet k n lies in cardSet (k+1) n (cardSet k n is nonempty for k ≥ 2, so the sInf junk value is not involved). Definitions (affine independence of ≤ k+1 points, ConvexIndependent subsets) match the source notions. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/986: for fixed s ≥ 3, R(s,k) ≫ k^{s−1}/(log k)^c for some c = c(s) > 0 (proved by Bradač). The Lean statement: ∀ s ≥ 3, ∃ c > 0 and C > 0 such that eventually in k, classicalRamsey s k ≥ C·k^{s−1}/(log k)^c, where classicalRamsey s k = R(K_s, K_k); the exponent s − 1 is natural subtraction (exact since s ≥ 3). c and C may depend on s, as intended. Faithful."
+    }
+]

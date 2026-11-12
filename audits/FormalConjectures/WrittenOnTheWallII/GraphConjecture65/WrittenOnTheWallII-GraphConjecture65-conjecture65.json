@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html via the Wayback Machine), Conjecture 65 (listed as open): 'If G is a simple connected graph, then f(G) ≥ dist_min(A) + CEIL(dist_min(M)/3), where A is the set of vertices of minimum degree and M is the set of vertices of maximum degree' (f = largest induced forest). The Lean theorem negates the universal statement over connected graphs on finite nontrivial types, with A, M as defined and distMin the least distance between two distinct vertices of the set. It is fully proved in the file via a 17-vertex counterexample (path of 13 vertices with triangles at the 2nd and 12th vertices): A = {v₀, v₁₂} at distance 12, M = {v₁, v₁₁} at distance 10, so the bound is 12 + ⌈10/3⌉ = 16, while any induced forest omits a vertex from each of the two disjoint triangles, so f ≤ 15. The degenerate distMin convention for singleton sets does not arise here. Faithful."
+    }
+]

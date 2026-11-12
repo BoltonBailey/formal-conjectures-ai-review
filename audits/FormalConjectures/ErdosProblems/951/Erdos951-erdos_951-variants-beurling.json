@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/951: 'Beurling conjectured that if the number of reals in [1,x] of the form ∏ a_i^{k_i} is x + o(log x) then the a_i must be the sequence of primes.' The Lean variant: for a Beurling prime sequence a (1 < a_0, strictly increasing, unbounded) with the separation property Erdos951Prop (distinct exponent vectors give products ≥ 1 apart, so products are counted without multiplicity), if #(BeurlingIntegers a ∩ (−∞, x]) − x = o(log x) then a is the sequence of primes (as reals). This faithfully transcribes the conjecture as stated on the page (and the primes do satisfy the hypothesis, since ⌊x⌋ − x = O(1)). Discrepancy in metadata: the theorem is tagged 'research solved', but neither the page nor the docstring cites a proof — the page presents it only as Beurling's conjecture — and I could not find a reference settling it (literature searches turned up related Beurling-type results, e.g. Kahane's disproof of a different Beurling conjecture, but not this one). The statement itself is correct as a formalisation; its status/category appears unsupported."
+    }
+]

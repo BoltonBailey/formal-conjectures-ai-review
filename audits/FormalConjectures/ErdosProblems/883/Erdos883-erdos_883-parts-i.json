@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches the first question on erdosproblems.com/883: for A ⊆ {1,…,n} with |A| > ⌊n/2⌋+⌊n/3⌋−⌊n/6⌋, does the coprime graph G(A) contain all odd cycles of length ≤ n/3+1? The Lean statement asserts this for all n and A ⊆ Icc 1 n (ℕ division gives the floors; the truncated subtraction is harmless since ⌊n/2⌋+⌊n/3⌋ ≥ ⌊n/6⌋), and for every odd l with 3 ≤ l ≤ ⌊n/3⌋+1 (equivalent to l ≤ n/3+1 for integer l) requires l ∈ oddCycleLengths of coprimeGraph.induce A, where coprimeGraph = SimpleGraph.fromRel Nat.Coprime (adjacent iff distinct and coprime) and oddCycleLengths is the set of odd m such that some closed walk of length m is a cycle. Faithful yes/no formulation."
+    }
+]

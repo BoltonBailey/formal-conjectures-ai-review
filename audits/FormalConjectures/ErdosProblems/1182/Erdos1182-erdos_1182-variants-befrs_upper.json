@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1182: Burr, Erdős, Faudree, Rousseau and Schelp proved F(n) ≤ (27/4 + o(1)) n (log n)², where F(n) is the largest q such that every connected n-vertex graph with ≤ q edges has R(K₃, G) = 2n − 1. The Lean variant: ∀ ε > 0, eventually F n < (27/4 + ε) n (log n)², the standard encoding of the (27/4 + o(1)) bound (strict vs non-strict is immaterial with arbitrary ε). F is defined as the sSup of q ≤ C(n,2) such that all connected graphs with ≤ q edges are 3-good (graphRamsey K₃ G = 2n − 1), matching the source; the cap q ≤ C(n,2) only matters for n ≤ 2, as the docstring explains. Faithful."
+    }
+]

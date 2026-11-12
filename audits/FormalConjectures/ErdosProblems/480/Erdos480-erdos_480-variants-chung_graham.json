@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/480: Chung and Graham proved that for every sequence x_1, x_2, … in [0,1], inf_n liminf_m n|x_{m+n} − x_m| ≤ 1/c with c = 1 + Σ_{k≥1} 1/F_{2k} = 2.5353…. The Lean variant defines c = 1 + Σ_{k∈ℕ+} 1/fib(2k) (Mathlib's Nat.fib has fib 2 = 1, fib 4 = 3, …, matching F_{2k}; I computed the value numerically as 2.5353705…) and states, for every x : ℕ → [0,1], ⨅_{n ∈ ℕ+} liminf_m n·|x(m+n) − x(m)| ≤ 1/c. The quantities are bounded (in [0,n]), so liminf and the infimum are well-behaved. Faithful."
+    }
+]

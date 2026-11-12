@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A228425 (Zhi-Wei Sun): with p_m(x) = (m−2)x(x−1)/2 + x the m-gonal numbers, pairs (k,m) with m > k 'work' if all sufficiently large n can be written as x + y (x, y > 0) with p_k(x) + p_m(y) prime; 'For k = 5, we guess that the pair (5, m) works if m is congruent to 0 or 4 modulo 6.' The Lean statement: for m > 5 with m ≡ 0 or 4 (mod 6), eventually in n there are x, y > 0 with x + y = n and polygonalNumber 5 x + polygonalNumber m y prime. Direct transcription. Faithful."
+    }
+]

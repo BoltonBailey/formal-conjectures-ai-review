@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A228591: a(n) = det of the n×n (0,1)-matrix with (i,j)-entry 1 iff i + j is 2 or an odd composite (1 ≤ i, j ≤ n); conjecture 'a(n) = 0 for no n > 15'. The Lean a n uses 0-indexed Fin n with k = i + j + 2 (so k = i' + j' in 1-indexed terms), entry 1 iff k = 2 or (k odd and not prime); since k ≥ 2, 'odd and not prime' is exactly 'odd composite'. Tests (a(0..4) = 1,1,0,0,0 and a(7) = −1) match the data. The statement a n ≠ 0 for n > 15 is the conjecture. Faithful."
+    }
+]

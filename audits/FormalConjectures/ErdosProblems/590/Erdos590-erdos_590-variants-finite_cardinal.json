@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/590: 'Milner modified Chang's proof to prove that this remains true if we replace K₃ by K_m for all finite m < ω (a shorter proof was found by Larson [La73])', i.e. ω^ω → (ω^ω, m)² for finite m. The Lean variant states OrdinalCardinalRamsey (ω^ω) (ω^ω) m for every m : ℕ: every red/blue partition of the complete graph on ω^ω has a red clique of order type ω^ω or a blue clique of cardinality m. This is the correct statement (m ≤ 2 are trivial cases). Documentation slip: the docstring attributes the result to 'Milnor' rather than Milner (E. C. Milner)."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "API lemma for erdosproblems.com/56 (sets with no k+1 pairwise coprime elements). WeaklyDivisible k A says no (k+1)-subset of A is pairwise coprime; the lemma states that a nonempty A is not WeaklyDivisible 0, which is correct (a singleton is vacuously pairwise coprime) and is proved in the file. Documentation slip: the docstring reads 'No non-empty set is 1-weakly divisible', whereas the statement concerns k = 0 (WeaklyDivisible 0, i.e. 1-element subsets); the file's own convention calls this '0-weakly divisible'. The mathematics is fine; the docstring is inconsistent with the definition's indexing."
+    }
+]

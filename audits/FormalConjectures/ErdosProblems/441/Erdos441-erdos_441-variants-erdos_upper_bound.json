@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/441: 'Erdős [Er51b] proved g(N) ≤ (4N)^{1/2} + O(1)', where g(N) is the largest size of A ⊆ {1,…,N} with all pairwise lcms ≤ N. The Lean variant ∃ C, ∀ N, g N ≤ √(4N) + C is exactly this with a uniform O(1) constant; g N is the sSup of attainable sizes (bounded by N), i.e. the maximum. Faithful."
+    }
+]

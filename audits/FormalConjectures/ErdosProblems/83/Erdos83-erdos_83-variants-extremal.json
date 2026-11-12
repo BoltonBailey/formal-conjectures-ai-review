@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/83: the bound |F| ≤ ½(C(4n,2n) − C(2n,n)²) for 2n-subsets of [4n] with pairwise intersections ≥ 2 'would be best possible, as shown by taking F to be the collection of all subsets of [4n] of size 2n containing at least n+1 elements from [2n]'. The Lean variant asserts, for every n, a family F of 2n-subsets of Fin (4n) with |A ∩ B| ≥ 2 for all A, B ∈ F (including A = B) and |F| = (C(4n,2n) − C(2n,n)²)/2. For n ≥ 1 the stated construction works: by the symmetry j ↔ 2n − j it has exactly half of the non-balanced sets, i.e. (C(4n,2n) − C(2n,n)²)/2, and two members share ≥ 2 elements of [2n]. The edge cases also check out: n = 0 gives bound 0 (F = ∅, since ∅ ∩ ∅ has size 0 < 2), and n = 1 gives bound 1 (F = {{0,1}}). Faithful."
+    }
+]

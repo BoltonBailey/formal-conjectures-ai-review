@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A230718: a(n) is the smallest solution to k^n + (k+1)^n + … + (k+m)^n = (k+m+1)^n with k > 0 and m > 0 (or 0 if none), and the comment asks 'Is a(n) != 0 for any n > 3?'. In Lean, for n ≥ 1, a n = N^n for the least N ≥ 3 with Σ_{i=k}^{N−1} i^n = N^n for some 1 ≤ k ≤ N−2 (k ≤ N−2 is exactly m ≥ 1), and 0 if no such N exists (sInf ∅ = 0, while any genuine N is ≥ 3, so the encoding is unambiguous). The statement ∃ n > 3, a n ≠ 0 is the question's positive form, i.e. the existence of some n > 3 with a solution. Tests a(1..3) = 3, 25, 216 match the data. Faithful."
+    }
+]

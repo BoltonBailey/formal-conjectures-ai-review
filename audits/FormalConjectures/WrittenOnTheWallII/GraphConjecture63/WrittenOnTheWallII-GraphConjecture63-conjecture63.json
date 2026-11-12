@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html via the Wayback Machine), Conjecture 63 (listed as open): 'If G is a simple connected graph, then f(G) ≥ CEIL[(minimum of dist_even(v) + b(G) + 1)/3]'. The Lean theorem negates this universal statement over connected graphs on finite nontrivial types, using distEven (vertices at even distance, v included), b (largest induced bipartite subgraph) and largestInducedForestSize. I checked the docstring's counterexample C₅[K₄]: every vertex has 1 + 8 = 9 vertices at even distance (itself and the two fibres at distance 2); induced bipartite subgraphs have at most 4 vertices (e.g. two disjoint edges from non-adjacent fibres; five fibres used would create an odd cycle and two vertices from one fibre plus any neighbouring vertex a triangle), so f ≤ b = 4 while the bound is ⌈14/3⌉ = 5. A formal proof is linked. Faithful."
+    }
+]

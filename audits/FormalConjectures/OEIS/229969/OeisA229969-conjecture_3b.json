@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A229969, comment (i), second part (Zhi-Wei Sun): 'each integer n > 2 can be written as x + y + z (x, y, z > 0) with 2*x+1, 2*y+1, 2*z+1 and 2*x*y*z+1 all prime and x among 1, 2, 3.' The Lean statement for n > 2 asserts ∃ x y z > 0 with x+y+z = n, x ∈ {1,2,3}, and 2x+1, 2y+1, 2z+1, 2xyz+1 prime — a literal transcription (no truncated subtraction issues since all expressions use +). Faithful."
+    }
+]

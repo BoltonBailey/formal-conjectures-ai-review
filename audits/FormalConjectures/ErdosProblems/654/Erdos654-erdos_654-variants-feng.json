@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/654, which says Aletheia [Fe26] 'constructed a set of n points in R^2, no four on a circle, such that there are at most 3n/4 distinct distances from any single point' (points on two lines). The Lean statement: for every m ≥ 10 there is A ⊆ ℝ² with |A| = 4m, NoFourConcyclic A (no 4-subset is Cospherical, i.e. on a common circle), and every x ∈ A has distinctDistancesFrom A x = #{dist(y,x) : y ∈ A \\ {x}} < 3m = 3n/4. The strict inequality is slightly stronger than the page's 'at most 3n/4', but the docstring explains the construction gives at most 3m − 1, and the entry carries a formal-proof link, so the statement is a true and faithful (if slightly sharpened) record of the construction; the m ≥ 10 restriction matches the docstring's description of [Fe26]. Faithful."
+    }
+]

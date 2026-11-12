@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/56: for N ≥ p_k, if A ⊆ {1,…,N} has no k+1 pairwise relatively prime elements, is the set of multiples of the first k primes the largest such set? The page records the negative answer (Ahlswede–Khachatrian, k = 212). The Lean statement is ¬ ∀ k > 0, ∀ N ≥ p_k (nth Prime (k−1) = k-th prime, 1-indexed), MaxWeaklyDivisible N k = |FirstPrimesMultiples N k|, where WeaklyDivisible k A says no (k+1)-subset of A is pairwise coprime (the standard reading of 'relatively prime' here), MaxWeaklyDivisible N k is the maximum size of such A ⊆ Icc 1 N (finite, so sSup is a max), and FirstPrimesMultiples N k is the set of elements of [1,N] divisible by one of the first k primes (shown in the file to be weakly divisible, so MaxWeaklyDivisible ≥ its size and the negation says the example is not always optimal). This matches the question and its resolution. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A218585: Zhi-Wei Sun conjectured that (Σ_{p<N, p≡1 (3)} x(p)²)/(Σ y(p)²) → 52/9, where p = x(p)² + x(p)y(p) + y(p)² with x(p) > y(p) > 0. The Lean statement is the negation (¬ Tendsto … (𝓝 (52/9))), with xp/yp computing the unique representation by search. I checked the docstring's disproof: writing x² + xy + y² = |x + y·e^{iπ/3}|² = r², one gets y = (2/√3) r sin θ, x = r(cos θ − sin θ/√3), and x > y > 0 ⟺ 0 < θ < π/6; by Hecke's equidistribution of prime angles the ratio tends to ∫₀^{π/6}(cos θ − sin θ/√3)² dθ / ∫₀^{π/6}(4/3)sin²θ dθ, which I evaluated numerically as 5.780124… = 2π/(2π − 3√3), not 52/9 = 5.7777…. An empirical computation over primes below 3·10⁶ gives 5.7715, consistent with slow convergence (it cannot by itself separate the two close values). The formalisation of the conjecture and its negation is correct; the 'solved' status rests on this standard equidistribution argument rather than a published reference. Faithful."
+    }
+]

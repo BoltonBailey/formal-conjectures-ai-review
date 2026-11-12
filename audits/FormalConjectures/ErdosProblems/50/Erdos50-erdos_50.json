@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/50: with f(c) the density of {n : φ(n) < cn} for c ∈ [0,1] (Schoenberg), is it true that there is no x where f′(x) exists and is positive? The Lean statement: for every f agreeing with these densities on [0,1] (IsDistributionOfPhiRatio), there is no x ∈ [0,1] and y > 0 with HasDerivWithinAt f y (Icc 0 1) x. Using the derivative within [0,1] makes the statement independent of the arbitrary values of f outside [0,1] and agrees with the ordinary derivative at interior points; at the endpoints it uses one-sided derivatives, which do not create a spurious difference (near 0 the density decays faster than any power, and near 1 the one-sided difference quotient tends to +∞ since 1 − f(1−h) ≫ 1/log(1/h)). Faithful."
+    }
+]

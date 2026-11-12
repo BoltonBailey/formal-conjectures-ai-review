@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/560: Conlon, Fox and Wigderson conjecture R̂(K_{s,t}) ≍ s²t·2^s for all s ≤ t, 'and so in particular we should have R̂(K_{n,n}) ≍ n³2^n'. The Lean variant states (n ↦ R̂(K_{n,n})) =Θ[atTop] (n ↦ n³·2^n), with R̂ the size Ramsey number sizeRamsey K_{n,n} K_{n,n} (least number of edges of a host graph every 2-colouring of which contains a monochromatic K_{n,n}). This is exactly the stated special case. Faithful."
+    }
+]

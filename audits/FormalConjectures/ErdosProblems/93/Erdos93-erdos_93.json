@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/93: 'If n distinct points in ℝ² form a convex polygon then they determine at least ⌊n/2⌋ distinct distances' (solved by Altman). The Lean statement: for a finite A ⊆ ℝ² in convex position (ConvexIndep: no point of A lies in the convex hull of the others, i.e. the points are the vertices of a convex polygon), A.card / 2 (ℕ division = ⌊n/2⌋) ≤ distinctDistances A, the number of distinct values dist(x,y) over ordered pairs of distinct points (offDiag, so 0 is not counted). Degenerate cases (n ≤ 3) are consistent. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/737 (for G of chromatic number ℵ₁, must some edge e lie on cycles of every sufficiently large length? Proved by Thomassen [Th83]) and the abstract of Thomassen, 'Cycles in graphs of uncountable chromatic number', Combinatorica 3 (1983), which says that every graph of uncountable chromatic number has an edge lying on cycles of all but finitely many lengths. The Lean variant: for every G on V : Type with no proper colouring by ℕ (i.e. chromatic number > ℵ₀), there is an edge e and N such that for all n ≥ N there is a cycle (Walk.IsCycle) of length n whose edge list contains e. This is exactly Thomassen's stated theorem, and the docstring correctly notes it is stronger than the ℵ₁ version of the main statement. Faithful."
+    }
+]

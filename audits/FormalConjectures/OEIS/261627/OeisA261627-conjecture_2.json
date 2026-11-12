@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A261627: a(n) = number of primes p with n − (pn'−1) and n + (pn'−1) both prime, n' = 1 or 2 for n odd/even; conjecture: 'a(n) = 1 only for n = 5, 7, 10, 11, 12, 19, 22, 30, 34, 44, 46, 72, 142'. The Lean a n counts primes p ≤ n with k = pn' − 1 < n and n − k, n + k prime (equivalent to the Mathematica range p ≤ 2n/(3+(−1)^n)), and the statement is a n = 1 ↔ n ∈ {5,7,10,11,12,19,22,30,34,44,46,72,142}. The listed values do have a(n) = 1, so the ← direction holds and the content is the 'only' claim. A Python reimplementation of the Lean definition gives exactly this set for n < 20000. Faithful."
+    }
+]

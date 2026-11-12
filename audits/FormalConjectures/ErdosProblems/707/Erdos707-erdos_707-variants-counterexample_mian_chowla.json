@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/707: Alexeev and Mixon proved 'that {1,2,4,8,13} cannot be extended to any perfect difference set'. The Lean variant asserts that A = {1,2,4,8,13} is finite and Sidon (its ten positive differences 1,2,3,4,5,6,7,9,11,12 are distinct), and that for every n > 0 and B ⊇ A, B is not a perfect difference set mod n, where IsPerfectDifferenceSet B n means (a,b) ↦ a − b (in ZMod n) is a bijection from B.offDiag onto the nonzero residues. This forces B's elements to be pairwise incongruent mod n, so it is the usual notion of a planar difference set containing A. Excluding n = 0 is correctly justified in the docstring (modulus 0 would mean an infinite perfect difference set in ℤ, into which every finite Sidon set embeds). Faithful."
+    }
+]

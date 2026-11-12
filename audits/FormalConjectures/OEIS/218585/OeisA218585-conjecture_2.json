@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A218585, comment by Zak Seidov (Sep 25 2013): 'the number of primes of the form n*x+(n-x)^2 with 0<x<n/3 is positive for n>12.' The Lean statement for n > 12 asserts ∃ x with 0 < x, 3x < n (equivalent to x < n/3 over the rationals) and n·x + (n−x)^2 prime; since x < n the truncated subtraction is exact. 'Number of primes … is positive' is the same as existence of such an x. A numerical check (n < 20000) finds failures only at n = 2, 3, 5, 8, 12, consistent with the threshold n > 12. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/431: \"Are there two infinite sets A and B such that A+B agrees with the set of prime numbers up to finitely many exceptions?\" (Ostmann's inverse Goldbach problem; \"the answer is surely no\"). The Lean statement is ¬∃ A B : Set ℕ, both infinite, with A + B =ᶠ[cofinite] {n | n.Prime}; EventuallyEq of sets along the cofinite filter means membership agrees for all but finitely many n, i.e. finite symmetric difference — exactly \"agrees up to finitely many exceptions\". The negation encodes the expected/claimed \"no\" answer. The \"solved\" status relies on the cited OpenAI preprint; I checked that the linked Lean file exists at the pinned commit and contains `twoInfiniteSummandsImpossible` (\"two infinite nonnegative summands cannot give the primes outside a finite initial interval\"). The erdosproblems.com page I fetched still showed the problem as open, so the status is ahead of the site, but the statement itself is faithful."
+    }
+]

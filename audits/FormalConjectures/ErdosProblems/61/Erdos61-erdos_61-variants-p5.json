@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/61, which records that the Erdős–Hajnal conjecture (∃ c(H) > 0 such that every n-vertex graph with no induced H has a clique or independent set of size ≥ n^c) was proved for the 5-vertex path by Nguyen, Scott and Seymour. The Lean statement: ∃ c > 0 such that, eventually in n, every G on Fin n with no embedding g : Fin 5 ↪ Fin n with pathGraph 5 = G.comap g (i.e. no induced P5) satisfies indepNum ≥ n^c or cliqueNum ≥ n^c. Mathlib's pathGraph 5 is the path on 5 vertices (P5), and comap along an injective map captures exactly induced copies. 'For sufficiently large n' is harmless since small n can be absorbed by shrinking c (any nonempty graph has cliqueNum ≥ 1 = n^0 limit). Faithful."
+    }
+]

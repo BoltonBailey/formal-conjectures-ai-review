@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/494: 'Gordon, Fraenkel, and Straus [GFS62] proved that, for all k, the multiset A_k uniquely determines A provided |A| is sufficiently large', where A_k is the multiset of sums of k distinct elements of a finite A ⊂ ℂ. The Lean variant: for every k > 2, eventually in N, Erdos494Unique k N holds, i.e. any two N-element A, B ⊆ ℂ with equal multisets of k-element subset sums (sumMultiset via powersetCard) are equal. The threshold for |A| depending on k matches the result as stated; restricting to k > 2 matches the problem's focus (k = 2 is handled separately in the file). Faithful."
+    }
+]

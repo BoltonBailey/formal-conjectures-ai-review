@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma (proved, no sorry) stating that smoothComponent t n — the product of the prime factors (with multiplicity) of n that are < t, matching the definition of s_t(n) on erdosproblems.com/461 — lies in Nat.smoothNumbers t (nonzero with all prime factors < t). This is the intended sanity property of the definition and is proved directly by Nat.prod_mem_smoothNumbers. Correct and appropriately categorized."
+    }
+]

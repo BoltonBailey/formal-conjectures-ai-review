@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/596: for (G₁, G₂) = (C₄, C₆), 'Erdős and Hajnal [proved] the second [property] (in fact every C₄-free graph is a countable union of trees)'. The Lean variant HasCountableRamseyEscape (cycleGraph 4) (cycleGraph 6) states that every C₄-free graph H on a vertex type in Type has an edge partition d : ℕ → SimpleGraph into C₆-free classes (IsEdgeColouring: union is H, classes pairwise disjoint). This follows from the countable-union-of-trees result (forests contain no cycles, and a countable union can be made disjoint). Faithful."
+    }
+]

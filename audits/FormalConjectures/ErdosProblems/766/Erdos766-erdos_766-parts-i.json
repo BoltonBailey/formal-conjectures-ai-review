@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/766 and the original [Er64c] (renyi.hu/~p_erdos/1964-06.pdf). The page defines f(n;k,l) = min ex(n;G) over G with k vertices and l edges and asks for good estimates for k < l ≤ k²/4. In [Er64c] Erdős defines f₁, f₂, f₃ (f₁ = least m such that every graph with n vertices and m edges contains at least one graph with k vertices and l edges; f₂ for a fixed G, so min ex = f₂ − 1), states 'we will investigate f₁(n;k,l)', and on p. 33 says 'In the range k < l ≤ [k²/4] I do not have good estimates for f(n;k,l)'. The Lean main statement uses forcingNumber = f₁ and asks, as a value question, for answer k l with f₁(n;k,l) = Θ(answer k l n) for each k < l ≤ ⌊k²/4⌋; the website's min-ex version is provided separately as variants.minExtremalNumber_estimate. Following the original source here is well justified and clearly documented, and reading 'good estimates' as the Θ-order in n is natural. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/770, first question: with h(n) minimal such that 2^n−1, 3^n−1, …, h(n)^n−1 are 'mutually coprime', does the density δ_p of {n : h(n) = p} exist for every prime p? The Lean statement: ∀ prime p, ∃ a, {n | h n = p} has natural density a. The Lean h n is the least m > 2 with gcd(2^n−1, …, m^n−1) = 1 (in ℕ∞, ⊤ if none). Reading 'mutually coprime' as collective gcd 1 rather than pairwise is the only sensible interpretation: 2^n−1 always divides 4^n−1, so pairwise coprimality could never extend past 3, whereas with the collective gcd the page's remark h(n) = n+1 ⟺ n+1 prime makes sense (all i ≤ p−1 satisfy p | i^n − 1 when p−1 | n). Faithful (positive form of the yes/no question)."
+    }
+]

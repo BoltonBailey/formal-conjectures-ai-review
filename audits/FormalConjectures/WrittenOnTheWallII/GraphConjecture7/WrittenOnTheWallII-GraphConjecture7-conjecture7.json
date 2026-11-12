@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html via the Wayback Machine), Conjecture 7 (status T, proved by DeLaVina, Fajtlowicz and Waller 2002): 'If G is a simple connected graph, then L_s(G) ≥ maximum of l(v) − 1 + n − 2α(G)', with L_s the maximum number of leaves of a spanning tree and l(v) the local independence number. The Lean statement for connected G on a finite nontrivial type: max_v indepNeighborsCard G v − 1 + n − 2·indepNum G ≤ Ls G, computed in ℤ/ℝ (no truncation), with Ls the sSup over spanning trees of the number of degree-1 vertices. Direct transcription. Faithful."
+    }
+]

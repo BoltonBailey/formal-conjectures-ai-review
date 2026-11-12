@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/627: f(n) = max χ(G)/ω(G) over n-vertex graphs; Erdős [Er67c] proved f(n) ≍ n/(log₂ n)² and that the limit of f(n)/(n/(log₂ n)²), if it exists, lies in [1/4, 4]. The lower constant 1/4 comes from the standard random-graph bound (χ ≥ n/α ≈ n/(2 log₂ n), ω ≈ 2 log₂ n), i.e. f(n) ≥ (1/4 + o(1)) n/(log₂ n)². The Lean statement: ∀ ε > 0, eventually (1/4 − ε)·n/(logb 2 n)² ≤ maxChromaticCliqueRatio n, where maxChromaticCliqueRatio n is the iSup over the finitely many graphs on Fin n of χ.toNat/ω (finite, so the supremum is attained and equals f(n)). This is exactly the (1/4 + o(1)) lower bound. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Compared against erdosproblems.com/918, first question: is there a graph on ℵ₂ vertices with chromatic number ℵ₂ such that every subgraph on ℵ₁ vertices has chromatic number ≤ ℵ₀? The Lean variant asserts ∃ V : Type u, G with #V = ℵ₂, chromaticCardinal G = ℵ₂, and every subgraph H with #H.verts = ℵ₁ having chromaticCardinal ≤ ℵ₀; as the file notes, for '≤ ℵ₀' this is equivalent to the induced-subgraph version erdos_918.parts.i. As a transcription this is accurate. The discrepancy is status: the set-theory literature (surfaced in my search, e.g. as summarised in discussions of the Erdős–Hajnal problem) records that Baumgartner (1984) showed it consistent with GCH that such a graph exists, while Foreman and Laver (1988) showed, relative to a huge cardinal, that it is consistent that every graph of size and chromatic number ℵ₂ has an ℵ₁-sized subgraph of chromatic number ℵ₁. If so, the statement is independent of ZFC (and cannot be proved or refuted in Lean, assuming huge cardinals are consistent), yet it is tagged 'research open' as an ordinary yes/no question, and neither the file nor the page mentions this. I am fairly but not fully certain of these citations (I did not read the original papers). Faithful formula; status/categorisation misleading."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html via the Wayback Machine), Conjecture 58 (listed as open there): 'If G is a simple connected graph, then f(G) ≥ CEIL[b(G)/average of l(v)]', with f the largest induced forest, b the largest induced bipartite subgraph and l(v) the local independence number. The Lean theorem negates the universal statement Nat.ceil (b G / l_avg G) ≤ largestInducedForestSize G over connected graphs on nontrivial finite types. I checked the docstring's counterexample (K_{3,3} on {0..5}, K_73 on {6..78}, vertex 0 joined to all of K_73): b ≥ 7 via {0,…,6}; the local independence numbers are 1 for each K_73 vertex, 4 for vertex 0, and 3 for vertices 1–5, giving average 92/79, so ⌈7·79/92⌉ = 7; induced forests meet K_{3,3} in ≤ 4 vertices and K_73 in ≤ 2, consistent with f ≤ 6. The formalisation and the refutation are consistent with the source (and a formal proof is linked). Faithful."
+    }
+]

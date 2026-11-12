@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A189286: a(n) = (Σ_{k=0}^n C(6k,3k)C(3k,k)C(6(n−k),3(n−k))C(3(n−k),n−k)) / ((2n−1)C(3n,n)), and Zhi-Wei Sun's conjecture that a(n) is an integer for every n ≥ 0 (proof abstract by Adamczewski noted on the entry). The Lean a n is this quotient in ℚ (2n − 1 computed in ℚ, so a(0) = −1 as in the data; tests a(0..4) = −1, 40, 696, 23408, 969496 match), and conjecture_1 states (a n).den = 1, i.e. a(n) ∈ ℤ, for all n. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/805, second question: 'is there such a graph for g(n) = (log n)³?', i.e. an n-vertex graph in which every induced subgraph on g(n) vertices contains a clique and an independent set of size ≥ log n. The Lean statement HasRamseyGraphs (n ↦ ⌊(log n)³⌋): for all large n there is G on Fin n such that every set of ⌊(log n)³⌋ vertices contains a clique and an independent set with ≥ ⌈log n⌉ vertices. Using exactly g(n)-sets is equivalent to at-least-g(n)-sets (the IsLocallyRamsey.mono lemma), rounding is harmless, and requiring the graph for all large n is the natural reading. It is stated in positive form per the question convention, even though Erdős and Hajnal expected the answer no (as the docstring notes). Faithful."
+    }
+]

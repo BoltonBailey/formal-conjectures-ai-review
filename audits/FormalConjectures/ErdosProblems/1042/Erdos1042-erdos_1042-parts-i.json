@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1042: for a closed F ⊂ ℂ of transfinite diameter 1 not contained in any closed disc of radius 1, can {|f| < 1} have n components for f monic of degree n with all roots in F? The page records Ghosh–Ramachandran's resolution: 'there are examples with d = 1 such that, for infinitely many n, the set can have n connected components.' The Lean statement asserts exactly this existential reading: ∃ closed F with transfiniteDiameter F = 1 (defined as the limit/limsup of the n-th diameters, as on the page), not inside any closed unit disc, such that for infinitely many n some monic f of degree n with roots in F has numComponents f = n. The ambiguity of 'can' is handled explicitly, with the universal reading split off as a separate open variant, and the docstring notes the witness F = [−2,2] (capacity 1, diameter 4). Faithful."
+    }
+]

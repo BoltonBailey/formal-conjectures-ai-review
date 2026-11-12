@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/918, second question: is there a graph on ℵ_{ω+1} vertices with chromatic number ℵ₁ such that every subgraph on ℵ_ω vertices has chromatic number ≤ ℵ₀? The Lean variant quantifies over all subgraphs H (with #H.verts = ℵ_ω and chromaticCardinal H.coe ≤ ℵ₀) rather than induced subgraphs; for the '≤ ℵ₀' condition this is equivalent to the induced version erdos_918.parts.ii, since any subgraph on a vertex set W has chromatic number at most that of the induced subgraph on W (and the induced subgraph is itself a subgraph). Faithful transcription; the same caveat as for parts.ii applies, namely that this is a set-theoretic question whose answer may depend on additional axioms, and I did not find a definitive resolution."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/542: Schinzel and Szekeres showed that the answer to the second question is no 'and in fact there are examples with at most n/(log n)^c many such m, for some constant c > 0', where A ⊆ {2,…,n} has pairwise lcm > n and m ranges over integers ≤ n divisible by no element of A. The Lean variant: ∃ c > 0 such that for infinitely many n there is A with IsLcmFree n A, 1 ∉ A, and #uncovered n A ≤ n/(log n)^c, where uncovered counts m ∈ [1,n] not divisible by any a ∈ A. Requiring infinitely many n (rather than all n) is the natural reading of 'there are examples', and excluding 1 avoids the trivial example A = {1}. Faithful."
+    }
+]

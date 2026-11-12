@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/597: 'Erdős and Hajnal proved that ω₁² → (ω₁ω, 3)²'. The Lean statement is OrdinalCardinalRamsey (ω₁^2) (ω₁·ω) 3: for every partition of the complete graph on (ω₁^2).ToType into complementary red and blue graphs, there is a red clique whose induced order type is ω₁·ω or a blue clique of cardinality 3 (a blue triangle). Here (ω_ 1)^(2:ℕ) is the ordinal ω₁·ω₁ = ω₁², and ω_ 1 * ω is the ordinal product ω₁·ω (the standard meaning of ω₁ω in partition calculus). This is exactly the standard partition relation. Faithful."
+    }
+]

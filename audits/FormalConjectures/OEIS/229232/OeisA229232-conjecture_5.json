@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A229232, Zhi-Wei Sun's conjecture (2), second part: for a finite field F with q > 7 elements, 'there is a circular permutation b_1, …, b_{q−1} of the q−1 nonzero elements of F such that all the q−1 elements b_1b_2+1, …, b_{q−1}b_1+1 are primitive elements of the field F'. The Lean statement, with m = q − 1, asserts a bijection b : Fin m ≃ Fˣ such that for every i, b_i·b_{(i+1) mod m} + 1 is a primitive m-th root of unity in F (IsPrimitiveRoot x m), which for x ∈ F means x has multiplicative order exactly q − 1, i.e. generates F^× (and excludes x = 0). The cyclic indexing (i+1) % m encodes the circular condition including the wrap-around term. Faithful."
+    }
+]

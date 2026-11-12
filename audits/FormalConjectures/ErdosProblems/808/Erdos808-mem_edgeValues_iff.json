@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/808, where A +_G A = {a+b : (a,b) ∈ G} and A ·_G A are the sums/products along the edges of a graph G on A. edgeValues op hop G is the image of G's edge set under the symmetric operation op lifted to Sym2, and the lemma states r ∈ edgeValues op hop G ↔ ∃ u v, G.Adj u v ∧ r = op u v. This is the expected characterisation (it underlies edgeSums/edgeProducts matching the source's A +_G A and A ·_G A), it is mathematically correct, and it is proved in the file. Faithful."
+    }
+]

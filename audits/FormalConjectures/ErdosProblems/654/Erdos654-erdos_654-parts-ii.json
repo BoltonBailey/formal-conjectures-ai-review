@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/654, second question: with no four of the n points on a circle, is f(n) > (1/3 + c)n for some c > 0 and all large n, where f(n) guarantees a point with at least f(n) distinct distances to the others? The Lean statement: ∃ c > 0, eventually in n, every n-point A ⊆ ℝ² with NoFourConcyclic A has some x ∈ A with distinctDistancesFrom A x > (1/3 + c)n. This is a direct transcription (the trivial bound (n−1)/3 is proved separately in the file). Faithful (positive form of the yes/no question)."
+    }
+]

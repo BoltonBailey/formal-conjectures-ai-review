@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 87 of Ben Green's '100 open problems': p(k) is the limit as n → ∞ of the probability that a random permutation of [n] preserves some k-set, and 'In a joint paper with Eberhard and Ford [95] it was proven that p(k) is bounded above and below by constant multiples of k^{−α}(log k)^{−3/2}', α the Erdős–Ford–Tenenbaum constant 1 − (1 + log log 2)/log 2. The Lean variant: for any p that is the pointwise limit of i(n,k) (the proportion of permutations of Fin n mapping some k-subset to itself; the limit exists by a separate variant), p = Θ(k^{−δ}(log k)^{−3/2}) as k → ∞ with δ defined as that constant. This matches the cited EFG16 result. Faithful."
+    }
+]

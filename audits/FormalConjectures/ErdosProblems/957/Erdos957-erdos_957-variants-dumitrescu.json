@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/957: for A ⊂ ℝ² of size n with smallest and largest distances d_1, d_k and f(d) the number of times d occurs, 'Dumitrescu [Du19] proved that f(d_1)f(d_k) ≤ (9/8)n² + O(n)'. The Lean statement: ∃ C such that for every finite A ⊂ ℝ² and d_1, d_k the least and greatest elements of distanceSet A (distances between distinct points), distanceMultiplicity A d_1 · distanceMultiplicity A d_k ≤ (9/8)|A|² + C|A|, where distanceMultiplicity counts unordered pairs (ordered offDiag pairs / 2), the standard meaning of 'number of times determined'. A uniform constant over all A is the natural reading of O(n); for |A| ≤ 1 the hypotheses are vacuous. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/627: 'Erdős [Er61d] proved that for every n there is a graph on n vertices with ω(G) = 2 and χ(G) ≫ n^{1/2}/log n'. The Lean variant: ∃ c > 0 such that for all large n there is G on Fin n with cliqueNum G = 2 (triangle-free with at least one edge) and c·√n/log n ≤ χ(G) (via ENat.toNat, finite here). 'For every n' is weakened to 'for all large n', which is equivalent up to the constant and harmless. Faithful."
+    }
+]

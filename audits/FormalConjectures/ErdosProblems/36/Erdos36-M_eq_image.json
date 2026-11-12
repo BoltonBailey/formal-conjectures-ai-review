@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma (private) for erdosproblems.com/36, the minimum overlap problem: for a partition A ⊔ B = {1,…,2N} with |A| = |B| = N, consider the maximum over x of #{(a,b) ∈ A × B : a − b = x}. The file defines M n as the sInf of MaxOverlap A B over disjoint A, B with A ∪ B = [1,2n] and |A| = |B|, and M_eq_image rewrites this as the sInf over n-element subsets A ⊆ [1,2n] of MaxOverlap A ([1,2n] \\ A). This is a correct reparametrisation (B is determined as the complement, and equal cardinalities force |A| = n), consistent with the source's setup, and it is proved in the file. Faithful."
+    }
+]

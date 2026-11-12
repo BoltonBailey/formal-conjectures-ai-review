@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A233864: a(n) = |{0 < m < 2n : m = σ(k) for some k > 0, and 2n−1−m and 2n−1+m both prime}|, conjecture (i): a(n) > 0 for all n > 3. The Lean a n (for n ≥ 1) counts m in the image of σ on k ∈ [1, 2n) with m < 2n−1 and 2n−1−m, 2n−1+m prime. Restricting k < 2n loses nothing (σ(k) ≥ k, so σ(k) < 2n forces k < 2n), and using m < 2n−1 instead of m < 2n only drops m = 2n−1, for which 2n−1−m = 0 is not prime anyway; m > 0 is automatic. So a agrees with the OEIS definition (tests a(1..6) = 0,0,0,1,1,2 match), and the statement 0 < a n for n > 3 is the conjecture. Faithful."
+    }
+]

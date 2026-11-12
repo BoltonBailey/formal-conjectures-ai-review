@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/441: the largest A ⊆ {1,…,N} with lcm(a,b) ≤ N for all a,b ∈ A — is it attained by all integers in [1,(N/2)^{1/2}] together with all even integers in [(N/2)^{1/2},(2N)^{1/2}]? The page records that Chen–Dai [ChDa07] showed the construction is not optimal infinitely often, so the answer is no, and the Lean statement is ¬ ∀ N ≥ 1, g N = |erdosConstruction N|. g N is the sSup of sizes of valid A ⊆ Icc 1 N (bounded, nonempty), and erdosConstruction N = {a ≤ N : 2a² ≤ N ∨ (2 ∣ a ∧ a² ≤ 2N)} is exactly the described set. I checked that the construction is itself valid (two small elements: lcm ≤ N/2; small a and even b: lcm ≤ ab ≤ √(N/2)·√(2N) = N; two evens 2x,2y: lcm ≤ 2xy ≤ N), so the negation cannot hold trivially because the construction overshoots g; it says exactly that the construction is not always optimal. Faithful."
+    }
+]

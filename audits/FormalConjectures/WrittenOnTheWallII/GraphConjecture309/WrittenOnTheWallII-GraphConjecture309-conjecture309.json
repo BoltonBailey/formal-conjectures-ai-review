@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Gebendorfer, 'An Infinite Family of Counterexamples to Written on the Wall II, Conjecture 309' (Zenodo 10.5281/zenodo.21553295), which quotes the conjecture with the WOWII definitions: every connected G of order > 2 satisfies γ_t(G) ≤ ½[max_v (d_e(v) − h_e(v)) + min_{e ∈ E(Ḡ)} |N_Ḡ(e)|], where d_e(v) = #{x : d(v,x) even} (including v), h_e(v) = #{edges xy : d(v,x) = d(v,y) even}, |N_Ḡ(e)| = |N_Ḡ(x) ∪ N_Ḡ(y)|, and the note shows C5[K_k], k ≥ 3, violates it (3 ≤ (−2k²+7k+1)/2 fails). (The WOWII site itself did not respond for me; I rely on the note's verbatim restatement.) In Lean, distEven counts vertices at even distance (v included), evenHorizontal counts edges whose two endpoint distances coincide and are even, maxEvenCorrection is the max over v of their difference in ℤ, minComplementEdgeNeighborhood is the minimum over complement edges of |N_Ḡ(u) ∪ N_Ḡ(w)|, and totalDominationNumber is γ_t. The theorem negates the universal statement over connected graphs with > 2 vertices. Making the inequality vacuous when Ḡ has no edges (complete graphs, where the source's min is undefined) is harmless for the negation, since the counterexamples have complement edges. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/945, which records the Erdős–Mirsky bound F(x) ≪ exp(O((log x)^{1/2}/log log x)), where F(x) is the maximal k with n+1,…,n+k ≤ x having distinct divisor counts. The Lean F x = sSup {k | ∃ n, n + k ≤ x ∧ τ injective on (n, n+k]} matches (the set is nonempty and bounded by x), and the statement (fun n ↦ log (F n)) =O[atTop] (fun x ↦ √(log x)/log(log x)) over ℕ is equivalent to F(x) ≤ exp(O(√log x / log log x)) for large x (F(n) ≥ 1 for n ≥ 1, and restricting to integer x is harmless as F is monotone and constant between integers). The formal statement is correct; however the docstring is garbled: it reads '$\\log F(x) \\ll \\frac{(\\log x)^{1/2}}$' with the denominator log log x missing, so the documentation is unclear."
+    }
+]

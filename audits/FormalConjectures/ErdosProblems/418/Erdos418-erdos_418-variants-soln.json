@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/418: 'Browkin and Schinzel [BrSc95] … prov[ed] that any integer of the shape 2^k·509203 for k ≥ 1 is a non-cototient', i.e. not of the form n − φ(n). The Lean variant asserts {2^{k+1}·509203 | k ∈ ℕ} ⊆ complement of {n − φ(n) | n ∈ ℕ}, which is the same set of integers (k+1 ranges over k ≥ 1). Natural-number subtraction is exact since φ(n) ≤ n, and n = 0 only contributes the value 0. Faithful."
+    }
+]

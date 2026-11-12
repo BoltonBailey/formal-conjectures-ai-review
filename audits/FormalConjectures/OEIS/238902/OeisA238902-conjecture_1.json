@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A238902: a(n) = |{0 < k <= n: pi(pi(k*n)) is a square}|, Conjecture (i): a(n) > 0 for all n > 0. The Lean a n counts k ∈ Icc 1 n with m.sqrt^2 = m for m = π(π(kn)), which is the perfect-square test (including 0 = 0^2, consistent with OEIS a(1) = 1 via π(π(1)) = 0; the test lemmas a_1..a_5 match the data 1,2,1,1,2). The theorem 0 < n → 0 < a n is exactly conjecture (i). Faithful; open status consistent (verified only to 2·10^5)."
+    }
+]

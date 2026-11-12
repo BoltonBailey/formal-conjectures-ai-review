@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A262824, comment \"Conjecture: (i) For any m = 3, 4, 5, 6 and n >= 0, there are nonnegative integers w, x, y, z such that n = w^2 + x^3 + 2*y^3 + m*z^3.\" The Lean theorem quantifies over m ∈ {3,4,5,6} and n : ℕ and asserts ∃ w x y z : ℕ with n = w^2 + x^3 + 2y^3 + m z^3. Exact match; open status consistent (only verified to 10^11 per the OEIS comment)."
+    }
+]

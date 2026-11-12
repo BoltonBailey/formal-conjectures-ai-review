@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/782, first question: does there exist C > 0 such that for any k the squares contain x_1, …, x_k with, for some d, x_i + d ≤ x_{i+1} ≤ x_i + d + C for all i < k? The Lean statement: ∃ C > 0 (natural), ∀ k, ContainsQuasiProgression {squares} C k, where the quasi-progression has terms in the set and a common d ≥ 1 with x_i + d ≤ x_{i+1} ≤ x_i + d + C. Requiring d ≥ 1 rules out the trivial constant sequence (d = 0 with all x_i equal would make the question vacuous), which is the intended reading; d may depend on k. Faithful (positive form of the yes/no question)."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/704: \"Frankl and Wilson [FrWi81] proved exponential growth: χ(G_n) ≥ (1+o(1))1.2^n.\" The Lean unitDistanceGraph n joins points of EuclideanSpace ℝ (Fin n) at distance 1, and the statement says for every ε > 0, for all large n, every proper k-colouring has k ≥ (1−ε)·1.2^n — a direct transcription of the site's formula (and stated via Colorable k, so it does not depend on chromaticNumber's ℕ∞ conventions). Note that the Frankl–Wilson bound is often quoted as (1.2+o(1))^n, which literally is weaker; however the actual Frankl–Wilson construction gives ≈1.207^n, and Raigorodskii's (1.239+o(1))^n certainly implies the stated (1−ε)·1.2^n bound, so the statement is true and the \"research solved\" tag is correct. Faithful to the source."
+    }
+]

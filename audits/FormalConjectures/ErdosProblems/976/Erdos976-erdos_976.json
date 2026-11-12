@@ -1,0 +1,9 @@
+[
+  {
+    "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+    "model": "claude-fable-5-2",
+    "effort": null,
+    "severity": 1,
+    "explanation": "Compared against erdosproblems.com/976: for irreducible f ∈ ℤ[x] of degree d ≥ 2, F_f(n) is the greatest prime divisor of ∏_{1≤m≤n} f(m); \"Estimate F_f(n).\" The Lean F f n = maxPrimeFac of |∏_{m=1}^n f(m)|, which is exactly this (irreducibility with degree ≥ 2 rules out integer roots, so the product is nonzero; junk values for tiny n are irrelevant asymptotically). Irreducible in ℤ[X] for degree ≥ 2 means primitive and irreducible over ℚ, a harmless strengthening of the site's hypothesis (scaling f by a constant c only adds the fixed prime factors of c, which do not affect F_f(n) for large n). The theorem asks for an answer function (depending on f) with F_f(n) = Θ(answer f n), the repository's standard reading of \"estimate\" as order of magnitude. As with all such \"question value\" formalizations, the problem is only meaningful if the answer is a natural closed form, which is the intended convention. The specific sub-questions (n^{1+c}, n^d) are formalized separately as parts.i/ii. Faithful."
+  }
+]

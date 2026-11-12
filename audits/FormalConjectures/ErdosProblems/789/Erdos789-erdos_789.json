@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/789: h(n) is maximal such that every n-element A ⊆ ℤ contains B with |B| ≥ h(n) such that a_1+⋯+a_r = b_1+⋯+b_s with a_i, b_i ∈ B forces r = s; 'Estimate h(n)'. The Lean value question asks for erdos_789.answer with h(n) = Θ(answer), the natural reading of 'estimate' (current bounds are √(n log log n / log n) ≪ h(n) ≪ √n). subsetSumThreshold n = sSup of m such that every A of size n has B ⊆ A, |B| ≥ m, with equal sums over nonempty subsets S, T ⊆ B forcing |S| = |T| (bounded by n and containing 0, so a maximum). Reading the a_i, b_i as distinct elements of B (subsets) is the standard interpretation; allowing repetitions would make h(n) bounded (b copies of a equal a copies of b), so it cannot be intended. Allowing S and T to overlap is equivalent to the disjoint version after cancellation, up to degenerate zero-sum edge cases that do not affect the asymptotics. Faithful."
+    }
+]

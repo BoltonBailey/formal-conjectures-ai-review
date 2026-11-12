@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1221 and the original paper de Bruijn–Erdős, 'Sequences of points on a circle' (1949, renyi.hu/~p_erdos/1949-13.pdf). In the paper M_n^r is the maximal total length of r consecutive intervals, nM_n^r ≥ r ≥ nm_n^r, Λ_r = inf_a limsup nM_n^r(a), and §3 proves Λ_r ≥ 1/log(1+1/r) > r; §6 conjectures that r(Λ_r − 1), r(1 − λ_r), r(μ_r − 1) tend to infinity. Taken literally (as on the website) r(Λ_r − 1) → ∞ is trivial because Λ_r > r, so the conjecture must refer to Λ_r normalised by r: r(Λ_r/r − 1) = Λ_r − r, for which the known bound only gives Λ_r − r ≥ 1/2 + o(1), exactly parallel to μ_r ≥ 1 + 1/r giving r(μ_r − 1) ≥ 1. The Lean statement ∀ K, eventually in r, r + K < Λ_r (in ℝ≥0∞) is precisely Λ_r − r → ∞, with Λ_r defined as inf over sequences with distinct points mod 1 of limsup n·maxSpan, where maxSpan is the maximal r-step arc length of the cyclically sorted first n points. The distinct-points restriction matches the paper's setting (n points defining n intervals) and does not lower the infimum. The docstring explains the normalisation carefully. This is the correct, non-trivial reading of the source. Faithful."
+    }
+]

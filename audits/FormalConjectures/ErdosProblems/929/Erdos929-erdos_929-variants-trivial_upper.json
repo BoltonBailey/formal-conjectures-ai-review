@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/929: \"It is trivial that S(k) ≤ k+1 since, for example, one can take n ≡ 1 (mod (k+1)!).\" The Lean S k is sInf of x : ℕ such that {n | each of n+1,…,n+k has a prime factor ≤ x} has positive density, and the theorem asserts S k ≤ k + 1 for all k. Verified: for n ≡ 1 mod (k+1)!, n+i ≡ 1+i (mod (k+1)!) and (1+i) | (k+1)!, so 1+i ∈ [2,k+1] divides n+i, giving a prime factor ≤ k+1; this residue class has density 1/(k+1)! > 0. Holds also for k = 0, 1. Faithful and true."
+    }
+]

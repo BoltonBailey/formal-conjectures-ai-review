@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/782: 'It is a classical fact that the squares do not contain arithmetic progressions of length 4' (Fermat/Euler). The Lean variant states Set.IsAPOfLengthFree {n : ℕ | IsSquare n} 4, i.e. the set of natural squares (including 0) contains no non-trivial 4-term arithmetic progression (nonzero common difference). This is the classical theorem, which also holds with 0 included. Faithful."
+    }
+]

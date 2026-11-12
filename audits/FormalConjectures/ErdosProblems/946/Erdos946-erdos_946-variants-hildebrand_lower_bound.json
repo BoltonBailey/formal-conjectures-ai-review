@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/946: the number of n ≤ x with τ(n) = τ(n+1) is ≫ x/(log log x)^3 (Hildebrand [Hi87]). The Lean erdos946Count x counts n ∈ [0, ⌊x⌋] with σ 0 n = σ 0 (n+1) (n = 0 never qualifies since σ 0 0 = 0 ≠ 1), and the statement (fun x ↦ x/(log log x)^3) =O[atTop] erdos946Count is exactly count ≫ x/(log log x)^3 as x → ∞ over ℝ. Faithful. (Cosmetic: the reference key is [Hi85] while the site and the listed year say 1987.)"
+    }
+]

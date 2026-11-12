@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/593 ('Characterize those finite 3-uniform hypergraphs which appear in every 3-uniform hypergraph of chromatic number > ℵ₀') and the abstract of E. Li, arXiv:2606.24882, which states that for every uncountable cardinal κ there is a linear triple system (two edges share at most one vertex) of chromatic number exactly κ (building on Erdős–Hajnal–Rothschild), and that obligatory triple systems are exactly the linear ones up to isolated vertices. commonPair is the 3-graph on Fin 4 with edges {0,1,2}, {0,1,3}, which share a pair and so cannot appear (via an injective edge-preserving map, the Appears definition) in a linear hypergraph. IsObligatory F quantifies over all H : UniformHypergraph V 3 with V in the same universe as F (here Type) and ℵ₀ < chromaticCardinal H; the linear constructions live in Type, so ¬ commonPair.IsObligatory is exactly the intended (true) claim. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/698: Erdős–Szekeres observed gcd(C(n,i), C(n,j)) ≥ C(n,i)/C(j,i) ≥ 2^i, and 'this inequality is sharp for i = 1, j = p, and n = 2p'. The Lean variant: for primes p > 2, gcd(C(2p,1), C(2p,p)) = C(2p,1)/C(p,1) and C(2p,1)/C(p,1) = 2^1, i.e. both inequalities are equalities (all values equal 2). This is the stated sharpness example, restricted to p > 2 (harmless: p = 2 also gives gcd(4,6) = 2 = 4/2), and it is proved in the file via Lucas's theorem. Faithful."
+    }
+]

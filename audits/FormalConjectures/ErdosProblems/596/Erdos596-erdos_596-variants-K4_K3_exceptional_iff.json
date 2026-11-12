@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/596 (pairs (G1,G2) such that (1) for every n ≥ 1 some G1-free H has a monochromatic G2 in every n-edge-colouring, and (2) every G1-free H has an ℵ0-edge-colouring with no monochromatic G2; 'Whether this is true for G1 = K4 and G2 = K3 is the content of [595]') and erdosproblems.com/595 ('Is there an infinite graph G which contains no K4 and is not the union of countably many triangle-free graphs?'; Folkman and Nešetřil–Rödl give part (1)). The Lean statement asserts IsErdosHajnalExceptional K4 K3 = HasFiniteRamseyProperty (∀ n ≥ 1, ∃ K4-free H with every n-colouring into disjoint classes covering H containing a K3 in some class) ∧ HasCountableRamseyEscape (every K4-free H on a Type has an edge partition d : ℕ → SimpleGraph into K3-free classes). Since a countable union of triangle-free graphs can be made disjoint, the second conjunct is exactly the negative answer to 595, and the first is the known Folkman result; so this is the yes/no question 'is (K4,K3) exceptional?' stated in its positive form, as the @[question] convention prescribes. Minor: the name '_iff' suggests a biconditional that the statement does not contain, but the content is correct. Faithful."
+    }
+]

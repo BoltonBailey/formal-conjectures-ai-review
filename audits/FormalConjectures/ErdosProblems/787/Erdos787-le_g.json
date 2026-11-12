@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/787, where g(n) is maximal such that every n-element A ⊂ ℝ contains B with |B| ≥ g(n) and b₁ + b₂ ∉ A for distinct b₁, b₂ ∈ B. In Lean g ℝ n is the sSup of all such m (with the condition encoded as Disjoint B.restrictedSumset A, shown equivalent in the file), and le_g states that any m with the property satisfies m ≤ g ℝ n. This is correct since the set of valid m is bounded above by n (an n-element subset of ℝ exists and B ⊆ A), which is exactly how the lemma is proved via le_csSup. Faithful."
+    }
+]

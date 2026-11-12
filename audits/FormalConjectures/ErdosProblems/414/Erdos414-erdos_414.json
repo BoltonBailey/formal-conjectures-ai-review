@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/414: with h(n) = n + τ(n) and h_k its k-th iterate, is it true that for any m,n there exist i,j with h_i(m) = h_j(n)? The Lean h n = n + n.divisors.card and the theorem says for all m, n > 0 there exist i, j with h^[i] m = h^[j] n. Allowing i or j = 0 (identity) does not change the statement, since applying h once more to both sides gives a solution with i, j ≥ 1. Restricting to positive m, n is the intended domain (h 0 = 0 is a degenerate fixed point that would make the statement false). Open status matches. Faithful."
+    }
+]

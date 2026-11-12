@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/757: Gyárfás–Lehel [GyLe95] proved 1/2 + 1/(141·76) ≤ c ≤ 3/5 (the upper bound from the first n Fibonacci numbers), and Ma–Tang [MaTa26] improved this to 9/17 ≤ c ≤ 4/7. The Lean IsAdmissible c says every finite A ⊆ ℝ whose 4-subsets B all satisfy |B−B| ≥ 11 contains a Sidon subset of size ≥ c|A|; the set of admissible c is downward closed (c ≤ 0 trivially) and bounded, so sSup is the \"best constant\". The theorem asserts sSup < 3/5 (strict). This strict form is true given the Ma–Tang bound c ≤ 4/7, but the docstring attributes it to [GyLe95], which per the source only gives ≤ 3/5 — a non-strict bound would not yield the stated strict inequality from GyLe95 alone. Minor issues: the docstring misattribution/strictness and an unused binder {A : Set ℝ}. The mathematical statement itself is a correct, proved consequence of the literature, so severity 2."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A229969, Zhi-Wei Sun's conjecture (ii): 'Each integer n > 4 can be written as x + y + z with x = 3 or 6 such that 2y+1, 2xyz−1 and 2xyz+1 are prime.' The Lean statement for n > 4 asks for x, y, z ∈ ℕ with y, z > 0, x + y + z = n, x ∈ {3, 6}, and 2y+1, 2xyz−1, 2xyz+1 prime. The positivity requirements are automatic anyway (y = 0 makes 2y+1 = 1, z = 0 makes 2xyz − 1 truncate to 0), so they match the source. A numerical check confirms representations exist for all 5 ≤ n < 5000. Faithful."
+    }
+]

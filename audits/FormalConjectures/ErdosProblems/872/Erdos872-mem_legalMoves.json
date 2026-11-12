@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/872 (the primitive-set saturation game on {2,…,n}: players alternately add integers keeping A primitive, i.e. no a | b for distinct a, b ∈ A). legalMoves p filters the unclaimed pool by whether inserting x keeps the claimed set primitive in [2,n], and the lemma states x ∈ legalMoves p ↔ x ∈ p.pool ∧ IsPrimitive n (insert x p.claimed). This matches the game's notion of a legal move, is a direct unfolding of the definition, and is proved in the file. Faithful."
+    }
+]

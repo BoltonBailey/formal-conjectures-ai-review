@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/889: v(n,k) counts prime factors of n+k not dividing any n+i, 0 ≤ i < k, and Erdős–Selfridge 'conjecture that v_l(n) = max_{k≥l} v(n,k) → ∞ as n → ∞, for every fixed l'. In Lean v n k = #{p ∈ primeFactors(n+k) : ∀ i < k, p ∤ n+i}, v_l l n = ⨆_{k ≥ l} v n k in ℕ∞, and the statement is ∀ l, Tendsto (v_l l) atTop (𝓝 ⊤), i.e. v_l(n) → ∞ for each fixed l. The supremum is actually finite for each n (for k ≥ n, n+k ≤ 2k has at most one prime factor > k, and only primes > k can qualify), so ℕ∞ only serves as a convenient codomain. Faithful."
+    }
+]

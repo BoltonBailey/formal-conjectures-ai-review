@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Context: erdosproblems.com/595 asks for an infinite K₄-free graph that is not a countable union of triangle-free graphs. This textbook lemma states monotonicity: if G = ⨆ᵢ Gᵢ with each Gᵢ triangle-free and H ≤ G, then H = ⨆ᵢ (H ⊓ Gᵢ) is also a countable union of triangle-free graphs. This is correct (subgraphs of triangle-free graphs are triangle-free), consistent with the file's IsCountableUnionOfTriangleFree definition, and proved in the file. Faithful."
+    }
+]

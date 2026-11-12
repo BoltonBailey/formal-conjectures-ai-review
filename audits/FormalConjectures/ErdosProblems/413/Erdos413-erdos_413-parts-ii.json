@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/413, second question: 'Can one show that there exists an ε > 0 such that there are infinitely many n where m + εω(m) ≤ n for all m < n?' (answered positively by Lau). The Lean statement ∃ ε > 0 with {n | ∀ m < n, m + ε·ω(m) ≤ n} infinite (IsBarrier for m ↦ εω(m), computed in ℝ) is a direct transcription. ω is Mathlib's cardDistinctFactors (ω(0) = 0 is harmless). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/72: 'Liu and Montgomery [LiMo20] proved that in fact this is true when A is the set of powers of 2', i.e. there is c > 0 such that every graph on sufficiently many vertices with average degree ≥ c contains a cycle whose length is a power of 2. The Lean variant: ∃ c > 0 (rational) such that for all large n, every G on Fin n with averageDegree ≥ c has a closed walk that is a cycle (Walk.IsCycle) of length 2^k for some k. Lengths 1 and 2 are impossible for cycles, so this is cycles of length 4, 8, 16, …, as intended. Faithful."
+    }
+]

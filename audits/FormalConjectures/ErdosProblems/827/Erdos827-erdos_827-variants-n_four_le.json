@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Martínez and Roldán-Pensado, 'Points defining triangles with distinct circumradii' (arXiv:1402.6276), Theorem 1.2: 'The first two non-trivial values of n_k satisfy n_4 ≤ 9 and n_5 ≤ 37', where their n_k is defined for point sets with no four on a line or circle (they remark they changed Erdős's general position condition). The Lean n k uses Erdős's condition (InGeneralPosition: no three collinear, no four concyclic), which is a subclass of theirs, so every 9-point set in Lean's sense also satisfies their hypothesis and contains 4 points with distinct circumradii; hence the Lean n 4 ≤ 9 follows (n is an sInf over the upward-closed set of valid m). HasDistinctCircumradii correctly says no two distinct triples lie on circles of the same radius (each non-collinear triple has a unique circumcircle). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/826: 'Are there infinitely many n such that, for all k ≥ 1, τ(n+k) ≪ k?' The Lean statement asserts ∃ C > 0 such that {n | ∀ k ≥ 1, σ 0 (n+k) ≤ C·k} is infinite, with σ 0 = number of divisors τ. Taking a single implied constant uniform over the infinite family of n is the standard (and only meaningful) reading: if C could depend on n the statement would be trivial, since τ(n+k) ≤ n+k ≤ (n+1)k. Faithful (positive form of a yes/no question)."
+    }
+]

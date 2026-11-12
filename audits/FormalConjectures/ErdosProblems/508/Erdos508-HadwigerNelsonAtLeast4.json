@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/508: with χ the chromatic number of the plane, 'There are several small graphs that show χ ≥ 4 (in particular the Moser spindle and Golomb graph).' The Lean statement 4 ≤ χ(ℝ²), where χ(ℝ²) is the chromaticNumber (in ℕ∞) of the unit-distance graph on all of ℝ² (points adjacent iff at distance 1), is exactly this classical bound. Faithful."
+    }
+]

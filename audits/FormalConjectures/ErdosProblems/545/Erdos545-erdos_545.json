@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/545: for G with m = C(n,2) + t edges (0 ≤ t < n) and no isolated vertices, is R(G) ≤ R(H), H = K_n plus a new vertex joined to t vertices? The page notes the statement fails for small m (2 ≤ m ≤ 5, 7 ≤ m ≤ 9). The Lean statement asserts this for all sufficiently large m, with H = knPlusTEdges n t on Option (Fin n) and R = diagonalGraphRamsey. Restricting to large m is a documented repair excluding the known small counterexamples, which is the sensible reading. For t = 0, H is K_n plus an isolated vertex, whose Ramsey number equals R(K_n) for n ≥ 3 (as R(K_n) > n), so this edge case agrees with H = K_n. Faithful."
+    }
+]

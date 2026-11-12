@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/827, where n_k is the minimal number such that any n_k points in general position in R^2 contain k points all of whose C(k,3) triples determine circles of different radii. The Lean n k is sInf of the set of m such that every m-point set in general position contains such a k-subset, and n_le says that if m has this property then n k ≤ m. This is exactly Nat.sInf_le and is proved in the file. It is a correct, trivially true auxiliary statement consistent with the definition (the property is upward-closed in m, since a larger set in general position contains an m-subset in general position, so sInf is the intended minimum)."
+    }
+]

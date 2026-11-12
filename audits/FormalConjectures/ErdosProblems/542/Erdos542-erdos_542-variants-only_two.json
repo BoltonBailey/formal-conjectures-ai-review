@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/542: for A ⊆ {1,…,n} with lcm(a,b) > n for all distinct a, b ∈ A, 'In [Er98] Erdős mentions that he, Schinzel, and Szekeres conjectured that 2,3,5 and 3,4,5,7,11 are the only two sequences for which the sum [Σ 1/a] is > 1.' The Lean statement: for all n and A with IsLcmFree n A (A ⊆ [1,n], pairwise lcm > n), Σ 1/a > 1 implies A = {2,3,5} or A = {3,4,5,7,11}. These two sets are indeed admissible (for n = 5 and n = 11 respectively) with sums 31/30 and ≈ 1.017; A = {1} has sum exactly 1 and 1 cannot coexist with other elements, so no degenerate counterexample arises. As a sanity check I brute-forced all n ≤ 60 and found no other lcm-free set with reciprocal sum > 1. Faithful."
+    }
+]

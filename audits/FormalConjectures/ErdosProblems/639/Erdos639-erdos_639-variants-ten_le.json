@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/639: in any 2-colouring of the edges of K_n, at most n²/4 edges lie in no monochromatic triangle; Keevash–Sudakov [KeSu04] showed the exact threshold is ⌊n²/4⌋ for all n ≥ 7. The Lean variant: for every n ≥ 10 and every C : Sym2 (Fin n) → Fin 2, the number of uncovered edges (non-diagonal e = s(x,y) with no third vertex z such that s(x,z) and s(y,z) have the same colour as e) is ≤ n²/4 (natural division = ⌊n²/4⌋). The uncovered-edge definition is exactly 'not in a monochromatic triangle', and the restriction n ≥ 10 makes this a (true) weakening of the n ≥ 7 theorem, attributed in the docstring to [KeSu04, Prop. 2.1]. Faithful."
+    }
+]

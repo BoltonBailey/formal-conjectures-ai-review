@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A217785 (a(n) = smallest s > n with 1+2s+3s^2+…+n·s^{n−1} prime) and Zhi-Wei Sun's comment 'moreover, we have a(n) < 12*n^2' for n = 2,3,…. In Lean polyP n s = Σ_{k<n} (k+1)s^k is that sum, a n is some (sInf {s | n < s ∧ (polyP n s).Prime}) when such s exists and none otherwise, and the statement for n ≥ 2 is ∃ m < 12n², a n = some m, i.e. a(n) exists and is < 12n². This matches the conjecture (which also implicitly requires a(n) to exist). Tests a(2..6) = 3,12,12,9,21 match the data. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/955: with s(n) = σ(n) − n, 'It is possible for s(A) to have positive density even if A has zero density (for example taking A to be the product of two distinct primes)'. The Lean statement: ∃ A ⊆ ℕ with natural density 0 such that s '' A has natural density d for some d > 0. This matches. It is also true with the suggested A = {pq : p ≠ q primes} (density 0): s(pq) = 1 + p + q, and since almost all even numbers are sums of two distinct primes (Chudakov–van der Corput–Estermann), s(A) contains almost all odd numbers, while its even elements (q + 3) have density 0, so s(A) has density exactly 1/2. Requiring that the density exists (HasDensity) rather than just positive lower density is satisfied by this example. Faithful."
+    }
+]

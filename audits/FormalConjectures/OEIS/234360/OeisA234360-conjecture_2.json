@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A234360, comment (i): 'for any n > 5 there is a positive integer k < n with (k+1)^{phi(n-k)/2} - k prime', plus the Aug 2026 comment that Adamczewski disproved the conjecture using n = 1408. The Lean statement is the negation of ∀ n > 5, ∃ 0 < k < n, ∃ prime p, (p+k)^2 = (k+1)^{φ(n−k)}. When φ(n−k) is even this says p = (k+1)^{φ(n−k)/2} − k is prime, exactly the OEIS condition; when φ(n−k) is odd (only n−k ∈ {1,2}, φ = 1) the Lean equation (p+k)^2 = k+1 has no solution with p ≥ 2, and the OEIS expression is also never prime there ((k+1)^0 − k = 1 − k ≤ 0 with floor division, or non-integer otherwise), so the encoding is equivalent. I independently checked with sympy that for n = 1408 none of (k+1)^{⌊φ(1408−k)/2⌋} − k, 1 ≤ k ≤ 1407, is prime (BPSW never misreports a prime as composite), confirming the counterexample and hence the 'solved' negated statement. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/667: 'It is easy to see that if q = C(p−1,2) + 1 then c(p,q) = 1', where c(p,q) = liminf log H(n)/log n and H(n) is the largest clique size forced in n-vertex graphs whose p-sets all span ≥ q edges. The Lean variant states c p (C(p−1,2)+1) = 1 for p ≥ 2, with H defined via Nat.findGreatest (correctly giving the maximum forced clique size). I checked the claim: if every p-set spans at least C(p−1,2)+1 edges, the complement has no vertex of degree ≥ p−1 (a vertex with p−1 complement-neighbours gives a p-set missing p−1 edges), so G contains a clique of size ≥ n/(p−1), giving c = 1; for p = 2 the graph is complete. Faithful."
+    }
+]

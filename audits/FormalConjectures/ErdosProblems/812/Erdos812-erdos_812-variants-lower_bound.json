@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/812: 'Burr, Erdős, Faudree, and Schelp [BEFS89] proved that R(n+1) − R(n) ≥ 4n − 8 for all n ≥ 2', R(n) the diagonal Ramsey number. The Lean variant states exactly this in ℤ, with R = hypergraphRamsey 2 (the least m such that every 2-colouring of pairs of Fin m has a monochromatic n-set, i.e. R(n,n)). Sanity check: n = 2 gives R(3) − R(2) = 6 − 2 = 4 ≥ 0. Faithful."
+    }
+]

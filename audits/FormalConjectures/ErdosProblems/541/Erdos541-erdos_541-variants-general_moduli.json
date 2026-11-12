@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/541: for residues a_1,…,a_p mod p such that all nonempty zero-sum index sets S have the same size r, must the a_i take at most two distinct values? — 'proved … by Gao, Hamidoune, and Wang [GHW10] for all moduli (not necessarily prime)'. The Lean variant: for every p and a : Fin p → ZMod p, if ∃ r with every nonempty S ⊆ Fin p, Σ_{i∈S} a_i = 0 implying |S| = r, then the range of a has at most 2 elements. This is the general-modulus form (n elements of ℤ_n) of GHW10's theorem; degenerate p = 0, 1 are trivially true. Faithful."
+    }
+]

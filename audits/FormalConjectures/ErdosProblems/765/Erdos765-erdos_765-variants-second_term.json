@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/765: Erdős [Er93] conjectured ex(n;C₄) = n^{3/2}/2 + n/4 + O(n^{1/2}) for all n, which is false since Ma and Yang [MaYa23] proved ex(n;C₄) ≤ n^{3/2}/2 + (1/4 − c)n for a positive-density set of n. The Lean variant states ¬ ((n ↦ ex(n;C₄) − n^{3/2}/2 − n/4) = O(n^{1/2})), with ex = Mathlib's extremalNumber n (cycleGraph 4). This negation follows from Ma–Yang (the difference is ≤ −cn infinitely often) and is exactly the refutation of Erdős's stronger conjecture. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/794: 'Balogh has observed … every graph with 5 vertices spanning 7 edges contains a graph on 4 vertices spanning 3 edges, so the second condition can be dropped.' The Lean statement: for any 3-uniform H (finset of 3-sets over any type V), H.ContainsSubgraph 5 7 → H.ContainsSubgraph 4 3, where ContainsSubgraph v e means some v-set S spans at least e edges of H. This is exactly Balogh's observation (the 'at least' reading is the right one for 'a subgraph on 4 vertices with 3 edges'), and it is proved in the file by double counting (each edge in a 5-set lies in two of its five 4-subsets, so 14 ≤ 5·2 would be needed if all 4-sets spanned ≤ 2 edges). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/559: 'The best known upper bound of ≤ n^{3/2+o(1)} is due to Draganić and Petrova [DrPe22]' for the size-Ramsey number R̂(G) of n-vertex graphs G with maximum degree 3. The Lean variant: for every ε > 0, for all large n, every G on Fin n with maxDegree ≤ 3 has sizeRamsey G G ≤ n^{3/2+ε}, where sizeRamsey G G is the least edge count of a host graph all of whose 2-edge-colourings contain a monochromatic copy of G. This is the standard uniform-in-G encoding of n^{3/2+o(1)}, matching the statement of [DrPe22]. Faithful."
+    }
+]

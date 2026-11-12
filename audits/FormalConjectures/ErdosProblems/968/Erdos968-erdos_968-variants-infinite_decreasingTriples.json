@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/968: with u_n = p_n/n, 'Erdős also asks whether u_n < u_{n+1} < u_{n+2} or u_n > u_{n+1} > u_{n+2} have infinitely many solutions.' The Lean u n = (nth Prime n)/(n+1) is the classical u_{n+1} (0-indexed shift), so {n | u n > u(n+1) > u(n+2)} being infinite is exactly the decreasing-triple question. The positive answer (asserted here) follows as the docstring explains: u_m > u_{m+1} ⟺ p_{m+1} − p_m < p_m/m, and Maynard's bounded gaps p_{m+2} − p_m = O(1) infinitely often together with p_m/m ~ log m → ∞ give infinitely many such triples. Faithful."
+    }
+]

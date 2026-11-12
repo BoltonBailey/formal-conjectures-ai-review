@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/878: with f(n) = Σ_{p | n} p^{ℓ_p}, n ∈ [p^{ℓ_p}, p^{ℓ_p+1}), the page records Erdős's result limsup (1/x) Σ_{n<x} f(n)/n = ∞. In Lean f n = Σ_{p ∈ primeFactors n} p^{Nat.log p n} (Nat.log p n = ⌊log_p n⌋, matching ℓ_p), H x = Σ_{1 ≤ n < x} f(n)/n, and the statement ∀ C, ∃ᶠ x, C ≤ H x / x is exactly limsup H(x)/x = ∞ over integer x (the n = 0 term is excluded, as on the page where n ranges over positive integers). Faithful."
+    }
+]

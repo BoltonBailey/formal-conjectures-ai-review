@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A233549, Zhi-Wei Sun's conjecture (ii): 'If n > 2 is not equal to 26, then there is a prime p < n with (phi(p)*phi(n-p))^2 + 1 prime.' The Lean statement for n > 2, n ≠ 26 asserts ∃ p < n, p prime, ((φ p)(φ (n−p)))^2 + 1 prime; since p < n, the truncated subtraction n − p is the true value (≥ 1). Literal transcription. As a sanity check I verified numerically that for 3 ≤ n < 5000 the only failure is n = 26, consistent with the stated exception. Faithful."
+    }
+]

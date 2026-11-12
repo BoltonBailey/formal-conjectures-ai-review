@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/775: 'Is there a 3-uniform hypergraph on n vertices which contains at least n − O(1) different sizes of cliques (maximal complete subgraphs)?' — answered no by Gao, who shows every k-uniform (k ≥ 3) hypergraph on n vertices has at most n − f_k(n) clique sizes with f_k(n) → ∞. The Lean statement is ¬ ∃ C, for infinitely many n, ∃ 3-uniform H on Fin n with |cliqueSizes H| ≥ n − C, where cliqueSizes are the cardinalities of maximal finite vertex sets all of whose 3-subsets are edges. Negating the 'infinitely often' version gives the strong negative answer, exactly what Gao's f_k(n) → ∞ implies. Faithful."
+    }
+]

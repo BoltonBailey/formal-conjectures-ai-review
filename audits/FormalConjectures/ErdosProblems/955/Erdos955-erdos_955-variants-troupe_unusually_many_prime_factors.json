@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/955: the conjecture that s^{-1}(A) has density 0 whenever A does (s(n) = σ(n) − n) is known for 'A the set of integers with unusually many prime factors' (Troupe [Tr15], who showed ω(s(n)) has normal order log log n). The Lean variant: for every ε > 0, {x | (1+ε)·log log s(x) < ω(s(x))} has natural density 0, i.e. s^{-1}(A_ε) is density-zero for A_ε = {m : ω(m) > (1+ε) log log m}, a density-zero set by Hardy–Ramanujan. This is a precise reading of 'unusually many prime factors' consistent with Troupe's result; junk values of log log at s(x) ∈ {0,1} affect only finitely many/negligible x. Faithful."
+    }
+]

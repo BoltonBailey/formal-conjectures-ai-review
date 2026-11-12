@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/939: 'If r ≥ 4 then can the sum of r−2 coprime r-powerful numbers ever be itself r-powerful?' The Lean statement asserts ∀ r ≥ 4, Erdos939Sums r is nonempty, where Erdos939Sums r = finsets S of r−2 distinct positive r-full numbers with gcd(S) = 1 (setwise coprime) whose sum is r-full. Setwise coprimality is consistent with the page's r = 5 example of Cambie (whose summands are not pairwise coprime), and positivity excludes the degenerate 0. The formula is a reasonable formalisation, but the quantifier reading is a choice not explained in the main docstring: 'can … ever be' could be read per-r (as here; then it is open because no example is known for r = 4, while r = 5, 6, 7, 8, … have examples) or as 'for some r ≥ 4' (already settled by r = 5, which the file records separately as variants.examples). The 'finite' variant's docstring makes the per-r reading clear, so this is a documentation issue rather than a misformalisation."
+    }
+]

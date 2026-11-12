@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/920: f_k(n) is the maximum chromatic number of a K_k-free graph on n vertices, and 'Graver and Yackel [GrYa68] proved that f_k(n) ≪ (n log log n / log n)^{1−1/(k−1)}'. In Lean f k n = sSup of the natural numbers equal to χ(G) for K_k-free G on Fin n (finite, so this is the maximum), and the statement for k ≥ 3 is the project's ≪ notation, i.e. IsBigO atTop of (n ↦ f k n) against (n ↦ (n·log log n/log n)^{1−1/(k−1)}) as real functions on ℕ. Restricting to k ≥ 3 is appropriate: k = 2 is degenerate (f_2 = 1 and the exponent is 0). Faithful."
+    }
+]

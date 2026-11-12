@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/489: for A ⊆ ℕ with |A ∩ [1,x]| = o(x^{1/2}) and B = {n ≥ 1 : a ∤ n for all a ∈ A} = {b_1 < b_2 < ⋯}, does lim (1/x) Σ_{b_i < x} (b_{i+1} − b_i)² exist and is it finite? The Lean statement asserts, for every such A with B (sievedSet A) infinite, a real limit L of GapSumSq A x / x, where GapSumSq sums (b(i+1) − b(i))² over i < count(B, x), i.e. over the b_i < x (0-indexed Nat.nth, so this is the same sum). The extra hypothesis that B is infinite only excludes degenerate cases where the b_i are undefined: since |A ∩ [1,x]| = o(√x) forces Σ 1/a < ∞, the Heilbronn–Rohrbach inequality gives B positive density whenever 1 ∉ A, so the hypothesis only rules out 1 ∈ A (B = ∅). A real-valued limit captures 'exists and is finite'. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/409: 'One can also ask similar questions about n ↦ σ(n) − 1: do iterates of this always reach a prime? If so, how soon?' The Lean variant assumes c(n) is the least number of iterations of n ↦ σ(n) − 1 reaching a prime for every n > 1 (so it presupposes universal termination, matching the source's 'If so'), and asks for a value answer with c = o(answer). This is a faithful but weak rendering of the open-ended 'how soon?': any sufficiently fast-growing function (or one built from c itself) satisfies c = o(g), so the question only has content under an unstated notion of 'simplest/optimal' g, which the file's formalisation note acknowledges ('trivial or sub-optimal solutions will therefore exist'). Additionally, if σ-iteration fails to terminate for some n, the hypothesis is unsatisfiable and the statement is vacuously true — consistent with 'If so', but worth noting. No mathematical error, but the formal statement does not pin down a meaningful target; documentation explains this."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/423: for the Hofstadter sequence a_1 = 1, a_2 = 2, a_k the least integer > a_{k−1} that is a sum of at least two consecutive earlier terms (OEIS A005243), Tang [Ta26] with Cushman's convex-set bound gives a_n ≪ n^{688/413+o(1)}. The Lean statement: for every a satisfying IsHofstadterSeq (which pins down a(k) for k ≥ 1 exactly as in the source, with sums over index blocks [i,j] ⊆ [1,k−1], j ≥ i+1), and every ε > 0, a_n = O(n^{688/413+ε}). This is the standard encoding of n^{c+o(1)} as an upper bound, and the exponent matches the page (688/413 ≈ 1.6659). a(0) is unconstrained but irrelevant asymptotically. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/441: 'The construction mentioned proves that g(N) ≥ (9N/8)^{1/2} + O(1)'. The Lean variant ∃ C, ∀ N, √(9N/8) − C ≤ g N matches with a uniform O(1). As a check, the construction (all a ≤ √(N/2) plus even a ≤ √(2N)) has about √(N/2) + (√(2N) − √(N/2))/2 = (3/2)√(N/2) = √(9N/8) elements, and it is valid (pairwise lcm ≤ N), as verified in my audit of the main statement. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's \"100 open problems\", Problem 68 comments: \"Denoting by f_d(p) the size of the largest no-three-in-a-line set in F_p^d, ... Is f_4(p) = o(p^3), or even O(p^{2+o(1)})?\" The Lean maxNoThreeCollinear 4 p is the sSup of sizes of A ⊆ (Fin 4 → ZMod p) with no 3 collinear points (via Mathlib's Collinear over ZMod p; affine lines in F_p^4), which is f_4(p) (bounded by p^4, so a genuine max). The statement ∀ ε > 0, ∃ C, ∀ primes p, f_4(p) ≤ C·p^{2+ε} is equivalent to f_4(p) ≤ p^{2+o(1)} (finitely many small p are absorbed into C), the standard reading of O(p^{2+o(1)}). Open status matches. Faithful."
+    }
+]

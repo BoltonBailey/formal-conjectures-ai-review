@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/420: with F(f,n) = τ((n+⌊f(n)⌋)!)/τ(n!), the page reports that Erdős, Graham, Ivić and Pomerance [EGIP96] proved liminf F(c log n, n) = 1 for every c > 0. The Lean variant states the weaker consequence: for every c > 0, F(c log n, n) < 2 for infinitely many n. The docstring explains this is how EGIP96 Corollary 2 is printed (K(n)/log n unbounded, K(n) the least K with τ((n+K)!) ≥ 2τ(n!)); the translation is correct because F is nondecreasing in f, so K(n) > ⌊c log n⌋ iff F(c log n, n) < 2. In any case the statement is implied by the page's liminf = 1 claim, so it is true and faithful to the cited result (I did not consult EGIP96 directly). Faithful."
+    }
+]

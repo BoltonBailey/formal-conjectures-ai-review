@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/946: 'Erdős, Pomerance, and Sárközy [EPS87] proved an upper bound of ≪ x/√(log log x)' for the number of n ≤ x with τ(n) = τ(n+1). The Lean variant: erdos946Count =O[atTop] (x ↦ x/√(log log x)) over real x, with erdos946Count x = #{n ≤ ⌊x⌋ : σ₀(n) = σ₀(n+1)}. Including n = 0 changes nothing (σ₀(0) = 0 ≠ 1 = σ₀(1)). Faithful."
+    }
+]

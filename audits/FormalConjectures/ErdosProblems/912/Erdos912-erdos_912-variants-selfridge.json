@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/912: with n! = ∏ p_i^{k_i} and h(n) the number of distinct exponents k_i, Erdős and Selfridge proved h(n) ≍ (n/log n)^{1/2}. In Lean h n = card of the range of the nonzero values of (n!).factorization (Finsupp.frange), i.e. the number of distinct exponents, and the statement is (n ↦ h n) =Θ[atTop] (n ↦ (n/log n)^{1/2}) over ℕ with real arithmetic. This is exactly the ≍ claim. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/969: with Q(x) the number of squarefree integers in [1,x] and E(x) = Q(x) − (6/π²)x, 'the prime number theorem implies o(x^{1/2})'. The Lean variant states |E(x)| = o(√x) over natural x, where squarefreeCountingError x = #{n ∈ [1,x] squarefree} − (6/π²)x. Restricting to integer x loses nothing since Q is a step function and the linear term varies by O(1) between integers. Faithful."
+    }
+]

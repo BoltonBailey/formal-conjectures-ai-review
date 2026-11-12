@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/785: for infinite sets A, B of positive integers with A+B containing all large integers and A(x)B(x) ~ x (exact additive complements), Sárközy and Szemerédi [SaSz94] 'proved that it is impossible for A(x)B(x) − x = o(A(x))'. The Lean variant: for infinite A, B ⊆ ℕ with 0 ∉ A, B and IsExactAdditiveComplement A B, ¬ (x ↦ A(x)B(x) − x) =o[atTop] (x ↦ A(x)), with A(x) = |A ∩ [1,x]| and x ranging over ℕ. This is a direct transcription. Faithful."
+    }
+]

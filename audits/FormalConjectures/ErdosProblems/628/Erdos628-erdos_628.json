@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/628 (the Erdős–Lovász Tihany conjecture): if χ(G) = k and G contains no K_k, then for a, b ≥ 2 with a + b = k + 1 there are two disjoint subgraphs with chromatic numbers ≥ a and ≥ b. The Lean statement, for a finite G with chromaticNumber = k and CliqueFree k, asserts a vertex set s with χ(G[s]) ≥ a and χ(G[sᶜ]) ≥ b. Using a complementary pair of induced subgraphs is equivalent to 'two disjoint subgraphs' (chromatic number is monotone, so any disjoint pair extends to a complementary pair of induced subgraphs). Stated as a conjecture without the question tag, consistent with its standard status as a conjecture. Faithful."
+    }
+]

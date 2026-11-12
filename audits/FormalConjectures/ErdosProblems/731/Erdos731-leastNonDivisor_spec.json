@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/731, which concerns the least integer m ≥ 1 with m ∤ C(2n,n). The Lean leastNonDivisor n = sInf {m > 0 : m ∤ centralBinom n}, and the lemma states that this value is positive and does not divide C(2n,n), i.e. the infimum is attained. This is correct (the set is nonempty, containing C(2n,n) + 1) and is proved in the file via Nat.sInf_mem; the test leastNonDivisor 1 = 3 confirms the intended behaviour. Faithful."
+    }
+]

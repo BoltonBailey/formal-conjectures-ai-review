@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Compared against erdosproblems.com/462, which states Σ_{n<x, n not prime} p(n)/n ~ c x^{1/2}/(log x)² and then asks whether there is C > 0 with Σ_{x≤n≤x+Cx^{1/2}(log x)²} p(n)/n ≫ 1 for all large x (p(n) the least prime factor). The Lean statement transcribes the second sum literally, over all n in [x, x + C√x(log x)²], including primes. Concrete discrepancy with the likely intent: for prime n, p(n)/n = 1, so the inclusive sum is ≥ 1 as soon as the window contains a prime; the statement therefore follows from prime-gap bounds of the form p_{k+1} − p_k ≪ √p_k (log p_k)² (e.g. under RH), and becomes a question mostly about primes in short intervals. The window length C√x(log x)² is exactly the scale at which the composite-only sum from the first sentence averages Θ(1) (its density is ≈ (c/2)x^{−1/2}(log x)^{−2}), strongly suggesting Erdős meant composite n here too. The composite-only version implies the Lean statement but not conversely. The website text is itself ambiguous, so the formalisation is defensible as a literal reading, but neither the docstring nor the statement addresses the issue, and the formal problem may be strictly easier than the intended one."
+    }
+]

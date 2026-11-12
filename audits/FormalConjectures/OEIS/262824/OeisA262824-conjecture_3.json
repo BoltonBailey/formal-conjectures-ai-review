@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A262824, comment (ii) by Zhi-Wei Sun: for P(w,x,y,z) = w^2 + x^3 + 2*y^3 + 3*z^4 (one of the four listed forms), {P(w,x,y,z) : w,x,y,z = 0,1,2,...} = {0,1,2,...}. The Lean statement says every n : ℕ equals w^2 + x^3 + 2y^3 + 3z^4 for some w x y z : ℕ, which is exactly surjectivity onto the nonnegative integers (the inclusion ⊆ is automatic). Faithful."
+    }
+]

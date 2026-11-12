@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/917: 'Stiebitz also proved the general upper bound f_k(n) < ex(n; K_{k−1}) for large n', with f_k(n) the maximum number of edges of a k-critical graph on n vertices. The Lean variant: for k ≥ 4, eventually in n, f k n < extremalNumber n K_{k−1}. Restricting to k ≥ 4 (as in [LMY23]) is necessary and correct: for k = 3 the 3-critical graphs are odd cycles with n edges while ex(n;K₂) = 0. f k n is the maximum (or 0 if no k-critical graph exists) over vertex- and edge-critical graphs, which only makes the strict inequality easier when no critical graph exists. Faithful."
+    }
+]

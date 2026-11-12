@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/684: writing C(n,k) = uv with u supported on primes ≤ k, f(n) is the least k with u > n²; [APSSV26] constructs arbitrarily large n with f(n) ≥ (1/2 − o(1)) log n. The Lean statement: for infinitely many n > 1, smallPrimePart n k (= u, the full contribution of primes ≤ k to C(n,k)) equals 1 for every k ≤ (log n)/8. This implies u ≤ n² for those k, hence f(n) > (log n)/8, a weaker-constant version of the cited bound, as the docstring says. It is also what the natural construction gives: choosing n ≡ −1 modulo a suitable power of every prime p ≤ K makes the low base-p digits of n all p−1, so by Kummer no p ≤ k divides C(n,k) for k ≤ K, with K ≈ (1/2) log n. The statement carries a formal-proof link. Faithful (deliberately weakened constant)."
+    }
+]

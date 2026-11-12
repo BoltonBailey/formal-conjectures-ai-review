@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/915 (graphs with 1+n(m−1) vertices and 1+n·C(m,2) edges: must two vertices be joined by m disjoint paths?), which records that for the edge-disjoint reading Mader [Ma73] established ℓ_m(N) = ⌊(m/2)(N−1) + 1⌋ for all m ≥ 2, confirming the conjecture. With N = 1 + n(m−1) this threshold is (m/2)·n(m−1) + 1 = 1 + n·C(m,2), exactly the edge count in the statement. The Lean variant asserts, for m ≥ 2, n ≥ 1 and every G on a type of size 1+n(m−1) with exactly 1+n·C(m,2) edges, distinct u, v and a Finset of m paths from u to v that are pairwise edge-disjoint (List.Disjoint on edge lists). This is the edge-disjoint reading of the conjecture and is true by Mader's theorem. Faithful."
+    }
+]

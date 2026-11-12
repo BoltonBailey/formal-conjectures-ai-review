@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/482: a_1 = 1, a_{n+1} = ⌊√2(a_n + 1/2)⌋, and 'a_{2n+1} − 2a_{2n−1} is the nth digit in the binary expansion of √2' (Graham–Pollak); the further request 'find similar results for √m and other algebraic numbers' is open-ended and handled by the Stoll variants. The Lean statement formalises the Graham–Pollak result: for n ≥ 1, a(2n+1) − 2a(2n−1) equals Mathlib's Real.digits (√2/2) 2 (n−1), i.e. digit n−1 of 0.10110101… = √2/2, which is the nth binary digit of √2 = 1.0110101… counting the leading 1 as digit 1 (I checked by hand: a = 1,2,3,4,6,9,13,… giving differences 1,0,1,…). The second conjunct, ofDigits of those digits = √2/2, just records that these are the binary expansion (true by Mathlib's Real.ofDigits_digits). The recursion with a 0 = 0 unused matches the source indexing. Faithful formalisation of the concrete part; the open-ended part cannot be stated as a single theorem and is reasonably addressed by the variants."
+    }
+]

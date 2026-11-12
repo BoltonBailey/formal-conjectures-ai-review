@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A229232, Zhi-Wei Sun's conjecture (1): 'For any integer n > 1, there is a permutation π(1), …, π(n) of 1, …, n such that the n numbers 2π(1)π(2)−1, …, 2π(n−1)π(n)−1, 2π(n)π(1)−1 are all prime.' The Lean statement, for n > 1, asks for π : Equiv.Perm (Fin n) with 2·(π i + 1)·(π((i+1) mod n) + 1) − 1 prime for every i; the +1 shifts Fin n to {1,…,n} and the mod-n index supplies the wrap-around term. Natural subtraction is exact since the product is ≥ 2. Faithful."
+    }
+]

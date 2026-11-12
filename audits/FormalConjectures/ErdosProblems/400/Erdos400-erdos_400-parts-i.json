@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/400, first question: for k ≥ 2 with g_k(n) the maximum of (a_1+⋯+a_k) − n over a_1!⋯a_k! ∣ n!, can one show Σ_{n≤x} g_k(n) ~ c_k x log x for some constant c_k? In Lean g k n = sSup of (Σ a_i) − n over a : Fin k → ℕ with ∏ (a_i)! ∣ n! (the set is bounded, as shown in g_pos, so this is the maximum; truncated subtraction is harmless since the maximum is ≥ 1 > 0, taking a = (n,1,0,…)), and the statement is ∀ k ≥ 2, ∃ c : ℝ, (x ↦ Σ_{n=1}^{x} g k n) ~ (x ↦ c·x·log x). The degenerate choice c = 0 cannot satisfy ~ since the sums are positive, so the existential does not trivialise. Faithful (yes/no question in positive form)."
+    }
+]

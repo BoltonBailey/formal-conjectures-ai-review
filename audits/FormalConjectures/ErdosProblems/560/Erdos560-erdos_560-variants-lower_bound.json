@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/560: 'The lower bound (which holds for n ≥ 6) was proved by Erdős and Rousseau [ErRo93]: (1/60) n² 2^n < R̂(K_{n,n})'. The Lean variant states exactly this for all n ≥ 6, with R̂(K_{n,n}) = sizeRamsey K_{n,n} K_{n,n} (least number of edges of a graph every 2-colouring of which has a monochromatic K_{n,n}). Faithful."
+    }
+]

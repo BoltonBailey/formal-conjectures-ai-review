@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/1115, where ℓ(r) is the length of the path Γ in the disc |z| < r. In Lean lengthInDisc γ r = volume {t ≥ 0 : ‖γ t‖ < r} for an arc-length-parametrised γ (so this is the length of Γ inside the open disc, counted with multiplicity), and the lemma states ℓ(r) ≤ ℓ(r') for r ≤ r'. This is the obvious monotonicity of ℓ, is mathematically correct, and is proved in the file by measure monotonicity. Faithful."
+    }
+]

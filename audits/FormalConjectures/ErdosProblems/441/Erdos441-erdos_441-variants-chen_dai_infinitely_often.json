@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/441: Chen and Dai [ChDa07] proved that for infinitely many N, the maximum size g(N) of A ⊆ [1,N] with pairwise lcm ≤ N satisfies |A| ≥ |B| + t, where B is Erdős' construction and t ≥ 0 is such that the t-fold iterated logarithm of N lies in [0,1). The Lean statement: ∃ᶠ N, |erdosConstruction N| + Real.iteratedLog N ≤ g N + 2, i.e. g(N) ≥ |B| + t − 2. Real.iteratedLog N is the least n with log^[n] N ≤ 1; for integers N ≥ 2 this equals the source's t (no iterate of an integer N ≥ 2 equals exactly 1, and the first iterate below 1 is the log of a number in (1,e], hence in [0,1)). The extra −2 is explained in the docstring as the form actually proved in [ChDa07]; it is weaker than the page's statement, so the Lean statement is implied by the page's claim either way. g and erdosConstruction match the source definitions. Faithful."
+    }
+]

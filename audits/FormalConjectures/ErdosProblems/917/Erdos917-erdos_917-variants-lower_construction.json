@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/917: for k ≥ 6 there are infinitely many n with f_k(n) ≥ ½(1 − 1/(⌊k/3⌋ + δ_k))n², δ_k = 0, 1/7, 24/69 for k ≡ 0, 1, 2 (mod 3), where f_k(n) is the maximum number of edges of a k-critical graph on n vertices. The Lean statement is exactly this with ∃ᶠ n (infinitely many n), ℕ-division for ⌊k/3⌋, and delta k as specified. f k n is the sSup over k-critical graphs on Fin n (vertex- and edge-critical with chromatic number k; bounded by C(n,2), so a maximum when nonempty, 0 otherwise — which cannot spuriously satisfy the inequality since the right side is positive for n ≥ 1). I also checked that the docstring's alternative form from [LMY23], (1/2 − 3/(2k − δ'_k))n² with δ' = 0, 8/7, 44/23, agrees algebraically with the δ_k form in each residue class. Using the standard (vertex-and-edge) notion of k-critical is appropriate and explained. Faithful."
+    }
+]

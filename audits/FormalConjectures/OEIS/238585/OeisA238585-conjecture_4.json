@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A238585, Zhi-Wei Sun's comment (iii): 'For n > 3, there is a prime p < n with prime(p) + prime(n) + 1 prime.' With prime(i) the i-th prime 1-indexed, encoded as Nat.nth Nat.Prime (i − 1) (0-indexed nth), the Lean statement for n > 3 asserts ∃ p < n, p prime, with nth Prime (p−1) + nth Prime (n−1) + 1 prime. Since p is prime, p ≥ 2 and the index shift is exact. Literal transcription. Faithful."
+    }
+]

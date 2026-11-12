@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Matches erdosproblems.com/71: 'Is it true that for every infinite arithmetic progression P which contains even numbers there is some constant c = c(P) such that every graph with average degree at least c contains a cycle whose length is in P?' (proved by Bollobás). In Lean P ⊆ ℕ with P.IsAPOfLength ⊤ (P = {a + nd : n ∈ ℕ} with infinite cardinality, forcing d > 0) containing an even element; the statement gives c : ℚ (depending on P) such that every finite graph with averageDegree ≥ c has a cycle (Walk.IsCycle) of length in P. Positive c can always be chosen, so empty vertex types (average degree 0) are harmless. Faithful."
+    }
+]

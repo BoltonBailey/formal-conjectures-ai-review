@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/392: 'Cambie has observed that a positive answer follows from the result above with a_t ≤ n, simply by pairing variables together, e.g. taking a'_i = a_{2i−1}a_{2i} (and the lower bound follows from Stirling's approximation).' The Lean statement is type_of% erdos_392.variants.lower → type_of% erdos_392, i.e. (for every A characterised as the least t with n! = a_1⋯a_t, a monotone, a_t ≤ n, we have A(n) = n − n/log n + o(n/log n)) implies (for every A characterised with a_t ≤ n², A(n) = n/2 − n/(2 log n) + o(n/log n)). The characterisations via IsLeast over t+1 with a : Fin (t+1) → ℕ monotone and last term bounded match the source definitions for n > 0 (A 0 is unconstrained, irrelevant asymptotically); the arithmetic is in ℝ. The implication is exactly Cambie's observation (pairing gives the upper bound ⌈A_n(n)/2⌉; log n! ≤ t·2 log n with Stirling gives the matching lower bound). Faithful."
+    }
+]

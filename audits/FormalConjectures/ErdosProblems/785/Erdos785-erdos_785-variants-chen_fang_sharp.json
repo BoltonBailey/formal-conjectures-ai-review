@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "da703a5f239f734a47ede2f4e99b9ccc9e644cb5",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/785: 'This is sharp, as Chen and Fang [ChFa11] also proved that there exist such A and B with limsup A(x)B(x)/x = 3/2 for which A(x)B(x) − x = 1 for infinitely many x', where 'such' means infinite sets of positive integers with A+B containing all large integers. The Lean statement asserts ∃ infinite A, B ⊆ ℕ with 0 ∉ A, B, IsAdditiveComplement A B (eventually every n ∈ A+B), limsup over ℕ of A(x)B(x)/x (in EReal) equal to 3/2, and ∃ᶠ x, A(x)B(x) − x = 1, with A(x) = |A ∩ [1,x]|. This is a direct transcription. Faithful."
+    }
+]
