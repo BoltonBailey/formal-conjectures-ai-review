@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "04937a4cccadd0a205abdf2c706938c6c95e4177",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against oeis.org/A242174, whose comment reads: \"In general, for any r > 2, if n is large enough then f_r(n) = sum_{k=0..n}C(n,k)^r has a prime divisor which does not divide any previous terms f_r(k) with k < n.\" The Lean statement is ∀ r > 2, ∃ N, ∀ n ≥ N, primitivePrimeDivisorFranel r n ≠ 1. Here franel r n = Σ_{k ∈ range (n+1)} C(n,k)^r is the order-r Franel number, and primitivePrimeDivisorFranel takes the head of the (ascending) primeFactorsList of f_r(n) filtered to primes dividing none of f_r(k) for k in List.range' 1 (n − 1) = [1, …, n−1], defaulting to 1. Since every surviving element is a prime, the value is ≠ 1 exactly when a primitive prime divisor exists, so the conclusion is the intended existence claim. Omitting k = 0 from the check is harmless because f_r(0) = 1 has no prime divisors. The quantifier order (threshold N depending on r) matches \"for any r > 2, if n is large enough\". The tests a 1 … a 5 agree with the OEIS data 2, 3, 41, 5, 7. Faithful."
+    }
+]

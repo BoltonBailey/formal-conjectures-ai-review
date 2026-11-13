@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "04937a4cccadd0a205abdf2c706938c6c95e4177",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against oeis.org/A218656 (\"Number of ways to write 2n+1 as x+y with 0 < x < y and x^4 + y^4 prime\", offset 1). Its comments give the conjecture a(n) > 0 for all n ≥ 1, the analogous conjectures with x^4 + y^4 replaced by x^2 + y^2, x^8 + y^8 and x^16 + y^16, and Mauro Fiorentini's note (Sep 22 2023) that, checking 2n+1 up to 10^6, the x^16 + y^16 version fails exactly for 2n+1 = 5 and 9. The Lean statement says that for n ≥ 1 with n ∉ {2, 4} there is x with 1 ≤ x ≤ n and x^16 + (2n+1−x)^16 prime. The range 1 ≤ x ≤ n is exactly 0 < x < y for y = 2n+1−x (x < y iff x ≤ n since the sum is odd), so the natural subtraction never truncates, and existence of such x is the same as the count being positive. The exceptions 2n+1 ∈ {5, 9} are correctly translated to n ∈ {2, 4}; I also confirmed numerically that for 1 ≤ n < 400 the only n with no such x are 2 and 4. Excluding the known exceptions is the right reading of the conjecture as amended by the 2023 comment. Faithful."
+    }
+]

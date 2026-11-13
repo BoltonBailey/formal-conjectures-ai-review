@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "04937a4cccadd0a205abdf2c706938c6c95e4177",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Zakharov, \"Most integers are not a sum of two palindromes\" (arXiv:2402.10808v1), Theorem 1: \"For any integer g ≥ 2 there exists a constant c > 0 such that #{n < X : n is a sum of two base g palindromes} ≤ X / log^c X, for all large enough X.\" The paper defines palindromes only for positive integers (digits a_n … a_0 with a_n ≠ 0 and a_i = a_{n−i}; P = ⋃_{n≥1} P_n). The Lean statement is ∀ g ≥ 2, ∃ c > 0, ∀ᶠ X : ℕ in atTop, ncard(sumsOfTwoPositive g ∩ Iio X) ≤ X / (Real.log X)^c, where sumsOfTwoPositive requires both summands to be positive and IsPalindrome g m says Nat.digits g m equals its reverse (Nat.digits has no leading zeros, so this is the paper's notion). The quantifier order (c depends on g, bound for all large X), the strict range n < X and the positivity convention all match; `Real.log X ^ c` parses as (log X)^c with real exponent. Restricting X to natural numbers is noted in the docstring and loses nothing (the real-X form follows with any slightly smaller c). The intersection with Iio X is finite, so ncard is the genuine count. Faithful."
+    }
+]

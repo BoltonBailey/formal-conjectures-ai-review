@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "04937a4cccadd0a205abdf2c706938c6c95e4177",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against oeis.org/A262824 (Zhi-Wei Sun), whose comments state: \"(ii) For P(w,x,y,z) = w^2 + x^3 + 2*y^3 + z^4, w^2 + x^3 + 2*y^3 + 3*z^4, w^2 + x^3 + 2*y^3 + 6*z^4, 2*w^2 + x^3 + 4*y^3 + z^4, we have {P(w,x,y,z): w,x,y,z = 0,1,2,...} = {0,1,2,...}\", with a note that (i) and (ii) were verified up to 10^11. The Lean statement takes the third polynomial and asserts ∀ n : ℕ, ∃ w x y z : ℕ, n = w^2 + x^3 + 2*y^3 + 6*z^4. Coefficients and exponents match, the variables are natural numbers (nonnegative integers, as in the source), and surjectivity onto ℕ is the only non-trivial inclusion of the set equality. Splitting part (ii) into one theorem per polynomial is a faithful reading. I also confirmed numerically that every n ≤ 20000 is represented. Faithful."
+    }
+]

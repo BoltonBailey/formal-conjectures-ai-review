@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "04937a4cccadd0a205abdf2c706938c6c95e4177",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against Green, \"100 open problems\", Problem 84 (comments): \"it is conjectured (the 'merit factor problem of Golay') that ∫_0^1 |P(z)|^4 dz ≥ (1+c)N^2 for some universal c > 0\", for P(z) = Σ_{i=0}^{N−1} ε_i z^i with ±1 coefficients, which Green calls \"a somewhat notorious open problem\"; and against the OpenAI preprint cited as [OAI26a] (dated September 23, 2026), Corollary 8.1: for N ≥ 2, with F_N the maximum merit factor over {−1,1}^N, lim_{N→∞} F_N = +∞, using the identity ‖P_A‖_4^4 = N^2 + 2 Σ_u C_u(A)^2 = N^2 (1 + 1/F(A)). The Lean statement is the negation of Golay's conjecture: ¬∃ c > 0, ∀ N ≥ 2, ∀ f : ℕ → ℤ with values ±1 on {1,…,N}, (1+c) N^2 ≤ ∫_0^1 ‖Σ_{n=1}^N f(n) e(nθ)‖^4 dθ. Since |f̂(θ)| = |P(e(θ))| for f(n) = ε_{n−1}, the integrand is the right one, and the negation says exactly that merit factors of binary sequences are unbounded, which follows from Corollary 8.1. The restriction N ≥ 2 is needed (for N = 1 the integral is 1 = N^2) and is harmless: for each fixed N ≥ 2 the integral is at least N^2 + 2 because C_{N−1} = ±1, so \"for all N ≥ 2\" and \"for all sufficiently large N\" give equivalent conjectures. The encoding is therefore faithful to both sources. Severity 2 only because the choice to state the negation, and the 'research solved' category, rest entirely on an unrefereed 2026 preprint that overturns a long-standing conjecture which Green's list still records as open; the docstring does say this plainly, but if the preprint does not hold up the theorem as stated would be unproved or false, so the status deserves a clear caveat until the result is confirmed."
+    }
+]
