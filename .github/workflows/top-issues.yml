@@ -25,8 +25,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 scripts/validate_audits.py
-      # Commit history only (no file contents), for looking up the dates of audited commits.
-      - run: git clone --bare --filter=blob:none https://github.com/google-deepmind/formal-conjectures "$RUNNER_TEMP/formal-conjectures"
+      # For checking which declarations still exist and looking up the dates of audited commits.
+      - run: git clone --bare https://github.com/google-deepmind/formal-conjectures "$RUNNER_TEMP/formal-conjectures"
       - run: python3 scripts/top_issues.py --upstream "$RUNNER_TEMP/formal-conjectures" -o top_issues.md
       - name: Commit if changed
         run: |

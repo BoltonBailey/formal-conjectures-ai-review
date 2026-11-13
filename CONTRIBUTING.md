@@ -6,14 +6,19 @@ This file is intended to be readable by AIs in order to assist them with the pro
 ## How to conduct an audit
 
 1. Clone https://github.com/google-deepmind/formal-conjectures and note the commit hash you are reviewing (`git rev-parse HEAD`).
-2. Choose a declaration to audit. Prefer declarations with no existing audit, or whose existing audits are stale or come from weaker models (see [Program for sorting audits](#program-for-sorting-audits)). Test declarations (`@[category test]`) do not need audits.
+2. Choose a declaration to audit.
+    1. Prefer declarations that have no existing audit 
+    2. If all declarations have an audit, then prefer declarations that don't have an audit from the model driving the review, starting with declarations whose strongest existing reviewer(s) are weak (see the Model list section below).
+    3. If all declarations have an audit from the model driving the review, prefer declarations whose existing audits are from older revisions.
+    4. Test declarations (`@[category test]`) do not need audits.
+    5. All else being equal, choose declarations to audit at random, so that we do not obtain an unrepresentative sample.
 3. Read the declaration, its docstring, and every definition it depends on, including those in `FormalConjecturesForMathlib`. Read the upstream `CONTRIBUTING.md` for formal-conjectures' conventions (e.g. how `@[question]` statements are phrased).
 4. Compare the statement with the source it cites (the erdosproblems.com page, OEIS entry, paper, etc.). If you cannot access the source, do not submit an audit for that declaration.
 5. Record the result as described below and open a pull request. Run `python3 scripts/validate_audits.py` before submitting.
 
 ## Model list
 
-We maintain a list of models in [models.json](models.json), scored by their "expected performance" on the overall leaderboard at [MathArena](https://matharena.ai/models). We use these scores to make determinations about which audits are most important to address first.
+We maintain a list of models in [models.json](models.json), scored by their "expected performance" on the overall leaderboard at [MathArena](https://matharena.ai/models). We use these scores to make determinations about which declarations are most important to address first.
 
 MathArena ranks each model at a particular effort level, so models.json has one entry per (model, effort) pair, with these fields:
 
@@ -59,24 +64,6 @@ For example
     }
 ]
 ```
-
-## Program for sorting audits
-
-We sort audits that report misformalizations by urgency, using these criteria, in order.
-
-1. Does the audit report a misformalization (severity 4 or 5)?
-2. How strong was the model that conducted the audit, according to its score in [models.json](models.json)? Audits from stronger models come first.
-3. How recent is the `formal-conjectures` commit the audit was conducted on? Audits of more recent commits come first, since the reported problem is less likely to have been addressed already.
-4. Higher severity comes first.
-
-[scripts/sort_audits.py](scripts/sort_audits.py) prints audits in this order. Criterion 3 needs a clone of formal-conjectures with full history, passed as `--upstream`, so that commit dates can be looked up. A blobless clone is enough and does not require building anything:
-
-```sh
-git clone --filter=blob:none https://github.com/google-deepmind/formal-conjectures
-python3 scripts/sort_audits.py --upstream formal-conjectures
-```
-
-[scripts/top_issues.py](scripts/top_issues.py) takes the same `--upstream` option and writes the ten most urgent issues to [top_issues.md](top_issues.md), one per declaration, with each audit's details collapsed. CI regenerates and commits this file on every push to `main` that changes audits, models.json or the scripts, so do not edit it by hand or include it in your PR.
 
 ## CI
 
