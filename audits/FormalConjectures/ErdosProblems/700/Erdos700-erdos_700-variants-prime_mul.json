@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/700: f(n) = min_{1<k≤n/2} gcd(n, C(n,k)), P(n) the largest prime dividing n, and the remark 'It is known that f(n) = n/P(n) when n is the product of two primes.' The Lean f n is the infimum over {gcd(n, C(n,k)) : 1 < k ≤ n/2} (natural division n/2, equivalent to k ≤ n/2 for integer k; nonempty for n ≥ 4), and the theorem states f(p·q) = p for primes p < q, which is n/P(n) since P(pq) = q. The statement is fully proved in the file via Lucas' theorem (witness k = q), so it is true as stated, including p = 2 (e.g. f(6) = 2). The case p = q is covered separately by erdos_700.variants.prime_pow. Faithful to the cited remark for products of two distinct primes."
+    }
+]

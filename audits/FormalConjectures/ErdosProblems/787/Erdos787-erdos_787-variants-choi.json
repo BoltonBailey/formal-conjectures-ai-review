@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/787: g(n) is maximal such that every A ⊂ ℝ with |A| = n has B ⊆ A with |B| ≥ g(n) and b_1 + b_2 ∉ A for all b_1 ≠ b_2 ∈ B; 'Choi [Ch71] proved g(n) ≪ n^{2/5+o(1)}.' The Lean g ℝ n is the supremum of the m for which every n-element Finset A of reals has B ⊆ A with |B| ≥ m and B.restrictedSumset disjoint from A; the file proves (disjoint_restrictedSumset_iff) that this disjointness is exactly 'b_1 + b_2 ∉ A for distinct b_1, b_2 ∈ B', and the set of admissible m contains 0 and is bounded by n, so the supremum is the intended maximum. The theorem states that for every ε > 0, g(n) ≤ n^{2/5+ε} for all sufficiently large n, which is the standard unpacking of n^{2/5+o(1)} (any implied constant is absorbed by ε). Faithful."
+    }
+]

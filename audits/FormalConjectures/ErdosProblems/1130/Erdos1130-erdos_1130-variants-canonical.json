@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1130 ('Erdős thought that the maximising choice is characterised by the property that the sums λ_i are all equal ... This is true, and was proved by de Boor and Pinkus [dBPi78]') and against the introduction of de Boor–Pinkus (J. Approx. Theory 24 (1978) 289-303), which works with nodes a = t_0 < t_1 < ... < t_n = b (endpoints are nodes), λ_i(t) = max over [t_{i-1}, t_i] of the Lebesgue function, quotes Erdős's conjecture as 'min_i λ_i(t) achieves its maximum when Λ_t equioscillates', and proves uniqueness of the equioscillating node set (Theorem 1) and that λ_i(t) ≤ λ_i(s) for all i forces t = s (Theorem 2). The Lean statement says: among canonical node sets (strictly increasing in [-1,1], containing -1 and 1), the maximisers of minInteriorGapMax (the infimum of gapMax x (i+1) over i < n-1, i.e. the n-1 maxima of the Lebesgue function between consecutive nodes) are exactly the canonical node sets with all those n-1 maxima equal. This is the de Boor–Pinkus theorem: the equioscillating set attains λ*, every canonical set has min λ_i ≤ λ*, and a maximiser has λ_i ≥ λ* for all i, hence equals the equioscillating set by Theorem 2. Index bookkeeping (extendedNodes, gaps 1..n-1) is right; for n ≤ 1 both sides are empty and for n = 2 both are {(-1,1)}. The docstring correctly explains why the literal Υ of the website (which includes the degenerate outer gaps, value 1) is replaced by the interior minimum in the canonical setting. Faithful to the cited theorem."
+    }
+]

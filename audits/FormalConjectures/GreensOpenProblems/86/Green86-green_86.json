@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 86 of Ben Green's '100 open problems' (PDF fetched from people.maths.ox.ac.uk): 'Let c > 0. Let A be a set of n (distinct) integers. Does there exist θ such that no interval of length 1/n in R/Z contains more than n^c of the numbers θa (mod 1), a ∈ A?' with the comment that this is only known for c > 1/3. The Lean statement: for every c > 0 there is n₀ such that every Finset A ⊂ ℤ with |A| ≥ n₀ admits θ ∈ ℝ with numInInterval A θ t ≤ |A|^c for all t, where numInInterval counts a ∈ A with fract(θa − t) < 1/|A|, i.e. θa mod 1 in the half-open arc [t, t + 1/n). This correctly encodes arcs of length 1/n in R/Z. Two interpretive choices are made and documented: 'for all sufficiently large n' (necessary, since the literal all-n statement fails for small sets such as {0,1,3} with 3^c < 2, as the docstring notes and I verified), and half-open intervals (immaterial when quantifying over all c > 0, since a closed arc is covered by two half-open ones and the factor 2 is absorbed by changing c for large n). The statement is trivially true for c ≥ 1 and open for small c, consistent with the source. Faithful."
+    }
+]

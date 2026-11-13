@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/633: 'Soifer proved [So09] that if we relax congruence to similarity then every triangle can be cut into n similar triangles when n ≠ 2, 3, 5'. The Lean lemma states that for any (nondegenerate, since Triangle = Affine.Simplex) triangle T in ℝ² and any n ∉ {0, 2, 3, 5}, IsSimiliCuttable n T holds, i.e. there are n triangles Ts i, pairwise similar as vertex families, with pairwise disjoint interiors and whose closed interiors have union equal to the closed interior of T. This is the standard notion of a dissection. The Lean requirement is that the pieces be similar to each other, which is the website's wording; Soifer's theorem gives pieces similar to the original triangle, which implies it, so the statement is true as written. Excluding n = 0 is necessary (empty union) and n = 1 is covered by T itself. Faithful."
+    }
+]

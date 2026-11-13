@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/955: s(n) = σ(n) − n, and 'Pollack, Pomerance, and Thompson [PPT18] prove that if ε(x) = o(1) and A ⊂ N has size at most x^{1/2+ε(x)} then #{n ≤ x : s(n) ∈ A} = o(x) as x → ∞. It follows that (using s(n) ≪ n log log n) if A grows like |A ∩ [1,x]| ≤ x^{1/2+o(1)} then s^{-1}(A) has density 0.' The Lean statement formalises the 'it follows' corollary: for every A ⊆ ℕ and every ε : ℕ → ℝ tending to 0, if eventually count(· ∈ A) n ≤ n^{1/2 + ε n} (count over [0, n), an immaterial off-by-one relative to |A ∩ [1,n]|), then {x | s x ∈ A} has natural density 0. Here s n = σ 1 n − n with σ 1 the sum-of-divisors function (tests s 6 = 6, s 12 = 16 confirm), and the natural subtraction is exact since σ(n) ≥ n. The o(1) in the exponent is correctly modelled by an arbitrary null sequence, and requiring the bound only eventually is the right reading. The possible membership of 0 in A adds only x ∈ {0, 1} to the preimage. The finite-set form of the PPT theorem is not stated separately, but the docstring's description matches what is formalised. Faithful."
+    }
+]

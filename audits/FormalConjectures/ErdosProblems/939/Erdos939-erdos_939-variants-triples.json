@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/939: 'Are there infinitely many triples of coprime 3-powerful numbers a, b, c such that a + b = c?' with the answer yes (Nitaj [Ni95], e.g. 2^3·3^5·73^3 + 271^3 = 919^3; also Cohn, Walsh). The Lean statement asserts that the set of triples (a, b, c) of naturals with gcd of {a, b, c} equal to 1, a, b > 0, each of a, b, c 3-full (Nat.Full 3: every prime factor p has p^3 | n) and a + b = c is infinite. Since a + b = c, gcd(a, b, c) = 1 is equivalent to pairwise coprimality, so the two possible readings of 'coprime' coincide here. Positivity of a and b excludes the degenerate 0 (which is vacuously 3-full) and forces c > 0. The value 1 is vacuously 3-full, but that does not trivialise the statement (it would require consecutive 3-powerful numbers, none of which are known), and counting ordered triples does not affect infinitude. Faithful."
+    }
+]

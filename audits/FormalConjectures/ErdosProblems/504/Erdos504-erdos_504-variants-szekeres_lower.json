@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/504: α_n is the supremum of α such that every n-point set in the plane has three distinct points x, y, z with angle xyz ≥ α, and 'Szekeres [Sz41] showed that α_{2^n+1} > π(1 − 1/n + 1/(n(2^n+1)^2))'. The Lean variant states: for n > 0 and any Finset S ⊂ ℂ (the plane) with more than 2^n points, there are p, q, r ∈ S with p ≠ q, r ≠ q and angle p q r > (1 − 1/n)π, the angle being Mathlib's unoriented angle at the middle point q. This is the qualitative consequence of Szekeres's bound: α_{2^n+1} > π(1 − 1/n) means every (2^n+1)-point set, hence every larger set (pass to a subset), contains an angle strictly greater than π(1 − 1/n). The quantitative extra term 1/(n(2^n+1)^2) is dropped, so the statement is weaker than the cited result but true and correctly attributed as its 'lower bound' content. The statement omits p ≠ r, but that is harmless: if p = r the angle is 0, which never exceeds (1 − 1/n)π ≥ 0, so any witness automatically has three distinct points. Small cases are fine (n = 1: three distinct points always determine a positive angle). Faithful."
+    }
+]

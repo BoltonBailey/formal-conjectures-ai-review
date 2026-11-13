@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/939: an r-powerful number n has p^r | n whenever p | n; the question is whether a sum of r−2 coprime r-powerful numbers can be r-powerful, and the page records 'Cambie has also found solutions when r = 7 or r = 8'. The Lean statement is (Erdos939Sums 7).Nonempty, where Erdos939Sums r is the set of Finsets S ⊂ ℕ of size r−2 of positive r-full numbers (Nat.Full: every prime factor p has p^r | n) with gcd of the whole set equal to 1 and r-full sum. 'Coprime' is read as setwise coprime (gcd 1), which is the reading the website itself uses: its r = 5 example 2^8·3^10·5^7 + 2^12·23^6 + 11^5·13^5 has two summands sharing the factor 2. Summands are distinct because S is a Finset, a choice the docstring flags; it only makes existence harder, and the page's remark that for r ≥ 6 there are infinitely many such sums (with a construction using distinct summands, stated as erdos_939.variants.infinite_of_six_le in the same file) confirms the statement is true for r = 7. Positivity is required explicitly, excluding the degenerate 0. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/494: A_k is the multiset of sums of k distinct elements of a finite A ⊂ ℂ, and 'More generally, [Selfridge and Straus] prove that A is uniquely determined by A_k if |A| is divisible by a prime greater than k.' In Lean, sumMultiset A k maps the k-element subsets of A to their sums (as a Multiset), Erdos494Unique k card says any two Finsets of ℂ of size card with equal sumMultiset are equal, and the theorem asserts Erdos494Unique k card whenever a prime p with 0 < k < p divides card. This matches the cited statement (uniqueness among sets of the same size, as in the problem's 'together with the size of A'). Edge cases are consistent: card = 0 is trivially true, the hypothesis excludes the known counterexample families (|A| = k, |A| = 2k for k > 1, and k = 2 with |A| a power of 2), and k = 1 is trivial. Faithful."
+    }
+]

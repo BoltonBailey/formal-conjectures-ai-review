@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1182: F(n) is maximal such that every connected graph G with n vertices and ≤ F(n) edges has R(K_3, G) = 2n − 1, and 'The upper bound was improved to F(n) ≤ 84n by Brandt [Br96], who expects that for all large n we have 2n < F(n) < 6n.' In Lean, graphRamsey G H is the least n such that every graph C on Fin n contains G or has H in its complement (the standard two-colour graph Ramsey number), IsTriangleGood G says graphRamsey K_3 G = 2n − 1, and F n is the supremum of the q ≤ C(n,2) such that every connected graph on Fin n with at most q edges is triangle-good. The set is downward closed and bounded, so the supremum is the maximum described on the page; the cap q ≤ C(n,2) only matters for n ≤ 2 and is irrelevant to an eventual statement. The theorem asserts that eventually 2n < F(n) and F(n) < 6n, exactly Brandt's expectation as recorded on the page, and it is tagged open (only F(n) ≥ (17n+1)/15 and linear upper bounds with larger constants are proved). I could not consult the unpublished preprint [Br96] itself; the comparison is with the problem page, which is the source the file cites for this claim. Faithful."
+    }
+]

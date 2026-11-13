@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/369: 'Let ε > 0 and k ≥ 2. Is it true that, for all sufficiently large n, there is a sequence of k consecutive integers in {1,…,n} all of which are n^ε-smooth?' The page itself notes this is trivially true as written and lists two non-trivial readings; the second is 'Each m ∈ P must be in [n/2, n] (say) ... Proving this is true for all large n ... can be deduced using a similar construction, as shown by SkyYang.' The Lean statement formalises exactly that second reading and says so in the docstring: for all ε > 0 and k ≥ 2, eventually in n there is a with n/2 ≤ a+1, a+k ≤ n, and every prime factor of each of a+1, …, a+k at most n^ε. The k consecutive integers are a+1..a+k, all within [⌊n/2⌋, n] (natural-number division; the difference from n/2 for odd n is immaterial given the source's '(say)'), and smoothness is expressed via primeFactors with the real bound n^ε. Since the literal problem is degenerate, choosing a documented non-trivial variant from the source is the right call, and the 'solved' status with a linked Lean proof matches the page. Faithful to the stated variant."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 5,
+        "explanation": "Compared against erdosproblems.com/503: 'What is the size of the largest A ⊆ R^d such that every three points from A determine an isosceles triangle?' — a quantity that depends on the dimension d (6 for d = 2, 8 for d = 3, between C(d+1,2)+1 and C(d+2,2) in general). In the Lean file the answer is declared as a single natural number, 'def erdos_503.answer : ℕ := sorry', while the theorem is 'theorem erdos_503 (n : ℕ) : IsGreatest {A.ncard | A : Set (ℝ^n), A.IsIsosceles} erdos_503.answer', universally quantified over the dimension n. No value of the constant can satisfy this for all n: the file's own solved variants erdos_503.variants.R2 and erdos_503.variants.R3 state that the greatest element is 6 for n = 2 and 8 for n = 3 (and for n = 0 it is 1), and IsGreatest determines its value uniquely. So the statement as written is false for every choice of erdos_503.answer and cannot express the intended problem. The intended form is an answer depending on the dimension, e.g. 'def erdos_503.answer : ℕ → ℕ := sorry' with conclusion 'IsGreatest {...} (erdos_503.answer n)'. The rest of the encoding (Set.IsIsosceles = nonempty and every triple of distinct points has two equal distances; ncard; ℝ^n as Euclidean space) is fine."
+    }
+]

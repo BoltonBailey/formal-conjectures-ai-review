@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma supporting the formalisation of erdosproblems.com/642 ('Let f(n) be the maximal number of edges in a graph on n vertices such that all cycles have more vertices than chords'). The file defines maxEdges n as the Finset.sup of the edge counts over all graphs on Fin n satisfying CyclesHaveMoreVerticesThanChords (every cycle walk c has fewer chords than its length, i.e. its number of vertices), and the lemma states that any such graph G on Fin n has G.edgeSet.ncard ≤ maxEdges n. This is the defining upper-bound property of the maximum f(n) and is proved in the file directly from Finset.le_sup, so it is true as stated and confirms that maxEdges is the intended extremal quantity (the other half, attainment, follows from finiteness and the empty graph). Correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/617: 'Let r ≥ 3. If the edges of K_{r^2+1} are r-coloured then there exist r+1 vertices with at least one colour missing on the edges of the induced K_{r+1}.' The Lean statement takes r ≥ 3, a finite type V with r^2+1 elements and a colouring Sym2 V → Fin r, and asserts a Finset S of size r+1 and a colour k such that no pair of distinct vertices of S has colour k. Values of the colouring on diagonal elements s(v,v) are never consulted because of the u ≠ v guard, so modelling the edge colouring of the complete graph as a function on Sym2 V is harmless. The site lists the problem as open (conjecture of Erdős–Gyárfás, proved for r = 3, 4), consistent with the 'research open' tag. Faithful."
+    }
+]

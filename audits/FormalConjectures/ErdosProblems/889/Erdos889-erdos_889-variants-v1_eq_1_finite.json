@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/889: v(n,k) counts prime factors of n+k not dividing n+i for 0 ≤ i < k, v_l(n) = max_{k ≥ l} v(n,k), and Erdős–Selfridge 'could not even prove that v_1(n) ≥ 2 for all large n'. The Lean v n k filters (n+k).primeFactors by non-divisibility of n+i for i < k, and v_l l n is the ℕ∞-supremum over k ≥ l, matching. The theorem asserts {n | v_1(n) = 1} is finite. Since for n ≥ 1 one can pick k ≥ 1 with n+k prime (> k), v_1(n) ≥ 1 for all n ≥ 1, and v_1(0) = 0, so 'v_1(n) = 1 for only finitely many n' is equivalent to 'v_1(n) ≥ 2 for all large n', the unproved statement from the source. Tagged open, as a question. Faithful."
+    }
+]

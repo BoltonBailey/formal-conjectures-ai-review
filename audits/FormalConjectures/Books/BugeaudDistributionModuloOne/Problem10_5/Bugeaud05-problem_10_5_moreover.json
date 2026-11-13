@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the text of Problem 10.5 in Bugeaud, 'Distribution modulo one and Diophantine approximation' (Chapter 10), read from a PDF copy of the book: 'Let K be a real number field. Then, for any ε > 0, there exists a lacunary sequence (t_n)_{n≥1} of positive numbers in K such that limsup {ξ t_n} ≥ 1 − ε, for any real number ξ not in K. Moreover, each subinterval of [0,1] of length ε contains a limit point of the sequence ({ξ t_n})_{n≥1}.' The book's Definition 2.15 calls an increasing sequence of positive reals lacunary if liminf t_{n+1}/t_n > 1. The Lean statement takes K : IntermediateField ℚ ℝ finite-dimensional over ℚ (a real number field as a subfield of ℝ), ε > 0, and asserts a sequence t : ℕ → K of positive numbers with IsLacunaryReal (∃ c > 1, eventually c·t_k < t_{k+1}, equivalent to liminf of ratios > 1) such that for every real ξ ∉ K and every a ∈ [0, 1−ε] the interval [a, a+ε] contains a cluster point (MapClusterPt along atTop) of fract(ξ t_n). This is the 'moreover' clause with the same sequence serving all ξ, as in the source. Lean only forces the sequence to be eventually increasing rather than increasing, but dropping a finite prefix does not change lacunarity or limit points, so the existence statements are equivalent. For ε > 1 the statement is vacuous, which is harmless. The lacunarity ratio is allowed to depend on ε, exactly as in the book's wording, which is what makes the linked formal proof with an explicit integer sequence possible. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1132: for an infinite sequence x_1, x_2, ... ∈ [-1,1] and L_n(x) = Σ_{k≤n} |l_k(x)| (Lagrange fundamental functions of x_1..x_n), 'Must there exist x ∈ (-1,1) such that L_n(x) > (2/π) log n − O(1) for infinitely many n?' The Lean lagrangeBasis n x k t is the quotient of ∏_{i<n, i≠k}(t − x_i) by ∏_{i<n, i≠k}(x_k − x_i), and lebesgueFunction n x t sums |l_k(t)| over k < n, a 0-indexed transcription of the source. The theorem: for every sequence x with values in [-1,1] and injective (needed so the l_k are defined; the source implicitly assumes distinct nodes), there exist t ∈ (-1,1) (open interval, as in the source) and a constant C with 2/π·log n − C < L_n(t) frequently in n. The dependence of the O(1) constant is ambiguous in the source (the page records Tao's remark to that effect); the formalisation picks the weakest reading, C depending on the sequence and the point, and says so in the docstring. That is a legitimate reading of the question and still open (Tao's result has ω(n) → ∞ in place of O(1)). Faithful."
+    }
+]

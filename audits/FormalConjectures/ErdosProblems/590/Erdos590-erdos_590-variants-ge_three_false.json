@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/590: the property 'in any red/blue colouring of the edges of K_α there is either a red K_α or a blue K_3' and the remark 'Specker [Sp57] proved this property holds when α = ω^2 and false when α = ω^n for 3 ≤ n < ω'. In Lean, OrdinalCardinalRamsey α β c says that for every pair of complementary graphs red/blue on α.ToType there is a red clique of order type β (typeLT s = β) or a blue clique of cardinality c; this is the partition relation α → (β, c)^2. The theorem asserts ¬ OrdinalCardinalRamsey (ω^n) (ω^n) 3 for every natural n ≥ 3, i.e. ω^n ↛ (ω^n, 3)^2, exactly Specker's negative result. The exponent is a natural number (monoid power), which agrees with ordinal exponentiation for finite exponents. Faithful."
+    }
+]

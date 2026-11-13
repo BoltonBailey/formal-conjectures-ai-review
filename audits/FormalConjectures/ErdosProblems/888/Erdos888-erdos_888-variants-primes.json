@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/888: A ⊆ {1,…,n} such that whenever a ≤ b ≤ c ≤ d ∈ A have abcd a square then ad = bc, and the remark 'The primes show that |A| ≫ n/log n is possible.' In Lean, RequiredCondition A n says A ⊆ (0, n] and the stated implication for all a ≤ b ≤ c ≤ d in A (repetitions allowed, as in the source's non-strict inequalities); p n k says such an A of size k exists; and Nat.findGreatest (p n) n is the largest k ≤ n with p n k, which is the maximum size because any A ⊆ {1..n} has at most n elements and the empty set always qualifies. The theorem states maxsize(n) ≫ n/log n, where the repository's ≫ notation unfolds to (n/log n) =O[atTop] maxsize, i.e. maxsize(n) ≥ c·n/log n for large n. This is exactly the remark, and is true since the primes up to n satisfy the condition (a square product of four primes forces a = b and c = d) and number about n/log n. Faithful."
+    }
+]

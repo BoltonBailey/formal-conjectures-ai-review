@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A234246, Zhi-Wei Sun's conjecture (ii), first sentence: 'If n >= 60, then k + phi(n-k) is a square for some 0 < k < n.' The Lean statement takes n ≥ 60 and asserts ∃ k with 0 < k < n and IsSquare (k + φ(n − k)); since k < n the natural subtraction is exact and φ(n−k) ≥ 1. A numerical check for n ≤ 3000 finds failures only at n = 1, 2, 3, 7, 14, 35, 59, so the threshold 60 is exactly the one in the source and the statement is not trivially false. Faithful."
+    }
+]

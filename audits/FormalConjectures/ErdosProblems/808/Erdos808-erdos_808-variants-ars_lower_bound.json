@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/808 ('Alon, Ruzsa, and Solymosi do prove, however, that if A has size n and G has m edges then max(|A+_G A|, |A·_G A|) ≫ m^{3/2} n^{-7/4}') and against Theorem 10 of the cited paper arXiv:1802.06405 ('Let A be an n-element set of reals and G_n a graph with m edges. Then |A +_{G_n} A| + |A ·_{G_n} A| ≥ Ω(m^{3/2}/n^{7/4})'). The Lean statement asserts a constant K > 0 such that for every finite type V, injection a : V ↪ ℝ and graph G on V, m^{3/2} ≤ K · n^{7/4} · max(|edgeSums|, |edgeProducts|), with m = |E(G)|, n = |V|. edgeSums/edgeProducts are the images of the edge set under a_u + a_v and a_u·a_v, matching A +_G A and A ·_G A; the injection encodes an n-element set with a graph on it. Using max instead of the sum changes only the constant, and the multiplied-out form is equivalent to the ≫ form for n > 0 and trivially true for n = 0 (no edges). Stating it for reals follows the paper and is at least as strong as the website's integer context. Faithful."
+    }
+]

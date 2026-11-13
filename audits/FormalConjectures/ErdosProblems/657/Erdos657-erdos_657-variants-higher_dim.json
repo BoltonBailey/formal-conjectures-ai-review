@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/657: the main problem asks whether n points in R^2 with no isosceles triangles determine at least f(n)·n distinct distances for some f(n) → ∞, and the page notes 'In [Er73] Erdős attributes this problem (more generally in R^k) to himself and Davies.' The Lean variant states: for every k ≥ 1 there is f : ℕ → ℝ tending to infinity such that every Finset A ⊂ ℝ^k of size n whose underlying set is IsoscelesFree has f(n)·n ≤ distinctDistances A. IsIsoscelesFree is Triplewise over pairwise distinct triples of 'no two of the three distances equal', which includes degenerate (collinear) triples as in the source's 'every subset of 3 points determines 3 distinct distances'; distinctDistances counts the distinct values of dist over off-diagonal pairs. The quantifier order (f may depend on the fixed dimension k) is the natural reading and is stated in the docstring. The case k = 1 is known (Dumitrescu), k ≥ 2 is open, so 'research open' is appropriate for the full statement. Faithful."
+    }
+]

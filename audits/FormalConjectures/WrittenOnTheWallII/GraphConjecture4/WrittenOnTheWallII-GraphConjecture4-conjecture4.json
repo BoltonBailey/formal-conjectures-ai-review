@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (live site unreachable; used the Wayback Machine copies of all.html and wowIIdefs.js), Conjecture 4, status T (proved, DeLaVina 1996): 'If G is a simple connected graph, then L_s(G) ≥ minimum of |N_G(ē)| − 1', where L_s(G) is the maximum number of leaves of a spanning tree and, per the site's definitions, for a nonedge ē = (u,v) the neighbourhood N_G(ē) is the set of vertices adjacent to at least one of u or v. The Lean statement for a connected graph on a finite nontrivial vertex type is NG G − 1 ≤ Ls G in ℝ. NG G is the minimum over edges of the complement of |N(u) ∪ N(v)| (non_edge_neighborhood_card), matching the definition; Ls G is the supremum of the number of degree-one vertices over spanning subgraphs that are trees. The only convention beyond the source is that NG G is set to the number of vertices when G has no non-edges (complete graphs), where the source's minimum is over an empty set; with that convention the inequality still holds (K_2: 1 ≤ 2; K_n: n−1 ≤ n−1), so it does not affect provability. Real-valued subtraction avoids truncation. Faithful."
+    }
+]

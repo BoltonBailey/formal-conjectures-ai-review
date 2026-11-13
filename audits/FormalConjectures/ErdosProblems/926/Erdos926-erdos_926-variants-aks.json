@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/926: H_k has vertices x, y_1..y_k, z_1..z_{C(k,2)} with x adjacent to all y_i and each pair y_i, y_j adjacent to a unique z; Füredi proved ex(n;H_k) ≪ (kn)^{3/2}, 'improved to ex(n;H_k) ≪ k n^{3/2} by Alon, Krivelevich, and Sudakov [AKS03]'. The Lean graph H k on Unit ⊕ (Fin k ⊕ {pairs i<j}) has exactly these adjacencies (x–y_i, and y_i–z_{p} iff i is a coordinate of p) and nothing else. The theorem asserts an absolute constant C with extremalNumber n (H k) ≤ C·k·n^{3/2} for all k ≥ 4 and all n, which is the natural reading of '≪' with a constant independent of k (the point of the improvement over Füredi). Quantifying over all n rather than large n is harmless: when n is below the number of vertices of H_k (about k^2/2) the trivial bound n^2/2 ≤ k·n^{3/2} already holds, and the AKS dependent-random-choice bound (c·h^{1/2}·n^{3/2} for bipartite H on h vertices with degrees ≤ 2 on one side) is valid for all n. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/705: 'Let G be a finite unit distance graph in R^2 (vertices a finite set of points, an edge between two points iff their distance is 1). Is there some k such that if G has girth ≥ k then χ(G) ≤ 3?' — answered negatively by O'Donnell [OD99], who constructed finite unit distance graphs with chromatic number 4 and arbitrarily large girth. The Lean statement is the negation: ¬ ∃ k, ∀ finite V ⊂ ℝ², girth(UnitDistancePlaneGraph V) ≥ k → chromaticNumber ≤ 3, where UnitDistancePlaneGraph V is the graph on V with adjacency dist = 1 (the full induced unit-distance graph, as on the website). In the pinned Mathlib, SimpleGraph.girth is ℕ-valued (egirth.toNat, 0 for acyclic graphs), so k ranges over ℕ and there is no degenerate k = ⊤ making the inner statement trivially true; acyclic graphs have girth 0 and are 2-colourable anyway, so that convention cannot affect the truth value. The negated form follows the repository convention for questions with answer 'no'. The linked formal proof (plby/lean-proofs Erdos705.lean, not_erdos_705) proves exactly this statement. Only blemish: a LaTeX typo ('\\mamthbb') in the docstring. Faithful."
+    }
+]

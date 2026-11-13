@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/719 (a conjecture of Erdős and Sauer): 'Is every r-hypergraph G on n vertices the union of at most ex_r(n; K_{r+1}^r) many copies of K_r^r and K_{r+1}^r, no two of which share a K_r^r?' The Lean statement: for all r ≥ 2, all n and every r-uniform family H of subsets of Fin n, there is a family D of vertex sets with H.IsCompleteHypergraphDecomposition r D and |D| ≤ cliqueExtremalNumber n r (r+1). IsCompleteHypergraphDecomposition requires each S ∈ D to have r or r+1 vertices (a single edge K_r^r or a complete K_{r+1}^r), H to equal the union of the r-subsets of the members of D, and distinct members to have disjoint sets of r-subsets, i.e. no two share an edge (a K_r^r). cliqueExtremalNumber n r (r+1) is the maximum size of an r-uniform family on Fin n containing no (r+1)-set all of whose r-subsets are present, i.e. ex_r(n; K_{r+1}^r). The restriction r ≥ 2 is not on the current page but is necessary (for r = 1 the claim is false: ex_1(n; K_2^1) = 1) and for r = 2 the statement is the Erdős–Goodman–Pósa theorem. Small cases n ≤ r+1 are consistent. Faithful."
+    }
+]

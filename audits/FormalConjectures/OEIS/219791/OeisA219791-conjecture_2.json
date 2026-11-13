@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A219791, comment: 'Zhi-Wei Sun also made the following general conjecture: For any positive integer k, each sufficiently large integer n can be written as x+y (x>0, y>0) with (xy)^{2^k}+1 prime. For example, for k=2,3,4 it suffices to require that n is greater than 22, 386, 748 respectively.' The Lean statement takes k > 0 and asserts ∃ N, ∀ n ≥ N, ∃ x y > 0 with x + y = n and ((x·y)^(2^k) + 1) prime. The exponent is 2^k applied to the product xy, the threshold N depends on k, and positivity of x and y is required, all as in the source. Faithful."
+    }
+]

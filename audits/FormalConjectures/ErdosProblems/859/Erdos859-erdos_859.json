@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/859: 'Let t ≥ 1 and let d_t be the density of the set of integers n for which t can be represented as the sum of distinct divisors of n. Do there exist constants c_1, c_2 > 0 such that d_t ∼ c_1/(log t)^{c_2} as t → ∞?' (Erdős proved d_t always exists.) In Lean, DivisorSumSet t = {n | ∃ s ⊆ Nat.divisors n, t = Σ_{i∈s} i}, a sum over a Finset of divisors and hence of distinct divisors; the theorem asserts positive real constants c_1, c_2 and a function d with DivisorSumSet t having natural density d t for every t > 0 and d ∼ c_1/(log t)^{c_2} along atTop (Asymptotics.IsEquivalent). Since natural density is unique, d is forced to be d_t for t ≥ 1, and bundling the (known) existence of the densities into the statement does not change its truth value. The statement is the affirmative form of the question; it lacks the 'question' tag but that is only metadata. Faithful."
+    }
+]

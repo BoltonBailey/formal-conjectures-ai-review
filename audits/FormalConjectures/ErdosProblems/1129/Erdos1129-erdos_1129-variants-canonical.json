@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1129 ('Kilgore [Ki77] proved that Λ is minimised only when all λ_i are equal. Finally, de Boor and Pinkus [dBPi78] proved that there exists a unique minimising choice ... If x_1 = -1 and x_n = 1 then there is a unique minimising set of x_i ... (Such a choice is called canonical)') and against the introduction of de Boor–Pinkus (J. Approx. Theory 24 (1978)), which fixes the endpoints as nodes, defines λ_i as the maximum of the Lebesgue function between consecutive nodes, and proves that exactly one such node set equioscillates while Kilgore showed an optimal one must equioscillate. The Lean statement equates {x canonical and a minimiser of the Lebesgue constant among all node sets in [-1,1]} with {x canonical with gapMax x i equal for all 1 ≤ i ≤ n-1}. IsNodeSet (strictly increasing, values in [-1,1]), lebesgueFunction (sum of |Lagrange basis|), lebesgueConstant (sup over [-1,1]) and gapMax indices 1..n-1 (the intervals between consecutive nodes) are all as intended. Minimising over all node sets rather than only canonical ones gives the same canonical minimisers, since affinely stretching a node set to a canonical one does not increase Λ; so the set identity is exactly the Kilgore/de Boor–Pinkus theorem. For n ≤ 1 both sides are empty; for n = 2 both are {(-1,1)}. The website's '0 ≤ i ≤ n' indexing with x_0 = -1, x_{n+1} = 1 is degenerate for canonical nodes and the docstring explains its omission. Faithful."
+    }
+]

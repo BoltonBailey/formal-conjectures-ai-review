@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/675: A has the translation property if for every n there is t_n ≥ 1 with a ∈ A ⟺ a + t_n ∈ A for all 1 ≤ a ≤ n, and 'If A is the set of squarefree numbers then how fast does the minimal such t_n grow? Is it true that t_n > exp(n^c) for some constant c > 0?' The Lean minTranslation A n is the infimum of {t ≥ 1 | ∀ 1 ≤ a ≤ n, a ∈ A ⟺ a + t ∈ A} (nonempty for the squarefree numbers by the sieve argument mentioned on the page, so it is the true minimum; the file's test gives t_3 = 4), and the theorem asserts ∃ c > 0 such that exp(n^c) < minTranslation {squarefree} n for all sufficiently large n. 'For all large n' is the necessary reading (t_1 = 1) and is documented. The page text itself does not yet record a resolution; the docstring cites Ho's note, which I fetched (boonsuan.github.io/erdos675_squarefree.pdf): its abstract states that for each fixed 0 < c < 25/72 and all large N every admissible t is divisible by p^2 for all primes p ≤ N^c, hence t > exp(N^c), which is exactly the Lean statement and supports the 'solved' tag (the source is a recent unrefereed note). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/819: f(N) is maximal such that some A ⊆ {1,…,N} with |A| = ⌊N^{1/2}⌋ has |(A+A) ∩ [1,N]| = f(N), and 'Erdős and Freud [ErFr91] proved (3/8 − o(1))N ≤ f(N) ≤ (1/2 + o(1))N'. The Lean f N is the Finset.sup over all subsets A of Icc 1 N of cardinality Nat.sqrt N (= ⌊√N⌋) of the cardinality of (A + A) ∩ Icc 1 N, with A + A the pointwise sumset, which is exactly the defined maximum (the family is nonempty). The theorem states that for every ε > 0, (3/8 − ε)·N ≤ f(N) for all sufficiently large N, the standard unpacking of the lower bound (3/8 − o(1))N. Faithful."
+    }
+]

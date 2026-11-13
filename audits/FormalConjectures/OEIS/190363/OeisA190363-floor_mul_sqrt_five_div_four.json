@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Private API helper in the file for OEIS A190363 (a(n) = n + [n·r/t] + [n·s/t] with r = 1, s = √(5/4), t = √(4/5), equivalently 2n + ⌊n√(5/4)⌋ + ⌊n/4⌋ per the OEIS formula line). The lemma states: for naturals n, k with k^2 ≤ n^2·(5/4) < (k+1)^2 (as reals), ⌊n·√(5/4)⌋ = k. This is a correct elementary fact (n√(5/4) = √(n^2·5/4) for n ≥ 0, and the hypotheses place it in [k, k+1)), used to evaluate the floor term in the sequence's test values. It is fully proved in the file without sorry. There is no external statement to compare beyond its role in computing the OEIS terms; the lemma is true and appropriately stated. Correct."
+    }
+]

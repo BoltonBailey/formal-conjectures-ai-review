@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/615: 'Resolved by Fox, Loh, and Zhao [FLZ15] who showed that the answer is no; in fact they prove that rt(n; 4, n e^{-f(n)}) ≥ (1/8 − o(1)) n^2 whenever f(n) = o(√(log n / log log n))', where rt(n; 4, m) is the Ramsey–Turán number (maximum edges of a K_4-free graph on n vertices with small independence number). The Lean statement: for f ≥ 0 with f(n)/√(log n / log log n) → 0 and any ε > 0, for all sufficiently large n there is a graph on Fin n that is CliqueFree 4, has indepNum ≤ n·exp(−f(n)) and at least (1/8 − ε)n^2 edges. This unpacks the lower bound on the Ramsey–Turán number with the o(1) expressed as 'for every ε, eventually'. The non-strict bound on the independence number versus the strict '< m' sometimes used in defining rt is immaterial (absorbed by a negligible change of f). The hypothesis f ≥ 0 is natural (it only restricts to independence number ≤ n) and the statement stays true for bounded f via Turán-type constructions. Faithful."
+    }
+]

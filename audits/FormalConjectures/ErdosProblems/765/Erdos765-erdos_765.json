@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/765: 'Give an asymptotic formula for ex(n; C_4)', with the remarks that Reiman's upper bound and the Erdős–Rényi–Brown construction imply ex(n; C_4) ∼ (1/2) n^{3/2} for all large n. The Lean statement asserts that n ↦ extremalNumber n (cycleGraph 4), as a real sequence, is asymptotically equivalent (IsEquivalent along atTop) to n^{3/2}/2. Mathlib's extremalNumber n H is the maximum number of edges of a graph on n vertices containing no (not necessarily induced) copy of H, and cycleGraph 4 is C_4, so this is ex(n; C_4) ∼ n^{3/2}/2, the known first-order asymptotic that answers the question at the level the page marks as solved. The finer second-order questions discussed on the page are not part of this statement. Faithful."
+    }
+]

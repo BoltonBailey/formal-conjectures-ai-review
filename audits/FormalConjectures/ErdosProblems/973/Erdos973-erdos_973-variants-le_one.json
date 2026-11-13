@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/973: the problem asks for C > 1 such that for every n ≥ 2 there are z_i ∈ ℂ with z_1 = 1, |z_i| ≥ 1 and max_{2≤k≤n+1} |Σ_{i≤n} z_i^k| < C^{-n}, and the page notes 'Erdős proved (as described on p.35 of [Tu84b]) that such a sequence does exist with |z_i| ≤ 1. Indeed, Erdős' construction gives a value of C ≈ 1.32.' The Lean variant is the main statement with the constraint reversed: ∃ C > 1, ∀ n ≥ 2, ∃ z : ℕ → ℂ with z 1 = 1, ‖z i‖ ≤ 1 for i ∈ [1,n], and ‖Σ_{i∈[1,n]} z_i^k‖ < C^{-n} for every k ∈ [2, n+1]. Bounding each k separately is the same as bounding the maximum. Indexing (i from 1 to n, k from 2 to n+1), the normalisation z_1 = 1 and the uniformity of C over all n ≥ 2 follow the source; small n pose no obstruction (e.g. n = 2 with z_2 = e^{iθ}, θ between 60° and 80°, gives both power sums of modulus < 1). Faithful."
+    }
+]

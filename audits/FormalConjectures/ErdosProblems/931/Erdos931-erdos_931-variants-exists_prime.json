@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The current erdosproblems.com/931 page states the main problem (k_1 ≥ k_2 ≥ 3, n_2 ≥ n_1 + k_1, the products ∏_{i≤k_1}(n_1+i) and ∏_{j≤k_2}(n_2+j) having the same prime factors) but does not mention this variant, so I compared with the original source [Er76d] (Erdős, 'Problems and results on number theoretic properties of consecutive integers and related questions', PDF at users.renyi.hu/~p_erdos/1976-39.pdf): 'Perhaps if the two integers in (10) have the same prime factors then n_2 > 2(n_1 + k_1). I am very far from being able to show this and cannot even prove that if n_1 and n_2 are between two consecutive primes then the two integers (10) cannot have the same prime factors.' The Lean statement assumes k_2 ≤ k_1, 3 ≤ k_2, n_1 + k_1 ≤ n_2 and equality of the primeFactors of the two products, and concludes there is a prime p with n_1 ≤ p ≤ n_2. This is the contrapositive of Erdős's remark: n_1 and n_2 both lie strictly between two consecutive primes exactly when [n_1, n_2] contains no prime (for n_1 ≤ 2 the conclusion is trivially true since n_2 ≥ 3). The inclusive bounds are the right ones. The statement is not vacuous or trivially false: a brute-force search over all prime gaps below 200000 found no pair of blocks inside a common gap with equal prime-factor sets. The docstring's paraphrase is accurate. Faithful."
+    }
+]

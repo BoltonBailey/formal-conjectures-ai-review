@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/421: 'Is there a sequence 1 ≤ d_1 < d_2 < ⋯ with density 1 such that all products ∏_{u ≤ i ≤ v} d_i are distinct?' (answer: yes). The Lean statement asserts a strictly increasing d : ℕ → ℕ with d 0 ≥ 1 (0-indexed version of 1 ≤ d_1), whose range has natural density 1 (HasDensity), and such that the map (u,v) ↦ ∏_{i ∈ Icc u v} d i is injective on the pairs with u ≤ v, i.e. products over distinct nonempty intervals of consecutive indices are distinct. Restricting to u ≤ v excludes the empty products, as in the source. Affirmative form consistent with the 'solved' status and the linked Lean proof. Faithful."
+    }
+]

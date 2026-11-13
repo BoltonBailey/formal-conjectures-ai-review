@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A189409 (a(n) = prime(n)#^2 + 1, offset 0, a(0) = 2), whose comment says 'It is unknown whether or not there exist infinitely many primes in this sequence.' The Lean a n = (Nat.kthPrimorial n)^2 + 1 with kthPrimorial n the product of the first n primes, matching the OEIS data (2, 5, 37, 901, 44101; the file's tests confirm). The theorem asserts {n | a(n) prime} is infinite, tagged as a question; since a is strictly increasing, infinitely many indices is the same as infinitely many primes in the sequence. Faithful."
+    }
+]

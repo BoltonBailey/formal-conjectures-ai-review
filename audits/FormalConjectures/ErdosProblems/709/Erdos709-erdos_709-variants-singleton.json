@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/709: f(n) is minimal such that for any A = {a_1,…,a_n} ⊆ [2,∞) ∩ ℕ, any interval of f(n)·max(A) consecutive integers contains distinct x_1,…,x_n with a_i | x_i. In Lean, Works n k says that for every n-element Finset A of integers ≥ 2 with maximum M and every start, the window {start+1, …, start+k·M} admits an injective choice of multiples (HasDistinctMultiples), so 'Works n k' is 'f(n) ≤ k'. The variant states Works 1 1: for a singleton {M} every block of M consecutive positive integers contains a multiple of M, i.e. f(1) ≤ 1, a trivial base case appropriately tagged 'textbook'. It is fully proved in the file (no sorry). Windows are taken among positive integers rather than all integers, which loses nothing (any integer interval can be shifted by a multiple of lcm(A) without changing divisibility). Correct and consistent with the problem's definition."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/629: n(k) is the minimal number of vertices of a bipartite graph G with χ_L(G) > k, and 'The lower bounds on m(k) by Radhakrishnan and Srinivasan [RaSr00] imply that 2^k (k/log k)^{1/2} ≪ n(k).' In Lean, n k = sInf {m | ∃ G on Fin m, G.Colorable 2 ∧ k < listChromaticNumber G}, where listChromaticNumber is the least k for which every assignment of k-element lists admits a proper list colouring; since choosability is monotone in k, 'k < χ_L(G)' is 'G is not k-choosable', and Colorable 2 is bipartiteness. The set is nonempty for every k (complete bipartite graphs), so the infimum is the true minimum. The theorem asserts ∃ c > 0 with c·2^k·√(k/log k) ≤ n(k) for all sufficiently large k, which is precisely the ≪ statement (it follows from m(k) ≤ n(k) and m(k) = Ω(2^k √(k/ln k))). Faithful."
+    }
+]

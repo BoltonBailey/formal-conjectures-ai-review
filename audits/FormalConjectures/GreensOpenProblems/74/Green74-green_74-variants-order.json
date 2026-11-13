@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 74 of Ben Green's '100 open problems' (PDF from people.maths.ox.ac.uk): 'What is the largest subset of [N]^d with no 5 points on a 2-plane?', with the comment 'I do not know if there can be such a set of size N^{d−100}.' The Lean file defines maxNoFiveCoplanar d N as the supremum (a maximum, since sizes are bounded by N^d, proved in the file) of the sizes of subsets A of {1..N}^d such that no 5-element subset of A, viewed in ℝ^d, is Coplanar (affine span of dimension ≤ 2). That is the quantity asked about; [N] = {1,…,N} as in Green's conventions, and 'on a 2-plane' is correctly read as contained in an affine subspace of dimension at most 2 (which also forbids 5 collinear points, as it must). This variant asks, for each fixed d, for a function answer d with f(d, ·) = Θ(answer d) as N → ∞, i.e. the order of magnitude with constants allowed to depend on d. The source question is open-ended, and an order-of-growth version in N for fixed d is a faithful way to pose it in the repository's 'question value' format (it is the natural coarsening of the exact-value statement green_74 and is what the comment about N^{d−100} is probing). As with all such answer-placeholder statements, the mathematical content lies in supplying an explicit answer. No discrepancy with the source found."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/500: 'The current best upper bound is ex_3(n, K_4^3) ≤ 0.5611666·C(n,3), due to Razborov [Ra10].' The Lean statement says that for every ε > 0, eventually in n, cliqueExtremalNumber n 3 4 ≤ (0.561666 + ε)·C(n,3), where cliqueExtremalNumber n 3 4 is the maximum size of a family of 3-subsets of Fin n containing no 4-set all of whose 3-subsets are edges, i.e. ex_3(n, K_4^3). Two deliberate deviations from the website text are documented in the docstring and are corrections rather than errors: the constant is Razborov's actual value 0.561666 (the website's 0.5611666 is a typo for the well-known flag-algebra bound π(K_4^3) ≤ 0.561666), and the bound is stated with the o(1) term, since the literal non-asymptotic inequality fails for small n (ex_3(4, K_4^3) = 3 > 0.561666·4). With these, the statement is the standard asymptotic bound and is implied by the later bounds π(K_4^3) ≤ 0.5615 (Baber) and < 0.557789 cited in the docstring. I did not independently verify the 2026 preprint, but the truth of the statement only needs Razborov's/Baber's bound. Faithful to the intended result."
+    }
+]

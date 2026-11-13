@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/387: the main question asks for an absolute c > 0 such that C(n,k) has a divisor in (cn, n] for all 1 ≤ k < n; the page adds that Guy's collection 'says that Erdős conjectured this is true for any c < 1 (if n is sufficiently large). This was answered negatively for all constant c > 0 by Bui, Naprienko, Pratt, and Zaharescu [BNPZ26], who prove the existence of infinitely many C(n,k) ... with no divisors in the interval ((log log log log n / log log log n)·n, n].' The Lean statement is the negation of: for every real c < 1, for all sufficiently large n and all 1 ≤ k < n there is d ∈ (c·n, n] dividing C(n,k). The positive statement inside the negation is Guy's variant verbatim; allowing c ≤ 0 in the universal quantifier is harmless since those instances hold trivially (d = 1) and the negation is witnessed by any c ∈ (0,1). The BNPZ result (failure for infinitely many n for every fixed c > 0) gives exactly ¬(eventually for all n), so the negated form is correct and consistent with the repository convention for questions answered 'no'. Faithful."
+    }
+]

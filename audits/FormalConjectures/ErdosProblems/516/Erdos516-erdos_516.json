@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/516: 'Let f(z) = Σ_{k≥1} a_k z^{n_k} be an entire function of finite order such that lim n_k/k = ∞. Let M(r) = max_{|z|=r} |f(z)| and m(r) = min_{|z|=r} |f(z)|. Is it true that limsup log m(r)/log M(r) = 1?' — solved affirmatively by Fuchs [Fu63]. The Lean statement takes n with HasFabryGaps (strictly increasing and n_k/k → ∞), coefficients a_k all nonzero, f given pointwise as the sum of a_k z^{n_k} (HasSum, for every z), and OfFiniteOrder f (differentiable on ℂ with ‖f z‖ ≤ c·exp(‖z‖^a)), and concludes limsup_{r→∞} ratio r f = 1, where ratio r f = log(inf_{|z|=r} ‖f z‖)/log(sup_{|z|=r} ‖f z‖). On a circle the infimum and supremum are the minimum and maximum, so this is log m(r)/log M(r). The hypotheses a_k ≠ 0 and strict monotonicity of n make f transcendental, so M(r) > 1 eventually and the ratio is eventually ≤ 1; hence the real-valued Filter.limsup is not a junk value and equals the mathematical limsup. When f vanishes on the circle, Lean's log 0 = 0 gives ratio 0 instead of −∞, which cannot change a limsup equal to 1. Requiring all a_k ≠ 0 is not a loss of generality (zero terms can be dropped, which only improves the gap condition). Faithful, and a formal proof is linked."
+    }
+]

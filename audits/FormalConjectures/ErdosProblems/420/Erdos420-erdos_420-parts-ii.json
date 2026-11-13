@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/420: F(f,n) = τ((n + ⌊f(n)⌋)!)/τ(n!) and 'Is it true that F(log n, n) is everywhere dense in (1,∞)?' The Lean F f n = σ_0((n + ⌊f n⌋₊)!)/σ_0(n!) as a real number, with σ 0 the divisor-count function; the natural floor agrees with the floor because log n ≥ 0 for n ≥ 1 (and for n = 0, log 0 = 0 in Lean, giving the harmless value F = 1). The theorem asserts Set.Ioi 1 ⊆ closure (range (fun n ↦ F log n)), i.e. every point of (1,∞) is a limit of values of F(log n, n), which is the standard meaning of the value set being dense in (1,∞); since F ≥ 1 always (proved in the file), nothing is lost by not intersecting with (1,∞). The statement is nontrivial and consistent with the known liminf F(c log n, n) = 1. Faithful."
+    }
+]

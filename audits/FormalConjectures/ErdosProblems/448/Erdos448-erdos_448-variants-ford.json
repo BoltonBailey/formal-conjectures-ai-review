@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/448: τ^+(n) counts the k such that n has a divisor in [2^k, 2^{k+1}), and 'Ford [Fo08] ... proved Σ_{n≤x} τ^+(n) ≍ x (log x)^{1−α}/(log log x)^{3/2} where α = 1 − (1 + log log 2)/log 2 = 0.08607...'. In Lean, tauPlus n is the number of distinct values of Nat.log 2 d over divisors d of n, which is the same count (d ∈ [2^k, 2^{k+1}) iff ⌊log_2 d⌋ = k; tests τ^+(6) = 3, τ^+(12) = 4 confirm). The theorem states that x ↦ Σ_{1≤n≤x} tauPlus n is Θ, along atTop over natural x, of x·(log x)^{1−α}/(log log x)^{3/2} with α defined by exactly the website's formula (numerically 0.0861). IsTheta is the two-sided ≍, and for large x all logs are positive so the real powers are the intended ones. This is consistent with Ford's bound H(x,y,2y) ≍ x/((log y)^δ (log log y)^{3/2}) summed over dyadic y. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/647: 'Is there some n > 24 such that max_{m<n}(m + τ(m)) ≤ n + 2? ... This is true for n = 24.' The Lean statement is (⨆ m : Fin 24, (m : ℕ) + σ 0 m) ≤ 26; the ⨆ binder body is parsed at precedence 60, so the comparison with 26 = 24 + 2 is outside the supremum (confirmed by the in-file proof via ciSup_le), and σ 0 is the divisor-count function τ. Fin 24 ranges over m = 0, ..., 23; the extra m = 0 contributes 0 and is harmless. The maximum is 26 (attained at m = 20 and m = 22), so the statement is true and is proved in the file by decide. Faithful."
+    }
+]

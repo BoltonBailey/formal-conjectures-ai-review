@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/501: 'For every x ∈ R let A_x ⊂ R be a bounded set with outer measure < 1. Must there exist an infinite independent set, that is, some infinite X ⊆ R such that x ∉ A_y for all x ≠ y ∈ X? ... Hechler [He72] proved the answer is no, assuming the continuum hypothesis.' The Lean statement: assuming ℵ₁ = 𝔠 (the continuum hypothesis as an explicit hypothesis), there exists A : ℝ → Set ℝ with every A x bounded and of Lebesgue outer measure < 1 (volume.toOuterMeasure, defined on all sets) such that there is no infinite X with X.Pairwise (fun x y ↦ x ∉ A y). Set.Pairwise quantifies over all ordered pairs of distinct elements, so the independence condition is the symmetric one of the source. Stating CH as a hypothesis of the theorem is the correct way to record a conditional result. The 'question' tag on a variant is only metadata. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1130 (which says Erdős's conjectured characterisation of the maximisers of Υ 'is true, and was proved by de Boor and Pinkus [dBPi78]') and against the introduction of de Boor–Pinkus, J. Approx. Theory 24 (1978), p. 290, which for nodes a = t_0 < … < t_n = b (endpoints are nodes) and λ_i(t) = max over [t_{i−1}, t_i] of the Lebesgue function states Erdős's conjecture as inequality (1): min_i λ_i(t) ≤ λ* := inf_s ‖P_s‖ for every t, and proves it. The Lean statement: for a canonical node set x (strictly increasing in [-1,1], containing −1 and 1) and any minimiser y of the Lebesgue constant among all node sets in [-1,1], minInteriorGapMax x ≤ lebesgueConstant y, where minInteriorGapMax x is the infimum of gapMax x (i+1) over i < n−1, i.e. the smallest of the n−1 maxima of the Lebesgue function between consecutive nodes. This is inequality (1) in the paper's own canonical setting; the minimal Lebesgue constant over all node sets coincides with the minimum over canonical ones (stretching to the endpoints does not increase Λ), so using IsMinimiser is equivalent. Canonical forces n ≥ 2, so the infimum is over a nonempty finite index set; n = 2 gives 1 ≤ Λ. Faithful to the cited theorem."
+    }
+]

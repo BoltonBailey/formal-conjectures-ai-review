@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/53: 'Let A be a finite set of integers. Is it true that, for every k, if |A| is sufficiently large depending on k, then there are at least |A|^k many integers which are either the sum or product of distinct elements of A?' (solved affirmatively by Chang [Ch03]). The Lean statement is ∀ k, ∃ N, ∀ A : Finset ℤ with N ≤ |A|, |A|^k ≤ |sumsAndProducts A|, where sumsAndProducts A is the union of the images of the nonempty subsets of A under subset-sum and subset-product. The quantifier order (threshold depends on k) matches. Allowing one-element subsets only adds the elements of A themselves (at most |A| values), which cannot affect a statement quantified over all k. The set is over ℤ (zero and negatives allowed) exactly as in the source; a linked Lean proof exists for this form. Faithful."
+    }
+]

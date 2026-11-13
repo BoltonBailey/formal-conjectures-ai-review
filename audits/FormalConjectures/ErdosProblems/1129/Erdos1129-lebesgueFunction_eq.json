@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma, compared against the definition on erdosproblems.com/1129: l_k(x) = ∏_{i≠k}(x − x_i) / ∏_{i≠k}(x_k − x_i) and Λ built from Σ_k |l_k(x)|. The lemma states lebesgueFunction x t = Σ_k |∏_{i ∈ univ.erase k} (t − x i)/(x k − x i)|, i.e. that the file's definition via Mathlib's Lagrange.basis agrees with the website's explicit formula (the product of quotients equals the quotient of products). It is fully proved in the file by unfolding Lagrange.basis and basisDivisor, so it is true as stated for arbitrary x (for coinciding nodes both sides share the same division-by-zero junk value). It serves its purpose of certifying that lebesgueFunction is the intended Lebesgue function. Correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/418 ('Numbers not of the form n − φ(n) we call non-cototients. It follows from the Goldbach conjecture that every odd number can be written as n − φ(n)') and the cited Wikipedia article on noncototients, which records the expectation that all noncototients are even. The Lean statement says the complement of {n − φ(n) | n ∈ ℕ} is contained in the even numbers, i.e. every odd natural number is of the form n − φ(n). Natural subtraction is exact here because φ(n) ≤ n. Small odd cases are fine (1 = 2 − φ(2), 3 = 9 − φ(9), 5 = 25 − φ(25)), and the general case is only known conditionally on a Goldbach-type statement (the file's proved conditional variant), so 'research open' is appropriate. Faithful."
+    }
+]

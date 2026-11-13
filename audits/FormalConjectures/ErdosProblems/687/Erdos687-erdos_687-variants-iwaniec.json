@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/687: Y(x) is the maximal y such that there are congruence classes a_p for all primes p ≤ x with every integer in [1,y] congruent to at least one a_p (mod p), and 'The best known upper bound is due to Iwaniec [Iw78], Y(x) ≪ x^2.' The Lean Y x is sSup {y | Green46.IsCoveredByResidues x y}, where IsCoveredByResidues x y says some a : ℕ → ℕ has every m ∈ [1,y] congruent to a p mod p for some prime p ≤ x. The set contains 0 and is bounded by the primorial (proved in the file), so the sSup is the true maximum; the tests Y 2 = 1 and Y 3 = 3 confirm the definition. The theorem states (Y x : ℝ) =O[atTop] x^2 over natural x, which is exactly Y(x) ≪ x^2 (Iwaniec's bound g(n) ≪ (ω(n) log ω(n))^2 on Jacobsthal's function applied to the primorial). Restricting x to ℕ loses nothing since Y depends only on ⌊x⌋. Faithful."
+    }
+]

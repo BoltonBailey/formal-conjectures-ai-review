@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma in the counterexample section for Written on the Wall II Conjecture 65 (archived all.html via the Wayback Machine, status O: 'If G is a simple connected graph, then f(G) ≥ dist_min(A) + CEIL(dist_min(M)/3), where A is the set of vertices of minimum degree and M is the set of vertices of maximum degree'; the site's definitions give dist_min(M) = minimum{dist_G(u,v) | u and v are in M}). The lemma states that in the explicit 17-vertex graph (path 0–1–…–12 with triangles {1,13,14} and {11,15,16}), distMin graph {1, 11} = 10, where distMin G S is the minimum graph distance between distinct vertices of S. Vertices 1 and 11 are the two maximum-degree vertices (a companion lemma) and their distance along the path is 10, with no shortcut through the pendant triangles, so the value is correct; the lemma is proved in the file by reduction to a computable version and decide. It is a correct computational step toward evaluating the right-hand side 12 + ⌈10/3⌉ = 16 of the conjectured bound. (The reading of dist_min as ranging over distinct pairs is the sensible one; the site's wording does not exclude u = v, but that affects the main statement's interpretation, not this lemma.) Correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/418: 'Numbers not of the form n − φ(n) we call non-cototients ... It is open whether the set of non-cototients has positive density.' The Lean statement asserts 0 < lowerDensity of the complement of {n − φ(n) | n ∈ ℕ} (natural subtraction is exact since φ(n) ≤ n). 'Positive density' for a set whose natural density is not known to exist is read as positive lower density, which the docstring states explicitly and which is the same reading the file uses for the analogous solved statement about nonaliquots (where the literature results are lower-density bounds). This is a standard reading; the alternative (positive upper density) would be a weaker claim, but nothing in the source singles it out. Tagged open, as a question, in the affirmative form. Faithful."
+    }
+]
