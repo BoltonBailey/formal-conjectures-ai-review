@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/88 (Erdős–McKay, proved by Kwan–Sah–Sauermann–Sawhney): for any ε > 0 there is δ(ε) > 0 such that a graph on n vertices with no clique or independent set of size ≥ ε log n contains an induced subgraph with exactly m edges for every m ≤ δn². The Lean statement: ∀ ε > 0, ∃ δ > 0, ∀ n and G on Fin n with cliqueNum < ε·log n and indepNum < ε·log n, ∀ m ≤ δn², ∃ S with the induced graph on S having exactly m edges. 'No clique of size ≥ ε log n' is the strict bound on the clique number, natural log as on the page; the statement holds for all n (small n are handled by shrinking δ so that only m = 0 is required), so no 'sufficiently large' qualifier is needed. The omitted ≫ n² edges condition is redundant, as the page says. Faithful."
+    }
+]

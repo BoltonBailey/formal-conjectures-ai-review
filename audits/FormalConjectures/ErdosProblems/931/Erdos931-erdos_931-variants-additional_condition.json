@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/931: Erdős thought that perhaps equal prime factors force n₂ > 2(n₁+k₁); the page says this is false as stated (AlphaProof counterexample) but may have been intended up to finitely many counterexamples. The Lean statement: for k₁ ≥ k₂ ≥ 3 the set of pairs with n₁+k₁ ≤ n₂ ≤ 2(n₁+k₁) and equal prime factor sets is finite, i.e. the bound n₂ > 2(n₁+k₁) holds with finitely many exceptions for each (k₁,k₂). This is the weakened question described on the page, and the docstring says so. Faithful."
+    }
+]

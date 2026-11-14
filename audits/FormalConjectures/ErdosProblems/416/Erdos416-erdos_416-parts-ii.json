@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/416: 'Is there an asymptotic formula for V(x)?'. The Lean statement is V(x)/answer(x) → 1 for a function answer : ℝ → ℝ to be supplied, the upstream pattern for value questions. This is the natural encoding of 'an asymptotic formula', but as a formal statement it is satisfied by answer := V, so its content rests entirely on the informal requirement that the answer be an explicit/closed-form expression (which upstream declares out of scope). The docstring does not flag this. Acceptable formalisation of an inherently informal question; the 'research open' status also deserves a recheck given the cited preprint [OAI26a] is titled as an asymptotic formula for the number of totients."
+    }
+]

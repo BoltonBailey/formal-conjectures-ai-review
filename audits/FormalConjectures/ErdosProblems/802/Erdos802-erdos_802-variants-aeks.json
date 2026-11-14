@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/802: AEKS proved an independent set of size ≫_r (log log(t+1) / t)·n. The Lean statement: ∀ r, ∃ c > 0, ∀ n and K_r-free G on Fin n, c·(log(log(t+1))/t)·n ≤ indepNum G. For small t the expression log log(t+1) is negative (or the quotient is 0 when t = 0), so the inequality is trivially true there and the statement is correct for all graphs. Faithful."
+    }
+]

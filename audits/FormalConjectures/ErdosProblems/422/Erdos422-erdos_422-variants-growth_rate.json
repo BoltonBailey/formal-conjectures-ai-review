@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 4,
+        "explanation": "Compared against erdosproblems.com/422, whose second question is the vague 'What is its behaviour?'. The Lean statement is ∀ f, IsHofstadterQ f → (n ↦ f n) =O[atTop] answer with answer : ℕ+ → ℝ to be supplied. This asks only for an upper bound, and one is immediate from the definition: IsHofstadterQ requires f(n−1) < n for all n > 2, so f(m) ≤ m for all m and answer := (fun n ↦ n) makes the statement provable in a few lines (the conjectured truth f(n) ~ n/2 gives nothing better at the level of O). So although tagged 'research open', the statement as written is not an open problem and does not capture 'how does f grow' (which would need at least a Θ or asymptotic statement). The upstream convention says meaningfulness of answers is out of scope, but here the one-sided O makes the canonical trivial answer also the sharp one, so the formalisation does not correspond to an open question."
+    }
+]

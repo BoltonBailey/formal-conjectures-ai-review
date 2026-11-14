@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1182: Chvátal's theorem gives 'F(n) ≥ n−1' (connected graphs with at most n−1 edges are trees). The Lean statement n − 1 ≤ F n for n ≥ 2 matches; the hypothesis n ≥ 2 ensures n − 1 ≤ C(n,2), which the capped definition of F requires. Faithful."
+    }
+]

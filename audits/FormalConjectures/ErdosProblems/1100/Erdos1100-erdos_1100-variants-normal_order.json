@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Not on erdosproblems.com/1100; checked against [ErTe89], Corollaire 2: (log n)^{log 3 − 1 + o(1)} < f(n) < (log n)^{log 2 − 1/2 + o(1)} 'p.p.' (for almost all n). The Lean statement: for every ε > 0 the set of n with (log n)^{log 3 − 1 − ε} ≤ τ_⊥(n) ≤ (log n)^{log 2 − 1/2 + ε} has natural density 1. Standard unpacking of 'almost all' and of the o(1) terms. Faithful to the paper."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/92: f(n) is maximal such that there is a set A of n points in ℝ² in which every x ∈ A has at least f(n) points of A equidistant from x; 'Is it true that f(n) ≤ n^{o(1)}?'. The page states: 'This is a stronger form of the unit distance conjecture (see [90]). As such the recent disproof of [90] also disproves this.' In Lean maxEquidistantPointsAt x A is the largest number of other points of A on a circle centred at x, f n is the supremum of k such that some n-point set has this at least k for every point (bounded by n, as the file's test shows), and the statement is the negation ¬ ∃ o = o(1), ∀ n, f n ≤ n^{o(n)}. Requiring the bound for all n rather than eventually is immaterial since o is unconstrained at finitely many n. Faithful, in the resolved (negative) form recorded on the page."
+    }
+]

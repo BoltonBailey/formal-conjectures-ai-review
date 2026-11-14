@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1129: Rack and Vajda showed that for n = 4 the canonical optimal points are −1, −t, t, 1 with t ≈ 0.4177 an explicit algebraic constant and Λ ≈ 1.4229. The Lean statement takes t > 0 with 25t⁶ + 17t⁴ + 2t² − 1 = 0 (strictly increasing in t > 0, so a unique root; numerically t ≈ 0.4178) and asserts the canonical minimisers are exactly {![−1,−t,t,1]} with Lebesgue constant (1+t²)/(1−t²). Checked: L(0) for these nodes is (1+t²)/(1−t²) ≈ 1.42295, matching the page's value. Faithful."
+    }
+]

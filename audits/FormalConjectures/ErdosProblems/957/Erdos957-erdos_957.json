@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/957 (Erdős–Pach): for A ⊂ ℝ² of size n with distinct distances d_1 < … < d_k and f(d) the number of times d is determined, is f(d_1)f(d_k) ≤ (9/8 + o(1))n²? Solved affirmatively by Dumitrescu (≤ (9/8)n² + O(n)). The Lean statement: ∀ ε > 0, for all large n, every n-point A ⊂ ℝ² and every least/greatest element d₁, dₖ of its distance set satisfy distanceMultiplicity A d₁ · distanceMultiplicity A dₖ ≤ (9/8 + ε)n², where the multiplicity counts unordered pairs. The o(1) is uniform in A, as intended. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/595: 'Folkman and Nešetřil–Rödl have proved that for every n ≥ 1 there is a graph G which contains no K_4 and is not the union of n triangle-free graphs.' The Lean statement: for every n ≥ 1 there is a finite type V and a K_4-free G on V such that G ≠ ⨆ i : Fin n, H i for every family of n triangle-free graphs on V. Requiring V finite is consistent with the Folkman/Nešetřil–Rödl constructions and only strengthens the quoted statement in the standard way. Faithful."
+    }
+]

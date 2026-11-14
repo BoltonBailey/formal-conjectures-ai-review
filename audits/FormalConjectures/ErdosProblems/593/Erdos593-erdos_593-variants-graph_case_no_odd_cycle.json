@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/593: a graph of chromatic number ≥ ℵ₁ 'need not contain any fixed odd cycle'. The Lean statement: for every odd k ≥ 3 there is a graph G with chromaticCardinal exactly ℵ₁ admitting no graph homomorphism from cycleGraph k. Having no homomorphic image of C_k means having no odd cycle of length ≤ k, which is slightly stronger than merely omitting C_k but is what the Erdős–Hajnal constructions give (graphs of uncountable chromatic number with no short odd circuits, as referenced in [EGH75]). Fixing the chromatic cardinal to be exactly ℵ₁ is likewise a harmless sharpening. Faithful to the cited fact."
+    }
+]

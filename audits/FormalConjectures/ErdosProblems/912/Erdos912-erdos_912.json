@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/912 (Erdős–Selfridge): if n! = ∏ p_i^{k_i} then h(n) counts the distinct exponents k_i; prove there is c > 0 with h(n) ∼ c(n/log n)^{1/2}. In Lean h n is the cardinality of the range of nonzero values of (n!).factorization (the set of distinct exponents), and the statement is ∃ c > 0, (n ↦ h n) ~[atTop] (n ↦ c·(n/log n)^{1/2}). Faithful."
+    }
+]

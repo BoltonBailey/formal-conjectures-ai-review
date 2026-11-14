@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Variant of erdosproblems.com/1042, first question ('can {|f| < 1} have n connected components?') read universally over F: for every closed F of transfinite diameter 1 not contained in a closed disc of radius 1, there are infinitely many n admitting a monic degree-n polynomial with roots in F and n components. The page records only the existential resolution (examples exist), so presenting the universal version as a separate open question is appropriate and clearly documented, including why 'infinitely many n' rather than 'some n' is needed. Correctly formalised with the same definitions as the main statement."
+    }
+]

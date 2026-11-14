@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A262403 (Zhi-Wei Sun): number of ways to write π(T(n)) = π(T(k)) + π(T(m)) with 1 < k < m < n, T(x) = x(x+1)/2; 'Conjecture: (i) a(n) > 0 for all n > 4'. In Lean a n counts pairs k ∈ [2, n−2], m ∈ [k+1, n−1] with primeCounting(T(n)) = primeCounting(T(k)) + primeCounting(T(m)); tests match the data (a(5) = 1, a(8) = 2). The statement 0 < a n for n > 4 is the conjecture. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/781: f(k) is the minimal n such that any 2-colouring of {1,…,n} contains a monochromatic k-term descending wave (x_1 < ⋯ < x_k with x_j ≥ (x_{j+1}+x_{j−1})/2); 'is it true that f(k) = k² − k + 1 for all k?'. Resolved negatively by Alon–Spencer's f(k) ≫ k³. In Lean IsDescendingWave is strict monotonicity plus x_{j−1} + x_{j+1} ≤ 2x_j for consecutive indices, f k is the infimum of n such that every colouring Fin n → Fin 2 has a monochromatic wave (translation from {1..n} to Fin n is harmless), and the statement is ¬ ∀ k ≥ 1, f k = k² − k + 1. Negated form with solved/question tags per convention. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Background statement for erdosproblems.com/712, which speaks of 'this limit': for all r, k the normalised extremal numbers ex_r(n, K_k^r)/C(n,r) converge to some π ∈ [0,1]. This is the standard Katona–Nemetz–Simonovits averaging result (the ratio is eventually non-increasing in n); degenerate parameter choices also give convergent sequences. The docstring correctly notes that existence does not determine the value. Correct."
+    }
+]

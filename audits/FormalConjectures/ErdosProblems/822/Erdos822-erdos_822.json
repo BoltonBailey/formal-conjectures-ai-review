@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/822: 'Does the set of integers of the form n + φ(n) have positive (lower) density?' — true, proved by Gabdullin, Iudelevich and Luca [GIL24]. The Lean statement 0 < (Set.range fun n ↦ n + Nat.totient n).lowerDensity uses the repository's lower natural density (liminf of the proportion of elements up to b) of the image set in ℕ; the extra value 0 from n = 0 is immaterial. Stated affirmatively with solved/question tags per upstream convention. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/508: 'What is the chromatic number of the plane? That is, the smallest number of colours required to colour ℝ² such that no two points of the same colour are distance 1 apart.' χ(ℝ²) is notation for the chromatic number (in ℕ∞) of UnitDistancePlaneGraph Set.univ, whose vertices are all points of EuclideanSpace ℝ (Fin 2) with adjacency dist x y = 1. The question-value statement χ(ℝ²) = answer follows the upstream convention for value questions. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Sanity lemma for erdosproblems.com/595: a triangle-free graph is a countable union of triangle-free graphs (take H 0 = G and H i = ⊥ otherwise). Correct and proved in the file; confirms the definition IsCountableUnionOfTriangleFree behaves as intended."
+    }
+]

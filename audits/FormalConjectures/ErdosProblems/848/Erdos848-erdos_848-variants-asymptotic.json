@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/848: 'This was solved for all sufficiently large N by Sawhney'. The Lean statement ∀ᶠ N in atTop, Erdos848For N says that for all large N every A ⊆ {0,…,N−1} with ab + 1 never squarefree has at most as many elements as the class 7 mod 25 below N; as 0 cannot belong to A this is the source statement for N − 1, and the shift is irrelevant for an eventual statement. Faithful."
+    }
+]

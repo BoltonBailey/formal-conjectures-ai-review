@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A238568 (Zhi-Wei Sun): a(n) = |{0 < k < n : n² − π(kn) is prime}|, with 'Conjecture: (i) a(n) > 0 for all n > 1'. In Lean a n counts k ∈ [1, n) with n² − primeCounting(k·n) prime (the natural subtraction is exact since π(kn) ≤ kn < n²); tests match the data 0, 1, 1, 1, 2. The statement 0 < a n for n > 1 is the conjecture. Faithful."
+    }
+]

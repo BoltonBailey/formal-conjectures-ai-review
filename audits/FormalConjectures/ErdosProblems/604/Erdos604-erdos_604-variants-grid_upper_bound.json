@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/604: 'The example of an integer grid shows that n/√(log n) would be best possible.' The Lean statement (n ↦ pinnedDistinctDistances n) =O[atTop] (n ↦ n/√(log n)) says there are n-point sets in which every point sees O(n/√log n) distinct distances, which follows from Erdős's bound on the total number of distinct distances in the grid (with the routine adjustment for non-square n described in the docstring). Faithful."
+    }
+]

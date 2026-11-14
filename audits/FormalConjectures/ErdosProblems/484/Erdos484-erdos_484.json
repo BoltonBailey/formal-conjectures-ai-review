@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/484 (Roth's conjecture, solved by Erdős–Sárközy–Sós): there is an absolute constant c > 0 such that whenever {1,…,N} is k-coloured and N is large enough depending on k, at least cN integers in {1,…,N} are representable as a + b with a ≠ b in {1,…,N} of the same colour. The Lean statement: ∃ c > 0, ∀ k > 0, ∃ N₀, ∀ N ≥ N₀, ∀ f : ℕ → Fin k, c·N ≤ #{n ∈ [1,N] | ∃ a ≠ b ∈ [1,N], f a = f b, a + b = n}. The quantifier order (c absolute, N₀ depending on k) matches exactly. Faithful."
+    }
+]

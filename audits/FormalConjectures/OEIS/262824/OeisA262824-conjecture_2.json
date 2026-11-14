@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A262824 (Zhi-Wei Sun), conjecture (ii): for P(w,x,y,z) = w² + x³ + 2y³ + z⁴ (the first of four listed forms), {P(w,x,y,z) : w,x,y,z = 0,1,2,…} = {0,1,2,…}. The Lean statement: every n : ℕ equals w² + x³ + 2y³ + z⁴ for some w x y z : ℕ. Faithful."
+    }
+]

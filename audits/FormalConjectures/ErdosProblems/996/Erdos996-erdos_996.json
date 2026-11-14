@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/996: for a lacunary sequence of integers n_k and f ∈ L²([0,1]) with Fourier partial sums f_n, is there an absolute constant C > 0 such that ‖f − f_n‖₂ ≪ (log log log n)^{−C} implies (1/N)Σ_{k≤N} f({αn_k}) → ∫₀¹ f for almost every α? The Lean statement: ∃ C > 0 such that for every f ∈ L²(AddCircle 1) (Haar probability measure) and every lacunary n : ℕ → ℕ, if k ↦ ‖f − Σ_{|i|≤k} f̂(i)e_i‖₂ is O(1/(log log log k)^C) then for a.e. x the averages (Σ_{k<N} f(n_k • x))/N converge to ∫ f. Working on the circle ℝ/ℤ is the same as using fractional parts on [0,1]; the symmetric partial sums are the standard f_n; the constant is quantified before f and n, as 'absolute' requires. Complex-valued f is a harmless generalisation. Faithful."
+    }
+]

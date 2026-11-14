@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/510 and Green's Problem 81 (Chowla's cosine problem): 'If A ⊂ ℤ is a finite set of size N then is there some absolute constant c > 0 and θ such that Σ_{n∈A} cos(nθ) < −cN^{1/2}?'. The Lean statement: ∃ c > 0 such that for all sufficiently large N, every finset A ⊂ ℕ with 0 ∉ A and #A = N has a θ with Σ cos(nθ) < −c√N. Two deviations from the cited wording: (a) A ranges over sets of positive integers rather than arbitrary integers — this is the classical form of Chowla's problem (and for A ⊂ ℤ containing both n and −n the sum has weights 2, a slightly more general setting), and the docstring states the positive-integer version explicitly; (b) the bound is required only for large N, a harmless normalisation since the constant is unspecified. A correct formalisation of the standard Chowla cosine problem, with a documented difference from the page's 'A ⊂ ℤ'."
+    }
+]

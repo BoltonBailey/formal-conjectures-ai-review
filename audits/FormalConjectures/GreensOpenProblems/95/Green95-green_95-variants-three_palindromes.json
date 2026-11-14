@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the comments to Green's Problem 95 ('Baxter, Cilleruelo and Luca have shown that in base g ≥ 5, every positive integer is a sum of three palindromes') and the abstract of arXiv:1602.06208 ('For integer g ≥ 5, we prove that any positive integer can be written as a sum of three palindromes in base g'). The Lean statement: ∀ g ≥ 5, ∀ n > 0, ∃ p q r base-g palindromes with p + q + r = n, where 0 counts as a palindrome (the convention of the paper, as documented). Faithful."
+    }
+]

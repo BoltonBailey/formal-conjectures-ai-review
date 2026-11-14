@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/438: how large can A ⊆ {1,…,N} be if A + A contains no squares; Massias's residues mod 32 give |A| ≥ (11/32)N (up to O(1)) and Khalfalah–Lodha–Szemerédi proved the maximal A has |A| ≤ (11/32 + o(1))N. In Lean SquareSumFree A forbids a + b being a square for all a, b ∈ A including a = b (as A + A requires), extremalSize N is the maximum cardinality of such subsets of Icc 1 N, and the statement is extremalSize N / N → 11/32, which is precisely the combination of the two bounds. Faithful."
+    }
+]

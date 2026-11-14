@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/743: 'Joos, Kim, Kühn, and Osthus proved that this conjecture holds when the trees have bounded maximum degree.' The Lean statement: for every d there is N such that for all n ≥ N and all trees T k (2 ≤ k ≤ n) with maxDegree ≤ d, the family packs into K_n. This is the standard quantification of the JKKO theorem (n large in terms of the degree bound). Faithful."
+    }
+]

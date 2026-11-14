@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/82 (Erdős–Fajtlowicz–Staton): F(n) is maximal such that every graph on n vertices contains a regular induced subgraph on at least F(n) vertices; prove F(n)/log n → ∞. In Lean F n = sSup {k | every G on Fin n has an induced subgraph S whose coerced graph is regular of some degree and with k ≤ |S.verts|} (a set bounded by n, so the sSup is the true maximum), and the statement is Tendsto (n ↦ F n / log n) atTop atTop. Faithful."
+    }
+]

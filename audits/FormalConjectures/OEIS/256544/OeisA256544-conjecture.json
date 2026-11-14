@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A256544 (Zhi-Wei Sun): 'Conjecture: For any positive integer m, every nonnegative integer n can be written as floor(T(x)/m) + floor(T(y)/m) + floor(T(z)/m) with x, y, z nonnegative integers', T(x) = x(x+1)/2. The Lean statement: for m > 0 and every n there exist x y z : ℕ with n = triangular x / m + triangular y / m + triangular z / m, using natural-number (floor) division and Nat.triangular. This is the comment's general-m conjecture (the sequence itself counts representations for m = 3 with x ≥ 1, used only in the tests). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/686: 'Can every integer N ≥ 2 be written as N = ∏_{1≤i≤k}(m+i) / ∏_{1≤i≤k}(n+i) for some k ≥ 2 and m ≥ n+k?'. The Lean statement: ∀ N ≥ 2, ∃ k ≥ 2, n, m ≥ n + k with (N : ℚ) = ∏_{i∈Icc 1 k}(m+i) / ∏_{i∈Icc 1 k}(n+i), the quotient taken in ℚ. n ranges over ℕ including 0 (where the denominator is k!), which is the convention used in the forum discussion of the problem. Tagged as an open question. Faithful."
+    }
+]

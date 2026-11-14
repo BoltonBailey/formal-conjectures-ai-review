@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/94: 'Lefmann and Thiele [LeTh95] prove a stronger version of this question, that Σ_i f(u_i)² ≪ n³ under the weaker assumption that no three points are on a line.' The Lean statement: ∃ C > 0 such that every finite P ⊂ ℝ² with NonTrilinear P satisfies Σ_{u ∈ distanceSet P} (distanceMultiplicity P u)² ≤ C·|P|³, where distanceMultiplicity counts unordered pairs at distance u (the file's test confirms Σ f(u) = C(n,2)). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A195441 (a(n) = denominator(Bernoulli_{n+1}(x) − Bernoulli_{n+1}); data 1, 1, 2, 1, 6, 2, 6, 3, 10, …), Kellner's comment: 'The equation a(n−1) = denominator(Bernoulli_n(x) − Bernoulli_n) = rad(n+1) has only finitely many solutions … It is conjectured that S = {3, 5, 8, 9, 11, 27, 29, 35, 59} is the full set of all such solutions.' In Lean a n is the lcm of the denominators of C(n+1,k)·B_{n+1−k} for 1 ≤ k ≤ n+1, the coefficients of B_{n+1}(x) − B_{n+1} (the sign convention for B_1 does not affect denominators; tests match the data), and the statement is {n ≥ 1 | a(n−1) = radical(n+1)} = S. The condition n ≥ 1 avoids the truncated-subtraction artefact at n = 0. I spot-checked n = 3, 5, 8 against the data (a(2) = 2 = rad 4, a(4) = 6 = rad 6, a(7) = 3 = rad 9). The set equality encodes the conjectured full solution set (the proved finiteness alone is weaker). Faithful."
+    }
+]

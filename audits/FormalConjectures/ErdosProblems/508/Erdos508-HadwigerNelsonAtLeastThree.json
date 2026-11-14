@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/508: 'An equilateral triangle trivially shows that χ ≥ 3.' The Lean statement 3 ≤ χ(ℝ²) is proved in the file using the unit equilateral triangle (0,0), (1,0), (1/2, √3/2) as three pairwise adjacent vertices. Faithful."
+    }
+]

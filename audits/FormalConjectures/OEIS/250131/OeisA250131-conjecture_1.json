@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A250131 (Shevelev): a(n) is the odd part of the digital sum of 3^n divided by the maximal possible power of 3, with the comment 'Consider the sequence {b(n)}, such that b(1)=2, b(2)=3, and for n>=3, b(n)=a(n-2). We conjecture that, if we apply the Eratosthenes-like sieve to b(n) and remove 1's, then we obtain a sequence of primes.' In Lean a n = d/(3^{v₃(d)}·2^{v₂(d)}) for d the decimal digit sum of 3^n (test a 14 = 5 matches), b is defined as in the comment, and sievedIndices keeps the indices n ≥ 1 with b n ≠ 1 that are not multiples of any earlier b k ≠ 1. Sieving by all earlier non-1 terms is equivalent to sieving by earlier surviving terms (a removed term has a surviving earlier divisor), and it also discards repeated values, as an Eratosthenes-type sieve should. The statement that every surviving b n is prime is the conjecture. Faithful."
+    }
+]

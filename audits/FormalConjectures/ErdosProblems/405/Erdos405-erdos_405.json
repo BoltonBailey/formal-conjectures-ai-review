@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/405 (Erdős–Graham): for an odd prime p, does (p−1)! + a^{p−1} = p^k have only finitely many solutions? Yes (Brindza–Erdős). The Lean statement: the set of triples (a, k, p) ∈ ℕ³ with p prime, p odd and (p−1)! + a^{p−1} = p^k is finite. Finiteness is over all odd primes simultaneously, which is the meaning of the question and what was proved. Faithful."
+    }
+]

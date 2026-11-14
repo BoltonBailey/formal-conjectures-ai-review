@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/856: for k ≥ 3, f_k(N) is the maximum of Σ_{n∈A} 1/n over A ⊆ {1,…,N} containing no k-subset with the same pairwise least common multiple; 'Estimate f_k(N)'. In Lean HasEqualLcmTuple k A asks for a k-subset S and L with lcm(a,b) = L for all distinct a, b ∈ S, f k N is the supremum of the harmonic sums of sets avoiding this (a finite set of values, so a maximum), and the value question reads 'estimate' as f k =Θ[atTop] answer k for each fixed k ≥ 3. The definitions match the source. As with any 'estimate' question, the formal statement is satisfied by the trivial answer f itself, and Θ is one particular choice of precision (the known bounds are of the form (log N)^{b_k − o(1)} ≤ f_k ≤ (log N)^{c_k + o(1)}, so an answer up to constants may be more than can be expected); the docstring states the Θ reading but not this caveat. Acceptable formalisation of an open-ended question."
+    }
+]

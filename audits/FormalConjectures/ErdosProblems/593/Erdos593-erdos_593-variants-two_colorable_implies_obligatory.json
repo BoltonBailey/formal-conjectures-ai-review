@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Not stated on erdosproblems.com/593; checked against [EGH75, p. 426]: 'there are triple systems of arbitrarily large chromatic number consisting of edge disjoint triples', which corrects the earlier false claim that a triple system of chromatic number > ℵ₀ must contain two triples with a common pair. Consequently the 2-colourable hypergraph with edges {0,1,2}, {0,1,3} is not obligatory. The Lean statement is the negation ¬ ∀ finite W and F, F.IsNColorable 2 → F.IsObligatory, i.e. 2-colourability is not sufficient. Correct; note that the declaration name reads like the positive implication while the statement is its negation (the upstream convention for a negatively answered question)."
+    }
+]

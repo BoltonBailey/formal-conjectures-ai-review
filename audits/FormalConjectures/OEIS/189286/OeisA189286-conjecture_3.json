@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A189286, Sun's conjecture (ii): 'For any positive integer n, we have a(n) = 0 (mod 8), and a(n)/8 is odd if and only if n is a power of two.' The Lean statement: for n > 0, ∃ m : ℤ with a n = 8m (in ℚ, so in particular a n is an integer divisible by 8) and (Odd m ↔ ∃ k, n = 2^k). Powers of two include 1 = 2⁰, consistent with the data (a(1)/8 = 5, a(2)/8 = 87, a(4)/8 = 121187 odd; a(3)/8 = 2926 even). Faithful."
+    }
+]

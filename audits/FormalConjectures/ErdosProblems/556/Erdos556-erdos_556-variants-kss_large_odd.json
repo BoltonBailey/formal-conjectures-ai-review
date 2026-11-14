@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/556: 'Kohayakawa, Simonovits, and Skokan proved this conjecture when n is sufficiently large and odd.' The Lean statement: for all sufficiently large odd n, multicolourRamsey (cycleGraph n) 3 = 4n − 3, combining their upper bound with the matching lower bound for odd n. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/593: 'for graphs the problem is completely solved: a graph of chromatic number ≥ ℵ₁ must contain all finite bipartite graphs', and against Theorem A quoted in [EGH75] (Erdős–Hajnal: a graph of chromatic number > κ ≥ ω contains K(t, κ⁺) for every finite t). The Lean statement: for every graph G with ℵ₀ < G.chromaticCardinal and every finite bipartite graph F, F ⊑ G (a not necessarily induced copy). Faithful."
+    }
+]

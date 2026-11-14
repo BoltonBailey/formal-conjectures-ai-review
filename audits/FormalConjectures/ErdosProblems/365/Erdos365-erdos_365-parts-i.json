@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/365: 'Do all pairs of consecutive powerful numbers n and n+1 come from solutions to Pell equations? In other words, must either n or n+1 be a square?' — no: Golomb observed that 12167 = 23³ and 12168 = 2³·3²·13² are both powerful. The Lean statement ¬ ∀ n > 0, Powerful n → Powerful (n+1) → IsSquare n ∨ IsSquare (n+1) is proved in the file from exactly this pair. The condition n > 0 excludes the artefact that 0 counts as powerful (and (0,1) are squares anyway). Faithful."
+    }
+]

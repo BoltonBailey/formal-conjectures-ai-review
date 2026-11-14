@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1182: 'The upper bound was improved to F(n) ≤ 84n by Brandt [Br96]'. The Lean statement: F n ≤ 84·n for all sufficiently large n. Restricting to large n is a mild weakening of the page's unqualified bound and is documented (the preprint was not consulted by the formaliser either); it still yields the negative answer to F(n)/n → ∞. Faithful to the page."
+    }
+]

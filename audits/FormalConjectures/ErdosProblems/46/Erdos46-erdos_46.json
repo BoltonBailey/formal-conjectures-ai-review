@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/46: 'Does every finite colouring of the integers have a monochromatic solution to 1 = Σ 1/n_i with 2 ≤ n_1 < ⋯ < n_k?' — yes, by Croot. The Lean statement: for every 𝓒 : ℕ → ℕ with finite range there is a finset S of naturals ≥ 2 with Σ_{n∈S} 1/n = 1 in ℚ and 𝓒 constant on S (image a subsingleton). Distinctness of the n_i is built into S being a finset, and S is necessarily nonempty. Faithful."
+    }
+]

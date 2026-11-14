@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A238568, conjecture (iii), first sentence: 'If n > 2, then π(n²) − π(kn) is prime for some 0 < k < n.' The Lean statement: for n > 2, ∃ k with 0 < k < n and primeCounting(n²) − primeCounting(k·n) prime; the natural subtraction is exact since kn < n². Faithful."
+    }
+]

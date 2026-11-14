@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/667: 'When q = 1 this corresponds exactly to the classical Ramsey problem, and hence 1/(p−1) ≤ c(p,1) ≤ 2/(p+1).' The Lean statement asserts both inequalities for p ≥ 3. With q = 1 the condition says the independence number is < p, so H(n) is the inverse of the Ramsey function R(p,m); R(p,m) ≤ m^{p−1} gives the lower bound and R(p,m) ≥ m^{(p+1)/2−o(1)} the upper bound. The restriction p ≥ 3 is correct and documented (for p = 2 the graph must be complete, so c(2,1) = 1 > 2/3). Faithful."
+    }
+]

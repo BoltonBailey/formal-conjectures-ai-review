@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/757: Erdős and Sós proved c ≥ 1/2 and Gyárfás–Lehel [GyLe95] proved 1/2 + 1/(141·76) ≤ c ≤ 3/5. The Lean statement 1/2 < sSup {c | IsAdmissible c} follows from the Gyárfás–Lehel lower bound and uses the same notion of admissible constant as erdos_757. (An unused implicit {A : Set ℝ} is present but harmless.) Faithful."
+    }
+]

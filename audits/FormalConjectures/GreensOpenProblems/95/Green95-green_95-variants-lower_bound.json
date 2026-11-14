@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the comments to Green's Problem 95: for g ≥ 2 the number of n ≤ X which are the sum of two palindromes is ≥ X·e^{−c_g√(log X)}. The Lean statement: ∀ g ≥ 2, ∃ c₁ > 0, ∀ real x ≥ 2, x^{1 − c₁/√(log x)} ≤ #{n > 0 | n ≤ x, n ∈ sumsOfTwo g}; indeed x^{1−c₁/√log x} = x·exp(−c₁√(log x)). Requiring the bound for all x ≥ 2 rather than large x is harmless, since c₁ may be enlarged to handle a bounded range. Faithful."
+    }
+]

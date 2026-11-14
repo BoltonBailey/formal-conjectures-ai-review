@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/675: 'Brun's sieve can be used to prove that if B ⊆ ℕ is a set of pairwise coprime integers with Σ_{b<x} 1/b = o(log log x) then A = {n : b ∤ n for all b ∈ B} has the translation property' (the page's 'b ∈ A' is a typo for b ∈ B). The Lean statement: for B pairwise coprime with (x ↦ Σ_{b<x, b∈B} 1/b) =o[atTop] (x ↦ log log x), the set {n | ∀ b ∈ B, ¬ b ∣ n} has the translation property. Degenerate members of B (0 or 1) cause no trouble: 1 ∈ B makes A empty, which trivially has the property. Faithful."
+    }
+]

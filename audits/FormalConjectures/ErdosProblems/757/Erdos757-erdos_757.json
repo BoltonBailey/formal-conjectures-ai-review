@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/757: for A ⊂ ℝ of size n such that every 4-subset B has |B − B| ≥ 11, find the best constant c > 0 such that A must contain a Sidon set of size ≥ cn. In Lean IsAdmissible c says every finite A ⊆ ℝ satisfying the 4-subset condition (11 ≤ (B − B).ncard for all B ⊆ A with ncard 4) has a Sidon subset S with c·|A| ≤ |S|, and the value question sets answer = sSup {c | IsAdmissible c}; the set of admissible c is nonempty and bounded above (by 1), so the supremum is the best constant. IsSidon is the usual condition on a + b = c + d. The theorem carries an unused implicit argument {A : Set ℝ}, which is harmless. Faithful."
+    }
+]

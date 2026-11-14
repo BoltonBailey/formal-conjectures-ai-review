@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Derived consequence for erdosproblems.com/875 of the Erdős–Nicolas–Sárközy construction (A(x) ≫ x^{5−2√6}, per the abstract of [ENS91]): since 5−2√6 = 1/(5+2√6), the n-th element satisfies a_n ≪ n^{5+2√6}, so a_{n+1} − a_n ≤ a_{n+1} ≪ n^{5+2√6} and hence ≤ n^c eventually for any c > 5+2√6. The Lean statement: for c > 5+2√6 there is an infinite admissible A with gap A n ≤ n^c for all large n — i.e. such c belong to the answer set of erdos_875. The derivation is valid (the strict inequality on c absorbs the implied constant). Correct."
+    }
+]

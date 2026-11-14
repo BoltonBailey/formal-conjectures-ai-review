@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1100: 'Is it true that τ_⊥(n) < exp((log n)^{o(1)}) for all n?'. The Lean statement is the negative answer: ¬ ∀ ε > 0, ∀ᶠ n, τ_⊥(n) < exp((log n)^ε), where 'o(1) for all n' is read as 'for every ε > 0 and all large n' (documented; a fixed-ε bound for literally all n fails trivially). Checked against [ErTe89], Théorème 4: max_{n≤x} f(n) ≥ exp(((log 2)² + o(1)) log x/(log log x)²), which exceeds exp((log x)^{1/2}) for large x, so the bound fails for ε = 1/2. The page itself does not yet record this, but the cited theorem settles it. Faithful."
+    }
+]

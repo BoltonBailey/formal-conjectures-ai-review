@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/47: if δ > 0 and N is sufficiently large in terms of δ, and A ⊆ {1,…,N} has Σ_{a∈A} 1/a > δ log N, must there exist S ⊆ A with Σ_{n∈S} 1/n = 1? Solved affirmatively by Bloom. The Lean statement: ∀ δ > 0, ∀ᶠ N, ∀ A ⊆ Icc 1 N with δ·log N < A.reciprocalSum, ∃ S ⊆ A with S.reciprocalSum = 1, where reciprocalSum is Σ 1/a in ℝ. Quantifier order (N large depending on δ) matches. Faithful."
+    }
+]

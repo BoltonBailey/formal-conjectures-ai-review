@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/651: 'Pohoata and Zakharov [PoZa22] have proved that f_3(n) ≤ 2^{o(n)}', together with the monotonicity f_2(n) ≥ f_3(n) ≥ ⋯ noted on the page, which extends the bound to all k ≥ 3. The Lean statement: for k ≥ 3 and every ε > 0, f k n ≤ 2^{εn} for all large n — the standard unpacking of 2^{o(n)}. Faithful."
+    }
+]

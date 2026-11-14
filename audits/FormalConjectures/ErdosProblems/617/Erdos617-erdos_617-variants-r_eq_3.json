@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/617: Erdős and Gyárfás proved for r = 3 that every 3-colouring of the edges of K_{10} has 4 vertices with at least one colour missing on the induced K_4. The Lean statement: for V with card 3²+1 and coloring : Sym2 V → Fin 3 there are S with |S| = 4 and a colour k not used on any pair of distinct vertices of S. This is correct. However the declaration also carries a leftover unused variable r with hypothesis r ≥ 3 (copied from the general statement), which plays no role and is merely confusing; it does not affect provability."
+    }
+]

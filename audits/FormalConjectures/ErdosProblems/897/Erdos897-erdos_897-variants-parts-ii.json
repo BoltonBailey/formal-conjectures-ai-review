@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/897: the second question (limsup f(n+1)/f(n) = ∞?) under Erdős's simplifying assumption f(p^k) = f(p) or f(p^k) = k f(p). The Lean statement mirrors variants.parts.i with the ratio conclusion. The same two remarks apply: the limsup-over-prime-powers hypothesis uses the filter with p and k both tending to infinity, which is equivalent to the source's condition under either extra hypothesis; and the first alternative ∀ k p, p prime → f(p^k) = f p includes k = 0, forcing f(p) = f(1) = 0 for all primes and so making that branch vacuous (the range should be k ≥ 1). Effectively only the completely additive case is covered."
+    }
+]

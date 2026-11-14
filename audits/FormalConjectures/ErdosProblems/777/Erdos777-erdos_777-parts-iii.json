@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/777: 'Is it true that, for any ε > 0, there exists some δ > 0 such that if there are > m^{2−δ} edges then m < (2+ε)^{n/2}?' — answered affirmatively by Alon and Frankl. The Lean statement: ∀ ε > 0, ∃ δ > 0, ∀ n and 𝓕, |𝓕|^{2−δ} < comparableEdges 𝓕 → |𝓕| < (2+ε)^{n/2}, with real exponents. Stated for all n, which is fine: for small n the hypothesis cannot hold once δ is small, since comparableEdges ≤ C(m,2). Faithful."
+    }
+]

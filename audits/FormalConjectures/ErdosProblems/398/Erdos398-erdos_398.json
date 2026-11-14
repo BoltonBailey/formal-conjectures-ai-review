@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/398 (the Brocard–Ramanujan conjecture): 'Are the only solutions to n! = x² − 1 when n = 4, 5, 7?'. The Lean statement {n | ∃ m, n! + 1 = m²} = {4, 5, 7} asserts exactly this (including that 4, 5, 7 are solutions: 25, 121, 5041), with n, m natural numbers; n = 0, 1 give 2, which is not a square. Tagged as an open question, stated in the expected-true form. Faithful."
+    }
+]

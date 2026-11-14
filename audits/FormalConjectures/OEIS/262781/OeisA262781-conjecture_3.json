@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A262781, conjecture (ii): 'For any integer n > 4, we can write 2n as φ(p²) + φ(x²) + φ(y²) with p prime and p ≤ x ≤ y.' The Lean statement: for n > 4 there exist p prime and x, y with p ≤ x ≤ y and 2n = φ(p²) + φ(x²) + φ(y²). Faithful."
+    }
+]

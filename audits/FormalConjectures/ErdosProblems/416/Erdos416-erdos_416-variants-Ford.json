@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/416: Ford proved V(x) ≍ (x/log x)·exp(C₁(log₃x − log₄x)² + C₂ log₃x − C₃ log₄x) for explicit constants C₁, C₂, C₃ > 0. The Lean statement destructures the answer triple, requires all three positive, and asserts V =Θ[atTop] G with G exactly this expression in iterated natural logarithms. The exponent's three terms have distinct unbounded growth rates, so the constants are pinned down by the Θ-statement. Faithful."
+    }
+]

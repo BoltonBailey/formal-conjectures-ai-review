@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1100: 'Erdős and Simonovits proved (2^{1/2} + o(1))^k < g(k) < (2−c)^k for some constant c > 0.' The Lean statement: (i) for every 0 ≤ r < √2, r^k < g k for all large k, and (ii) ∃ c > 0 with g k < (2−c)^k for all large k. Part (i) is the correct unpacking of the lower bound with base √2 + o(1). Faithful."
+    }
+]

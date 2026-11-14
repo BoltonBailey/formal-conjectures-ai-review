@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/435: for n not a prime power p^k (k ≥ 0), the largest integer not of the form Σ_{1≤i<n} c_i C(n,i) with integers c_i ≥ 0 is Σ_k (Σ_{1≤d≤a_k} C(n,p_k^d))(p_k−1) − n where n = ∏ p_k^{a_k} (Hwang–Song). The Lean statement takes n ≠ 0 with n ≠ p^k for all primes p and all k (k = 0 excludes n = 1), and asserts IsGreatest of {m : ℤ | m is not Σ_{i∈Ico 1 n} c_i·C(n,i) with c : ℕ → ℕ} at Σ_{p ∈ primeFactors n} (Σ_{d∈Icc 1 (v_p n)} C(n,p^d))(p−1) − n, computed in ℤ. The index ranges, coefficients and formula all match (e.g. n = 6 gives 15 + 2·20 − 6 = 49). Faithful."
+    }
+]

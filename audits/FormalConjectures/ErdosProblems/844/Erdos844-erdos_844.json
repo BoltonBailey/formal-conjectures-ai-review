@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/844 (Erdős–Sárközy): for A ⊆ {1,…,N} such that ab is not squarefree for all a, b ∈ A, is the maximum size achieved by the even numbers together with the odd non-squarefree numbers? Yes (Weisenberg via Chvátal; Alexeev–Mixon–Sawin). The Lean statement: for every N, the cardinality of {n ∈ [1,N] : 2 ∣ n ∨ ¬ Squarefree n} is the greatest element of the set of sizes of subsets A ⊆ Icc 1 N with ¬ Squarefree (a·b) for all a, b ∈ A (including a = b). The candidate set does satisfy the condition (two evens give a multiple of 4; a non-squarefree factor makes the product non-squarefree; 1 is excluded), so IsGreatest expresses exactly that the maximum is attained by it. Faithful."
+    }
+]

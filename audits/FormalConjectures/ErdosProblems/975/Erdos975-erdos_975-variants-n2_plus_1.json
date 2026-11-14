@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/975: the asymptotic Σ_{n≤x} τ(n²+1) = (3/π)x log x + O(x) shows the conjectured form holds for f = X² + 1. The Lean statement ∃ c > 0, Erdos975Sum (X² + 1) x/(x log x) → c is the corresponding instance of erdos_975 (a weakening of n2_plus_1_strong with c = 3/π). Faithful."
+    }
+]

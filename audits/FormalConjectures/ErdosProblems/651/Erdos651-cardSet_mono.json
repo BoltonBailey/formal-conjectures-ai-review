@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/651: the set cardSet k n of N such that every set of at least N points in general position in ℝ^k contains n points in convex position is upward closed. Immediate from the 'at least N points' form of the definition and proved in the file. Correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/871 (Erdős–Nathanson): if A is an additive basis of order 2 with 1_A∗1_A(n) → ∞, can A be partitioned into two disjoint additive bases of order 2? Disproved (Larsen, modifying [ErNa89]). The Lean statement is the negation of: for every A ⊆ ℕ such that every sufficiently large n is a sum of two elements of A and, for every t, every sufficiently large n has at least t representations (counted as pairs with p.1 ≤ p.2, which tends to infinity iff the ordered count does), there exist disjoint B, C with A = B ∪ C, each representing all sufficiently large n as a sum of two of its elements. 'Basis of order 2' is taken in the asymptotic sense, as in Erdős–Nathanson's papers. Negated form with solved/question tags per upstream convention. Faithful."
+    }
+]

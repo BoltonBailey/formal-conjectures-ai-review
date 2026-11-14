@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the description of [KSSS22, Theorem 1.1] cited at erdosproblems.com/88: for fixed C, η > 0 and n sufficiently large, a graph on n vertices with no clique or independent set of size ≥ C log₂ n has an induced subgraph with exactly m edges for every 0 ≤ m ≤ (1−η)e(G). The Lean statement: ∀ C > 0, ∀ η > 0, eventually in n, for all G on Fin n with cliqueNum, indepNum < C·logb 2 n and all m ≤ (1−η)·e(G) there is S inducing exactly m edges. Quantifier order (n large depending on C, η) and the base-2 logarithm match the paper's theorem. Faithful."
+    }
+]

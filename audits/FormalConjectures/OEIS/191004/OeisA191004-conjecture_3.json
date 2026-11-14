@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against OEIS A191004, Sun's refinement for even numbers: 'any even number 2n > 8 not among 32 and 152 can be written as p + q, where p and q <= n/2 are primes, and JacobiSymbol[(q+1)/2, p'] = 1 for any prime divisor p' of 2n+1.' The Lean statement, for even m > 8 outside {32, 152}, asks for primes p, q with m = p + q, q ≤ m/2 and the Jacobi condition over prime divisors of m + 1. With m = 2n the OEIS text literally says q ≤ n/2 = m/4, whereas Lean uses q ≤ m/2; the docstring argues the OEIS bound is a slip carried over from the definition of a(n). I checked this numerically for even m ≤ 20000: with q ≤ m/2 the exceptions are exactly {32, 152}, while with q ≤ m/4 there are many more (10, 12, 14, 18, 20, …, 2386), so the Lean reading is the one consistent with the stated exceptional set. Correct in substance; it knowingly departs from the literal source wording, and documents this."
+    }
+]

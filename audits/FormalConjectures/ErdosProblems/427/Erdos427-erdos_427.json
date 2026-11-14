@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/427: 'Is it true that, for every n and d, there exists k such that d | p_{n+1} + ⋯ + p_{n+k}, where p_r denotes the r-th prime?' (yes, via Shiu's theorem as observed by Pilatte). The Lean predicate erdos427: for all n and d ≠ 0 there is k ≠ 0 with d ∣ Σ_{i∈[n, n+k)} Nat.nth Nat.Prime i; with 0-based nth this sum is p_{n+1} + ⋯ + p_{n+k}, and n = 0 is allowed. The side conditions d ≠ 0 and k ≠ 0 exclude only the meaningless/trivial cases. Faithful."
+    }
+]

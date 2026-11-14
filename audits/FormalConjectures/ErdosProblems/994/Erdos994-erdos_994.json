@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/994 (Khintchine's conjecture): for measurable E ⊆ (0,1), is it true that for almost all α, lim (1/n)Σ_{1≤k≤n} 1_{{kα}∈E} = λ(E)? False, disproved by Marstrand. The Lean statement: ¬ ∀ measurable E ⊆ (0,1), ∀ᵐ α, visitAverage E α n → λ(E), where visitAverage is the proportion of k ∈ [1,n] with fract(kα) ∈ E. The quantifier order (for each E, almost every α) is the meaningful reading of Khintchine's conjecture, as the docstring explains, and it is the statement Marstrand refuted. Faithful."
+    }
+]

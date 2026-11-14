@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/488: for a finite set A and B = {n ≥ 1 : a | n for some a ∈ A}, is it true that for every m > n ≥ max(A), |B ∩ [1,m]|/m < 2·|B ∩ [1,n]|/n? The Lean statement: for every nonempty finite A ⊂ ℕ with 0 ∉ A and 1 ∉ A, for all n and m > n with A.max ≤ n, the rational inequality #(B ∩ [1,m])/m < 2·#(B ∩ [1,n])/n holds, with B as in the source. The extra hypotheses are benign: nonemptiness and 0 ∉ A rule out degenerate/meaningless cases (empty B gives 0 < 0; 0 divides no n ≥ 1), and 1 ∉ A only removes a case where B = ℕ≥1 and the inequality is trivially true; they are pointed to in a comment. Uses the divisibility version ('a | n'), which the page identifies as the intended one. Faithful."
+    }
+]

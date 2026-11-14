@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/875 (Deshouillers–Erdős): for an infinite A = {a_1 < a_2 < …} ⊂ ℕ whose sets S_r of sums of r distinct elements are disjoint for distinct r ≥ 1, 'for which c is it possible that a_{n+1} − a_n ≤ n^c?'. In Lean IsAdmissible A is pairwise disjointness of rSums A r over r ≥ 1 (rSums uses r-element subsets, i.e. distinct summands), gap A n = a_{n+1} − a_n via Nat.nth with the index shift documented, and the value question asks for the set of real c for which some infinite admissible A has gap A n ≤ n^c for all large n. Requiring the bound eventually is the sensible reading and is documented; the open-ended 'how fast can it grow' parts are not formalised, as the docstring says. Faithful."
+    }
+]

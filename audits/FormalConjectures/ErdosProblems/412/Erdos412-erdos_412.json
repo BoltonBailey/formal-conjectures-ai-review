@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/412 (van Wijngaarden's conjecture): with σ_1 = σ and σ_k = σ∘σ_{k−1}, is it true that for every m, n ≥ 2 there exist i, j with σ_i(m) = σ_j(n)? The Lean statement: ∀ m ≥ 2, ∀ n ≥ 2, ∃ i j, (σ 1)^[i] m = (σ 1)^[j] n. The Lean iterates allow i = 0 or j = 0 whereas the source's indices start at 1, but this is equivalent: applying σ once more to both sides of any coincidence gives one with i, j ≥ 1. Stated affirmatively as an open question. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the comments to Green's Problem 100: 'The Higman group ⟨a_1,…,a_4 | a_i^{a_{i+1}} = a_i², i ∈ ℤ/4ℤ⟩ (where x^y := y⁻¹xy) is not known to be either hyperlinear or sofic.' HigmanGroup is the presented group on generators indexed by ZMod 4 with relators a_{i+1}⁻¹ a_i a_{i+1} (a_i²)⁻¹, exactly this presentation, and the statement IsSofic HigmanGroup is tagged as an open question. Faithful."
+    }
+]

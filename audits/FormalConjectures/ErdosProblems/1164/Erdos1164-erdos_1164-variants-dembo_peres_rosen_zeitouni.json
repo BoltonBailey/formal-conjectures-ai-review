@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1164, which says Révész and Kesten conjectured, and Dembo–Peres–Rosen–Zeitouni proved, a limit law for (log R_n)²/log n (the page displays it as lim P((log R_n)²/log n ≤ x) = e^{−4x}). The Lean statement is the DPRZ theorem in its cover-time form [DPRZ04, Thm 1.4]: for t > 0, P(the walk has covered the open lattice disc of radius n by time ⌊exp(t (log n)²)⌋) → e^{−4/t}, which is lim P(log T_n ≤ t(log n)²) = e^{−4/t} since T_n is an integer. This is the same result expressed through the cover time T_n of the disc of radius n rather than through R_n, with the disc convention (‖x‖ < n) taken from the paper. Faithful to the cited theorem."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/653: for x_1..x_n ∈ ℝ² let R(x_i) be the number of distinct distances from x_i to the other points, and g(n) the maximum number of distinct values the R(x_i) can take; is g(n) ≥ (1−o(1))n? In Lean maximalDistinctDistancesFrom n is the supremum over n-point finsets X ⊂ ℝ² of the number of distinct values of distinctDistancesFrom X x (the number of distinct distances from x to the other points of X), a set bounded by n, and the statement is ∃ o = o(1) with (1 − o n)·n ≤ g(n) for all large n — the standard unpacking of (1−o(1))n. The ordering of the points in the source is immaterial. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/509: Cartan's 2e 'was improved to 2.59 by Pommerenke [Po61]'. The Lean statement is erdos_509 with radius budget 2.59. Faithful."
+    }
+]

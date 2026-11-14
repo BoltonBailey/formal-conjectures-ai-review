@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A238568, conjecture (ii): 'For any integer n > 6, there is a positive integer k < n with n² + π(kn) − 1 prime.' The Lean statement: for n > 6, ∃ k with 0 < k < n and n² + primeCounting(k·n) − 1 prime. Faithful."
+    }
+]

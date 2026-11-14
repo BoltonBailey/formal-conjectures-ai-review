@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the comments to Green's Problem 17 ('it is shown that this is true for sets invariant under the permutation action of S_n on F_3^n') and the abstract of Hązła, arXiv:1811.09947: 'a symmetric set S ⊆ Z_q^n containing |S| = μ·q^n elements must contain at least δ(q,μ)·q^n·2^n arithmetic progressions x, x+d, …, x+(q−1)d such that the difference d is restricted to lie in {0,1}^n.' The Lean statement (q = 3): ∀ μ > 0, ∃ δ > 0, ∀ n and every coordinate-permutation-invariant A with |A| ≥ μ·3^n, δ·6^n ≤ numRestrictedAPs A + |A|. Adding |A| accounts for the trivial progressions with d = 0, which the paper's count includes; the passage from density exactly μ to at least μ is justified in the docstring. Faithful to the cited result."
+    }
+]

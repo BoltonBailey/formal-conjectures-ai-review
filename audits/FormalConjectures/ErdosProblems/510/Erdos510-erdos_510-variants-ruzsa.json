@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/510 and Green's Problem 81: Ruzsa [Ru04] showed that −exp(c√(log n)) is attainable (the page writes the bound as −exp(O(√log N))). The Lean statement: ∃ c > 0, for all large N and every set A of N positive integers there is θ with Σ_{n∈A} cos(nθ) < −exp(c·√(log N)). Uses the same positive-integer setting as erdos_510, which is the setting of Ruzsa's theorem. Faithful."
+    }
+]

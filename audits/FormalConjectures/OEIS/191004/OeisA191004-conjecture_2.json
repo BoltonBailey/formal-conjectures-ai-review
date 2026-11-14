@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A191004, Sun's refinement: 'Any odd number 2n+1 > 64 not among 105, 247, 255, 1105 can be written as p + 2q, where p and q are primes, and JacobiSymbol[q,p'] = 1 for any prime divisor p' of 2n+1.' The Lean statement: for odd m > 64 outside {105, 247, 255, 1105} there are primes p, q with m = p + 2q and jacobiSym q p' = 1 for every p' ∈ m.primeFactors. I checked numerically that for odd m ≤ 20000 the only failures above 64 are exactly 105, 247, 255, 1105. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/508: 'The best bounds currently known are 6 ≤ χ ≤ 7 … A formalised proof that χ ≥ 6 is available.' The Lean statement 6 ≤ χ(ℝ²) for the chromatic number of the unit distance graph of the plane matches, and carries a formal_proof link. Faithful."
+    }
+]

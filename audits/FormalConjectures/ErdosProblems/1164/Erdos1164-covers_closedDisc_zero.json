@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/1164: the lattice disc of radius 0, i.e. {(0,0)}, is covered by the walk at every time n, because position X 0 ω = 0. Correct and proved in the file; it shows the set defining coveringRadius is nonempty."
+    }
+]

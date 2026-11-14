@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1129: 'For n = 3 the points are −1, 0, 1 (with Λ = 1.25), as shown by Bernstein.' The Lean statement: the set of canonical minimisers Fin 3 → ℝ is {![−1,0,1]} and lebesgueConstant ![−1,0,1] = 5/4. Checked: at t = 1/2 the basis values are −1/8, 3/4, 3/8 with absolute sum 5/4, the maximum. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/777: 'Is it true that if G_F has ≥ cm² edges then m ≪_c 2^{n/2}?' — answered in the negative by Alon and Frankl (families with m ≫ n·2^{n/2} and at least 2^{−5}·C(m,2) edges). The Lean statement is the negation of: for every c > 0 there is C > 0 such that for all n and all families 𝓕 with c·|𝓕|² ≤ comparableEdges 𝓕, |𝓕| ≤ C·2^{n/2}. This is the correct reading of ≪_c, and the Alon–Frankl example refutes it for c slightly below 2^{−6}. Faithful."
+    }
+]

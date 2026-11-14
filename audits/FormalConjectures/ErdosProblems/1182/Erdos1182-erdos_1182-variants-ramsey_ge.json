@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1182: 'It is trivial … that R(K_3,G) ≥ 2n−1 for any connected graph G on n vertices.' The Lean statement: for connected G on Fin n, 2n − 1 ≤ graphRamsey K_3 G. Correct (two disjoint copies of K_{n−1} in the second colour give a colouring of K_{2n−2} with no first-colour triangle and no connected n-vertex graph in the second colour); connectivity forces n ≥ 1 so the truncated subtraction is exact. Faithful."
+    }
+]

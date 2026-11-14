@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/675: 'If we partition all primes into P ⊔ Q, such that each set contains ≫ x/log x many primes ≤ x for all large x, then can the set of integers only divisible by primes from P have the translation property?'. The Lean statement reads 'can' existentially: ∃ P ⊆ primes such that both P and its complement in the primes have counting functions ≫ x/log x, and composedOf P (positive integers all of whose prime factors lie in P, including 1) has the translation property. The existential reading is the natural one and is stated in the docstring. Faithful."
+    }
+]

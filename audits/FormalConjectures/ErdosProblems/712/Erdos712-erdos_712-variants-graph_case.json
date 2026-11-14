@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/712: 'Turán proved that, when r = 2, this limit is (1/2)(1 − 1/(k−1))'. With the page's own normalisation by C(n,2) the correct limit is 1 − 1/(k−1) (the factor 1/2 belongs to the normalisation by n²), and the Lean statement uses exactly that: for k ≥ 2, ex_2(n, K_k)/C(n,2) → 1 − 1/(k−1). The companion variant graph_case_div_sq records the n² normalisation with the factor 1/2. So the Lean statement is the mathematically correct form of Turán's theorem and silently corrects a slip in the page's wording. Faithful to the intended result."
+    }
+]

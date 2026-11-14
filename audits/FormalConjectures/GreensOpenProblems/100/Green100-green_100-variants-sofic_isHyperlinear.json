@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the comments to Green's Problem 100: 'It is known that all sofic groups are hyperlinear, but the reverse implication is not known.' The Lean statement: for any group G (any universe), IsSofic G → IsHyperlinear G, with the Hamming/Hilbert–Schmidt definitions of this file (Elek–Szabó; via permutation matrices, where the normalised HS distance between permutation matrices is √(2·Hamming), so separation ≥ 1/4 is preserved). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's Problem 100 comments (if the Higman group is sofic then for ε > 0 and p large there is f : ℤ/pℤ → ℤ/pℤ with f(x+1) = 2f(x) for at least (1−ε)p values of x and f∘f∘f∘f = id) and against Helfgott–Juschenko, arXiv:1512.02135, Theorem 2: 'Let m ≥ 2. Assume that H_{4,m} is sofic. Then, for every ε > 0, there is an N > 0 such that, for every n ≥ N coprime to m, there is a bijection f : ℤ/nℤ → ℤ/nℤ such that f(x+1) = m f(x) for at least (1−ε)n elements x, and f(f(f(f(x)))) = x for all x.' The Lean statement is the m = 2 case: IsSofic HigmanGroup → ∀ ε > 0, ∃ N, ∀ n ≥ N coprime to 2, ∃ f : ZMod n → ZMod n with (1−ε)n ≤ #{x | f(x+1) = 2 f(x)} and f⁴ = id (which forces bijectivity). This matches the paper's theorem (slightly more general than Green's prime-modulus summary). Faithful."
+    }
+]

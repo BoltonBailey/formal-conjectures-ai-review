@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/549: 'If T is a tree which is a bipartite graph with k vertices and 2k vertices in the other class then R(T) = 4k − 1' — false, since Norin–Sun–Zhao showed the double star with stars on k and 2k vertices has R(T) ≥ (4.2 − o(1))k. The Lean statement is the negation of: for every k ≥ 2 and every tree T on Fin k ⊕ Fin (2k) with no edges inside either summand (so the bipartition classes have sizes k and 2k), diagonalGraphRamsey T = 4k − 1. diagonalGraphRamsey T is the usual two-colour Ramsey number R(T,T). The negation is witnessed for large k by the double star. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1129: Erdős [Er61c] proved Λ(x_1,…,x_n) > (2/π) log n − O(1) for all choices of nodes. The Lean statement: ∃ C, for all n ≥ 1 and all node sets x (strictly increasing, in [−1,1]), (2/π)·log n − C < lebesgueConstant x. Uniform constant, natural log, all n ≥ 1. Faithful."
+    }
+]

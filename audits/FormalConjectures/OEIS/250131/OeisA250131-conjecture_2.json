@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against OEIS A250131. The page states only that the sieved sequence consists of primes (conjecture_1), with Peter Moses's remark that 'these primes follow with some perturbation of order. For example, 73 appears before 71.' The Lean statement b '' sievedIndices = {p | p.Prime} asserts in addition that every prime occurs. This stronger claim is not made on the cited page; the docstring says so explicitly and motivates it by the prepended terms 2, 3 and analogous conjectures in cross-referenced entries. The formal statement is a coherent strengthening using the same definitions, but it should be understood as the formaliser's extrapolation rather than a conjecture taken from the source."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A233544, conjecture (ii): 'Any integer n > 1 can be written as k + m with k > 0 and m > 0 such that sigma(k)^2 + phi(m) (or sigma(k) + phi(m)^2) is prime.' The Lean statement is the parenthetical alternative read as a separate assertion: for n > 1 there exist k, m > 0 with n = k + m and σ₁(k) + φ(m)² prime. Treating the two forms as two independent conjectures (this one and conjecture_2) is the intended meaning of Sun's 'or'. Faithful."
+    }
+]

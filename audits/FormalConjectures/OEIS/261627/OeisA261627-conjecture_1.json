@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A261627 (Zhi-Wei Sun): a(n) is the 'number of primes p such that n−(p·n'−1) and n+(p·n'−1) are both prime, where n' is 1 or 2 according as n is odd or even', with 'Conjecture: a(n) > 0 for all n > 6'. In Lean a n counts primes p ≤ n with k = p·n' − 1 < n and both n − k and n + k prime; the bound p ≤ n and the condition k < n lose nothing, since n − k must be a positive prime. Tests reproduce the data (a(5) = 1, a(8) = 2, zeros for n ≤ 4). The statement 0 < a n for n > 6 is the first half of the conjecture. Faithful."
+    }
+]

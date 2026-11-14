@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/393: f(n) is the minimal m ≥ 1 such that n! = a_1⋯a_t with a_1 < ⋯ < a_t = a_1 + m; 'What is the behaviour of f(n)?'. In Lean f n is the infimum of m ≥ 1 for which some finite set s ⊆ [a, a+m] containing both endpoints has product n! (tests: f 3 = 1, f 7 ≤ 2, f n ≤ n − 2), which matches the definition. The open-ended question is formalised as the specific yes/no statement f(n) → ∞ (Tendsto f atTop atTop), which the page records as a consequence of ABC via Luca. This is a reasonable and documented choice, but it is one interpretation of a vague question rather than the question itself."
+    }
+]

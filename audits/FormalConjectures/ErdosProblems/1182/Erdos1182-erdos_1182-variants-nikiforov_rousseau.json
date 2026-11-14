@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Not on erdosproblems.com/1182; checked against Nikiforov–Rousseau, 'Ramsey goodness and beyond' (arXiv:math/0703653), Theorem 5.1: 'For n sufficiently large, almost all connected 100-regular graphs of order n are not 3-good.' A connected 100-regular graph on n vertices has 50n edges, so for large n some connected graph with 50n edges is not 3-good and hence F(n) ≤ 50n − 1. The Lean statement ∀ᶠ n, F n < 50·n is this consequence. Correct."
+    }
+]

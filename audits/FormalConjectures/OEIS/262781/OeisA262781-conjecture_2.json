@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A262781, conjecture (i), second half: 'a(n) = 1 only for n = 3, 5, 9, 10, 17, 20, 24, 25, 31, 36, 45, 73, 80, 101, 136, 145, 388, 649.' The Lean statement a n = 1 ↔ n ∈ singletons, with singletons exactly this list, also asserts the easy converse (that a(n) = 1 at each listed n), which is implicit in the source's wording and supported by its examples. Faithful."
+    }
+]

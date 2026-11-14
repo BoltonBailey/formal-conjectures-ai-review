@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/393: with F_m(N) the number of n ≤ N with f(n) = m, 'Berend and Osgood proved that, for each fixed m, F_m(N) = o(N)'. The Lean statement: for every m the set {n | f n = m} has natural density 0. For m ≥ 1 this is the cited result; for m = 0 the set is the junk set {0, 1}, trivially of density 0, as the docstring notes. Faithful."
+    }
+]

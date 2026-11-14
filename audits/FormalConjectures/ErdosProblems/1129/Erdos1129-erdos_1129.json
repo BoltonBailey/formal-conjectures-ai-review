@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1129: describe which nodes x_1,…,x_n ∈ [−1,1] minimise the Lebesgue constant Λ = max_{[−1,1]} Σ_k |l_k|; the page records the Bernstein–Erdős equioscillation conjecture and its resolution by Kilgore and de Boor–Pinkus, and lists the Lean formalisation [Ren26]. In Lean, lebesgueFunction uses Mathlib's Lagrange.basis (the product formula is proved as lebesgueFunction_eq), lebesgueConstant is the sup over [−1,1], and the statement says the set of minimisers among strictly increasing node sets in [−1,1] equals the set of node sets whose interior local maxima λ_1,…,λ_{n−1} are all equal and with L(−1), L(1) ≤ that common value. I checked this is the correct characterisation: outside the node hull L is monotone, so Λ = max(λ_1..λ_{n−1}, L(−1), L(1)); the interior λ_i are affine-invariant, and by Kilgore/de Boor–Pinkus their maximum is minimised exactly by the (affine images of the) unique equioscillating canonical set. Degenerate cases agree: n = 0, 1 every node set is a minimiser and in the answer; n = 2 both sides are {(−1,1)}. The page's prose ('λ_i all equal for 0 ≤ i ≤ n', 'a unique minimising choice') is looser than the true statement for free nodes (Rack–Vajda: uncountably many minimisers for n ≥ 3); the docstring explains this carefully. Faithful and mathematically correct."
+    }
+]

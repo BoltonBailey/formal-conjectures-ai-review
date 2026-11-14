@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1130: 'It follows by the bounds discussed in [1129] that Υ(x_1,…,x_n) ≤ (2/π) log n + O(1).' The Lean statement: ∃ C, ∀ n ≥ 1 and every node set x, upsilon x ≤ (2/π)·log n + C. Faithful."
+    }
+]

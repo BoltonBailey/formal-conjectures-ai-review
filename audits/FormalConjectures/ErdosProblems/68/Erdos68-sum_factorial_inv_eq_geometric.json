@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/68: 'Weisenberg has observed that this sum can also be written as Σ_{k≥1} Σ_{n≥2} 1/(n!)^k.' The Lean statement proves Σ' n, 1/((n+2)! − 1) = Σ' n, Σ' k, 1/((n+2)!)^{k+1}, i.e. the same double sum with the order of summation n outside, k inside (equal to the page's order since all terms are positive). It follows termwise from the geometric series and is proved in the file. Correct."
+    }
+]

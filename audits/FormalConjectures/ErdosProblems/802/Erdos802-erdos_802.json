@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/802 (Ajtai–Erdős–Komlós–Szemerédi): does any K_r-free graph on n vertices with average degree t contain an independent set of size ≫_r (log t / t)·n? The Lean statement: ∀ r, ∃ c > 0, ∀ n and G on Fin n with G.CliqueFree r, c·(log t / t)·n ≤ indepNum G with t = G.averageDegree. The constant depends only on r. Small-t edge cases are harmless: for t ≤ 1 the left side is ≤ 0 (log t ≤ 0, and t = 0 gives 0 by division by zero), and for bounded t Turán's bound α ≥ n/(t+1) suffices, so no restriction on t is needed. Faithful."
+    }
+]

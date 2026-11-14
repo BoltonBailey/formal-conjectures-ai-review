@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/690: 'Cambie [Ca25] has shown that d_k(p) is unimodular for 1 ≤ k ≤ 3'. The Lean statement: for 1 ≤ k ≤ 3 and any d : ℕ → ℝ recording the densities of kthPrimeFactorSet k p at primes p, IsUnimodalOnPrimes d holds, i.e. there is a prime m with d nondecreasing along primes up to m and nonincreasing along primes from m on. Using non-strict monotonicity is the usual meaning of unimodal ('increases until its maximum then decreases'). Faithful."
+    }
+]

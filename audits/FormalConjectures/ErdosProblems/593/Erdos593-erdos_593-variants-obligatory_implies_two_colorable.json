@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Not stated on erdosproblems.com/593; checked against Erdős–Galvin–Hajnal [EGH75] (renyi.hu/~p_erdos/1975-24.pdf). Its introduction (p. 426) records that 'there are triple systems of arbitrarily large chromatic number consisting of edge disjoint triples' (no two triples sharing a pair), and the paragraph before Theorem 10.9 says that 'for every infinite cardinal κ there are e.g. triple systems with chromatic number > κ such that all subsystems not containing two triples with a common edge have chromatic number at most two' (Theorem 10.9(iii)). Hence an obligatory F contains no two triples sharing a pair and, appearing in the second kind of system, is 2-colourable. The Lean statement — for every finite type W and 3-uniform F on W, F.IsObligatory → F.IsNColorable 2 (a 2-colouring with no monochromatic edge) — is exactly this consequence. Correct."
+    }
+]

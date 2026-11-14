@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/1130: 'Describe which choice of x_i maximise Υ(x_1,…,x_n)'; the page says Erdős's characterisation (all λ_i equal for 0 ≤ i ≤ n) 'is true, and was proved by de Boor and Pinkus'. The Lean statement is a value question: the set of node sets maximising upsilon equals an answer set left as sorry. The statement itself is a faithful rendering of 'describe the maximisers' for the literal Υ (including the outer gaps), and the docstring's caveat is correct — I checked the n = 3 example: for nodes −s, 0, s the interior maxima are 5/4 and the outer ones are 2/s² − 1 ≥ 5/4 iff s ≤ 2√2/3, so all such s give the maximal value Υ = 5/4 without all λ_i being equal, contradicting the page's literal claim. The remaining issue is one of status/documentation: the declaration is tagged 'research solved' yet the answer is left unspecified with the remark that the sources do not describe the full set (although, by the same reasoning as for erdos_1129, it should be the equioscillating node sets with L(±1) ≥ the common interior maximum)."
+    }
+]

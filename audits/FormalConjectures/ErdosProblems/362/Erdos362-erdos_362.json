@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/362: for a finite A ⊆ ℕ of size N and any fixed t, are there ≪ 2^N/N^{3/2} subsets S ⊆ A with Σ_{n∈S} n = t? Yes (Sárközy–Szemerédi, removing the log factor from Erdős–Moser). The Lean statement: ∃ C, ∀ nonempty finite A ⊆ ℕ and t, #{S ⊆ A | ΣS = t} ≤ C·2^{|A|}/|A|^{3/2}. The constant is uniform in A and t, as intended; nonemptiness avoids division by zero. Faithful."
+    }
+]

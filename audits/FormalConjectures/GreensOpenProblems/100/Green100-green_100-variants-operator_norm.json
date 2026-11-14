@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's Problem 100, the precise statement: for every finite A ⊂ G containing e and every ε > 0 there are n and φ : A → U(n) with φ(e) = I_n, ‖φ(a₁a₂) − φ(a₁)φ(a₂)‖ < ε whenever a₁, a₂, a₁a₂ ∈ A, and ‖φ(a) − I_n‖ ≥ 1 for a ≠ e, in the ℓ²→ℓ² operator norm. OperatorNormApprox reproduces this verbatim (opDist is the operator norm of the difference via Matrix.toEuclideanCLM; φ is defined on all of G but only its values on A matter), and the theorem is the negation ¬ ∀ (G : Type) [Group G], OperatorNormApprox G. The negative answer is derived in the docstring from Eckhardt's non-MF group (arXiv:2608.28772, abstract: 'We show that W is not an MF group'); the reduction (such approximations yield an injective homomorphism into ∏M_{n_k}/⊕M_{n_k}, i.e. MF) is sound. Faithful to Green's literal statement, in resolved form."
+    }
+]

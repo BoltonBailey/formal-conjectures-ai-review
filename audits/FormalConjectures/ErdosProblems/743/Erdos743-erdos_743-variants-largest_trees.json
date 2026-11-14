@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/743: 'Janzer and Montgomery have proved that there exists some c > 0 such that the largest cn trees can be packed into K_n.' The Lean statement: ∃ c > 0 such that for all large n, any trees T k for the indices 2 ≤ k ≤ n with k > n − cn pack into K_n. The index set is the top cn trees, as in the source; restricting to large n is the natural reading and documented. Faithful."
+    }
+]

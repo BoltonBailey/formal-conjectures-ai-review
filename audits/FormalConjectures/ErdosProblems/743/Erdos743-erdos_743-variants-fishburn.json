@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/743: 'Fishburn proved this for n ≤ 9.' The Lean statement: for n ≤ 9 and any trees T k on Fin k, 2 ≤ k ≤ n, IsPacking n (Icc 2 n) T. Faithful. (The page cites [Fi83] whereas the docstring cites [Fi83b], a bibliographic detail only.)"
+    }
+]

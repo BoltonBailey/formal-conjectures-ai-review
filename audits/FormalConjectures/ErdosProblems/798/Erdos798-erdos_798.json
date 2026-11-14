@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/798 (Erdős–Purdy): t(n) is the minimum number of points in {1,…,n}² such that the lines determined by these points cover all points of {1,…,n}²; 'is it true that t(n) = o(n)?' — yes, by Alon's bound t(n) ≪ n^{2/3} log n. In Lean IsLineCover n S says S ⊆ grid and every grid point is collinear with two distinct points of S, t n is the least cardinality of such S, and the statement is (n ↦ t n) =o[atTop] (n ↦ n). The degenerate value t 1 = 0 (no two distinct points exist) is irrelevant asymptotically. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/579: Erdős, Hajnal, Sós and Szemerédi 'could prove this is true for δ > 1/8'. The Lean statement is erdos_579 restricted to δ > 1/8: ∃ c > 0 such that for all large n every octahedron-free G on n vertices with at least δn² edges has an independent set of size ≥ cn. Faithful."
+    }
+]

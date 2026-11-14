@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Private API lemma for OEIS A242775: for k > 0, 3 ≤ (10^k − 1)/3, i.e. the repdigit 3…3 with k ≥ 1 threes is at least 3. True (10^k ≥ 10) and proved in the file; used to show the concatenations exceed the small primes 2, 3, 5 in the tests."
+    }
+]

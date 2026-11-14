@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/675: A ⊂ ℕ has the translation property if for every n there is t_n ≥ 1 such that for all 1 ≤ a ≤ n, a ∈ A ⟺ a + t_n ∈ A; 'Does the set of the sums of two squares have the translation property?'. In Lean HasTranslationProperty A is ∀ n, ∃ t ≥ 1, ∀ a ∈ [1,n], (a ∈ A ↔ a + t ∈ A), and the statement applies it to {m | ∃ x y : ℕ, m = x² + y²}. Tagged as an open question. Faithful."
+    }
+]

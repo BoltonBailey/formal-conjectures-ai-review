@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/651: f_k(n) is the smallest integer such that any f_k(n) points in general position in ℝ^k contain n which determine a convex polyhedron; is f_k(n) > (1+c_k)^n for some c_k > 0? 'The answer is no, even for k = 3' (Pohoata–Zakharov: f_3(n) ≤ 2^{o(n)}). The Lean statement is the negation ¬ ∀ k ≥ 3, ∃ c > 0, ∀ᶠ n, (1+c)^n < f k n, with f k n = sInf of the threshold set. Reading the question as 'for every dimension k ≥ 3, for all large n' and negating it is the upstream convention for a question answered negatively; the stronger fact that it fails for every k ≥ 3 is recorded in the variants. Faithful."
+    }
+]

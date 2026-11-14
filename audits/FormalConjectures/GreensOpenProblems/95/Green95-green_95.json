@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's '100 open problems', Problem 95 (marked Solved): 'Are a positive proportion of positive integers a sum of two palindromes?', with the comment that a base g must be specified. The answer is no by Zakharov (arXiv:2402.10808: the number of n ≤ X that are sums of two base-g palindromes is at most X/log^c X, for every g ≥ 2). The Lean statement: ∀ g ≥ 2, ¬ 0 < lowerDensity (sumsOfTwo g), where sumsOfTwo g is the set of p + q with p, q base-g palindromes (digit list equal to its reverse; 0 allowed, which does not affect density). 'Positive proportion' read as positive lower density is reasonable, and since the set has density 0 the negation holds under any reading. Stating it for all bases g ≥ 2 matches the cited theorem. Faithful."
+    }
+]

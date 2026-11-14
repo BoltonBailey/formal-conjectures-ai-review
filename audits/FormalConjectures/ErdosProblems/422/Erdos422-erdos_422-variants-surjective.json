@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Variant of erdosproblems.com/422 (the page asks whether f misses infinitely many integers and 'What is its behaviour?'; surjectivity is not asked verbatim but is a natural companion question). Statement: ∀ f, IsHofstadterQ f → f.Surjective onto ℕ+. Correct as a formalisation of 'is f surjective' provided the sequence is well-defined; note however that if the Q-sequence is not well-defined for all n (which the page says is unknown) the statement is vacuously true, whereas a sequence that dies would not be surjective, and in that case it would hold simultaneously with erdos_422. This conditional reading is not mentioned in the docstring. Minor documentation issue only."
+    }
+]

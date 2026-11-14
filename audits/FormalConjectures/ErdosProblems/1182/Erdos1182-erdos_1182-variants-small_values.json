@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1182 ('The first few values of F(n) and f(n) (beginning with n=2) are 1,2,5,7,8 and 1,2,5,8,12') and against Brandt–Brinkmann–Harmuth, Electron. J. Combin. 5 (1998) #R7, Table 2, whose columns f(K_3,n) and g(K_3,n) for n = 3..12 read 2,5,7,8,11,11,16,18,23,23 and 2,5,8,12,16,20,27,33,41,49. The Lean statement lists F 2..F 12 = 1,2,5,7,8,11,11,16,18,23,23 and f 2..f 12 = 1,2,5,8,12,16,20,27,33,41,49, matching both sources (BBH's f is the Lean F and their g is the Lean f, as the docstrings note). Faithful."
+    }
+]

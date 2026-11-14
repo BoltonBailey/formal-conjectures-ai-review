@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/617: Erdős and Gyárfás proved the r = 4 case, i.e. every 4-colouring of the edges of K_{17} has 5 vertices whose induced K_5 misses a colour. The Lean statement (V of card 4²+1, coloring into Fin 4, S of card 5 and a missing colour k) is correct. As in the r = 3 variant, an unused variable r with hypothesis r ≥ 3 is left in the signature; harmless for provability but confusing."
+    }
+]

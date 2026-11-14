@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/802: Alon proved the conjectured bound 'replacing the K_r-free assumption with the stronger assumption that the induced graph on every vertex neighbourhood has chromatic number ≤ r−2'. The Lean statement: ∀ r, ∃ c > 0, ∀ n and G on Fin n such that every induced neighbourhood graph G.induce (G.neighborSet v) is (r−2)-colourable, c·(log t / t)·n ≤ indepNum G. For r ≤ 2 the truncated r − 2 = 0 forces all neighbourhoods to be empty, i.e. an edgeless graph, where the bound is trivial. Faithful."
+    }
+]

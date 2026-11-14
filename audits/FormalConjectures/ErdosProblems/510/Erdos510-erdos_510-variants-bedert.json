@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/510: Bedert [Be25c] proved the existence of c > 0 such that for all A of size N there is θ with Σ_{n∈A} cos(nθ) < −cN^{1/7}. The Lean statement: ∃ c > 0, for all large N and every set A of N positive integers, ∃ θ with Σ cos(nθ) < −c·N^{1/7}. Same setting as erdos_510; the 'for large N' form is implied by the cited result. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/667 (Erdős–Faudree–Rousseau–Schelp): H(n; p, q) is the largest m such that every graph on n vertices in which every p vertices span at least q edges contains K_m; is c(p,q) = liminf log H(n)/log n strictly increasing in q for 1 ≤ q ≤ C(p−1,2)+1? In Lean LocallyDense p q G says every p-subset induces ≥ q edges, H p q n is the greatest m ≤ n such that all such graphs on Fin n are not m-clique-free, c p q is the liminf of log H / log n (values in [0,1], so the real liminf is genuine), and the statement is ∀ p, StrictMonoOn (c p) (Icc 1 (C(p−1,2)+1)). For p ≤ 2 the interval is the single point {1}, so no degenerate case is asserted; for p = 3 it says c(3,1) < c(3,2) = 1. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/579 (Erdős–Hajnal–Sós–Szemerédi): for δ > 0, if n is sufficiently large and G is a graph on n vertices with no K_{2,2,2} and at least δn² edges then G contains an independent set of size ≫_δ n. The Lean statement: ∀ δ > 0, ∃ c > 0, for all large n, every G on Fin n that is octahedron-free (octahedron = completeMultipartiteGraph with three parts of size 2; Free means no copy as a not-necessarily-induced subgraph) with δn² ≤ e(G) has c·n ≤ indepNum G. The constant c depends on δ, matching ≫_δ. Faithful."
+    }
+]

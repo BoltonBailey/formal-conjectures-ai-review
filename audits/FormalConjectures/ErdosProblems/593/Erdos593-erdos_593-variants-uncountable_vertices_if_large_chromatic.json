@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Sanity lemma for erdosproblems.com/593: a 3-uniform hypergraph with chromatic cardinal > ℵ₀ has an uncountable vertex type, because an injection of a countable vertex set into ℕ is a proper colouring (every edge has ≥ 2 vertices). Proved in the file. Correct."
+    }
+]

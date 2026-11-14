@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's Problem 17, second question: 'For fixed α, must A contain ≫_α 6^n such progressions?'. The Lean statement: ∀ α > 0, ∃ c > 0, for all large n and all A ⊆ F_3^n with |A| ≥ α·3^n, c·6^n ≤ numRestrictedAPs A, where progressions are counted as pairs (x, d) with d ∈ {0,1}^n \\ {0} (there are 3^n(2^n − 1) ≈ 6^n such pairs). 'Density at least α' and 'for large n' are the natural readings, and the docstring explains why small n must be excluded. Faithful."
+    }
+]

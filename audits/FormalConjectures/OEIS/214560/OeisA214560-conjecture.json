@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A214560 ('Number of 0's in binary expansion of n^2', offset 0, data 1, 0, 2, 2, 4, 2, …) and its comment 'Conjecture: for every x>=0 there is an i such that a(n)>x for n>i.' In Lean a n counts zeros in Nat.digits 2 (n²) with a 0 = 1 by convention (the binary expansion '0'), matching the data, and the statement is ∀ x, ∃ i, ∀ n > i, x < a n, i.e. a(n) → ∞. Faithful."
+    }
+]

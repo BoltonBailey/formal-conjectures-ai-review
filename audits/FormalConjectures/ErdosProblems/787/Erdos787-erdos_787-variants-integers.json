@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/787: 'Choi observed that, without loss of generality, one can assume that A ⊂ ℤ.' The Lean statement g ℤ n = g ℝ n for every n makes this precise: the extremal function is the same over integer sets and real sets. This is correct: integer sets are real sets (giving g ℝ ≤ g ℤ), and conversely any finite set of reals is Freiman-isomorphic, for the relations b₁ + b₂ = a, to a set of integers via a generic ℚ-linear functional on its ℚ-span. Faithful."
+    }
+]

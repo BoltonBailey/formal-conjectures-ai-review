@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Compared against erdosproblems.com/897 (Erdős–Wirsing): for an additive f with limsup_{p,k} f(p^k)/log p^k = ∞, is limsup_n (f(n+1) − f(n))/log n = ∞? The answer is no (take f(q) = g(q) log q on prime powers with g growing slowly). The Lean statement is the negation of the universally quantified implication, with additivity on coprime positive arguments and EReal-valued limsups (no junk values). The discrepancy is in the hypothesis: the limsup over prime powers is taken along the filter atTop ⊓ 𝓟{(p,k) | p prime} on ℕ × ℕ, where atTop on the product means p → ∞ and k → ∞ simultaneously. The source's limsup_{p,k} is over all prime powers p^k → ∞ (which includes k = 1 with p → ∞, or p fixed with k → ∞). The Lean hypothesis is therefore strictly stronger than the source's for general f, making the implication weaker and its negation a stronger claim than the source's 'no'. The claim is still true, since the standard counterexample has f(p^k)/log p^k = g(p^k) → ∞ along every sequence of prime powers, so provability is unaffected; but the encoding of limsup_{p,k} is non-standard and should use e.g. the cofinite filter on prime powers."
+    }
+]

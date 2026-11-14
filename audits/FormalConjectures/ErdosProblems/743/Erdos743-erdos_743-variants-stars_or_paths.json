@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/743 (Gyárfás's tree packing conjecture): 'Gyárfás and Lehel proved that this holds … if all the trees are stars or paths.' The Lean statement: for every n and trees T k on Fin k (2 ≤ k ≤ n), each of which is either starGraph c for some centre c or isomorphic to pathGraph k, the family packs into K_n in the sense of IsPacking (injective vertex maps with pairwise edge-disjoint images; by the edge count Σ(k−1) = C(n,2) a packing is a decomposition). Faithful."
+    }
+]

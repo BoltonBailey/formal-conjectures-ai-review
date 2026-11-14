@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/490: for A, B ⊆ {1,…,N} with all products ab (a ∈ A, b ∈ B) distinct, is |A||B| ≪ N²/log N? Yes (Szemerédi). The Lean statement: ∃ C, for all large N, for all A, B ⊆ Icc 1 N such that a₁b₁ = a₂b₂ implies (a₁,b₁) = (a₂,b₂), |A|·|B| ≤ C·N²/log N. 'All products distinct' is correctly encoded as injectivity of (a,b) ↦ ab on A × B. Faithful."
+    }
+]

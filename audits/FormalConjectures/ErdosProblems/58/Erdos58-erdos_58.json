@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/58 (Bollobás–Erdős, proved by Gyárfás): if G contains odd cycles of ≤ k different lengths then χ(G) ≤ 2k+2, with equality iff G contains K_{2k+2}. The Lean statement: for any graph G on any type V and k : ℕ, if G.oddCycleLengths (the set of odd lengths of cycles, i.e. closed walks with IsCycle) is finite with ncard ≤ k, then chromaticNumber ≤ 2k+2 in ℕ∞ and chromaticNumber = 2k+2 ↔ the complete graph on Fin (2k+2) is contained in G as a (not necessarily induced) subgraph. The finiteness hypothesis is needed because ncard of an infinite set is 0. The statement also covers infinite graphs, where it follows from the finite case by de Bruijn–Erdős compactness, and k = 0 (bipartite, χ ≤ 2 with equality iff there is an edge). Faithful."
+    }
+]

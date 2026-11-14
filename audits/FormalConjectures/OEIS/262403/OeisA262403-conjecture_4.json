@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A262403, conjecture (ii), second assertion: 'if Σ_{i=j..k} 1/π(T(i)) and Σ_{r=s..t} 1/π(T(r)) with 1 < j ≤ k and j ≤ s ≤ t have the same fractional part but the ordered pairs (j,k) and (s,t) are different, then j = 2, k = 5 and s = t = 4.' The Lean statement reproduces the hypotheses (1 < j, j ≤ k, j ≤ s, s ≤ t, (j,k) ≠ (s,t), equal Int.fract of the two rational sums) and the conclusion j = 2 ∧ k = 5 ∧ s = 4 ∧ t = 4. The exceptional case checks out: 1/2 + 1/3 + 1/4 + 1/6 = 5/4 and 1/π(T(4)) = 1/4. Faithful."
+    }
+]

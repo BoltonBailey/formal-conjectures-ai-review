@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1100: 'It is trivial that τ_⊥(n) ≥ ω(n)'. The Lean statement: for n > 0, ω n ≤ tauPerp n. Correct: for each prime p ∣ n the divisor immediately preceding p is smaller than p and hence coprime to it, giving ω(n) distinct coprime consecutive pairs. Faithful."
+    }
+]

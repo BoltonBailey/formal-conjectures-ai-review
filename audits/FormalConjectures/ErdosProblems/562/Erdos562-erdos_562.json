@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/562 (Erdős–Hajnal–Rado): for r ≥ 3, log_{r−1} R_r(n) ≍_r n with log_{r−1} the (r−1)-fold iterated logarithm, i.e. does R_r(n) grow like a tower of height r−1. The Lean statement: ∀ r ≥ 3, (n ↦ log^[r−1] (hypergraphRamsey r n)) =Θ[atTop] (n ↦ n), where Combinatorics.hypergraphRamsey r n is the least m such that every 2-colouring of the r-subsets of Fin m (encoded as a Boolean function on all finsets, only r-subsets of S being inspected) has a monochromatic n-set. The Θ constants may depend on r since r is quantified outside, matching ≍_r; the iterated real logarithm is well-behaved for large n. Faithful."
+    }
+]

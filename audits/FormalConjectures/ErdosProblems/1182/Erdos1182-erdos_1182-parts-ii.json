@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1182: F(n) is maximal such that every connected graph with n vertices and ≤ F(n) edges has R(K_3,G) = 2n−1; 'Estimate … F(n)'. The page gives (17n+1)/15 ≤ F(n) and Brandt's F(n) ≤ 84n, so F(n) = Θ(n). The Lean statement F =Θ[atTop] (n ↦ n), with the answer filled in explicitly, is exactly this order-of-magnitude estimate; F n is the supremum of q ≤ C(n,2) such that all connected graphs with ≤ q edges are 3-good (the cap only matters for n ≤ 2). Faithful, and the docstring notes that the finer behaviour of F(n)/n remains open."
+    }
+]

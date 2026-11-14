@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/431 (Ostmann's 'inverse Goldbach problem'): are there two infinite sets A and B such that A + B agrees with the primes up to finitely many exceptions? The variant states Ostmann's conjecture in its usual stronger form: for all A, B ⊆ ℕ each with at least two elements (Set.Nontrivial), the symmetric difference (A + B) ∆ {primes} is infinite. This is the standard formulation of the inverse Goldbach conjecture (compare the page's mention of Elsholtz's three-set result for sets 'of size at least 2') and is correctly formalised; it implies the negative answer to the page's question. The documentation concern is the status: the declaration is tagged 'research solved' citing a 2026 OpenAI preprint, whereas the erdosproblems.com page as fetched today still says only 'The answer is surely no' and lists partial results, so I could not confirm the claimed resolution from the cited page."
+    }
+]

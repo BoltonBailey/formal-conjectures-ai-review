@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/655 (Erdős–Pach): if x_1..x_n ∈ ℝ² are such that no circle centred at one of the x_i contains three other points, are there at least (1+c)n/2 distinct distances for some c > 0 and all large n? The page records Zach Hunter's observation that n equally spaced points on a circle disprove this. In Lean IsValid X says no sphere of positive radius centred at a point of X contains ≥ 3 points of X, and the statement is the negation ¬ ∃ c > 0, ∀ᶠ n, ∀ X with #X = n and IsValid X, (1+c)n/2 ≤ distinctDistances X. The regular n-gon is valid (at most two vertices at each distance from a vertex) and has ⌊n/2⌋ distances, so the negation is the correct resolved form. Faithful."
+    }
+]

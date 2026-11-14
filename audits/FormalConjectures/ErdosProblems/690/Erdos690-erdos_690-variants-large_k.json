@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Extension of erdosproblems.com/690 beyond the range k ≤ 20 recorded on the page: is d_k(p) unimodal for any k ≥ 21? Compared against the abstract of arXiv:2605.08542 (Wang–Crapis): 'We prove that p ↦ d_k(p) is not unimodal for every k ≥ 4, completing the classification … a strict descent followed by a later strict ascent.' The Lean statement ¬ ∃ k ≥ 21, ∀ d recording the densities, IsUnimodalOnPrimes d is the negative answer; because the densities exist, the inner universally quantified implication is equivalent to unimodality of d_k. Faithful (the page itself does not yet mention this preprint)."
+    }
+]

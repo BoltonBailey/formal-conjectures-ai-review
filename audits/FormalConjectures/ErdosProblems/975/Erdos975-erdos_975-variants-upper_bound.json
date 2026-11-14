@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/975: 'Erdős [Er52b] proved using elementary methods that Σ_{n≤X} τ(f(n)) ≪_f X log X.' The Lean statement: for irreducible f with f(n) ≥ 1 eventually, Erdos975Sum f =O[atTop] (x ↦ x log x). The non-constancy hypothesis is omitted here, harmlessly: for an irreducible constant (a prime) the sum is O(x). Faithful."
+    }
+]

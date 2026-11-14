@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/805: 'Alon, Bucić, and Sudakov construct such a graph with g(n) ≤ 2^{2^{(log log n)^{1/2+o(1)}}}.' The Lean statement: for every ε ∈ (0,1/2) and all large n there is a graph on Fin n in which every set of ⌈2^{2^{(log₂ log₂ n)^{1/2+ε}}}⌉ vertices contains a clique and an independent set of size ≥ ⌈log₂ n⌉. Using base-2 logarithms (as in the paper) asks for larger cliques than the natural-log version, so it implies the page's statement; the o(1) is unpacked with ε in the standard way, and by monotonicity (IsLocallyRamsey.mono) larger g also work. Faithful."
+    }
+]

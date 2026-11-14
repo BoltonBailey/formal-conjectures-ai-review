@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/593: 'Characterize those finite 3-uniform hypergraphs which appear in every 3-uniform hypergraph of chromatic number > ℵ₀.' In Lean a UniformHypergraph V 3 has all of V as vertices and edges of size 3; chromaticCardinal is the least cardinality of a colour set admitting a colouring with no monochromatic edge (the standard hypergraph chromatic number); F.Appears H means an injective vertex map sending edges of F to edges of H; and IsObligatory F says F appears in every H with ℵ₀ < χ(H). The statement equates the set of obligatory hypergraphs on the labelled vertex sets Fin n with an answer set to be supplied, the upstream pattern for 'characterize' questions. Every finite 3-uniform hypergraph is isomorphic to one on some Fin n, so nothing is lost. Faithful."
+    }
+]

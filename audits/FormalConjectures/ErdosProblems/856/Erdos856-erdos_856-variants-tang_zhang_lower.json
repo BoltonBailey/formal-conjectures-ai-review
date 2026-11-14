@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/856 (Tang–Zhang bounds (log N)^{b_k − o(1)} ≤ f_k(N)) and the abstract of arXiv:2512.20055: 'f_k(N) ≥ (log N)^{c_k − o(1)}, c_k := (k−2)/(e((k−2)!)^{1/(k−2)})'. tangZhangExponent k is exactly this constant, and the Lean statement, for k ≥ 3 and every ε > 0, is (log N)^{c_k − ε} ≤ f k N for all large N, the standard unpacking of the o(1). Faithful."
+    }
+]

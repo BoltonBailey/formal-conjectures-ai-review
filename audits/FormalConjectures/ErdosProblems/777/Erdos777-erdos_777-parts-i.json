@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/777 (Daykin–Erdős): for a family F of m subsets of {1,…,n}, G_F joins comparable sets; 'Is it true that, if ε > 0 and n is sufficiently large, whenever m ≤ (2−ε)2^{n/2} the graph G_F has < 2^n many edges?' — yes, by Alon–Das–Glebov–Sudakov. In Lean comparableGraph 𝓕 joins members one of which is a proper subset of the other, comparableEdges counts its edges, and the statement is ∀ ε > 0, ∃ n₀, ∀ n ≥ n₀, ∀ 𝓕 with |𝓕| ≤ (2−ε)·2^{n/2}, comparableEdges 𝓕 < 2^n. Faithful."
+    }
+]

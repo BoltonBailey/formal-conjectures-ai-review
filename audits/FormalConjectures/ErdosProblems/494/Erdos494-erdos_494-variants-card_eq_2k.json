@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/494: 'Tao also notes that this is false if |A| = 2k' (take A with total sum 0 and compare with −A, since the sum of a k-subset is minus the sum of its complement). The Lean statement: ∀ k > 2, ¬ Erdos494Unique k (2k). Faithful."
+    }
+]

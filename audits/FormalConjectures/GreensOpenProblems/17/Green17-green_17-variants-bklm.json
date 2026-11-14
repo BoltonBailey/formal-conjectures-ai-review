@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the comments to Green's Problem 17: 'Update 2025. In further joint work with Yang Liu the same authors [Bhangale, Khot, Minzer] have shown that α ≥ (log log log n)^{−c} is sufficient in the original problem.' The Lean statement: ∃ c, C > 0, for all large n, every A ⊆ F_3^n with |A| ≥ C·(log log log n)^{−c}·3^n contains a 3-term progression with nonzero difference in {0,1}^n. The extra constant C only weakens the statement slightly relative to Green's wording and matches the usual form of such bounds. Faithful."
+    }
+]

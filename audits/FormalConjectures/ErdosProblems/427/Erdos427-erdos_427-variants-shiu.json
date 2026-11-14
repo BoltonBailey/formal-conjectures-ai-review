@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/427, which quotes Shiu [Sh00]: 'for any l ≥ 1 and (a,q) = 1 there exist infinitely many l-tuples of consecutive primes p_m, …, p_{m+l−1} all of which are congruent to a modulo q.' ShiuTheorem states: for all k ≥ 1, q ≥ 1 and a coprime to q, the set of m such that every prime Nat.nth Nat.Prime i with i ∈ [m, m+k) is ≡ a (mod q) is infinite. Consecutive indices give consecutive primes; the 0-based indexing is immaterial for an 'infinitely many' statement. Faithful."
+    }
+]

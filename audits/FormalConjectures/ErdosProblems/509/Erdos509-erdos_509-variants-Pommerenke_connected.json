@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/509: 'Pommerenke [Po59] proved that 2 is achievable if the set is connected'. The Lean statement adds the hypothesis IsConnected {z | ‖f.eval z‖ ≤ 1} to the monic non-constant f and concludes the existence of a disc cover with total radius ≤ 2. Faithful."
+    }
+]

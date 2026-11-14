@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1100 (Erdős–Hall): with 1 = d_1 < ⋯ < d_{τ(n)} = n the divisors of n and τ_⊥(n) the number of i with (d_i, d_{i+1}) = 1, 'Is it true that τ_⊥(n)/ω(n) → ∞ for almost all n?'. In Lean tauPerp n counts indices i < τ(n) − 1 with Nat.nth (· ∣ n) i and Nat.nth (· ∣ n) (i+1) coprime, i.e. consecutive divisors, and the statement is: for every C the set {n | τ_⊥(n) ≤ C·ω(n)} has natural density 0 — the standard reading of 'tends to infinity for almost all n', avoiding division by ω(1) = 0. The page does not record a resolution, but the docstring's justification is sound and I checked it against Erdős–Tenenbaum [ErTe89] (renyi.hu/~p_erdos/1989-37.pdf), Corollaire 2: (log n)^{log 3 − 1 + o(1)} < f(n) < (log n)^{log 2 − 1/2 + o(1)} for almost all n, which together with ω(n) ∼ log log n almost everywhere gives a positive answer. Faithful."
+    }
+]

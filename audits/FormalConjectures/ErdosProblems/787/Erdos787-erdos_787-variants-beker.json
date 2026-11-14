@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/787: 'Beker [Be25] has proved (log n)^{1+1/68+o(1)} ≪ g(n).' The Lean statement: for every c with 0 < c < 1/68, (log n)^{1+c} ≤ g ℝ n for all large n, the standard unpacking of the exponent 1 + 1/68 + o(1) (a lower bound with −ε). Faithful."
+    }
+]

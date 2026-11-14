@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/945: 'In other words, is there a constant C > 0 such that, for all large x, every interval [x, x + (log x)^C] contains two integers with the same number of divisors?'. The Lean proposition Erdos945Constant: ∃ C > 0, for all large real x there are distinct naturals a, b ∈ [x, x + (log x)^C] with τ a = τ b. Faithful (the docstring's '(log x)C' is a typo for (log x)^C; the Lean code has the exponent)."
+    }
+]

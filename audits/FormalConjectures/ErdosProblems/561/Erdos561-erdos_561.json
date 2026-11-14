@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/561 (Burr–Erdős–Faudree–Rousseau–Schelp): for unions of stars F_1 = ∪_{i≤s} K_{1,n_i}, F_2 = ∪_{j≤t} K_{1,m_j} with n_1 ≥ ⋯ ≥ n_s ≥ 1 and m_1 ≥ ⋯ ≥ m_t ≥ 1, prove R̂(F_1,F_2) = Σ_{2≤k≤s+t} l_k with l_k = max{n_i + m_j − 1 : i + j = k}. In Lean F(s,n) is the graph on Σ i : Fin s, Fin (n i + 1) in which two distinct vertices are adjacent iff they lie in the same component and one of them is the vertex 0 (the centre), i.e. the vertex-disjoint union of stars K_{1,n_i}; the hypotheses are s, t ≥ 1, n and m antitone with all values ≥ 1; and the statement is sizeRamsey F(s,n) F(t,m) = Σ_{k∈[2,s+t]} sup over (i,j) with (i+1)+(j+1) = k of n_i + m_j − 1, the 1-based index condition being translated correctly. sizeRamsey is the two-graph (asymmetric) size Ramsey number, as required. Faithful."
+    }
+]

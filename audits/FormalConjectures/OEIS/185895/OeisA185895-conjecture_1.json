@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A185895 (e.g.f. ∏_{k>0}(1 − x^k/k!); data 1, −1, −1, 2, 3, 14, −40, …), Peter Bala's conjecture 1: 'a(n) differs in sign from a(n-1) iff n is a triangular number'. In Lean a n = n!·[x^n]∏_{k=1}^n (1 − x^k/k!) (computed over ℚ and floored, the value being an integer; truncating the product at k = n does not affect the x^n coefficient), and the statement for n > 0 is a n · a (n−1) < 0 ↔ n.IsTriangular. 'Differs in sign' is encoded as a strictly negative product, which agrees with the data (n = 1, 3, 6 give sign changes; n = 2, 4, 5 do not) and is the only sensible reading. Faithful."
+    }
+]

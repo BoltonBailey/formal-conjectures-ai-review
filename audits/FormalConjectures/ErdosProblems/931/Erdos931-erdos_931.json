@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/931: for k₁ ≥ k₂ ≥ 3, are there only finitely many n₂ ≥ n₁ + k₁ such that ∏_{1≤i≤k₁}(n₁+i) and ∏_{1≤j≤k₂}(n₂+j) have the same prime factors. The Lean statement: for all k₁ and k₂ ≥ 3 with k₂ ≤ k₁, the set of pairs (n₁,n₂) ∈ ℕ² with n₁ + k₁ ≤ n₂ and equal primeFactors of the two products is finite. Finiteness of the set of pairs is the right reading of 'finitely many n₂ ≥ n₁ + k₁' (for fixed k₁,k₂), and n₁ = 0 is allowed consistently with the page's AlphaProof example. Faithful."
+    }
+]

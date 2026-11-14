@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A238568, conjecture (iii), second sentence: 'If n > 1, then π(n²) + π(kn) − 1 is prime for some 0 < k < n.' The Lean statement: for n > 1, ∃ k with 0 < k < n and primeCounting(n²) + primeCounting(k·n) − 1 prime. Faithful."
+    }
+]

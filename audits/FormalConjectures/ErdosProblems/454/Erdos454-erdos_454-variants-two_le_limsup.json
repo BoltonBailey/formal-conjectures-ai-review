@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/454: 'Pomerance [Po79] has proved the limsup is at least 2.' The Lean statement 2 ≤ limsup (n ↦ (f n − 2·nth Prime n : ℕ∞)) uses the same f and conventions as erdos_454; truncating negative differences to 0 does not affect a lower bound of 2 on the limsup. Faithful."
+    }
+]

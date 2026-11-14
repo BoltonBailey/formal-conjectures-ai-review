@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/996: Erdős proved the conclusion holds if ‖f − f_n‖₂ ≪ (log log n)^{−c} for some c > 1, and 'Matsuyama [Ma66] improved this to c > 1/2'. The Lean statement: for every C > 0.5, every f ∈ L²(AddCircle 1) and lacunary n, if ‖f − f_k‖₂ = O(1/(log log k)^C) then the averages (1/N)Σ_{k<N} f(n_k • x) converge to ∫ f for a.e. x. Same setup as erdos_996 with the double logarithm. Faithful."
+    }
+]

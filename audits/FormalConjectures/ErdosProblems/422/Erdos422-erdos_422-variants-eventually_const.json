@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Variant related to erdosproblems.com/422 ('What is its behaviour?'): 'Does f become stationary?' answered negatively as ¬ ∃ f, IsHofstadterQ f ∧ EventuallyConst f atTop, tagged textbook and proved in the file from IsHofstadterQ.not_eventuallyConst. The existential form makes the negative answer independent of well-definedness, as the docstring explains. Correct."
+    }
+]

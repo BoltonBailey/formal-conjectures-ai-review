@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Variant of Green's Problem 75 with an unspecified constant (the Kupitz question as in Conlon–Lim, Section 1): ∃ C : ℕ such that every finite X ⊂ ℝ² with ≥ 2 points has distinct p, q ∈ X with imbalance X p q ≤ C. Uses the same imbalance definition as green_75 and is implied by it with C = 100, as the docstring notes. A reasonable and correctly stated weakening."
+    }
+]

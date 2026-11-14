@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/604: 'The best known bound is ≫ n^{c−o(1)}, due to Katz and Tardos, where c = (48 − 14e)/(55 − 16e) = 0.864137…'. The Lean statement: ∀ ε > 0, for all large n, n^{(48−14e)/(55−16e) − ε} ≤ pinnedDistinctDistances n. The constant matches and the o(1) is unpacked in the standard way. Faithful."
+    }
+]

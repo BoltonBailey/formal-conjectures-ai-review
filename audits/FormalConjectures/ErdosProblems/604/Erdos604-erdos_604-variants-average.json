@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/604: 'if d(x) counts the number of distinct distances from x then in [Er75f] Erdős conjectured Σ_{x∈A} d(x) ≫ n²/√(log n), where A ⊂ ℝ² is any set of n points.' The Lean statement: ∃ C > 0, for all large n and every n-point A ⊂ ℝ², C·n²/√(log n) ≤ Σ_{x∈A} distinctDistancesFrom A x. Tagged open. Faithful."
+    }
+]

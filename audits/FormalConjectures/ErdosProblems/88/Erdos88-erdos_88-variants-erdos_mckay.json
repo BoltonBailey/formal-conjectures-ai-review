@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/88: Erdős and McKay 'proved it with δn² replaced by δ(log n)²'. The Lean statement is identical to erdos_88 except that the range of m is m ≤ δ·(log n)², with the same clique/independence hypotheses and conclusion (an induced subgraph with exactly m edges). Faithful."
+    }
+]

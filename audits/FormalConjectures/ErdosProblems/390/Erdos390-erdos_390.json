@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/390: f(n) is the minimal m such that n! = a_1⋯a_k with n < a_1 < ⋯ < a_k = m; 'Is there (and what is it) a constant c such that f(n) − 2n ∼ c·n/log n?'. In Lean f n is the infimum of m for which some k and strictly increasing sequence with n < f 0, f (k−1) = m and ∏_{i<k} f i = n! exist (the k = 0 junk case only affects n ≤ 1), and the statement is ∃ c, (n ↦ f n − 2n) ~[atTop] (n ↦ c·n/log n), with the subtraction taken in ℝ. The degenerate choice c = 0 is impossible because of the known f(n) − 2n ≍ n/log n. Only the existence part of the question is formalised (not 'what is it'), which is the yes/no content. Faithful."
+    }
+]

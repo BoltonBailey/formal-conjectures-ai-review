@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against Green's '100 open problems', Problem 17: 'Suppose that A ⊂ F_3^n is a set of density α. Under what conditions on α is A guaranteed to contain a 3-term progression with nonzero common difference in {0,1}^n?'. In Lean IsRestrictedAP requires d ≠ 0 with all coordinates in {0,1} and x, x+d, x+2d ∈ A; maxFree n is the largest size of a set with no such progression; and the question is rendered as a value question: maxFree n / 3^n =Θ[atTop] answer. The definitions are faithful. Reading 'under what conditions on α' as 'determine the threshold density up to constant factors' is a reasonable but specific interpretation (documented in the docstring); as usual for this pattern the statement is satisfied by the trivial answer, and Θ-precision is far beyond current knowledge (between (log log log n)^{−c} and possibly exponentially small)."
+    }
+]

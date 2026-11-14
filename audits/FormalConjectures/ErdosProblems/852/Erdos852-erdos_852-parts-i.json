@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/852: with d_n = p_{n+1} − p_n and h(x) maximal such that for some n < x the gaps d_n, …, d_{n+h(x)−1} are all distinct, is h(x) > (log x)^c for some constant c > 0? The Lean statement avoids defining h: ∃ c > 0 such that for all large real x there are n < x and H > (log x)^c with primeGap injective on [n, n+H). Since h(x) is the maximum run length, this is exactly h(x) > (log x)^c for large x. The 0-based prime indexing shifts n by one, which is immaterial. Faithful."
+    }
+]

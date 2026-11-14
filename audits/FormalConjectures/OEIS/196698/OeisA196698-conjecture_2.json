@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A196698, comment by Charles R Greathouse IV: 'I conjecture the contrary: infinitely many elements of this sequence are equal to 0.' The Lean statement {n | a n = 0}.Infinite is exactly this counter-conjecture (the junk member n = 0 does not affect infinitude). It contradicts conjecture_1, as on the OEIS page, where both are recorded as competing open conjectures. Faithful."
+    }
+]

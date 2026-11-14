@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/617: Erdős and Gyárfás 'showed this property fails for infinitely many r if we replace r²+1 by r²'. The Lean statement: the set of r for which there is a vertex set of size r² and an r-colouring of pairs such that every (r+1)-set of vertices sees every colour on some pair of distinct vertices (a balanced colouring) is infinite. The degenerate members r = 0, 1 (vacuous) do not affect infinitude. Faithful."
+    }
+]

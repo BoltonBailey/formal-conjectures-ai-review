@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/92: 'Or even f(n) < n^{O(1/log log n)}?' — also disproved, since it is stronger than f(n) ≤ n^{o(1)}, which the page records as disproved via [90]. The Lean statement is the negation ¬ ∃ c > 0, ∀ᶠ n, f n ≤ n^{c/log log n}. The non-strict inequality versus the page's strict one is immaterial for a statement with an unspecified constant. Faithful."
+    }
+]

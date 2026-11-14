@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/505 (Borsuk's problem): 'Is every set of diameter 1 in ℝⁿ the union of at most n+1 sets of diameter < 1?' — no in general, by Kahn–Kalai. The Lean statement reuses the type of Borsuk.borsuk_conjecture.not_forall, namely ¬ ∀ n, BorsukConjecture n, where BorsukConjecture n says every bounded subset of ℝⁿ with at least two points is covered by n+1 sets of strictly smaller diameter (measured with ediam). By scaling this is the same as the diameter-1 formulation, and boundedness/non-triviality are the implicit hypotheses of the question. The negation over all n is the right resolved form of a question asked for every dimension. Faithful."
+    }
+]

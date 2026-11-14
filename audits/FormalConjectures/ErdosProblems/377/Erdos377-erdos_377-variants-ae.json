@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/377: from the first and second moment limits, 'for almost all integers f(m) = γ₀ + o(1)'. The Lean statement: for every ε > 0 the set {n : |f(n) − γ₀| < ε} has natural density 1, with γ₀ = Σ_{k≥2} log k/2^k. This is the standard meaning of 'almost all integers', and the docstring spells it out. Faithful."
+    }
+]

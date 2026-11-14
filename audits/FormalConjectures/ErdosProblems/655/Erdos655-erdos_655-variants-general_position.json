@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/655: after Hunter's counterexample the page says 'presumably some kind of assumption that the points are in general position (e.g. no three on a line and no four on a circle) was intended'. The Lean statement adds InGeneralPosition X (NonTrilinear ∧ NoFourConcyclic, exactly no three collinear and no four concyclic) to the validity hypothesis and asks for c > 0 with (1+c)n/2 ≤ distinctDistances X for all large n, tagged as an open question. This is the repaired problem as suggested on the page, using its example notion of general position. Faithful to the stated intent."
+    }
+]

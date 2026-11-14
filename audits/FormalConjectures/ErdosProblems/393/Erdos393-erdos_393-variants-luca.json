@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/393: 'A result of Luca [Lu02] implies that f(n) → ∞ as n → ∞, conditional on the ABC conjecture.' The Lean statement takes a hypothesis of the type of ABC.abc (the repository's statement of the abc conjecture) and concludes Tendsto f atTop atTop. A correct conditional formulation. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Sanity lemma for erdosproblems.com/593: if F₁ appears in F₂ and F₂ is obligatory then F₁ is obligatory, by composing the injective edge-preserving maps (Appears.trans). Proved in the file. Correct."
+    }
+]

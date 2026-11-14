@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/377: EGRS proved lim_{x→∞} (1/x)Σ_{n≤x} f(n)² = γ₀². The Lean statement: with γ₀ = Σ_{k≥2} log k/2^k (given by hypothesis), (1/x)·Σ_{n∈[1,x]} f(n)² → γ₀² for f = sumInvPrimesNotDvdCentralBinom. Faithful."
+    }
+]

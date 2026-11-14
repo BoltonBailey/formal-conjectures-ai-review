@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A185895, Peter Bala's conjecture 2: 'The same property holds for the coefficients of A(x)^2, the square of the o.g.f. A(x) = 1 − x − x^2 + 2x^3 + …: A(x)^2 = 1 − 2x − x^2 + 6x^3 + 3x^4 + …'. In Lean c n = Σ_{k=0}^n a(k)·a(n−k) is the Cauchy-product coefficient of the ordinary generating function squared (c 1 = −2, c 2 = −1, c 3 = 6 match), and the statement for n > 0 is c n · c (n−1) < 0 ↔ n.IsTriangular. Faithful."
+    }
+]

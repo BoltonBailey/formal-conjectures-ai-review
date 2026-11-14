@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/912: 'A heuristic of Tao using the Cramér model for the primes suggests this is true with c = √(2π) = 2.506…'. The Lean statement is the asymptotic h(n) ∼ √(2π)·(n/log n)^{1/2} with the same h, tagged open. It records the heuristic prediction as a precise conjecture, which is what the page describes. Faithful."
+    }
+]

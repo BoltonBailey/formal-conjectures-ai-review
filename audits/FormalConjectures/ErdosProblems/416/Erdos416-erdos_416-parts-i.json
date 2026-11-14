@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/416: V(x) counts n ≤ x such that φ(m) = n is solvable; 'Does V(2x)/V(x) → 2?'. The page now records a formalised proof that V(cx)/V(x) → c for every fixed c > 0. In Lean V x is the number of n ∈ [1, ⌊x⌋] in the range of Nat.totient (as a real), and the statement is Tendsto (x ↦ V(2x)/V(x)) atTop (𝓝 2) over real x, stated affirmatively as a solved problem. Faithful. (The source phrases it as a question, so a `question` tag would be expected by upstream convention, but this does not affect the statement.)"
+    }
+]

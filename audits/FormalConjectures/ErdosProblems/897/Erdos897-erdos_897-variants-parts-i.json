@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/897: 'Erdős suggested that for simplicity one might first assume that f(p^k) = f(p) or f(p^k) = k f(p)'; the page's counterexample does not have this form, so the restricted question is reasonably tagged open. The Lean statement adds the hypothesis (∀ k p, p prime → f(p^k) = f p) ∨ (∀ k p, p prime → f(p^k) = k·f p) to the implication of parts.i. Two remarks. (a) The limsup hypothesis uses the same non-standard filter as parts.i (p and k both tending to infinity); under either extra hypothesis this is equivalent to the source's condition (in the first case the ratio is f(p)/(k log p), and its limsup is ∞ iff limsup_p f(p)/log p = ∞; in the second the ratio does not depend on k), so here the encoding is harmless. (b) The first alternative is quantified over all k including k = 0, which forces f(1) = f(p) for every prime p, i.e. f(p) = 0 for all primes (as f(1) = 0 by additivity), making that branch vacuous given the limsup hypothesis; the intended range is k ≥ 1. The second alternative is unaffected. So the statement effectively only covers the completely additive case."
+    }
+]

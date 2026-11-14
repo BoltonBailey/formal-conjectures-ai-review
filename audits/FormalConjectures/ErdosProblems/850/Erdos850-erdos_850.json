@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/850 (the Erdős–Woods conjecture): 'Can there exist two distinct integers x and y such that x, y have the same prime factors, x+1, y+1 have the same prime factors, and x+2, y+2 also have the same prime factors?'. The Lean statement is the existential ∃ x y : ℕ, x ≠ y with equal Nat.primeFactors for x, y; x+1, y+1; x+2, y+2, tagged as an open yes/no question (to be negated if the answer is no, as expected under ABC). Working in ℕ is the intended setting; the junk values primeFactors 0 = primeFactors 1 = ∅ do not create a spurious solution (x, y ∈ {0,1} fails at x+1, y+1). Faithful."
+    }
+]

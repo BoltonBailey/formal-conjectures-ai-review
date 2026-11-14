@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/70: 'Let 𝔠 be the ordinal of the real numbers, β be any countable ordinal, and 2 ≤ n < ω. Is it true that 𝔠 → (β, n)³₂?', with the remark that Erdős and Rado proved 𝔠 → (ω+n, 4)³₂. The Lean statement: for every ordinal β with card ≤ ℵ₀ and every n ≥ 2, RealCardinalRamsey3 β n, i.e. every red/blue colouring of unordered triples of distinct reals (a ternary predicate invariant under the two generating transpositions) has either an order-embedded copy of β in ℝ all of whose triples are red or an n-element set all of whose triples are blue. Reading '𝔠' as the order type of the real line (λ in Erdős–Rado, Theorem 31, the result the page quotes) rather than the initial ordinal of the continuum is the correct interpretation and is documented in the module docstring. Faithful."
+    }
+]

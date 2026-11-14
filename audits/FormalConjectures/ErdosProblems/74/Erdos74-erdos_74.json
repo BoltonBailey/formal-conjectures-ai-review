@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/74 (Erdős–Hajnal–Szemerédi): 'Let f(n) → ∞ (possibly very slowly). Is there a graph of infinite chromatic number such that every finite subgraph on n vertices can be made bipartite by deleting at most f(n) edges?'. The page now records a negative answer for f(n) ≍ log n / log log n (such a graph must have chromatic number ≤ 3). In Lean maxSubgraphEdgeDistToBipartite G n is the supremum over subgraphs A of G with n vertices of the least number of edges whose deletion makes A bipartite (bounded by C(n,2), as the tests show), and the statement is the negation of: for every f : ℕ → ℕ tending to infinity there is a graph with chromaticNumber = ⊤ and maxSubgraphEdgeDistToBipartite G n ≤ f n for all n. The quantifier structure (∀ f ∃ G, negated) is the right reading of the question, and chromaticNumber = ⊤ is 'infinite chromatic number'. Faithful."
+    }
+]

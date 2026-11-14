@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/727, which remarks the question is open even for k = 2. The Lean statement fixes k := 2 and asserts {n : ℕ | ((n+2)!)² ∣ (2n)!} is infinite, tagged research open / question. Faithful special case."
+    }
+]

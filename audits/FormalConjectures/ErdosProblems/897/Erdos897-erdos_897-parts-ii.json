@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Compared against erdosproblems.com/897, second question: under the same hypothesis limsup_{p,k} f(p^k)/log p^k = ∞ for additive f, is limsup_n f(n+1)/f(n) = ∞? Also no, by the same counterexample. The Lean statement negates the universal implication with conclusion limsup (f(n+1)/f(n) : EReal) = ⊤. As in parts.i, the hypothesis takes the limsup along atTop ⊓ 𝓟{(p,k) | p prime} on ℕ × ℕ, i.e. with both p and k tending to infinity, rather than over all prime powers tending to infinity as in the source. This makes the negated statement formally stronger than the source's assertion; it remains true for the standard counterexample f(q) = g(q) log q (positive, with f(n+1)/f(n) bounded), so the resolution is unaffected, but the formulation of the hypothesis is non-standard."
+    }
+]

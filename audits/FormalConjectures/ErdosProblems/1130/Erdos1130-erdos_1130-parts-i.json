@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1130: with Υ(x_1..x_n) = min_{0≤i≤n} max_{[x_i,x_{i+1}]} Σ_k |l_k| (x_0 = −1, x_{n+1} = 1), is Υ ≪ log n? The page records Υ ≤ (2/π) log n + O(1). In Lean upsilon x is the infimum over i ∈ Fin (n+1) of gapMax x i, the max of the Lebesgue function on [x_i, x_{i+1}] with the extended nodes from the 1129 file, and the statement is ∃ C > 0, ∀ n ≥ 2 and node sets x, upsilon x ≤ C·log n. Taking n ≥ 2 is needed since log 1 = 0 while Υ = 1 for n = 1. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A233544 (Zhi-Wei Sun): 'Number of ways to write n = k^2 + m with k > 0 and m >= k^2 such that sigma(k^2) + phi(m) is prime', with 'Conjectures: (i) a(n) > 0 for all n > 1.' In Lean a n sums over k ≥ 1 with 2k² ≤ n (equivalently m = n − k² ≥ k²) the indicator that σ₁(k²) + φ(n − k²) is prime; tests match the data (0, 1, 1, 1, …, a(9) = 2). The statement 0 < a n for n > 1 is conjecture (i). Faithful."
+    }
+]

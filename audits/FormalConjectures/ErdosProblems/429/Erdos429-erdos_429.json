@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/429: 'Is it true that, if A ⊆ ℕ is sparse enough and does not cover all residue classes modulo p for any prime p, then there exists some n such that n + a is prime for all a ∈ A?' Weisenberg showed no: A can be arbitrarily sparse, miss a residue class mod every prime, and yet A + n is not contained in the primes for any n ∈ ℤ. The Lean statement negates the existence of a sparsity threshold: ¬ ∃ f : ℕ → ℕ tending to infinity such that every infinite A with |A ∩ [1,N]| ≤ f(N) for all N and missing a residue class modulo every prime admits n ∈ ℤ with (n + a).toNat prime for all a ∈ A. 'Sparse enough' is thus rendered as 'counting function bounded by some f → ∞', and the negation says counterexamples exist below every such f, which is exactly 'arbitrarily sparse'. Restricting to infinite A is appropriate (for finite A the claim is the prime k-tuples conjecture). Faithful."
+    }
+]

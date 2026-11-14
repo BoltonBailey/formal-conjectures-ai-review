@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/422 (Hofstadter's Q-sequence, OEIS A005185): f(1)=f(2)=1, f(n)=f(n−f(n−1))+f(n−f(n−2)); 'Does f(n) miss infinitely many integers?'. IsHofstadterQ f (f : ℕ+ → ℕ+) encodes the initial values and, for n > 2, the side conditions f(n−1) < n, f(n−2) < n (so the truncated ℕ+ subtraction is exact) together with the recurrence; the tests f 3 = 2, f 4 = 3 confirm the indexing. The statement says every such f omits infinitely many n ∈ ℕ+. Since at most one f satisfies the predicate this is the source question; if the sequence is not well-defined (unknown, as the page notes) the statement is vacuously true, which is consistent with a finite sequence missing infinitely many integers. Faithful."
+    }
+]

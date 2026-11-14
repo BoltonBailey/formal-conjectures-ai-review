@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A226163: 'Determinant of the (p_n−1)/2-by-(p_n−1)/2 matrix with (i,j)-entry being the Legendre symbol ((i²−((p_n−1)/2)!·j)/p_n)', offset 2, with Zhi-Wei Sun's comment 'Conjecture: a(n) = 0 if and only if p_n == 3 (mod 4).' In Lean legendreMatrix p has entries jacobiSym ((i+1)² − ((p−1)/2)!·(j+1)) p for 0-based i, j < (p−1)/2 (the Jacobi symbol equals the Legendre symbol at a prime), and a n is its determinant for p = Nat.nth Nat.Prime (n−1), the n-th prime. Tests reproduce the data 0, −1, 0, 0, −8 for n = 2..6. The statement, for n ≥ 2, a n = 0 ↔ p_n % 4 = 3 matches the conjecture and the offset. Faithful."
+    }
+]

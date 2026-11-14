@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/771 (Erdős–Graham): f(n) is maximal such that for every m ≥ 1 there is S ⊆ {1,…,n} with |S| = f(n) and m ≠ Σ_{a∈A} a for all A ⊆ S; is f(n) = (1/2 + o(1))·n/log n? Yes (Erdős–Graham lower bound, Alon–Freiman upper bound). In Lean IsAdmissible n k is exactly the condition for size k, f n is the largest admissible k, and the statement is f(n) ~ n/(2 log n), equivalent to (1/2 + o(1))n/log n. Faithful."
+    }
+]

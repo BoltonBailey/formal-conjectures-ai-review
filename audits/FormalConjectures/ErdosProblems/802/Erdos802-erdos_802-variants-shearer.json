@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/802: Shearer improved the bound to ≫_r (log t / (log log(t+1)·t))·n. The Lean statement adds the hypothesis 2 ≤ averageDegree and asserts c·(log t / (log(log(t+1))·t))·n ≤ indepNum G for K_r-free G. The restriction is necessary and documented: log log(t+1) vanishes at t = e − 1 ≈ 1.72, so without it the bound is unbounded/negative near there; for t ≥ 2 the factor is positive and bounded, so the asymptotic result gives a uniform constant. Faithful."
+    }
+]

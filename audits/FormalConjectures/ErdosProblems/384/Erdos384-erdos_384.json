@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/384 (Erdős–Selfridge, proved by Ecklund): 'If 1 < k < n−1 then C(n,k) is divisible by a prime p < n/2 (except C(7,3) = 5·7).' The Lean statement: for 1 < k < n − 1 with (n,k) ∉ {(7,3), (7,4)} there is a prime p ∣ C(n,k) with 2p ≤ n. Two deliberate deviations from the page's wording, both documented in the docstring: the bound is non-strict (p ≤ n/2), because the strict version is false at C(4,2) = 6 (no prime below 2), and the symmetric exception C(7,4) = C(7,3) is listed explicitly. Both are corrections of the page's loose statement to the form of Ecklund's theorem (stated for n ≥ 2k with the single exception C(7,3)), and I verified small cases (C(4,2), C(5,2), C(6,3), C(7,2) all have a prime factor ≤ n/2, while C(7,3) = 35 does not). Correct, with a documented discrepancy from the literal source text."
+    }
+]

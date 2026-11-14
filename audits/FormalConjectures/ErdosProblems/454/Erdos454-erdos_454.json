@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/454: f(n) = min_{i<n}(p_{n+i} + p_{n−i}) with p_k the k-th prime; is limsup_n (f(n) − 2p_n) = ∞? In Lean f n is the infimum over 0 < i < n of nth Prime (n+i) + nth Prime (n−i) with 0-based prime indexing, so it equals the source's f(n+1) with the single extreme term i = n (p_{2n+1} + p_1) omitted; that term is far larger than 2p_{n+1} for large n and never realises the minimum, so the limsup is unchanged. i = 0 is excluded, as it must be for the question to be meaningful. The difference f n − 2·p_n is taken in ℕ∞ with truncated subtraction, which does not affect whether the limsup is ⊤. Faithful up to these harmless conventions."
+    }
+]

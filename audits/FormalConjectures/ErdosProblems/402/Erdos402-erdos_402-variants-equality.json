@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/402: Graham also conjectured that, assuming A has no common divisor, equality is achieved only for A = {1,…,n}, {L/1,…,L/n} with L = lcm(1..n), or {2,3,4,6}; proved by Balasubramanian–Soundararajan. The Lean statement takes gcd(A) = 1 and the hypothesis that a/|A| ≤ gcd(a,b) for all a, b ∈ A — i.e. the inequality of erdos_402 is never strict, equivalently max a/gcd(a,b) = |A| — and concludes that A is one of the three listed sets (I checked that all three do satisfy the hypothesis). This is the 'only if' direction of the characterisation, which is what the page states; the converse is noted as a TODO. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/810 (Burr–Erdős–Graham–Sós): does there exist ε > 0 such that for all sufficiently large n there is a graph on n vertices with at least εn² edges whose edges can be coloured with n colours so that every C_4 receives 4 distinct colours? The Lean statement: ∃ ε > 0, ∀ᶠ n, ∃ G on Fin n and color : Fin n → Fin n → Fin n with ε·n² ≤ e(G) and C4RainbowColoring G color, i.e. the colour is symmetric on edges and for every 4-cycle a–b–c–d–a on pairwise distinct vertices the four edge colours are pairwise distinct. Colours are taken in Fin n (n colours) and values off the edge set are irrelevant. Stated affirmatively as an open question (the authors believed the answer is no, which upstream convention handles by negating once resolved). Faithful."
+    }
+]

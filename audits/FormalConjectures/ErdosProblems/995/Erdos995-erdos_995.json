@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/995: for a lacunary sequence of integers n_1 < n_2 < … and f ∈ L²([0,1]), is Σ_{k≤N} f({αn_k}) = o(N√(log log N)) for almost all α? The Lean statement quantifies over n : ℕ → ℕ with IsLacunary n (n_{k+1} > c·n_k eventually for some c > 1), f with MemLp f 2 on [0,1], and concludes that for a.e. α ∈ [0,1] the partial sums Σ_{k<N} f(fract(α n_k)) are o(N·√(log log N)) along atTop. Restricting α to [0,1] is harmless by 1-periodicity in α, and changing f on a null set changes the sums only on a null set of α. The one deviation is the added hypothesis ∫₀¹ f = 0, which the page does not state; it does not change the problem, since replacing f by f − ∫f changes the sum by cN = o(N√(log log N)), and the module docstring flags it as a normalisation (though its justification, 'otherwise the sum has a linear main term', slightly obscures that the hypothesis is superfluous for this particular o-bound). Equivalent to the source; minor documentation/hypothesis discrepancy."
+    }
+]

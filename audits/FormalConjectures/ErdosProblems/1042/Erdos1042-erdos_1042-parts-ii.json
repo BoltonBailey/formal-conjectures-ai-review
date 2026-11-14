@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1042: 'If the transfinite diameter of F is < 1 then must this set only have at most (1−c)n connected components, where c > 0 depends only on F?' — solved by Ghosh–Ramachandran: if 0 < d < 1 the set has at most (1−c)n components for some c > 0 depending on F. The Lean statement: for every closed F with 0 < transfiniteDiameter F < 1 there is c > 0 such that for all large n every monic degree-n f with roots in F has numComponents f ≤ (1−c)n. The hypothesis d > 0 and the restriction to large n follow the cited theorem and are documented (n = 1 would violate the bound). The parenthetical 'or just the transfinite diameter' is not formalised, consistent with the page's remark that the answer cannot depend on d alone. Faithful."
+    }
+]

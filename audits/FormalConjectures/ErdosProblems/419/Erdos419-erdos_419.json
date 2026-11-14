@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/419: what is the set of limit points of τ((n+1)!)/τ(n!); Erdős–Graham noted 1 + 1/k (k ≥ 1) and hence 1 are limit points, and Erdős–Graham–Ivić–Pomerance (and Sawhney) showed these are the only ones. The Lean statement: the set of x with MapClusterPt x atTop (n ↦ σ₀((n+1)!)/σ₀(n!)) equals {1} ∪ {1 + 1/k : k ≥ 1}. Cluster points of the sequence along atTop are exactly its subsequential limits, the standard meaning of 'limit points' of a sequence; divisor counts of factorials are positive so the real ratio is well-defined. Faithful."
+    }
+]

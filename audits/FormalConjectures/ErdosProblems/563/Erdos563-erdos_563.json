@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/563: F(n,α) is the smallest m such that there is a 2-colouring of the edges of K_n in which every X ⊆ [n] with |X| ≥ m contains more than α·C(|X|,2) edges of each colour; prove that for every 0 ≤ α < 1/2, F(n,α) ∼ c_α log n for some constant c_α. In Lean a colouring is a graph G on Fin n (edges = first colour), HasBalancedSubsets requires for every X with |X| ≥ m both α·C(|X|,2) < e(G[X]) and e(G[X]) < (1−α)·C(|X|,2) (the latter being 'more than α·C(|X|,2) edges of the second colour'), F n α is the infimum of such m, and the statement is ∀ α ∈ [0,1/2), ∃ c > 0, F(n,α)/log n → c. Positivity of c is correct since F ≍_α log n. Faithful."
+    }
+]

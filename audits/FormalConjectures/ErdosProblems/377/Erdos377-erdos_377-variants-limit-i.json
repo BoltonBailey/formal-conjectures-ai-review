@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/377: with f(n) = Σ_{p≤n} 1_{p∤C(2n,n)}/p, Erdős–Graham–Ruzsa–Straus proved lim_{x→∞} (1/x)Σ_{n≤x} f(n) = Σ_{k≥2} log k / 2^k = γ₀. In Lean sumInvPrimesNotDvdCentralBinom n sums 1/p over primes p ≤ n not dividing n.centralBinom = C(2n,n), γ₀ is pinned by the hypothesis γ₀ = Σ' k, log(k+2)/2^{k+2} (the series reindexed from k = 2), and the statement is (1/x)·Σ_{n∈[1,x]} f(n) → γ₀ along natural x. Faithful."
+    }
+]

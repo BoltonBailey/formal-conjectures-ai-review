@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/771: k = 0 is admissible for every n, i.e. for every m ≥ 1 the empty set S has no subset summing to m. Proved in the file. Correct; it shows the set defining f is nonempty."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/434: for k ≤ n, which A ⊆ {1,…,n} with gcd(A) = 1 and |A| = k maximises the number of integers not representable as a sum of elements of A with repetition; is it {n, n−1, …, n−k+1}? Yes, by Kiss [Ki02]. The Lean statement, for 1 ≤ n and 2 ≤ k ≤ n, asserts that the number of unrepresentable naturals for the interval Icc (n−k+1) n is the greatest element of the set of such counts over all k-subsets S ⊆ Icc 1 n with gcd 1. Representability uses multisets of elements of A (the empty sum represents 0), and gcd 1 makes the unrepresentable set finite so ncard is the true count; the interval itself has gcd 1 because k ≥ 2. The restriction k ≥ 2 is correct and documented (for k = 1 < n the singleton {n} is not admissible). The 'answer' is given explicitly as the interval. Faithful."
+    }
+]

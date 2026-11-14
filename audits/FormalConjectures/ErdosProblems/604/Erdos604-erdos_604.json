@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/604 (the pinned distance problem): given n distinct points A ⊂ ℝ², must there be x ∈ A with #{d(x,y) : y ∈ A} ≫ n^{1−o(1)}? In Lean pinnedDistinctDistances n is the minimum over n-point sets A of the maximum over x ∈ A of the number of distinct distances from x to the other points, and the statement is ∀ ε > 0, for all large n, n^{1−ε} ≤ pinnedDistinctDistances n — the standard unpacking of n^{1−o(1)}; not counting d(x,x) = 0 changes the count by one and is documented. The formalisation is faithful. The documentation concern is the status: the declaration is tagged 'research solved' on the basis of a 2026 OpenAI preprint, whereas the erdosproblems.com page as fetched today still gives Katz–Tardos's n^{0.864…−o(1)} as 'the best known bound' and does not record a resolution, so I could not confirm the claimed proof from the cited page."
+    }
+]

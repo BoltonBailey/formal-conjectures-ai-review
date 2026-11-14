@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/945, which presents the interval formulation as a restatement ('In other words …') of F(x) ≤ (log x)^{O(1)}. The Lean statement Erdos945Prop ↔ Erdos945Constant asserts this equivalence, tagged textbook. I checked that it is correct: if F(y) ≤ (log y)^C eventually, an interval [x, x + (log x)^{C'}] with C' > C contains more consecutive integers than F allows to have distinct τ; conversely, if every such interval beyond x₀ contains a repeated τ-value, any run of distinct τ-values below x has length at most x₀ + (log x)^C + 1. Correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1182: BEFRS proved (17n+1)/15 ≤ F(n) for all n ≥ 4. The Lean statement is n + ⌊(2n+1)/15⌋ ≤ F n for n ≥ 4, using natural-number division. Since n + ⌊(2n+1)/15⌋ ≤ (17n+1)/15, this is implied by (and slightly weaker than, by at most rounding) the printed bound; the docstring explains the integer-part form. It is consistent with the tabulated values (e.g. n = 7: 8 ≤ 11). Faithful."
+    }
+]

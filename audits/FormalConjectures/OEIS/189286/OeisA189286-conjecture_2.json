@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A189286 (a(n) = Σ_{k=0}^n C(6k,3k)C(3k,k)C(6(n−k),3(n−k))C(3(n−k),n−k) / ((2n−1)C(3n,n)); data −1, 40, 696, 23408, …), Zhi-Wei Sun's conjecture (i): 'a(n)^{1/n} tends to 64 as n tends to the infinity.' The Lean statement: (a n : ℝ)^{1/n} → 64, with a n the rational defined by the same formula (tests match the data). a(n) > 0 for n ≥ 1, so the real power is the genuine n-th root. The declaration is tagged 'textbook' rather than open, which is defensible: the limit follows from standard binomial asymptotics (the summands grow like 432^n up to polynomial factors and the denominator like (27/4)^n). Faithful."
+    }
+]

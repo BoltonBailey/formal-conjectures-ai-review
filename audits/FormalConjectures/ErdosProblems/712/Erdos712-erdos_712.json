@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/712: 'Determine, for any k > r > 2, the value of ex_r(n, K_k^r)/C(n,r)' (the limiting value as n → ∞, as the page's subsequent 'this limit' makes clear), where ex_r(n, K_k^r) is the largest number of r-edges on n vertices with no k vertices spanning all C(k,r) possible r-edges. In Lean Hypergraph.cliqueExtremalNumber n r k is the maximum size of a family of r-subsets of Fin n not containing a complete r-uniform hypergraph on k vertices, and the value question asserts, for all 2 < r < k, that the ratio to C(n,r) tends to answer k r. The limit exists (Katona–Nemetz–Simonovits), so the answer is forced to be the Turán density and cannot be chosen degenerately. Faithful."
+    }
+]

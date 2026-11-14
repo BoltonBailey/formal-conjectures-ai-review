@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against Green's Problem 100, second question ('is every group hyperlinear?'). IsHyperlinear uses Pestov's characterisation with the normalised Hilbert–Schmidt distance on U(n) (almost-homomorphism on F, θ(e) near I, distinct elements ≥ 1/4 apart), and the statement is ¬ ∀ (G : Type) [Group G], IsHyperlinear G. This is the standard definition of hyperlinearity; Green's own 'precise statement' of this question uses the operator norm instead, which is a formally different (MF-type) condition and is formalised separately as green_100.variants.operator_norm — the docstring explains the distinction. The negative answer rests on Liu's 2026 preprint 'Nonhyperlinear groups exist', whose abstract ('We construct a countable discrete group that is not hyperlinear') I checked; it is a non-arXiv preprint, so the solved status is only as reliable as that source. Correct formalisation with a documented divergence from Green's literal wording."
+    }
+]

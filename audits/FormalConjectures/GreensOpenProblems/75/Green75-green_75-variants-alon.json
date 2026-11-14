@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against the comments to Green's Problem 75: 'Alon has given an example to show that it is not true with 100 replaced by 2', which read literally means a point set where every line through two points has sides differing by more than 2. The Lean statement asserts only ∃ X with ≥ 2 points such that every line through two of its points has imbalance ≥ 2, i.e. that 100 cannot be replaced by 1 (the refutation of Kupitz's original conjecture as described in Conlon–Lim, Section 1). This is a correct statement of Alon's counterexample in the Conlon–Lim form but is weaker than Green's wording; the docstring explicitly explains the choice. Correctly formalised, with a documented discrepancy from the cited primary source."
+    }
+]

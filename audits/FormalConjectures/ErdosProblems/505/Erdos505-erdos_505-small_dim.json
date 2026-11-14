@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/505: 'This is trivially true for n = 1 and easy for n = 2. For n = 3 it is true, which was proved by Eggleston.' The Lean statement: for n ≤ 3, BorsukConjecture n (every bounded set with at least two points in ℝⁿ is covered by n+1 sets of strictly smaller diameter). The case n = 0 is vacuous (ℝ⁰ has one point). Faithful."
+    }
+]

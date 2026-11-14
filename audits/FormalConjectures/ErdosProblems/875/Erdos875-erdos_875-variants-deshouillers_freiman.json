@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/874 (the finite version, referenced from /875): Erdős's conjecture k(N) ∼ 2N^{1/2} 'was proved (for all large N) by Deshouillers and Freiman [DeFr99]', with Straus's extremal examples (N−k, N] for k = 2m−1 when N ∈ [m², m²+m) and k = 2m when N ∈ [m²+m, (m+1)²). The Lean statement: ∃ N₀, ∀ N ≥ N₀, every admissible finite A ⊆ {1..N} has |A| ≤ 2√(N+1/4) − 1. I checked that ⌊2√(N+1/4) − 1⌋ equals Straus's k in both ranges (it is 2m exactly at N = m²+m and lies in (2m−1, 2m) at N = m²), so this is the sharp form of the Deshouillers–Freiman bound as described; I could not open the DeFr99 paper itself to confirm the exact wording of its Theorem 1. Consistent with the source."
+    }
+]

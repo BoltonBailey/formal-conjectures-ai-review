@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A245211: a(n) = Sum_{d | n, d < n} d·tau(d) (data 0, 1, 1, 5, 1, 11, …), with the comment 'Conjecture: 21 is only number such that a(n) = n.' In Lean a n = Σ_{d ∈ n.properDivisors} d·|divisors d|, matching the definition and the test values, and the statement for n > 0 is a n = n ↔ n = 21. The reverse direction is the page's example a(21) = 14 + 6 + 1 = 21; restricting to n > 0 excludes the artefact a 0 = 0. Faithful."
+    }
+]

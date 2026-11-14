@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's '100 open problems', Problem 100: 'Is every group well-approximated by finite groups? … There are really two questions here, namely is every group sofic? and is every group hyperlinear?'. IsSofic encodes the finitary characterisation (Pestov, Thm 3.5): for every finite F ⊆ G and ε > 0 there are n and θ into Sym(n) that is an (F, ε)-almost homomorphism for the normalised Hamming distance, sends e near the identity, and separates distinct elements of F by ≥ 1/4. The Lean statement is the negative answer ¬ ∀ (G : Type) [Group G], IsSofic G; restricting to Type is harmless since soficity is determined by countable subgroups. I confirmed the claimed resolution from the cited preprints' abstracts (arXiv:2608.02025 'A torsion-free non-sofic group': 'OpenAI announced the existence of a non-sofic group'; arXiv:2608.06222 builds on it), though these are recent preprints and Green's list itself still presents the problem as open. Faithful formalisation of the sofic question in its resolved (negated) form."
+    }
+]

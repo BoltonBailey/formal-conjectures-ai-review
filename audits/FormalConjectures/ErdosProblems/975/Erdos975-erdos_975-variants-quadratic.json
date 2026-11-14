@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 5,
+        "explanation": "Compared against erdosproblems.com/975: 'Such an asymptotic formula is known whenever f is an irreducible quadratic, as proved by Hooley. The form of c depends on f in a complicated fashion (see the work of McKee …)'. The Lean statement is: for every irreducible f of degree 2 with f(n) ≥ 1 eventually and every c, c = erdos_975.variants.quadratic.answer → 0 < c ∧ Erdos975Sum f x/(x log x) → c. The placeholder `answer : ℝ` is a single real number that does not depend on f, so the statement asserts that all irreducible quadratics share the same limiting constant. That is false: for f = X² + 1 the constant is 3/π (the file's own n2_plus_1_strong), whereas for other quadratics it is different (e.g. by McKee's class-number formula the constant for X² + 2 is 12·H(8)/(π√8) = 3√2/π ≠ 3/π). Hence no value of the answer makes the theorem true, and the declaration as stated is unprovable although the result it is meant to record (Hooley's theorem) is true. The answer needs to be a function of f (e.g. answer : ℤ[X] → ℝ), or the statement should be existential in c as in erdos_975."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/513: for transcendental entire f = Σ a_n z^n, what is the greatest possible value of liminf_{r→∞} max_n |a_n r^n| / max_{|z|=r} |f(z)|; the page defines B as the supremum of these values. In Lean, ratio r f = (⨆ n, ‖f⁽ⁿ⁾(0)/n! · rⁿ‖) / (⨆ over |z| = r of ‖f z‖), i.e. μ(r,f)/M(r,f) with a_n the Taylor coefficients, and maxTermConstant is the supremum over f with Differentiable ℂ f and Transcendental ℂ[X] f (not algebraic over polynomial functions, which for entire functions means not a polynomial) of liminf_{r→∞} ratio r f. The ratio lies in [0,1] by Cauchy's estimates so the real liminf and supremum are not junk values. The question-value statement maxTermConstant = answer is the source question. Faithful."
+    }
+]

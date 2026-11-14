@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Variant of erdosproblems.com/686 restricted to perfect squares N ≥ 2. The page states only the general question; the restriction is motivated by the fact (proved in this file as non_square, and discussed in the problem's forum thread) that every non-square N is representable already with k = 2 via a Pell equation, so squares are the remaining open case. The statement uses the same representation predicate as erdos_686 with the extra hypothesis IsSquare N. Correctly stated sub-question."
+    }
+]

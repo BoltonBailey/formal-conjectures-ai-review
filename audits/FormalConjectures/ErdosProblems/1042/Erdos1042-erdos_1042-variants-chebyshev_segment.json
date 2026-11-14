@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1042 (Erdős–Herzog–Piranian), where Ghosh–Ramachandran show 'there are examples with d = 1 such that, for infinitely many n, the set can have n connected components'. The Lean statement makes the classical example explicit: for F = [−2,2] ⊂ ℂ, F is closed, has transfinite diameter 1 (a segment of length 4), is contained in no closed disc of radius 1, and for every n ≥ 1 there is a monic degree-n polynomial with all roots in F whose open lemniscate {|f| < 1} has exactly n components. This is correct (f_n(z) = 2T_n(z/2) has all critical values ±2, so the n roots lie in distinct components). transfiniteDiameter is defined as the limsup (= limit) of the n-th diameters in ℝ≥0∞, as on the page, and numComponents counts connected components of the strict sublevel set. Faithful."
+    }
+]

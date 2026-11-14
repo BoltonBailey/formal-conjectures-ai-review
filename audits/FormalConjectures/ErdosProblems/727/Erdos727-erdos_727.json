@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/727 (Erdős–Graham–Ruzsa–Straus): 'Let k ≥ 2. Does (n+k)!² | (2n)! for infinitely many n?'. The Lean statement is ∀ k ≥ 2, {n : ℕ | ((n+k)!)² ∣ (2n)!} is infinite, tagged as a yes/no question, which is the natural reading (every k ≥ 2; the page notes it is open even for k = 2). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Not from erdosproblems.com/70 (which asks only about countable β for the order type of the reals): this variant asserts, for every finite n ≥ 2, OrdinalCardinalRamsey3 𝔠.ord ω₁ n, i.e. the ordinal partition relation 2^{ℵ₀} → (ω₁, n)³ for the initial ordinal of the continuum, and is tagged 'research open, question'. Two issues. (a) It silently switches from the real order type used in erdos_70 to the well-ordered cardinal 𝔠.ord, a different relation (the docstring does mention 𝔠.ord). (b) As far as I recall, this relation is not open: the classical negative relation 2^κ ↛ (κ⁺, 4)³ of Erdős–Hajnal–Rado gives 𝔠 ↛ (ω₁, 4)³ in ZFC for κ = ℵ₀, so the universally quantified statement fails already at n = 4 (n ≤ 3 being trivial). I am citing that theorem from memory and could not check it against a source in this session, so this should be verified; if right, the declaration should be negated/retagged as solved rather than presented as an open question. The formal encoding of the relation itself is fine."
+    }
+]

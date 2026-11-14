@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/848 (Erdős–Sárközy): is the maximum size of A ⊆ {1,…,N} with ab + 1 never squarefree (all a, b ∈ A, including a = b) achieved by the n ≡ 7 (mod 25)? Erdos848For N says every A ⊆ range N = {0,…,N−1} with the property has |A| ≤ #{n < N : n ≡ 7 mod 25}. Since 0 can never lie in such an A (0·0 + 1 = 1 is squarefree), Erdos848For N is the source statement for {1,…,N−1}, so ∀ N, Erdos848For N is equivalent to the source statement for all N (an index shift the docstring mentions only as 'formulated using range N'). The formalisation is therefore correct. The concern is the status: the declaration is tagged 'research solved', but the page says the problem 'was solved for all sufficiently large N by Sawhney'; the all-N statement asserted here is not recorded as proved (the linked formal proof is attached to the asymptotic variant). The tag/docstring should distinguish this."
+    }
+]

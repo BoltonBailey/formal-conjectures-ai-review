@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/509: for a monic non-constant f ∈ ℂ[z], can {z : |f(z)| ≤ 1} be covered by a set of circles (discs) the sum of whose radii is ≤ 2? The Lean statement: for every monic f with natDegree ≠ 0 there is an index type ι and a BoundedDiscCover of {z | ‖f.eval z‖ ≤ 1} with budget 2, i.e. closed discs of positive radii, summable with Σ R_i ≤ 2, covering the set. Positivity plus summability forces a countable family; allowing countably many rather than finitely many discs is a standard reading of 'a set of circles'. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/817 (Erdős–Sárközy): g_k(n) is the minimal N such that {1,…,N} contains A with |A| = n whose set of subset sums contains no non-trivial k-term arithmetic progression; 'is it true that g_3(n) ≫ 3^n?'. In Lean g k n is the infimum of N admitting A ⊆ Icc 1 N of size n whose subset-sum set is IsAPOfLengthFree k (no k-element subset forming an AP with non-zero difference), and the statement is the negative answer ¬ (3^n =O[atTop] g 3 n). The page does not yet record a resolution; I checked the cited preprint's abstract (arXiv:2609.06303, Costa: 'Erdős and Sárkőzy asked whether g_3(n) ≫ 3^n. We prove liminf g_3(n)/3^n = 0'), which is exactly the negation stated. Only the 'in particular' question is formalised, as noted in the file. Faithful."
+    }
+]

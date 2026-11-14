@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/405: 'Erdős and Graham ask this allowing the case p = 2, but this is presumably an oversight, since clearly there are infinitely many solutions to this equation when p = 2.' The Lean statement: the set of triples (a, k, p) with p prime (2 allowed) and (p−1)! + a^{p−1} = p^k is infinite, proved in the file via the family (2^k − 1, k, 2), i.e. 1 + (2^k − 1) = 2^k. Faithful."
+    }
+]

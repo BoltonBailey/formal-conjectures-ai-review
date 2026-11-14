@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/875: rSums A 1 = A, i.e. the set S_1 of sums of one element of A is A itself. Immediate from the definition of rSums (sums over finsets T ⊆ A of cardinality r) and proved in the file. Correct."
+    }
+]

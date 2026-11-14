@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/508: 'The upper bound χ ≤ 7 can be seen by colouring the plane by tessellating by hexagons with diameter slightly less than 1.' The Lean statement χ(ℝ²) ≤ 7 in ℕ∞ matches (Isbell's bound). Faithful."
+    }
+]

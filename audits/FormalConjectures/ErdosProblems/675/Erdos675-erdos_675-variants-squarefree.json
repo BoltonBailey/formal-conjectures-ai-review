@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/675: 'Elementary sieve theory implies that the set of squarefree numbers has the translation property.' The Lean statement HasTranslationProperty {m | Squarefree m} is exactly this (the file's test computes the minimal t_3 = 4). Faithful."
+    }
+]

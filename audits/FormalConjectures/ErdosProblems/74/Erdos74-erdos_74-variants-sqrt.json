@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/74: 'It is open even for f(n) = √n.' The Lean statement: ∃ a graph G with chromaticNumber = ⊤ such that for every n, every n-vertex subgraph can be made bipartite by deleting at most √n edges (maxSubgraphEdgeDistToBipartite G n ≤ √n in ℝ), tagged as an open question. The recent negative result on the page concerns the slower function log n / log log n, so the √n case is consistent with being open. Faithful."
+    }
+]

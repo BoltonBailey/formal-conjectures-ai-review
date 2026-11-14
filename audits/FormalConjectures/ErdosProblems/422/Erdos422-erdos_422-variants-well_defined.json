@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/422: 'It is not even known whether f(n) is well-defined for all n.' The Lean statement ∃ f : ℕ+ → ℕ+, IsHofstadterQ f is equivalent to well-definedness: the predicate forces the initial values, the recurrence, and that the arguments n − f(n−1), n − f(n−2) are positive integers at every step, and conversely a well-defined sequence gives such an f. Faithful."
+    }
+]

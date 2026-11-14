@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/494: 'there are examples with two distinct A, B both of size 2^l such that A_2 = B_2.' The Lean statement: for every card of the form 2^l, ¬ Erdos494Unique 2 card, i.e. there exist distinct A, B of that size with the same multiset of pairwise sums. The degenerate case l = 0 (singletons, empty multiset of 2-sums) is trivially true and consistent with the source's 'l ≥ 0'. Faithful."
+    }
+]

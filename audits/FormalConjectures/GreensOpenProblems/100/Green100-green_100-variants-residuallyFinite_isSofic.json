@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Background fact for Green's Problem 100 (Pestov's survey, cited by Green as [242]): every residually finite group is sofic. The Lean statement: for G with Group.ResiduallyFinite G, IsSofic G. Correct for the definition used here (separate the finitely many needed elements by a finite quotient and act by left translation, giving Hamming distance 1 between distinct images). Not stated verbatim in Green's text but a standard, correctly formalised fact."
+    }
+]

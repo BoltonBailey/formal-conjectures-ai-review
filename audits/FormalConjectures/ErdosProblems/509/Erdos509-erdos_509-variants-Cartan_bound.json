@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/509: 'Cartan proved this is true with 2 replaced by 2e'. The Lean statement is erdos_509 with the radius budget 2·exp(1) in place of 2. Faithful."
+    }
+]

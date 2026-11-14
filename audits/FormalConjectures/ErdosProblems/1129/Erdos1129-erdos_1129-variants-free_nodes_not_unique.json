@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Variant for erdosproblems.com/1129 based on Rack–Vajda [RaVa15, Thm 2.5]: without requiring the endpoints to be nodes, minimisers are not unique. The Lean statement says that for n ≥ 3 the set of minimisers (node sets in [−1,1] with least Lebesgue constant) is uncountable. This is correct: for the canonical minimiser x*, the shrunk sets x*/τ have Λ = max_{|u|≤τ} L_{x*}(u), which stays equal to Λ* for τ ≥ 1 near 1 because L_{x*}(±1) = 1 < Λ* when n ≥ 3. It qualifies the page's loose 'unique minimising choice' and is consistent with the canonical uniqueness statement. Correct."
+    }
+]

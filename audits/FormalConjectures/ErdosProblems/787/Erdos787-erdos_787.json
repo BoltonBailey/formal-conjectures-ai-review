@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/787 (Erdős–Moser): g(n) is maximal such that every A ⊂ ℝ with |A| = n has B ⊆ A with |B| ≥ g(n) and b_1 + b_2 ∉ A for all b_1 ≠ b_2 ∈ B; 'Estimate g(n)'. In Lean g ℝ n is the supremum of m such that every n-element set of reals has such a B of size ≥ m (a bounded set, so a maximum), matching the definition. The value question reads 'estimate' as g =Θ[atTop] answer. The definition is faithful; as with other 'estimate' problems, the formal statement admits the trivial answer g itself and fixes Θ-precision as the meaning of 'estimate', which is far stronger than the current knowledge ((log n)^{1+c} ≪ g(n) ≪ exp(O(√log n))) and is not discussed in the docstring. Acceptable encoding of an open-ended question."
+    }
+]

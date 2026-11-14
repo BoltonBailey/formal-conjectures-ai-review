@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/729: for a constant C > 0, are there infinitely many integers a,b,n with a+b > n + C log n such that the denominator of n!/(a!b!) contains only primes ≪_C 1; proved in the affirmative by Barreto and Leeham. The Lean statement: ∀ C > 0, ∃ K ≥ 3, the set of positive triples (a,b,n) with a + b > n + C·log n and no prime p > K dividing the denominator of the rational n!/(a!b!) is infinite. K depends only on C, matching ≪_C 1; 'infinitely many triples' cannot be satisfied degenerately since a prime-bounded denominator bounds a, b in terms of n and K. Stated in the affirmative with the solved/question tags per upstream convention. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A262824 (Zhi-Wei Sun), conjecture (ii), fourth listed form: P(w,x,y,z) = 2w² + x³ + 4y³ + z⁴ represents every nonnegative integer with nonnegative integer arguments. The Lean statement: every n : ℕ equals 2w² + x³ + 4y³ + z⁴ for some w x y z : ℕ, with the coefficients as in the source. Faithful."
+    }
+]

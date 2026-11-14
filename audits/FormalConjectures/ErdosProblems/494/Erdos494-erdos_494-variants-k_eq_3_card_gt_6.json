@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/494: Selfridge and Straus 'show that the answer is yes if k = 3 and |A| > 6'. The Lean statement: for card > 6 with card ≠ 27 and card ≠ 486, Erdos494Unique 3 card. The two excluded sizes are the cases Selfridge–Straus left undecided (and for which counterexamples were later found, per the docstring), so the Lean statement is the accurate form of their theorem and slightly more careful than the page's summary; it is implied by the page's statement where the latter is true. Faithful to the underlying result."
+    }
+]

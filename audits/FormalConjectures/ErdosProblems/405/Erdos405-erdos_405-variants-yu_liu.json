@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/405: 'Yu and Liu showed that the only solutions are 2! + 1² = 3, 2! + 5² = 3³ and 4! + 1⁴ = 5².' The Lean statement: the set of triples (a, k, p) with p an odd prime and (p−1)! + a^{p−1} = p^k equals {(1,1,3), (5,3,3), (1,2,5)}, which are exactly these three solutions in the order (a, k, p). Allowing a = 0 or k = 0 in ℕ introduces no extra solutions (p ∤ (p−1)! and (p−1)! ≥ 2). Faithful."
+    }
+]

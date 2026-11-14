@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Special case N = 9 of erdosproblems.com/686: 9 = (26·27·28)/(12·13·14) with k = 3, n = 11, m = 25 ≥ 14. The Lean statement ∃ k ≥ 2, n, m ≥ n + k with 9 = ∏(m+i)/∏(n+i) is proved in the file with this witness (the same representation appears in the forum thread). Correct."
+    }
+]

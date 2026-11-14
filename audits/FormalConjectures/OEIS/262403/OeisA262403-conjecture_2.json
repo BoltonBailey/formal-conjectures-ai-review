@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A262403, conjecture (i), second half: 'a(n) = 1 only for n = 5, 6, 7, 10, 12, 32, 38, 445, 727.' The Lean statement, for n > 4, a n = 1 ↔ n ∈ {5, 6, 7, 10, 12, 32, 38, 445, 727}; the converse direction is supported by the OEIS examples. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/1164 (Erdős–Taylor): 'Let R_n be the maximal integer such that almost every random walk from the origin in ℤ² visits every x with ‖x‖ ≤ R_n in at most n steps. Is it true that log R_n ≍ √(log n)?' — true by Révész and Kesten, with the limit law proved by Dembo–Peres–Rosen–Zeitouni. Read literally the page's R_n is a deterministic quantity that would be 0, so the Lean statement takes R_n(ω) = coveringRadius X n ω (largest r such that all lattice points with a² + b² ≤ r² are visited by time n) for a simple random walk given by i.i.d. uniform steps, and formalises ≍ as tightness: ∀ ε > 0, ∃ c > 0, C, for all large n, P(c√(log n) ≤ log R_n ≤ C√(log n)) ≥ 1 − ε. This is consistent with the page's own treatment of R_n as a random variable in the stated limit law and follows from the DPRZ theorem (non-degenerate limit distribution on (0,∞)). It is a sensible, carefully documented interpretation, but an interpretation nonetheless (in probability rather than almost surely), so the correspondence with the source is not literal."
+    }
+]

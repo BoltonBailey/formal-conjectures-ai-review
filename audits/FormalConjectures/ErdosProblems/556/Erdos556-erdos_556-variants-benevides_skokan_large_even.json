@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/556: 'Benevides and Skokan proved that if n is sufficiently large and even then R_3(C_n) = 2n.' The Lean statement: for all sufficiently large even n, multicolourRamsey (cycleGraph n) 3 = 2n. Faithful."
+    }
+]

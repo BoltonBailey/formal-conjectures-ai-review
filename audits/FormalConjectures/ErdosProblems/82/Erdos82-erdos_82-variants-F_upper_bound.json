@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/82: 'Alon, Krivelevich, and Sudakov [AKS07] have improved this to n^{1/2}(log n)^{O(1)}'; the precise bound in AKS07 (Theorem 1.4) is F(n) ≤ O(n^{1/2} ln^{3/4} n). The Lean statement (n ↦ F n) =O[atTop] (n ↦ √n·(log n)^{3/4}) is exactly that bound for the same F. Faithful (and weaker than the later Dyson–McKay O(n^{1/2}) mentioned on the page, hence consistent)."
+    }
+]

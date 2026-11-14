@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/368: 'How large is the largest prime factor of n(n+1)? … The truth is probably F(n) ≫ (log n)² for all n.' In Lean F n = maxPrimeFac (n(n+1)) (tests: F 8 = 3, F 80 = 5, F 4374 = 7), and the statement is ∃ c > 0, ∀ n ≥ 1, c·(log n)² ≤ F n. This is the page's conjectured truth, stated uniformly for all n ≥ 1 as on the page. Faithful."
+    }
+]

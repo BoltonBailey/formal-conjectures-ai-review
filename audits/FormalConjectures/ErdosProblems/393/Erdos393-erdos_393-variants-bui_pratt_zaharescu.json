@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/393: Bui, Pratt and Zaharescu showed F_m(N) ≪_m N^{33/34}. The Lean statement: for each m, N ↦ #({n | f n = m} ∩ [0,N]) is O(N^{33/34}) along atTop, with the implied constant depending on m since m is fixed outside. Faithful."
+    }
+]

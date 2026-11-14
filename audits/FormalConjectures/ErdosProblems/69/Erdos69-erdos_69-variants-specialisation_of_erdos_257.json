@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/69: Tao observed that Σ_{n≥2} ω(n)/2ⁿ = Σ_p 1/(2^p − 1), making the problem a special case of [257]. The Lean statement is this identity: Σ' n, ω(n+2)/2^(n+2) (reindexed from n ≥ 2) equals Σ' over the subtype of primes of 1/(2^p − 1), in ℝ. Proved in the file from the Mathlib-style lemma tsum_cardDistinctFactors_div_two_pow (the terms n = 0, 1 vanish). Faithful."
+    }
+]

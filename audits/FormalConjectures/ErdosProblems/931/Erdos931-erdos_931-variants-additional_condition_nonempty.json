@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/931: AlphaProof's counterexample 10! = 2⁸·3⁴·5²·7 and 14·15·16 = 2⁵·3·5·7, i.e. n₁ = 0, k₁ = 10, n₂ = 13, k₂ = 3, shows the unqualified claim n₂ > 2(n₁+k₁) is false. The Lean statement asserts the existence of k₂ ≤ k₁, 3 ≤ k₂ for which the set of pairs with n₁+k₁ ≤ n₂ ≤ 2(n₁+k₁) and equal prime factors is nonempty, and is proved in the file with exactly this witness (10 ≤ 13 ≤ 20). Faithful."
+    }
+]

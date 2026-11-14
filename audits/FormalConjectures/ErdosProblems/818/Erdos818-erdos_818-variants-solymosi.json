@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/818: Solymosi [So09d] proved the strong form |AA| ≫ |A|²/log|A|. The Lean statement: ∀ K > 0, ∃ c > 0, ∀ finite A ⊂ ℤ with |A| ≥ 2 and |A+A| ≤ K|A|, c·|A|²/log|A| ≤ |A·A|. This follows from Solymosi's energy bound E_×(A) ≪ |A+A|² log|A| with c depending on K, as intended. Faithful."
+    }
+]

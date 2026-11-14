@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/780: if n ≥ kr + (t−1)(k−1) and the edges of the complete r-uniform hypergraph on n vertices are t-coloured, some colour class contains k pairwise disjoint edges (Kneser/Lovász for k = 2, Alon–Frankl–Lovász in general). The Lean statement: for r ≥ 1, t ≥ 1, k·r + (t−1)(k−1) ≤ n and any colouring c of the r-subsets of Fin n by Fin t, there are a colour i and k edges e_0..e_{k−1}, all of colour i and pairwise disjoint (hence distinct, as r ≥ 1). The truncated subtractions are exact for t ≥ 1 and harmless for k = 0 (trivially true); k = 1 just needs one edge, which exists since n ≥ r. Faithful."
+    }
+]

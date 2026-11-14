@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/813: Bucić and Sudakov proved h(n) ≫ n^{5/12−o(1)}. The Lean statement: for every ε > 0, eventually n^{5/12−ε} ≤ h(n), which is the standard unpacking of n^{5/12−o(1)} (the implied constant is absorbed by ε). Faithful."
+    }
+]

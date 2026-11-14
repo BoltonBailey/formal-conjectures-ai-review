@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/490: 'In [Er72] Erdős goes on to ask whether lim_{N→∞} max_{A,B⊆[N]} |A||B| log N / N² exists, where the maximum is over A and B with all the products ab distinct, and to determine its value.' The Lean statement: ∃ L, the sequence (sSup of |A||B| over admissible A, B ⊆ Icc 1 N)·log N/N² tends to L. The supremum is over a finite nonempty set of values, hence a maximum. Only the existence of the limit is formalised (not its value), which is the yes/no part of the question. Faithful."
+    }
+]

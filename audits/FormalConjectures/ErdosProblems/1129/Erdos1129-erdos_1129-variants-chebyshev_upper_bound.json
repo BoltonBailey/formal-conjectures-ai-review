@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1129: taking the x_i as the roots of the n-th Chebyshev polynomial gives Λ < (2/π) log n + O(1). The Lean statement: ∃ C, for all n ≥ 1 and x with IsChebyshevNodes x (a strictly increasing node set in [−1,1] of n points all of which are zeros of T_n, hence exactly the n zeros), lebesgueConstant x < (2/π)·log n + C. Faithful."
+    }
+]

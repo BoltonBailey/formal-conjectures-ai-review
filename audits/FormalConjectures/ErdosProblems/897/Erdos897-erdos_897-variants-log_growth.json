@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 4,
+        "explanation": "Compared against erdosproblems.com/897: 'Wirsing [Wi70] proved (see [491]) that if |f(n+1) − f(n)| ≤ C then f(n) = c log n + O(1) for some constant c.' The Lean statement concludes only ∃ c, ∃ O with O =O[atTop] 1 and ∀ n, f n ≤ c·log n + O n — an inequality, i.e. a one-sided upper bound f(n) ≤ c log n + O(1), where the theorem asserts the two-sided f(n) = c log n + O(1). The one-sided statement is strictly weaker (for instance it does not exclude f(n) − c log n → −∞, and when it holds for some c > 0 it holds for every larger c), so it does not express Wirsing's characterisation. The sibling declaration Erdos491.erdos_491 states the result correctly as (n ↦ f n − c·log n) =O[atTop] 1, and the docstring here claims the linked formal proof 'gives this statement', which is true only in the sense that the correct theorem implies this weaker one. The ≤ should be =."
+    }
+]

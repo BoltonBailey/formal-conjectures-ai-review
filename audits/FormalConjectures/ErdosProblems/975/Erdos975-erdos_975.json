@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/975: for an irreducible non-constant f ∈ ℤ[x] with f(n) ≥ 1 for all large n, is there c = c(f) > 0 with Σ_{n≤X} τ(f(n)) ∼ cX log X? In Lean Erdos975Sum f x = Σ_{n=0}^{⌊x⌋} σ₀(⌊f(n)⌋₊) (finitely many non-positive values contribute 0, and the n = 0 term is immaterial), and the statement is: for every f with natDegree ≠ 0, Irreducible f and f(n) ≥ 1 eventually, ∃ c > 0 with Erdos975Sum f x/(x log x) → c. Integer coefficients are assumed, as on the page. Faithful."
+    }
+]

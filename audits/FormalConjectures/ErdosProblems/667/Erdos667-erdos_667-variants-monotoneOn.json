@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Variant for erdosproblems.com/667: c(p,·) is nondecreasing on [1, C(p−1,2)+1]. This is the easy half of the question (not stated on the page but immediate): increasing q shrinks the family of (p,q)-locally dense graphs, so H(n; p, q) and hence the liminf exponent can only increase. Stated as MonotoneOn (c p) on the same interval as the main problem and tagged textbook with a formal proof link. Correct."
+    }
+]

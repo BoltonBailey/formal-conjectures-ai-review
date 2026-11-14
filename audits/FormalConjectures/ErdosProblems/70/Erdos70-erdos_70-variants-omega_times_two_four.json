@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Special case of erdosproblems.com/70 (β = ω·2, n = 4): RealCardinalRamsey3 (ω * 2) 4, i.e. every 2-colouring of triples of reals has a red set of order type ω + ω or a blue 4-set. Mathlib's ordinal product ω * 2 is ω + ω, the least ordinal not covered by the Erdős–Rado result λ → (ω+n, 4)³ quoted on the page, as the docstring says. A correctly stated instance of the main question; I could not independently confirm from the page that this particular case is still open (the page lists no later progress)."
+    }
+]

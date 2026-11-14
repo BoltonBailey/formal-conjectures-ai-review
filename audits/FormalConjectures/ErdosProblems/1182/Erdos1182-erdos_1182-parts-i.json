@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/1182 (Burr–Erdős–Faudree–Rousseau–Schelp): f(n) is maximal such that there is a connected graph with n vertices and f(n) edges with R(K_3,G) = 2n−1; 'Estimate f(n) and F(n)'. In Lean IsTriangleGood G is graphRamsey K_3 G = 2n − 1 (least N such that every graph C on N vertices contains a triangle or has G in its complement), and f n is the maximum edge count of a connected 3-good graph on Fin n; tests in small_values agree with the published table. The value question reads 'estimate f(n)' as f =Θ[atTop] answer. The definition is faithful; as with other 'estimate' questions the statement is satisfied by the trivial answer f itself and fixes Θ as the required precision (the known bounds n^{3/2}(log n)^{1/2} ≪ f(n) ≪ n^{5/3}(log n)^{2/3} are far apart), which the docstring states but does not qualify."
+    }
+]

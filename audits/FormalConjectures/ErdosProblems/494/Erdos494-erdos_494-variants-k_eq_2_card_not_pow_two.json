@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/494 (Selfridge–Straus): for finite A ⊂ ℂ, A_k is the multiset of sums of k distinct elements; they 'prove that this is true if k = 2 and |A| ≠ 2^l (for l ≥ 0)'. In Lean sumMultiset A k is the multiset of sums over k-element subsets, Erdos494Unique k card says two sets of size card with equal sumMultiset are equal, and the statement is ∀ card, (∀ l, card ≠ 2^l) → Erdos494Unique 2 card. Faithful."
+    }
+]

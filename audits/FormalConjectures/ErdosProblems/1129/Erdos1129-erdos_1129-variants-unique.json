@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1129: 'If x_1 = −1 and x_n = 1 then there is a unique minimising set of x_i, which are symmetric around 0 (such a choice is called canonical)', via Kilgore and de Boor–Pinkus. The Lean statement: for n ≥ 2 there is exactly one strictly increasing node set in [−1,1] containing both −1 and 1 whose interior local maxima gapMax x i (1 ≤ i ≤ n−1) are all equal. This is the existence (Kilgore–Cheney) and uniqueness (de Boor–Pinkus) of the equioscillating canonical node set; for n = 2 it is the trivial set (−1,1). Faithful."
+    }
+]

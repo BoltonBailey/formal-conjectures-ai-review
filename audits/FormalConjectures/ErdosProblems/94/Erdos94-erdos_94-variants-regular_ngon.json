@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/94: 'Erdős and Fishburn also make the stronger conjecture that Σ f(u_i)² is maximal for the regular n-gon (for large enough n).' The Lean statement: for all sufficiently large n, every n-point set P ⊂ ℝ² in convex position (ConvexIndep) has Σ f(u)² at most the corresponding sum for regularNGon n, the n-th roots of unity on the unit circle (n distinct points; the sum is scale-invariant). Faithful."
+    }
+]

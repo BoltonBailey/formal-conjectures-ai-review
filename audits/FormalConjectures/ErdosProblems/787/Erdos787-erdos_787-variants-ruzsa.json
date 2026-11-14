@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/787: the upper bound g(n) ≪ exp(√log n) due to Ruzsa [Ru05]. The Lean statement: ∃ C > 0, for all large n, g ℝ n ≤ exp(C·√(log n)), i.e. g(n) ≤ exp(O(√log n)). The docstring notes that this is the form actually proved in Ruzsa's paper; it is implied by the page's literal ≪ exp(√log n) and is the standard way the result is quoted. I did not open [Ru05] itself; the Lean form is the weaker of the two readings, so it is safe. Faithful."
+    }
+]

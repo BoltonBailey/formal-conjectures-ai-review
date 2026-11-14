@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/368: 'Erdős [Er76d] conjectured that, for every ε > 0, there are infinitely many n such that F(n) < (log n)^{2+ε}.' The Lean statement: ∀ ε > 0, ∃ᶠ n in atTop, F n < (log n)^{2+ε}, with F the largest prime factor of n(n+1). Faithful."
+    }
+]

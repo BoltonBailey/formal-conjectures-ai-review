@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the comments to Green's Problem 17: if α → 0 sufficiently slowly there must be such a progression; 'However, this may even be true with α = (1 − c)^n for some c > 0.' The Lean statement: ∃ c ∈ (0,1), for all large n, every A ⊆ F_3^n with |A| ≥ (1−c)^n·3^n contains a restricted progression. Tagged as an open question. Faithful."
+    }
+]

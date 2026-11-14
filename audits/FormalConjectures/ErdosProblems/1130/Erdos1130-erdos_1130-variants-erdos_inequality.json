@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Related to erdosproblems.com/1130 ('It follows by the bounds discussed in [1129] that Υ ≤ (2/π) log n + O(1)'): the Lean statement says that for any node set x and any minimiser y of the Lebesgue constant (same n), upsilon x ≤ lebesgueConstant y, i.e. Υ(x) ≤ Λ*. This is Erdős's conjectured inequality proved by Kilgore and de Boor–Pinkus (the smallest interior local maximum of any node set is at most the minimal Lebesgue constant), and Υ, being a minimum over a larger family of gaps, is no bigger. The degenerate cases n = 0, 1 hold with equality. Correct and consistent with the page."
+    }
+]

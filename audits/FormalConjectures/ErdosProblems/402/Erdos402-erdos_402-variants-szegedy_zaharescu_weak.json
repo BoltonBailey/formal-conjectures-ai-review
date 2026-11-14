@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/402: the conjecture, with the characterisation of equality, was 'proved for all sufficiently large sets' by Szegedy and Zaharescu; the docstring quotes Szegedy's theorem: for n ≥ n₀ and distinct naturals a_1..a_n, max a_i/(a_i,a_j) ≥ n, with equality only for {k, 2k, …, nk} or {k/1, …, k/n}. The Lean statement: for all large n and every n-element set A of positive naturals, n ≤ sup over pairs of a/gcd(a,b) (exact natural division), and equality holds iff A = {k·i : 1 ≤ i ≤ n} or A = {k·L/i : 1 ≤ i ≤ n} for some k > 0, L = lcm(1..n). Writing the second family as k·L/i correctly encodes 'k/i with all quotients integral'; the sporadic set {2,3,4,6} is excluded by taking n large. The iff strengthens the quoted 'if equality then' by the easy converse. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/856: any A ⊆ {1,…,N} with no k distinct elements having the same pairwise lcm has harmonic sum Σ_{n∈A} 1/n ≤ f k N. Immediate from the definition of f as the supremum of a finite set of such sums, and proved in the file. Correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/938: with n_1 < n_2 < … the powerful numbers, are there only finitely many three-term arithmetic progressions of consecutive terms n_k, n_{k+1}, n_{k+2}? The Lean statement says the set of finsets P = {nth Powerful k, nth Powerful (k+1), nth Powerful (k+2)} (three consecutive powerful numbers, Powerful = 2-full) that form an arithmetic progression of length 3 (Set.IsAPOfLength 3: three elements a, a+d, a+2d) is finite. Since distinct k give distinct triples, finiteness of this set is finiteness of the set of such k; for three increasing numbers being an AP as a set is the same as n_{k+1} − n_k = n_{k+2} − n_{k+1}. Faithful."
+    }
+]

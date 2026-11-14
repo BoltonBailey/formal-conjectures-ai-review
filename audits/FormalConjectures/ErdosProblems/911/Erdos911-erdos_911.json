@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/911: with R̂(G) the size Ramsey number, is there a function f with f(x)/x → ∞ such that, for all large C, any graph G with n vertices and e ≥ Cn edges has R̂(G) > f(C)·e? The Lean statement: ∃ f : ℝ → ℝ with f(x)/x → ∞ along atTop and ∃ C₀ such that for all C ≥ C₀, all n > 0 and all graphs G on Fin n with C·n ≤ e(G), f(C)·e(G) < sizeRamsey G G, where sizeRamsey G G is the least number of edges of a graph F every red/blue edge-colouring of which contains a monochromatic copy of G (diagonal case). The quantifier order (f first, then large C) matches, and the n > 0 hypothesis only removes the empty graph. Faithful."
+    }
+]

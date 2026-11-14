@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/690: Cambie showed d_k(p) 'is not unimodular for 4 ≤ k ≤ 20'. The Lean statement: for 4 ≤ k ≤ 20 and any d recording the densities, ¬ IsUnimodalOnPrimes d. Since the densities exist and are unique, quantifying over d is equivalent to speaking of d_k itself; the failure of unimodality in the cited work is via a strict descent followed by a later strict ascent, which refutes the non-strict definition used here. Faithful."
+    }
+]

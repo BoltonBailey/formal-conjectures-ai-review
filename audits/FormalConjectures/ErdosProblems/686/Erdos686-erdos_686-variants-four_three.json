@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Special case of erdosproblems.com/686, sourced to its forum thread: 4 has no representation with k = 3, i.e. no n and m ≥ n + 3 with 4(n+1)(n+2)(n+3) = (m+1)(m+2)(m+3). I checked the thread (erdosproblems.com/forum/thread/686): a contributor reports a proof that 'none of 4, 49, 64 have a representation for k = 3' (via Chan's method with Bennett's explicit irrationality measures), and the status summary there reads 'N = 4, 25, 49, 64, 81 cannot be represented when k ≤ 4'. As a sanity check I also searched all n < 200000 and found no solution. The Lean statement is the correct formalisation of this claim (with n ≥ 0 as in the thread's admissibility condition); its truth rests on the forum proof."
+    }
+]

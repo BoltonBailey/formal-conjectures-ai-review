@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/595 (Erdős–Hajnal): 'Is there an infinite graph G which contains no K_4 and is not the union of countably many triangle-free graphs?'. The Lean statement: ∃ an infinite vertex type V and G : SimpleGraph V with G.CliqueFree 4 and ¬ IsCountableUnionOfTriangleFree G, where the latter means G = ⨆ i : ℕ, H i for some sequence of 3-clique-free graphs on V (equivalently an ℕ-colouring of the edges with no monochromatic triangle, as proved in the file). 'Countably many' as an ℕ-indexed family loses nothing since ⊥ may be repeated. The universe-polymorphic ∃ (V : Type*) is equivalent across universes via ULift. Stated existentially as an open question. Faithful."
+    }
+]

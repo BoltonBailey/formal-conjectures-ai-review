@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's '100 open problems', Problem 75: 'Let X ⊂ R² be a set of n points. Does there exist a line ℓ through at least two points of X such that the numbers of points on either side of ℓ differ by at most 100?' The Lean statement: for every finite X ⊂ ℝ² with at least 2 points there are distinct p, q ∈ X with imbalance X p q ≤ 100, where imbalance is |#left − #right| computed from the sign of the cross product (q−p)×(x−p), points on the line counting on neither side. The hypothesis 2 ≤ #X is needed for a line through two points to exist and is documented. Faithful."
+    }
+]

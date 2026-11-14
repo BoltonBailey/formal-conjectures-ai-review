@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Not on the erdosproblems.com/875 page itself; compared against the abstract of Erdős–Nicolas–Sárközy, 'Sommes de sous-ensembles' (Numdam JTNB_1991__3_1_55_0): 'Finally, we construct an infinite admissible set A such that A(x) = Card{a ∈ A; a ≤ x} ≫ x^{5−2√6}', where admissible means subsets of different cardinalities have different sums. The Lean statement: ∃ infinite admissible A and c > 0 with c·x^{5−2√6} ≤ countingFunction A x for all large x. The definitions of admissibility agree (for sets of positive integers) and ≫ is unpacked correctly. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/763: Erdős and Fuchs proved that even Σ_{n≤N} 1_A∗1_A(n) = cN + o(N^{1/4}/(log N)^{1/2}) is impossible. The Lean statement: ¬ ∃ A, c > 0 with (N ↦ Σ_{n≤N} sumRep A n − cN) =o[atTop] (N ↦ N^{1/4}/√(log N)). Same counting function and error term as the source. Faithful."
+    }
+]

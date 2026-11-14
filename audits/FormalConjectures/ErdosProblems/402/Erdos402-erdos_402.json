@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/402 (Graham's conjecture, proved by Balasubramanian–Soundararajan): for any finite A ⊂ ℕ there exist a, b ∈ A with gcd(a,b) ≤ a/|A|. The Lean statement: for a nonempty finset A of positive naturals there are a, b ∈ A with (gcd a b : ℚ) ≤ a/|A|, the division taken in ℚ. Nonemptiness and 0 ∉ A are the natural implicit hypotheses. Faithful."
+    }
+]

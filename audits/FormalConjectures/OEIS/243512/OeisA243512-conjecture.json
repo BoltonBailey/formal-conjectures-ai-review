@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A243512: 'Least index i for which A243473(i) = n, or 0 if no such index exists', where A243473(i) is numerator minus denominator of σ(i)/i in lowest terms, with the author's comment '… all numbers seem to appear sooner or later … I conjecture that no such 0 will ever occur.' In Lean abundancyDiff i is num − den of mkRat σ(i) i (non-negative since σ(i) ≥ i), a n is the infimum of positive i with abundancyDiff i = n (so 0 exactly when none exists, as in the OEIS convention), and the tests match the data (a(0) = 1, a(1) = 2, a(3) = 4, a(4) = 9, a(5) = 14). The statement a n ≠ 0 for every n is the conjecture. Faithful."
+    }
+]

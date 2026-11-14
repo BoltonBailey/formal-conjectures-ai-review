@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/771: 'The complementary bound f(n) ≤ (1/2 + o(1))·n/log n was proved by Alon and Freiman'. The Lean statement: for every ε > 0, f n ≤ (1/2 + ε)·n/log n for all large n. Faithful."
+    }
+]

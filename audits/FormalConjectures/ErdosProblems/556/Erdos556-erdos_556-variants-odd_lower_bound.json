@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/556: 'This inequality is best possible for odd n.' The Lean statement: for odd n ≥ 3, 4n − 3 ≤ multicolourRamsey (cycleGraph n) 3. This is the standard lower-bound construction (a 3-colouring of K_{4n−4} with no monochromatic odd C_n), and for n = 3 it reads 9 ≤ R(K_3;3) = 17. Faithful."
+    }
+]

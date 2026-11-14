@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Sanity lemma for erdosproblems.com/595: the complete graph on ℕ is a countable union of triangle-free graphs, via the decomposition into stars centred at each m. Correct and proved in the file; it illustrates why the K_4-free hypothesis and uncountable vertex sets are what make the problem non-trivial."
+    }
+]

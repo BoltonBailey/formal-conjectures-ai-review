@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/763 (Erdős–Turán): for A ⊆ ℕ, can there exist c > 0 with Σ_{n≤N} 1_A∗1_A(n) = cN + O(1)? Erdős and Fuchs proved the answer is no. The Lean statement: ¬ ∃ A : Set ℕ and c > 0 with (N ↦ Σ_{n∈range(N+1)} sumRep A n − c·N) =O[atTop] 1, where sumRep A n = 1_A∗1_A(n) counts ordered pairs (a,b) ∈ A² with a + b = n. The sum over n ≤ N includes n = 0, which affects only the O(1) term. Negated form with solved/question tags per upstream convention. Faithful."
+    }
+]

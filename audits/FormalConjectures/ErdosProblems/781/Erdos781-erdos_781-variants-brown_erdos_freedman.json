@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/781: Brown, Erdős and Freedman proved k² − k + 1 ≤ f(k) ≤ (k³ − 4k + 9)/3. The Lean statement, for k ≥ 1: k² − k + 1 ≤ f k (in ℕ, where the truncated subtraction is exact) and (f k : ℚ) ≤ (k³ − 4k + 9)/3 with the right-hand side computed in ℚ. Sanity check: k = 1 gives 1 ≤ f(1) = 1 ≤ 2 and k = 2 gives 3 ≤ f(2) = 3 ≤ 3. Faithful."
+    }
+]

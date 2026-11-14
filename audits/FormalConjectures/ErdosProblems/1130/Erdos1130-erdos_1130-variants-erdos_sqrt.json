@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1130: 'Erdős [Er47] could prove Υ(x_1,…,x_n) < √n.' The Lean statement: for n ≥ 2 and every node set x (distinct nodes in [−1,1]), upsilon x < √n. The restriction n ≥ 2 is correct and documented (for n = 1 the Lebesgue function is identically 1 = √1, so strictness fails). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/46: Croot proved more — 'indeed, there are infinitely many disjoint such monochromatic solutions.' The Lean statement: for every finite colouring there is a sequence S : ℕ → Finset ℕ of pairwise disjoint sets, each consisting of integers ≥ 2 with reciprocal sum 1 and each monochromatic. Each solution may have its own colour, which matches the source wording (and by pigeonhole infinitely many share a colour anyway). Faithful."
+    }
+]

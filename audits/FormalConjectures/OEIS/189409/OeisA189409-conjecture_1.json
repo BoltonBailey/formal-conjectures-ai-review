@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A189409 ('a(n) = prime(n)#^2 + 1', offset 0, data 2, 5, 37, 901, 44101, …) and its comment 'It is unknown whether or not numbers in this sequence are always squarefree.' In Lean a n = (Nat.kthPrimorial n)² + 1 with kthPrimorial n the product of the first n primes (tests match the data), and the statement ∀ n, Squarefree (a n) is tagged as an open question, matching the 'unknown whether' phrasing. Faithful."
+    }
+]

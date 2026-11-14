@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Variant addressing the literal wording of erdosproblems.com/384 ('a prime p < n/2'): the Lean statement is the negation of the strict version, ¬ ∀ n k, 1 < k → k < n − 1 → (n,k) ≠ (7,3) → (n,k) ≠ (7,4) → ∃ prime p ∣ C(n,k) with 2p < n. It is true, witnessed by (n,k) = (4,2): C(4,2) = 6 has prime factors 2 and 3, neither below 2. This correctly records that the page's strict inequality cannot be taken literally. Correct."
+    }
+]
