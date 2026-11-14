@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/649: for fixed p, q the number of n with P(n) = p and P(n+1) = q is finite, since the largest prime factor of n(n+1) tends to ∞ (Mahler). The Lean statement asserts finiteness of {n | maxPrimeFac n = p ∧ maxPrimeFac (n+1) = q} for arbitrary p, q : ℕ; for non-prime values the set is still finite by the same argument (bounded P(n(n+1))). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/887 (Erdős–Rosenfeld): is there an absolute K such that for every C > 0 and all large n, n has at most K divisors in (n^{1/2}, n^{1/2} + C n^{1/4})? The Lean statement ∃ K ∀ C > 0, eventually, #{d ∈ Ioo ⌊√n⌋ ⌈√n + C n^{1/4}⌉ | d ∣ n} ≤ K. For integers d, ⌊√n⌋ < d ⟺ √n < d and d < ⌈x⌉ ⟺ d < x, so the natural-number interval is exactly the open real interval. Faithful."
+    }
+]

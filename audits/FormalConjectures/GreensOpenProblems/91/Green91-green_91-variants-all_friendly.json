@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green Problem 91 comments: FKNSS believe the 99% may be replaced by 100%: is there almost surely a bipartition into two sets of n/2 vertices with all vertices having more neighbours on their own side? The Lean statement asks P(∃ s, |s| = ⌊n/2⌋, ∀ v, friendliness G s v > 0) → 1, which faithfully encodes this. It is tagged `research solved`; Green's 'Update 2023' says Minzer–Sah–Sawhney 'comprehensively dispatched this problem', and the docstring candidly notes that MSS24 Theorem 1.3 relies on a numerically verified hypothesis (Assumption 1.5) checked partly in floating point. The statement itself matches the source; the solved tag rests on that computer check, which the docstring discloses. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: position X (n+1) ω = position X n ω + X n ω, i.e. s_{n+1} = s_n + X_n, matching the definition of the walk as partial sums of steps (erdosproblems.com/1165). Correct and immediate from Finset.sum_range_succ."
+    }
+]

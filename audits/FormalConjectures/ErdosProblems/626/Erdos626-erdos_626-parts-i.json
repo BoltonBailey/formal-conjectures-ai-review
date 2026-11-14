@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/626: for k ≥ 4, g_k(n) is the largest m such that some n-vertex graph has chromatic number k and girth > m; does lim g_k(n)/log n exist? The Lean g k n is sSup {m | ∃ G on Fin n, χ(G) = k ∧ m < egirth G}; for k ≥ 4 every such graph has a cycle, so the set is bounded and sSup is the true maximum (and the sSup ∅ = 0 convention for n < k affects only finitely many n). The statement ∀ k ≥ 4, ∃ L : ℝ with g_k(n)/log n → L is the 'yes' form. Faithful."
+    }
+]

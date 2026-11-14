@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/626: Kostochka [Ko88] proved g_k(n) ≥ (1/(4 log k)) log n. The Lean statement is the slightly weaker eventual form ∀ ε > 0, eventually (1/(4 log k) − ε) log n ≤ g_k(n), and the docstring explains the weakening (Kostochka's bound concerns the girth, which exceeds g_k(n) by 1). The weakened form follows from the stated result, so it is a correct and honest record. Faithful."
+    }
+]

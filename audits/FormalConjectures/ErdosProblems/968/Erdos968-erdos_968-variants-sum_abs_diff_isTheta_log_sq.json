@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/968: Erdős and Prachar proved Σ_{p_n < x} |u_{n+1} − u_n| ≍ (log x)². The Lean statement sums |u(n+1) − u(n)| over n < primeCounting' x (the number of primes < x) and asserts Θ((log x)²). With the 0-based shift this corresponds to the classical differences u_{k+1} − u_k for k = 1..π(x) (off by at most one bounded term relative to the page's range), which does not affect a Θ statement. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/858: for A ⊆ {1,…,N} with no solution of at = b (a, b ∈ A) where the least prime factor of t exceeds a, estimate max (1/log N) Σ_{n∈A} 1/n; solved by Chojecki/GPT-5.4 Pro: max Σ 1/n = (c + o(1)) log N with explicit c ≈ 0.618. IsAdmissible A says every solution of a·t = b has t.minFac ≤ a; since Nat.minFac 1 = 1, the trivial t = 1 is correctly not counted as a forbidden solution, matching the intended t > 1. M N is the sSup over admissible A ⊆ [1,N] of Σ 1/n (a finite set of values, so a true max). The theorem asserts M N / log N converges to some c, which is the content of the resolution; the explicit value of c is not pinned down, but positivity is stated separately in the `positive` variant. A reasonable formalisation of 'estimate'. Faithful."
+    }
+]

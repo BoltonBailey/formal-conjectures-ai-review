@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A236097 (Sun): a(n) = #{0 < k < n−2 : p = φ(k) + φ(n−k)/2 + 1, prime(p) − p − 1 and prime(p) − p + 1 all prime}; conjecture a(n) > 0 for n > 31. The Lean `a` sums over k ∈ [1, n−3] (Ico 1 (n−2)), matching the Mathematica program; φ(n−k)/2 is exact since n−k ≥ 3 makes φ(n−k) even; prime(p) is Nat.nth Nat.Prime (p−1); truncated subtraction only matters when the true value is non-positive, which is not prime anyway. Test values (a(1..5) = 0, a(11) = 3) match the data. The statement is the conjecture. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/541 (Graham's question): for residues a_1,…,a_p mod a prime p such that every non-empty S ⊆ [p] with Σ_{i∈S} a_i ≡ 0 has |S| = r for a fixed r, must there be at most two distinct residues? Solved (Erdős–Szemerédi for large p; Gao–Hamidoune–Wang for all moduli). The Lean statement: for every prime p and a : Fin p → ZMod p admitting such an r, |range a| ≤ 2. The `Fact p.Prime` hypothesis is an unusual way to assume primality but is logically just p prime. Positive 'yes' form. Faithful."
+    }
+]

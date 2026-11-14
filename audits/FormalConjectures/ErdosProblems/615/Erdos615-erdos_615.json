@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/615 (EHSSS93): is there c > 0 such that every n-vertex graph with ≥ (1/8 − c)n² edges contains a K₄ or an independent set on ≥ n/log n vertices? Answered no by Fox–Loh–Zhao. The Lean statement negates '∃ c > 0, for all large n, every G on Fin n with ≥ (1/8 − c)n² edges has ¬CliqueFree 4 or α(G) ≥ n/log n'. Adding 'for sufficiently large n' is the natural reading of an asymptotic Ramsey–Turán question (and only makes the negated claim weaker, so the negation is the stronger, intended statement). Faithful."
+    }
+]

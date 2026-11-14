@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's '100 open problems', Problem 91: take G(n,1/2); is there almost surely a bipartition into two sets of n/2 vertices such that 99% of vertices have more neighbours on their own side than on the other? (Solved: FKNSS.) The Lean statement uses Mathlib's SimpleGraph.binomialRandom on Fin n with p = 1/2, reads 'almost surely' as probability → 1, and asks for s with |s| = ⌊n/2⌋ and at least (99/100)n vertices with friendliness > 0, where friendliness = #neighbours on own side − #neighbours on other side. Ties count as not friendly, matching 'more neighbours'. These are the standard readings (and the convention of FKNSS). Stated positively, consistent with the 'yes' answer. Faithful."
+    }
+]

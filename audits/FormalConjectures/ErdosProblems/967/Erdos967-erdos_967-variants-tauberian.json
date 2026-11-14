@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/967: Erdős–Ingham proved that 'no such zeros' is equivalent to: for every non-decreasing f : ℝ → ℝ_{≥0}, bounded on bounded intervals and 0 for x < 1, f(x) + Σ_k f(x/a_k) = (1 + Σ 1/a_k + o(1)) x implies f(x) = (1+o(1)) x. The Lean statement, for a fixed strictly increasing a with a 0 > 1 and Σ 1/a_k < ∞, is the iff between ∀ t, 1 + Σ' a_k^{−1−it} ≠ 0 and that Tauberian implication, encoding the asymptotics as limits of ratios with x. For each x only finitely many f(x/a_k) are nonzero, so the tsum is a genuine finite sum. Faithful."
+    }
+]

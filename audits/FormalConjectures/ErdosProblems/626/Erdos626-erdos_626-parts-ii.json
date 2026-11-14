@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/626: with h^{(m)}(n) the maximal chromatic number of an n-vertex graph of girth > m, does lim log h^{(m)}(n)/log n exist (and what is its value)? The Lean h m n is sSup of chromatic numbers of graphs on Fin n with egirth > m (bounded by n, so a true maximum); the statement ∀ m, ∃ L with log h/log n → L encodes existence, with the value addressed in the h_odd/h_even variants. For m ≤ 2, h = n and the limit is 1, consistent. Faithful."
+    }
+]

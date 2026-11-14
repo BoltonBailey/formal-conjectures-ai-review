@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A237348 (Sun): for each d ≥ 1 there is a positive integer N(d) such that every n > N(d) is k + m (k, m > 0) with prime(k) + 2d and prime(prime(m)) + 2d both prime. The Lean statement uses 1-indexed primes via Nat.nth Nat.Prime (j − 1), so prime(prime(m)) = nth Prime (nth Prime (m−1) − 1), and asks ∃ N > 0 with the property for all n > N. Faithful."
+    }
+]

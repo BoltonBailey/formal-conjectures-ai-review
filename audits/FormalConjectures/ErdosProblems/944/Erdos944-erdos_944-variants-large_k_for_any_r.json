@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/944: Martinsson and Steiner [MaSt25] proved the statement for every r ≥ 1 once k is sufficiently large depending on r. The Lean statement: for r ≥ 1, eventually in k there is G with IsErdos944 G k r. Faithful (and implied by Skottova–Steiner's stronger k ≥ 5 result mentioned on the page)."
+    }
+]

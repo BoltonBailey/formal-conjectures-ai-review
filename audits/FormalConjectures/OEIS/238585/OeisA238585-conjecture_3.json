@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A238585 conjecture (ii): if n > 2 and n ≠ 9, then prime(n)² + (prime(p) − 1)² is prime for some prime p < n. The Lean statement has exactly these hypotheses and asks for p < n prime with nth Prime (n−1)² + (nth Prime (p−1) − 1)² prime, the roles of n and p swapped relative to a(n) as in the source. Natural-number subtraction is harmless since primes are ≥ 2. Faithful."
+    }
+]

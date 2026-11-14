@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/652: 'we always have R(x_1)R(x_2) ≫ n'. The Lean statement gives c > 0 with c·n ≤ R(p)·R(q) for every pair of distinct points p, q of every finite set. This is equivalent to the page's claim for the two smallest values (and true, since each other point is determined up to 2 choices by its distances to p and q). Faithful."
+    }
+]

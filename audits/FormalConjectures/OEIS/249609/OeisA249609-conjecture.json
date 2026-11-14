@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A249609 (Shevelev): a(n) = smallest m ∈ [1,n] with C(n,m) evil (even binary weight), 0 if none; conjecture: only n = 0, 1, 2, 7, 8 have all entries of row n of Pascal's triangle odious. The Lean `a` searches List.range' 1 n = [1,…,n] with isEvil via the count of 1s in Nat.digits 2, returning 0 if none; tests a(0..4) = 0,0,0,1,2 match. Since C(n,0) = 1 is always odious, 'all entries of row n odious' is equivalent to a(n) = 0, so the statement a n = 0 ↔ n ∈ {0,1,2,7,8} is exactly the conjecture. Faithful."
+    }
+]

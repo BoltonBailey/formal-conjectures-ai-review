@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/547: if T is a tree on n vertices then R(T) ≤ 2n − 2; the page notes this follows directly from the Erdős–Sós conjecture [548]. The Lean statement: for n ≥ 2 and every tree T on Fin n, diagonalGraphRamsey T ≤ 2n − 2 (the 2-colour Ramsey number R(T,T)). The hypothesis n ≥ 2 is needed and harmless (for n = 1, R(K₁) = 1 > 0). The `research solved` tag relies on erdos_548 being proved; formal-conjectures marks Erdős 548 as solved with a formal proof link, and the linked proof of 547 derives the bound from it by pigeonhole (half the edges of K_{2n−2} exceed the Erdős–Sós threshold), consistent with the page's remark. Faithful."
+    }
+]

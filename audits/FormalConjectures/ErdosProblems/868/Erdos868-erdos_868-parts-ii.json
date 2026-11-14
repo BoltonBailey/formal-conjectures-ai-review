@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/868: what if 1_A ∗ 1_A(n) > ε log n for all large n, for arbitrary fixed ε > 0 — must the basis A contain a minimal basis of order 2? Larsen–Larsen: no (a basis with 1_A ∗ 1_A(n) > c log n containing no minimal basis). The Lean statement negates '∀ A, ∀ ε > 0, A an asymptotic basis of order 2 with f(n) > ε log n eventually → A contains a minimal basis B (B a basis and B ∖ {b} not a basis for each b ∈ B)'. Here f = ncard_add_repr A 2 counts unordered representations (nondecreasing pairs) rather than the ordered count 1_A ∗ 1_A; these differ by a factor ≤ 2 (plus at most 1), which is absorbed by the arbitrary ε. Faithful."
+    }
+]

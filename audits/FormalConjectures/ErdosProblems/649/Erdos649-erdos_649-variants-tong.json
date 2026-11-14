@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/649: Alan Tong proved that for any prime p there are infinitely many primes q for which no n has P(n) = p and P(n+1) = q (choose q ≡ −1 mod 4m, m the product of primes ≤ p, and use quadratic reciprocity). The Lean statement: for prime p, {q prime | ¬∃ n, P(n) = p ∧ P(n+1) = q} is infinite. Faithful."
+    }
+]

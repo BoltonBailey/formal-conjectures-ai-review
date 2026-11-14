@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/709: Erdős and Surányi proved (log n)^c ≪ f(n) for some c > 0. The Lean statement ∃ c > 0, (log n)^c = O(f(n)), with f as in erdos_709. Faithful."
+    }
+]

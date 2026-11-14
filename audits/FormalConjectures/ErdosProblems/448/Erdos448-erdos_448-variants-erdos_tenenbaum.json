@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/448: Erdős–Tenenbaum showed the upper density of {n : τ⁺(n) < ε τ(n)} is ≍ ε^{1−o(1)}, the o(1) → 0 as ε → 0. The Lean statement encodes this as log(upper density)/log ε → 1 as ε → 0⁺, which is equivalent to the upper density being ε^{1+o(1)}, the usual meaning of the page's ε^{1−o(1)} notation (the multiplicative constants in ≍ are absorbed). tauPlus as in erdos_448. Faithful."
+    }
+]

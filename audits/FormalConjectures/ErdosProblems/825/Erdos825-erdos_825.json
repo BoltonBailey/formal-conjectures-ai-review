@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/825 (Benkoski–Erdős): is there an absolute C > 0 such that every n with σ(n) > Cn is a sum of distinct proper divisors of n? The page records an affirmative solution by Larsen. The Lean statement: ∃ C > 0 such that every n with σ₁(n) > C·n has a subset s of its proper divisors summing to n (subsets give distinctness). n = 0 is excluded automatically since σ(0) = 0. Faithful."
+    }
+]

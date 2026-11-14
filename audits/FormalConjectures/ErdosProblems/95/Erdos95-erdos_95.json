@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/95: for x_1,…,x_n ∈ ℝ² with distances u_1,…,u_t, each u_i occurring f(u_i) times, Σ f(u_i)² ≪_ε n^{3+ε} for every ε > 0 (solved by Guth–Katz). The Lean statement quantifies ∀ ε > 0 ∃ C > 0 ∀ finite P ⊆ ℝ², Σ_{u ∈ distanceSet P} distanceMultiplicity(P,u)² ≤ C·|P|^{3+ε}. distanceSet is the image of dist over offDiag (the positive distances realised), and distanceMultiplicity counts ordered off-diagonal pairs at distance u divided by 2 (exactly the number of unordered pairs, since the count is even), matching f(u_i). The constant depending only on ε is the ≪_ε. The problem is phrased as a claim on the page, so the `question` tag is slightly odd, but the statement itself is correct. Faithful."
+    }
+]

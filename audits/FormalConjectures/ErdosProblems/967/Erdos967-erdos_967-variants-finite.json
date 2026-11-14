@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/967: 'It remains open whether this is true for every finite sequence of integers.' The Lean statement: for every finite set A of integers > 1 and every t ∈ ℝ, 1 + Σ_{n∈A} n^{−1−it} ≠ 0 — the finite analogue of the main question in its 'yes' form. Using a Finset (distinct elements) matches 'sequence 1 < a_1 < ⋯'. Faithful."
+    }
+]

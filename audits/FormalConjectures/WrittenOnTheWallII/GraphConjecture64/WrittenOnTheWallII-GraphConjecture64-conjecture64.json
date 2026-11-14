@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html via the Wayback Machine), Conjecture 64 (listed O): 'If G is a simple connected graph, then f(G) ≥ CEIL[sqrt(α(G)·(1 + (n mod Δ(G))))]', f(G) the maximum order of an induced forest, α the independence number, Δ the maximum degree. The Lean statement negates the universal claim over connected graphs on finite nontrivial types, with the radicand α·(1 + n mod Δ) computed in ℕ then cast, and largestInducedForestSize for f(G); nontriviality avoids Δ = 0. The cited counterexample C₅[K₄] checks out arithmetically: 20 vertices, Δ = 3 + 8 = 11, n mod Δ = 9, α = α(C₅) = 2, so the bound is ⌈√20⌉ = 5, while its largest induced forest has 4 vertices (at most 2 vertices per clique, and vertices in adjacent cliques create triangles), with a linked Lean certificate. The negation is the correct form for a refuted conjecture. Faithful."
+    }
+]

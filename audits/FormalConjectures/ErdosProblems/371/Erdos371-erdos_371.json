@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/371 (Erdős–Pomerance): with P(n) the largest prime factor of n, show that {n : P(n) < P(n+1)} has density 1/2. The page now records a formalised proof of this. The Lean statement: {n | maxPrimeFac (n+1) > maxPrimeFac n} has natural density 1/2. Conventions for P(0), P(1) affect at most two values of n and are irrelevant for density. Faithful."
+    }
+]

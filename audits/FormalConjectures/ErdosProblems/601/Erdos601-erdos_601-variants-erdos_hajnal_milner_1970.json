@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/601: Erdős, Hajnal and Milner [EHM70] proved the property for α < ω₁^{ω+2}. The Lean statement asserts HasPathOrIndepSetOfType α for all limit ordinals α < ω_ 1 ^ (ω + 2), with ordinal exponentiation and ω_ 1 the first uncountable initial ordinal, matching the source. Faithful."
+    }
+]

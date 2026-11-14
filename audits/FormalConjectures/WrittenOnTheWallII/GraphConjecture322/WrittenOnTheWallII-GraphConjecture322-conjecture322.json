@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and wowIIdefs.js via the Wayback Machine), Conjecture 322 (listed O): 'Let G be a simple connected graph with n ≥ 5. If λ_max(Ḡ) ≤ 1, then G is well total dominated' — the overline on G is in the source HTML. Definitions: λ(v) (def 4) is the independence number of the subgraph induced by the neighbours of v, λ_max its maximum; Ḡ (def 31) is the complement; 'well total dominated' (def 99) means every minimal total dominating set is a minimum one. The Lean statement takes G connected with |V| ≥ 5 and ∀ v, indepNeighborsCard Gᶜ v ≤ 1 (indepNum of Gᶜ induced on Gᶜ's neighbourhood of v), concluding IsWellTotallyDominated G (all minimal total dominating sets have equal size, equivalent to def 99 since minimum TDSs are minimal). The `research solved` tag is supported by the in-file proof (every edge of G is a total dominating set, so minimal TDSs have size 2). Faithful."
+    }
+]

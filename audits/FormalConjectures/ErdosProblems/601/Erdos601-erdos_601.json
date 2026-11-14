@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/601: for which limit ordinals α must every graph on vertex set α have either an infinite path or an independent set of order type α? HasPathOrIndepSetOfType α quantifies over all simple graphs on α.ToType and asks for an injective f : ℕ → α.ToType with consecutive vertices adjacent (a one-way infinite path) or an independent set s with typeLT s = α (order type inherited from α). The theorem characterises, for every limit ordinal α (Order.IsSuccLimit, which excludes 0) in universe 0, this property as erdos_601.answer α, per the `question value` convention with an answer of type Ordinal → Prop. Restricting to universe 0 is harmless for this purpose. Faithful."
+    }
+]

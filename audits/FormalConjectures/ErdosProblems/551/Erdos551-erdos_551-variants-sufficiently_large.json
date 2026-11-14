@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/551: Keevash–Long–Skokan proved R(C_k, K_n) = (k−1)(n−1)+1 whenever k ≥ C log n / log log n, 'thus establishing the conjecture for sufficiently large n'. The Lean statement: for all sufficiently large n and every k ≥ n, graphRamsey (cycleGraph k) (K_n) = (k−1)(n−1)+1. For large n, k ≥ n implies k ≥ C log n / log log n, so this follows from KLS21; cycleGraph k for k ≥ n ≥ 3 is the genuine k-cycle, and graphRamsey is the standard two-graph Ramsey number. Faithful."
+    }
+]

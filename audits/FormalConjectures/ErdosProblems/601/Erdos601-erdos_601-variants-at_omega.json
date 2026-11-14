@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The base case α = ω: every graph on ω has an infinite path or an infinite independent set (any infinite subset of ω has order type ω). This is true (by Ramsey's theorem an infinite clique or infinite independent set exists, and an infinite clique contains an infinite path) and is a special case of the EHM70 result recorded on erdosproblems.com/601. The statement HasPathOrIndepSetOfType ω encodes it correctly. Faithful (essentially a textbook special case)."
+    }
+]

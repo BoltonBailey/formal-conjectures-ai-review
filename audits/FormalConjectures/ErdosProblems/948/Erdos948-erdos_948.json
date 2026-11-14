@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/948: is there f and k such that every k-colouring of the integers admits a sequence a_1 < a_2 < ⋯ with a_n < f(n) infinitely often whose finite (nonempty) subset sums miss some colour? Answered no (GPT Pro / Price; for every f there is a colouring where every such sequence's finite sums hit all colours). The Lean statement negates '∃ f : ℕ → ℕ, ∃ k > 0, ∀ colouring ℤ → Fin k, ∃ strictly increasing a : ℕ → ℤ with a n < f n infinitely often and some colour avoided by all nonempty finite sums'. Colouring all of ℤ and allowing integer-valued sequences is the literal reading of 'integers' (Erdős likely meant positive integers); this only makes the negated statement stronger, and a formal proof is linked. k > 0 excludes the vacuous k = 0. Faithful."
+    }
+]

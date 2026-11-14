@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/709: if a block of `small` consecutive integers after `start` contains distinct multiples of the elements of A, so does the longer block of `large ≥ small` integers starting at the same point. Correct, proved in-file."
+    }
+]

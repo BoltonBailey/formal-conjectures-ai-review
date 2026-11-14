@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/967: Yip [Yi25] proved that for any real t ≠ 0 there is a sequence of integers 1 < a_1 < ⋯ with Σ 1/a_i < ∞ and 1 + Σ_k a_k^{−1−it} = 0. The Lean statement: for t ≠ 0, ∃ strictly increasing a : ℕ → ℕ with a 0 > 1, Σ 1/a_k summable, and 1 + Σ' summand t (a k) = 0, where summand t n = 1/n^{1+it} in ℂ. The series converges absolutely (|n^{−1−it}| = 1/n), so tsum is the genuine sum. Faithful."
+    }
+]

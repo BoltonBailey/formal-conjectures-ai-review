@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/487: if A ⊆ ℕ has positive density, must there be distinct a, b, c ∈ A with lcm(a,b) = c? True (a consequence of Kleitman's solution of [447]). The Lean statement: for every A with HasPosDensity (natural density exists and is positive), there are pairwise distinct a, b, c ∈ A with Nat.lcm a b = c. Reading 'positive density' as an existing positive natural density is the literal reading (the result also holds under weaker density hypotheses, so nothing is lost). Positive 'yes' form per the question convention. Faithful."
+    }
+]

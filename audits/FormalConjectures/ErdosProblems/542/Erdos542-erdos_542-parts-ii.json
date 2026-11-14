@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/542, second question: must there be ≫ n many m ≤ n 'which do not divide any a ∈ A'? Resolved negatively by Schinzel–Szekeres. The page's wording ('do not divide') is evidently a slip for the classical question (Schinzel–Szekeres; cf. the 'n/(log n)^c many such m' result), which counts m ≤ n not divisible by any a ∈ A; the Lean `uncovered` uses this intended reading and the docstring says so. The formalisation excludes 1 ∈ A (A = {1} would make the question trivially negative), matching the page's '{2,…,n}' framing used for the follow-up results. The statement ¬∃ c > 0, ∀ n A, IsLcmFree n A → 1 ∉ A → c·n ≤ |uncovered n A| is the negation of the ≫ n claim with all quantifiers inside, per the question convention. Not trivially true: A = (n/2, n] is lcm-free with ≈ n/2 uncovered. Faithful."
+    }
+]

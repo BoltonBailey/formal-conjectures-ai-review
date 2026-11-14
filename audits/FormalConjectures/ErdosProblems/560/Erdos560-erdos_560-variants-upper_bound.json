@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/560: the upper bound R̂(K_{n,n}) < (3/2) n³ 2ⁿ was proved by Erdős–Faudree–Rousseau–Schelp [EFRS78b] and Nešetřil–Rödl [NeRo78]. The Lean statement asserts (r̂(n) : ℝ) < (3/2) n³ 2ⁿ for n ≥ 1, where r̂(n) is sizeRamsey(K_{n,n}, K_{n,n}): the least edge count of a graph F on some Fin N such that every red subgraph R ≤ F contains K_{n,n} or its complement F \\ R does — the standard 2-colour size Ramsey number. The exclusion of n = 0 is justified (both sides 0). Faithful."
+    }
+]

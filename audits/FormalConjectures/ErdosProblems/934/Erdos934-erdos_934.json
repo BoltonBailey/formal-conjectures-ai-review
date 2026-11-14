@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/934 (Erdős–Nešetřil): h_t(d) is minimal such that every graph with h_t(d) edges and max degree ≤ d has two edges whose connecting shortest path has length ≥ t; estimate h_t(d) (Erdős: 'interesting only if there is a nice expression'). HasFarEdges G t requires edges uv, wx with every endpoint pair at extended distance ≥ t (t = 1: disjoint edges; t = 2: induced 2K₂ — consistent with CGTT90 and CCJK22), and h t d is the least m such that all finite graphs with max degree ≤ d and ≥ m edges have such a pair ('at least m edges', as in the literature). The statement asks for an exact formula answer t d for all t ≥ 1, d, following Erdős's remark — a reasonable reading of 'estimate'. Faithful."
+    }
+]

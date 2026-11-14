@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A215926 (offset 2): a(n) = smallest deficient k such that k·n is perfect or abundant; conjecture: a(n) is 1, 3, or a power of 2. The Lean `a` is sInf of {k | k.Deficient ∧ (k·n perfect ∨ abundant)} using Mathlib's Nat.Deficient/Perfect/Abundant; the set is nonempty for n ≥ 2 (large powers of 2 are deficient and make 2^j·n abundant), so sInf is the true minimum, and the tests a(2..6) = 3,2,3,4,1 match. The statement for n ≥ 2: a n = 1 ∨ a n = 3 ∨ isPowerOfTwo (a n). Faithful."
+    }
+]

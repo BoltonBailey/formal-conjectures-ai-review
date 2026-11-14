@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/968: with u_n = p_n/n, does {n : u_n < u_{n+1}} have positive density? The page explains Erdős most likely meant positive lower density. The Lean u n = (nth Prime n)/(n+1) is the classical u_{n+1} (0-based indexing), so {n | u n < u (n+1)} is the classical set shifted by one, which does not affect lower density. The statement 0 < lowerDensity is the 'yes' form under the page's reading; it is tagged solved with a linked formal proof (OpenAI, 2026). Faithful."
+    }
+]

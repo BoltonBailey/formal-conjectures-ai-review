@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/80 (Erdős–Rothschild): for c > 0, f_c(n) is the maximal m such that every n-vertex graph with ≥ cn² edges, each edge in a triangle, has a book of size m (an edge in ≥ m triangles); is f_c(n) > n^ε for some ε > 0? Fox and Loh disproved this: f_c(n) ≤ n^{O(1/log log n)} for every c < 1/4. The Lean f c n is the sInf of bookNumber (max over edges of the number of triangles containing it) over admissible graphs, which equals 'the largest m forced'. The statement negates '∀ c ∈ (0, 1/2), ∃ ε > 0, eventually n^ε < f_c(n)'; the restriction c < 1/2 avoids the vacuous infeasible range (justified in the docstring), and since f_c(n) ≥ n/6 for c > 1/4, the negation is witnessed by any c < 1/4 via Fox–Loh, matching the page's 'disproving the first conjecture'. Faithful."
+    }
+]

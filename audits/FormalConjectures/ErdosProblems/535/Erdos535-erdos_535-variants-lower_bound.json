@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/535 and [Er73] §4: Erdős proved f_3(x) > exp(c log x / log log x) = x^{c/log log x}. The Lean statement gives c > 0 with N^{c/log log N} ≤ f_3(N) eventually. (The page states the lower bound for every r ≥ 3; the formalisation records only r = 3, which is the case explicitly in [Er73] and implies nothing false.) Faithful."
+    }
+]

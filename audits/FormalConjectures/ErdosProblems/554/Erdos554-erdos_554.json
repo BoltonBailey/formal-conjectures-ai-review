@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/554 (Erdős–Graham): with R_k(G) the least m such that every k-colouring of E(K_m) has a monochromatic copy of G, show R_k(C_{2n+1})/R_k(K_3) → 0 as k → ∞ for every n ≥ 2. The Lean statement uses multicolourGraphRamsey k (cycleGraph (2n+1)) over multicolourGraphRamsey k K_3 (shown in-file to agree with the multicolour triangle Ramsey number of Problem 183), for n ≥ 2, tending to 0. Faithful."
+    }
+]

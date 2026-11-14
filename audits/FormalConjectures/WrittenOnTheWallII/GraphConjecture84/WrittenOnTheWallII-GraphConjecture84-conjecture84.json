@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and wowIIdefs.js via the Wayback Machine), Conjecture 84 (status O): 'If G is a simple connected graph, then tree(G) ≥ 2 rad(G)/δ(G)', with definitions 48 (tree(G): number of vertices of a largest induced tree), 13 (rad(G): minimum eccentricity) and 56 (δ(G): minimum degree). The Lean statement for connected G on a finite nontrivial type: 2·rad(G)/δ(G) ≤ largestInducedTreeSize G, with radius converted via toNat (finite for connected graphs) and an explicit 0 < minDegree hypothesis, which is automatic for connected graphs with ≥ 2 vertices. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A228425: the only pairs (k, m) with 2 < k ≤ 10 and k < m ≤ 100 such that every n > 1 is x + y (x, y > 0) with p_k(x) + p_m(y) prime are the 31 listed pairs. The Lean statement is an iff over that range with sunPolygonalPairs, which I checked entry-by-entry against the OEIS list ((3,4) … (10,99)); they agree exactly. Faithful."
+    }
+]

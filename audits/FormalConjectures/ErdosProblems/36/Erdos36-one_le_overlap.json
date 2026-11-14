@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma supporting the formalisation of erdosproblems.com/36 (minimum overlap problem, where Overlap A B k counts pairs (a,b) ∈ A×B with a − b = k): for a ∈ A, b ∈ B, Overlap A B (a − b) ≥ 1. Correct, proved in-file."
+    }
+]

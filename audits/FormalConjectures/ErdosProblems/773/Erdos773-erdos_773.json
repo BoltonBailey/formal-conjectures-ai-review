@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/773 (Alon–Erdős): what is the size of the largest Sidon subset of {1, 2², …, N²}; is it N^{1−o(1)}? The Lean statement: ∀ ε > 0, eventually N^{1−ε} ≤ maxSidonSubsetCard of the image of n ↦ n² on [1,N] — the lower-bound content of 'N^{1−o(1)}' (the matching upper bound ≤ N^{1+o(1)} is trivial since there are N squares). 'Yes' form per the question convention; the open-ended 'what is the size' part is not separately formalised. Faithful."
+    }
+]

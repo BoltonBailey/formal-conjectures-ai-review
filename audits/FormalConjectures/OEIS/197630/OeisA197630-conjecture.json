@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A197630: a(n) = ((Σ_{k=1}^{p−1} q_p(k)) − w_p)/p for p the n-th prime, n > 1, with q_p(k) = (k^{p−1}−1)/p and w_p = ((p−1)!+1)/p; comment (Greathouse): 'Is 13 the only Lerch quotient that is itself prime?' The Lean definitions use integer division, which is exact here (Fermat's little theorem, Wilson's theorem, and Lerch's theorem that the quotient is an integer), and natAbs is harmless as the values are nonnegative; test values a(2..6) = 0, 13, 1356, 123229034, 79417031713 match the OEIS data. The statement ∀ n > 1, a n prime → a n = 13 is the 'yes' form of the question, tagged `question`. Faithful."
+    }
+]

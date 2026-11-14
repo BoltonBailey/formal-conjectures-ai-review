@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/868: Härtter [Ha56] and Nathanson [Na74] proved there exist additive bases containing no minimal additive basis. The Lean statement, for any order o > 1, gives A that is an asymptotic basis of order o such that every sub-basis B ⊆ A has an element b with B ∖ {b} still a basis, i.e. A contains no minimal basis. The page's context is order 2; the formalisation states it for all orders o ≥ 2 (Nathanson's result is for general order h), and a linked formal proof exists. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/887: Erdős and Rosenfeld proved there are infinitely many n with 4 divisors in (n^{1/2}, n^{1/2} + n^{1/4}). The Lean statement uses ∃ C > 0 with infinitely many n having ≥ 4 divisors in (√n, √n + C n^{1/4}). Taken literally with C = 1 the page's claim is impossible: distinct divisors d > √n give distinct integers d + n/d in (2√n, 2√n + C²), so C = 1 allows at most one (as the file's next docstring notes). The page evidently omits a constant, and the formalisation's 'some constant C' reading is the correct repair. Faithful to the intended result."
+    }
+]

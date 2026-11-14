@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: if m > C(n,2) then uniformEdgeProbability n m P = 0, since the denominator C(C(n,2), m) is 0 (and division by zero is 0 in Lean). This correctly documents the degenerate behaviour of the uniform G(n,m) model used for erdosproblems.com/900. True and harmless."
+    }
+]

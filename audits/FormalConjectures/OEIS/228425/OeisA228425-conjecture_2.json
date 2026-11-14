@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A228425 (Sun): 'any integer n > 1 can be written as x + y (x, y > 0) with p_k(x) + p_{k+1}(y) prime, if and only if k is among 3, 39, 99', with p_m(x) = (m−2)x(x−1)/2 + x. The Lean statement for k ≥ 3 (the polygonal range m > 2 used in the entry) is (∀ n > 1, ∃ x, y > 0, x + y = n, p_k(x) + p_{k+1}(y) prime) ↔ k ∈ {3, 39, 99}, with Nat.polygonalNumber matching the entry's formula. Faithful."
+    }
+]

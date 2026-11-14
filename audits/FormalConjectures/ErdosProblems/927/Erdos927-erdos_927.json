@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/927: g(n) = maximum number of different sizes of cliques (maximal complete subgraphs) in a graph on n vertices; is g(n) = n − log₂ n − log_*(n) + O(1)? Disproved by Spencer, who showed g(n) > n − log₂ n − O(1). The Lean g n is the sup over graphs on Fin n of the number of sizes of maximal cliques (cliqueSizes uses Maximal over IsClique finsets), matching the page. The statement negates the existence of C with |g(n) + log₂ n + log_*(n) − n| ≤ C eventually, written as two ℕ inequalities, i.e. the negation of the conjectured O(1) asymptotic, as per the question convention. Using Nat.log 2 and Nat.iteratedLog 2 changes the quantities only by O(1), so the claim is unaffected (as the docstring notes). The negation follows from Spencer's bound since log_* n → ∞. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A190969 (Sun): S(p) ≡ 0 (mod p³) for any odd prime p ≡ 1, 2, 4 (mod 7). The Lean statement uses sMod p 3 (S(p) computed in ZMod (p³), with (−4096)^k invertible as p is odd) under hypotheses p prime, p ≠ 2, p % 7 ∈ {1, 2, 4}. Faithful."
+    }
+]

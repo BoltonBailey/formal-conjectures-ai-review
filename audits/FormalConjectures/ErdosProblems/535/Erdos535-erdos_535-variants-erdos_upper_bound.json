@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/535: Erdős [Er64] proved f_r(N) ≤ N^{3/4+o(1)}. The Lean statement: for r ≥ 3 and every ε > 0, eventually f_r(N) ≤ N^{3/4+ε}, the standard encoding of the o(1) exponent. Faithful."
+    }
+]

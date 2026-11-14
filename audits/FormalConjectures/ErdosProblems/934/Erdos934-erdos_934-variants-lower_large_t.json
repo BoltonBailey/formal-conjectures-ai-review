@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/934: if t is large, there are infinitely many d with h_t(d) ≥ 0.629^t d^t (CCJK22). The Lean statement: ∃ t₀, ∀ t ≥ t₀, ∃ᶠ d, (0.629)^t d^t ≤ h t d. Faithful."
+    }
+]

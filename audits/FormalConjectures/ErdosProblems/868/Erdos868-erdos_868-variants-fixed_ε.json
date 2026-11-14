@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/868: Erdős and Nathanson proved the answer is yes if 1_A ∗ 1_A(n) > (log 4/3)^{−1} log n for all large n. The Lean statement: for every c > (log 4/3)^{−1}, if A is a basis of order 2 whose unordered representation count exceeds c log n eventually, then A contains a minimal basis of order 2. Because the unordered count is at most about half the ordered count, the Lean hypothesis is at least as strong as the page's, so the statement is implied by the Erdős–Nathanson theorem under either counting convention. Faithful (possibly slightly weaker than the original theorem, but correct)."
+    }
+]

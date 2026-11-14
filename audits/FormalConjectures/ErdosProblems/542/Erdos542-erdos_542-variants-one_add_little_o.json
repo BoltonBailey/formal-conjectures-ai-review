@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/542: in [Er73] Erdős speculates that Σ_{a∈A} 1/a ≤ 1 + o(1) with o(1) → 0 as n → ∞. The Lean statement gives a single function o : ℕ → ℝ tending to 0 such that every lcm-free A ⊆ [1,n] has Σ 1/a ≤ 1 + o(n), which is the uniform-in-A reading of the speculation (the only meaningful one). Marked open and as a question. Faithful."
+    }
+]

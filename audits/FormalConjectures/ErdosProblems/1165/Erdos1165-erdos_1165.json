@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1165: for a random walk s_0, s_1, … in ℤ² starting at the origin, f_n(x) = #{0 ≤ k ≤ n : s_k = x}, F(n) = {x : f_n(x) = max_y f_n(y)}; find P(|F(n)| = r infinitely often) for r ≥ 3. The Lean formalisation takes the simple random walk (i.i.d. steps uniform on {(±1,0),(0,±1)}, via IsSimpleRandomWalkSteps), position = partial sums with s_0 = 0, localTime counts k ∈ range (n+1) (i.e. 0 ≤ k ≤ n), and favouriteSites is the set of sites whose local time dominates all others, which equals the argmax set since local times are finitely supported. The statement quantifies over r ≥ 3 and equates ℙ{ω | ∃ᶠ n, |F(n)| = r} with erdos_1165.answer r, which is filled in as 1 for r = 3 and 0 otherwise, matching the page's recorded resolution (Tóth: 0 for r ≥ 4; Hao–Li–Okada–Zheng [HLOZ24]: 1 for r = 3). Using encard is fine since F(n) is finite and nonempty. Interpreting 'random walk' as the simple random walk is the standard reading of the Erdős–Révész problem. Faithful."
+    }
+]

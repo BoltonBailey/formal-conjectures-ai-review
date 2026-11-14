@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/626: for even m Erdős thought the limit should lie in [2/(m+2), 2/m] but could not prove this even for m = 4. Since existence of the limit is open, the Lean statement encodes the guess as liminf ≥ 2/(m+2) and limsup ≤ 2/m: ∀ even m ≥ 2, ∀ ε > 0, eventually n^{2/(m+2)−ε} ≤ h^{(m)}(n) ≤ n^{2/m+ε}. This is a natural formalisation of 'lies in the interval' that does not presuppose existence; m ≥ 2 avoids 2/0. The docstring correctly notes the upper half follows from the odd case. Faithful."
+    }
+]

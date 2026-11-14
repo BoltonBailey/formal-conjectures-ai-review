@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/894: for a lacunary A = {n_1 < n_2 < ⋯} ⊂ ℕ (n_{k+1} ≥ (1+ε) n_k), must there be a finite colouring of ℕ with no monochromatic solution of a − b ∈ A? Yes, via Problem 464 (Katznelson; Peres–Schlag). The Lean statement: for every strictly increasing positive n : ℕ → ℕ with IsLacunary n (∃ c > 1, eventually c·n_k < n_{k+1}), there are r and c : ℕ → Fin r with c(b + n_k) ≠ c(b) for all b, k, i.e. no monochromatic pair differing by an element of A. As the file notes, for strictly increasing positive integer sequences the eventual condition is equivalent to the page's 'for all k' condition (the finitely many initial ratios exceed 1). Faithful."
+    }
+]

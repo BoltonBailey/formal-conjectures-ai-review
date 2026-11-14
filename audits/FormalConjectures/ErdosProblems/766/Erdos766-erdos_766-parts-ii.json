@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/766 asks: for fixed k and large n, is f(n;k,l) strictly monotone in l (for k < l ≤ k²/4)? The page defines f(n;k,l) = min_G ex(n;G), but the source [Er64c] (renyi.hu PDF, p. 33: 'In the range k < l ≤ [k²/4] I do not have good estimates for f(n;k,l), I cannot even prove that for fixed k and sufficiently large n, f(n;k,l) is a strictly monotone function of l') uses f₁, the least m forcing at least one graph with k vertices and l edges. The Lean statement follows the source: ∀ k, eventually in n, forcingNumber n k is StrictMonoOn (k, ⌊k²/4⌋]. The page's version is formalised separately as minExtremalNumber_strictMonoOn, and the docstring explains the choice. Faithful to the source."
+    }
+]

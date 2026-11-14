@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/869: if A₁, A₂ are disjoint additive bases of order 2 (A_i + A_i contains all large integers), must A₁ ∪ A₂ contain a minimal basis of order 2 (deleting any element leaves infinitely many n ∉ A + A)? Larsen answered no. The Lean statement negates: for all disjoint A₁, A₂ that are asymptotic bases of order 2, ∃ D ⊆ A₁ ∪ A₂ that is an asymptotic basis of order 2 with D \\ {d} not an asymptotic basis for every d ∈ D. 'Not an asymptotic basis' is exactly 'infinitely many n ∉ (D∖{d}) + (D∖{d})', so this is the page's notion of minimality. Negated form per the question convention. Faithful."
+    }
+]

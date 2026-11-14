@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States that for every t ≥ 2, liminf_{d→∞} h_t(d)/d^t ≥ 1 (Cames van Batenburg–Korsky 2026), as ∀ ε > 0, eventually (1 − ε)d^t ≤ h_t(d). This strengthens the CCJK conjecture recorded on erdosproblems.com/934 ('h_t(d) ≥ (1 − o(1))d^t for infinitely many d', stated there for t ≥ 3). The encoding is correct. Faithful."
+    }
+]

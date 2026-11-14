@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/36: MaxOverlap {1} {2} = 1 (only k = −1 has a solution). Correct, proved in-file; used for the M(1) = 1 test."
+    }
+]

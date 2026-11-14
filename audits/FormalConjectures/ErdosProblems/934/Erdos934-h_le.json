@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/934: if every graph with max degree ≤ d and ≥ m edges has two edges at distance ≥ t, then h_t(d) ≤ m. Immediate from Nat.sInf_le; correct."
+    }
+]

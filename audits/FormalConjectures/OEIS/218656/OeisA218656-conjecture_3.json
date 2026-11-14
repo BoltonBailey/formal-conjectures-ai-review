@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "OEIS A218656 comments: 'similar conjectures with x⁴+y⁴ replaced by x⁸+y⁸', and Fiorentini (Sep 2023) found exceptions 2n+1 = 7, 9, 55, 73, 75, 105 up to 10⁶. The OEIS text never states the x⁸ conjecture in an 'except' form; the formalisation reconstructs it as positivity for every n ≥ 1 outside n ∈ {3, 4, 27, 36, 37, 52} (correctly converted from 2n+1). This is the natural surviving version of the conjecture given the computed exceptions (the literal original 'always positive' is false), so it is a reasonable reading, but it is a reconstruction rather than a quoted statement; the docstring makes the attribution clear. Mathematically consistent with the source."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/448: Hall and Tenenbaum prove that τ⁺(n)/τ(n) has a distribution function. The Lean statement gives a monotone F : ℝ → ℝ with limits 0 at −∞ and 1 at +∞ such that at every continuity point z, {n : τ⁺(n)/τ(n) ≤ z} has natural density F(z) — the standard definition of a limiting distribution function for an arithmetic function. Faithful."
+    }
+]

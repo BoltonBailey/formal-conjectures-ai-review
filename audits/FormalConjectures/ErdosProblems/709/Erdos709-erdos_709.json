@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/709 (Erdős–Surányi): f(n) is minimal such that for every n-element A ⊆ [2,∞), every interval of f(n)·max(A) consecutive integers contains distinct x_i with a_i ∣ x_i; obtain good bounds or an asymptotic formula. IsAdmissible n c encodes 'every block of ≥ c·max(A) consecutive positive integers has distinct multiples' (an injective choice function into the window), and f n is the infimum of admissible c; the docstring correctly justifies reading 'c·max(A) consecutive integers' as 'at least' and restricting to positive integers (translation by lcm(A)), and the admissible set is nonempty (c = n works by Hall's condition) and bounded below. The theorem asks for the Θ-order via a `question value` answer, reading 'good bounds' as the order of magnitude — a reasonable formalisation. Faithful."
+    }
+]

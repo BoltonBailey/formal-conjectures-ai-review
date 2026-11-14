@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/521: with ε_k i.i.d. uniform on {−1, 1} and R_n the number of real roots of f_n(z) = Σ_{0≤k≤n} ε_k z^k, is it true that almost surely R_n / log n → 2/π? The Lean Claim uses the product measure of fair coins on ℕ → Bool, f_n built from monomials with coefficients sign(ε_k), R_n = ncard of the real root set (distinct roots), and asks for a.s. convergence of R_n / log n to 2/π; this is the ±1 reading, the one the page treats as primary (the constant 2/π fits it). The theorem asserts ¬Claim, i.e. a negative answer, tagged solved with a link to an external machine-checked proof. The page itself (last edited Oct 2025) records no resolution, so I could not confirm the negative answer from the source; the negation is plausible since only the roots inside [−1,1] are controlled almost surely (Do: R_n[−1,1]/log n → 1/π a.s.), while the roots outside depend on the reversed coefficient sequence, which changes with n. Counting distinct rather than multiple roots does not affect the question. The formalisation of the question is faithful; the answer relies on the linked proof."
+    }
+]

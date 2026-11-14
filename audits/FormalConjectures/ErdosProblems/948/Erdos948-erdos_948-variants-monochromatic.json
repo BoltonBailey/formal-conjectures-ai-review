@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/948: Erdős originally asked for the finite sums to be monochromatic; Galvin showed this fails for k = 2, and the negative answer to the main question gives failure for every k ≥ 2. The Lean statement negates the monochromatic version for k ≥ 2 (same conventions as erdos_948). Since 'monochromatic' implies 'misses a colour' when k ≥ 2, this follows from erdos_948. Faithful."
+    }
+]

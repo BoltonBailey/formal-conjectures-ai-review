@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/521: the measure fairCoin = ½(δ_true + δ_false) on Bool gives each sign mass 1/2. Correct and proved in-file; together with fairCoin_isProbabilityMeasure it certifies that the ε_k are uniform on {−1, +1} as the page requires."
+    }
+]

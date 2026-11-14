@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/626: Erdős [Er59b] proved g_k(n) ≤ (2/log(k−2)) log n + 1. The Lean statement asserts this for all k ≥ 4 and all sufficiently large n, which is implied by the stated bound. Faithful."
+    }
+]

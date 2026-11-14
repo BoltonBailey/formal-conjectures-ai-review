@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html via the Wayback Machine; live site unreachable), Conjecture 32 (status F): 'If G is a simple connected graph, then path(G) ≥ dist_avg(A) + 0.5 ecc_avg(M)', refuted Aug 2005 by the path on 5 vertices (path = 5, dist_avg(A) = 4, average eccentricity of max-degree vertices 8/3). The Lean statement is the negation of the universal claim over connected graphs on finite nontrivial types, with A/M the min/max-degree vertex sets, dist_avg(A) the average of G.dist over ordered distinct pairs of A, ecc_avg(M) the mean eccentricity over M, and `path` the maximum number of vertices of an induced path. On P₅: A = the two endpoints, distance 4; M = the three interior vertices, eccentricities 3, 2, 3; 4 + 4/3 > 5, so the negation holds as recorded. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/401: is there f(r) → ∞ such that for infinitely many n there exist a₁, a₂ with a₁ + a₂ > n + f(r) log n and a₁! a₂! ∣ n! 2ⁿ 3ⁿ ⋯ p_rⁿ? The page adopts this quantifier order (f first, then for each r infinitely many n) and records a positive answer (Barreto–Leeham). The Lean statement: ∃ f : ℕ → ℝ tending to ∞ such that for every r ≥ 1 the set of n admitting positive a₁, a₂ with a₁ + a₂ > n + f(r) log n and a₁! a₂! ∣ n! · (∏_{i<r} p_{i+1})ⁿ is infinite; ∏ (nth Prime i)^n over i < r is exactly 2ⁿ⋯p_rⁿ. Requiring a₁, a₂ > 0 is a mild strengthening consistent with the intended meaning (two genuine factorials). Faithful."
+    }
+]

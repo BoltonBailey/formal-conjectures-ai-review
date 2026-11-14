@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/519 (Turán's power sum problem): for z_1,…,z_n ∈ ℂ with z_1 = 1, is there an absolute c > 0 with max_{1≤k≤n} |Σ_i z_i^k| > c? Solved (Atkinson: c = 1/6). The Lean statement: ∃ c > 0 such that for every n > 0 and z : Fin n → ℂ with z 0 = 1, some k ∈ Fin n has c < ‖Σ_i z_i^{k+1}‖, i.e. the maximum over exponents 1..n exceeds c, with c independent of n and z. Faithful."
+    }
+]

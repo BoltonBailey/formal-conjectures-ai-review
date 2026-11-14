@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/720: Beck proved R̂(P_n) ≪ n and R̂(C_n) ≪ n. The Lean statement gives a single C with R̂(pathGraph (n+1)) ≤ Cn and R̂(cycleGraph n) ≤ Cn for all large n; pathGraph (n+1) is the path with n edges, i.e. 'length n' as on the page. Faithful."
+    }
+]

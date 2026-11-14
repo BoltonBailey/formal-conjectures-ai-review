@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/1132: Tao [Ta26b] proved that for any ω(n) → ∞ there is a dense set of x ∈ (−1,1) with L_n(x) ≥ (2/π) log n − ω(n) for infinitely many n. The Lean statement takes an arbitrary triangular array x n k of distinct nodes in [−1,1] (Tao's setting, which includes the sequence case), any ω → ∞, and asserts (−1,1) ⊆ closure of {t ∈ (−1,1) | ∃ᶠ n, (2/π) log n − ω n ≤ L_n(t)}, i.e. that set is dense in (−1,1). Faithful."
+    }
+]

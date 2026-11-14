@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/698: Erdős and Szekeres observed gcd(C(n,i), C(n,j)) ≥ C(n,i)/C(j,i) ≥ 2^i. The Lean statement, for 1 ≤ i < j ≤ n/2, gives both inequalities over ℝ, and is proved in-file (via C(n,j)C(j,i) = C(n,i)C(n−i, j−i) and the growth estimate 2^k C(j,k) ≤ C(n,k) for 2j ≤ n). Using i ≥ 1 (rather than the main problem's i ≥ 2) matches the page's sharpness example with i = 1. Faithful."
+    }
+]

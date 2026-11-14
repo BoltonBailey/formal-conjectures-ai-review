@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/845: for C > 0, is the set of integers n = b_1 + ⋯ + b_t with b_1 < ⋯ < b_t, each b_i = 2^{k_i}3^{l_i}, and b_t ≤ C b_1 of density 0? Disproved (van Doorn–Everts, C = 6: every integer has such a representation with b_t < 6b_1). The Lean set is {Σ_{x∈B} 2^k 3^l | B a nonempty finite set of exponent pairs with max ≤ C·min}; since (k,l) ↦ 2^k3^l is injective, a Finset of pairs is exactly a set of distinct b_i. The theorem negates '∀ C > 0, this set has density 0'. Faithful."
+    }
+]

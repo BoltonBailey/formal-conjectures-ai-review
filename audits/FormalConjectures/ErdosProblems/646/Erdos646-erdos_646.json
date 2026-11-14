@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/646: for distinct primes p_1,…,p_k, are there infinitely many n such that n! is divisible by an even power of each p_i (i.e. each exact exponent v_{p_i}(n!) is even)? Yes, by Berend. The Lean statement: for every finite set S of primes, {n | ∀ p ∈ S, v_p(n!) even} is infinite, using padicValNat for the exact exponent; a Finset gives distinctness. 'Divisible by an even power' is correctly read as the exact exponent being even (the weaker reading would be trivial). Faithful."
+    }
+]

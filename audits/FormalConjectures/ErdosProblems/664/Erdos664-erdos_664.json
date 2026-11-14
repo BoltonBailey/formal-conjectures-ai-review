@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/664: for a constant c < 1 and A_1,…,A_m ⊆ {1,…,n} with |A_i| > c√n and |A_i ∩ A_j| ≤ 1 (i ≠ j), must there be B meeting every A_i with |B ∩ A_i| ≪_c 1? Alon showed no (n = m = q²+q+1, |A_i| ≥ (2/5)√n, yet any blocking B has some |B ∩ A_j| ≫ log n). The Lean statement negates ∀ c ∈ (0,1), ∃ K, ∀ n m A satisfying the hypotheses, ∃ B with B ∩ A_i nonempty and |B ∩ A_i| ≤ K for all i — K depending only on c is exactly ≪_c 1. The requirement c > 0 is harmless. The negation follows from Alon's construction (take any c slightly below 2/5). Faithful."
+    }
+]

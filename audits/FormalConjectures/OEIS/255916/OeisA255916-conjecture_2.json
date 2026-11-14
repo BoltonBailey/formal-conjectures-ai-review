@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A255916 comments, conjecture (i), second sentence: for k ≥ j ≥ 3, every nonnegative integer is a generalized heptagonal number plus a j-gonal plus a k-gonal number iff (j,k) is among (3,k) for k = 3..19, 21..24, 26, 27, 29, 30; (4,k) for k = 4..11, 13, 14, 17, 19, 20, 23, 26; (5,6), (5,9), (6,7), (8,9). The Lean statement hypothesises 3 ≤ j ≤ k and asserts (∀ n, IsSumOfGmPjPk 7 n j k) ↔ (j,k) ∈ sunPolygonalPairsSet1, where IsSumOfGmPjPk uses G_7(z), z ∈ ℤ, and p_j(x), p_k(y) with x, y ∈ ℕ (standard formulas). I checked the finset entry-by-entry against the OEIS list; it matches exactly. Faithful."
+    }
+]

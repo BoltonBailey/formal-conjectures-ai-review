@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/652: Mathialagan [Ma21] proved that for a set P of k points and a set Q of n points with 2 ≤ k ≤ n^{1/3}, some point of P determines ≫ (kn)^{1/2} distances to points of Q. The Lean statement: ∃ c > 0 such that for finite P, Q ⊆ ℝ² with |P| ≥ 2 and |P|³ ≤ |Q|, some p ∈ P has |{dist(p,q) : q ∈ Q}| ≥ c√(|P||Q|). Counting a possible zero distance (p ∈ Q) only weakens the claim by 1. (The docstring cites Theorem 14; the forum thread refers to Theorem 3.6 of the same paper — a citation detail only.) Faithful."
+    }
+]

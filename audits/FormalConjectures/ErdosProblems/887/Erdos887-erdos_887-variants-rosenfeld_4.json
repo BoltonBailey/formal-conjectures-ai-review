@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/887: Erdős and Rosenfeld ask whether 4 is best possible for having infinitely many n with that many divisors in (√n, √n + C n^{1/4}). The Lean statement says 4 is not the greatest K for which some C > 0 admits infinitely many n with ≥ K such divisors, i.e. a negative answer, citing a forum construction (C = 31, five divisors, n = (x²−1)(x²−4)(x²−16)(x²−49) with z² = 56x² + 65) and a linked Lean proof. Reading 'best possible' as quantified over the constant C is the natural one, since for fixed C at most about C² + 1 divisors are possible. Faithful."
+    }
+]

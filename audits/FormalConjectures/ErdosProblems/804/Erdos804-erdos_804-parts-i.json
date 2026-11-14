@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/804 (Erdős–Hajnal): f(m,n) is maximal such that every n-vertex graph in which each m-vertex induced subgraph has an independent set of size ≥ log n has an independent set of size ≥ f(m,n); is f((log n)², n) ≥ n^{1/2−o(1)}? No (Alon–Sudakov: f((log n)², n) ≪ (log n)²). The Lean f m n is the minimum of α(G) over graphs on Fin n with HasLocalIndependence G m ⌈log n⌉ (every m-subset contains an independent set of size ≥ ⌈log n⌉), which is exactly the 'maximal guaranteed' value; the set is nonempty (the empty graph qualifies). The theorem negates '∀ ε > 0, eventually n^{1/2−ε} ≤ f(⌊(log n)²⌋, n)', the formal reading of ≥ n^{1/2−o(1)}. Using the natural log and floors/ceilings only shifts constants, which the Alon–Sudakov bounds tolerate. Faithful."
+    }
+]

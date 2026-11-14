@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/831 and the source [Er75h] (Erdős, 'Some problems on elementary geometry', renyi.hu PDF): for n points in general position (no three on a line, no four on a circle), h(n) is the largest integer such that there are at least h(n) circles of different radii through three of the points; estimate h(n). The Lean h n is sInf over n-point Finsets P with InGeneralPosition (NonTrilinear ∧ NoFourConcyclic) of numRadii P, the number of distinct radii of spheres in ℝ² containing ≥ 3 points of P; this minimum is exactly 'the largest h such that every P gives ≥ h', and the docstring justifies nonemptiness via points on a parabola. Degenerate spheres (radius ≤ 0) contain at most one point, so only genuine circles are counted. 'Estimate' is read as determining the Θ-order via a `question value` answer, a reasonable reading. Faithful."
+    }
+]

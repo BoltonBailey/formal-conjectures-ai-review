@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "States liminf_{d→∞} h_3(d)/d³ ≥ 253/225 (KMP26, Theorem 1.11), as ∀ ε > 0, eventually (253/225 − ε) d³ ≤ h_3(d) — the correct encoding of a liminf lower bound. It refutes CCJK's conjecture h_t(d) ≤ (1+o(1))d^t recorded on erdosproblems.com/934 for t = 3. Faithful."
+    }
+]

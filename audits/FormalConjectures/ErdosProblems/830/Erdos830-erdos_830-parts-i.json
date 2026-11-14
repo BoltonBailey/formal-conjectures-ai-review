@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/830: a, b form an amicable pair if σ(a) = σ(b) = a + b; are there infinitely many amicable pairs? IsAmicable a b requires σ₁(a) = a + b, σ₁(b) = a + b and a ≠ b; the distinctness is the standard convention (otherwise perfect numbers would count as pairs, changing the question), and the statement {(a,b) | IsAmicable a b}.Infinite is the 'yes' answer. Faithful."
+    }
+]

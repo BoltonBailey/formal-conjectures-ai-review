@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/944: Dirac's conjecture was proved for k = 5 by Brown [Br92]. The Lean statement ∃ G with IsErdos944 G 5 1 (a 5-vertex-critical graph with no critical edge) matches. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/360 (Erdős–Graham): f(n) is the least number of classes in a partition of {1,…,n−1} such that n is not a sum of distinct elements of one class; how fast does f grow? Conlon–Fox–Pham determined f(n) ≍ n^{1/3}(n/φ(n))/((log n)^{1/3}(log log n)^{2/3}). The Lean f n is sInf over Finpartitions of Icc 1 (n−1) with no part having n among its subset sums (nonempty via singletons), and erdos_360.answer is exactly the CFP expression; the statement f = Θ(answer) is the solved form of the 'how fast' question. Faithful."
+    }
+]

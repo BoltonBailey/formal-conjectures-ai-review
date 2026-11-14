@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/649: Tong asks whether, for any given odd prime q, there are infinitely many primes p such that no n has P(n) = p and P(n+1) = q. The Lean statement asserts exactly this for every odd prime q ('yes' form, tagged question/open). Faithful."
+    }
+]

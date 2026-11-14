@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/734: find, for all large n, a non-trivial pairwise balanced block design A_1,…,A_m ⊆ {1,…,n} (every pair in exactly one A_i) such that for every t only O(n^{1/2}) of the A_i have size t. The Lean statement: ∃ C > 0, for all large n, a family H of subsets of Fin n with IsPairwiseBalancedDesign (blocks of size ≥ 2, every 2-set in exactly one block), non-trivial (no block equal to the whole ground set, e.card < n), and for every t at most C√n blocks of size t. 'Find' is rendered as the existence of such designs with a uniform constant, the natural formal content; blocks of size ≥ 2 and distinct blocks are standard. Faithful."
+    }
+]

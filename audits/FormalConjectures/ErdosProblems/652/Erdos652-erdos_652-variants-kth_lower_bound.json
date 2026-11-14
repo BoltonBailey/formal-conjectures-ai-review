@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/652: Mathialagan's bound 'immediately implies R(x_k) ≫ (kn)^{1/2} for 2 ≤ k ≤ n^{1/3}'. The Lean statement: ∃ c > 0 such that for every finite set of n points and 2 ≤ k with k³ ≤ n, fewer than k points have R < c√(kn), i.e. the k-th smallest R is ≥ c√(kn). Faithful."
+    }
+]

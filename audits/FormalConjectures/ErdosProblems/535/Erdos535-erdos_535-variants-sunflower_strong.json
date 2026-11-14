@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "[Er73] §4: Abbott pointed out the Erdős–Rado sunflower conjecture (4.2) does not seem to suffice; the stronger conjecture (4.3): if g'_r(n) is the least integer such that among g'_r(n) integers u_i with Ω(u_i) = n there are always r with pairwise the same gcd d and (u_i/d, d) = 1, then g'_r(n) < c_r^n. The Lean statement: for r ≥ 3 there is c_r > 0 such that every finite A of positive integers with Ω = k for all elements and no r-subset with constant pairwise gcd d and all quotients b = a/d coprime to d has |A| ≤ c_r^k. This is exactly (4.3) (up to the harmless +1 in 'smallest integer'). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's '100 open problems', Problem 70: fix k, ℓ; given n ≥ n₀(k,ℓ) points in ℝ², must either some k lie on a line or some ℓ be mutually visible (segments joining them contain no other point of the set)? The Lean statement: ∀ k ℓ ∃ n₀ ∀ finite P ⊆ ℝ×ℝ with |P| ≥ n₀, HasCollinear k P (k points of P collinear) ∨ HasMutuallyVisible ℓ P (ℓ points pairwise visible, with Visible meaning the open segment contains no point of P). 'Mutually visible' as pairwise visibility is the standard reading (Kára–Pór–Wood's big-line-big-clique conjecture). Degenerate small k are trivially true and harmless. Faithful."
+    }
+]

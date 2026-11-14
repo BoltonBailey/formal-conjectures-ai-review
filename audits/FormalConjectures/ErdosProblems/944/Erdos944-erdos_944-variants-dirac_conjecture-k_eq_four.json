@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The remaining case of Dirac's conjecture: a 4-vertex-critical graph with no critical edge, ∃ G with IsErdos944 G 4 1. erdosproblems.com/944 (as fetched) still records 'the case k = 4 and r = 1 remains open'; formal-conjectures marks it solved with a link to a Lean formalisation (KitaKen1/erdos-944-dirac-k4-lean), which I did not check. The formal statement correctly expresses the case. Faithful; the solved status depends on the linked external proof."
+    }
+]

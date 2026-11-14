@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/554: Bondy–Erdős and Erdős–Graham proved n2^k + 1 ≤ R_k(C_{2n+1}). The Lean statement asserts this for all n, k ≥ 1; excluding k = 0 avoids the junk value R_0, as documented. Faithful."
+    }
+]

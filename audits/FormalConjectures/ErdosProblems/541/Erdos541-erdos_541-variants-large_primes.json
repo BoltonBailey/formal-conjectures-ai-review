@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/541: proved by Erdős and Szemerédi [ErSz76] for p sufficiently large. The Lean statement: eventually in p, if p is prime then the same implication as erdos_541 holds. Faithful."
+    }
+]

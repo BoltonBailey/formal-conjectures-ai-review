@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/656: for A ⊆ ℕ of positive upper density, must there be an infinite B ⊆ A and an integer t with {b₁ + b₂ : b₁ ≠ b₂ ∈ B} + t ⊆ A? Proved by Kra–Moreira–Richter–Robertson. The Lean statement: ∀ A with 0 < upperDensity, ∃ infinite B ⊆ A and t : ℤ such that for distinct b₁, b₂ ∈ B, b₁ + b₂ + t (computed in ℤ) equals some a ∈ A. This is exactly the requested inclusion with t allowed to be any integer, stated positively per the question convention. Faithful."
+    }
+]

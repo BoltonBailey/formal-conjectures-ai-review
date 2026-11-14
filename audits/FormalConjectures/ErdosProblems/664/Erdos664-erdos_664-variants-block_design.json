@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/664: in [Er81] the condition |A_i ∩ A_j| ≤ 1 is replaced by every two points lying in exactly one A_i (a pairwise balanced design), and c < 1 is omitted; this version remains open (Alon conjectures no). The Lean statement: ∀ c > 0 ∃ K such that for all n, m and families with |A_i| > c√n and every pair of distinct points in a unique A_i, some B meets every A_i in between 1 and K points. This matches the Er81 version as described, stated positively with all quantifiers inside, as per the question convention. Faithful."
+    }
+]

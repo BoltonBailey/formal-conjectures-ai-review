@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/503: in ℝ² the largest set in which every three points form an isosceles triangle has size 6 (Kelly; Kovács). The Lean statement says 6 is the greatest ncard of a set A ⊆ ℝ² with A.IsIsosceles (nonempty, and every triple of distinct points has two equal distances). Infinite sets have ncard 0 but cannot occur anyway (any isosceles set is finite by the Blokhuis bound applied to its finite subsets), so IsGreatest captures the maximum. Faithful."
+    }
+]

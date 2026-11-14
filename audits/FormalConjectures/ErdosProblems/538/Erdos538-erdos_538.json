@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/538: for r ≥ 2 and A ⊆ {1,…,N} such that each m has at most r representations m = pa (p prime, a ∈ A), give the best possible upper bound for Σ_{n∈A} 1/n; Erdős observed Σ 1/n ≪ r log N / log log N. The Lean `representations` counts pairs (p, a) with p prime, a ∈ A, m = pa (p ≤ m automatically), Admissible r N A encodes the hypothesis, and maxMass r N is the supremum of Σ 1/a over the finitely many admissible A. The theorem asks for erdos_538.answer r with maxMass r ∼ answer r as N → ∞ — reading 'best possible upper bound' as the exact asymptotic of the extremal quantity. That is a reasonable (strong) interpretation of an open-ended 'give the best bound' question. Faithful."
+    }
+]

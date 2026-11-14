@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/535 and [Er73] (static.renyi.hu/~p_erdos/1973-21.pdf, §4): for r ≥ 3, f_r(N) is the largest size of A ⊆ {1,…,N} with no r elements having the same pairwise gcd; Erdős proved f_r(N) > N^{c_r/log log N} and conjectured this is also an upper bound ([Er73] states it for f_3 as f_3(x) < exp(c log x / log log x)). The Lean f r N is the sSup of |A| over A ⊆ [1,N] with no r-subset S having constant pairwise gcd (a bounded set, so a true maximum), and the statement asks for c > 0 with f_r(N) ≤ N^{c/log log N} eventually, for every r ≥ 3, matching the page's 'conjectured this should also be an upper bound'. Faithful."
+    }
+]

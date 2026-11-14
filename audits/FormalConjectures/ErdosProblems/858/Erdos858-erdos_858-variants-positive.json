@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/858: the maximum is (c + o(1)) log N with c ≈ 0.618 > 0, and (per the page) for fixed large N the normalised supremum is bounded away from 0 (Alexander; Erdős–Sárközi–Szemerédi). The Lean statement ∃ c > 0 with M N / log N → c is implied by the recorded resolution. Faithful."
+    }
+]

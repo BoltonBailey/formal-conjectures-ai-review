@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Green Problem 91 'Update 2021': Ferber, Kwan, Narayanan, Sah and Sawhney showed the 99% question has a positive answer; their Theorem 1.1 (arXiv:2105.13337) gives, with high probability, a bisection of G(n,1/2) in which n − o(n) vertices are friendly. The Lean statement: ∃ f = o(n) such that P(∃ s, |s| = ⌊n/2⌋, numFriendly G s ≥ n − f(n)) → 1. This is the standard formalisation of 'whp n − o(n)' (a single deterministic o(n) function), and it implies green_91. Faithful."
+    }
+]

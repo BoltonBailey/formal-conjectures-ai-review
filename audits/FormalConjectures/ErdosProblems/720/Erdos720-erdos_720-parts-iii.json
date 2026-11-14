@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/720 (Erdős–Faudree–Rousseau–Schelp): if C_n is the cycle with n edges, is R̂(C_n) = o(n²)? Yes (Beck: R̂(C_n) ≪ n). The Lean statement: sizeRamsey(C_n, C_n)/n² → 0, with cycleGraph n the n-cycle (degenerate small n do not affect the limit) and sizeRamsey the standard 2-colour size Ramsey number. Faithful."
+    }
+]

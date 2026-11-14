@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "OEIS A238585 conjecture (iii), second sentence: if n > 9 and n ≠ 18, then prime(p)² + prime(n)² − 1 is prime for some prime p < n. The Lean statement matches with 1-indexed primes via Nat.nth Nat.Prime (k−1); truncated subtraction is harmless (the sum is ≥ 8). Faithful."
+    }
+]

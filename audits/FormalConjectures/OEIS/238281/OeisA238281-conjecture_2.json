@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "OEIS A238281: 'if n > 1 is not equal to 8, then there is a positive integer k < n with 2k+1 prime such that ((k−1)n, kn) and (kn, (k+1)n) contain the same number of primes.' The Lean statement uses half-open intervals ((k−1)n, kn] and (kn, (k+1)n] via π differences. For k ≥ 2 this agrees with the open intervals (kn and (k+1)n are composite), but for k = 1 the interval (0, n] includes n when n is prime. As the docstring notes, the literal open-interval reading fails at n = 2 (only k = 1: (0,2) has 0 primes, (2,4) has 1), whereas the half-open version holds. So the formalisation deliberately repairs a literal statement that is false, choosing the reading consistent with the π-difference convention used by Sun's program for a(n). This is a documented, sensible interpretation, but it does differ from the literal OEIS wording in the k = 1, n prime case."
+    }
+]

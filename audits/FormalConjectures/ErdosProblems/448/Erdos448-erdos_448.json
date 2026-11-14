@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/448: with τ⁺(n) the number of k such that n has a divisor in [2^k, 2^{k+1}), is it true that for every ε > 0, τ⁺(n) < ε τ(n) for almost all n? Disproved by Erdős–Tenenbaum (the upper density of such n is ≍ ε^{1−o(1)}). tauPlus n = |image of Nat.log 2 over divisors| counts exactly the occupied dyadic blocks (sanity checks τ⁺(6) = 3, τ⁺(12) = 4). The statement negates '∀ ε > 0, {n : τ⁺(n) < ε τ(n)} has density 1', which is the formal reading of 'for almost all n', per the question convention. Faithful."
+    }
+]

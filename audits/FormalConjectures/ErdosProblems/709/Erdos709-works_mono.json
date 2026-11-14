@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for erdosproblems.com/709: if the integer multiplier k works (every block of k·max(A) consecutive positive integers contains distinct multiples of every n-element A ⊆ [2,∞)), so does any l ≥ k. Correct, proved in-file from matching_mono_length."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/503: Blokhuis [Bl84] showed |A| ≤ C(d+2, 2) for isosceles sets in ℝ^d. The Lean statement: every ncard of an isosceles A ⊆ ℝ^n is ≤ C(n+2, 2). Since infinite A would have ncard 0, the statement as an upper bound on all realised ncard values is exactly the claim for finite sets. Faithful."
+    }
+]

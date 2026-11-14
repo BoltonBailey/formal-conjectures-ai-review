@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/858: Alexander and Erdős–Sárközi–Szemerédi proved that for an infinite set A with the property, Σ_{n ∈ A ∩ [1,N]} 1/n = o(log N). The Lean statement takes an infinite A ⊆ ℕ with 0 ∉ A satisfying the admissibility condition for all a, b ∈ A, t (with minFac 1 = 1 handling t = 1), and concludes the partial harmonic sums are o(log N). Excluding 0 is necessary and harmless. Faithful."
+    }
+]

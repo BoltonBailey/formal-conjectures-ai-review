@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/888: largest A ⊆ {1,…,n} such that a ≤ b ≤ c ≤ d ∈ A with abcd a square forces ad = bc. The page records the resolution: semiprimes give (1+o(1)) n log log n / log n, and the matching upper bound |A| ≪ n log log n / log n (GPT-5.5 Pro / Chojecki). RequiredCondition encodes A ⊆ (0, n] and the condition with non-strict a ≤ b ≤ c ≤ d over elements of A, exactly as on the page; p n k says some such A has card k, and Nat.findGreatest (p n) n is the maximum size (sizes are ≤ n, and k = 0 always works). The theorem asserts this maximum is Θ(n log log n / log n), which is precisely the 'up to constants' answer recorded on the page. Faithful."
+    }
+]

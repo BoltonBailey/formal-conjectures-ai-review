@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/636: Erdős–Faudree–Sós 'note that n^{5/2} would be best possible'. The Lean statement: ∃ C > 0 and K such that for large n some G on Fin n with ω, α < C log n has fewer than K n^{5/2} pairwise-distinguishable induced subgraphs. This is non-trivial (the trivial bound on distinct (size, edges) pairs is ≍ n³) and holds for G(n,1/2) w.h.p.: for each k the induced edge counts concentrate in a window of width O(k·√(log C(n,k))), summing to O(n^{5/2}). Faithful."
+    }
+]

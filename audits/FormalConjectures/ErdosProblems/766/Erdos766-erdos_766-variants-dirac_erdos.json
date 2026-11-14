@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/766: Dirac and Erdős proved independently that for l = ⌊k²/4⌋+1, f(n;k,l) ≤ ⌊n²/4⌋+1. [Er64c, p. 34]: 'every G(n; [n²/4]+1) contains, for every k ≤ n, a G(k; [k²/4]+1)'. The Lean statement: for 3 ≤ k ≤ n, forcingNumber n k (k²/4 + 1) ≤ n²/4 + 1 (ℕ division = floor). This is exactly the f₁ form stated in the source; k ≥ 3 excludes cases where no graph with k vertices and ⌊k²/4⌋+1 edges exists. Faithful."
+    }
+]

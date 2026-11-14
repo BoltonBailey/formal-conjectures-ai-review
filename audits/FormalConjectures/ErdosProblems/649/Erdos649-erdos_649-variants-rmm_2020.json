@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/649: RMM 2020 Problem 6: there are infinitely many odd primes p such that P(n)P(n+1) ≠ 2p for every n. The Lean statement: {p | p prime ∧ Odd p ∧ ∀ n, maxPrimeFac n · maxPrimeFac (n+1) ≠ 2p} is infinite. Including n = 0 is harmless (the product there involves P(0) or P(1), which are not 2 and p). Faithful."
+    }
+]

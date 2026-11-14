@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/554: 'The problem is open even for n = 2', i.e. R_k(C_5)/R_k(K_3) → 0. The Lean statement is erdos_554 at n = 2 (cycleGraph 5). Faithful."
+    }
+]

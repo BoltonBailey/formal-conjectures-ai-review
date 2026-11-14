@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/624 (Erdős–Hajnal): H(n) is the least m for which some f : P(X) → X, |X| = n, has {f(A) : A ⊆ Y} = X for every Y with |Y| ≥ m; prove H(n) − log₂ n → ∞. The Lean H n (for n > 0) is sInf of the m with ExistsEventuallySurjective n m, i.e. an f : Finset (Fin n) → Fin n with Y.powerset.image f = univ whenever |Y| ≥ m — the minimum as intended (the set is nonempty, e.g. m = n works, so sInf is a genuine minimum). The statement Tendsto (H n − log₂ n) atTop atTop, with H n cast to ℝ, is the requested claim. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/942: 'Erdős writes it is not hard to prove ... that the density δ_l of integers for which h(n) = l exists and Σ δ_l = 1', with h(n) the number of powerful integers in [n², (n+1)²). The Lean h counts elements of Ico (n²) ((n+1)²) satisfying Powerful, and the statement gives δ : ℕ → ℝ with {n | h n = l} having natural density δ l for every l and Σ' δ l = 1 (since δ ≥ 0, tsum = 1 forces summability, so this is a genuine series identity). Faithful."
+    }
+]

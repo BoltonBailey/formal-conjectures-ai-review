@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "erdosproblems.com/388: 'More generally, if k₁ > 2 then for fixed a and b, a∏_{1≤i≤k₁}(m₁+i) = b∏_{1≤j≤k₂}(m₂+j) should have only a finite number of solutions.' The Lean statement, for fixed positive a, b, asserts finiteness under 2 < k₁, 2 < k₂ and m₁ + k₁ ≤ m₂. The conditions k₂ > 2 and disjoint, ordered blocks are not in the source, but the docstring shows they are necessary: without them there are infinite families (k₂ = 1; k₂ = 2 with a = 1, b = 4 via (n+1)(n+2)(n+3)(n+4) = Y(Y+2), Y = (n+1)(n+4), which I verified; overlapping blocks with a factor 2). Since a, b range over all positive integers, fixing which block is lower loses nothing. This is a sensible, documented reconstruction of an under-specified source statement, but it does add hypotheses not present in the source."
+    }
+]

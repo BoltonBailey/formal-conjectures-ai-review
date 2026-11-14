@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/481: a_1,…,a_r, b_1,…,b_r ∈ ℕ with Σ 1/a_i > 1; T(A) = (a_i x_j + b_i)_{j ≤ n, i ≤ r}; starting from A_1 = (1) and iterating, some A_k has repeated elements (true, Klarner). The Lean T a b A is the list flatMap over i of A.map (a_i x + b_i), of length r·n, and the statement asks for k with (T a b)^[k] [1] not Nodup, under 0 < a_i and 1 < Σ 1/a_i in ℝ. Positivity of a_i is needed for 1/a_i to make sense; allowing b_i = 0 is within the page's 'b_i ∈ ℕ' and the result still holds (Klarner's density argument). The ordering of the list is irrelevant to the repetition question, and the dropped 'minimal element large' condition is trivial as the page explains. Faithful."
+    }
+]

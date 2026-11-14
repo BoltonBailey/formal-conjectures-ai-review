@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/583 (Erdős–Gallai / Gallai's path decomposition conjecture): every connected graph on n vertices can be partitioned into at most ⌈n/2⌉ edge-disjoint paths. The Lean statement, for any finite type V and connected G, gives a Finset D of subgraphs each traced by a path (IsPathSubgraph: H = p.toSubgraph for a walk with IsPath), with IsDecomposition G D (pairwise disjoint edge sets whose union is G.edgeSet) and |D| ≤ ⌈|V|/2⌉. Paths with no edges are harmless (they only increase |D|), and G.Connected forces V nonempty. Faithful."
+    }
+]

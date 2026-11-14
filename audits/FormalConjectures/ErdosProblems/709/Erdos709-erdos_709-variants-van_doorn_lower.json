@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/709: via van Doorn's lower bound for [711], log n / log log n ≪ f(n). The Lean statement (log n / log log n) = O(f(n)). Faithful."
+    }
+]

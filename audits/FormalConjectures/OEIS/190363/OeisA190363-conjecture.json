@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A190363: a(n) = n + ⌊nr/t⌋ + ⌊ns/t⌋ with r = 1, s = √(5/4), t = √(4/5), i.e. (FORMULA) 2n + ⌊n√(5/4)⌋ + ⌊n/4⌋; Dale (2025) conjectured the linear recurrence with coefficients 0,0,0,1,0,…,0,1,0,0,0,−1, i.e. a(n) = a(n−4) + a(n−17) − a(n−21). The Lean `a` is the FORMULA expression (test values a(1..5) = 3,6,9,13,16 match), and the theorem negates ∀ n ≥ 1, a(n+21) = a(n+17) + a(n+4) − a(n), which is exactly that recurrence. I verified numerically (exact integer floors) that it first fails at n = 140, as the docstring says, so the negation (tagged solved) is correct. Faithful."
+    }
+]

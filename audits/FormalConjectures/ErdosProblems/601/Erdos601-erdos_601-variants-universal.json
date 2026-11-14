@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "States that HasPathOrIndepSetOfType α holds for every limit ordinal α (in universe 0). The formal content is a correct encoding of 'the answer to erdosproblems.com/601 is: all limit ordinals'. However, erdosproblems.com/601 does not record a conjecture that it holds for all limit ordinals—it only poses 'for which α', notes EHM's result for α < ω₁^{ω+2}, Erdős' prizes for ω₁^{ω+2} and for the general case, and Larson's MA result for α < 2^ℵ₀. The docstring attributes this universal statement to an 'Erdős–Hajnal–Milner conjecture [Er81, Section VII]', which I could not verify from the cited page. The statement is a sensible variant; the attribution in the documentation is the only concern."
+    }
+]

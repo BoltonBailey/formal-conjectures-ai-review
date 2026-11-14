@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/900: there is f : (1/2, ∞) → ℝ with f(c) → 0 as c → 1/2 and f(c) → 1 as c → ∞ such that the random graph with n vertices and cn edges has, with high probability, a path of length ≥ f(c)n (proved by Ajtai–Komlós–Szemerédi). The Lean statement gives f : ℝ → ℝ with f(c) > 0 for c > 1/2, f → 0 as c → 1/2⁺ (𝓝[>]), f → 1 as c → ∞, and for each c > 1/2, P_{G(n,⌊cn⌋)}(G contains pathGraph(⌈f(c)n⌉+1)) → 1. uniformEdgeProbability is the uniform distribution on graphs on Fin n with exactly m edges; a path on ⌈an⌉+1 vertices has ≥ an edges. The positivity requirement f(c) > 0 rules out the trivial f and captures the intended 'linear-length path' content; the readings (uniform G(n,m), whp = probability → 1) are standard and documented. Faithful."
+    }
+]

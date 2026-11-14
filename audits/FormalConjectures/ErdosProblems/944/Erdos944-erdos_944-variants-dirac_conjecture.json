@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/944: Dirac conjectured (1970) the case r = 1 for all k ≥ 4, i.e. k-vertex-critical graphs with no critical edge. The Lean statement ∀ k ≥ 4, ∃ G with IsErdos944 G k 1 encodes this correctly (every critical edge set has size ≥ 2, equivalently no single critical edge). Note on status: the page (as fetched) still lists k = 4, r = 1 as open, while formal-conjectures tags this `research solved`, relying on the k_eq_four variant's linked Lean formalisation together with Jensen's k ≥ 5 result. The statement itself is faithful."
+    }
+]

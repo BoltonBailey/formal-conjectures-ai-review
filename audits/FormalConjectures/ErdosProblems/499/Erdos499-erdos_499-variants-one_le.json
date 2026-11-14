@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "erdosproblems.com/499: Erdős also conjectured there is σ with a_{iσ(i)} ≠ 0 for all i and Σ_i a_{iσ(i)} ≥ 1, proved by Marcus and Ree. The Lean statement, for n > 0 and doubly stochastic M, asks for σ with all M i (σ i) ≠ 0 and 1 ≤ Σ_i M i (σ i). n > 0 is needed (empty sum 0 < 1). Faithful."
+    }
+]

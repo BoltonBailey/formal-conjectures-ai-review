@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/944: a critical vertex/edge/edge-set is one whose deletion lowers the chromatic number; for k ≥ 4, r ≥ 1, must there be a graph with chromatic number k, every vertex critical, yet every critical edge set of size > r? IsErdos944 G k r = G.IsCritical k (χ(G) = k and every vertex critical) ∧ every edge set S with χ(G.deleteEdges S) < χ(G) has ncard > r. Although V may be any type, an infinite vertex-critical graph with finite χ is impossible (by de Bruijn–Erdős a finite subgraph already has χ = k, and deleting a vertex outside it cannot lower χ), so only finite graphs qualify; allowing non-edges in S is harmless since S ∩ E(G) is also critical and no larger. The statement ∀ k ≥ 4, ∀ r ≥ 1, ∃ such a graph is the 'yes' form. (The AMS 11 subject tag is inaccurate for a graph theory problem, but this does not affect the statement.) Faithful."
+    }
+]

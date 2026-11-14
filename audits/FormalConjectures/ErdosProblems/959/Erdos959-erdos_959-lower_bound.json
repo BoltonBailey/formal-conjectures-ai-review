@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/959: for n-point A ⊆ ℝ² with distance multiplicities f(d_1) ≥ f(d_2) ≥ ⋯, estimate max (f(d_1) − f(d_2)); Clemen–Dumitrescu–Liu proved ≫ n log n and conjectured n log n can be improved to n^{1+c/log log n}. The Lean extremalGap n is the maximum (Nat.findGreatest up to C(n,2)) of multiplicityGap over injective configurations with ≥ 2 distinct distances, where multiplicityGap = max_d (f(d) − max_{d'≠d} f(d')) correctly equals f(d_1) − f(d_2) (0 on ties). The statement ∃ c > 0, ∀ large n, n^{1+c/log log n} ≤ extremalGap n is exactly the CDL25 conjectured bound. It is tagged `research solved` on the strength of a linked external formal proof; the page (as fetched) still presents it as a conjecture, and the docstring does not mention the CDL attribution. The formal statement itself is faithful."
+    }
+]
