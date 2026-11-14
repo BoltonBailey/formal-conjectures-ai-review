@@ -58,7 +58,21 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-5. `DiophantineTuple.hasUniqueExtension_of_forall`: severity 4, essentially misformalized
+5. `Arxiv.«2406.10319».pittel_hyperbola_threshold`: severity 4, essentially misformalized
+
+   <details>
+   <summary>Details</summary>
+
+   - **File:** [FormalConjectures/Arxiv/2406.10319/StableMatchingHyperbola.lean](https://github.com/google-deepmind/formal-conjectures/blob/a919f7f47b836b766f378c2b1360b28168bbdd9d/FormalConjectures/Arxiv/2406.10319/StableMatchingHyperbola.lean)
+   - **Commit:** [`a919f7f47b83`](https://github.com/google-deepmind/formal-conjectures/commit/a919f7f47b836b766f378c2b1360b28168bbdd9d) (2026-11-13)
+   - **Model:** claude-fable-5-2
+   - **Audit file:** [Arxiv-«2406-10319»-pittel_hyperbola_threshold.json](audits/FormalConjectures/Arxiv/2406.10319/StableMatchingHyperbola/Arxiv-«2406-10319»-pittel_hyperbola_threshold.json)
+
+   Compared against B. Pittel, 'On Constrained Matchings, Stable Under Random Preferences' (arXiv:2406.10319, p. 26, Notes (2)). The source conjecture is a single informal sentence: 'We conjecture existence of p*(n) ∈ [9/4·log²n/n, 1], a critical threshold for appearance of a hyperbolic curve, as an asymptotic approximation of {(Q(M), R(M))}_M.' The underlying model is formalized faithfully: uniform independent preferences, each pair admissible independently with probability p (marketLaw), Gusfield–Irving stability of partial matchings (IsPartialStable), and Q, R as total ranks among admissible partners (totalWifeRank/totalHusbandRank), all as in the paper. However, the paper gives no precise meaning to 'critical threshold' or 'appearance of a hyperbolic curve', and the Lean statement supplies one through several choices that are not in the source: (a) the scaling of both ranks by √(p n³) (natural, since Theorem 1.6 gives Q ≈ R ≈ (pn³)^{1/2} below log²n/n and QR ≈ n³ at p = 1, but not stated by Pittel for intermediate p); (b) 'hyperbola appears' is defined as: every stable M has |qr − 1| ≤ ε and the fixed arc {(t, 1/t) : t ∈ [2/3, 3/2]} is ε-covered; the arc endpoints are arbitrary, and the threshold for covering this particular arc need not be the threshold at which a nondegenerate curve first appears (by Theorem 1.7, Q⁻ ≥ (1−ε) n log n for c > 9/4, so t = 2/3 can only be reached when c is about 9/4 or more, which makes the choice of arc effectively decide the location of p*); (c) the threshold is required to be sharp in a strong sense, with a relative window δ·min(p*, 1 − p*) and uniformity over all p outside the window, whereas the source's 'critical threshold' could also be coarse; (d) p* is restricted to the open interval (0,1) with a strict eventual lower bound, while the source allows the closed interval. Each choice is reasonable and the docstring documents them, but the resulting statement is one specific strengthening/interpretation among many, and its truth could differ from what Pittel intends (e.g. if the transition is not sharp in this relative sense, or if a hyperbolic arc of smaller extent appears earlier). So it is unclear that this is a correct formulation of the conjecture; the source is arguably too vague to formalize canonically.
+
+   </details>
+
+6. `DiophantineTuple.hasUniqueExtension_of_forall`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -72,7 +86,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-6. `DiophantineTuple.noIntegralDiophantineFiveTuple`: severity 4, essentially misformalized
+7. `DiophantineTuple.noIntegralDiophantineFiveTuple`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -86,7 +100,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-7. `DiophantineTuple.rational_7_tuple`: severity 4, essentially misformalized
+8. `DiophantineTuple.rational_7_tuple`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -100,7 +114,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-8. `Erdos142.erdos_142`: severity 4, essentially misformalized
+9. `Erdos142.erdos_142`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -114,7 +128,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-9. `Erdos142.erdos_142.variants.isTheta`: severity 4, essentially misformalized
+10. `Erdos142.erdos_142.variants.isTheta`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -128,7 +142,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-10. `Erdos319.erdos_319`: severity 4, essentially misformalized
+11. `Erdos319.erdos_319`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -142,7 +156,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-11. `Erdos321.erdos_321`: severity 4, essentially misformalized
+12. `Erdos321.erdos_321`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -156,7 +170,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-12. `OeisA103425.conjecture`: severity 4, essentially misformalized
+13. `OeisA103425.conjecture`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -170,7 +184,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-13. `OeisA103425.conjecture.variants.nonconstant`: severity 4, essentially misformalized
+14. `OeisA103425.conjecture.variants.nonconstant`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -184,7 +198,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-14. `OeisA103425.conjecture.variants.nonconstant_distinct_coeffs`: severity 4, essentially misformalized
+15. `OeisA103425.conjecture.variants.nonconstant_distinct_coeffs`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -198,7 +212,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-15. `Erdos1017.erdos_1017.lower_bound`: severity 4, essentially misformalized
+16. `Erdos1017.erdos_1017.lower_bound`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -212,7 +226,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-16. `Erdos1017.erdos_1017.upper_bound`: severity 4, essentially misformalized
+17. `Erdos1017.erdos_1017.upper_bound`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -226,7 +240,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-17. `Erdos328.erdos_328`: severity 4, essentially misformalized
+18. `Erdos328.erdos_328`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -240,7 +254,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-18. `Erdos918.erdos_918.variants.eq_aleph_0.parts.i`: severity 4, essentially misformalized
+19. `Erdos918.erdos_918.variants.eq_aleph_0.parts.i`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -254,7 +268,21 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-19. `Erdos462.erdos_462`: severity 3, edge cases or discrepancies, but still equivalent
+20. `FanelliMoscardelli.stability_threshold_tight`: severity 3, edge cases or discrepancies, but still equivalent
+
+   <details>
+   <summary>Details</summary>
+
+   - **File:** [FormalConjectures/Paper/ApproximatelyStableMatching.lean](https://github.com/google-deepmind/formal-conjectures/blob/a919f7f47b836b766f378c2b1360b28168bbdd9d/FormalConjectures/Paper/ApproximatelyStableMatching.lean)
+   - **Commit:** [`a919f7f47b83`](https://github.com/google-deepmind/formal-conjectures/commit/a919f7f47b836b766f378c2b1360b28168bbdd9d) (2026-11-13)
+   - **Model:** claude-fable-5-2
+   - **Audit file:** [FanelliMoscardelli-stability_threshold_tight.json](audits/FormalConjectures/Paper/ApproximatelyStableMatching/FanelliMoscardelli-stability_threshold_tight.json)
+
+   Compared against A. Fanelli and L. Moscardelli, 'Approximately Stable Matching' (ECAI 2025, doi:10.3233/FAIA251234, open-access PDF), Sections 2 and 5. Model: agents rank neighbours and themselves with rank_i(i) = δ_i + 1 (single is worst); a matching is an involution with fixed points single; {i,j} ∈ E is k-blocking at m if rank_i(m(i)) − rank_i(j) ≥ k and rank_j(m(j)) − rank_j(i) ≥ k; k ≥ 1. Roommates.CompleteProfile/partnerRank/IsKBlockingPair/IsKStable with the complete graph ⊤ reproduce this exactly (one-based ranks, self ranked n), and stabilityThreshold N is the least k ≥ 1 such that every complete profile on N agents has a k-stable matching (existence is monotone in k, so this is the threshold). Section 5: 'Theorem 1 shows existence (and convergence) for k = ⌈|N|/2⌉ ... exhaustive search on all complete graphs with up to |N| = 6 nodes ... k = ⌈|N|/2⌉ − 1 does not suffice ... We conjecture that the lower bound can be improved and that ⌈|N|/2⌉ could represent the true threshold even for larger values of |N|.' The value (N+1)/2 in ℕ is ⌈N/2⌉, correct (the ceilings are confirmed by Theorem 2's k = ⌊(n−3)/2⌋ + 1 = ⌈n/2⌉ − 1). Discrepancy: the paper's conjecture reads as 'the threshold is ⌈|N|/2⌉ for every |N|' (verified by them for |N| ≤ 6, conjectured beyond), whereas the Lean statement only asserts it for all N ≥ N₀ for some unspecified N₀ (the extra conjunct 3 ≤ N₀ is vacuous, since N₀ can always be increased). The Lean statement is therefore a priori weaker than the conjecture (it would remain true if the formula failed at finitely many N ≥ 7); a proof of the Lean statement would not settle the conjecture as stated, though a disproof would refute it. A faithful version would be ∀ N, stabilityThreshold N = (N + 1) / 2 (true for N = 0? stabilityThreshold 0 = 1 ≠ 0, so ∀ N ≥ 1).
+
+   </details>
+
+21. `Erdos462.erdos_462`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -268,7 +296,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-20. `Erdos601.erdos_601.variants.omega_1_omega_plus_2`: severity 3, edge cases or discrepancies, but still equivalent
+22. `Erdos601.erdos_601.variants.omega_1_omega_plus_2`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -282,7 +310,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-21. `Erdos918.erdos_918.variants.all_subgraphs.parts.i`: severity 3, edge cases or discrepancies, but still equivalent
+23. `Erdos918.erdos_918.variants.all_subgraphs.parts.i`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -296,7 +324,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-22. `Erdos887.erdos_887.parts.i`: severity 3, edge cases or discrepancies, but still equivalent
+24. `Erdos887.erdos_887.parts.i`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -310,7 +338,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-23. `Andrica.andrica_conjecture.ferreira_large_n`: severity 3, edge cases or discrepancies, but still equivalent
+25. `Andrica.andrica_conjecture.ferreira_large_n`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -324,7 +352,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-24. `Brocard.brocard_conjecture.ferreira_large_n`: severity 3, edge cases or discrepancies, but still equivalent
+26. `Brocard.brocard_conjecture.ferreira_large_n`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -338,7 +366,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-25. `Green29.green_29`: severity 3, edge cases or discrepancies, but still equivalent
+27. `Green29.green_29`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -352,7 +380,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-26. `LegendreConjecture.legendre_conjecture.ferreira_large_n`: severity 3, edge cases or discrepancies, but still equivalent
+28. `LegendreConjecture.legendre_conjecture.ferreira_large_n`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -366,7 +394,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-27. `Oppermann.oppermann_conjecture.ferreira_large_x`: severity 3, edge cases or discrepancies, but still equivalent
+29. `Oppermann.oppermann_conjecture.ferreira_large_x`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -380,7 +408,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-28. `Bugeaud06.problem_10_6_variant_1`: severity 3, edge cases or discrepancies, but still equivalent
+30. `Bugeaud06.problem_10_6_variant_1`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -394,7 +422,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-29. `Equidistribution.isAccumulationPoint_three_halves_pow`: severity 3, edge cases or discrepancies, but still equivalent
+31. `Equidistribution.isAccumulationPoint_three_halves_pow`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -408,7 +436,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-30. `Erdos1000.erdos_1000`: severity 3, edge cases or discrepancies, but still equivalent
+32. `Erdos1000.erdos_1000`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -422,7 +450,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-31. `Erdos108.erdos_108`: severity 3, edge cases or discrepancies, but still equivalent
+33. `Erdos108.erdos_108`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -436,7 +464,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-32. `Erdos143.erdos_143.parts.ii`: severity 3, edge cases or discrepancies, but still equivalent
+34. `Erdos143.erdos_143.parts.ii`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -450,7 +478,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-33. `Erdos29.erdos_29`: severity 3, edge cases or discrepancies, but still equivalent
+35. `Erdos29.erdos_29`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -464,7 +492,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-34. `Erdos42.erdos_42.variants.constructive`: severity 3, edge cases or discrepancies, but still equivalent
+36. `Erdos42.erdos_42.variants.constructive`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -478,7 +506,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-35. `Erdos923.erdos_923`: severity 3, edge cases or discrepancies, but still equivalent
+37. `Erdos923.erdos_923`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
