@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 142 (listed as open, July 19, 2005): 'If G is a simple connected graph, then tree(G) ≥ (2/3)*girth + ecc(B)'. Definitions there: tree(G) is the number of vertices of a largest induced tree; girth is the number of vertices of a smallest cycle; B (the periphery, 'previously called set of boundary vertices') is the set of vertices of maximum eccentricity; ecc(S) 'is the maximum of distances from vertices of V−S to the set S', the distance from v to S being the smallest distance to a vertex of S. Lean: (2/3)·girth + eccSet G B ≤ largestInducedTreeSize G in ℝ, with B = {v | eccent v = ediam} and eccSet G S = max over all vertices v of min_{s∈S} dist(v, s). Taking the maximum over all v rather than over V−S changes nothing when S ≠ V (vertices of S contribute 0) and gives 0 when S = V, where the source's maximum is over an empty set; this is the natural convention. Girth of an acyclic graph is 0 (Mathlib), as the docstring states. Spot checks: cycles C_n (tree = n−1, B = V) and the Petersen graph satisfy the bound. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 198a (listed as open, Jan 12, 2006): 'If G is a simple connected graph with n > 1 such that b(G) ≤ 2 + ecc_avg(G), then G has a Hamiltonian path', with b(G) the maximum order of an induced bipartite subgraph and ecc_avg(G) the average of the eccentricities of the vertices. Lean: for connected G on a finite nontrivial type (n > 1), if b G ≤ 2 + averageEccentricity G then there exist a, b and a walk from a to b that IsHamiltonian. averageEccentricity is the mean of eccent.toNat (the true eccentricities for connected finite G). Direct transcription; faithful. (The repository marks it solved with linked formal proofs; the archived list predates that.)"
+    }
+]

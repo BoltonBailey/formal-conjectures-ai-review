@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma with a complete proof in the file. Compared against the Wikipedia article 'Weighing matrix': a weighing matrix of order n and weight w is a matrix W with entries in {0, 1, −1} such that W Wᵀ = w I_n. IsWeighingMatrix n w W (integer n×n matrix, entries −1, 0 or 1, W·Wᵀ = w • 1) matches this definition. The lemma says the zero matrix is a W(n, 0), which is immediate from the definition (0·0ᵀ = 0 = 0·I). Correct; weight 0 is a degenerate case not usually considered but consistent with the definition."
+    }
+]

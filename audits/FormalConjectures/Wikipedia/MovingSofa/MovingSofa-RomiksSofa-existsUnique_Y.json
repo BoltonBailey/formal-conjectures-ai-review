@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Lemma with a complete proof in the file: x(4x² + 3) = 1 has exactly one real root (4x³ + 3x is strictly increasing). Compared against Romik, arXiv:1606.08111, eq. (5), whose arctan argument is Y = ½(∛(√2+1) − ∛(√2−1)) ≈ ½(1.34150 − 0.74543) = 0.29804. Writing Y = (a − b)/2 with a³ − b³ = 2 and ab = 1 gives 8Y³ = 2 − 6Y, i.e. Y(4Y² + 3) = 1, so the unique root is exactly the constant in Romik's formula, as the docstring of `Y` claims. Correct."
+    }
+]

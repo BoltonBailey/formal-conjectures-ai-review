@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 133 (open, July 12, 2005): 'If G is a simple connected graph, then path(G) ≥ rad(G) + [average of λ(v)]^χC4', with path(G) 'the number of vertices of a largest induced path', rad the minimum eccentricity, λ(v) the local independence number and χ_C4(G) '1 if G is C_4-free (not necessarily induced) and 0 otherwise'. Lean: for connected G on a finite nontrivial type, (radius.toNat : ℝ) + (l G)^cC4 ≤ path G, where l G is the average of indepNeighborsCard over all vertices, cC4 = 0 if there are four distinct vertices a, b, c, d with a~b~c~d~a (a not-necessarily-induced 4-cycle) and 1 otherwise, and path G is the largest cardinality of a vertex set that can be listed as an induced path (isInducedPath: no repeats, adjacency exactly between consecutive entries). The radius is finite for a connected finite graph, so toNat is the true radius. The exponent reading (average)^χ, i.e. the term is the average when G is C_4-free and 1 otherwise, is the literal meaning of the source formula. Spot checks (K_n, stars) are consistent with the conjecture. Faithful."
+    }
+]

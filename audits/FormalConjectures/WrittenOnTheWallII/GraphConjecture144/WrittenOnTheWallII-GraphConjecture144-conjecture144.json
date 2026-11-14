@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 144 (listed as open, July 19, 2005): 'If G is a simple connected graph, then tree(G) ≥ girth − 1 + ecc(Centers)'. Definitions there: tree(G) is the number of vertices of a largest induced tree; girth is the number of vertices of a smallest cycle; 'a center vertex is a vertex of minimum eccentricity; the center of the graph is the set of all vertices that are centers'; ecc(S) 'is the maximum of distances from vertices of V−S to the set S'. Lean: for connected G on a finite nontrivial type, girth − 1 + ecc G G.center ≤ largestInducedTreeSize G in ℝ, where G.center is Mathlib's set of vertices of minimum eccentricity and ecc G S is the maximum over v ∉ S of the least distance from v to S (0 if S is everything), exactly the source's definition with the natural convention for S = V. Real subtraction avoids truncation; girth is 0 for acyclic graphs (Mathlib convention, stated in the docstring; the source leaves it undefined), where the claim is easily true. Faithful."
+    }
+]

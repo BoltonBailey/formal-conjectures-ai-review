@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma with a complete proof in the file. Compared against Wikipedia 'Moving sofa problem', section 'Ambidextrous sofa' ('the shape of the largest area that can go around both left and right 90-degree corners in a corridor of unit width') and Romik, arXiv:1606.08111, §1.2. IsAmbidextrousSofa s requires that both s and its reflection in the line y = 1/2 are moving sofas for the right-turning hallway L = (−∞,1]×[0,1] ∪ [0,1]×(−∞,1]; the reflection of s negotiating the right turn is equivalent to s negotiating the mirrored (left) turn, so this is the ambidextrous condition. ambidextrousSofaConstant and sofaConstant are the suprema of Lebesgue area over ambidextrous sofas and over moving sofas respectively, so the inequality ambidextrousSofaConstant ≤ sofaConstant is immediate from the first component of the definition, which is exactly how it is proved. Correct (consistent with 1.645 < 2.2195)."
+    }
+]

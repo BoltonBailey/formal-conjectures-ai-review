@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 103 (listed as open, April 21, 2004): 'If G is a simple connected graph, then α(G) ≤ FLOOR[b(G) − LN[average of ecc(v)]', with b(G) the maximum order of an induced bipartite subgraph and ecc the eccentricity. The Lean declaration is the negation of the universal statement (over finite nontrivial vertex types and connected G) of indepNum G ≤ ⌊b G − log(averageEccentricity G)⌋, and it is fully proved in the file by an explicit counterexample, so there is nothing left to solve. I re-checked the counterexample by hand: a triangle {0,1,2} with four pendant vertices on each of 0 and 1 has α = 9 (eight leaves plus vertex 2), b = 10 (delete one triangle vertex), eccentricities 3 for the eight leaves and 2 for the three triangle vertices, so average 30/11 and ln(30/11) ≈ 1.0033 > 1, giving ⌊10 − 1.0033⌋ = 8 < 9. The definitions (b as sSup of sizes of vertex sets inducing a bipartite graph, averageEccentricity as the mean of eccent.toNat, natural logarithm) match the source's. The negated form follows the repository convention for refuted conjectures. Faithful. Minor: the question tag is used although the source states a conjecture, not a question."
+    }
+]

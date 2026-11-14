@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 160 (listed there as open, Aug 8, 2005): 'If G is a simple connected graph, then L_s(G) ≥ maximum of λ(v) + maximum T(v)*χ_C4(G)'. Definitions there: λ(v) is the independence number of the subgraph induced by the neighbours of v; T(v) is 'the number of distinct complete subgraphs on three vertices that include vertex v'; χ_C4(G) 'is 1 if G is C_4-free (not necessarily induced) and 0 otherwise'; L_s is the maximum number of leaves of a spanning tree. Lean: for connected G on a finite nontrivial type, maxL + maxT·cC4 ≤ Ls G in ℝ, where maxL is the maximum of indepNeighborsCard (indepNum of G induced on the neighbour set), maxT the maximum of numTrianglesAtVertex (number of 3-cliques containing v), and cC4 = 0 if some closed walk is a cycle of length 4 (a not-necessarily-induced C_4 subgraph) and 1 otherwise. The precedence (product before sum) matches the source. Spot checks: K_3 gives 1 + 1·1 = 2 = L_s; K_4 gives 1 + 3·0 ≤ 3. Faithful. (The repository marks it solved with a linked formal proof; the archived list predates that.)"
+    }
+]

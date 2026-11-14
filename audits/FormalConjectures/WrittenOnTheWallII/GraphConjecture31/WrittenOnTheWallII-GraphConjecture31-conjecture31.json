@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html, snapshot of 26 July 2026, and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 31 (status R, July 15, 2003: 'This is Chung's Theorem, see reference'): 'If G is a simple connected graph, then path(G) ≥ 2rad(G) − 1', with path(G) 'the number of vertices of a largest induced path of the graph' and rad(G) the minimum eccentricity. Lean: for connected G on a finite nontrivial type, 2·(radius.toNat : ℤ) − 1 ≤ (path G : ℤ). The radius of a connected finite graph is finite, so toNat is the true radius; the inequality is stated in ℤ, so the subtraction does not truncate; and path G is the largest cardinality of a vertex set that can be listed as an induced path (no repeated vertices, adjacency exactly between consecutive entries), i.e. the number of vertices, not edges, as in the source. Spot checks: K_n gives 1 ≤ 2; the path P_n gives 2⌊n/2⌋ − 1 ≤ n; the cycle C_n gives 2⌊n/2⌋ − 1 ≤ n − 1. Direct transcription; faithful."
+    }
+]

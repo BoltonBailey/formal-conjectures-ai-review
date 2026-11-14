@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against (i) the Wikipedia article 'Weighing matrix', section Existence, conjecture 2: 'If n ≡ 0 (mod 4) then there exists a W(n, w) for each w < n', and (ii) Koukouvinos–Seberry, 'Weighing matrices and their applications'-era paper in Australas. J. Combin. 8 (1993) 143–152: 'Conjecture 1 (Wallis [13]) There exists a weighing matrix W(4t, k) for k ∈ {1, ..., 4t}.' The Lean statement: for m ≥ 1 and w ≤ 4m there exists an integer 4m×4m matrix with entries in {−1, 0, 1} and W·Wᵀ = w·I. The definition matches the article's. The range of w is 0..4m: w = 0 is trivially satisfied by the zero matrix, and w = 4m (the Hadamard conjecture) is included, as in Wallis's formulation quoted in (ii) and as the docstring says; Wikipedia's wording (w < n) omits the Hadamard case, so the Lean statement follows the original Wallis/Geramita–Seberry form rather than the slightly weaker Wikipedia phrasing. This is documented in the docstring. Faithful to the cited conjecture."
+    }
+]

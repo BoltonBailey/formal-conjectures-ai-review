@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 143 (listed as open, July 19, 2005): 'If G is a simple connected graph, then tree(G) ≥ (girth + 1)/σ(G)', where σ(G) is the second smallest degree: 'order the degree sequence in nondecreasing order d_1 ≤ d_2 ≤ ... ≤ d_n, the second smallest degree of the sequence is the 2nd entry'. Lean: for connected G on a finite nontrivial type with 0 < secondSmallestDegree G, girth + 1 ≤ largestInducedTreeSize G · secondSmallestDegree G in ℝ. secondSmallestDegree is entry 1 (0-indexed) of the nondecreasingly sorted degree sequence, matching the definition; the inequality is the source's with the positive denominator cleared; and the hypothesis 0 < σ is automatically true for a connected graph on at least two vertices (all degrees are ≥ 1), so it does not weaken the statement. Girth is 0 for acyclic graphs (Mathlib convention; the source does not say), where the claim is trivial. The statement is fully proved in the file. Faithful."
+    }
+]

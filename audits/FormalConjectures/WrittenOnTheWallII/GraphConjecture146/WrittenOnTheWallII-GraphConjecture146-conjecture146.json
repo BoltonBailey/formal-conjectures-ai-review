@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 146 (listed as open, July 19, 2005): 'If G is a simple connected graph, then tree(G) ≥ 2*ecc(B)/rad(G^2)', with B the periphery, ecc(S) the maximum distance from vertices outside S to S, and G^2 'the graph on the same vertex set as G with two vertices adjacent if and only if their distance in G is 2 or less'. Lean: for connected G on a finite nontrivial type with 0 < graphSquareRadius G, 2·eccSet G (maxEccentricityVertices G) ≤ largestInducedTreeSize G · graphSquareRadius G in ℕ, where graphSquare joins distinct vertices at (extended) distance ≤ 2 and graphSquareRadius is its radius (finite, since G² is connected when G is). This is the source inequality with the denominator cleared; the hypothesis rad(G²) > 0 holds automatically for a connected graph on at least two vertices, so it does not weaken the statement. eccSet agrees with the source's ecc(B) (it is 0 when B = V). Faithful."
+    }
+]

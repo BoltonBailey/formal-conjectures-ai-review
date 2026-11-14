@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against D. Romik, 'Differential equations and exact solutions in the moving sofa problem' (arXiv:1606.08111), §1.2, eq. (5) and Theorem 5: 'Σ = S_x ∩ ρ(S_x), where ρ is the affine reflection in the plane across the line y = 1/2. Then Σ is a shape that can move around corners both to the left and to the right ... The area Δ of the shape Σ is given by (5)', with (5) = ∛(3+2√2) + ∛(3−2√2) − 1 + arctan(½(∛(√2+1) − ∛(√2−1))) ≈ 1.644955218425440. In Lean, RomiksSofa.area = X + arctan Y where X, Y are the unique real roots of x²(x+3) = 8 and x(4x²+3) = 1; I checked that these are exactly the two closed-form constants in (5) (X ≈ 1.35530, Y ≈ 0.29804, X + arctan Y ≈ 1.64496). ambidextrousSofaConstant is the supremum of the area of sets s such that s and its reflection in y = 1/2 are both moving sofas (closed, connected, movable by a continuous rigid motion from the horizontal side (−∞,1]×[0,1] to the vertical side [0,1]×(−∞,1] inside the L-shaped hallway), which is Romik's setting (same hallway coordinates and the same reflection). So the statement ofReal(area) ≤ ambidextrousSofaConstant is the lower bound given by Romik's shape; Wikipedia ('Ambidextrous sofa') likewise records 'a lower bound of area approximately 1.64495521'. Faithful."
+    }
+]

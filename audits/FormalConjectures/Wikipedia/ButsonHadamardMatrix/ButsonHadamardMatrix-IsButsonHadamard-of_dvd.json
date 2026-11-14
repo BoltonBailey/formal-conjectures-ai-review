@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma with a complete proof in the file (no sorry). Compared against the Wikipedia article 'Butson-type Hadamard matrix': H belongs to H(q, N) if it is an N×N complex Hadamard matrix (mutually orthogonal rows/columns) all of whose entries satisfy (H_{jk})^q = 1. The definition IsButsonHadamard k n M (all entries satisfy z^k = 1 and M·M* = n·I) matches this (for square matrices with unimodular entries, row orthogonality is M M* = n I). The lemma states that if k ∣ k′ then every H(k, n) matrix is an H(k′, n) matrix, which is the obvious monotonicity (z^k = 1 implies z^{k′} = 1) implicit in the article's examples (e.g. real Hadamard matrices are also H(4, N)). Correct and correctly stated."
+    }
+]

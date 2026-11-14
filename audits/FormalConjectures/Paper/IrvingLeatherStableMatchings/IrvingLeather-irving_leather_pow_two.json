@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The primary reference (Thurber, Discrete Math. 248 (2002), §2 and Appendix A) could not be retrieved (core.ac.uk and the publisher refuse automated access), so the comparison was made against sources that state the same conjecture and recurrence: (i) Fenoaltea et al., 'The Stable Marriage Problem: an Interdisciplinary Review from the Physicist's Perspective' (arXiv:2103.11458, §5.3.1): 'Irving and Leather have shown that if we denote with g(N) the function that counts the number of stable matching with N power of 2, then it satisfies the recurrence relation g(N) = 3g(N/2)² − 2g(N/4)⁴, with N ≥ 4 and power of 2, and with g(1) = 1 and g(2) = 2. Furthermore, they conjectured f(N) = g(N) for N power of 2', where f(N) is the maximum number of stable matchings of an instance of size N; (ii) Clay Thomas's note (oeis.org/A005154/a005154.pdf, the second cited reference): b_0 = 1, b_1 = 2, b_n = 3b_{n−1}² − 2b_{n−2}⁴, a lower bound on the maximum number of stable matchings of a 2ⁿ × 2ⁿ instance; (iii) OEIS A005154 (1, 2, 10, 268, 195472, ...). In Lean, maxStableMatchings n is the supremum of numStableMatchings over all StableMarriage.Profile n (n men and n women, complete strict rankings as permutations; stable = bijection with no blocking pair), i.e. f(n); irvingLeatherCount is the recurrence a_0 = 1, a_1 = 2, a_{k+2} = 3a_{k+1}² − 2a_k⁴. The subtraction is in ℕ but never truncates, since a_{k+1} ≥ 2a_k² inductively gives 3a_{k+1}² ≥ 12a_k⁴; the values 1, 2, 10, 268 agree with OEIS. The statement maxStableMatchings (2^k) = irvingLeatherCount k for all k is exactly f(2^k) = g(2^k) (true and known for k ≤ 2: f(1) = 1, f(2) = 2, f(4) = 10). Faithful."
+    }
+]

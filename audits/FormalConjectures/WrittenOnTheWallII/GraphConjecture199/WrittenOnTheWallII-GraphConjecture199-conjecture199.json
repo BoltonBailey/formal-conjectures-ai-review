@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 199 (open, Jan 12, 2006): 'If G is a simple connected graph with n > 1 such that tree(G) − 2 ≤ κ(G), then G has a Hamiltonian path', with tree(G) the number of vertices of a largest induced tree and κ(G) 'the fewest number of vertices whose removal disconnects the graph'. Lean: for connected G on a finite nontrivial type, if largestInducedTreeSize G − 2 ≤ vertexConnectivity G (in ℕ) then a Hamiltonian walk exists. The natural-number subtraction is harmless: a connected graph on at least two vertices has an edge, which is an induced tree, so tree(G) ≥ 2 and there is no truncation. vertexConnectivity is the minimum size of a vertex set whose removal disconnects the graph, with the standard convention n − 1 for complete graphs (where the source's definition is undefined); with that convention complete graphs satisfy the hypothesis and do have Hamiltonian paths. Faithful."
+    }
+]

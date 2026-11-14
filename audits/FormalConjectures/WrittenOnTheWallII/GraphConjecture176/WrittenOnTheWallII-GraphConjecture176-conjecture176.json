@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 176 (listed as open, Aug 8, 2005): 'If G is a simple connected graph on at least 2 vertices, then L_s(G) + b(G) ≥ n + dist_min(M^2), where M^2 is the set of vertices of maximum degree of G^2', with dist_min(M) = minimum{dist_G(u,v) | u and v are in M} and b(G) the largest order of an induced bipartite subgraph. The Lean declaration is the negation of the universal statement (finite nontrivial vertex type, connected G) Ls G + b G ≥ n + distMin G (squareMaximumDegreeVertices G), with distMin the least G-distance between distinct vertices of the set of maximum-degree vertices of G². I checked the cited counterexample D_7 (two triangles joined at their apexes by a path with seven edges, 12 vertices) by hand: every connected dominating set contains the eight path vertices, so L_s = 4; b = 10 (delete one non-path vertex of each triangle); M^2 = {1, 6} (G²-degree 5), at G-distance 5; the inequality would read 14 ≥ 12 + 5 = 17. So the Lean statement is true. Interpretive caveat (hence severity 2): the source does not specify whether the distance in dist_min(M^2) is taken in G or in G² (the neighbouring conjectures 181–186 evaluate invariants on the graph G²); the Lean statement uses G-distance, so its negation is logically weaker than the negation under the G² reading. The verdict is unaffected because D_7 also violates the G² reading (distance ⌈5/2⌉ = 3, giving 14 ≥ 15), but the docstring does not record the choice. Minor: the question tag is used although the source states a conjecture."
+    }
+]

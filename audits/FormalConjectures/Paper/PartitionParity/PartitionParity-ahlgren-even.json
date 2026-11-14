@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Ahlgren's paper (Indag. Math. 10 (1999)) could not be retrieved directly (publisher blocks automated access), so the statement was compared against K. Ono's survey 'Arithmetic of the partition function' (archived copy of math.la.asu.edu/~sf2000/kono.pdf), which cites that paper as [1]: 'Theorem 2.3 (Ahlgren and Serre). In any arithmetic progression r (mod t) we have #{n ≤ X : n ≡ r (mod t) and p(n) even} ≫_{r,t} √X.' The Lean statement: for all r and all t > 0, (X ↦ √X) =O[atTop] (X ↦ #{n : ℕ | n ≤ X ∧ n ≡ r [MOD t] ∧ Even (p n)}) over real X → ∞, which is the standard encoding of ≫ with an implied constant depending on r and t (the quantifiers over r, t are outside the O). The set is finite, so ncard is the true count; r is not required to be reduced mod t, which is harmless. Faithful. Minor attribution note: Ono's survey credits this bound to Ahlgren and Serre (Serre's appendix to Nicolas–Ruzsa–Sárközy), while the docstring says only '(Ahlgren)'."
+    }
+]

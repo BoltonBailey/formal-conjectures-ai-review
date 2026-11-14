@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against Romik, arXiv:1606.08111, §1.2 and §7, and Wikipedia 'Moving sofa problem', section 'Ambidextrous sofa'. The Lean statement, ambidextrousSofaConstant = ofReal(X + arctan Y), correctly expresses 'Romik's shape is optimal for the ambidextrous moving sofa problem': the constant is the supremum of areas of ambidextrous sofas (see the audit of the lower-bound statement for the definitions) and X + arctan Y is Romik's area (5) ≈ 1.644955. The formalization is fine; the issue is how strongly the sources assert this. Romik writes only that the shape 'is derived from considerations of local optimality analogous to Gerver's shape, and hence is a plausible candidate to be the solution to the ambidextrous moving sofa problem', and lists even its local maximality as open (§7, Problem 1); he does not state a conjecture. The docstring says '[Wikipedia] records it as the conjectured optimum', but the current Wikipedia text only says 'A lower bound of area approximately 1.64495521 has been described by Dan Romik' and does not call it conjecturally optimal. So the statement is a reasonable formalization of the natural open question (is Romik's sofa optimal?), but the docstring overstates its status in the cited sources; it might be better tagged as a question or described as 'proposed candidate'."
+    }
+]

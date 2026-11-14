@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 19 (open, July 3, 2003; note: 'if average of ecc(v) ≤ diam − 1, then this conjecture follows from conjecture #13'): 'If G is a simple connected graph, then b(G) ≥ FLOOR(average of ecc(v) + maximum of λ(v))'. Lean: for connected G on a finite nontrivial type, ⌊(Σ_v ecc(v))/n + sSup (range (indepNeighbors G))⌋ ≤ b G, with eccent.toNat the true eccentricity (finite since G is connected), indepNeighbors the local independence number as a real (the range is finite, so sSup is the maximum), and b G the largest order of an induced bipartite subgraph. Direct transcription; faithful."
+    }
+]

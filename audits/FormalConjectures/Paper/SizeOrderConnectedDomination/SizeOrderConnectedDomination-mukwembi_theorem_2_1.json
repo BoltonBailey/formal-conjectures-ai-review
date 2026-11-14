@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against S. Mukwembi, 'Size, order, and connected domination', Canad. Math. Bull. 57 (2014) 141–144 (PDF from Cambridge Core). Theorem 2.1 there: 'Let G be a connected triangle-free graph of order n, size m and connected domination number γ_c. Then m ≤ (n − γ_c)²/4 + n − 1, and this bound is tight', where γ_c is the minimum order of a connected dominating set. The Lean statement is the negation of the universally quantified inequality over finite nontrivial vertex types, connected G, CliqueFree 3, with edgeFinset.card, Fintype.card and connectedDominationNumber (sInf of sizes of finsets D that are dominating and induce a connected subgraph) cast to ℝ; this matches the paper's hypotheses and bound exactly (the 'tight' clause is not part of the statement). The docstring's claim that the published theorem is false checks out: for the cube Q_3, n = 8, m = 12; any connected 3-set is a path a–b–c whose endpoints are at distance 2 and so share a second common neighbour, hence it dominates at most 7 vertices, giving γ_c = 4, and the bound would read 12 ≤ 16/4 + 7 = 11. I also confirmed the flawed step in the paper's proof (p. 143: 'γ_c(G) ≤ γ_c(G′)' for G′ = G − {u, v}). So the negated statement is the correct resolution, as the repository's convention for refuted claims prescribes. Minor remark: the declaration carries the `question` tag although the source states a theorem rather than asking a question; this does not affect the statement."
+    }
+]

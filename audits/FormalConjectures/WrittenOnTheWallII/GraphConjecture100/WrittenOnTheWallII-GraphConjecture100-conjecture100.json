@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 100 (listed as open, April 21, 2004): 'If G is a simple connected graph, then α(G) ≤ CEIL[(maximum of λ(v) + 0.5*length(G̅))/2]', where λ(v) is the local independence number, G̅ the complement, and 'length of a graph: the square root of the sum of the squares of degrees'. Lean: for connected G on a finite nontrivial type, (indepNum G : ℝ) ≤ ⌈(maxL + (1/2)·degreeL2Norm Gᶜ)/2⌉ with maxL the maximum of indepNeighborsCard G (computed in G, as in the source) and degreeL2Norm Gᶜ = √(Σ_v deg_{Gᶜ}(v)²). The ceiling is an integer cast to ℝ, so the comparison is the intended one. Spot checks on stars K_{1,k} (α = k, max λ = k, length of complement (k−1)√k) are consistent. Faithful. (The repository marks it solved with a linked formal proof; the archived list still shows it open.)"
+    }
+]

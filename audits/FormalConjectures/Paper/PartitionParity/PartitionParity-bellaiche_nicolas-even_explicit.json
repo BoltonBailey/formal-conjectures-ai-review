@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Bellaïche–Nicolas, 'Parité des coefficients de formes modulaires' (Ramanujan J. 40 (2016); author's version paritecoefV5.pdf on J.-L. Nicolas's homepage). With A_0(x) = #{0 ≤ n ≤ x : p(n) ≡ 0 (mod 2)} (eq. (1.12)), Théorème 5 states 'A_0(x) ⩾ 0.069 √x log log x pour x > 1' (eq. (6.1), also (1.16) and the abstract). The Lean statement: ∀ x : ℝ, 1 < x → 0.069·√x·log(log x) ≤ #{n : ℕ | n ≤ x ∧ Even (p n)}, with the count over naturals starting at n = 0 as in (1.12), the same constant, the same range x > 1 (where log x > 0, so log log x is the genuine iterated logarithm; for 1 < x < e the right-hand side is negative and the bound is trivial, as in the paper). The set is finite so ncard is the true count. Faithful."
+    }
+]

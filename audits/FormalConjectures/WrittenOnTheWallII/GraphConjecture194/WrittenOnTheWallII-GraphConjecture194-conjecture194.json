@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 194 (listed as open, Jan 12, 2006): 'If G is a simple connected graph with n > 1 such that α(G) ≤ 1 + λ_avg(G), then G has a Hamiltonian path', with λ_avg the average over vertices of the local independence number. The Lean declaration is the negation of the universal statement (finite nontrivial type, connected G, indepNum G ≤ 1 + averageIndepNeighbors G implies a Hamiltonian walk exists). I decoded the counterexample given in the docstring (graph6 Q~~~~~~~~~~~~}~}^~??G??_??_, 18 vertices) and computed its invariants independently: it has three vertices of degree 1 (so it cannot have a Hamiltonian path, confirmed by an exhaustive bitmask search), α = 4, and local independence numbers 4 (eleven vertices), 2, 2, 1, 2, 1, 1, 1, with average exactly 3, so α = 4 ≤ 1 + 3 holds. Hence the conjecture is false and the negated statement is the correct resolution. The definitions used (indepNum, averageIndepNeighbors, Walk.IsHamiltonian) match the source's. Faithful. Minor: the question tag is used although the source states a conjecture."
+    }
+]

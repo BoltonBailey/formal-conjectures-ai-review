@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Private API lemma with a complete proof in the file: a point p ∈ ℝ² lies in unitSquare (defined as the parallelepiped spanned by the standard orthonormal basis of EuclideanSpace ℝ (Fin 2)) iff both coordinates lie in [0, 1]. This is the intended meaning of 'the unit square [0,1]²' used in the sanity checks for the moving sofa definition (Wikipedia 'Moving sofa problem': a unit square is the trivial sofa of area 1 in a corridor of unit width). Correct and correctly stated."
+    }
+]

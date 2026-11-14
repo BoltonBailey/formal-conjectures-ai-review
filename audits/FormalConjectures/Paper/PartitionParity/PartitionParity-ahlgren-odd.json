@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Ahlgren's paper (Indag. Math. 10 (1999)) could not be retrieved directly, so the statement was compared against K. Ono's survey 'Arithmetic of the partition function' (archived copy of math.la.asu.edu/~sf2000/kono.pdf), citing that paper as [1]: 'Theorem 2.4 (Ahlgren). If there is an integer n ≡ r (mod t) for which p(n) is odd, then #{n ≤ X : n ≡ r (mod t) and p(n) odd} ≫_{r,t} √X / log X.' The proviso was removed by Radu's proof of Subbarao's conjecture (every progression contains an n with p(n) odd; cf. Ono–Swaminathan, arXiv:2509.09553, §1), as the docstring explains, so the unconditional statement is a theorem. The Lean statement: for all r and t > 0, (X ↦ √X / log X) =O[atTop] (X ↦ #{n : ℕ | n ≤ X ∧ n ≡ r [MOD t] ∧ Odd (p n)}), the standard encoding of ≫ with constants depending on r, t; log X > 0 for large X so there is no division issue at infinity. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html, snapshot of 26 July 2026, and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 24 (status F): 'If G is a simple connected graph, then b(G) ≥ λ(G) + CEIL[minimum of dist_even(v)/3]', with the note 'May 2004 DeLaVina. Take two copies of complete(9) and enumerate the vertices of each 0, 1, ..., 8. Join vertices 3, 4, and 5 of one copy to vertices 3, 4, and 5 of the other copy; and join vertices 6, 7, and 8 of one copy to vertices 6, 7, and 8 of the other copy. Bipartite number is 4, every vertex has 7 vertices at even distance, and maximum of local independence is 2.' The Lean declaration is the negation of the universal statement maxL + ⌈minDistEven/3⌉ ≤ b G, with maxL the maximum of indepNeighborsCard (local independence), minDistEven the minimum of distEven (vertices at even distance, counting the vertex itself) and b the largest induced bipartite order. I re-checked the counterexample: at most two vertices can be taken from each K_9, so b = 4; a vertex 0 has itself and the six vertices 3'..8' of the other copy at even distance (7), a vertex 3 has itself and 0',1',2',6',7',8' (7); the neighbourhood of 3 contains the non-adjacent pair {0, 3'} and no independent triple, so max λ = 2; the bound would read 4 ≥ 2 + ⌈7/3⌉ = 5. So the conjecture is false and the negated statement is correct. The statement quantifies over a universe-polymorphic vertex type inside the negation, which is harmless (the counterexample lifts to any universe). Faithful."
+    }
+]

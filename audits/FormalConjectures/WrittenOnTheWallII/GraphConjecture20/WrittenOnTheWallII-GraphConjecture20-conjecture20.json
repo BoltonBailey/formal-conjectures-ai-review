@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 20 (status T*, July 3, 2003): 'If G is a simple connected graph, then b(G) ≥ n/FLOOR[deg_avg(G)]', with b(G) the largest order of an induced bipartite subgraph and deg_avg the average degree; the notes relate it to conjecture 50 (f(G) ≥ n/FLOOR[deg_avg(G)], proved; Fajtlowicz proved f(G) ≥ n/deg_avg(G)). Lean: for connected G on a finite nontrivial type, n/⌊deg_avg⌋ ≤ b G in ℝ with deg_avg = (Σ_v deg v)/n. There is no division-by-zero issue: a connected graph on n ≥ 2 vertices has at least n − 1 edges, so deg_avg ≥ 2(n−1)/n ≥ 1 and the floor is at least 1. Direct transcription; faithful."
+    }
+]

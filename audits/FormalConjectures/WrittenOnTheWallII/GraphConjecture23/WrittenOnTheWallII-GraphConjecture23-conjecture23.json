@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html, snapshot of 26 July 2026, and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 23 (status F): 'If G is a simple connected graph, then b(G) ≥ FLOOR[α(G) + dist_avg(M)/2]', with the note 'July 2005. See counterexample; b = 19, α(G) = 15, dist_avg(M) = 10'. Here M is the set of maximum-degree vertices and dist_avg(M) 'is the average of all nonzero dist_G(u,v) such that u and v are in M'. The Lean declaration is the negation of the universal statement ⌊indepNum G + distAvgSet G M / 2⌋ ≤ b G with M = {v | degree v = maxDegree} and distAvgSet the mean distance over ordered pairs of distinct vertices of M (0 if fewer than two), matching the definition. I retrieved the source's counterexample picture (ceconj23.jpg) and checked it: four blocks, each a K_4 minus one edge (two 'top' vertices each joined to two adjacent 'bottom' vertices), consecutive blocks linked through one connector vertex, and two pendant vertices on the outer bottom vertex of each end block (23 vertices). Then α = 8 + 3 + 4 = 15 (tops, connectors, pendants), b = 23 − 4 = 19 (one bottom vertex must be deleted from each block), the only two vertices of maximum degree 5 are the outer bottom vertices of the end blocks, at distance 10, so ⌊15 + 5⌋ = 20 > 19. Hence the conjecture is false and the negated statement is the correct resolution. Faithful. Minor: the question tag is used although the source states a conjecture."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 18 (status T; 'Feb. 21, 2006 Benny John generalized Schindl's proof of 17 to prove #18'): 'If G is a simple connected graph, then b(G) ≥ α(G) + CEIL(sqrt(dist_max(M)))', where M is the set of vertices of maximum degree and dist_max(M) = maximum{dist_G(u,v) | u and v are in M}. Lean: for connected G on a finite nontrivial type, (indepNum G : ℝ) + ⌈√(distMaxSet G M)⌉ ≤ b G with M = {v | degree v = maxDegree} and distMaxSet the maximum of G.dist over all pairs in M (0 if M is a single vertex), exactly the source definition. b G is the largest size of a vertex set inducing a bipartite subgraph. Direct transcription; faithful."
+    }
+]

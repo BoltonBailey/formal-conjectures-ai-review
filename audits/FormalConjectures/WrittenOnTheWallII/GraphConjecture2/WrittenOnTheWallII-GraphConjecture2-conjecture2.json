@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 2 (listed as open, 1996; 'the only conjecture of the original version of this list that remains open'): 'If G is a simple connected graph, then L_s(G) ≥ 2(average of λ(v) − 1)', with L_s the maximum number of leaves of a spanning tree and λ(v) the independence number of the subgraph induced by the neighbours of v. (The older JavaScript data file prints the formula without the '− 1'; the main page, the upstream README and Mukwembi's paper, which calls it Graffiti.pc Conjecture 1.1 'L(G) ≥ 2(α(G) − 1)' with α the average local independence, all have the −1 inside the parentheses.) Lean: for connected G on a finite nontrivial type, 2·(averageIndepNeighbors G − 1) ≤ Ls G, where averageIndepNeighbors is the mean over all vertices of the independence number of the induced neighbourhood. Direct transcription; faithful. (The repository marks it solved with linked formal proofs; the archived list predates that.)"
+    }
+]

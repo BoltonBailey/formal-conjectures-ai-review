@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 217 (listed as open, Jan 12, 2006): 'If G is a simple connected graph with n > 1 such that L(G) ≤ 4*χ_residue=2(G) + 2, then G has a Hamiltonian path', where χ_residue=2(G) 'is 1 if the residue of G is equal to 2, otherwise the value is 0'. The page writes L(G) here, but the definitions link attached to this conjecture is printDefinitions(1, 92, 85), and definition 1 is L_s(G), the maximum number of leaves of a spanning tree, so L(G) means L_s(G). Lean: for connected G on a finite nontrivial type, if Ls G ≤ 4·residueEqTwoIndicator G + 2 then a Hamiltonian walk exists, with residueEqTwoIndicator = 1 iff the Havel–Hakimi residue equals 2. Direct transcription (the statement says: L_s ≤ 2, or residue 2 and L_s ≤ 6, forces a Hamiltonian path). Faithful."
+    }
+]

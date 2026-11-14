@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against B. Pittel, 'On Likely Solutions of the Stable Matching Problem with Unequal Numbers of Men and Women' (arXiv:1701.08900v2), p. 7: 'We conjecture that for n2/n1 → 1, i.e. when E[S(n)] → ∞, the second order moment E[S²(n)] = O(E²[S(n)])', in the model with n1 < n2 (men/women), independent uniform strict preferences, and stable matchings defined (after Gusfield–Irving) as injections [n1] → [n2] with no pair (m, w) such that m prefers w to his partner and w, if matched, prefers m to her partner. The Lean model (StableMarriage.Unbalanced) matches: Profile n m has complete rankings on both sides, Matching is an embedding Fin n ↪ Fin m, IsBlockingPair is exactly the Gusfield–Irving condition (vacuous worker-side condition for unmatched workers), and the law is uniform on profiles, i.e. independent uniform rankings. The statement takes n1 = n, n2 = n + d(n) with d(n) ≥ 1 and d(n)/n → 0 (equivalently n2/n1 → 1 with n2 > n1) and asserts ∃ C > 0 with E[S²] ≤ C·(E[S])² eventually. Quantifying over all such sequences d is equivalent (by a diagonal argument) to the uniform two-parameter O-statement, so indexing by n1 = n loses nothing. Faithful."
+    }
+]

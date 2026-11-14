@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Private API lemma with a complete proof in the file. It states that a set S ⊆ ℝ² that is closed under the reflection in `midline` (the line y = 1/2, the reflection ρ used by Romik, arXiv:1606.08111, Theorem 5: 'ρ is the affine reflection in the plane across the line y = 1/2') is equal to its image under that reflection. This is the standard fact that an involution mapping S into S maps S onto S; the proof uses reflection_reflection. It is only used for the sanity checks on horizontalHallway and unitSquare. Correct and correctly stated."
+    }
+]

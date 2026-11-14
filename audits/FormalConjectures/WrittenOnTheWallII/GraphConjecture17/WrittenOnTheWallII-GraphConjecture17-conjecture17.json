@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 17 (status T, July 3, 2003; 'Independently proven by Benny John, UHD (Dec. 2005) and David Schindl (Jan. 2006)'): 'If G is a simple connected graph, then b(G) ≥ α(G) + CEIL(diam(G)/3)', with b(G) the maximum number of vertices of an induced bipartite subgraph, α the independence number and diam the maximum eccentricity. Lean: for connected G on a finite nontrivial type, (indepNum G : ℝ) + ⌈(diam G : ℝ)/3⌉ ≤ b G, with G.diam Mathlib's natural-number diameter (the true diameter for a connected finite graph) and b G the real cast of the largest size of a vertex set inducing a bipartite graph. Direct transcription; faithful."
+    }
+]

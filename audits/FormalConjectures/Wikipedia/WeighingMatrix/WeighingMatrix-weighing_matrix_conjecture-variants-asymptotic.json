@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Wikipedia article 'Weighing matrix' does not state this result and Geramita–Seberry's book [GS79] is not freely accessible, so I compared against E. Ghaderpour, 'Some non-existence and asymptotic existence results for weighing matrices' (arXiv:1602.07794), which restates the results of Geramita–Seberry Chapter 7 (due to Eades): 'Corollary 3.5. Suppose that d is any positive integer. Then there is an integer N = N(d) such that for each n ≥ N, there is a W(4n, d)', deduced from Theorem 3.6 (Eades; [GS79, Theorem 7.17]) and Lagrange's four-square theorem. The Lean statement: for every w, eventually in m (∀ᶠ m in atTop) there exists a 4m×4m matrix W with IsWeighingMatrix (4m) w W. This is exactly 'for each m ≥ N(w)'; the case w = 0 (not covered by 'positive integer d') is trivially true via the zero matrix. The definition of IsWeighingMatrix matches the standard one. Faithful."
+    }
+]

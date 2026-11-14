@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Lemma with a complete proof in the file: the cubic x²(x + 3) = 8 has exactly one real root. Mathematically correct (x³ + 3x² − 8 has local maximum value −4 at x = −2, so a single real root, ≈ 1.3553). Compared against Romik, arXiv:1606.08111, eq. (5): the area of the ambidextrous shape is ∛(3+2√2) + ∛(3−2√2) − 1 + arctan(½(∛(√2+1) − ∛(√2−1))). The first three terms X = ∛(3+2√2) + ∛(3−2√2) − 1 ≈ 1.79963 + 0.55567 − 1 = 1.35530 do satisfy X²(X+3) = 8 (with u = X + 1: u³ − 3u − 6 = 0, and ∛(3+2√2)·∛(3−2√2) = 1, sum of cubes 6), so the root singled out by this lemma is the constant in Romik's formula, as the docstring of `X` claims. Correct."
+    }
+]

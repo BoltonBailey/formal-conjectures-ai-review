@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 145 (listed as open, July 19, 2005): 'If G is a simple connected graph, then tree(G) ≥ 2*ecc(B)/λ_min(G̅)', with B the periphery (vertices of maximum eccentricity), ecc(S) the maximum distance from vertices outside S to S, and λ_min the smallest local independence number λ(v) (independence number of the subgraph induced by the neighbours of v), here taken in the complement G̅. Lean: for connected G on a finite nontrivial type with 0 < localIndependenceMin Gᶜ, 2·eccSet G (maxEccentricityVertices G) ≤ largestInducedTreeSize G · localIndependenceMin Gᶜ in ℕ. localIndependenceMin is the minimum over vertices of indepNeighborsCard, evaluated in Gᶜ as in the source; eccSet agrees with the source's ecc(S) (including vertices of S, which contribute 0, changes nothing, and gives 0 when B = V). The inequality is the source's with the denominator cleared, and the extra hypothesis λ_min(G̅) > 0 only removes the case where the source expression divides by zero (G has a dominating vertex), where the conjecture is not meaningful as written. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against B. Pittel, arXiv:1701.08900v2, p. 7, which conjectures E[S²(n)] = O(E²[S(n)]) whenever n2/n1 → 1 with n2 > n1. This declaration is the special case n2 = n1 + 1 (d(n) = 1) of that conjecture, as its docstring says; the paper does not state this case separately, but it is squarely inside the conjectured range (the Note after Theorem 1.3 discusses 'increasing the cardinality of one of the sides just by 1'). The Lean statement, ∃ C > 0 with secondMomentNumStableMatchings n (n+1) ≤ C·(expectedNumStableMatchings n (n+1))² for all large n, uses the same definitions as the general statement (embeddings Fin n ↪ Fin (n+1), Gusfield–Irving blocking pairs, uniform independent preferences), which match the paper's model. Faithful specialization."
+    }
+]

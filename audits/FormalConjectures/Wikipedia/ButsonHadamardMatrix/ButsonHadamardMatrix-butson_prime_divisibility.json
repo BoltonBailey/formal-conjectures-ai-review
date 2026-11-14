@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the Wikipedia article 'Butson-type Hadamard matrix', section Existence: 'If p is prime and N > 1, then H(p, N) can exist only for N = mp with integer m' (citing Butson, Proc. AMS 13 (1962)). The Lean statement: for p prime and 2 ≤ n, if there exists M with IsButsonHadamard p n M (entries are p-th roots of unity, M·M* = n·I over ℂ), then p ∣ n. The definition matches the article's (entries satisfying z^q = 1 and mutually orthogonal rows), the hypothesis n ≥ 2 is the article's N > 1 (needed since [1] is an H(p, 1)), and the conclusion p ∣ n is N = mp. For p = 2 this gives the true fact that a real Hadamard matrix of order ≥ 2 has even order. Faithful."
+    }
+]

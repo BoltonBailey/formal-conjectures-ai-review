@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the text of Problem 10.5 in Y. Bugeaud, 'Distribution modulo one and Diophantine approximation' (CUP 2012), Chapter 10, read from a PDF copy of the book: 'Let K be a real number field. Then, for any ε > 0, there exists a lacunary sequence (t_n)_{n≥1} of positive numbers in K such that limsup_{n→+∞} {ξ t_n} ≥ 1 − ε, for any real number ξ not in K. Moreover, each subinterval of [0,1] of length ε contains a limit point of the sequence ({ξ t_n}).' This declaration is the first sentence. The Lean statement takes K : IntermediateField ℚ ℝ with [FiniteDimensional ℚ K] (a real number field embedded in ℝ), ε > 0, and asserts ∃ t : ℕ → K with all terms positive, IsLacunaryReal (∃ c > 1 with c·t_k < t_{k+1} eventually, i.e. liminf t_{k+1}/t_k > 1, the book's notion of lacunarity up to a finite prefix, which affects neither lacunarity nor the limsup), and for every real ξ ∉ K, 1 − ε ≤ limsup of Int.fract(ξ t_n) along atTop. The fractional parts are bounded in [0,1), so the Filter.limsup is the genuine limsup. The quantifier order (one sequence for all ξ, depending on K and ε) matches the source. As worded in the book the lacunarity ratio may depend on ε, which is what makes the statement provable by an explicit integer sequence (the linked formal proof); this weak reading is the literal one. Faithful."
+    }
+]

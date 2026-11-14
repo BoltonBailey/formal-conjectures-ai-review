@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 141 (listed as open, July 19, 2005): 'If G is a simple connected graph, then tree(G) ≥ (1/2)*girth − 1 + maximum of λ(v)', with tree(G) 'the number of vertices of a largest induced tree', girth 'the number of vertices of a smallest cycle' and λ(v) the local independence number. Lean: for connected G on a finite nontrivial type, girth/2 − 1 + sup_v indepNeighborsCard G v ≤ largestInducedTreeSize G in ℝ, where largestInducedTreeSize is the sSup of |s| over finsets s inducing a tree. This is a direct transcription and the statement is fully proved in the file (no sorry). The only interpretive point is the girth of an acyclic graph, which the source leaves undefined: Mathlib's SimpleGraph.girth is 0 there, as the docstring states, and under that convention the bound reduces to tree(G) ≥ max λ(v) − 1, which is true (a star at a vertex of maximum λ). Faithful."
+    }
+]

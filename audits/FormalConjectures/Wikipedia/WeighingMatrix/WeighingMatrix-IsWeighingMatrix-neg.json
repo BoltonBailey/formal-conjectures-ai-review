@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma with a complete proof in the file. Compared against the Wikipedia article 'Weighing matrix' (entries in {0, 1, −1}, W Wᵀ = w I_n), which IsWeighingMatrix reproduces. The lemma says that if W is a W(n, w) then so is −W: the entry set is closed under negation and (−W)(−W)ᵀ = W Wᵀ. Correct and correctly stated (a standard equivalence operation on weighing matrices)."
+    }
+]

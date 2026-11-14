@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 189 (open, Jan 12, 2006): 'If G is a simple connected graph with n > 1 such that maximum { dist_even(v) : dist_even(v) is the number of vertices at even distance from v } ≤ 1 + σ(G), then G has a Hamiltonian path', with σ(G) the second smallest entry of the degree sequence. Lean: for connected G on a finite nontrivial type (n > 1), if max_v distEven G v ≤ 1 + secondSmallestDegree G then there is a walk that IsHamiltonian (visits every vertex exactly once), i.e. a Hamiltonian path. distEven counts the vertices at even distance from v, including v itself (distance 0), which is the literal reading of the source definition; secondSmallestDegree is the second entry of the nondecreasingly sorted degree sequence. Faithful."
+    }
+]

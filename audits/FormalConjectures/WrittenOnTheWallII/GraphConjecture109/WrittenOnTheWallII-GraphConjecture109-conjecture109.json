@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 109 (listed as open, April 21, 2004): 'If G is a simple connected graph, then α(G) ≤ FLOOR[(residue(G)+2b(G))/3]', where the residue is the number of zeros left by the Havel–Hakimi process on the degree sequence (definition 42) and b(G) is the maximum order of an induced bipartite subgraph. The Lean declaration is the negation of the universal statement over finite nontrivial types and connected G of indepNum G ≤ ⌊(residue G + 2·b G)/3⌋; residue sorts the degree sequence in decreasing order and iterates havelHakimiStep until the head is 0, returning the number of remaining entries, which is the source's definition. I verified the docstring's 13-vertex counterexample K̅_7 ∨ (K_3 ⊔ K_3) by hand: α = 7; b = 9 (the seven independent vertices plus one vertex from each triangle; any two adjacent triangle vertices form a triangle with a vertex of the 7); degree sequence 9⁶,6⁷ reduces under Havel–Hakimi to residue 2; so the bound is ⌊(2+18)/3⌋ = 6 < 7. Hence the conjecture is false and the negated statement is the correct resolution. Faithful. Minor: the question tag is used although the source states a conjecture."
+    }
+]

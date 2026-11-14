@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Written on the Wall II (archived all.html, snapshot of 26 July 2026, and the definitions file wowIIdefs.js from cms.uhd.edu/faculty/delavinae/research/wowII/, via the Wayback Machine; the live site does not respond), Conjecture 3 (status T, 1996; proof by Ryan Pepper, Mar. 17, 2004, quoted on the page): 'If G is a simple connected graph, then L_s(G) ≥ γ_i(G) * maximum temp(v)', where γ_i is the independent domination number (size of a smallest independent dominating set) and temp(v) = deg(v)/(n(G) − deg(v)). Lean: for connected G on a finite nontrivial type, indepDominationNumber G · MaxTemp G ≤ Ls G in ℝ. temp_v is deg/(n − deg) (the guard for n = deg never fires in a simple graph), MaxTemp its maximum over vertices, indepDominationNumber the least size of an independent dominating set, and Ls the maximum number of leaves of a spanning tree. Spot check K_2: 1·1 ≤ 2. Direct transcription; faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against Clay Thomas, 'A recurrence giving a lower bound for stable matchings' (oeis.org/A005154/a005154.pdf), Proposition 1: b_n ∼ r·s^{2ⁿ} with s ≈ 2.280142, r = (√3 − 1)/2; and against the statement of the Irving–Leather conjecture f(N) = g(N) for N a power of 2 as reported in arXiv:2103.11458 §5.3.1 (Thurber's paper itself could not be retrieved). The Lean statement asserts that M(n+1)^{1/(n+1)} and a_k^{1/2^k} converge to a common real limit c, with M = maxStableMatchings and a = irvingLeatherCount (both correctly defined; see the audit of irving_leather_pow_two). By Proposition 1 the second limit exists and equals s ≈ 2.280142; the first limit exists by Fekete's lemma (M is supermultiplicative via disjoint unions of instances and is at most Cⁿ by Karlin–Oveis Gharan–Weber), so the statement is equivalent to lim M(n)^{1/n} = s, i.e. that the Irving–Leather construction attains the optimal exponential growth rate. This does follow from the power-of-two conjecture (take the subsequence n = 2^k), so it is a genuine weakening, and the Lean encoding (Real.rpow with exponents 1/(n+1) and 1/2^k, index shift to avoid n = 0) is correct. However, this variant is not stated in either cited reference: the docstring calls it 'a proposed weaker variant' without saying who proposed it (it was proposed by the contributor in upstream issue #7817), so it is a formalizer-introduced statement rather than a conjecture from the literature. The statement itself is well-formed and meaningful (lim f(n)^{1/n} is a well-known open quantity; 2.28 is the best known lower bound on the base); the only issue is this documentation/provenance point."
+    }
+]

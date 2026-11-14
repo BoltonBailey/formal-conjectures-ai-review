@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "a919f7f47b836b766f378c2b1360b28168bbdd9d",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The Wikipedia article 'Butson-type Hadamard matrix' only notes that H(4, N) consists of Hadamard matrices with entries ±1, ±i ('complex Hadamard matrices' in Turyn's terminology) and does not itself state this conjecture, and the cited [Tu70] and [dLF11] are not freely accessible. I therefore compared against Egan–Ó Catháin–Swartz, 'Morphisms of Butson classes' (arXiv:1707.08815), Introduction: 'if BH(n, 4) is non-empty, then BH(2n, 2) is necessarily non-empty. This motivates the complex Hadamard conjecture: that there exists a Hadamard matrix of order n with entries in {±1, ±i} whenever n is even.' The Lean statement: for every m ≥ 1 there exists M with IsButsonHadamard 4 (2m) M, i.e. a 2m×2m complex matrix with all entries satisfying z⁴ = 1 (exactly the set {1, −1, i, −i}) and M·M* = 2m·I. This is precisely the complex Hadamard conjecture for all positive even orders (m = 0 is excluded, though the empty matrix would satisfy it trivially). The docstring's remark that it implies Hadamard's conjecture via Turyn's doubling agrees with the quoted source. Faithful. Minor documentation note: the conjecture is not on the Wikipedia page the file is filed under; it comes from the literature cited in the header."
+    }
+]
