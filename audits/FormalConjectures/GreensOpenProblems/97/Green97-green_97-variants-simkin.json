@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green Problem 97: Simkin showed Q(n) = ((1+o(1))ne^{-α})^n, and Agrawal–Boyd–Nobel tightened α to [1.944000752, 1.944001082]. Green's 'α ≈ 1.94×10^{-3}' is a typo for ≈ 1.944. The statement asserts ∃ α ∈ (1.94, 1.9449) with Q(n)^{1/n}/n → e^{-α}, which is equivalent to Simkin's form. Faithful."
+    }
+]

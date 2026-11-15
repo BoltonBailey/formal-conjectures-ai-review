@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A219838 (Sun's general conjecture): for each prime p, every sufficiently large n is x + y (x, y > 0) with ((xy)^p - 1)/(xy - 1) prime. Natural division is exact because xy - 1 | (xy)^p - 1. The degenerate xy = 1 gives 0/0 = 0, which is not prime and so harmless. Faithful."
+    }
+]

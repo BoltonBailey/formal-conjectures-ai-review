@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/87: for ε > 0, is R(G) > (1−ε)^k R(k) for every G with χ(G) = k, once k is large? The statement adds ε < 1. That loses nothing: the claim for small ε implies it for larger ε < 1, and for ε ∈ [1,2) the claim is trivial. For ε > 2 the literal reading gives (ε−1)^k for even k, an artefact of the informal statement. G ranges over finite simple graphs with chromaticNumber = k, R(G) is diagonalGraphRamsey (the least n such that every graph on Fin n contains G or its complement does) and R(k) = R(K_k, K_k). Faithful."
+    }
+]

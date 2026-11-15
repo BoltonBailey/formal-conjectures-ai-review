@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's Problem 68 comments: more generally, if A ⊆ F_p² meets every line in O(1) points, do all but o(p) points lie on a curve of degree O(1)? The statement says: for each k there is d such that, for every ε > 0 and large p, every A with at most k points on any line has all but ≤ εp points on a nonzero polynomial of degree ≤ d. That is the natural uniform reading. Faithful."
+    }
+]

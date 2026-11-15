@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/81: can the edges of an n-vertex chordal graph (no induced cycle of length > 3) be partitioned into n²/6 + O(n) cliques? The formalization is correct. IsChordal forbids induced cycleGraph k for k ≥ 4, IsCliqueEdgePartition requires cliques of size ≥ 2 covering each edge exactly once, and the statement gives a uniform C with |P| ≤ n²/6 + Cn. However the page now records that the answer is yes, with ⌊n(n+1)/6⌋ cliques always sufficing and a formal proof available. The declaration is still tagged research open and the docstring does not mention the resolution. Status and documentation are out of date."
+    }
+]

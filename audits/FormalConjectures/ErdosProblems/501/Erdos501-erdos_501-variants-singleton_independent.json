@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Trivial textbook fact: a singleton is vacuously independent for the relation x ∉ A_y used on erdosproblems.com/501. Proved in the file. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/958: is it true that a set of n points with exactly n-1 distances and multiplicities {n-1, …, 1} must be equidistant on a line or circle? The answer is no (Clemen–Dumitrescu–Liu: an arc plus its centre). The page says 'ordered pairs', but with ordered pairs every multiplicity is even and {n-1, …, 1} is impossible, so unordered pairs (as formalised) is the evident intent. The statement negates the forward implication for all large n. The reverse direction is not needed for a counterexample, and requiring large n correctly excludes small sporadic exceptions. The definitions of equidistant on a line or circle are reasonable. Faithful."
+    }
+]

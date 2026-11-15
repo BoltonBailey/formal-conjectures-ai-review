@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Textbook fact: for x ≠ y, {x, y} is independent (in the sense of erdosproblems.com/501) iff x ∉ A_y and y ∉ A_x. Set.Pairwise is symmetric in which pair is checked, so this is correct, and it is proved in the file. Faithful."
+    }
+]

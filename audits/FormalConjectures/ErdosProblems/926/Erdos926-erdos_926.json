@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/926: for k ≥ 4, is ex(n; H_k) ≪_k n^{3/2}, where H_k has x adjacent to y_1..y_k and each pair y_i, y_j has a private common neighbour z_{ij}? Yes (Füredi; Alon–Krivelevich–Sudakov). H k is built on Unit ⊕ Fin k ⊕ {i < j} with exactly these adjacencies. The statement asserts ex(n; H_k) = O(n^{3/2}) for each k ≥ 4. Faithful."
+    }
+]

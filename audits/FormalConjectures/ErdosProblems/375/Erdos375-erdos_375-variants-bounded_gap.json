@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/375: the conjecture implies p_{n+1} − p_n < p_n^{1/2−c} for some c > 0. The statement is the implication Erdos375Prop → ∃ c > 0, eventually p_{n+1} − p_n < p_n^{1/2−c}, with 0-indexed primes. 'Eventually' is the natural reading. Faithful."
+    }
+]

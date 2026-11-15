@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "h(n) is the least L such that every interval (m, m+L) with m ≥ 1 contains distinct a_i divisible by the i-th prime for each i ≤ π(n) (HasPrimeMultiples, 0-indexed primes). Such an L exists, so sInf is the minimum; this matches erdosproblems.com/860. Erdős–Pomerance proved h(n) ≪ n^{3/2}/(log n)^{1/2}. The statement matches. Faithful."
+    }
+]

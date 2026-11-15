@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/633: classify the triangles that can only be cut into a square number of congruent triangles. The page says this was solved by Beeson–Laczkovich–Zhang, with a classification too complicated to state. The answer set is left as sorry, and the statement characterises it as {T | ∀ n, IsCuttable n T → IsSquare n}, which is correct since n = 0 is never cuttable. The decomposition definition (congruent pieces, disjoint interiors, union equal to the closed triangle) is standard. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/950: de Bruijn, Erdős and Turán showed Σ_{n<x} f(n) ~ Σ_{n<x} f(n)² ~ x; Gorodetsky proved the second claim on MathOverflow. The statement asserts both sums over n < x are ~ x. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/840: Erdős–Freud's lower bound f(N) ≥ (2/√3 + o(1))N^{1/2}, via B ∪ (N − B) for a Sidon set B ⊆ [1,N/3]. The statement says that 2/√3 is an attained quasi-Sidon constant (a sequence A_N ⊆ [1,N] with |A_N| ~ (2/√3)√N and |A_N + A_N| ~ C(|A_N|,2)), which is exactly that bound. Faithful."
+    }
+]

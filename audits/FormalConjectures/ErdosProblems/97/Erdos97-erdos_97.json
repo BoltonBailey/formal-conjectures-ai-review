@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/97: does every convex polygon have a vertex with no other 4 vertices equidistant from it? The proposition is formalised correctly: for every nonempty convex-independent finite A ⊆ ℝ², ¬HasNEquidistantProperty 4 A, where the property says every p ∈ A has ≥ 4 points of A on some circle of radius r > 0 around it. However the page now records that 'This is false': for all large n there is a convex polygon in which every vertex has ≫ log log n vertices at distance 1, with a formalised proof linked. So the answer is no. Under the @[question] convention the statement should be negated and recategorised as solved; as written (tagged open, unnegated) it is a false statement. The formalisation of the question is right; its status and documentation are out of date."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "f(n) counts the sum-free subsets of [1,n] (IsSumFree, i.e. no a = b + c with a, b, c ∈ A), as on erdosproblems.com/748. Question: is f(n) = 2^{(1+o(1))n/2}? Proved (Green; Sapozhenko). The statement is log₂ f(n)/n → 1/2, which is equivalent. Faithful."
+    }
+]

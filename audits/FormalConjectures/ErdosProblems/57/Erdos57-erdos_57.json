@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/57: if G has infinite chromatic number and a₁ < a₂ < ⋯ are its odd cycle lengths, then Σ 1/a_i = ∞ (Liu–Montgomery). The statement takes any G with chromaticNumber = ⊤ and asserts that n ↦ 1/n is not summable over oddCycleLengths G (lengths of cycle walks that are odd). For nonnegative terms that is exactly divergence of the sum. Infinite-vertex graphs are covered, as in the source; the finite-subgraph reduction via de Bruijn–Erdős is part of the proof, not the statement. Faithful."
+    }
+]

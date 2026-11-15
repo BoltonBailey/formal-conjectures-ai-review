@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A234246 conjecture (iii): if n > 7 and n ∉ {10, 20}, then φ(k)φ(n−k) + 1 is a square for some 0 < k < n. The statement matches. Faithful."
+    }
+]

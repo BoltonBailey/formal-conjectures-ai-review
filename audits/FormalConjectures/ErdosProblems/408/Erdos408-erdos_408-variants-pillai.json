@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Pillai's bounds: ⌊(log n - log 2)/log 3⌋ + 1 ≤ f(n) ≤ ⌊log n/log 2⌋ + 1 for n ≥ 2. This gives context on erdosproblems.com/408 via [Pi29] Theorems I and III, as documented. I checked numerically that both bounds hold for 2 ≤ n < 3000. Faithful."
+    }
+]

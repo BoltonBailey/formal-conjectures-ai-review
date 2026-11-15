@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "F a X k counts i (as an ℕ∞ encard) with lcm(a_i, …, a_{i+k−1}) < X, for strictly increasing positive a, matching erdosproblems.com/873 (0-indexed). There is an A with F(A,X,3) ≫ X^{1/3}log X for infinitely many X. The statement gives such an a and c > 0 with the lower bound holding for arbitrarily large X. Faithful."
+    }
+]

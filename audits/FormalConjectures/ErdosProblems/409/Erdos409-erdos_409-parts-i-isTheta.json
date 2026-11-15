@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/409: with c(n) the number of iterations to reach a prime, find Θ(c(n)). The statement asks for an answer function with c =Θ answer. The answer is trivially c itself, and a meaningful answer is left to human judgement; this is the standard question-value convention, and the page's 'good bounds' intent is reflected. Faithful."
+    }
+]

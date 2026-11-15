@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/52 (the Erdős–Szemerédi sum-product conjecture): for finite A ⊆ ℤ, is max(|A+A|, |AA|) ≫_ε |A|^{2-ε} for every ε > 0? The statement asserts, for each ε ∈ (0,1), some C > 0 with max ≥ C|A|^{2-ε} for all finite A ⊆ ℤ. Restricting to ε < 1 loses nothing, since larger ε is weaker, and the empty set satisfies the bound trivially. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/949: Erdős suggested the variant where S is Sidon, and Dillies/AlphaProof proved that for Sidon S ⊂ ℝ there is A ⊆ ℝ∖S of cardinality 𝔠 with A + A ⊆ ℝ∖S. IsSidon is the standard notion (sums equal only trivially), and the statement matches that variant exactly. A proof is included in the file. Faithful."
+    }
+]

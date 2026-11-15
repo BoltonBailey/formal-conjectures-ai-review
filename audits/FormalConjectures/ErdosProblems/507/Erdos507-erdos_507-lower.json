@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Compared against erdosproblems.com/507, whose best bounds are log n/n² ≪ α(n) ≪ n^{−7/6+o(1)}. This statement asks for an answer g with log n/n² = o(g) and g ≪ α, i.e. it asserts that the KPS82 lower bound can be strictly improved. The source asks for no such thing, and the docstring ('Estimate a lower bound') does not disclose the presupposition. If α(n) ≍ log n/n² (not ruled out), the statement is false for every choice of answer. So it is an invented sub-question whose truth is not equivalent to the source problem of estimating α(n)."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A229969 (iii), second part: any n > 2 with n ≠ 16 is x + y + z (all > 0) with xy+1, xz+1, yz+1 prime and x ∈ {1, 2, 6}. The statement matches. Faithful."
+    }
+]

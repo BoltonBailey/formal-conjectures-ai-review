@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/614: f(n,k) is the minimal number of edges of an n-vertex graph in which every (k+2)-set induces a subgraph of maximum degree ≥ k; determine f(n,k). The answer is a two-variable function, and the statement asserts it is the least such edge count for all n, k. The set is nonempty because K_n works, and it is vacuous when n < k + 2. Faithful."
+    }
+]

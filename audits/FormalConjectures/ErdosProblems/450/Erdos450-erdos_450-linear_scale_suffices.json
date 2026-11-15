@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/450, which notes that for every fixed δ and large n, windows of length 2(1+δ)n contain many hits, and discusses the regimes. The statement asserts a sufficient window length Y(ε,n) ≤ C(ε)n, uniform over x, for every ε > 0 and all large n. It is a sensible partial result, consistent with the density of such integers tending to 0, and a linked Lean proof supports the solved tag. It does not claim to answer the main question. Faithful."
+    }
+]

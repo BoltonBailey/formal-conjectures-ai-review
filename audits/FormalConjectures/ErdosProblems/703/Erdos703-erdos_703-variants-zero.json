@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/703: 'It is trivial that T(n,0) = 2^{n−1}.' With r = 0 the condition makes F an intersecting family (and excludes ∅), whose maximum size is 2^{n−1} for n ≥ 1. The statement, with hypothesis n ≥ 1, is proved in the file. Faithful."
+    }
+]

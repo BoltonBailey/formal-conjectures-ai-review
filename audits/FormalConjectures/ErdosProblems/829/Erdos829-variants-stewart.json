@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/829: Stewart improved this to (log n)^{11/13}, for infinitely many n, as is implicit in context. The statement gives ∃ C > 0 with C(log n)^{11/13} ≤ sumRep cubes n frequently. Faithful."
+    }
+]

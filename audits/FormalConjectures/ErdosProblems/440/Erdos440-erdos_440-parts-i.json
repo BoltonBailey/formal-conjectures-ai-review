@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/440: for an infinite increasing A ⊆ ℕ, with A(x) the number of indices with lcm(a_i, a_{i+1}) ≤ x, is A(x) ≪ x^{1/2}? Yes (Tao; Erdős–Szemerédi). count encodes A(x), and the set is finite because lcm ≥ a_{i+1} → ∞. The statement asserts count = O(√x) for every strictly increasing positive sequence. Faithful."
+    }
+]

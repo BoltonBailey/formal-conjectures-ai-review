@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 5,
+        "explanation": "Compared against erdosproblems.com/450: 'How large must y = y(ε,n) be…' The answer is inherently a function of ε and n. The formal answer is erdos_450.answer : ℕ∞, a single constant, and the theorem asserts windowThreshold ε n = erdos_450.answer for every ε > 0 and every n, so the statement is false for any choice of answer. Concretely, for n = 1 no integer lies in (1,2), so localCount is always 0 and windowThreshold ε 1 = 0. For n = 2 and ε = 1/10, the multiples of 3 have density 1/3 > 1/10, so no window length works and windowThreshold (1/10) 2 = ⊤. Both values cannot equal the same constant. The answer should have type ℝ → ℕ → ℕ∞, or the question should be phrased asymptotically. The reading over all x is a documented choice, which the page flags as ambiguous."
+    }
+]

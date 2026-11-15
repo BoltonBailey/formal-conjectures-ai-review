@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/685: 'it is trivial that the number of prime factors is > log C(n,k)/log n'. The statement proves the non-strict version ω(C(n,k)) ≥ log C(n,k)/log n for 0 < k < n, using p^{v_p(C(n,k))} ≤ n. It is correct, and it is the substance of the remark."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's Problem 68 comments: with f_d(p) the largest no-three-in-a-line set in F_p^d, is f₄(p) = o(p³)? maxNoThreeCollinear 4 p is that maximum, and the statement is ∀ ε > 0, eventually f₄(p) ≤ εp³ over primes p. Faithful."
+    }
+]

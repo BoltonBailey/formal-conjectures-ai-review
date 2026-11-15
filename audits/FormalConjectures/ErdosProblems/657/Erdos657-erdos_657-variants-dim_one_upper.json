@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/657: Dumitrescu's upper bound f(n) ≤ 2^{O(√log n)}, from Behrend-type 3-AP-free sets. The statement asserts, for large n, some isosceles-free n-set in ℝ with ≤ n·2^{C√log n} distances. Faithful."
+    }
+]

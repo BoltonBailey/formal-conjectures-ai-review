@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A241898: a(n) is the largest k such that n = k² + … is a decomposition into at most four nondecreasing squares. Newman observed 'it would seem that a(n) > 7 for all n > 599'. The definition requires the other bases to be 0 or ≥ k, and the tests match the data. The statement negates the observation via a(4m) = 2a(m) for even m ≥ 2. I recomputed a(46) = 1, a(184) = 2 and a(736) = 4 ≤ 7, so the negation is true and correctly tagged solved. Faithful."
+    }
+]

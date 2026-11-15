@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/876: DEM constructed sum-free sets with a_n ~ n^{3+o(1)} ([DEM99, Thm 4]: a_n ~ n^{3+δ} for each δ > 0). The statement records the consequence a_n ≤ C(k+1)^{3+δ}, which is a correct weakening. Faithful."
+    }
+]

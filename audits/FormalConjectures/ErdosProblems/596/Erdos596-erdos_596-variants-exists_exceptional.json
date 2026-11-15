@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/596: Erdős–Hajnal conjectured that no such pair exists, but (C₄, C₆) is one. The statement asserts that an exceptional pair exists. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A223086: the trajectory of 64 under A006368, the 'amusical permutation' a(2n) = 3n, a(4n+1) = 3n+1, a(4n-1) = 3n-1. It is conjectured that the trajectory does not close on itself. step agrees with A006368: (3(4n+1)+1)/4 = 3n+1 and (3(4n-1)-1)/4 = 3n-1, and the tests match the data. Because the map is a permutation, closing up is equivalent to some repeated value. The statement asserts injectivity of a on indices ≥ 1. Faithful."
+    }
+]

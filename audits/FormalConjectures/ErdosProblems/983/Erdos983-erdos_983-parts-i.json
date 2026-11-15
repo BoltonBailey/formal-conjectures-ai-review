@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/983: is 2π(n^{1/2}) − f(π(n)+1, n) → ∞? The statement negates this divergence, computed in ℤ, with Nat.sqrt playing the role of n^{1/2} inside π. That is the same up to the floor, which π does not see. The 'no' answer is attributed in the docstring to a forum argument (Price/GPT-5.5 Pro, explained by Sothanaphan) giving f(π(n)+1, n) = 2π(n^{1/2}) + 1 infinitely often via Pomerance's prime-graph result. The page text itself does not yet record this. The construction sketched is consistent with the Erdős–Straus upper bound. Faithful."
+    }
+]

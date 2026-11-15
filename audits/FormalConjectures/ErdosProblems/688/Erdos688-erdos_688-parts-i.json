@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/688: ε_n is maximal such that classes a_p for the primes n^{ε_n} < p ≤ n cover [1,n]; estimate ε_n. Erdos688Prop n ε encodes the covering. The set of admissible ε is downward closed and bounded above (ε ≥ 1 leaves no primes), so epsilonFunction = sSup is the intended maximum. The value question asks for a Θ-estimate, a reasonable reading of 'estimate'. Faithful."
+    }
+]

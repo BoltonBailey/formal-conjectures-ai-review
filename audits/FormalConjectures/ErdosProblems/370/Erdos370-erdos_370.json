@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/370: are there infinitely many n with P(n) < n^{1/2} and P(n+1) < (n+1)^{1/2}? Yes, trivially (Steinerberger). The statement asserts infinitude of {n | maxPrimeFac n < √n ∧ maxPrimeFac (n+1) < √(n+1)}. The junk values at n = 0, 1 (maxPrimeFac 0 = 0, maxPrimeFac 1 = 1) do not create spurious members. Faithful."
+    }
+]

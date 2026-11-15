@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/884: is Σ_{i<j} 1/(d_j - d_i) ≪ 1 + Σ_i 1/(d_{i+1} - d_i) over the divisors of n? Disproved (Tao conditionally; Larsen unconditionally). The two sums are computed via Nat.nth (· ∣ n), giving the ordered divisors, with rational differences. The statement negates the O-bound. Faithful."
+    }
+]

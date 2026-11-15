@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: a set with at most one point is magic, since there are no lines through two distinct points. This is correct for the IsMagic definition, and the term proof given is valid. Faithful."
+    }
+]

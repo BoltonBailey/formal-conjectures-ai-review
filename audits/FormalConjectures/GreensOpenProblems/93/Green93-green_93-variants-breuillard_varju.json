@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's Problem 93 comments (Breuillard–Varjú established the conjecture conditionally on GRH) and the file's citation of [BrVa19, Theorem 1], which assumes RH for the Dedekind zeta functions of the fields ℚ(a), a a root of a {0,1}-polynomial. ZeroOneRootFieldsRH quantifies over number fields K generated over ℚ by a root of a nonzero {0,1}-coefficient polynomial and asserts DedekindZetaRH K. The conclusion p_n → 1 matches. Faithful."
+    }
+]

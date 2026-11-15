@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A233864 (ii): for every even 2n > 0, 2n + σ(k) is prime for some 0 < k < 2n. The statement matches exactly. Faithful."
+    }
+]

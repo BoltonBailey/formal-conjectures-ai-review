@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/910 and [Ru58]: under CH, Rudin constructed a nontrivial connected M ⊆ ℝ² such that M \\ N is countable for every nontrivial connected N ⊆ M. The statement assumes ℵ₁ = 𝔠 and asserts this. Faithful."
+    }
+]

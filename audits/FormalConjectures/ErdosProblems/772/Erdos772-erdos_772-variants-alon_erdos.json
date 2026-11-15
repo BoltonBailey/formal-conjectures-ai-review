@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/772: Alon and Erdős proved H_k(n) ≫_k n^{2/3}. The statement asserts c > 0 with cn^{2/3} ≤ H_k(n) eventually. Faithful."
+    }
+]

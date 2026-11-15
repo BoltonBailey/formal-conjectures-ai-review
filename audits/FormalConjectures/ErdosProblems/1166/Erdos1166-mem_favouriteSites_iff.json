@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma, proved: x is a favourite site at time n iff f_n(x) = max_y f_n(y), which matches the page's definition of F(k). Faithful."
+    }
+]

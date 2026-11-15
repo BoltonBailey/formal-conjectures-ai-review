@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's Problem 87: is p(k) = (C + o(1))k^{−α}(log k)^{−3/2} for an absolute constant C, with α the Erdős–Ford–Tenenbaum constant 1 − (1 + log log 2)/log 2? δ is defined as that constant, and the statement asks for C > 0 with p ~ C·k^{−δ}(log k)^{−3/2}. Requiring C > 0 is harmless, since p(k) > 0 and the Θ bounds are known. Faithful."
+    }
+]

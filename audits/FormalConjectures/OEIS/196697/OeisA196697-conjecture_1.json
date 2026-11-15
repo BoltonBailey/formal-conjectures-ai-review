@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A196697 (offset 1): a(n) is the number of primes of the form 2^n ± 2^k ± 1 with 0 ≤ k < n. Lei Zhou conjectured that all terms are > 0. The definition counts distinct primes among the four candidates for each k < n; natural-number subtraction never truncates here because 2^n - 2^k ≥ 1. The tests match the data 1, 4, 5, 6, 7. The statement asserts a n > 0 for n ≥ 1. Faithful."
+    }
+]

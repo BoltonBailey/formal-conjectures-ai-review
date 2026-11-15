@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A236511: a(n) = #{0 < k < n : p = 3φ(k) + φ(n−k) − 1, p+2, p+6, p+8 all prime}, with the conjecture a(n) > 0 for n > 1075. The definition sums over k ∈ [1,n). The natural-number subtraction is harmless, since 3φ(k) + φ(n−k) ≥ 4. The tests match the data (a(1..4) = 0, a(10) = 1), and the statement is 0 < a n for n > 1075. Faithful."
+    }
+]

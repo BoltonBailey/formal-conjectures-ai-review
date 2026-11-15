@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's Problem 68 comments: is there a blocking set B ⊆ PG(2,q) meeting every line in at least 1 and at most 1000 points? For large primes it is speculated that none exists. The statement models PG(2,p) points as Projectivization of F_p³ and lines as 2-dimensional subspaces, and asserts no such B for all large primes p. Faithful (an open speculation, tagged open)."
+    }
+]

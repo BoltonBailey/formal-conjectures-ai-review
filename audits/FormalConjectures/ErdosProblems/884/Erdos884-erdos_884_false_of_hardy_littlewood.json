@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/884 and Tao (2025): the qualitative prime k-tuples conjecture implies a negative answer. The hypothesis encodes admissibility (for each prime p some residue avoids every n + h) together with infinitely many prime tuples, which is the qualitative conjecture. The conclusion is ¬Erdos884Prop. Faithful."
+    }
+]

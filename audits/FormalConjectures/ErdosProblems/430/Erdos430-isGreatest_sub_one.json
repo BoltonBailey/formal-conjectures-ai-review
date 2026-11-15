@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma, proved: for n ≥ 3, n - 1 is the greatest element of terms n, since every prime factor of n - 1 exceeds 1 = n - (n-1). This matches a_1 = n - 1 on erdosproblems.com/430. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/694: Carmichael asked whether some n has exactly one solution m of φ(m)=n. The statement ∃ n > 0, ∃! m, φ(m) = n poses that question; n = 0 is excluded because only φ(0) = 0 in Lean. The question is open; Carmichael's totient conjecture expects the answer no. The statement takes the positive form under a question tag, the usual convention when no answer(...) is used. Faithful."
+    }
+]

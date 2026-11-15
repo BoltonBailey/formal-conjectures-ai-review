@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/297 and Liu–Sawhney arXiv:2404.07113, Theorem 1.2. λ* is the unique positive solution of ∫_0^1 e^{-λ/x}/(1+e^{-λ/x}) dx/x = 1, γ* = λ* + ∫_0^1 log(1+e^{-λ*/x}) dx, and |A| = e^{γ*N ± o(N)}. So log₂|A|/N → γ*/log 2 ≈ 0.911, the '0.91…' on the page. massIntegral is the same integrand rewritten. For λ ≤ 0 the integral is non-integrable and Lean gives 0 ≠ 1, so ∃! over all reals matches 'unique positive'. answer = (λ* + ∫ log(1+e^{-λ*/y}))/log 2. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/853: 'or even r(x)/log x → ∞?' The statement is r(n)/log n → ∞ in ℝ. Faithful. As with part (i), the question is not tagged @[question], which is a labelling issue only."
+    }
+]

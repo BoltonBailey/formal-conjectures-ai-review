@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A237578: 'a(n) = 1 only for n = 5, 8, 13'. The statement uses an iff over all n. The reverse direction holds by the data (a(5) = a(8) = a(13) = 1), and n = 0, 1, 2 give a = 0. Faithful."
+    }
+]

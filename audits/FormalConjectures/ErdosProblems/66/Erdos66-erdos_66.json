@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/66: is there A ⊆ ℕ with lim_{n→∞} 1_A * 1_A(n)/log n existing and nonzero? sumRep A n is the number of ordered representations n = a + b with a, b ∈ A, i.e. 1_A * 1_A(n). The statement asks for A and a nonzero c with sumRep A n/log n → c. Faithful."
+    }
+]

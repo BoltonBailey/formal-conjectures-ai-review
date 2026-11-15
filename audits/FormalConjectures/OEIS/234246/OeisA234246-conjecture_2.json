@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A234246 conjecture (i): the only n with a(n) = 1 are 4, 5, 8, 9, 12, 13, 24, 33, 49. The statement is the iff with that finite set (n = 0 gives a = 0, so it is correctly excluded). Faithful."
+    }
+]

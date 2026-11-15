@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/413: are there infinitely many n with m + ω(m) ≤ n for all m < n (barriers for ω)? Open; Lau proved a weaker version. IsBarrier encodes ∀ m < n, m + f(m) ≤ n, and the statement asserts that the barrier set for ω is infinite. Faithful."
+    }
+]

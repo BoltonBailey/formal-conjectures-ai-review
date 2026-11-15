@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/979: Erdős [Er37b] proved limsup f_2(n) = ∞, where f_2(n) counts solutions of n = p₁² + p₂². `solutionSet n 2` counts unordered solutions (multisets of 2 primes). That differs from ordered counts by at most a factor 2, which is irrelevant to limsup = ∞. The statement is the limsup in ℕ∞ of encard equal to ⊤. Faithful."
+    }
+]

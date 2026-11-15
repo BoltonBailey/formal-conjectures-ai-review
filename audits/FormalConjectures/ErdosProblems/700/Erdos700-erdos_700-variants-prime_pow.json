@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Related to erdosproblems.com/700 (the page notes f(n) ≥ p(n), the least prime factor): for a prime p and a ≥ 2, f(p^a) = p, witnessed by k = p^{a−1} where v_p(C(p^a, k)) = 1. Correct and proved in the file. It also justifies the docstring's remark that p^a is a 'hit' iff a = 2."
+    }
+]

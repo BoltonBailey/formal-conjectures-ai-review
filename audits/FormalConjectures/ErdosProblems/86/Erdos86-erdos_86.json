@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/86: does every subgraph of Q_n with ≥ (1/2 + o(1))n2^{n−1} edges contain a C₄, i.e. f(n) ≤ (1/2 + o(1))n2^{n−1}? The statement says: ∀ ε > 0, eventually in n, every H ≤ hypercube n (vertices Fin n → Bool, adjacency = Hamming distance 1) with ≥ (1/2+ε)n2^{n−1} edges contains cycleGraph 4 as a subgraph. That is the standard unpacking of the o(1). Faithful."
+    }
+]

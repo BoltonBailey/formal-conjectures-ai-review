@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma, proved: every site's local time f_n(x) is at most the maximal local time over visited sites. It is correct and supports the definition of F(k) on erdosproblems.com/1166. Faithful."
+    }
+]

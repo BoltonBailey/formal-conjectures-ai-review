@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A212844: a(n) = 2^{n+2} mod n (offset 1), with the conjecture that every integer k ≥ 0 appears at least once. The statement asserts that for every k some n ≥ 1 has a n = k; n ≥ 1 excludes the junk value at n = 0. The tests match the data. Faithful."
+    }
+]

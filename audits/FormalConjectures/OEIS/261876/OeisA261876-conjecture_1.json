@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A261876, conjecture (i): a(n) > 0 for all n > 0. Here a(n) counts ordered (x,y,z,w) with z > 0, n = x²+y²+z²+w², and (5x²+7y²+9z²)yz a square. The definition sums over bounded ranges with z ≥ 1 using a correct Nat.sqrt square test, and the tests match the data 1, 3, 2, 1, 4. The statement asserts 0 < a n for n > 0. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/886: Erdős–Rosenfeld proved that for any C > 0 all large n have at most 1 + C² divisors in [n^{1/2}, n^{1/2} + Cn^{1/4}]. The statement matches with the closed interval. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A193279's question 'is the converse true?'. The statement asserts the answer no. I checked by computation that a(492) = 492 and a(1652) = 1652, and neither is perfect; the solutions up to 3000 are 6, 28, 492, 496, 1652. So the negation is true and is correctly tagged solved. Faithful."
+    }
+]

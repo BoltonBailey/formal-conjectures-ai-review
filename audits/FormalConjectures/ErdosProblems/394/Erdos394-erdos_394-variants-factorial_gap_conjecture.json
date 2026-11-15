@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/394: is it true that for infinitely many n, t_k(n!) < t_{k-1}(n!) - 1 for all 1 ≤ k < n? The statement uses 2 ≤ k < n. k = 1 would involve t_0, the empty product, which is meaningless, so 2 ≤ k is the evident intent. Faithful."
+    }
+]

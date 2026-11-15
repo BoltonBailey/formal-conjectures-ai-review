@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/695: does there exist a prime chain p_1 < p_2 < … (p_{i+1} ≡ 1 mod p_i) with p_k ≤ exp(k(log k)^{1+o(1)})? Open; it follows from a standard conjecture on the least prime ≡ 1 mod p. The statement uses 0-indexing, q k = p_{k+1}, hence the shift to k+1, and asks for ∃ o = o(1) with q k ≤ exp((k+1) log(k+1)^{1+o k}) for all k. At k = 0 the bound exp(0^{1+o 0}) can be met only by choosing o 0 = -1, since log 1 = 0; that is permitted because o is constrained only asymptotically, so the edge case is harmless. Faithful."
+    }
+]

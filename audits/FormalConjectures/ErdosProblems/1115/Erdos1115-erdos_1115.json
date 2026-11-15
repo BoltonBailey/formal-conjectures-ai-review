@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1115 (Hayman 2.41): for f entire of finite order, can a path Γ with f → ∞ be found with ℓ(r) ≪ r? The page says this was disproved by Gol'dberg–Eremenko, who also give such functions of any finite order. The statement negates the universal claim over non-constant f with OfFiniteOrder; that predicate includes Differentiable ℂ f and a bound c·exp(|z|^a), which is equivalent to finite order. Paths are arc-length parametrised with ‖f(γ t)‖ → ∞, and ℓ(r) is the measure of {t ≥ 0 : |γ t| < r}. Only the 'in particular' question is formalised, which is reasonable. Faithful."
+    }
+]

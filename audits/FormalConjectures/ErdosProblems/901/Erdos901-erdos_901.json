@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/901: m(n) is the minimal number of edges of a 3-chromatic n-uniform hypergraph (equivalently, one without Property B); estimate m(n). Hypergraph.minChromaticEdges n 3 is the infimum of edge counts of n-uniform hypergraphs with chromatic number exactly 3. That equals the 'no Property B' minimum, since a minimal non-2-colourable family is 3-colourable. ⊤ arises only at n = 1, where toNat gives a junk 0 that is irrelevant asymptotically. The statement asks for a Θ-estimate, a reasonable reading of 'estimate' given the gap between √(n/log n)·2ⁿ and n²2ⁿ. Faithful."
+    }
+]

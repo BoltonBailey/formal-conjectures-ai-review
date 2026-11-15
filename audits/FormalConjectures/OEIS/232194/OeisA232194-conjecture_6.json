@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A232194 (iv): every n > 5 is p + q (q > 0) with p and nq² + 1 prime. The statement matches. Faithful."
+    }
+]

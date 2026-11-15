@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A234694 conjecture (iii): for n > 483 some 0 < k < n has prime(m) + m and prime(m) − m both prime. The statement matches. Faithful."
+    }
+]

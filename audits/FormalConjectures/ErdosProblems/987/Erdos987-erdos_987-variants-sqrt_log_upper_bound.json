@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/987: an OpenAI model (APSSV26b) proved that some sequence has A_k ≪ (k log k)^{1/2} for all k ≥ 1, even with sup over n in place of limsup. The statement gives x ∈ (0,1), C > 0 with |Σ_{j<n} e(kx_j)| ≤ C√(k log k) for all n and all k ≥ 2. Excluding k = 1, where log 1 = 0, is necessary and documented. Faithful."
+    }
+]

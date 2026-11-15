@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/707: Hall proved that {1,3,9,10,13} (a shift of his {−8,−6,0,1,4}) cannot be extended to any perfect difference set. The statement asserts finiteness, the Sidon property, and non-extendability for every modulus n > 0. Faithful."
+    }
+]

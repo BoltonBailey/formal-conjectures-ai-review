@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/731: EGRS75 note that for almost all n, m = exp((log n)^{1/2+o(1)}). The docstring cites EGRS75 (8) for the explicit form 'for every ε > 0, outside a density-0 set, exp((log n)^{1/2−ε}) < m < exp((log n)^{1/2+ε})'. The statement asserts exactly that, as density 1 for each ε. Faithful."
+    }
+]

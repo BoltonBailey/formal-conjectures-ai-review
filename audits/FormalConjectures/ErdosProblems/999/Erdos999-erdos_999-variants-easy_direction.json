@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/999 (Duffin–Schaeffer): 'It is easy to prove that the latter follows from the former', i.e. a.e. approximability implies Σ φ(q) f(q)/q = ∞, via Borel–Cantelli. The statement takes f ≥ 0 real-valued, which is the standard Duffin–Schaeffer setting; the page's 'f : ℕ → ℕ' is evidently a slip. IsApproximable requires infinitely many q > 0 with a coprime p and |x - p/q| < f(q)/q. The conclusion is non-summability. Faithful."
+    }
+]

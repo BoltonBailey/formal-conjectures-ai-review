@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/568: if R(G, T_n) ≪ n for every n-vertex tree and R(G, K_n) ≪ n², must G be Ramsey size linear (R(G,H) ≪ m for every H with m edges and no isolated vertices)? The statement takes a finite G, assumes ∃ c₁ with graphRamsey G T ≤ c₁n for every tree T on Fin n and ∃ c₂ with graphRamsey G Kₙ ≤ c₂n², and concludes IsRamseySizeLinear G. The constants are uniform, as ≪ requires. Faithful."
+    }
+]

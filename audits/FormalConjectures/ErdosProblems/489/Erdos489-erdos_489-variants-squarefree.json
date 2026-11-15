@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/489: for A = {p² : p prime}, B is the set of squarefree numbers, and Erdős proved that lim (1/x)·Σ_{b_i<x} (b_{i+1} − b_i)² exists. sievedSet of the prime squares is the positive squarefree integers. GapSumSq sums the squared consecutive gaps over the indices i with b_i < x (0-indexed via Nat.nth and Nat.count). The statement asks for the limit of GapSumSq/x to exist. Faithful."
+    }
+]

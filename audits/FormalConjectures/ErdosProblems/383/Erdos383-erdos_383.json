@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/383: for every k, are there infinitely many primes p such that the largest prime divisor of ∏_{i=0}^k (p² + i) is p? The statement asserts this with maxPrimeFac of the product over i ∈ [0,k]. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/920: 'It is known that f_3(n) ≍ (n/log n)^{1/2}'. The statement asserts f 3 n =Θ (n/log n)^{1/2}. Faithful."
+    }
+]

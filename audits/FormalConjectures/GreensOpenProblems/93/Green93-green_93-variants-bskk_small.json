@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against BSKK23 Theorem 1(b) (arXiv:2007.14567). For N consecutive integers in [−H,H] with 2 ≤ N ≤ 34 there are absolute δ > 0 and n₀ such that, for n ≥ max(n₀, (log H)³), a uniform monic polynomial with nonzero constant term is irreducible with probability ≥ δ. The file specialises to {0,…,M} with 1 ≤ M ≤ 33, so N = M+1 and H = M. Since M is bounded, (log H)³ is absorbed into n₀. This matches Green's 2023 update. Faithful."
+    }
+]

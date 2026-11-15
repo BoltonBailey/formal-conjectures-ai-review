@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/67 (the Erdős discrepancy problem, proved by Tao): for f : ℕ → {±1} and every C > 0 there are d, m ≥ 1 with |Σ_{k≤m} f(kd)| > C. The statement matches, with f valued in {-1, 1} ⊂ ℝ. A cosmetic issue: the reference link in the file header points to erdosproblems.com/66 instead of /67. Faithful."
+    }
+]

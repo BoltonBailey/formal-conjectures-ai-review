@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/373: Erdős proved the problem would follow from P(n(n−1)) > 4 log n. As the file's note explains (citing Theorem 2 of Erdős 1976-39), the hypothesis is needed only for large n, since it fails at small n such as n = 4. The statement assumes it eventually and concludes S.Finite. Faithful, with the interpretation documented."
+    }
+]

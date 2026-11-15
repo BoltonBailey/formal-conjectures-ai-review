@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/824: with h(x) = #{1 ≤ a < b < x : (a,b) = 1, σ(a) = σ(b)}, is h(x) > x^{2−o(1)}? `h x` counts exactly these pairs for natural x, which is enough for the asymptotics. The statement ∀ ε > 0, eventually x^{2−ε} < h(x) is the standard unpacking of x^{2−o(1)}. The page text does not itself record a solution; the file cites recent preprints and a linked Lean proof for the 'solved' tag, which I could not verify. The formulation itself is faithful."
+    }
+]

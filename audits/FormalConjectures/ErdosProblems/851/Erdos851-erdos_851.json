@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/851: for ε > 0, is there r = O_ε(1) such that integers 2^k + n, with n having at most r prime divisors, have density ≥ 1 - ε? Solved by Price with GPT-5.2 Pro. The statement uses distinct prime divisors and lower density ≥ 1 - ε, for ε ∈ (0,1). Allowing n = 0, 1 (no prime factors) is harmless. Faithful."
+    }
+]

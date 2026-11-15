@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/680: is it true that for all sufficiently large n there exists k with p(n+k) > k^2+1, where p is the least prime factor? The statement is ∀ᶠ n, ∃ k ≠ 0, (n+k).minFac > k^2+1. Excluding k = 0 is necessary, since k = 0 would make it trivial (minFac n > 1). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "h(n) is the minimum number of distinct distances over n-point sets in ℝ² in general position (no three collinear, no four concyclic), matching erdosproblems.com/98. Question: does h(n)/n → ∞? The statement is Tendsto (h n / n) atTop atTop. Faithful."
+    }
+]

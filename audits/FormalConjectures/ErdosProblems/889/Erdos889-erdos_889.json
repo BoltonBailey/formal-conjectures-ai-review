@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/889: with v(n,k) the number of prime factors of n+k dividing none of n, …, n+k−1, is v₀(n) = max_k v(n,k) → ∞?  matches the page's definition, and v₀ is the ℕ∞-valued supremum over k. That supremum is finite for each n, since for k ≥ n at most one prime > k divides n + k. So Tendsto v₀ atTop (𝓝 ⊤) is exactly v₀(n) → ∞. Faithful."
+    }
+]

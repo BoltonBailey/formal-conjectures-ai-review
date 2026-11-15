@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: a triangle cannot be cut into 0 congruent triangles, since the empty union cannot equal the nonempty closed interior. It is proved and correct, consistent with erdosproblems.com/633. Faithful."
+    }
+]

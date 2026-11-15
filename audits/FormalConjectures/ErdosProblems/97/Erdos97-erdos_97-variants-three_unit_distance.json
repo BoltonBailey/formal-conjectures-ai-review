@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/97: Fishburn and Reeds found a convex 20-gon in which every vertex has three vertices at the same distance (which can be taken to be 1) from it. The statement asserts a convex-independent A in which every vertex has ≥ 3 points of A at distance 1. Faithful."
+    }
+]

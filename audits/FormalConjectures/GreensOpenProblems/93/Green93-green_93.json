@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's 100 open problems, Problem 93: with p_n the probability that 1 + a₁x + ⋯ + a_{n−1}x^{n−1} + xⁿ is irreducible for i.i.d. uniform a_i ∈ {0,1}, does p_n → 1? irreducibleProb 1 n draws a : Fin n → Fin 2 conditioned on a₀ ≠ 0 (so a₀ = 1) and tests Irreducible in ℤ[X]. That agrees with irreducibility over ℚ for monic polynomials (Gauss). The statement is Tendsto … (𝓝 1). Faithful."
+    }
+]

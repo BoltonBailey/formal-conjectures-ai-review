@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "IsGoodFor A 1 encodes the MacMahon sequence of erdosproblems.com/359 (A002048): A 0 = 1 and A(j+1) is the least m > A j that is not a sum of consecutive terms among A 0, …, A j. Requiring m > A j loses nothing, since by induction every smaller integer is already representable. The 0-indexing is irrelevant to the asymptotics. Question: can one prove a_k/k → ∞? The statement is Tendsto (A k / k) atTop atTop. Faithful. The page phrases this as a question, but there is no @[question] tag."
+    }
+]

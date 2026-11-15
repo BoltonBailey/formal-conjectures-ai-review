@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: if every k-subset A of [1,n] has r primes S with more than r elements of A being S-smooth, then f(k,n) ≤ r. This is immediate from the sInf definition of f, which matches erdosproblems.com/983. Correct and proved."
+    }
+]

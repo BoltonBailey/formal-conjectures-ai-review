@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/829: Mahler proved 1_A * 1_A(n) ≫ (log n)^{1/4} for infinitely many n. The statement gives ∃ C > 0 with C(log n)^{1/4} ≤ sumRep cubes n frequently. Faithful."
+    }
+]

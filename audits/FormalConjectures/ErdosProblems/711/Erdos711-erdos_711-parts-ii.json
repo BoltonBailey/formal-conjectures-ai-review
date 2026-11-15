@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/711: prove max_m (f(n,m) − f(n,n)) → ∞ (done by van Doorn). The statement says: for every B, for all large n, there are m and the minimal lengths Lm = f(n,m), Ln = f(n,n) (via IsMinimalIntervalLength) with B ≤ Lm − Ln. Truncated subtraction is harmless, since for B ≥ 1 it forces Lm ≥ Ln + B. Faithful."
+    }
+]

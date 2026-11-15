@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Theorem 1 of Dietmann–Elsholtz arXiv:1207.1461 (cited from erdosproblems.com/782): for N sufficiently large, a₀ ≥ 0, and A = {a₁,…,a_d} distinct positive integers with H(a₀; a₁,…,a_d) ⊆ S₂ ∩ [1,N], d ≤ 7 log log N. The Lean statement has ∃ N₀, ∀ N ≥ N₀, an injective positive b : Fin d → ℤ, 0 ≤ a₀, the cube contained in squares in [1,N], giving (d:ℝ) ≤ 7·log(log N). This matches exactly."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/751: the finite-graph consequence for χ ≥ 4, namely two cycle lengths m < m' ≤ m + 2. The statement matches and links a Lean proof; the docstring explains the de Bruijn–Erdős gap to the infinite case. Faithful."
+    }
+]

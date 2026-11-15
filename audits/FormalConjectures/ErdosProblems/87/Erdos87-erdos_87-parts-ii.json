@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/87: is there c > 0 such that R(G) > c·R(k) for all large k and every G with χ(G) = k? The statement is ∃ c > 0, ∀ᶠ k, ∀ finite G with chromaticNumber = k, diagonalGraphRamsey G > c·diagonalRamsey k. This matches, and the @[question] form is correct for an open question. Faithful."
+    }
+]

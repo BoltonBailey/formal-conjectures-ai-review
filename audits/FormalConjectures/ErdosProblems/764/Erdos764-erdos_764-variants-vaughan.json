@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/764: Vaughan proved that Σ_{n≤N} 1_A∗1_A∗1_A(n) = cN + o(N^{1/4}/(log N)^{1/2}) is impossible. tripleRep is the triple convolution of indicators, i.e. ordered representations. The statement negates the existence of A and c > 0 with that error term. Faithful."
+    }
+]

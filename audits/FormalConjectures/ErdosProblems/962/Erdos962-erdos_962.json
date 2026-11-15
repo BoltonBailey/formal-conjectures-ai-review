@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/962: with k(n) the maximal k such that some m ≤ n has each of m+1..m+k divisible by a prime > k, is log k(n) ≤ (log n)^{1/2+o(1)}? k is a findGreatest capped at n, which is harmless since k(n) ≤ (1+o(1))√n. The statement asserts ε = o(1) with log k(n) ≤ (log n)^{1/2+ε(n)} eventually. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A211420 (Bala): for r ≥ 0 there is K(r) > 0 with a(n)·K(r)/((8n−1)(8n−3)⋯(8n−(2r+1))) integral for all n. The OEIS Open paper (arXiv:2608.11941) proves this. oddDescendingProduct n r = ∏_{i=0}^{r} (8n − (2i+1)) in ℤ, which is never zero, and the statement is ∃ K > 0 with that product dividing a(n)·K for all n. Faithful."
+    }
+]

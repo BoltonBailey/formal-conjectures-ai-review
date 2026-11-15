@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/611, which says the Bollobás–Erdős threshold n + 3 − 2√n is best possible. The file renders this for n = m², m ≥ 2, as a graph whose maximal cliques all have ≥ n + 2 − 2√n vertices but τ(G) ≥ 2. For m = 2 a perfect matching on 4 vertices works. That is a reasonable precise form of sharpness at the integer threshold just below. Faithful."
+    }
+]

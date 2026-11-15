@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Conlon–Fox–He–Mubayi–Pham–Suk–Verstraëte arXiv:2404.16016, Theorem 1: for fixed rational x > 0 the count is 2^{c_x n + o(n)}, where c_x = ∫_0^1 h(1/(1+e^{λ/y})) dy, h is binary entropy in bits, and λ is the unique real with ∫_0^1 dy/(y(1+e^{λ/y})) = x. exponentOf uses Real.binEntropy (in nats) divided by log 2, which gives bits. The statement asserts uniqueness of λ and log₂(count)/N → c_x. Faithful."
+    }
+]

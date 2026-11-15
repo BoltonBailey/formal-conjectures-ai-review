@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/616: for r ≥ 3, determine the best t such that every r-uniform hypergraph G whose subgraphs on ≤ 3r−3 vertices all have τ ≤ 1 satisfies τ(G) ≤ t. Hypergraph.localTransversalBound r (3r−3) 1 is the least b (in ℕ∞) such that every finite r-uniform H on Fin n whose induced subhypergraphs on ≤ 3r−3 vertices have a transversal of size ≤ 1 has one of size ≤ b. Restricting to induced subgraphs is equivalent, since τ is monotone in the edge set. The statement is a value question for each r ≥ 3. Faithful."
+    }
+]

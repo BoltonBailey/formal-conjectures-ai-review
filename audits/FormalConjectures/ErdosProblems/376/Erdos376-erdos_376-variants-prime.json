@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/376: EGRS75 proved that for any two odd primes p and q there are infinitely many n with C(2n,n) coprime to pq. The statement asserts this for odd primes p, q. The degenerate case p = q (coprime to p², i.e. to p) is also true, by Kummer's theorem with base-p digits < p/2. Faithful."
+    }
+]

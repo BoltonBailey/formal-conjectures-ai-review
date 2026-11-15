@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/700: characterise the composite n with f(n) = n/P(n), where P(n) is the largest prime divisor. The statement equates {n : ¬prime, n > 1, f n = n / P n} with an unknown set, per the value-question convention. Natural division is exact here, since P(n) | n. The docstring also notes the paper's prime-power reading, which is formalised separately. Faithful to the page."
+    }
+]

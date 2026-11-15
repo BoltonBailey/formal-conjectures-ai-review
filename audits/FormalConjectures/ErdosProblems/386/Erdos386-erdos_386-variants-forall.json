@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/386: this variant takes the reading in which k is fixed. For every k ≥ 2, is C(n,k) a product of consecutive primes for infinitely many n? Erdős–Graham expected this never happens for 3 ≤ k ≤ n-3, so the variant is probably false, but it is a legitimate open reading of the question and is stated correctly. Faithful."
+    }
+]

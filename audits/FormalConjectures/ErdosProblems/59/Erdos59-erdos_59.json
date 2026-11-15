@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/59: is the number of labelled H-free graphs on n vertices ≤ 2^{(1+o(1)) ex(n;H)}? The answer is no (Morris–Saxton, H = C₆). The statement negates the claim for all H containing a cycle. That restriction is justified: for forests the claim fails trivially (e.g. P₃-free graphs include all matchings), so the cycle restriction matches the meaningful reading in [MoSa16]. Faithful."
+    }
+]

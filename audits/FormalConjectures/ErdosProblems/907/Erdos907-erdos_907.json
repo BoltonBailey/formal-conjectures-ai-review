@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/907: if f : ℝ → ℝ has f(x+h) - f(x) continuous for every h > 0, is f = g + h with g continuous and h additive? Answered affirmatively by de Bruijn. The statement matches exactly, with the additive part named a. Faithful."
+    }
+]

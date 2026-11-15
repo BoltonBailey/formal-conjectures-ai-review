@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/408: with f(n) = min{k ≥ 1 : φ_k(n) = 1}, does f(n)/log n have a distribution function? The statement asks for a monotone F with limits 0 and 1 such that {n : f(n)/log n ≤ c} has density F(c) at every continuity point c, the standard notion. It is open, with a conditional result by EGPS. Faithful."
+    }
+]

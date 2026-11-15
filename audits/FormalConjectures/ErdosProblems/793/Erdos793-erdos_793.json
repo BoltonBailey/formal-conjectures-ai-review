@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/793: is there a constant C with F(n) = π(n) + (C + o(1))n^{2/3}(log n)^{−2}? F(n) is the maximal size of A ⊆ [1,n] with a ∤ bc for a, b, c ∈ A with a ≠ b and a ≠ c (b = c allowed, as in the page's wording); the file defines F this way via Strongly2Primitive. The statement asks for a limit c of (F(n) − π(n))/(n^{2/3}/(log n)²). The page records the answer yes, with C = 27/2. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/190: H(k) is the least N such that every finite colouring of {1,…,N} has a k-term AP that is monochromatic or rainbow; is H(k)^{1/k}/k → ∞? The page records the positive answer (Bae; Fox–Hunter). IsCanonical N k quantifies over colourings c : ℕ → ℕ, which covers any finite number of colours on [1,N], and asks for a k-term AP in [1,N] that is constant or injective under c. The statement, ∀ C ∈ ℕ, eventually every canonical N exceeds (Ck)^k, is equivalent to H(k)^{1/k}/k → ∞ (natural C suffices), and it avoids presupposing that H exists. Faithful."
+    }
+]

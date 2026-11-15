@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/767. g_k(n) is the maximum number of edges of an n-vertex graph containing no cycle with k chords incident to one vertex of the cycle. HasCycleWithIncidentChords encodes this: a cycle through v and k distinct f i with s(v, f i) a chord of the cycle. Pósa proved g₁(n) = 2n − 4 for n ≥ 4. The statement matches. Faithful."
+    }
+]

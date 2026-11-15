@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Levine–O'Sullivan proved R < 4 (the page mentions Sullivan's < 4) and Abbott proved R > 2.064, as reported in [DEM99]. The statement asserts 2.064 < maxRecipSum < 4. This is consistent with erdosproblems.com/876. Faithful."
+    }
+]

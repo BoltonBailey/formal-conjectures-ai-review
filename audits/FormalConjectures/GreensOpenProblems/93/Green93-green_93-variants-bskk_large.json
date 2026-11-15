@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against BSKK23 Theorem 1(a) (arXiv:2007.14567): for N ≥ 35 consecutive integers in [−H,H], with absolute constants c, n₀, the irreducibility probability is ≥ 1 − n^{−c} for n ≥ max(n₀, (log H)³). The statement specialises to {0,…,M}, M ≥ 34 (N = M+1 ≥ 35, H = M), with the hypotheses n ≥ n₀ and (log M)³ ≤ n and uniform constants. Faithful."
+    }
+]

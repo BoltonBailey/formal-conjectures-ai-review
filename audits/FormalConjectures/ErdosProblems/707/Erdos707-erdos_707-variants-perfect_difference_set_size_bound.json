@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Textbook fact: a perfect difference set mod n with k elements has k(k−1) = n−1 nonzero differences, so k ≤ √n + 1. The statement uses Nat.sqrt and ncard (infinite B gives 0) and is proved in the file. Faithful."
+    }
+]

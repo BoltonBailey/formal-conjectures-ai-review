@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/814 (Sauermann's theorem): a graph on n ≥ k−1 vertices with (k−1)(n−k+2) + C(k−2,2) + 1 edges has an induced subgraph on ≤ (1−c_k)n vertices with minimum degree ≥ k. This variant assumes at least that many edges, which is equivalent: delete edges down to the exact count, and the induced subgraph found has min degree ≥ k in G as well. n + 2 − k in ℕ equals n − k + 2 since n ≥ k − 1. Faithful."
+    }
+]

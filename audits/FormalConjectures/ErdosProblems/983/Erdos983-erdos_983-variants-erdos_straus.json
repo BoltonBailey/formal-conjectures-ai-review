@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/983: Erdős–Straus proved f(π(n)+1, n) = 2π(n^{1/2}) + o_A(n^{1/2}/(log n)^A) for every A > 0. The statement asserts that the difference is o(√n/(log n)^A) for each A > 0. Faithful."
+    }
+]

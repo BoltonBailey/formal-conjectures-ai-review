@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/600: e(n,r) is the minimal e such that every n-vertex graph with ≥ e edges, each in some triangle, has an edge in ≥ r triangles. For r ≥ 2, does e(n,r+1) - e(n,r) → ∞? Open. eFunction is the sInf of e satisfying Erdos600Prop; the set is nonempty since any e > C(n,2) works vacuously. The statement asserts the difference tends to ∞ for every r ≥ 2. Faithful."
+    }
+]

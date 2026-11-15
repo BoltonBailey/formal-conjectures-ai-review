@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's 100 open problems, Problem 84 (marked Solved): is there f : [N] → {±1} with |f̂(θ)| ≥ c√N for all θ? Solved by Balister–Bollobás–Morris–Sahasrabudhe–Tiba. The statement asserts an absolute c > 0 such that for all large N such f exists. Excluding small N is necessary, since for N = 2 the transform vanishes somewhere, as the docstring notes. Faithful."
+    }
+]

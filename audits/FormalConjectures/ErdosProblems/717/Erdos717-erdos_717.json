@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/717: is χ(G) ≪ (n^{1/2}/log n)·σ(G), with σ(G) the largest k such that G contains a subdivision of K_k? Answered yes by Fox–Lee–Sudakov. `CliqueSubdivision` correctly encodes a topological K_r: injective branch vertices, a path for each pair i < j, interiors avoiding the branch vertices and pairwise disjoint. The statement is ∃ C > 0 such that for all finite graphs with n ≥ 2 vertices χ ≤ C·(√n/log n)·σ, which is the natural reading of ≪ (excluding n = 1, where log n = 0). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/985: for every prime p, is there a prime q < p that is a primitive root mod p? The statement asserts this for primes p ≠ 2, using orderOf (q : ZMod p) = p - 1. Excluding p = 2 is necessary and correct, since no prime q < 2 exists, so the literal statement fails trivially there. The open tag follows the page, which records no resolution. Faithful."
+    }
+]

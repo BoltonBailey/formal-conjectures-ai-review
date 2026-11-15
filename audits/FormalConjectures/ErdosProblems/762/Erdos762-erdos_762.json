@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/762: if G has no K₅ and cochromatic number ζ(G) ≥ 4, is χ(G) ≤ ζ(G) + 2? Disproved by Steiner (ω = 4, ζ = 4, χ = 7). The statement negates the universal claim over finite graphs. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against OEIS A259667, which asks: 'Are there other k than 2 and 8 that yield a(2^k−1) = 5? Otherwise said, is a(2^k−1) = 3 for all k > 8?' The statement asserts ∀ k, a(2^k−1) = 5 ↔ k ∈ {2, 8}, which is the expected (negative) answer to that question and mathematically correct as a formalization. But the source poses it as a question, not a conjecture, and the declaration is not tagged @[question] while the docstring calls it a conjecture. A labelling issue only."
+    }
+]

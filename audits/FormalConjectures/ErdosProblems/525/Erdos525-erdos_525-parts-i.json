@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/525: do all but o(2^n) degree-n ±1 polynomials have |f(z)| < 1 somewhere on |z| = 1? Yes, by Kashin. exceptional n is the set of coefficient vectors with |f(z)| ≥ 1 on the whole circle, and the statement asserts its count is o(2^n). Faithful."
+    }
+]

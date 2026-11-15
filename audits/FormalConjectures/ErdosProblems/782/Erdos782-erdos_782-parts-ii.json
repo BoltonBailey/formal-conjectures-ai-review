@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/782 (second question of [BEF90]): do the squares contain arbitrarily large cubes a + {Σ ε_i b_i}? The statement asks for every d a cube with d nonzero integer generators contained in the integer squares. The generators need not be distinct or positive, but that does not trivialise the question: a value repeated three times, or appearing together with its negative and repeated, would give a 4-term AP of squares, which is impossible. So a d-dimensional cube of this kind contains a cube of dimension ≫ d with distinct positive generators (after shifting a). The answer is open, and the @[question] form is correct. Faithful."
+    }
+]

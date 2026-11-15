@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/769 ('Give good bounds for c(n)'): this variant asks whether log c(n)/(n log n) converges, on the n^n scale the problem sets. The known bounds 2^{n+1} - 1 ≤ c(n) ≪ n^{n+1} put the ratio in [0, 1] asymptotically. It is a reasonable, explicitly documented sharpening of the open 'good bounds' question, and excluding n = 0 is correctly justified. Faithful."
+    }
+]

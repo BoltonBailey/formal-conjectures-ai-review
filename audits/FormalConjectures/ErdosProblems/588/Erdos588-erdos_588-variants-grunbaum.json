@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/588: Grünbaum proved f_k(n) ≫_k n^{1+1/(k−2)} for k ≥ 4. The statement matches with a k-dependent constant. Faithful."
+    }
+]

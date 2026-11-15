@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/775: Moon and Moser showed Spencer's n − log₂ n + O(1) is best possible. The statement gives ∃ C such that every graph on Fin n has at most n − log₂ n + C distinct maximal-clique sizes. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/940: for r = 2 the density-0 claim is 'easy' (first proved by Baker–Brüdern). The statement asserts that sums of at most two 2-powerful numbers have density 0. Faithful."
+    }
+]

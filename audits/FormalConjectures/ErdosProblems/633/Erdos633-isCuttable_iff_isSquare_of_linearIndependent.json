@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/633: 'Soifer proves that any triangle for which the angles and sides are both integrally independent has this property'. The statement takes ℤ-linear independence of the three side lengths and of the three angles, and concludes that T is n-cuttable iff n is a nonzero square. Faithful."
+    }
+]

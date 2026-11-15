@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/670: Ho showed that for infinitely many n, with d = n² - n, there are such sets with diameter ≤ (1 - 1/π² + o(1))n². The statement asserts, for every ε > 0, frequently in n, such A in dimension n² - n with diameter ≤ (1 - 1/π² + ε)n². Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/679: for ε > 0, are there infinitely many n with ω(n−k) < (1+ε)log k/log log k for all k < n sufficiently large depending only on ε? The statement gives, for each ε > 0, a threshold K (depending only on ε) and infinitely many n with the bound for all K < k < n. Faithful."
+    }
+]

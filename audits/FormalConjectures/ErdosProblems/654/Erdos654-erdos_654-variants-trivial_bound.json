@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/654: 'It is trivial that f(n) ≥ (n−1)/3.' The statement proves the stronger pointwise version: every x ∈ A has ≥ (|A|−1)/3 distinct distances, since a circle centred at x holds at most 3 other points when no four are concyclic. Proved in the file. Faithful."
+    }
+]

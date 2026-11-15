@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/922 (Erdős–Hajnal, proved by Folkman): if every subgraph H of G has an independent set of size ≥ (|H| - k)/2, must χ(G) ≤ k + 2? The statement quantifies over vertex subsets S, i.e. induced subgraphs, requiring an I ⊆ S independent in G with |I| ≥ (|S| - k)/2. This is equivalent to the all-subgraphs condition, since removing edges only enlarges independent sets. It is stated for finite G, which covers the infinite case by de Bruijn–Erdős compactness. Faithful."
+    }
+]

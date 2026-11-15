@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/940: for r ≥ 3, does the set of integers that are sums of at most r r-powerful numbers have density 0? The statement uses Multisets of size ≤ r of r-full numbers (Nat.Full, which counts 0 and 1, both harmless) and asserts HasDensity 0. Faithful."
+    }
+]

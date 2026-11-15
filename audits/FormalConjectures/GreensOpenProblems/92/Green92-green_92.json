@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's 100 open problems, Problem 92 (trace reconstruction): how many independent traces, with each bit deleted with probability 1/2, are needed to reconstruct x with probability 0.9? numTraces n is the least m such that some decoder succeeds with probability ≥ 0.9 for every x. Traces are modelled by uniform subsets of kept positions, which matches deletion probability 1/2. The statement asks for answer with numTraces =Θ answer; that is natural because the 0.9 threshold only matters up to constant factors. Faithful."
+    }
+]

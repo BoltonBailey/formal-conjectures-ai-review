@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A₁(N) is the number of maximal Sidon subsets of [1,N] (IsMaximalSidonSetIn: Sidon, and no further element of [1,N] can be added), as on erdosproblems.com/862. The page derives A₁(N) ≥ 2^{(0.16+o(1))N^{1/2}}. The statement is: for each ε > 0, eventually 2^{(0.16−ε)√N} ≤ A₁(N). Faithful."
+    }
+]

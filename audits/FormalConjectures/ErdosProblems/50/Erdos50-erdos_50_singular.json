@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/50: Erdős proved the distribution function is purely singular. The statement, for any distribution function f of φ(n)/n, asserts continuity on [0,1] and derivative (within [0,1]) zero almost everywhere. That is the standard meaning of a singular continuous distribution function. Faithful."
+    }
+]

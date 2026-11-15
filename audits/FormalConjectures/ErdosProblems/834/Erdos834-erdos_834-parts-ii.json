@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/834, second (chromatic) notion: chromatic number 3, dropping to 2 after deleting any edge or any vertex. Li gave such a 3-uniform hypergraph on 9 vertices with minimum degree 7. The statement asserts a 3-uniform H with chromatic number 3, H∖{e} 2-colourable for each e, H minus the edges through v 2-colourable for each v, and all degrees ≥ 7. Faithful."
+    }
+]

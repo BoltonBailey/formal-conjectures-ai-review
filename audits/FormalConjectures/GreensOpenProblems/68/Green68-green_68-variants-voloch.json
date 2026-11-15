@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's Problem 68 comments: Voloch showed that any arc of size > (44/45)p lies on a conic. The statement uses the precise form from Ball–Lavrauw, Theorem 52: for odd p, an affine arc with |A| > (44/45)p + 8/9 lies in the zero set of a nonzero polynomial of degree ≤ 2. The affine reduction from PG(2,p) is explained in the docstring and is correct. Faithful."
+    }
+]

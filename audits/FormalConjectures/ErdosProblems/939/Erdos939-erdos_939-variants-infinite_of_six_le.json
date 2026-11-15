@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/939: for r ≥ 6 there are infinitely many r-powerful numbers that are sums of r−2 coprime r-powerful numbers (GPT-5.5 Pro, prompted by Price). The page notes the construction naturally uses ⌈r/2⌉+1 summands, and the docstring explains how to split terms into exactly r−2 distinct pieces. The statement (Erdos939Sums r).Infinite for r ≥ 6 matches. Faithful."
+    }
+]

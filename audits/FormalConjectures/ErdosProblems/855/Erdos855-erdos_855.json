@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/855 (the second Hardy–Littlewood conjecture): is π(x+y) ≤ π(x) + π(y) for large x and y? Open, and probably false under prime k-tuples (Hensley–Richards). The statement asserts the inequality eventually in the product filter atTop ×ˢ atTop, i.e. for all x, y ≥ N, matching 'for large x and y'. Faithful."
+    }
+]

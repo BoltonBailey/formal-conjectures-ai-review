@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/733 and [Er81]: once the upper bound is known, Erdős asked whether lim log f(n)/n^{1/2} exists, where f(n) counts all-lines sequences. The statement uses allLinesSequences, in which L is exactly the set of lines with ≥ 2 points, as in [Er81], and asserts the limit exists in ℝ. Faithful."
+    }
+]

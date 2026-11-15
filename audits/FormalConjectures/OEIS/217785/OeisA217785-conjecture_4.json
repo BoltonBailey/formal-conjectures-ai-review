@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A217785: s_n(x) is reducible modulo every prime iff n = 8k(k+1) for a positive integer k. The statement uses ¬Irreducible of the image in (ZMod p)[x] for all primes p. At primes dividing n+1 the leading coefficient vanishes, and such degenerate reductions (e.g. a unit constant) count as not irreducible. That is a standard convention, and it does not affect the 'iff', since any n not of this form must have some good prime at which the reduction is irreducible. Faithful."
+    }
+]

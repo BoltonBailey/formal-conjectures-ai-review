@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/838: Erdős proved n^{c₁ log n} < f(n) < n^{c₂ log n}. The statement asserts constants c₁, c₂ > 0 with both bounds for all n ≥ 2. Uniform constants exist: small n are absorbed by taking c₁ small and c₂ large, using 1 + n + C(n,2) ≤ f(n) ≤ 2^n. Counting empty sets, singletons and pairs as convex shifts the count only by a polynomial, which is harmless. Faithful."
+    }
+]

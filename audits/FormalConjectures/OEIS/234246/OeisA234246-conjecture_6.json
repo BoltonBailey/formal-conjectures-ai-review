@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A234246 conjecture (iv): if n > 7 and n ∉ {10, 19}, then (φ(k) + φ(n−k))/2 is triangular for some 0 < k < n. The statement uses φ(k) + φ(n−k) = m(m+1), which is equivalent: triangular numbers are m(m+1)/2, and the halving is integral exactly when the sum is even. Faithful."
+    }
+]

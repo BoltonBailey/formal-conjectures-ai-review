@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/786: can one find A ⊆ {1,…,N} with the property and size ≥ (1-o(1))N? This is the distinct-elements version, open (the version with repetition is false, by Ruzsa/ERS and Granville–Soundararajan). The statement uses A N ⊆ [1, N+1] rather than [1, N], an off-by-one that is immaterial asymptotically, with |A N| ≥ (1 - f N)N for f = o(1). Faithful."
+    }
+]

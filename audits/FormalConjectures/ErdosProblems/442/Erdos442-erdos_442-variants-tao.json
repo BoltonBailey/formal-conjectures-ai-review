@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Tao arXiv:2407.04226 (cited on erdosproblems.com/442), abstract: for any C₀ > 0 there is A with Σ_{n∈A,n≤x} 1/n = exp((C₀/2 + o(1))(log log x)^{1/2} log log log x) and Σ_{n,m∈A, n,m≤x} 1/lcm(n,m) ≪_{C₀} (Σ 1/n)². The statement takes C₀ = 1, uses Log = max(log, 1) (which agrees with log for large x), and sums over all ordered pairs including the diagonal, as in the abstract. Faithful."
+    }
+]

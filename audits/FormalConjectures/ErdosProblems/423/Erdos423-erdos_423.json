@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/423: for the Hofstadter sequence a_1 = 1, a_2 = 2, with a_k the least integer > a_{k-1} that is a sum of ≥ 2 consecutive earlier terms (A005243), what is the asymptotic behaviour? The page says 'It seems likely that a_n = n + o(n)'. IsHofstadterSeq encodes the recursion: block sums over indices in [1, k-1] of length ≥ 2, minimality, and increase. The statement asserts a_n - n = o(n), the conjectured answer. Faithful."
+    }
+]

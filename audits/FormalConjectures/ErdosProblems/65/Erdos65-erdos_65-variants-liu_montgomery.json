@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/65: Liu–Montgomery proved the sharp bound ≥ (1/2 - o(1)) log k. The statement asserts that for each ε > 0 and all large k, Σ 1/a_i ≥ (1/2 - ε) log k, uniformly in G with kn edges. Faithful."
+    }
+]

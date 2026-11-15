@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/654: Erdős and Pach, working with points in general position, suggest that the (1−o(1))n bound holds if every circle around a point x_i contains at most 2 other points. The statement assumes InGeneralPosition and AtMostTwoPerCircle (every circle centred at x ∈ A contains ≤ 2 other points of A) and asks for the (1−ε)n bound eventually. The page's wording leaves open whether general position is assumed together with the circle condition; including it matches the setting of [Er87b]/[ErPa90], and the docstring explains the choice. Faithful."
+    }
+]

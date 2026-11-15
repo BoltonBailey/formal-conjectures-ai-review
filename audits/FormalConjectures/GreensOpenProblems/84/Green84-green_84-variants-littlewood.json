@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green Problem 84: Littlewood's problem, whether some ±1 polynomial has |P(z)| = (1+o(1))√N on the circle; Green says 'the answer to this may well be no'. The statement asserts that for every ε > 0 and large N some f has ||f̂(θ)| - √N| ≤ ε√N for all θ. This is the standard reading and is open. Faithful."
+    }
+]

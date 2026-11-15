@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/978, first question: under the stated hypotheses, does {n : f(n) is (k-1)-power-free} have positive density? Hooley [Ho67] settled this with an asymptotic. The extra hypothesis that no p^{k-1} is a fixed divisor is automatic here: f is primitive, and k is not a power of 2. So it is harmless. HasPosDensity means that a positive natural density exists. Faithful."
+    }
+]

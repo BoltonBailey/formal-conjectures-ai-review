@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/971: with p(a,d) the least prime ≡ a (mod d), is there c > 0 such that for all large d, p(a,d) > (1+c)φ(d) log d for ≫ φ(d) values of a? The statement counts a < d coprime to d, the only meaningful residues; for these p(a,d) exists by Dirichlet, so the sInf is genuine. It asserts c, C > 0 with count ≥ Cφ(d) eventually. Faithful."
+    }
+]

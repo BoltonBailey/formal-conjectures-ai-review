@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/739: Galvin proved that the induced-subgraph version implies 2^κ < 2^μ for all cardinals κ < μ. The statement asserts this implication within universe u; the finite cases of the conclusion are trivially true. Faithful."
+    }
+]

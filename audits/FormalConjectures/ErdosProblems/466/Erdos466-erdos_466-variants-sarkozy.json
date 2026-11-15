@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/466: Sárközy proved that for all sufficiently small δ > 0, N(X,δ) > X^{1/2 - δ^{1/7}}. The statement asserts δ₀ > 0 such that for 0 < δ < δ₀ the bound holds for all large X, a correct reading. Faithful."
+    }
+]

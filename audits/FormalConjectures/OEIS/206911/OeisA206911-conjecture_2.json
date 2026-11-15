@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A206911: the ratio (number of 3s)/(number of 2s) among the differences tends to a limit between 3.5 and 3.6. count3 N and count2 N count the 3s and 2s among d(1), …, d(N), and the statement asks for a limit l with 3.5 < l < 3.6. This matches the conjecture as restated in arXiv:2608.11941 (strictly between). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/932: for infinitely many r there are at least two n with p_r < n < p_{r+1} all of whose prime factors are < p_{r+1} − p_r. The statement uses 0-indexed Nat.nth Nat.Prime, a shift of r by one that does not affect infiniteness. It counts m in the open interval with maxPrimeFac m < gap, which says all prime factors are below the gap since m ≥ 3. Faithful."
+    }
+]

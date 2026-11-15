@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/978: Erdős [Er53] proved there are infinitely many n with f(n) (k-1)-power-free, except when k = 2^l and 2^{k-1} | f(n) for all n. Irreducibility forces f to be primitive, so its fixed divisor divides k!, and p^{k-1} | k! only when p = 2 and k is a power of 2. Hence the hypotheses (irreducible, degree > 2, degree not 2^x, positive leading coefficient) rule out the exception. Powerfree (k-1) on ℤ is the usual notion. Faithful."
+    }
+]

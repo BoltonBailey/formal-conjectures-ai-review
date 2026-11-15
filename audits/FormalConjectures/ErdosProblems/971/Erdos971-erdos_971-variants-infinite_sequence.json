@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/971: Erdős could prove this for an infinite sequence of d. The statement asserts c, C > 0 such that the set of d satisfying the counting bound is infinite. Faithful."
+    }
+]

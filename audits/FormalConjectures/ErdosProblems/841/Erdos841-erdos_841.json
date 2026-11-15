@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/841: t_n is minimal such that {n+1,…,n+t_n} contains a subset whose product with n is a square (t_n = 0 for square n), and the open-ended task is to estimate t_n. The file states the BPZ24 result quoted on the page: for fixed c ∈ (0,1], #{n ≤ x : t_n ≤ n^c} and #{n ≤ x : P(n) ≤ n^c} differ by o(x). That is equivalent to equality of the two limiting densities, which exist by Dickman.  is defined correctly as an sInf over T admitting J ⊆ [1,T]. Using a solved result to represent the vague 'estimate' question is documented in the docstring. Faithful."
+    }
+]

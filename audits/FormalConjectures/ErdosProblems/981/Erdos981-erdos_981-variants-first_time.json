@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/981, which notes the alternate first-time definition (the least m with Σ_{n≤m} (n/p) < εm) and the Tang–Zhang asymptotic for it. f' is that first-time quantity (m = 0 is excluded, since 0 < 0 is false), and the statement is the same asymptotic for f'. Faithful."
+    }
+]

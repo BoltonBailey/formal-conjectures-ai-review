@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/978: Heath-Brown (k ≥ 10) and Browning [Br11] (k ≥ 9) showed that an irreducible f with no fixed (k-2)-th power prime divisor takes infinitely many (k-2)-power-free values (indeed with an asymptotic). The statement matches, with degree ≥ 9, irreducibility and the fixed-divisor hypothesis. The sign of the leading coefficient is irrelevant because Powerfree is invariant under associates. Faithful."
+    }
+]

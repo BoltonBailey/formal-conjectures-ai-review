@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/394: since t_2(p) = p - 1, Σ t_2(n) ≫ x²/log x. The statement asserts x²/log x = O(sum). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A234642: a(n) is the smallest x with x mod φ(x) = n, or 0 if none; the conjecture is a(n) > 0 for all n. ModTotientEq requires φ(x) > 0 (so x > 0) and x % φ(x) = n. The sInf of the empty set gives 0, matching the convention. The tests match the data 1, 3, 10, 9, 20. The statement asserts 0 < a n, i.e. that a solution exists. Faithful."
+    }
+]

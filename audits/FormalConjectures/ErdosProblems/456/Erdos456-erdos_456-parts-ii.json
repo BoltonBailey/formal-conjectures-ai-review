@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "p n is the least prime ≡ 1 (mod n) and m n the least k > 0 with n | φ(k), as on erdosproblems.com/456. Question: does p_n/m_n → ∞ for almost all n? The statement asks for a set A of density 1 along which p n/m n → ∞, the standard reading of 'tends to infinity for almost all n'. Faithful."
+    }
+]

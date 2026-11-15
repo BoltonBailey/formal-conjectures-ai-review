@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/640 (Erdős–Hajnal): for k ≥ 3, is there f(k) such that χ(G) ≥ f(k) forces an odd cycle whose vertex set spans a subgraph with χ ≥ k? Open. HasHighChromaticOddCycle takes an odd cycle and the induced subgraph on its support, so chords are allowed, matching 'span'. The statement quantifies over finite graphs on Fin n, the natural reading. Faithful."
+    }
+]

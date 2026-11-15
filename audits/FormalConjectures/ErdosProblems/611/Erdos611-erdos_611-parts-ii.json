@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/611: estimate the minimal k_c(n) such that every G whose maximal cliques all have ≥ k_c(n) vertices has τ(G) < (1−c)n. cliqueThreshold c n is that sInf. The statement asks for a Θ-equivalent answer function of (c, n) for 0 < c < 1. c ≥ 1 is excluded because the condition τ < (1−c)n ≤ 0 is then impossible, which the docstring explains. Θ is a reasonable reading of 'estimate'. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against WOWII Conjecture 314: for a connected graph with n > 1, if G is triangle-free and its path number is ≤ 4, then G is well totally dominated. WOWII def 35 defines the path number as the number of vertices of a largest induced path. The local largestInducedPathSize (induced trees of max degree ≤ 2, i.e. induced paths) matches that, and Nontrivial gives n > 1. Well totally dominated means all minimal total dominating sets have equal size (def 99). The solved tag rests on a linked Lean proof. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/997 (via [Er64b]): Erdős proved that {α n_k} is not well-distributed for almost all α when n_k is lacunary. The statement asserts this for Lebesgue-a.e. α given IsLacunary n. Faithful."
+    }
+]

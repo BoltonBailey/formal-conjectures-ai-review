@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A trivial special case of erdosproblems.com/602: pairwise disjoint infinite sets have Property B. It is proved in Lean and is correct. The 'research solved' tag overstates its difficulty, but the statement is faithful as a sanity variant."
+    }
+]

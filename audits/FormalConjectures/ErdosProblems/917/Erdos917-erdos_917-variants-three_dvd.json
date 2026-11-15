@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/917: the remaining case of the third question, f_k(n) ~ ½(1 - 1/(k/3))n² for k ≥ 6 with 3 | k. It is correctly tagged open. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A229232: a(n) is the number of undirected circular permutations of 1..n with every cyclically adjacent product minus 1 prime, conjectured > 0 for all n > 5 with n ≠ 13. The definition counts linear permutations whose cyclic adjacent pairs (via zip with a rotation) all satisfy the condition, then divides by 2n. Each undirected circular arrangement corresponds to 2n linear ones for n ≥ 3, and n < 3 is set to 0, matching the data. The tests a(4) = 1, a(5) = 0, a(6) = 2 agree. The statement asserts a n > 0 for n > 5, n ≠ 13. Faithful."
+    }
+]

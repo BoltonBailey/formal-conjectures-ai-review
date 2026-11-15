@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/673: 'Can one prove an asymptotic formula for Σ_{n≤X} G(n)?' The statement answers with Σ G(n) ~ X log X. The page itself does not state this formula; it gives Tao's bounds τ(n/m)/m ≤ G(n) ≤ τ(n), so Σ G ≤ (1+o(1)) X log X. The asymptotic is plausible, since under τ-weighting the divisors are dense on the log scale and consecutive ratios tend to 1, and it is backed by a linked Lean proof. Faithful, with the solved status resting on that proof."
+    }
+]

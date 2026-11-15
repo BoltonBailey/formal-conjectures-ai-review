@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/839: for 1 ≤ a₁ < a₂ < ⋯ with no a_i a sum of consecutive earlier terms (SumOfConsecutiveFree: a_i ≠ a_j + ⋯ + a_k for j ≤ k < i, with 0-indexing, which is irrelevant here). Question: or even lim (1/log x) Σ_{a_n<x} 1/a_n = 0? The statement asks that range a have logarithmic density 0, where HasLogDensity is the limit of (1/log n)·Σ_{k≤n, k∈A} 1/k. That is the same as the source quantity (sum up to n versus < x does not matter, and a is injective). Faithful."
+    }
+]

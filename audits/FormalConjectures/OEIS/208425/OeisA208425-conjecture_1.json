@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A208425 (Sun, (i)): for primes p > 3 and n > 0, (a(pn) - a(n))/(pn)³ is a p-adic integer. The statement uses padicValRat ≥ 0; the value 0 has valuation 0 by convention, which is harmless. The closed form a(n) = Σ_k C(n,k)C(n-k,k)C(n+k,k) matches the data 1, 1, 7, 25, 151. Faithful."
+    }
+]

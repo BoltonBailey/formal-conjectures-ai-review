@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Related to erdosproblems.com/745: for fixed λ > 0, λ ≠ 1, L₂(G(n, λ/n))/log n → 1/(λ − 1 − log λ) in probability. This is the standard result in both regimes: supercritical (second-largest, after the giant) and subcritical (each of the top few components, including the second, is ~ log n/I_λ). The statement encodes convergence in probability as P(|L₂/log n − 1/I_λ| < ε) → 1 for every ε > 0. A Lean proof is linked. Faithful."
+    }
+]

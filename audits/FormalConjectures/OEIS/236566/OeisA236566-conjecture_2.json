@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A236566 (ii): for n > 30, 2n + 1 = 2p + q with p, q and prime(p+2) + 2 all prime. The statement matches, with the same index shift. Faithful."
+    }
+]

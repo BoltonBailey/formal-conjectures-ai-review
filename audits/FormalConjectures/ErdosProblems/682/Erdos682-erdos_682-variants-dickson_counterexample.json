@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/682: if 2183 + 30030d and 2201 + 30030d are both prime, they are consecutive primes and every integer strictly between them is divisible by a prime ≤ 13 < 18. The statement gives the corresponding index n with p n and p (n+1) equal to these primes and every m in between having minFac < 18 = gap. A Lean proof is linked. Faithful."
+    }
+]

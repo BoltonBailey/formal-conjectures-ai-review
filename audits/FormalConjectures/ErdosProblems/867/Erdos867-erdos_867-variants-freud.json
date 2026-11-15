@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/867: Freud constructed a sequence with density ≥ 19/36. The statement gives a finitary version: for every ε > 0 and large N there is a consecutive-sum-free A ⊆ [1,N] with |A| ≥ (19/36 - ε)N. This follows by truncating the sequence, since truncation preserves the property. Faithful."
+    }
+]

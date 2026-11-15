@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/839: for 1 ≤ a₁ < a₂ < ⋯ with no a_i a sum of consecutive earlier terms (SumOfConsecutiveFree: a_i ≠ a_j + ⋯ + a_k for j ≤ k < i, with 0-indexing, which is irrelevant here). Question: is limsup a_n/n = ∞? The statement takes the ℝ≥0∞ limsup of a n / n and sets it to ⊤. The junk value at n = 0 does not affect the limsup. Faithful."
+    }
+]

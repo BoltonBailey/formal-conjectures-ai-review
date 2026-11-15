@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/885: Jiménez-Urroz proved k = 3. The statement is proved with the squares 1936, 4900, 32400, which share the differences {0, 105, 480}. Counting 0 (a = b) is allowed by the page's definition of D(n), though a reader who expects nonzero differences should note that the witness uses it. Faithful to the stated definition."
+    }
+]

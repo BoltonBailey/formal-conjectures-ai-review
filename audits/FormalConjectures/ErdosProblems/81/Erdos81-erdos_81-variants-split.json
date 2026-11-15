@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/81: Chen, Erdős and Ordman showed that every split graph (vertex set = clique ∪ independent set) can be edge-partitioned into (3/16)n² + O(n) cliques. The statement matches, with IsSplitGraph defined as a clique S whose complement is independent. Faithful."
+    }
+]

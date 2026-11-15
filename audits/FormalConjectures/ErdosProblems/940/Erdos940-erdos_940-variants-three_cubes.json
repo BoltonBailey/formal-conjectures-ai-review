@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/940: 'For r = 3 it is not even known if those integers which are the sum of at most three cubes has density 0.' The statement uses cubes of nonnegative integers, which is the natural reading (it is documented, and over ℤ the question would be different). It asserts density 0. Faithful."
+    }
+]

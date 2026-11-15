@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Not from erdosproblems.com/602: this formally refutes a strawman in which the infinitude hypothesis is dropped, since singletons are always monochromatic. It is proved in Lean and is correct, but it is a test/sanity lemma about hypothesis necessity, tagged 'research solved', and it corresponds to no statement in the source. The miscategorisation is the only issue."
+    }
+]

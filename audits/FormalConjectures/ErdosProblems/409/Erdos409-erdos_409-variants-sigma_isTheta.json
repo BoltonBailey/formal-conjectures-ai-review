@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/409: asks for Θ of the σ-iteration count c(n), given that c is well-defined for all n > 1. That hypothesis is unsatisfiable if termination fails, making the statement conditional. Faithful to the question-value convention."
+    }
+]

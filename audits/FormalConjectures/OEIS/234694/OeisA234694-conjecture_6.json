@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A234694 conjecture (iv): for n > 3 some 0 < k < n has prime(k + prime(n−k)) + 2 prime. The statement matches with 1-indexed primes. Faithful."
+    }
+]

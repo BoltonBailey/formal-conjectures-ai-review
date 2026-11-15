@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/936: are 2^n ± 1 and n! ± 1 powerful for only finitely many n? Open unconditionally; known under abc (Cushing–Pascoe for n! ± 1, CrowdMath for 2^n ± 1). This case asks that 2^n - 1 be eventually not powerful, i.e. powerful for only finitely many n. Nat.Powerful is 2-full (p | m implies p² | m), as on the page. Truncated subtraction affects only n = 0. Faithful."
+    }
+]

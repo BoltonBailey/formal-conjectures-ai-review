@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/683, which reports Erdős [Er55d]: P(C(n,k)) ≫ k log k for k ≤ n/2. As the docstring notes, the page's form without a minimum is false at n = 2k (all prime factors of C(2k,k) are ≤ 2k). The file states the correct min(n−k+1, c·k log k) form, which is the known theorem. Faithful to the intended result, with the correction documented."
+    }
+]

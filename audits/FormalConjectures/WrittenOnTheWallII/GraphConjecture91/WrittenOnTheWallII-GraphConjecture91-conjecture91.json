@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against WOWII Conjecture 91: for connected G, b(G) ≤ 1 + f(G)·⌈avg l(v)⌉/2, where b is the largest induced bipartite subgraph, f the largest induced forest, and l(v) the independence number of N(v) (WOWII defs 15, 41, 4, 16). The statement negates this. I decoded Talwar's graph6 'JBza_CB?wF_' (11 vertices) and verified by brute force that it is connected with b = 8, f = 6 and avg l = 2. The bound gives 1 + 6·2/2 = 7 < 8, so the counterexample is valid and the negation is true. Faithful."
+    }
+]

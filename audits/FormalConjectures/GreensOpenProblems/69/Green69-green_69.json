@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's 100 open problems, Problem 69: fix k; if A ⊂ ℝ² has n points, no more than k on a line, and ≥ δn² pairs (x,y) whose line contains a third point of A, is there a cubic curve through ≥ cn points, with c = c(k,δ) > 0? The statement uses AtMostOnLine k, counts ordered distinct pairs with a third collinear point, and OnCubic (zero set of a nonzero polynomial of degree ≤ 3). c depends only on k and δ, and small n are harmless because any 9 points lie on a cubic. Faithful."
+    }
+]

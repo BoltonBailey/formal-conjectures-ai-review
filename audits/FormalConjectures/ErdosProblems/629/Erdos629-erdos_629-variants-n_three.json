@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/629: Hanson, MacGillivray and Toft proved n(3) = 14. The statement n 3 = 14 matches. Faithful."
+    }
+]

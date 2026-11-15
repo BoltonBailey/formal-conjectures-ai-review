@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "f(n) = maxMOLS n is the largest size of a pairwise-orthogonal set of Latin squares of order n, with orthogonality meaning (i,j) ↦ (L_ij, M_ij) is injective, as on erdosproblems.com/724. The classical bound f(n) ≤ n − 1 for n ≥ 2 (cf. OEIS A001438) is proved in the file by an injection into the n − 1 columns of row 0 other than column 0. Correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/882: ELRSS99 proved |A| > log₂n - 1 is achievable. The statement asserts log₂n - 1 < maxAntichainCard n for n ≥ 1. Faithful."
+    }
+]

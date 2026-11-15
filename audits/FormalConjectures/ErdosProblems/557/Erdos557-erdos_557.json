@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/557 (Erdős–Graham): is R_k(T) ≤ kn + O(1) for every tree T on n vertices? It is implied by the Erdős–Sós conjecture (Problem 548), whose page now records a full proof, and Reed–Stein's dense case gives large n. The statement asserts an absolute c with multicolourGraphRamsey k T ≤ kn + c for all k, n and trees on Fin n, with a linked Lean proof. Faithful."
+    }
+]

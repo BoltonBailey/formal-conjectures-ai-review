@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/711: with f(n,m) minimal such that (m, m+f) contains distinct a_1,…,a_n with k | a_k, prove max_m f(n,m) ≤ n^{1+o(1)}. HasDivisibleDistinctTuple encodes the interval condition (injective a, m < a_i < m+L, (i+1) | a_i). The statement gives a single o(1) error such that, for all large n and every m, some admissible L ≤ n^{1+error(n)} exists. That bounds f(n,m) uniformly in m, which is exactly the max_m bound. Faithful."
+    }
+]

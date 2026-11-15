@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/623: for X of cardinality ℵ_ω and f from finite subsets of X to X with f(A) ∉ A, must there be an infinite independent Y ⊆ X (f(B) ∉ Y for all finite B ⊆ Y)? The statement quantifies over types X : Type u with #X = ℵ_ω and functions f : Finset X → X with f A ∉ A, and asks for an infinite Y with f B ∉ Y for every finite B ⊆ Y. That matches the question (B ⊂ Y read as 'finite subset of Y'). Faithful."
+    }
+]

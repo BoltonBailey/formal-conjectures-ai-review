@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A231830: a(0) = 1 and a(n) = 1 + 4∏_{i=1}^{n-1} a(i)² for n > 0. The definition uses the equivalent recurrence a(n+2) = (a(n+1) - 1)a(n+1)² + 1 from a(1) = 5, and the tests match the data 1, 5, 101, 1020101, …. OEIS (Alekseyev) notes it is unknown whether all terms are squarefree. The statement asserts all terms are squarefree, posed as an open question, as on OEIS. Faithful."
+    }
+]

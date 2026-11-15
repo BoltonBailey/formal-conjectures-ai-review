@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/375: the conjecture in particular resolves Legendre's conjecture (asymptotically). The statement derives, from Erdos375Prop, a prime in (n², (n+1)²) for all large n, via the bounded-gap variant and a lemma from the Legendre file. It is proved in the file. Faithful."
+    }
+]

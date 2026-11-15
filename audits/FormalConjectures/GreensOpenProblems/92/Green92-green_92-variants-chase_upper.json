@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green Problem 92 ('Chase has improved this to e^{n^{1/5} log^C n}') and Chase arXiv:2009.03296, Theorem 1: for any q and δ there is C such that T = exp(C n^{1/5} log⁵ n) traces suffice. The statement specialises to q = 1/2, δ = 1/10 and asserts numTraces n ≤ ⌈exp(C n^{1/5} log⁵ n)⌉ eventually. Faithful."
+    }
+]

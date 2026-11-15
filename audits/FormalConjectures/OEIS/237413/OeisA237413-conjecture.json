@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A237413: a(n) counts ways to write n = k + m (k, m > 0) with p(k)²−2, p(m)²−2 and p(p(m))²−2 all prime, where p(j) is the j-th prime; conjecture a(n) > 0 for n > 1. In `a`, k ranges over [1, n), m = n − k ≥ 1, p(j) = Nat.nth Nat.Prime (j−1), and p(p(m)) = nth (nth (m−1) − 1), all correctly 1-indexed. The values a(1..5) = 0,1,2,2,2 match the data. Faithful."
+    }
+]

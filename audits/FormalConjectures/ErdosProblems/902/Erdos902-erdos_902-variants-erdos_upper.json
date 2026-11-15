@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Er63c, statement (2)/(2.1): limsup f(k)2^{−k}k^{−2} ≤ log 2, i.e. for each ε > 0, f(k) ≤ 2^k k²(log 2 + ε) for large k. The statement says exactly this. It is a sharper, faithful form of the page's f(n) ≪ n²2^n."
+    }
+]

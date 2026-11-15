@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/564: with R₃(n) the 3-uniform hypergraph Ramsey number for two colours, is there c > 0 with R₃(n) ≥ 2^{2^{cn}}? hypergraphRamsey 3 n is the least m such that every 2-colouring of the subsets of Fin m has an n-set whose 3-subsets are monochromatic. Colouring all subsets but testing only the 3-subsets is equivalent. The statement asks for c > 0 with 2^{2^{cn}} ≤ R₃(n) for all large n (right-associative powers). Faithful."
+    }
+]

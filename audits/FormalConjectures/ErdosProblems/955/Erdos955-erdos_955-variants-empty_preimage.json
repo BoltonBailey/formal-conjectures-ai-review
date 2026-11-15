@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/955: Erdős proved there are sets A of positive density with s⁻¹(A) empty (the untouchable numbers). The docstring notes that Erdős's result gives positive lower density, so the statement asks for A with positive lower density and empty preimage. That is a correct reading of 'positive density' given that the natural density of the untouchables is not known to exist. Faithful."
+    }
+]

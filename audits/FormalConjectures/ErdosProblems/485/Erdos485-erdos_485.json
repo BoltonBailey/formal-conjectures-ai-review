@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/485 (Erdős–Rényi): with f(k) the minimum number of terms of P² over P with exactly k nonzero terms, is f(k) → ∞? Yes, by Schinzel, improved by Schinzel–Zannier. f is the sInf over P ∈ ℚ[X] with support size k of the support size of P², and the set is nonempty for every k, e.g. via sums of k monomials. The statement asserts f → ∞. Faithful."
+    }
+]

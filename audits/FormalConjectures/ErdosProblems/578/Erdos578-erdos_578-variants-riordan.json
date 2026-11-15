@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/578: Riordan proved the result for every fixed edge probability p > 1/4. The statement asserts it for any p ∈ [0,1] with p > 1/4. Faithful."
+    }
+]

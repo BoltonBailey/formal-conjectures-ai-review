@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A216265: a(n) is the number of primes between n³ - n and n³, with the conjecture a(n) > 0 for n > 13. The definition is π(n³) - π(n³ - n), counting primes in (n³ - n, n³]. Endpoint conventions do not matter for n > 2, since n³ is not prime and n³ - n = (n-1)n(n+1) is even and composite. The tests match the data, including a(1..5). The statement asserts 0 < a n for n > 13. Faithful."
+    }
+]

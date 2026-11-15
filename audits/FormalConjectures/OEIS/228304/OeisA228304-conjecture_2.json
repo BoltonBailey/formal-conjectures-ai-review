@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A228304 (Sun): with c(n) = Σ_k (−1)^k C(n,k)² C(2k,k) C(2(n−k),n−k), the Hankel determinant det(c(i+j))_{0≤i,j<p} ≡ 1 (mod p) for odd primes p.  and the statement match. The result is proved in arXiv:2608.11941. Faithful."
+    }
+]

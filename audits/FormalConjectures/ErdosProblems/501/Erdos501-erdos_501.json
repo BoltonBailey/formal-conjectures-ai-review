@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/501 (first question): if each A_x ⊂ ℝ is bounded with outer measure < 1, must there be an infinite X with x ∉ A_y for all distinct x, y ∈ X? The statement quantifies over A : ℝ → Set ℝ with bounded values and volume.toOuterMeasure (A x) < 1 (Lebesgue outer measure), and asks for an infinite X with X.Pairwise (x ∉ A y). That is the question exactly. The documentation is out of date: the page now records Lee's positive answer assuming a total extension of Lebesgue measure, and Glazer's proof that the first question is independent of ZFC. The docstring mentions only Erdős–Hajnal and Hechler, and the tag is still `research open`."
+    }
+]

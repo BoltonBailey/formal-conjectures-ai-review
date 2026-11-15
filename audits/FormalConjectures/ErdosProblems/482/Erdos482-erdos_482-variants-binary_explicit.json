@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the Rabinowitz–Gilbert theorem as stated in Stoll (2005), Theorem 1: for t = w/2^m ∈ [1,2), with a = 2(1 − 1/(t+2)) = 2(t+1)/(t+2) and b = 2/a = (t+2)/(t+1), u_{2n+1} − 2u_{2n−1} is the n-th binary digit of w. alpha and beta are exactly a and b. stollBinary k = u_{k+1}, with a used at even Lean indices, i.e. odd paper n. binaryDigit gives 1 at n = 1 and the expansion digits of t − 1 afterwards, and the second conjunct confirms these digits reconstruct t − 1. ℕ subtraction is safe since the difference is a digit. Faithful."
+    }
+]

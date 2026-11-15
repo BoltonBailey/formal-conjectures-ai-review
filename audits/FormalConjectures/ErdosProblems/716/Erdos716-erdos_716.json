@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/716 (the (6,3) problem, solved by Ruzsa–Szemerédi): is ex₃(n, 𝓕) = o(n²), where 𝓕 is the family of 3-graphs with 6 vertices and 3 edges? configurationExtremalNumber n 3 6 3 is the max number of edges of a 3-uniform hypergraph on Fin n containing no 3 edges within some 6 vertices, which is the standard (6,3) condition. The statement asserts o(n²). Faithful."
+    }
+]

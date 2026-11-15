@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/806: Erdős–Newman proved that there exist A with |A| ≍ n^{1/2} such that A ⊆ B + B forces |B| ≫ (log log n/log n)·n^{1/2}. The statement gives c > 0 and, for large n, A ⊆ [1,n] with c√n ≤ |A| ≤ √n such that every B ⊆ ℤ with A ⊆ B + B has |B| ≥ c·(log log n/log n)·√n. Faithful."
+    }
+]

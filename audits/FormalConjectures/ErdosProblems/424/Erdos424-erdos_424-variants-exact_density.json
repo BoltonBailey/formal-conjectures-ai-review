@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/424: starting from {2, 3} and repeatedly adding a_i a_j - 1 (i ≠ j), does the generated set have positive density? Positive lower density is proved (Korsky). This variant takes the literal reading: the natural density exists and is positive (HasPosDensity). Whether the density exists is not settled, so the open tag is appropriate. generatedSet correctly encodes the closure. Faithful."
+    }
+]

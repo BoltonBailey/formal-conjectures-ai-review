@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/685: for ε > 0 and n large in terms of ε, is ω(C(n,k)) = (1+o(1))·k·Σ_{k<p<n} 1/p for all n^ε < k ≤ n^{1−ε}? primeRecipSum k n sums 1/p over the primes strictly between k and n. The statement has the o(1) uniform in k (for every δ, eventually the relative error is ≤ δ), which is the natural reading. Faithful."
+    }
+]

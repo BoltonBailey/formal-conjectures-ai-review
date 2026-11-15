@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/91: for large n, are there at least two non-similar n-point sets minimising the number of distinct distances? The statement asserts that UniqueMinimizer n fails eventually. IsOptimal A n means |A| = n and A attains the minimal number of distinct distances. Similarity is a DilationEquiv of ℝ² (bijective, uniformly scaling distances, reflections included), which is the standard notion. Faithful."
+    }
+]

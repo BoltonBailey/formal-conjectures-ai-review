@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Stoll, J. Integer Seq. 8 (2005), Theorem 3 (TeX source from the JIS site), cited from erdosproblems.com/482. For w > 0 and g ≥ 2 there are a, b with ab = g and a parameter ε such that u_{2n+1} − g·u_{2n−1} is the n-th g-ary digit of w. generalRecurrence index k is Stoll's u_{k+1}: the a-step applied at even Lean index corresponds to odd paper n. So generalRecurrence(2n) − g·generalRecurrence(2n−2) is u_{2n+1} − g·u_{2n−1}. The right-hand side is ⌊t·g^{n−1}⌋ mod g for the normalised t = w/g^{⌊log_g w⌋}, i.e. the n-th digit with the leading digit as the first. Faithful (existential form of the theorem)."
+    }
+]

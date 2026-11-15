@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A247824: Sun conjectured a(n) < n(n-1) for n > 2. OEIS (Nguyen-Dang, Oct 30 2026) reports the counterexample a(1322164) = 2636932401176 > 1322164·1322163. The statement negates the universal claim and is correctly tagged solved. The junk value a n = 0 for nonexistent m cannot produce a spurious counterexample, since 0 < n(n-1). Faithful."
+    }
+]

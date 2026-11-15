@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/644 (EFKT92 proved f(k,3) = 2k). The statement f(k,r) ≤ 2k for r ≥ 3 is the elementary upper bound: two disjoint edges plus the 2-transversal condition on triples force e ∪ f to be a transversal. `subfamilyTransversalBound k r 2` is the least b such that every k-uniform family (possibly infinite, on any vertex type) whose ≤ r-element subfamilies have transversals of size ≤ 2 has a transversal of size ≤ b. That matches f(k,r). Proved in the file. Faithful."
+    }
+]

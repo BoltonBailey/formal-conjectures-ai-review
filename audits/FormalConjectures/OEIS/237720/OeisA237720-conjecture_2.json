@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A237720: 'a(n) = 1 only for n = 6, 23, 24, 111, 112, ..., 120'. The statement reads the ellipsis as the full range 111..120, and I confirmed by computation up to 20000 that a(n) = 1 exactly at 6, 23, 24, 111–120. It is stated as an iff over all n, correct since a(0) = 0. Faithful."
+    }
+]

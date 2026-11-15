@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/573: is ex(n; {C₃, C₄}) ~ (n/2)^{3/2}? cycleExtremalNumber L n is the maximum edge count of a graph on Fin n containing no cycleGraph k (as a subgraph) for k ∈ L. The statement asserts that, for L = {3,4}, it is asymptotically equivalent to (n/2)^{3/2}. Faithful."
+    }
+]

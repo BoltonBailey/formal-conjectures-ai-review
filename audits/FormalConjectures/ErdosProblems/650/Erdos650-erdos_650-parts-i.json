@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/650: f(m) is the largest r such that for every A ⊆ [1,N] with |A| = m, every interval of length 2N in [1,∞) contains r distinct b_i divisible by distinct a_i ∈ A. The page now records the exact answer f(m) = min(m, ⌈2√m⌉) (van Doorn–Li–Tang), and the statement asserts it. f is defined via open real intervals (x, x+2N), x ≥ 1, and arbitrary N ≥ max A. The linked proof uses N = max A and integer-rounded endpoints, but the worst case is the same, since a larger N only lengthens the interval. Faithful."
+    }
+]

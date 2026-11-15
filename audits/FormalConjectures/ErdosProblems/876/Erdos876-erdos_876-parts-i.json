@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/876: for an infinite sum-free A, is a_{n+1} - a_n < n possible? The statement asserts some infinite sum-free A with gap n < n for all large n. 'Eventually' is needed, since the condition fails at n = 1. IsSubsetSumFree A means every a ∈ A is positive and not a sum of distinct smaller elements of A, which is the page's definition. gap is indexed correctly via Nat.nth. Faithful."
+    }
+]

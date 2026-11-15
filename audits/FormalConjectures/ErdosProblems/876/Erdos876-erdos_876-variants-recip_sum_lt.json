@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/876 (via [Er62c]): Σ 1/a converges and is < 103. The page says '<100', but the docstring explains [Er62c] states 103 and the later [Er77c] states 100. The statement uses the weaker 103, which is safe. Faithful."
+    }
+]

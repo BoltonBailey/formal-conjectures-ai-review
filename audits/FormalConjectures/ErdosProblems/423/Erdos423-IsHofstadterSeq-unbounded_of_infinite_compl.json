@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma, proved: if infinitely many integers are missed then a_n - n is unbounded. Correct, as the converse of the previous lemma."
+    }
+]

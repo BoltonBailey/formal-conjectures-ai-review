@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/577: a graph on 4k vertices with minimum degree ≥ 2k contains k vertex-disjoint 4-cycles (Erdős–Faudree, proved by Wang). The statement takes G on Fin (4k) with 2k ≤ minDegree and gives k copies of cycleGraph 4 (non-induced subgraph embeddings) with pairwise disjoint vertex images. The k = 0 case is trivially true. Faithful."
+    }
+]

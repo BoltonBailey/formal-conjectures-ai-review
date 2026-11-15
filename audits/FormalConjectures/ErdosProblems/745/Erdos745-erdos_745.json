@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/745: describe the size of the second-largest component of G(n, 1/n). The page says Erdős believed it is ≪ log n almost surely and credits KSS80. That log n behaviour belongs to p = λ/n with λ ≠ 1; at the critical p = 1/n the second-largest component has order n^{2/3} in probability (Aldous). The file states that correct critical-window description (for each ε there are 0 < c < C with c·n^{2/3} ≤ L₂ ≤ C·n^{2/3} with probability ≥ 1 − ε for large n), and records the log n regime separately. The random graph is binomialRandom with edge probability 1/n, and secondLargestComponentOrder is the second entry of the sorted component sizes (0 if there is no second component). A Lean proof is linked. Faithful to the mathematics of the question; the page's 'answer' is imprecise about the regime."
+    }
+]

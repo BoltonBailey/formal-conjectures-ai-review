@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/420: with F(f,n) = τ((n+⌊f(n)⌋)!)/τ(n!), is lim F((log n)^C, n) = ∞ for large C? The statement asserts that for all sufficiently large real C, F((log m)^C, ·) → ∞; by monotonicity in C this is equivalent to asking for one such C, as documented. Faithful."
+    }
+]

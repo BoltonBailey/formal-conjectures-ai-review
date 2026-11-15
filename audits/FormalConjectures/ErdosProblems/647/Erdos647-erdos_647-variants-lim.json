@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/647, where Erdős suggests lim_{n→∞} max_{m<n}(τ(m) + m − n) = ∞. The statement says n ↦ ⨆_{m<n} (σ 0 m + m − n) tends to atTop in ℕ. Truncated subtraction only clips negative values to 0, which does not affect divergence to +∞. Faithful."
+    }
+]

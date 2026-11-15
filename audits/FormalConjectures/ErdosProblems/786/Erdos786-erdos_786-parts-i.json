@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/786: for ε > 0, is there A ⊆ ℕ of density > 1 - ε such that a_1⋯a_r = b_1⋯b_s (a_i, b_j ∈ A) forces r = s? The page explains that with repetition allowed the answer is no (density ≤ 1/2), while the distinct-elements version, which is Erdős's [Er80] formulation, is still open. IsMulCardSet uses Finsets, so it is the distinct version, correctly tagged open, and the docstring/TODO notes the ambiguity. 0 ∉ A is required, and 1 is excluded automatically since {1} and ∅ have equal products. Faithful."
+    }
+]

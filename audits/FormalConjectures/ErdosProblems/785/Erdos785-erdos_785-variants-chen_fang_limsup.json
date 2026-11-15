@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/785: Chen–Fang showed that A(x)B(x) − x → ∞ for infinite additive complements A, B with limsup A(x)B(x)/x < 3 − √3 (improving 5/4). The statement assumes IsAdditiveComplement and the EReal limsup bound (no exactness assumption, as on the page) and concludes divergence. Faithful."
+    }
+]

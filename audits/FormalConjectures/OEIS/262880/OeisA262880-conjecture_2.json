@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A262880 comment (ii): for (b,c) ∈ {(3,4),(3,6),(4,8)}, {w(w+1)/2 + 2x³ + b·y³ + c·z³ : w,x,y,z ≥ 0} = ℕ. The statement says that every n : ℕ has such a representation with w, x, y, z ∈ ℕ. That is the same claim, since the other inclusion is trivial. Faithful."
+    }
+]

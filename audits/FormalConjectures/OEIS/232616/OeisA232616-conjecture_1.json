@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A232616: a(n) is the least m such that {2^k - k : 1 ≤ k ≤ m} covers all residues mod n. Sun's conjecture (i), a(n) < 2(prime(n) - 1), is reported disproved at n = 550172 (Adamczewski, OEIS Open arXiv:2608.11941; noted in OEIS). The definition takes sInf of m whose image in ZMod n is everything; a(n) exists by Sun's n² bound, and the tests match 1, 2, 4, 5, 10. The statement negates the universal claim, with prime(n) as nth Prime (n-1). Faithful."
+    }
+]

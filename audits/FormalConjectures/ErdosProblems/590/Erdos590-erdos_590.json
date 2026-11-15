@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/590: is it true that every red/blue colouring of K_{ω^ω} has a red K_{ω^ω} or a blue K₃? Yes (Chang). OrdinalCardinalRamsey α β c says every 2-colouring of the complete graph on α has a red clique of order type β or a blue clique of cardinality c. The statement is OrdinalCardinalRamsey (ω^ω) (ω^ω) 3. Faithful."
+    }
+]

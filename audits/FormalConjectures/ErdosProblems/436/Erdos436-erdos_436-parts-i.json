@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/436: is Λ(k,2) finite for all k? Yes (Hildebrand). r(k,m,p) is the least r ≥ 1 with r..r+m-1 all k-th power residues mod p (nonzero and a k-th power), ⊤ if none; Λ(k,m) is the ℕ∞ limsup over primes p → ∞. The statement asserts Λ(k,2) < ⊤ for k ≥ 2. Faithful."
+    }
+]

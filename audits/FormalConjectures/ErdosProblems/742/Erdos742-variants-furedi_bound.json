@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "IsDiameter2Critical requires diam = 2 and that deleting any edge makes diam ≠ 2. Since deleting edges cannot shrink distances, this means the diameter increases or the graph disconnects (Mathlib diam = 0). That matches erdosproblems.com/742. Füredi proved the conjecture for all sufficiently large n. The statement gives n₀ such that every diameter-2-critical graph on n ≥ n₀ vertices has ≤ ⌊n²/4⌋ edges, with a linked Lean proof. Faithful."
+    }
+]

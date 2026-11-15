@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/732: is there c > 0 with ≥ exp(c n^{1/2} log n) block-compatible sequences for large n? Alon proved ≥ 2^{(1/2+o(1)) n^{1/2} log n}, which gives a positive c. The statement asserts ∃ c > 0 with exp(c√n log n) ≤ |blockSizeProfiles n| eventually, correctly tagged solved. Faithful."
+    }
+]

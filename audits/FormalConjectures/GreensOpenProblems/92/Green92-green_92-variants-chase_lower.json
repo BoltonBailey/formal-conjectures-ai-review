@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green Problem 92 (m ≥ n^{3/2}(log n)^{-16}) and Chase arXiv:1905.03031, whose published bound is Ω(n^{3/2}/log⁷ n) via the strings (01)^k1(01)^{k+1} and (01)^{k+1}1(01)^k with n = 4k + 3. The statement asserts numTraces n ≥ c n^{3/2}/log⁷ n for large n ≡ 3 mod 4. Any universal decoder distinguishes these two strings, so the bound applies. Faithful."
+    }
+]

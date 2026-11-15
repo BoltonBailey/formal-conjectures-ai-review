@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A219055: representations n = p + q(3−(−1)^n)/2 with p > q and p, q, p−6, q+6 prime. The coefficient (3−(−1)^n)/2 is 1 + n % 2, and p > q is encoded as (c+1)q < n with p = n − cq. The tests match the data (a(16) = 1, a(18) = 2). Sun's general conjecture: for any multiples d₁, d₂ of 6, all large n are p + q(3−(−1)^n)/2 with p > q and p, q, p − d₁, q + d₂ prime. The statement allows integer d_i (including negative ones, as in the OEIS examples) and requires the shifted values to be naturals that are prime. Faithful."
+    }
+]

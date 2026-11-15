@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/611: if all maximal cliques of an n-vertex G have ≥ cn vertices, is τ(G) = o_c(n)? The statement says: ∀ c > 0, ∀ ε > 0, for all large n, every G on Fin n whose maximal cliques all have ≥ cn vertices has τ(G) ≤ εn, uniformly over such G. cliqueTransversalNumber ignores 1-vertex maximal cliques, which is irrelevant here since cn ≥ 2 for large n. Faithful."
+    }
+]

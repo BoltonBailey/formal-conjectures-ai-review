@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/794: Harris's 28-edge hypergraph on 9 vertices (the 27 transversal triples of {1,2,3}, {4,5,6}, {7,8,9} plus {1,2,3}) contains neither configuration. harrisHypergraph encodes this, 0-indexed, and the statement asserts uniformity, 28 edges and both non-containments. It is verified by decide. Faithful."
+    }
+]

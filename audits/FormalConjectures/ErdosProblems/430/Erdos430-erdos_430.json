@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/430: with a_1 = n - 1 and a_k the greatest integer below a_{k-1} all of whose prime factors exceed n - a_k, is it true that for large n not all terms are prime? The defining property depends only on a_k, so the sequence lists terms n = {1 < m < n : all prime factors of m exceed n - m} in decreasing order. Excluding 1 matches the page's example (n = 8 gives 7, 5, then stops). The statement asserts that eventually some term is composite. Faithful."
+    }
+]

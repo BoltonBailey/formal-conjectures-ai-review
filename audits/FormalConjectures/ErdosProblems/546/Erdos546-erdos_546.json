@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/546: for G with no isolated vertices and m edges, is R(G) ≤ 2^{O(m^{1/2})}? Yes (Sudakov). The statement asserts a uniform C > 0 with diagonalGraphRamsey G ≤ 2^{C√m} for all finite G with minimum degree > 0. For the empty graph m = 0 the bound is 1, and the empty-vertex Ramsey number is 0, so the edge case is harmless. Faithful."
+    }
+]

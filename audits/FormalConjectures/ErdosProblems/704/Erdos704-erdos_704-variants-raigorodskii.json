@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/704: Raigorodskii proved χ(G_n) ≥ (1.239… + o(1))ⁿ. The statement asserts, for every c < 1.239, χ ≥ cⁿ eventually, a correct weakening with the truncated constant. Faithful."
+    }
+]

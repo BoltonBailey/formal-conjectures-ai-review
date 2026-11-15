@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/753: Alon proved that for every n some G on n vertices has χ_L(G) + χ_L(Gᶜ) ≪ (n log n)^{1/2}, with an absolute constant. The statement asserts C > 0 and such G for every n ≥ 2; n ≥ 2 avoids log 1 = 0. Faithful."
+    }
+]

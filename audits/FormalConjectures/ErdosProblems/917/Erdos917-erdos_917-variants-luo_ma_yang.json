@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/917 and LMY23 Theorem 1.1, which I checked in the PDF: for k ≥ 4 and large n, f_k(n) ≤ e(T_{k-2}(n)) - c_k n² with c_k ≥ 1/(36(k-1)²). The statement uses ex(n;K_{k-1}) = e(T_{k-2}(n)) minus n²/(36(k-1)²), matching Theorem 1.1. That is stronger than the page's form, which has an extra factor ½ on the correction term. Faithful."
+    }
+]

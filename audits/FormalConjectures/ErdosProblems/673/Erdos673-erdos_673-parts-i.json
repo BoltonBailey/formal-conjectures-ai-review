@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/673: with G(n) = Σ_{i<τ(n)} d_i/d_{i+1}, is G(n) → ∞ for almost all n? Yes; Tao's bounds make it trivial, and Erdős recalled this in [Er82e]. G is defined via Nat.nth (· ∣ n), which lists divisors from d_1 = 1 for n > 0. The statement asserts that {n : C < G n} has density 1 for every C, the standard 'almost all' reading. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against WOWII 438b (Wayback all.html and wowIIdefs.js): for connected G on n > 3 vertices, α₂(G) ≤ α(G) + α(G[V−H₂]) + |E(G[H₂])|, with H₂ the vertices of degree ≤ 2. Def 118 makes α₂ the largest vertex set inducing maximum degree ≤ 1, which is alphaTwo via IsTwoIndependent. α(G[V−H₂]) equals indepNumOn G (univ \\ lowDegreeLayer G), since independence in an induced subgraph is independence in G. |E(G[H₂])| is internalEdges, the edges with both ends in H₂. The hypotheses (connected, card > 3) match. Faithful. (The @[question] tag is odd for a WOWII conjecture but harmless.)"
+    }
+]

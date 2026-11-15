@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the abstract of Luo–Yang–Zhu arXiv:2607.22017: for every fixed λ > 0 and all sufficiently large n, any z_1..z_n with |z_j| ≥ 1 satisfy max_{2≤k≤n+1} |Σ z_j^k| > e^{-λn}. The statement matches exactly. Faithful."
+    }
+]

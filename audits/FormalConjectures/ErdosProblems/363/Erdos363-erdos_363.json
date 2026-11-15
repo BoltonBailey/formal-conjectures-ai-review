@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/363: are there only finitely many collections of disjoint intervals I_1,…,I_n with |I_i| ≥ 4 whose total product is a square? Answered no (Ulas: infinitely many for n = 4 and |I_i| = 4). The formalization fixes n and the sizes via the list ks, and asserts ¬∀ ks, finitely many valid collections. Valid means intervals of positive integers, size ≥ 4, pairwise disjoint, with square product. Fixing the sizes is the natural reading, and it only makes the negation stronger, so the page's unrestricted version is also refuted. Ordering the collections as lists does not affect finiteness. Faithful."
+    }
+]

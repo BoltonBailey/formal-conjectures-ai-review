@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/516: Kövari showed that limsup log m(r)/log M(r) = 1 for an arbitrary entire function with n_k > k(log k)^{2+c} for some c > 0. The statement adds StrictMono n, with a documented justification (cancellation otherwise), nonzero coefficients, and the series converging everywhere; there is no finite-order assumption, matching 'arbitrary entire'. ratio uses Real.log of inf/sup over the circle; the junk value log 0 = 0 does not affect a statement asserting limsup = 1. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A233566: a(n) = #{primes p < n : pφ(n-p) - 1 prime}, conjectured > 0 for n > 3. The definition matches. Natural subtraction pφ - 1 is harmless, since the truncated value 0 is not prime. The tests match the data. Faithful."
+    }
+]

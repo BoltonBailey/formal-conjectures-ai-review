@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/977: Schinzel [Sc62] proved P(2^n−1) > 2n for n > 12. The statement is ∀ n > 12, 2n < maxPrimeFac(2^n−1). The bound n > 12 is sharp, since n = 12 gives 4095 = 3²·5·7·13 and 13 < 24. Faithful."
+    }
+]

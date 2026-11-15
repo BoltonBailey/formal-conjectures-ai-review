@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/977: is P(2^n−1)/n → ∞, with P the greatest prime factor? Proved by Stewart [St13]. The statement is Tendsto (maxPrimeFac(2^n−1) : ℝ)/n atTop atTop, and maxPrimeFac is the greatest prime factor for n ≥ 2 (the small-n conventions are irrelevant to the limit). Faithful."
+    }
+]

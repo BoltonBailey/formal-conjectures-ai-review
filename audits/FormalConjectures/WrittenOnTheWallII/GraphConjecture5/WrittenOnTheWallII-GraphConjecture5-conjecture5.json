@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against WOWII 5 (Wayback all.html, status T, DeLaVina–Fajtlowicz 1996; defs 1, 9): for simple connected G, Ls(G) ≥ max{|S(v, rad(G))| : v a center of G}. Ls is the maximum number of leaves of a spanning tree, and S(v,k) is the set of vertices at distance exactly k from v. The statement takes centres (eccent = radius), counts vertices at distance radius from each, and bounds the sSup over centres by Ls G. The Nontrivial hypothesis only excludes K₁, where Ls = 0 but |S(v,0)| = 1, a degenerate failure of the literal statement. Faithful."
+    }
+]

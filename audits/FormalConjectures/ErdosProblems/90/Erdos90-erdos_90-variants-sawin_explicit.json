@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/90 and the docstring's account of Sawin's Theorem 1 (u(n) ≥ n^{1.014114}/C for infinitely many n). The formal statement drops the constant C: it asserts n^{1.014114} ≤ u(n) infinitely often. The docstring says the constant is absorbed into a slightly smaller exponent, but the statement keeps exactly 1.014114. This is correct only if Sawin's exponent strictly exceeds 1.014114 (e.g. the printed value is a rounding down). Otherwise the statement is marginally stronger than the cited theorem. The fix is to use a slightly smaller exponent, such as 1.014. Minor."
+    }
+]

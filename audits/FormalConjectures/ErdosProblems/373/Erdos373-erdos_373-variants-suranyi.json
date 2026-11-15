@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/373: Surányi conjectured that the only non-trivial solution of a!b! = n! is 6!7! = 10!. The statement says the set of (n, a, b) with n! = a!b!, n, a, b > 1, b ≤ a and a + 1 ≠ n is exactly {(10, 7, 6)}. Excluding a = n − 1 removes the trivial b! = n family, and a = n would force b ≤ 1. Faithful."
+    }
+]

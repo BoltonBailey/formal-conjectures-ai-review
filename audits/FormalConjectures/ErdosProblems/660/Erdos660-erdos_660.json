@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/660: do the n vertices of a convex polyhedron in ℝ³ determine at least (1−o(1))n/2 distinct distances? IsPolyhedronVertices requires convex independence and full affine span, i.e. vertex sets of 3-dimensional convex polytopes. The statement says: for every ε > 0, for all large n, every such n-set has distinctDistances ≥ (1−ε)n/2, which is the standard unpacking of (1−o(1)). Faithful."
+    }
+]

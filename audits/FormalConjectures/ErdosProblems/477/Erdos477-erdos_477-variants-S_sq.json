@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/477 and the cited Sekanina reference: no such A exists for f = X². The page's argument covers every quadratic. The statement asserts that for every A some z lacks a unique representation. Faithful."
+    }
+]

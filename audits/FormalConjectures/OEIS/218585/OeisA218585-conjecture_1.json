@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A218585: a(n) = #{n = x + y, 0 < x ≤ y, x² + xy + y² prime}; conjecture a(n) > 0 for all n > 1 except n = 8.  sums over x ∈ [1, n/2] with y = n − x, the tests match the data (including a(8) = 0), and the statement excludes exactly n = 8. Faithful."
+    }
+]

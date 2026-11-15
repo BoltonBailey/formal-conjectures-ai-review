@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/816: K_{n,n+1} shows that n²+n edges are not enough. It has n(n+1) edges, and a path of length 3 joins vertices on opposite sides, whose degrees n+1 and n differ. The statement asserts both facts for all n. Faithful."
+    }
+]

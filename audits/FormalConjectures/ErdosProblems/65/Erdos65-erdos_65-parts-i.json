@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/65: for G with n vertices and kn edges and cycle lengths a_i, is Σ 1/a_i ≫ log k? Proved by Gyárfás–Komlós–Szemerédi. The statement asserts c > 0 such that, for all sufficiently large real k, every finite G with n > 0 vertices and exactly kn edges has Σ_{a∈cycleLengths} 1/a ≥ c log k. Restricting to large k matches GKS84 Thm 4' (k ≥ b); small k ≈ 1 is degenerate, since log k is near 0 or negative. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: a₀ lies in hilbertCube a₀ b (take ε = ∅). This matches the definition of the Hilbert cube a₀ + {Σ ε_i b_i} on erdosproblems.com/782 and is proved in the file. Faithful."
+    }
+]

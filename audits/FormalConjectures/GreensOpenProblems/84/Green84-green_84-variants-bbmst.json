@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green Problem 84 and [BBMST20, Thm 1.1]: there are Δ > δ > 0 such that for all n ≥ 2 some ±1 polynomial of degree n has δ√n ≤ |P(z)| ≤ Δ√n on the unit circle. The statement matches. Faithful."
+    }
+]

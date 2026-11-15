@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/878: is it true that for almost all n, f(n) = o(n log log n) and F(n) ≫ n log log n? f(n) = Σ_{p|n} p^{⌊log_p n⌋}; F(n) is the max of Σ a_i over pairwise coprime a_i ∈ [2,n] whose prime factors divide n. Excluding a_i = 1 is the sensible reading, since otherwise F ≥ f + 1 always and the question 'f = F' would be vacuous. 'Almost all' is encoded as a density-1 set A with the asymptotics along A. The solved tag is backed by a linked Lean proof (Kitamura). Faithful."
+    }
+]

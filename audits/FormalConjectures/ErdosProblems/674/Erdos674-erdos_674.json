@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/674: are there integer solutions to x^x y^y = z^z with x, y, z > 1? Yes, e.g. x = 2¹²3⁶, y = 2⁸3⁸, z = 2¹¹3⁷ (Ko). The statement asks for solutionSet (naturals > 1 satisfying the equation) to be nonempty, which is the positive answer. Faithful."
+    }
+]

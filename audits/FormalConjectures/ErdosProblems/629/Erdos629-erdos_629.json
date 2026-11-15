@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/629: determine the minimal number of vertices n(k) of a bipartite graph G with χ_L(G) > k.  is sInf over m admitting a Colorable 2 graph on Fin m with listChromaticNumber > k, where listChromaticNumber is the least k-choosable k. The value question n = answer is the exact determination asked for. Faithful."
+    }
+]

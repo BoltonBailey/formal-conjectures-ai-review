@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/440: Erdős–Szemerédi proved A(x) ≤ (c+o(1))x^{1/2} with c = Σ_{n≥1} 1/(n^{1/2}(n+1)) ≈ 1.86, and that c is best possible. The statement asserts that c is the greatest limsup, which also requires the bound to be attained by some sequence. That is a natural reading of 'best possible' and is supported by the linked Lean proof. The constant is encoded correctly with the index shift. Faithful."
+    }
+]

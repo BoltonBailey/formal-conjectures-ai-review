@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/588: the constructions of Burr–Grünbaum–Sloane and Füredi–Palásti give f_3(n) ≥ (1/6 + o(1))n². The statement is ∀ ε > 0, eventually (1/6 − ε)n² ≤ f_3(n). Faithful."
+    }
+]

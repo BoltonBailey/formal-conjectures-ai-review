@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's Problem 93 comments: 'Unconditionally, the best bound known is p_n ≫ 1/log n, due to Konyagin.' The statement is ∃ c > 0 with c/log n ≤ p_n for all large n. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Johnson's bound: α(J(n,k)) ≤ A(n,4,k). Independent sets in J(n,k) are constant-weight codes with distance ≥ 4. The recursion A(n,d,w) ≤ ⌊n/w·A(n-1,d,w-1)⌋, with A = 1 when 2w < d, is the standard Johnson bound, and a proof is linked. Correct and faithful."
+    }
+]

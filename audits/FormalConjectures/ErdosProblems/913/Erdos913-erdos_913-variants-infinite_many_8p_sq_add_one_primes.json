@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/913: 'It is likely that there are infinitely many primes p such that 8p² - 1 is also prime.' The statement asserts this; the declaration name says 'add_one' but the formula correctly uses -1, which is only a naming glitch. Faithful."
+    }
+]

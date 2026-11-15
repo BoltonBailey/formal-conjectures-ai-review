@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: a set of lines each spanned by two points of S has at most |S|² elements. Correct and proved. It justifies bounding the sSup in the definitions of F_k and f_k."
+    }
+]

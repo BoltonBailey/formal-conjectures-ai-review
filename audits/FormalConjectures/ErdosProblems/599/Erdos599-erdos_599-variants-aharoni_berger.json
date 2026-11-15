@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/599 and [AhBe09]: the Aharoni–Berger theorem (Erdős–Menger conjecture) holds for arbitrary vertex sets A, B in any graph. There is a family of pairwise vertex-disjoint A–B paths and a separator S consisting of exactly one vertex on each path. The statement encodes this: paths p i from A to B, disjoint supports, S ⊆ ⋃ supports, each path meets S exactly once, and every A–B path meets S. Overlapping A and B are handled by trivial paths. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A229969 (i), first part: any n > 6 is x + y + z (all > 0) with 2x-1, 2y-1, 2z-1, 2xyz-1 prime and x ∈ {2, 3, 4}. The statement matches. Faithful."
+    }
+]

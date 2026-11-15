@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/692 and Cambie arXiv:2501.10333: for fixed n, the sequence δ₁(n,m) in m has superpolynomially many local extrema. The statement reads 'superpolynomially many' as: for each k, the number of local maxima (maximal plateaus strictly above both neighbours, with m > n+1) is ≥ n^k for all large n. That is a reasonable formalisation of 'superpolynomial in n'. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: irreducibleProb M n is a quotient of two natural-number counts, hence ≥ 0. Correct, proved in the file, and consistent with its role as the probability p_n of Green's Problem 93."
+    }
+]

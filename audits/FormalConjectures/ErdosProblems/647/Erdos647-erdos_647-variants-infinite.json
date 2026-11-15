@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/647 ([Er79d]): for every k there are infinitely many n with max_{n−k<m<n}(m + τ(m)) ≤ n + 2. The statement takes the supremum over m ∈ Ioo (n−k) n in ℕ. Truncated n − k matters only for the finitely many n < k. For k ≤ 1 the range is empty and the condition holds vacuously, as in the informal statement. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/723: Bruck–Ryser proved that a plane of order n ≡ 1 or 2 (mod 4) forces n to be a sum of two squares. Uses Mathlib's Configuration.ProjectivePlane (non-degenerate, finite here) and its order, which matches the page's notion of a finite projective plane of order n. The statement matches. Faithful."
+    }
+]

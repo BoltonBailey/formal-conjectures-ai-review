@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A228624: a(n) is the determinant of the n×n matrix with (i,j)-entry 1 iff i + j is a square (1-indexed), conjectured nonzero for n > 21. The 0-indexed i + j + 2 with a Nat.sqrt square test is equivalent, and the tests match the data 0, 0, -1, 0, 1. Faithful."
+    }
+]

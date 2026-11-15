@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/425: with F(n) the maximum size of A ⊆ [1,n] whose products ab (a < b) are distinct, is F(n) = π(n) + (c + o(1))n^{3/4}(log n)^{−3/2} for some constant c? pairProductExtremal is that maximum (via Nat.findGreatest up to n, with PairProductDistinct). The statement asks for c > 0 with (F(n) − π(n))/(n^{3/4}(log n)^{−3/2}) → c. Requiring c > 0 is harmless given Erdős's bounds c₁ ≤ ⋯ ≤ c₂ with c₁ > 0. Faithful."
+    }
+]

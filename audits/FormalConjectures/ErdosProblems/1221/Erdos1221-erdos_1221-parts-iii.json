@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1221: is r(μ_r − 1) → ∞, with μ_r = inf_a limsup_n M_r/m_r? No normalisation is needed here, since μ_r ≥ 1 + 1/r. The statement says: for every K, eventually μ_r > 1 + K/r, which is exactly r(μ_r − 1) → ∞ (μ_r in ℝ≥0∞). Faithful."
+    }
+]

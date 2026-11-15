@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API-style lemma, proved from Sylvester–Schur: for k > 0 some n works, so f(k) (a Nat.find) is well-defined. Erdos961Prop k n correctly says every n consecutive integers ≥ k+1 contain one with a prime factor > k (not (k+1)-smooth in Mathlib's convention). Correct and consistent with erdosproblems.com/961."
+    }
+]

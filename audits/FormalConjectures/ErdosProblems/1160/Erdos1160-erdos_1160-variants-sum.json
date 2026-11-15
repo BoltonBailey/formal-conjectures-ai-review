@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1160: BNV07 Question 22.18 suggests Σ_{n<2^m} g(n) ≤ g(2^m) for all sufficiently large m. The statement sums g over 1 ≤ n < 2^m (g(0) = 0 anyway) and asserts the inequality eventually in m. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/628: Balogh–Kostochka–Prince–Stiebitz proved the full conjecture for quasi-line graphs. IsQuasiLineGraph says every neighbourhood is a union of two cliques, which is the standard definition. The rest of the statement is the main conjecture with that hypothesis added. Faithful."
+    }
+]

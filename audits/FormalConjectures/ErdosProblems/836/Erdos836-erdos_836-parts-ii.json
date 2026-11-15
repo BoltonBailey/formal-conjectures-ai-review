@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/836: must there be two edges meeting in ≫ r vertices? The page records Erdős–Lovász's r/log r bound. The statement asserts a uniform c > 0 with some distinct e, f such that |e ∩ f| ≥ c·r. The solved tag rests on the cited Price (2026) linear bound with a linked Lean proof, which the page does not yet mention. The formalisation is faithful."
+    }
+]

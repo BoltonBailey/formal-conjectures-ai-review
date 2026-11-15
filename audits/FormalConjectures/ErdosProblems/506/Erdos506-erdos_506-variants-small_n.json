@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/506: the minimum number of circles determined by n points, not all on a line or circle, is known (Elliott, corrected by Purdy–Smith) only for n > 393, and 'the problem appears to remain open for small n'. The statement is the IsLeast value question restricted to 4 ≤ n ≤ 393, with the same non-degeneracy (¬Collinear, ¬Cospherical). numCircles counts the spheres in ℝ² containing ≥ 3 of the points, which is the number of distinct circles determined. Faithful."
+    }
+]

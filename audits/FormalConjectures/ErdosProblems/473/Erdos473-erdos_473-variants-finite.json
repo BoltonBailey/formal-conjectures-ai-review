@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/473: Segal's finite version, a permutation of {1,…,n} for every n ≥ 2 with consecutive sums prime. The statement uses a : Fin n ≃ Fin n, shifting values by +1 to get {1,…,n}, and requires (a k + 1) + (a (k+1) + 1) prime for all k with k+1 < n. Faithful."
+    }
+]

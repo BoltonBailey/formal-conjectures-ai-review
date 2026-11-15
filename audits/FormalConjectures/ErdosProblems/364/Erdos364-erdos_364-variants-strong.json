@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/364: Erdős believed n_{k+2} − n_k > n_k^c for some c > 0, with n_k the k-th powerful number. The statement uses Nat.nth Powerful, which is 0-indexed and includes 0 (vacuously powerful). That shifts the indexing but only adds finitely many initial cases, which hold for small c (consecutive gaps n_{k+2} − n_k ≥ 2 > n_k^c once c is small, and 0^c = 0). The comparison is elaborated in ℝ, and the sequence is increasing so there is no truncation. Faithful."
+    }
+]

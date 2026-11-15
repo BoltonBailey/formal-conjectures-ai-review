@@ -5,5 +5,12 @@
         "effort": null,
         "severity": 1,
         "explanation": "Compared against erdosproblems.com/459: using the equivalent definition 'v is the smallest number > u such that all prime factors of v are factors of u', 'Cambie has noted that when u = p is a prime, f(p) = p²'. In Lean f u = sInf {v | u < v ∧ primeFactors v ⊆ primeFactors u}, and the statement is f p = p² for prime p. This is correct: the candidates are v > p whose only prime factor is p (v = 1 is excluded by v > p), the least being p². The docstring says the bound is attained 'exactly when' u is prime while the theorem only states the 'if' direction, but this does not affect the correctness of the statement. Faithful."
+    },
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/459: Cambie noted f(p) = p² for prime p. The statement matches. (The docstring's 'exactly when u is prime' is not claimed by the formal statement.) Faithful."
     }
 ]

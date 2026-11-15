@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/504, which records Szekeres' [Sz41] bound α_{2^n} ≤ π(1−1/n). The statement gives, for each t > 0 and ε > 0, a 2^t-point set all of whose angles (p ≠ q, r ≠ q, at q) are below (1−1/t)π + ε, which is exactly the upper bound on the supremum (degenerate p = r gives angle 0). A Lean proof is linked. Faithful."
+    }
+]

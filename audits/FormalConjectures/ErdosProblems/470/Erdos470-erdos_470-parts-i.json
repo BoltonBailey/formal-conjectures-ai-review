@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/470: n is weird if σ(n) ≥ 2n and n is not pseudoperfect; are there odd weird numbers? Open. Mathlib's Nat.Weird uses strict abundance, but perfect numbers are pseudoperfect, so ≥ and > agree here. The statement asserts ∃ n odd and weird. Faithful."
+    }
+]

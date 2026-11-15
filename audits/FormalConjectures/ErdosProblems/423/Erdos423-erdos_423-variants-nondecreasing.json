@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/423: 'the sequence a_n - n is nondecreasing' (Bolan, Tang). The statement asserts a n - n ≤ a m - m for 1 ≤ n ≤ m and proves it directly; natural-number subtraction is fine because n ≤ a n. Faithful."
+    }
+]

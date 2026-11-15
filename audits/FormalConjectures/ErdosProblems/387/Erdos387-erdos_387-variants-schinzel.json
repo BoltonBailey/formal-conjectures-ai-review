@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/387: Schinzel conjectured that for all sufficiently large k that are not prime powers there is n with C(n,k) divisible by no integer in (n−k, n]. The statement is: eventually in k, ¬IsPrimePow k → ∃ n with (n−i) ∤ C(n,k) for all i < k. A witness with n < k is impossible, since C(n,k) = 0 is divisible by everything, so the existential effectively has n ≥ k. Faithful."
+    }
+]

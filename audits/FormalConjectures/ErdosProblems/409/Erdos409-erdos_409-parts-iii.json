@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Compared against erdosproblems.com/409: 'What is the density of n which reach any fixed prime?' The natural answer is a function of p. The formal answer erdos_409.parts.iii.answer : ℝ is a single constant, asserted to be the density of the basin of every prime p. The basin of 2 is finite ({0, 1, 2}, since φ(n)+1 = 2 forces n ∈ {1, 2}), so its density is 0 and the constant must be 0. The statement thus amounts to the specific claim that every prime's basin has density 0, rather than asking for the densities. The answer should depend on p."
+    }
+]

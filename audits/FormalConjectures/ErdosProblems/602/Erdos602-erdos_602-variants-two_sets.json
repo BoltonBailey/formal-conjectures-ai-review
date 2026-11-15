@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "An easy special case of erdosproblems.com/602: two infinite sets whose intersection is finite and of size ≠ 1 have Property B. It is proved in Lean, using disjoint versus at least 2 common points. The statement is correct; the 'research solved' tag overstates its difficulty."
+    }
+]

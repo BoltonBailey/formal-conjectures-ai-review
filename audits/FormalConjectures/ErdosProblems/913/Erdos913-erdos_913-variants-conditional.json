@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/913: if infinitely many primes p have 8p² - 1 prime, then n = 8p² - 1 gives n(n+1) = (8p² - 1)·2³·p² with exponents {1, 3, 2}, all distinct. The statement is this implication, proved in Lean, with p = 2 excluded so the primes are distinct. Faithful."
+    }
+]

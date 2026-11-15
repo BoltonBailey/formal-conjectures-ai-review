@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: the same fact restated for any nonzero square n. It follows from IsCuttable.sq and is consistent with erdosproblems.com/633. Faithful."
+    }
+]

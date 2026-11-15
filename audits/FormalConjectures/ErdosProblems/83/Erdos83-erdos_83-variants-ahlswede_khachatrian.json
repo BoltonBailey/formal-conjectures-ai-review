@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/83: Ahlswede–Khachatrian's complete intersection theorem says the maximum t-intersecting family of k-subsets of [m] is one of the families of k-sets with ≥ t+r elements from [t+2r]. The statement takes the weaker but correct form: for 2 ≤ t ≤ k ≤ m, every t-intersecting F is no larger than some such family, ∃ r. This omits the precise r condition, but that is harmless as a consequence of the theorem. Faithful."
+    }
+]

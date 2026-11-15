@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/399: the only solution of n! = x² + y² (with xy > 1) is 6! = 12² + 24². The statement asserts n = 6 and {x, y} = {12, 24}. I checked that 720 has no other representation with positive x, y. Faithful."
+    }
+]

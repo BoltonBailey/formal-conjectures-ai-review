@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A261876, conjecture (i) second half: a(n) = 1 only for n = 4^k·m with m ∈ {1, 7, 23, 647, 863}. OEIS notes Adamczewski's disproof abstract (the OEIS Open paper, arXiv:2608.11941). I verified by computation that a(69383) = 1, with unique representation (187, 147, 6, 113). 69383 is odd and not in the set, so it is not of that form, and the negated biconditional holds. The statement is correctly tagged solved. Faithful."
+    }
+]

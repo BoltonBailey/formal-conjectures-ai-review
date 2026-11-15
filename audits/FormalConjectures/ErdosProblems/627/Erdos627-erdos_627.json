@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/627: with f(n) the maximum of χ(G)/ω(G) over n-vertex graphs, does lim f(n)/(n/(log₂ n)²) exist? maxChromaticCliqueRatio n is the (attained) supremum of χ/ω over graphs on Fin n. The statement asks for a finite limit L, which is right since f(n) ≍ n/(log₂ n)². Faithful."
+    }
+]

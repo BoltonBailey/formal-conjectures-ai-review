@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/961: Jutila and Ramachandra–Shorey proved f(k) ≪ (log log log k/log log k)·(k/log k). The statement matches as a big-O. Faithful."
+    }
+]

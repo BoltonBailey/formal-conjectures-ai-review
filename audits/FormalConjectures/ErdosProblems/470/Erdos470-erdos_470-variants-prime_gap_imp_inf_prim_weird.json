@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/470: Melfi proved that if p_{n+1} - p_n < p_n^{1/2}/10 for all large n, then there are infinitely many primitive weird numbers. primeGap n is nth(n+1) - nth(n), and PrimitiveWeird is weird with no weird proper divisor, as on the page. Faithful."
+    }
+]

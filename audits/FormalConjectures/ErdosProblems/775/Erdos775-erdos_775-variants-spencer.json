@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/775: Spencer constructed graphs with cliques of at least n − log₂ n + O(1) distinct sizes. The statement gives ∃ C such that for every n there is a graph on Fin n with |cliqueSizes G| ≥ n − log₂ n − C, where cliqueSizes is the set of sizes of maximal cliques. Faithful."
+    }
+]

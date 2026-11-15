@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/650: 'is it true that f(m) ≤ √m?' No, since f(m) = min(m, ⌈2√m⌉), e.g. f(4) = 4 > 2. The statement negates ∀ m, f m ≤ √m. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Davies arXiv:2610.12301, Theorem 1.5: χ(ℝ^d) ≤ (3√3/2 + o(1))^d. I checked the PDF: the text says '3√3/2 = 2.5981…'. The abstract's 3√3/4 is a typo, as it would contradict the lower bound 2. The statement asserts, for every C > 3√3/2, χ ≤ Cⁿ eventually. Faithful."
+    }
+]

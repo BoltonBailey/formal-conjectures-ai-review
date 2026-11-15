@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/895: Hajnal thought an independent Hindman set {Σ_{i∈S} a_i} exists for n large depending on k; this remains open. The statement uses strictly increasing a and nonempty S. The empty sum 0 cannot lie in [1,n], so excluding it is forced, and positivity of the a_i follows. Faithful."
+    }
+]

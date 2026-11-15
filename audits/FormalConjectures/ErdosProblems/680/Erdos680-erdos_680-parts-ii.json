@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/680, second question: is the statement false with k^2+1 replaced by e^{(1+ε)√k}+C_ε, for every ε > 0 and some constant C_ε > 0? The formalisation is ∀ ε > 0, ∃ C > 0, ¬(∀ᶠ n, ∃ k ≠ 0, minFac(n+k) > exp((1+ε)√k)+C). It reads 'can one prove this is false' as asserting falsity, which is the standard reading. Faithful."
+    }
+]

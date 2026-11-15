@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/550: for m_1 ≤ … ≤ m_k and n sufficiently large, every n-vertex tree T and complete multipartite G with parts m_1..m_k satisfy R(T,G) ≤ (χ(G)-1)(R(T, K_{m_1,m_2}) - 1) + m_1. The docstring reports this proved by Li (2026) with a linked Lean proof. The statement fixes k ≥ 2 and monotone positive m, and asserts the bound eventually in n for all trees on Fin n. χ(G) = k for positive part sizes, so k - 1 is correct. Faithful."
+    }
+]

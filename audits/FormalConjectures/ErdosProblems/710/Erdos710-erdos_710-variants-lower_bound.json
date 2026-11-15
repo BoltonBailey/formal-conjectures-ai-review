@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/710: Erdős–Pomerance's lower bound (2/√e + o(1)) n (log n/log log n)^{1/2} ≤ f(n). The statement matches, for every ε > 0 and large n. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/707: the conjecture restricted to moduli p²+p+1 with p a prime power is false, as a consequence of Hall's and Alexeev–Mixon's counterexamples. The statement (∀ finite Sidon A, ∃ B ⊇ A, p prime power, PDS mod p²+p+1) ↔ False matches. Faithful."
+    }
+]

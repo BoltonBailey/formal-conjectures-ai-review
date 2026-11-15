@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/893: with f(n) = Σ_{k≤n} τ(2^k - 1), does f(2n)/f(n) tend to a limit? Kovač–Luca show limsup = ∞, so the remaining open question is whether the limit is ∞. The statement asserts f(2n)/f(n) → ∞, which is the natural remaining form. Faithful."
+    }
+]

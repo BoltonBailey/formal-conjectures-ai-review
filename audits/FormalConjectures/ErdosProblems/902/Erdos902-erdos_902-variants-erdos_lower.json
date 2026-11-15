@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Er63c (renyi.hu 1963-08.pdf), statement (1): f(k) ≥ 2^{k+1} − 1 for k = 1, 2, …. The statement asserts this for all n : ℕ. The extra n = 0 case holds: f(0) = 1, since S_0 just requires a vertex. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/63 (Mihók–Erdős): does every graph with infinite chromatic number contain a cycle of length 2^n for infinitely many n? Solved affirmatively, following Liu–Montgomery. The statement takes any G with chromaticNumber = ⊤, of arbitrary cardinality, and asserts that for every N some n ≥ N has 2^n ∈ cycleLengths, i.e. infinitely many such n. Faithful."
+    }
+]

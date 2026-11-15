@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/785: Chen conjectures that the Chen–Fang result holds with 3/2 in place of 3 − √3. The statement is the same implication with the limsup < 3/2 hypothesis, tagged open. Faithful."
+    }
+]

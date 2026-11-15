@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Textbook double-counting bound: each k-point line contains k(k−1) ordered pairs, and distinct lines share no pair, so f_k(n)·k(k−1) ≤ n(n−1) for k ≥ 2. This is the bound behind Sylvester's f_3(n) ≤ n²/6 on erdosproblems.com/588. Correct, with a linked proof."
+    }
+]

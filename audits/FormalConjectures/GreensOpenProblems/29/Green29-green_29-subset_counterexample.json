@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's 100 open problems, Problem 29 as printed: for a K-approximate group A, is there S ⊂ A with |S| ≫ K^{−O(1)}|A| and S⁸ ⊂ A⁴? The file's counterexample, A = ({−1} ∪ {1}) × H ∪ {(0,1)} in ℤ × H, checks out. It is symmetric, contains the identity and has bounded doubling. Any S ⊆ A containing some (±1, h) has (±8, h^{±8}) ∈ S⁸, outside A⁴, which only reaches first coordinates |·| ≤ 4. So S ⊆ {(0,1)}, which is too small as |H| → ∞. The statement negates the uniform polynomial version with S ⊆ A. That is correct, and the file explains that the intended open problem (following Breuillard–Green–Tao, Problem 6.6) drops S ⊆ A. Faithful, with a linked Lean proof."
+    }
+]

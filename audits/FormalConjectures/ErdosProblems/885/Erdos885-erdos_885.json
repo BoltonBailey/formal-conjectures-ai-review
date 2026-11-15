@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/885 (Erdős–Rosenfeld): for every k ≥ 1, are there N_1 < … < N_k with |⋂ D(N_i)| ≥ k? The statement asks for a k-element Finset of positive integers, which is equivalent to distinct ordered N_i, with ncard of the intersection ≥ k; the intersection is finite. D(n) includes 0 for perfect squares, exactly as the page's definition {|a-b| : n = ab} allows. Faithful."
+    }
+]

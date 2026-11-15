@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/808: the Erdős–Szemerédi graph sum-product conjecture was disproved by Alon–Ruzsa–Solymosi using sets of positive integers, with ≫ m^{5/3}/(log m)^{1/3} edges and |A+_GA| + |A·_GA| ≪ (m log m)^{4/3}. The statement negates the conjecture restricted to positive labels. Taking c = 0.6 and a small ε gives the contradiction. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/833: is there an absolute c > 0 such that for all r ≥ 2, every r-uniform hypergraph with chromatic number 3 has a vertex in at least (1+c)^r edges? Solved by Erdős–Lovász (a vertex has degree ≥ 2^{r-1}/(4r)). The statement asserts a uniform c over all r ≥ 2 and finite H on Fin n. That holds: for small r, max degree ≥ 2 (disjoint edges are 2-colourable), and for large r the 2^{r-1}/(4r) bound dominates. Faithful."
+    }
+]

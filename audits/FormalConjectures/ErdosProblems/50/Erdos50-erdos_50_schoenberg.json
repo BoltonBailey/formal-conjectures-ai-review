@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/50: Schoenberg proved that for every c ∈ [0,1] the density of {n : φ(n) < cn} exists. The statement asserts a function f with HasDensity f(c) for each c ∈ [0,1]. Faithful."
+    }
+]

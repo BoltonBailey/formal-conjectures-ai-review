@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/864 (Erdős–Freud): if A ⊆ [1,N] has at most one n with more than one representation n = a + b (a ≤ b ∈ A), is |A| ≤ (1+o(1))(2/√3)N^{1/2}? HasAtMostOneRepeatedSum counts pairs with a ≤ b, including a = b, which matches the page's 'a ≤ b'. The statement asserts the upper bound for every ε > 0 and large N. The 'estimate' part is left to the variants. Faithful."
+    }
+]

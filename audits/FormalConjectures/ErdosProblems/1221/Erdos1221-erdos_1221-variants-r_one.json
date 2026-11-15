@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1221: de Bruijn and Erdős proved Λ₁ = 1/log 2, λ₁ = 1/log 4 and μ₁ = 2. The statement asserts these three values for bigLambda 1, smallLambda 1 and mu 1. Faithful."
+    }
+]

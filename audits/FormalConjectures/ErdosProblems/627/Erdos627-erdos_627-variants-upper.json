@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/627 and the AFM25 abstract (arXiv:2512.16062), which restate Erdős's bound as f(n) ≤ (4 + o(1))n/(log₂ n)², correcting his stated constant 1. The statement is ∀ ε > 0, eventually f(n) ≤ (4+ε)n/(log₂ n)². Faithful."
+    }
+]

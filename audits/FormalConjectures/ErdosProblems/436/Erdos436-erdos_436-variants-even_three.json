@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/436: Lehmer–Lehmer proved Λ(k,3) = ∞ for all even k. The statement asserts Λ(k,3) = ⊤ for even k ≥ 2. Faithful."
+    }
+]

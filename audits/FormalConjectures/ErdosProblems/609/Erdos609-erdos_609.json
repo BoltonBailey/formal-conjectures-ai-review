@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/609: f(n) is the minimal m such that every n-colouring of the edges of K_{2^n+1} has a monochromatic odd cycle of length ≤ m; 'Estimate f(n)'. f is the sInf over m with the property for every colouring c : Sym2 → Fin n; loops are excluded by fromRel, and odd cycles exist since K_{2^n+1} is not n-colourably bipartite. The statement asks for answer with f =Θ answer, the mildest standard reading of 'estimate'. Faithful."
+    }
+]

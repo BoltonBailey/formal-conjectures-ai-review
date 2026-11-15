@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/890, which records the observation liminf Σ ω_k(n+i) ≥ k − 1 via Pólya's theorem. The statement instead bounds the unrestricted sum: liminf Σ_{i<k} ω(n+i) ≥ k + π(k) − 1. This follows from the page's bound, since each of the π(k) primes ≤ k divides some n+i. So it is a true and closely related form, although the docstring quotes it as the [ErSe67] observation rather than the page's ω_k version. Faithful in substance."
+    }
+]

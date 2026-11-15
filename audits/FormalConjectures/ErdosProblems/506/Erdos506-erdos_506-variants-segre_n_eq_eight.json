@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/506: Segre observed that the bound C(n−1,2) fails for n = 8. The statement gives an 8-point set, not collinear and not concyclic, determining fewer than C(7,2) = 21 circles. That matches. (It is also implied by the corrected extremal example, a circle with 7 points plus one point placed so that 3 pairs are collinear with it, which gives 19 circles.) Faithful."
+    }
+]

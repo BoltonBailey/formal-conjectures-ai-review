@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/741: if A + A has positive upper density, can A be split into disjoint A₁, A₂ with both A_i + A_i of positive upper density? DeepMind gave a positive answer, and the page says the upper-density reading is the intended one. The statement matches. Faithful."
+    }
+]

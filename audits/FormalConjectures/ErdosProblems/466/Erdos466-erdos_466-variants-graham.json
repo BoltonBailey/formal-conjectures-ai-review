@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/466: Graham proved N(X, 1/10) > (log X)/10. N(X,δ) is the max number of points in a closed disc of radius X with every pairwise distance at least δ from the nearest integer. This is finite, since distances are ≥ δ. The statement asserts the bound for all X ≥ 1, which matches the page's unqualified claim; for X < e^{10} it is trivial since N ≥ 1. Faithful."
+    }
+]

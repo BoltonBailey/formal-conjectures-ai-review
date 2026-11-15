@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/854: are there ≫ max_i(a_{i+1} - a_i) many even integers of the form a_{j+1} - a_j? The statement asserts some c > 0 with #distinct gap values ≥ c·maxGap for all large k. All gaps are even, so counting distinct gaps is counting such even integers. Faithful."
+    }
+]

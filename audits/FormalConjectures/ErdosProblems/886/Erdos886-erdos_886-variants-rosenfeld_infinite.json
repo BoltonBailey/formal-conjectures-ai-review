@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/886: Erdős–Rosenfeld proved infinitely many n have four divisors in (n^{1/2}, n^{1/2} + 16n^{1/4}). The statement uses Erdos886Divisors n (1/4) 16, which is exactly that interval. Faithful."
+    }
+]

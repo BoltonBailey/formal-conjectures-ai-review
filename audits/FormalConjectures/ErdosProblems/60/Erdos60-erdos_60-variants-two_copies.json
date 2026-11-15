@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/60, which says Erdős and Simonovits 'could not even prove that at least 2 copies of C₄ are guaranteed'. Copies of C₄ are counted as subgraphs H' of G isomorphic to cycleGraph 4, i.e. non-induced copies, each a vertex set with its 4 edges, and ex(n; C₄) is extremalNumber n (cycleGraph 4). The statement, that for large n every graph above ex(n; C₄) has ≥ 2 copies, is a correct formalisation of that weaker claim. But it is tagged research solved with no reference or proof link, and the page gives no indication it has been proved. The status label appears unsupported."
+    }
+]

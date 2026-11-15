@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/643: is f(n;t) = (1+o(1))C(n,t−1) for t ≥ 3? The statement is ∀ t ≥ 3, forcingThreshold n t ~ C(n, t−1). This follows for t ≥ 4 from HMY26 (C(n−1,t−1) ~ C(n,t−1)), so t = 3 remains, consistent with the 'open' tag and the docstring. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/507 (Heilbronn's triangle problem): estimate α(n), the least bound such that any n points in the unit disk contain a triangle of area ≤ α(n). `α n` is the sSup over n-point non-collinear subsets of the closed unit disk of the minimum unsigned triangle area. That equals the Heilbronn function: collinear sets have min area 0, and for n < 3 the set is empty so α = 0, which is harmless asymptotically. The statement asks for a function asymptotically equivalent (~) to α. That is one sharp reading of the vague 'estimate', and stronger than the usual goal of determining α up to constants; the docstring does not say this precisely."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/641 (Erdős–Hajnal): is there f such that χ(G) ≥ f(k) forces k edge-disjoint cycles on the same vertex set? This was resolved negatively by Janzer–Steiner–Sudakov; it already fails at k = 2. HasCommonVertexCycles asks for k pairwise edge-disjoint connected 2-regular graphs on a common Fin m (i.e. Hamiltonian cycles on the same vertex set) whose union embeds as a subgraph (Copy) of G. The statement negates the existence of f over finite graphs. Faithful."
+    }
+]

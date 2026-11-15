@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: f n is definitionally sInf (fSet n). Trivially correct (rfl) and consistent with f(n) = min_{1<k≤n/2} gcd(n, C(n,k)) on erdosproblems.com/700."
+    }
+]

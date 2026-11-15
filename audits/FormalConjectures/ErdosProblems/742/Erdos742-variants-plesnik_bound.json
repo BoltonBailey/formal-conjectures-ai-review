@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "IsDiameter2Critical requires diam = 2 and that deleting any edge makes diam ≠ 2. Since deleting edges cannot shrink distances, this means the diameter increases or the graph disconnects (Mathlib diam = 0). That matches erdosproblems.com/742. The variant asserts Plesník's bound |E(G)| < 3n(n−1)/8 for diameter-2-critical graphs. That is the classical early bound on the Murty–Simon problem (cited from [Pl75] in the file; the erdosproblems page does not list it). The statement is consistent with the literature as I know it. Faithful."
+    }
+]

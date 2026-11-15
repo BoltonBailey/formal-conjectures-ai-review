@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/399: 'Erdős and Obláth proved this is true when (x,y) = 1 and k ≠ 4'. The statement asserts no solutions of either sign for coprime x, y with xy > 1, k > 2, k ≠ 4, which matches the page as written. A caveat for reviewers: the 1937 paper is titled for prime exponents p, and exponents k = 2^m with m ≥ 3 reduce to 4th powers, so whether every k ≠ 4 is covered depends on the paper's details. The formalisation follows the page faithfully."
+    }
+]

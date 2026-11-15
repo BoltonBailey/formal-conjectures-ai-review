@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/883: for every ℓ ≥ 1 and large n, if |A| > ⌊n/2⌋ + ⌊n/3⌋ − ⌊n/6⌋ with A ⊆ [1,n], must the coprime graph G(A) contain a complete (1,ℓ,ℓ) tripartite graph? Proved by Sárközy, even with ℓ ≫ log n/log log n. coprimeGraph is fromRel Coprime (loops excluded), restricted to A by induce. The statement asks, for each ℓ ≥ 1 and all large n, for every such A to contain completeMultipartiteGraph with parts of sizes 1, ℓ, ℓ. ℕ-division gives the floors, and the subtraction is safe since n/6 ≤ n/2. Faithful."
+    }
+]

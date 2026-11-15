@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/732: are there necessary and sufficient conditions for a sequence 1 < X_1 ≤ … ≤ X_m ≤ n to be block-compatible (the block sizes of a pairwise balanced design on [n])? blockSizeProfiles n is the set of sorted block-size lists of PBDs on Fin n (blocks of size ≥ 2, each pair in exactly one block). The statement asks for an answer predicate characterising membership; adequacy is up to human judgement. Faithful."
+    }
+]

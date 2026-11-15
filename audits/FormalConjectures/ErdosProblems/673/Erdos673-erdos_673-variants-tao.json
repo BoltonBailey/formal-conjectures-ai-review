@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/673: Tao observed τ(n/m)/m ≤ G(n) ≤ τ(n) for any m | n. The statement restricts to m > 1, which is harmless (for m = 1 the lower bound would read τ(n) ≤ G(n), which is false in general). Faithful."
+    }
+]

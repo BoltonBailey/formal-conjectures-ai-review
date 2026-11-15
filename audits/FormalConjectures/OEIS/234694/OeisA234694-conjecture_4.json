@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A234694 conjecture (ii), parenthetical: for n > 21 some k has m − 1 and prime(m) − m both prime. The statement matches, and natural subtraction is exact since prime(m) > m. Faithful."
+    }
+]

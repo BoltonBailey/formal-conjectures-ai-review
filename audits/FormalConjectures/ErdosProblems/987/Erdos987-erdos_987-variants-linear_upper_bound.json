@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/987: Clunie proved there are sequences with A_k ≤ k for all k. The statement allows x_j ∈ [0,1), i.e. arbitrary points z = e(x) on the unit circle as in Clunie's original setting. The docstring explains that the page's (0,1) phrasing is strictly stronger. The statement asserts A_k ≤ k for all k ≥ 1. Faithful to the original source, and the deviation from the page is documented."
+    }
+]

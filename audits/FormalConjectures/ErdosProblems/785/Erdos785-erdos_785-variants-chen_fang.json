@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/785: Chen–Fang [ChFa15] proved that A(x)B(x) − x ≪ A(x)^c cannot hold for any c > 0. The statement uses min(A(x), B(x))^c, which the docstring attributes to ChFa15. It coincides with the page's form when A is the sparser set (which, by Narkiewicz, is eventually the minimum). Faithful."
+    }
+]

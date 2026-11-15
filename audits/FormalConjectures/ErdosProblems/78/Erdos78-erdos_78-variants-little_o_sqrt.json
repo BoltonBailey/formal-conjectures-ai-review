@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/78: in [Er69b] Erdős asks for an explicit construction with largest homogeneous set o(n^{1/2}), which is now known. The statement asserts f = o(√n) and a poly-time oracle whose graphs avoid homogeneous sets of size ⌈f n⌉. Faithful."
+    }
+]

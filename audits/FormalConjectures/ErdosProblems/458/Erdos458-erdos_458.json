@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/458: is it true that for all k ≥ 1, lcm(1..p_{k+1}-1) < p_k·lcm(1..p_k)? Open ('almost certainly true'). The statement uses 0-indexed nth Prime, so k ≥ 0 in Lean corresponds to k ≥ 1 on the page, with p_k = nth Prime k and p_{k+1} = nth Prime (k+1). Faithful."
+    }
+]

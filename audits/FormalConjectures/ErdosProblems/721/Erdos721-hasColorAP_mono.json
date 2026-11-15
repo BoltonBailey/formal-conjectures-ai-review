@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma, proved: a monochromatic AP in [1,N] remains one in [1,M] for M ≥ N. Correct, and supports the W(3,k) formalisation of erdosproblems.com/721."
+    }
+]

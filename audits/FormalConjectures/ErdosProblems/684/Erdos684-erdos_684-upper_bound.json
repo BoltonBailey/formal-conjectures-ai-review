@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/684: f(n) is the least k such that the part u of C(n,k) supported on primes ≤ k exceeds n². The page cites APSSV26 for f(n) ≪ (log n)². smallPrimePart n k is u (product over primes p ≤ k of p^{v_p(C(n,k))}). The statement gives, for all large n, some k ≤ n with k ≤ 514(log n)² and u > n², which bounds the minimum f(n). The explicit constant 514 instantiates the ≪ (the docstring calls it non-optimal), and a Lean proof is linked. Faithful."
+    }
+]

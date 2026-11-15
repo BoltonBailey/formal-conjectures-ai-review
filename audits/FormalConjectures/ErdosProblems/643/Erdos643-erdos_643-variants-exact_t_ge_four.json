@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against arXiv:2609.37744 (Huang–Ma–Yang), whose abstract proves Füredi's conjecture: for fixed r ≥ 4 and large n, the maximum number of edges in an r-uniform hypergraph with all disjoint pairs having distinct unions is C(n−1,r−1) + ⌊(n−1)/r⌋. The statement equates extremalNumber n t (¬HasRepeatedDisjointUnion) with that formula eventually in n, for each t ≥ 4. Faithful (the page's Füredi lower bound is the same expression)."
+    }
+]

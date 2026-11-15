@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: for k ≠ 0, a singleton has no (k+1)-subsets and so is k-weakly divisible. Correct and proved in the file."
+    }
+]

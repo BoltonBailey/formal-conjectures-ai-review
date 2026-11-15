@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A211420 (Bala): a(n) is divisible by 8n − 1 for all n. The statement works in ℤ, so at n = 0 the divisor is −1, which is harmless. Faithful."
+    }
+]

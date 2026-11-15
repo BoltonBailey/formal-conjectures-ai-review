@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Sawin Lemmas 11–12 / Remarks Prop. 2.3: there is a fixed infinite set Q of primes q ≡ 1 (mod 4) and a root-discriminant bound such that totally real fields of arbitrarily large degree exist in which every q ∈ Q splits completely. Complete splitting is encoded as [F:ℚ] distinct maximal ideals of 𝓞 F containing q, which is equivalent. The quantifier order (Q before F) is the essential point and is correct. A Lean proof is linked. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/857: m(n,k) is the least m such that any m subsets of [n] contain a k-sunflower; 'Estimate m(n,k). In particular, is m(n,k) ≤ (2 - c_k)^n?' The definition of m is faithful: sInf over thresholds, nonempty since t > 2^n works vacuously, with IsSunflower meaning a common pairwise intersection. The statement reads 'estimate' as an exact asymptotic m(n,k) ~ answer(k,n) for each k ≥ 3. For an exponentially growing quantity, where the literature tracks the exponential rate (Naslund–Sawin (3/2^{2/3})^{(1+o(1))n}; (2 - 1/(16k³))^n), this is much stronger than the source's 'estimate'. The 'in particular' question, already known to be true, is not formalised in this file. This is the same convention issue as other 'estimate' problems."
+    }
+]

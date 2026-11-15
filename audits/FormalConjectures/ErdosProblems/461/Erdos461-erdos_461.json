@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/461: with s_t(n) the product (with multiplicity) of the primes p < t dividing n, and f(n,t) the number of distinct values of s_t(m) for m ∈ [n+1, n+t], is f(n,t) ≫ t uniformly in n and t? smoothComponent and f match these definitions. The statement asks for an absolute c > 0 with c·t ≤ f(n,t) for all n, t. The edge case t = 0 is trivial. Faithful."
+    }
+]

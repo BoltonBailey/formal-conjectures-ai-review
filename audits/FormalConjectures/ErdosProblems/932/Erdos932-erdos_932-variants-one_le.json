@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/932: Erdős showed that the r for which at least one such n exists have density 0. The statement is HasDensity 0 for that set of r, with 0-indexed primes; shifting by one does not change natural density. Faithful."
+    }
+]

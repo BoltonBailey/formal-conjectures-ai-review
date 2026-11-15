@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "δ(m, α) is the density of the n divisible by some d ≡ 1 (mod m) with 1 < d < exp(m^α), as on erdosproblems.com/697. The page records Hall's proof that the threshold is β = 1/log 2: lim_m δ(m, α) = 0 for α < β. The statement matches. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: there is no decomposition into 0 similar triangles. It is proved and correct, as context for the similarity variant on erdosproblems.com/633. Faithful."
+    }
+]

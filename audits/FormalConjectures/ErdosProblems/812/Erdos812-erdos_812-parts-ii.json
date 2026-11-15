@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/812: is R(n+1) - R(n) ≫ n²? The project's ≫ notation unfolds to n² = O(R(n+1) - R(n)), as intended. Faithful."
+    }
+]

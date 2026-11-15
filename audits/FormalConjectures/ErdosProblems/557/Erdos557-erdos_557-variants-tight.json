@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "The sharp bound R_k(T) ≤ k(n-2) + 2 for trees on n ≥ 2 vertices, attained by stars, follows from the Erdős–Sós theorem by pigeonhole. The docstring calls it a theorem; this is supported now that erdosproblems.com/548 records a full proof. A Lean proof is linked. Consistent with erdosproblems.com/557. Faithful."
+    }
+]

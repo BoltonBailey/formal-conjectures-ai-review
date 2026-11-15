@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Private API lemma for the greedy argument: there are at most 3^|B| signed sums Σ ε_b b with ε ∈ {-1, 0, 1}. It is proved and correct, and supports Erdős's greedy bound on erdosproblems.com/963. Faithful."
+    }
+]

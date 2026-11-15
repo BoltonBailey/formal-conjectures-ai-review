@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/803: is it true that for every m ≥ 1 and large n, every n-vertex graph with ≥ n log n edges contains an O(1)-balanced subgraph on m vertices with ≫ m log m edges (absolute constants)? Alon showed the answer is no. The statement negates ∃ D, c > 0 such that for all m ≥ 1, eventually in n, every such G has a subgraph H with exactly m vertices, IsBalanced H D (maxDeg ≤ D·minDeg) and ≥ c·m log m edges. That is the question with absolute constants, negated. Faithful."
+    }
+]

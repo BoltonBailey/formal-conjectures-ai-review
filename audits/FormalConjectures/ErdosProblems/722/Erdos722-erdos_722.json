@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/722: for k > r and n large, do Steiner systems S(r,k,n) exist whenever C(k-i, r-i) | C(n-i, r-i) for all 0 ≤ i < r? Proved by Keevash. The statement asserts, for 1 ≤ r < k and eventually in n, that the divisibility conditions imply some k-uniform family on Fin n in which every r-set lies in exactly one block (IsBlockDesign). The page writes the block count as C(n,k)/C(k,r), a typo for C(n,r)/C(k,r), which the docstring has correctly; the count is not part of the formal statement anyway. Faithful."
+    }
+]

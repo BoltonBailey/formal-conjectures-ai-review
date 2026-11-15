@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/973: Tang notes that Turán's Theorem 6.1 gives max |Σ z_i^k| ≥ (2e)^{-(1+o(1))n} when all |z_i| ≥ 1. The statement asserts ∃ f = o(1) such that, for large n and all such z, some k ∈ [2, n+1] has |Σ z_i^k| ≥ (2e)^{-(1+f n)n}. Faithful."
+    }
+]

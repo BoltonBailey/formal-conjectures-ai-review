@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/694: Erdős proved that if one such n exists then infinitely many do. The statement takes as hypothesis that some n > 0 has a unique totient preimage and concludes that {n | ∃! m, φ m = n} is infinite. Faithful."
+    }
+]

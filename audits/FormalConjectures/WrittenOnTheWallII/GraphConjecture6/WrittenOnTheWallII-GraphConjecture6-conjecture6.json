@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against WOWII Conjecture 6: for connected G, Ls(G) ≥ 1 + n - μ(G) - α(G). WOWII defs 1, 3, 2, 5 give Ls as the maximum number of leaves in a spanning tree, n as the order, μ as the matching number and α as the independence number. The Lean definitions Ls, matchingNumber and indepNum match these. The Nontrivial hypothesis excludes n = 1, where a spanning tree has no degree-1 vertex and the inequality 1 ≤ 0 would fail spuriously; this is a sensible reading. Faithful."
+    }
+]

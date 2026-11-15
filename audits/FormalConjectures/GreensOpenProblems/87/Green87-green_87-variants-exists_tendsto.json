@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's Problem 87, which defines p(k) as the limit as n → ∞ of the probability that a random permutation of [n] preserves some set of size k. The statement asserts that this limit of i n k (proportion of σ ∈ S_n with a k-set s with σ(s) = s) exists for each k, as shown in Britnell–Wildon. FixesSet and i are defined correctly. Faithful."
+    }
+]

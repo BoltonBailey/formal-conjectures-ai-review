@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/500 in its asymptotic form: find the Turán density π(K_4^3). The ratio ex_3(n,K_4^3)/binom(n,3) is non-increasing for n ≥ 3 (Katona–Nemetz–Simonovits averaging), so the limit exists. A single real answer is therefore appropriate. The statement is that the ratio tends to answer. Faithful."
+    }
+]

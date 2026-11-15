@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against WOWII Conjecture 34: for connected G, path(G) ≥ ⌈dist_avg(C,V) + dist_avg(M,V)⌉, where C is the centre, M the set of maximum-degree vertices, and dist_avg the average of nonzero distances. The statement negates the universal claim. I checked the documented counterexample by computation: a 39-vertex tree with a vertex carrying 3 leaves, joined by a 5-edge path to the root of a depth-4 perfect binary tree. It has C and M singletons, average sum 154/38 + 266/38 ≈ 11.05, so the ceiling is 12, while the longest (induced) path has 11 vertices. The distAvg encoding (nonzero-distance pairs) matches the definition. Faithful."
+    }
+]

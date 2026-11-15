@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/789: is h(n) = Θ(√n)? Straus gives the upper bound and the lower bound is open, so this is correctly tagged open. h(n) (subsetSumThreshold) is the maximal m such that every n-set A ⊆ ℤ has B ⊆ A, |B| ≥ m, in which equal sums of nonempty subsets force equal cardinalities. The distinct-elements reading is consistent with Erdős's random-α construction, which would fail with repetition. Faithful."
+    }
+]

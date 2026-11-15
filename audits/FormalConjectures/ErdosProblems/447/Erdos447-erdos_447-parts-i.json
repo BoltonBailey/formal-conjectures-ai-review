@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/447: must a union-free family of subsets of [n] (no A ∪ B = C with distinct A, B, C) have size o(2^n)? Yes (Sárközy–Szemerédi, then Kleitman). UnionFree uses Triplewise over pairwise-distinct triples. The statement asserts maxUnionFree n = o(2^n). Faithful."
+    }
+]

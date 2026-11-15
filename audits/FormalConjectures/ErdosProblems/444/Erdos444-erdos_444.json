@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/444: for infinite A ⊆ ℕ and every k, is limsup_x max_{n<x} d_A(n) / (Σ_{n∈A∩[1,x)} 1/n)^k = ∞, with d_A(n) the number of a ∈ A dividing n? Answered yes by Erdős–Sárközy. divisorCount counts the elements of A among the positive divisors of n. The statement takes the max over n ∈ [1, ⌈x⌉) (excluding n = 0, which every a divides) and the reciprocal sum over A ∩ [1, ⌈x⌉), and sets the EReal limsup over real x to ⊤. Faithful."
+    }
+]

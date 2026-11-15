@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/420: for monotone f ≤ log n with f → ∞, is F(f,n) everywhere dense, i.e. dense in (1, ∞)? The statement asserts (1, ∞) ⊆ closure(range F(f,·)). Requiring f ≤ log n for all n rather than eventually is equivalent, as documented. Faithful."
+    }
+]

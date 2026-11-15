@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/642: let f(n) be the maximum number of edges in an n-vertex graph in which every cycle has more vertices than chords. Is f(n) ≪ n? The page lists it as open. maxEdges n is that maximum over graphs on Fin n. CyclesHaveMoreVerticesThanChords compares the number of chords (edges of G joining cycle vertices that are not cycle edges) with c.length, which is the number of vertices of the cycle. The statement asks for maxEdges = O(n). Faithful."
+    }
+]

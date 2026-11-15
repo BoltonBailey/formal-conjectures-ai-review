@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against ERT80 (renyi.hu/~p_erdos/1980-07.pdf), which states M_k ≤ N(2,k) ≤ 2M_k, with M_k the fewest k-sets without property B. erdosproblems.com/629 instead prints m(k) ≤ n(k) ≤ m(k+1), apparently a transcription difference. The file follows the original paper, and the docstring says so. minChromaticEdges k 3 equals M_k for k ≥ 2: a minimal non-2-colourable k-uniform family is 3-colourable. Faithful to the primary source."
+    }
+]

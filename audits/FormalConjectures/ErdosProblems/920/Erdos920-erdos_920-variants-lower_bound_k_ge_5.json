@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/920: a positive answer for all k ≥ 5 follows from Bradač's bound (problem 986). The statement asserts, for k ≥ 5, some c > 0 with f_k(n) ≫ n^{1-1/(k-1)}/(log n)^c. Faithful."
+    }
+]

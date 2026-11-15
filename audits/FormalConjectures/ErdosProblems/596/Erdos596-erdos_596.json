@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/596: for which (G₁, G₂) is it true that (1) for every n ≥ 1 there is a G₁-free H whose every n-edge-colouring has a monochromatic G₂, yet (2) every G₁-free H has an ℵ₀-edge-colouring with no monochromatic G₂? IsErdosHajnalExceptional is the conjunction of HasFiniteRamseyProperty (1) and HasCountableRamseyEscape (2), with colourings as edge-partitions into colour classes, monochromatic copies as G₂ ⊑ c i, and H ranging over all graphs on Type-valued vertex sets. The value question characterises the class via an unknown predicate. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/699: Sylvester–Schur, for 1 ≤ i ≤ n/2 some prime p > i divides C(n,i). The statement matches, and a Lean proof is linked. Faithful."
+    }
+]

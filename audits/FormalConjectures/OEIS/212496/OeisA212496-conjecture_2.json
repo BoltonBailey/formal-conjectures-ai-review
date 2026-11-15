@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A212496: a(n) = Σ_{k≤n} (-1)^{k−Ω(k)} and b(n) = Σ_{k≤n} (-1)^{k−Ω(k)}/k. The sign is encoded via the parity of k + Ω(k), which equals the parity of k − Ω(k), and the tests match the data −1, −2, −1, 0, 1. Sun's guess: a(n) > √n for n > 324. The statement matches. Faithful."
+    }
+]

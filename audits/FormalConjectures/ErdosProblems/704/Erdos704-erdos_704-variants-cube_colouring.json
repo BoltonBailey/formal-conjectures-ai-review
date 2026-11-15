@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/704: the cube tiling gives χ(G_n) ≤ (2 + √n)ⁿ. The statement asserts a colouring with at most that many colours for every n. Faithful."
+    }
+]

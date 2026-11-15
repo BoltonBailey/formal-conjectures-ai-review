@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "h(n) (cofactorThreshold) is the largest m such that every n-element A ⊆ ℕ has at least m distinct values a/(a,b), as on erdosproblems.com/539. Allowing 0 ∈ A changes counts by O(1) at most, which is irrelevant here. The statement asserts h(n) is not Θ(√n), with a linked Lean disproof (KitaKen1). The page records only n^{1/2} ≪ h(n) ≤ e^{O(√log n)}n^{1/2}, so this sharper claim is not on the page and I could not verify it from the source. As a formalisation of the question 'is h(n) = Θ(√n)?', the statement is correct."
+    }
+]

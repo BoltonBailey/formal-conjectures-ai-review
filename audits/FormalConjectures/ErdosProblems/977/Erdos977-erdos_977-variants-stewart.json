@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/977: Stewart [St13] proved P(2^n−1) ≫ n^{1+1/(104 log log n)} for all large n. The statement is ∃ c > 0, eventually c·n^{1+1/(104 log log n)} ≤ maxPrimeFac(2^n−1). Faithful."
+    }
+]

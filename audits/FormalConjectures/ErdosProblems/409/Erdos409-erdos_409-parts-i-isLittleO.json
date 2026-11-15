@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/409: as with isBigO, asking for some g with c = o(g) is trivially satisfiable; the page itself says F(n) = o(n) is trivial. The formal statement has no real content and relies on human judgement of 'simplest', as the docstring acknowledges."
+    }
+]

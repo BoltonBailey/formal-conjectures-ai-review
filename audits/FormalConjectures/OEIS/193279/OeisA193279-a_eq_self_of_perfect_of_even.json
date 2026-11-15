@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A193279: a(n) is the number of distinct nonzero sums of distinct proper divisors of n, and 'a(n) = n if n is an even perfect number' (proof abstract by Adamczewski). The definition takes the image of subset sums over properDivisors minus 1, which removes the empty sum 0, and the tests match the data. The statement asserts a n = n for even perfect n. Faithful."
+    }
+]

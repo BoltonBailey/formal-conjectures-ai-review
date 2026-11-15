@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/628: Erdős originally asked about a = b = 3, which forces k = 5, and Brown–Jung proved it. The statement takes a finite G with χ = 5 and no K_5, and asserts a vertex split s, sᶜ with both induced subgraphs of chromatic number ≥ 3. Using induced subgraphs on complementary sets is equivalent to using two disjoint subgraphs, since enlarging a vertex set never lowers χ. Faithful."
+    }
+]

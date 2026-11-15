@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/785: Ruzsa proved that, after possibly swapping A and B, A(x)B(x) − x > (1 − o(1))a*(x)/A(x), where a*(x) = max A ∩ [1,x]. The statement is the disjunction over the two roles, with (1 − o(1)) unpacked as ∀ ε > 0 eventually (1 − ε), and aStar as sSup of A ∩ [1,x]. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/721: prove W(3,k) < exp(k^c) for some c < 1, first shown by Schoen. The statement asserts a fixed c ∈ (0,1) such that for all large k some N < exp(k^c) forces a red 3-AP or a blue k-AP. Forces N k encodes W(3,k) ≤ N, with nonconstant APs in [1,N]. Faithful."
+    }
+]

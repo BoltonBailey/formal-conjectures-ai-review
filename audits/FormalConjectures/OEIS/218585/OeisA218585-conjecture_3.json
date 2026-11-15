@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A218585 (Sun): Σ_{p<N, p≡1 (3)} x(p) / Σ y(p) → 1 + √3, where p = x² + xy + y² with x > y > 0. xp and yp pick out the unique such representation by search. The statement is the limit of the ratio of sums over primes p < N with p ≡ 1 (mod 3). The 'solved' claim via Hecke's angular equidistribution checks out. Writing x + y·e^{iπ/3} = re^{iθ} with θ ∈ (0, π/6), the angular integrals give ratio 1 + √3, and a numerical check to N = 3·10⁶ gives 2.7296. Faithful."
+    }
+]

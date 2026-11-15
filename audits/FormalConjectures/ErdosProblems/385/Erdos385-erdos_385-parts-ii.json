@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/385: does F(n) - n → ∞? The statement uses natural subtraction F n - n → ∞. This is equivalent to the integer reading, since truncation to 0 only occurs when F n ≤ n, which would also prevent divergence. Faithful."
+    }
+]

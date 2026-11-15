@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/772: is H_k(n) > n^{1/2+c} for some c > 0? Yes, by the Alon–Erdős n^{2/3} bound. The statement asserts this for each k ≥ 1, eventually in n. Faithful."
+    }
+]

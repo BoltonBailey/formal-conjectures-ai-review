@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/946: are there infinitely many n with τ(n) = τ(n+1)? Answered yes by Heath-Brown [He84]. The statement is {n | σ 0 n = σ 0 (n+1)}.Infinite, with σ 0 the divisor-counting function; n = 0 is not a spurious solution (σ 0 0 = 0 ≠ 1). Faithful (the source phrases it as a question, now answered yes, so the unnegated form is correct)."
+    }
+]

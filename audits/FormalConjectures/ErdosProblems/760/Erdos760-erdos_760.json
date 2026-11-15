@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/760 (Erdős–Gimbel; proved by Alon–Krivelevich–Sudakov): must G with χ(G) = m contain a subgraph H with cochromatic number ζ(H) ≫ m/log m? The statement asserts a uniform c > 0 such that every finite G with χ = m has a subgraph H with ζ(H) ≥ k ≥ c·m/log m. Small m are harmless: log 1 = 0 gives bound 0, and for m ≥ 2, ζ ≥ 1 with c small. Faithful."
+    }
+]

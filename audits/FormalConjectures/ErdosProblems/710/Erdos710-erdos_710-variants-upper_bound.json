@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/710: the upper bound f(n) ≤ (1.7398… + o(1)) n (log n)^{1/2}. The statement writes the constant as √r/(1-r) with e^{-r} = r; I checked numerically that this equals 1.73981…. Faithful."
+    }
+]

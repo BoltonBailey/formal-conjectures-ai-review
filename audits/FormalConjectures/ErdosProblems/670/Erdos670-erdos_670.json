@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/670: if n points in ℝ^d have all pairwise distances differing by ≥ 1, is the diameter ≥ (1+o(1))n²? Following the page's remark, the statement fixes d (≥ 1) and lets o(1) depend on d: for every ε > 0 and large n, the diameter is ≥ (1-ε)n². HasSeparatedDistances compares distances of distinct unordered pairs. Open for d ≥ 2. Faithful."
+    }
+]

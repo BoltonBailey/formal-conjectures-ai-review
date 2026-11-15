@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/423: Tang proved a_n = n + Ω(log log n). The statement asserts log log n = O(a_n - n), i.e. a_n - n ≫ log log n in the Hardy–Littlewood sense, matching Ω. Faithful."
+    }
+]

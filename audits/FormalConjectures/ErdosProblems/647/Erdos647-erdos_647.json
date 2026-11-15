@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/647: is there n > 24 with max_{m<n}(m + τ(m)) ≤ n + 2? The statement is ∃ n > 24, ⨆ m : Fin n, m + σ 0 m ≤ n + 2. The sum elaborates in ℕ: Fin n coerces to ℕ, and there is no ℕ → Fin n cast without NeZero n. The index is finite and nonempty, so the ciSup is the maximum. Faithful."
+    }
+]

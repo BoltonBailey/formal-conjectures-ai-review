@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/904 (Bollobás–Erdős, proved by Bollobás–Nikiforov): for r ≥ 2, if G has n vertices and m ≥ t_r(n) edges, some r-clique has degree sum ≥ 2rm/n. The statement uses Mathlib's turanGraph n r (r parts, K_{r+1}-free) for t_r(n) and asserts an r-clique with 2rm ≤ n·Σ deg. It allows r ∈ [1, n] rather than r ≥ 2. The extra case r = 1 is harmless and true (t_1 = 0, and max degree ≥ average), and r ≤ n is needed for a clique to exist. Faithful."
+    }
+]

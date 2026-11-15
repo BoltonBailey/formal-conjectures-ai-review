@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/588: f_k(n) is the maximum number of lines containing ≥ k points among n points with no k+1 collinear; is f_k(n) = o(n²) for k ≥ 4? numLinesWithPointsMax k n is the sSup over finite n-point S with NonCollinearFor (k+1) of the number of determined lines meeting S in exactly k points. That is equivalent to 'at least k' under the hypothesis. The statement asserts o(n²) for each k ≥ 4. Faithful."
+    }
+]

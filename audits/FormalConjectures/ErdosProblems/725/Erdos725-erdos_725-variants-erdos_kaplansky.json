@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/725: Erdős–Kaplansky proved L ~ e^{-C(k,2)}(n!)^k when k = o((log n)^{3/2-ε}). The statement asserts this for each fixed ε > 0 and any k(n) = o((log n)^{3/2-ε}). Faithful."
+    }
+]

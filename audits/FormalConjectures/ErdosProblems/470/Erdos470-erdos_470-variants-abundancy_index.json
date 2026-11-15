@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/470 (see Problem 825): if there are no odd weird numbers, every weird number has abundancy index σ(n)/n < 4. The statement matches, with AbundancyIndex = (Σ_{d|n} d)/n in ℚ, and a Lean proof is linked. Faithful."
+    }
+]

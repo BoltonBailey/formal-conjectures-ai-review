@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A259667 (Catalan numbers mod 6), whose comment says: 'It is conjectured that the only k which yield a(2^k−1) = 1 are k = 0, 1 and 5.' The statement is ∀ k, a(2^k − 1) = 1 ↔ k ∈ {0, 1, 5}, with a n = catalan n % 6. The 'if' direction is checkable (C_0 = C_1 = 1, C_31 ≡ 1 mod 6, matching the data a(31) = 1). Faithful."
+    }
+]

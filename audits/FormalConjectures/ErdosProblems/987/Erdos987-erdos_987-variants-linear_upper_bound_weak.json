@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Related to erdosproblems.com/987 (Clunie: some sequence has A_k ≤ k for all k). This variant asserts the weaker A_k ≤ 2k for k ≥ 1 with x_j in the open interval (0,1), which follows from the stronger results. Correct as stated and clearly labelled as a weakening."
+    }
+]

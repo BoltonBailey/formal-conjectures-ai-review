@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/559: Friedman–Pippenger proved the linear bound when G is a tree. The statement asserts, for each d, a C with R̂(G) ≤ C|V(G)| for all trees of maximum degree ≤ d; the bound depends on d, as in the original. Faithful."
+    }
+]

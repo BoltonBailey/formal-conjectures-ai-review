@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A206911 (rank of the harmonic number H_n when the H's and the log(k+1)'s are jointly ranked) and its conjecture that the differences are all 2 or 3. The closed form a(n) = n + ⌊e^{H_n} − 1⌋ is right. It counts the k ≥ 1 with log(k+1) < H_n, and e^{H_n} is never an integer, since H_n is a nonzero rational and e^{H_n} is therefore transcendental. The tests match the data 2,5,8,11,13. The statement says diff n ∈ {2,3} for n ≥ 1. The 'solved' tag is backed by the OEIS Open paper (arXiv:2608.11941), which lists this conjecture. Faithful."
+    }
+]

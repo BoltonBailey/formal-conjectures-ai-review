@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/769: c(n) is minimal such that for every k ≥ c(n) the unit n-cube decomposes into k homothetic cubes; is c(n) ≫ n^n? The page records no resolution, only bounds such as Hudelson's c(n) < 6^n when (2^n-1, 3^n-1) = 1, which already hints that c(n)/n^n can be small. The docstring claims a refutation along odd n, with a linked Lean proof, which I confirmed exists (HTTP 200). Tilings are half-open cubes inside [0,1)^n partitioning it exactly, IsCutoff captures the minimal threshold, and the statement negates ∃ A/B > 0 with c(n) ≥ (A/B)n^n for large n. The formalisation is faithful; the solved status rests on the linked proof rather than the page."
+    }
+]

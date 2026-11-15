@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/985: Heath-Brown proved that at least one of 2, 3, 5 is a primitive root for infinitely many primes. The statement asserts that the set of primes p where 2, 3 or 5 has order p - 1 is infinite. That matches, since one of the three works infinitely often. Faithful."
+    }
+]

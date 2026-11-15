@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Related to erdosproblems.com/982, which notes that the regular polygon shows ⌊n/2⌋ is best possible. This variant proves the bound for concyclic points: from any p_i, each distance is realised by at most two other points of the circle, so there are at least ⌈(n−1)/2⌉ ≥ ⌊n/2⌋ distinct distances. The statement asserts this for every i, with injective points on a common circle (dist to c equal to R), using natural division. It is a correct easy special case (concyclic points are in convex position), with a linked Lean proof. Faithful."
+    }
+]

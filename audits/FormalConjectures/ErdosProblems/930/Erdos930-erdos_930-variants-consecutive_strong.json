@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Theorem 2 of Erdős–Selfridge [ErSe75], cited from erdosproblems.com/930: for k ≥ 3, l ≥ 2 and n + k ≥ p^{(k)} (the least prime ≥ k), some prime p ≥ k has exponent in (n+1)⋯(n+k) not divisible by l. nextPrime is the least prime ≥ k, and the statement matches that theorem as quoted in the docstring. The page only cites the corollary, so I took the precise statement from the cited paper's known form. Faithful."
+    }
+]

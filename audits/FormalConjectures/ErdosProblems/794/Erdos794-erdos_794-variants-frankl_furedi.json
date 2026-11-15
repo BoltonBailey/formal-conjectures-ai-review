@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/794: the Frankl–Füredi construction shows that the K₄⁻-free (no 4 vertices spanning 3 edges) edge density is at least 2/7. The statement gives, for every ε > 0 and large n, a 3-uniform H on Fin n without 4 vertices spanning 3 edges and with ≥ (2/7 − ε)C(n,3) edges. Faithful."
+    }
+]

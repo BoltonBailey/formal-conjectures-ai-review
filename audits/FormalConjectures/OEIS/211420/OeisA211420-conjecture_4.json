@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A211420 (Bala): for k ∈ {1,2,3} and r ≥ 1 there is C(k,r) > 0 with a(n)·C(k,r)/((kn+1)⋯(kn+r)) an integer for all n. With Mathlib's ascFactorial, (kn+1).ascFactorial r = (kn+1)(kn+2)⋯(kn+r). The statement is ∃ C > 0, ∀ n, that product divides C·a(n). Faithful."
+    }
+]

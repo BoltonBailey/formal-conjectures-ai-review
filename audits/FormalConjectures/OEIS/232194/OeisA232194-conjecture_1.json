@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A232194: a(n) is the number of ways n = x + y (x, y > 0) with nx + y and ny - x prime, conjectured > 0 for n > 2. The definition sums over 1 ≤ x < n. Natural subtraction ny - x is exact since ny ≥ n > x, and the tests match the data. Faithful."
+    }
+]

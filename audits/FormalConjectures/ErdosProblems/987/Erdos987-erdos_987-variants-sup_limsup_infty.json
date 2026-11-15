@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/987: Erdős's 'easy' remark limsup_k sup_n |Σ_{j≤n} e(kx_j)| = ∞. The statement takes the EReal limsup over k of the supremum over n and sets it to ⊤. Faithful."
+    }
+]

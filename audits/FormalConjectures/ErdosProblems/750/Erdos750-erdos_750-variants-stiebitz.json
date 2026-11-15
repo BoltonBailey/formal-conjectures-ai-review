@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Supporting result for erdosproblems.com/750, used in the linked proof. Stiebitz's theorem: graphs built from K₂ by r − 2 generalised Mycielskians have chromatic number ≥ r. genMyc s G has s levels of copies of V, edges inside level 0 as in G, edges (u,i)(v,i+1) for uv ∈ E(G), and an apex joined to the top level. That is the standard generalised Mycielskian M_s(G), with s = 1 the cone. IsRecursivelyBuiltMr encodes the class M_r with s ≥ 1 at each step. The statement r ≤ χ(G) matches the theorem (Stiebitz 1985; Gyárfás–Jensen–Stiebitz). Faithful."
+    }
+]

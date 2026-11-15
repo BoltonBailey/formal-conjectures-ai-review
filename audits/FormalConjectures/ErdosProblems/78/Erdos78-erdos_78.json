@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/78: give a constructive proof that R(k) > C^k, i.e. an explicit n-vertex graph with no clique or independent set of size ≥ c log n. Open. 'Explicit' is formalised as weakly explicit: a single poly-time adjacency oracle with n in unary, i.e. time poly(n), the weakest reasonable notion. NoHomogeneousSet G m means G and Gᶜ are both K_m-free. The statement asks for c > 0 and such an oracle, eventually in n. This is a reasonable and documented formalisation of 'explicit'. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green Problem 97 (which points to the bijection formulation) and Eberhard–Manners–Mrazović arXiv:1510.05987, who give an asymptotic for the number of pairs of bijections {1..n} → ℤ/n with π_1 + π_2 a bijection. The statement asserts s_n ~ e^{-1/2}(n!)³/n^{n-1} along odd n, matching their Theorem 1.2; s_n = 0 for even n. Faithful."
+    }
+]

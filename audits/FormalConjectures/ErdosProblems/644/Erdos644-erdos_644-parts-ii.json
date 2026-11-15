@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/644: for every r ≥ 3, is there c_r with f(k,r) = (1+o(1))c_r k? The statement is ∀ r ≥ 3, ∃ c > 0 with f(k,r) ~ c·k. `subfamilyTransversalBound` also imposes the pair-transversal condition on subfamilies with fewer than r sets. That only differs from the source for families with fewer than r members, whose transversal number is < r, so it is irrelevant asymptotically in k. f is finite (≤ 2k), so toNat is harmless, and c > 0 is automatic since f(k,r) ≥ 1 for k ≥ 1. Faithful."
+    }
+]

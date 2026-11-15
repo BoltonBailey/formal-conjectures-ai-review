@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/723: the conjecture is proved for n ≤ 11 (orders 6 and 10 are excluded by Bruck–Ryser and by Lam's computer search). Uses Mathlib's Configuration.ProjectivePlane (non-degenerate, finite here) and its order, which matches the page's notion of a finite projective plane of order n. The statement says every finite projective plane of order ≤ 11 has prime-power order. Faithful."
+    }
+]

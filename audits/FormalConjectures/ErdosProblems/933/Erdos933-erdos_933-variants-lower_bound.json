@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/933: Erdős remarks it is easy to see that 2^k 3^l > n log n for infinitely many n, and Steinerberger's n = 2^{3^r} gives this. The statement asserts this infinitude and proves it in the file via that witness (k = 3^{r+1}, l = r+2 by LTE). Faithful."
+    }
+]

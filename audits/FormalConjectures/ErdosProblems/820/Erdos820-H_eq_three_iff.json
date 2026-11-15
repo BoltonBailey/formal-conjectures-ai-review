@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma, proved: H(n) = 3 iff (2^n - 1, 3^n - 1) = 1, the equivalence stated on erdosproblems.com/820. Requiring k ≥ 2 in H is justified by the docstring, since it reproduces H(1) = 3, and n = 0 is handled consistently. Correct."
+    }
+]

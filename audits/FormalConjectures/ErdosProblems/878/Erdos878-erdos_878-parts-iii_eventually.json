@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/878: is it true for all large x? The statement negates the eventual version, backed by a linked Lean proof (Pauzner). The page leaves this unresolved, but the formalisation is faithful."
+    }
+]

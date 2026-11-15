@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/375 (Grimm's conjecture): for n, k ≥ 1, if n+1, …, n+k are all composite, are there distinct primes p_i | n+i? Erdos375Prop takes n ≥ 1 and all k (k = 0 is vacuous), with indices shifted to 0-based (p i | n+i+1) and injective p. That matches. Faithful."
+    }
+]

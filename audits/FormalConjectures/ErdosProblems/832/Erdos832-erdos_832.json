@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/832: for r ≥ 3 and large k, must every r-uniform hypergraph with chromatic number k have at least C((r-1)(k-1)+1, r) edges, with equality only for the complete hypergraph? Disproved by Alon for all r ≥ 4; r = 3 is still open. The statement negates the universal claim over r ≥ 3, which matches 'disproved' since failure at any r ≥ 4 suffices. It uses weak chromatic number exactly k and the equality case H = powersetCard r of an S of that size. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/762: Steiner constructed G with ω(G) = 4, ζ(G) = 4, χ(G) = 7. The statement asserts such a finite G exists. Faithful."
+    }
+]

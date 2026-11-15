@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma (one step of Lucas' theorem): for a prime P dividing n, if P ∤ C(n,k) then P | k. Correct and proved in the file. It supports the computation of f for n = pq."
+    }
+]

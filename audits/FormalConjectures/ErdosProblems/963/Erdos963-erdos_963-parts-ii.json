@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/963: is f(n) ≥ ⌊log₂n⌋? The statement takes A ⊂ ℝ literally, as the page does, allowing 0 and negative reals. As the docstring explains, sets {±a} make this equivalent to requiring ⌊log₂m⌋ + 1 for m positive reals. That is strictly stronger than the positive-number question Erdős [Er65] most plausibly meant (his example is a_i = i). It is also nearly tight: the forum's 13-element positive set with largest dissociated subset of size 4 gives f(26) ≤ 4 = ⌊log₂26⌋. So the formal statement could fail while the intended positive version holds. It is faithful to the page wording and transparently documented, so this is minor interpretive risk."
+    }
+]

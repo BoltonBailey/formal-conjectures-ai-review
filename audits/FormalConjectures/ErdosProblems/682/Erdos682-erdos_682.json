@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/682: for almost all n is there m ∈ (p_n, p_{n+1}) with least prime factor p(m) ≥ p_{n+1} − p_n? Solved affirmatively by Gafni–Tao. The statement says the set of such n has natural density 1, with p the 0-indexed nth prime and minFac the least prime factor (m ≥ 4 in these intervals, so minFac is genuine). The index shift does not affect density. Faithful."
+    }
+]

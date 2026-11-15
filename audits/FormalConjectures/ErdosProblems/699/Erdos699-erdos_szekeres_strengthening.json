@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/699: Erdős–Szekeres conjectured that p ≥ i can be improved to p > i except in a few special cases. The statement asserts a finite exceptional set E of triples. A computation over n < 260 found only 5 exceptions, (10,3,5), (16,2,6), (28,3,14), (28,5,14), (244,3,122), consistent with finiteness. The page's mention of failures 'when i = 2 and n being some particular powers of 2' leaves slight ambiguity about whether that family is finite, but the formalisation is a reasonable reading. Faithful."
+    }
+]

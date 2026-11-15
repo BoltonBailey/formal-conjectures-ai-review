@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/977: Lai [La21] proved limsup P(n!+1)/n ≥ 1 + 9 log 2. The statement, ∀ C < 1 + 9 log 2, frequently C·n < maxPrimeFac(n!+1), is exactly the limsup bound. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/824: 'A complete proof that h(x)/x → ∞ was provided by Pollack and Pomerance [PoPo16].' The statement is Tendsto (h x / x) atTop atTop with h as defined in the file. Faithful."
+    }
+]

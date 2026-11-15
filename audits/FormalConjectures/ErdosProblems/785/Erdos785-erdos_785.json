@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/785: for infinite A, B ⊆ ℕ with A + B containing all large integers and A(x)B(x) ~ x, is A(x)B(x) − x → ∞? Answered yes by Sárközy–Szemerédi. The statement requires infinite A, B of positive integers (0 ∉ A, B, matching A(x) = |A ∩ [1,x]|), IsAdditiveComplement (eventually n ∈ A + B), and A(x)B(x)/x → 1, and concludes A(x)B(x) − x → ∞. Faithful."
+    }
+]

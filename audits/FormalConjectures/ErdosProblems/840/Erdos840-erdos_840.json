@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/840: with A ⊆ {1,…,N} quasi-Sidon if |A+A| = (1+o(1))C(|A|,2), how does the largest such |A| grow? Quasi-Sidon is an asymptotic notion, so it only makes sense for sequences of sets. Following [Er81h] the file asks for the supremum of constants c such that there are A_N ⊆ [1,N] with |A_N| ~ c√N and |A_N + A_N| ~ C(|A_N|,2). The statement is IsLUB of that set equal to an unknown real. This is a faithful precise rendering of 'how does f(N) grow' given the known Θ(√N) behaviour, and the docstring explains it."
+    }
+]

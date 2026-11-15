@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/90: does every n-point set in ℝ² have at most n^{1+O(1/log log n)} unit distances? The page records a disproof (Sawin; Alon et al. remarks): n^{1+c} unit distances for infinitely many n. The statement negates the existence of O = O(1/log log n) with u(n) = n^{1+O(n)} eventually. The equality form is equivalent to the 'at most' form, since u(n) ≥ n-1 keeps the implied exponent bounded below by -O(1/log n). The implication from the polynomial lower bound is proved in the file. Faithful."
+    }
+]

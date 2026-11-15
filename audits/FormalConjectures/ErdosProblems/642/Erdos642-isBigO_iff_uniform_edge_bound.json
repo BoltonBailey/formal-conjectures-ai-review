@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: maxEdges = O(n) is equivalent to the existence of a constant C with |E(G)| ≤ C·n for every admissible graph on Fin n. It is a correct, proved reformulation of the question on erdosproblems.com/642; the n = 0 case is handled because maxEdges 0 = 0. Faithful."
+    }
+]

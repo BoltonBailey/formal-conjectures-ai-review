@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/591: is ω^{ω²} → (ω^{ω²}, 3)²? Proved by Schipperus and Darby. OrdinalCardinalRamsey α β c says every red/blue (IsCompl) colouring of the complete graph on α.ToType has a red clique of order type β or a blue clique of cardinality c. `ω ^ ω ^ 2` parses right-associatively as ω^(ω²). The statement is exactly the partition relation. Faithful."
+    }
+]

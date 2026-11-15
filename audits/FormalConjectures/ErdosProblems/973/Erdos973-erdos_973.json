@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/973 (Hayman 7.3): is there C > 1 such that for every n ≥ 2 some z with z_1 = 1 and |z_i| ≥ 1 has max_{2≤k≤n+1} |Σ z_i^k| < C^{-n}? The page records no resolution, but Luo–Yang–Zhu arXiv:2607.22017 prove the maximum exceeds e^{-λn} for every λ > 0 and large n, so no such C exists; a Lean proof is linked. The statement negates the existence of C, with indices in Icc 1 n. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A069191, Sun's second claim: for n ≥ 24 the eigenvalues can be ordered so that λ(1) > -λ(2) > λ(3) > … > (-1)^{n-1}λ(n) > 0. OEIS writes the last term as (-1)^n λ(n), a typo given the pattern. The statement asks for real ev with charpoly = ∏(X - ev i), with (-1)^i·ev i strictly decreasing and positive (0-indexed). That is exactly the alternating pattern; real eigenvalues exist because M is symmetric. Faithful."
+    }
+]

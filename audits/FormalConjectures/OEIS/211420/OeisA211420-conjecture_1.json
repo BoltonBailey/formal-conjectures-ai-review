@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A211420, a(n) = (8n)!n!/((4n)!(3n)!(2n)!), and Bala's comment that 35·a(n)/(n+1) is an integer.  is the exact quotient (the sequence is integral by Bober), the tests match the data 1, 140, 60060, …, and the statement is (n+1) | 35·a(n). Faithful."
+    }
+]

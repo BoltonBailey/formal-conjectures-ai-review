@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/775: Gao [Ga25] proved that every k-uniform hypergraph (k ≥ 3) on n vertices has at most n − f_k(n) distinct clique sizes, with f_k(n) → ∞. The statement is the k = 3 case: ∃ f → ∞ with |cliqueSizes H| + f(n) ≤ n eventually, for all 3-uniform H on Fin n. cliqueSizes is the set of sizes of maximal complete vertex sets, i.e. the page's 'maximal complete subgraphs'. Faithful."
+    }
+]

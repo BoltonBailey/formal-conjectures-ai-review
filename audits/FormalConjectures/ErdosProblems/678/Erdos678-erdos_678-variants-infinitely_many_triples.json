@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/678: the literal question, read with infinitely many triples (k, m, n), k ≥ 3, m ≥ n + k, M(n,k) > M(m,k+1). The statement asserts this set of triples is infinite, which follows from Cambie's result. Faithful."
+    }
+]

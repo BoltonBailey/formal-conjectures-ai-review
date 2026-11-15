@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/406: with only digits 1 and 2 allowed, 2^15 seems to be the largest such power of 2. I checked computationally that among 2^k with k < 2000, only k = 3, 4, 15 have base-3 digits in {1,2}. The statement asserts 2^15 is the greatest such power, correctly tagged open. Faithful."
+    }
+]

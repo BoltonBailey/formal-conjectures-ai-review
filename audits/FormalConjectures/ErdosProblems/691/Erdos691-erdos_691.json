@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/691: given A ⊆ ℕ, find a necessary and sufficient condition for M_A = {n ≥ 1 : a | n for some a ∈ A} to have density 1. The statement asks for an answer predicate equal (as a function) to A ↦ HasDensity (multiples A) 1. That is the standard question-value form, with adequacy of the condition left to human judgement. multiples matches M_A. Faithful."
+    }
+]

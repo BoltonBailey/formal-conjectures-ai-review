@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/578 (Erdős–Bollobás, solved by Riordan): a random graph G(2^d, 1/2) almost surely contains a copy of Q_d. The statement uses binomialRandom on the vertex type Fin d → Bool (2^d vertices) with p = 1/2, and asserts P(Q_d ⊆ G) → 1. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/672: can the product of an AP n, n+d, …, n+(k−1)d of positive integers with k ≥ 4 and (n,d) = 1 be a perfect power? Erdős believed not. Erdos672With k l says that for every k-element s ⊆ ℕ that is an AP with first term n > 0, difference d > 0 and gcd(n,d) = 1, the product is not an l-th power. Following the @[question] convention, the statement is the proposition asked: ∃ k ≥ 4, l > 1 with ¬Erdos672With k l. Faithful (the expected answer is no, so this is believed false)."
+    }
+]

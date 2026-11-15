@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/917: Stiebitz's constructions give f_k(n) ≥ ½(1 - 1/(⌊k/3⌋ + δ_k))n² infinitely often, with δ_k > 0 for k ≢ 0 (mod 3). This exceeds the conjectured value by a constant factor, so the asymptotic fails. The statement asserts this for each such k ≥ 6. Faithful."
+    }
+]

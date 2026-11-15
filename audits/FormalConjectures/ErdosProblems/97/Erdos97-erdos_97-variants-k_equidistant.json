@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/97: 'If this fails for 4, perhaps there is some constant for which it holds?' The statement ∃ k, every nonempty convex polygon has a vertex without k equidistant others is the correct proposition. But the page records the resolution: for all large n there are convex polygons in which every vertex has ≫ log log n vertices at unit distance, so for every k the property holds for some convex polygon and the answer is no. The declaration is still tagged open and not negated, so as written it is false. The formulation is right, but the status is out of date."
+    }
+]

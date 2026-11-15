@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/687: Maier and Pomerance conjectured Y(x) ≪ x(log x)^{2+o(1)}. The statement reads this as Y(x) = O(x(log x)^{2+ε}) for every ε > 0, the standard unpacking of the o(1) in the exponent. Faithful."
+    }
+]

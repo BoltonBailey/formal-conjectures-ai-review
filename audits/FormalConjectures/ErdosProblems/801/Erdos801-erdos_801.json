@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/801 (proved by Alon): if an n-vertex G has no independent set of more than n^{1/2} vertices, there is a set of ≤ n^{1/2} vertices spanning ≫ n^{1/2} log n edges. The statement asserts c > 0 such that, for large n, α(G) ≤ √n implies some S with |S| ≤ √n and ≥ c√n log n edges in G[S]. Faithful."
+    }
+]

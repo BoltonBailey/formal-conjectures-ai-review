@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/389 (Erdős–Straus): is it true that for every n ≥ 1 there is k with n(n+1)⋯(n+k-1) | (n+k)⋯(n+2k-1)? The statement requires k ≥ 1, which excludes the trivial k = 0 (1 | 1), and matches. Faithful."
+    }
+]

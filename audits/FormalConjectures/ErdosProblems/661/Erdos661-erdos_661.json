@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/661: for all large n, are there x₁,…,x_n, y₁,…,y_n ∈ ℝ² with o(n/√log n) distinct distances d(x_i, y_j)? minimalCrossDistances ℝ² n is the minimum over disjoint n-sets A, B of the number of cross distances. Requiring the 2n points to be distinct is the necessary non-degeneracy (otherwise there is one distance), and the docstring explains it. The question is stated as F(n) = o(n/√log n), which is equivalent since the minimum is attained. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/613: for n ≥ 3, must every graph with C(2n+1,2) - C(n,2) - 1 edges be a union of a bipartite graph and a graph of maximum degree < n? Disproved by Pikhurko; it already fails at n = 5, which Tao formalised. The statement negates the universal claim over finite graphs of any order with exactly that many edges. The counterexamples have fewer edges, but adding edges preserves non-decomposability, so the exact edge count is reachable. The DecidableRel binders inside ∃ B D are awkward but harmless, since degree does not depend on the instance. Faithful."
+    }
+]

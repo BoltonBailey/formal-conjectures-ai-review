@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green Problem 97: an asymptotic (not just for the log) for T(n) remains open. The statement asks for answer with T(n) ~ answer along n ≡ 1, 5 (mod 6). Faithful."
+    }
+]

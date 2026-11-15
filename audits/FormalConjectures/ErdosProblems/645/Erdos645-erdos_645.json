@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/645: in any 2-colouring of ℕ there is a monochromatic 3-AP x, x+d, x+2d with d > x (proved by Brown–Landman). The statement asserts this for every c : ℕ → Bool with 0 < x < d. The requirement x > 0 matches ℕ as the positive integers and avoids the degenerate x = 0. Faithful."
+    }
+]

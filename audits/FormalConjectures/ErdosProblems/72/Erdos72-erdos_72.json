@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/72: is there a density-0 set A and c > 0 such that every graph on sufficiently many vertices with average degree ≥ c has a cycle of length in A? Solved by Verstraëte, and by Liu–Montgomery for powers of 2. The statement asserts ∃ A with HasDensity 0 and rational c > 0 such that, eventually in n, every G on Fin n with averageDegree ≥ c has a cycle of length in A. Faithful."
+    }
+]

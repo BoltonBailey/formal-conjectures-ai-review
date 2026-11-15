@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/437: can there be more than x^{1−ε} square partial products, for every ε > 0? Yes (BPZ24, via Tao). L x is the maximum number of square partial products a₁⋯a_i of a strictly increasing list in [1,x], as on erdosproblems.com/437; the set is bounded by x, so the sSup is a maximum. The statement: for every ε > 0, eventually x^{1−ε} < L x. Faithful."
+    }
+]

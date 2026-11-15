@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A227923: '6x−1 is a Sophie Germain prime' is encoded as 6x−1 and 2(6x−1)+1 = 12x−1 both prime. Conjecture (i), second part: any n > 4 other than 13 is x + y with x ≠ y, both > 1, 6x−1 Sophie Germain and {6y−1, 6y+1} twin primes. The statement matches. Faithful."
+    }
+]

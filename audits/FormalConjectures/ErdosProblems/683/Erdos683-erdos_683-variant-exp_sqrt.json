@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/683: heuristics suggest P(C(n,k)) > e^{c√k} for k ≤ n/2. The statement uses min(n−k+1, e^{c√k}), which is necessary for the same n = 2k reason, and is tagged open. Faithful."
+    }
+]

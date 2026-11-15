@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/906: is there a nonzero entire f such that for every infinite n_1 < n_2 < …, the zeros of f^{(n_k)} (over all k) are dense? The page notes Tang's observation that polynomials make it trivial, so f is presumably meant to be transcendental. The statement requires Transcendental (Polynomial ℂ) f (not algebraic over polynomial functions, which for entire functions means not a polynomial), Differentiable ℂ f, and density for every strictly increasing n. That is the intended reading, and nonzero-ness follows from transcendence. The page is unclear on status (Erdős claimed a solution without reference), so the open tag is reasonable. Faithful."
+    }
+]

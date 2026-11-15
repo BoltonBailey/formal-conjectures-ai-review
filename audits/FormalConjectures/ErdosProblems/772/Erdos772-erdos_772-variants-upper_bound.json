@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdős [Er84d] proved H_k(n) ≪ n^{2/3} with an absolute constant. The statement restricts to k ≥ 4, and the docstring correctly explains why the ordered-pair convention forces this (k ≤ 3 makes the bound false or degenerate). It asserts an absolute C with H_k(n) ≤ Cn^{2/3} eventually for each k ≥ 4. A careful, faithful formalisation."
+    }
+]

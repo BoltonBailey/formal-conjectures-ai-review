@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/567: is H₅ (C₅ plus two vertex-disjoint chords, equivalently K₄ with one edge subdivided) Ramsey size linear? H5 = cycleGraph 5 ⊔ edge 0 2 ⊔ edge 1 3. The chords {0,2} and {1,3} are disjoint, and the result is K₄ on {0,1,2,3} with edge 03 subdivided by vertex 4, which matches. The statement is IsRamseySizeLinear H5. Faithful."
+    }
+]

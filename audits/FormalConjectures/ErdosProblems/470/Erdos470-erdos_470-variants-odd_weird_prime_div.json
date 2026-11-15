@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/470: Liddy–Riedl showed an odd weird number has at least 6 prime divisors. The statement counts distinct prime divisors, ≥ 6, for odd weird n. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: the maximum-degree vertices of the counterexample are exactly v₁ and v₁₁ (degree 4: two path neighbours plus two triangle vertices). Correct, and checked by decide."
+    }
+]

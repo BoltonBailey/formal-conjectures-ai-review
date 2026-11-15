@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/382: Erdős–Graham report that Ramachandra's results give v - u ≤ v^{1/2+o(1)}. The statement asserts v - u ≤ v^{1/2+ε} for every ε > 0, for all large v and all admissible u. Faithful."
+    }
+]

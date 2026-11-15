@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/476 (Erdős–Heilbronn, proved by Dias da Silva–Hamidoune): for A ⊆ 𝔽_p, |{a+b : a ≠ b ∈ A}| ≥ min(2|A| - 3, p). The statement uses restrictedSumset in ZMod p. Natural truncation makes the bound 0 for |A| ≤ 1, which is correct since the restricted sumset is then empty. Faithful."
+    }
+]

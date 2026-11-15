@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/950: if π(x) < π(y) + O((x-y)/log x) for all y < x - (log x)^C, for some C > 0, then f(n) ≪ log log log n. The statement makes the O explicit with a constant K, eventually in x, and concludes f = O(log log log n). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/877: Łuczak and Schoen proved f_m(n) < 2^{cn} for some c < 1/2 (for large n). The statement gives ∃ c < 1/2 with fm n ≤ 2^{cn} eventually. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A forum-derived variant of erdosproblems.com/872: every maximal primitive subset of {2..n} has at least π(n) elements, so every completed play lasts ≥ π(n) moves. The docstring gives a correct proof sketch (each largest prime power q^k ≤ n is comparable with a distinct element of A) and a literature reference, and a Lean proof is linked. The statement matches. Faithful."
+    }
+]

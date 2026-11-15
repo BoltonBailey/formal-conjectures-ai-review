@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Specker's theorem ω² → (ω², 3)², cited for context on erdosproblems.com/590 (in the reference list). The statement is OrdinalCardinalRamsey (ω²) (ω²) 3. Faithful."
+    }
+]

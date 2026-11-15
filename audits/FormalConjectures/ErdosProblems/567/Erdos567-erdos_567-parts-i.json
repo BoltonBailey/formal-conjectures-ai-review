@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/567: is Q₃ Ramsey size linear, i.e. R(Q₃, H) ≪ m for every H with m edges and no isolated vertices? Q3 is hypercube 3 (Hamming-distance-1 adjacency on 3-bit vectors). IsRamseySizeLinear G asks for c > 0 with graphRamsey G H ≤ c·|E(H)| for all finite H without isolated vertices (the n = 0 case is trivial). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/522, which notes the ambiguity over whether the coefficients are {-1,1} or {0,1}. This is the {0,1} reading: R_n/(n/2) → 1 almost surely for i.i.d. uniform {0,1} coefficients. A Lean proof is linked. The outer binder {n} (hn : 1 ≤ n) is unused: it is shadowed by the n of the limit, so it is harmless noise and does not change the meaning. The zero polynomial, whose root multiset is empty in Mathlib, occurs with probability 2^{-(n+1)} and does not affect the a.s. limit. Faithful."
+    }
+]

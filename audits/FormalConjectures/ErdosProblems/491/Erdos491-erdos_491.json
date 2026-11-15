@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/491: if f : ℕ → ℝ is additive and |f(n+1) − f(n)| < c for all n, must f(n) = c' log n + O(1)? Answered yes by Wirsing. The statement requires additivity on coprime positive a, b, a uniform bound on consecutive differences (the n = 0 instance only constrains the irrelevant value f(0) to be finite-distance from f(1)), and concludes f n − c log n = O(1) at atTop. Faithful."
+    }
+]

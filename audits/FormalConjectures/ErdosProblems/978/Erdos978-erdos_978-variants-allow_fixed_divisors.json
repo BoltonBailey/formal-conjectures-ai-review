@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/978: the page notes that the no-fixed-(k-2)-power-divisor assumption, which Erdős left implicit, is necessary. This variant formalises that necessity. It negates the version that excludes only fixed (k-1)-th power divisors, and it is witnessed by e.g. degree 6, where 2^4 can be a fixed divisor. The negation is placed correctly and carries a formal proof link. Faithful as a variant."
+    }
+]

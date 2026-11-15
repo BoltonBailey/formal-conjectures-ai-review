@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/602 (Komjáth): for a family of countably infinite sets with pairwise intersections finite and of size ≠ 1, is there a 2-colouring of ∪A_i with no A_i monochromatic? Open; the forum gives only partial results (Bernstein, Miller). The statement quantifies over an arbitrary ground type α, which is equivalent to colouring ∪A_i since colours outside the union are irrelevant. The hypotheses are countable and infinite, finite intersections, and ncard ≠ 1, with the conclusion HasPropertyB. Repeated sets are excluded automatically because their intersection is infinite. Faithful."
+    }
+]

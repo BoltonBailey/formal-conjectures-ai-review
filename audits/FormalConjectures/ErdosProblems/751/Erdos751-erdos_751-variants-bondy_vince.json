@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/751: Bondy and Vince proved that every graph with minimum degree ≥ 3 has two cycles whose lengths differ by at most 2. The statement asserts this for finite graphs with minDegree ≥ 3, with distinct lengths m < m' ≤ m + 2. Faithful."
+    }
+]

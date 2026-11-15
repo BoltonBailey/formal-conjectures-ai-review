@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/725: give an asymptotic formula for the number of k×n Latin rectangles. L(k,n) counts labelled k×n arrays over Fin n with injective rows and columns, and the L_one test gives n!. The statement asks for a two-variable formula F(k,n) with L(k(n),n) ~ F(k(n),n) for every k(n) ≤ n, i.e. a uniformly valid asymptotic formula. Since the source explicitly asks for an asymptotic formula, ~ is the right notion. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/572: show ex(n; C_{2k}) ≫ n^{1+1/k} for k ≥ 3. Open in general; Benson proved k = 3 and k = 5. The statement, for each k ≥ 3, asks for c > 0 with c·n^{1+1/k} ≤ extremalNumber n (cycleGraph (2k)) eventually. Stating it per k is fine, since the open status refers to general k. Faithful."
+    }
+]

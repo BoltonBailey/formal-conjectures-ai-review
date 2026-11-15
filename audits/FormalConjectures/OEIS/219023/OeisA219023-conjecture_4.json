@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A219023 (Sun): for n > 4517 there is a prime p ∈ (n, 2n) with n²-n-p and n²+n+p prime. The statement matches, and n²-n-p ≥ n²-3n > 0. Faithful."
+    }
+]

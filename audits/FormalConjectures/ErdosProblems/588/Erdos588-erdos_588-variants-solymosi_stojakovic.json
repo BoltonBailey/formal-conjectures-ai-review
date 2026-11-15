@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/588: Solymosi–Stojaković showed f_k(n) ≫_k n^{2 − O_k(1/√log n)}. The statement gives, for each k ≥ 4, c, C > 0 with c·n^{2 − C/√(log n)} ≤ f_k(n) eventually. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/730, which gives (87,88) and (607,608) as examples of n ≠ m whose central binomial coefficients have the same prime divisors. The statement says both pairs lie in S (n < m with equal primeFactors of centralBinom), and it is proved by computation in the file. Faithful."
+    }
+]

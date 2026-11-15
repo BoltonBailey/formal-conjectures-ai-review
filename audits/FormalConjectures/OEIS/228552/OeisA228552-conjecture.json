@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A228552: a(n) = sqrt|A069191(n)|, the determinant of the prime-sum indicator matrix, conjectured > 0 for all n > 15. The definition uses Nat.sqrt of natAbs of the determinant. That is exact because |det| is a perfect square, and in any case floor-sqrt > 0 iff det ≠ 0. The tests match the data. The statement asserts a n > 0 for n > 15. Faithful."
+    }
+]

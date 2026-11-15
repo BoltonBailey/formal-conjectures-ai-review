@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A262880 comment (i): every positive integer is w(w+1)/2 + x³ + b·y³ + c·z³ with w > 0 and x, y, z ≥ 0, for (b,c) in the listed 18 pairs. `pairs1` reproduces the list exactly, Nat.triangular w = w(w+1)/2, and the statement requires 0 < w and n > 0. Faithful."
+    }
+]

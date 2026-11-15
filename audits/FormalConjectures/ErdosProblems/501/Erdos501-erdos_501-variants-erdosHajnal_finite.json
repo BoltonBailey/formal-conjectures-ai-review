@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/501: Erdős–Hajnal [ErHa60] proved that, under the first question's assumptions (bounded A_x of outer measure < 1), there are arbitrarily large finite independent sets. The statement gives, for every n and such A, a Finset X with n ≤ |X| that is pairwise independent. Faithful. The @[question] tag on a positive solved result is harmless."
+    }
+]

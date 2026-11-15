@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Supporting variant for erdosproblems.com/661: splitting 2n points of a square grid gives F(n) = O(n/√log n), by Erdős 1946. The statement is minimalCrossDistances ℝ² n = O(n/√log n). It is correct, and it makes clear that the question asks for an improvement beyond a constant factor."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A069191: M(n) has (i,j)-entry 1 if i+j is prime (1 ≤ i, j ≤ n). Zhi-Wei Sun conjectured that for n ≥ 24 its characteristic polynomial is irreducible over ℚ. primeMatrix uses 0-indexed i+j+2, which is equivalent, and the determinant tests match the data. The statement asserts that charpoly over ℚ is irreducible for n ≥ 24. Faithful."
+    }
+]

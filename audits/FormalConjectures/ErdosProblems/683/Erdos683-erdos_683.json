@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/683: is there c > 0 with P(C(n,k)) ≥ min(n−k+1, k^{1+c}) for all 1 ≤ k ≤ n? The statement restricts to 0 < k ≤ n/2, which loses nothing. For k > n/2, write k' = n−k < k. Then min(n−k+1, k^{1+c}) ≤ k'+1, and P(C(n,k')) > k' by Sylvester–Schur, so the large-k range is automatic. P n k is the largest prime factor of C(n,k). Faithful."
+    }
+]

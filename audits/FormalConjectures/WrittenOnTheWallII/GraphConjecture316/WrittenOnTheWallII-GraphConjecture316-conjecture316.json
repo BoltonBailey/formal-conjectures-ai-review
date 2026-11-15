@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against WOWII 316 (Wayback all.html, raw HTML shows an overline on G, i.e. the complement; defs 94, 23, 31, 99): for simple connected G with n > 1 and P the pendant vertices, if |P| ≥ deg_avg(Ḡ) then G is well totally dominated (every minimal total dominating set is minimum). The statement uses averageDegree Gᶜ ≤ |pendantVertices G|, and IsWellTotallyDominated says all minimal total dominating sets have equal size, which is equivalent. The source's n > 1 is dropped, but for K₁ there is no total dominating set, so the conclusion holds vacuously and nothing changes. Faithful."
+    }
+]

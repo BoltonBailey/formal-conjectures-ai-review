@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/464: for a lacunary A = {n₁ < n₂ < ⋯}, must there be an irrational θ with {‖θn_k‖} not dense in [0,1]? Answered yes by de Mathan and Pollington. The literal 'dense in [0,1]' is vacuous, since ‖·‖ ≤ 1/2. The file uses the intended reading that (θn_k) is not dense mod 1, implied by inf‖θn_k‖ > 0, and explains this. IsLacunary only requires eventual lacunarity. That weakens the hypothesis harmlessly: adding finitely many points to a non-dense set on the circle keeps it non-dense, so the result still holds. Faithful."
+    }
+]

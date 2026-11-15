@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/395: Erdős's original version with 1 in place of √2 is false (Carnielli–Carolino). With z_1 = 1, z_k = i and n even, the imaginary part is a sum of an odd number of ±1, so |Σ| ≥ √2 > 1 and the count is 0. The statement negates the existence of a uniform c > 0. Faithful."
+    }
+]

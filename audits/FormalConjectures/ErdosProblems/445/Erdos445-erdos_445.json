@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Erdos445Prop c p n says there are a, b ∈ (n, n + p^c) with ab ≡ 1 (mod p), matching erdosproblems.com/445. Question: for any c > 1/2 and all sufficiently large primes p, does this hold for every n ≥ 0? The statement quantifies exactly so: for each c > 1/2, eventually in p, primality of p implies the property for all n. Faithful."
+    }
+]

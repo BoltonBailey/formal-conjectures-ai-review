@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/890: is limsup (Σ_{0≤i<k} ω(n+i))·log log n/log n = 1? The statement asserts this for every k ≥ 1 (the page leaves k implicit, the natural reading), with the limsup in EReal. Faithful."
+    }
+]

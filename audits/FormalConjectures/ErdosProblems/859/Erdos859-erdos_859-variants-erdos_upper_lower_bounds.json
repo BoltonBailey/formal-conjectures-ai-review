@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/859: Erdős proved that d_t exists and 1/(log t)^{c₃} < d_t < 1/(log t)^{c₄} for some c₃, c₄ > 0. DivisorSumSet t is the set of n for which t is a sum of distinct divisors of n. The statement asserts, for all large t, a density d_t strictly between those bounds. The extra existential t₀ is unused but harmless. Faithful."
+    }
+]

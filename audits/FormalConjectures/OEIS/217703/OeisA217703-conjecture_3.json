@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A217703 (iii): |a(n)|^{1/n} = o(n²). Disproved per the docstring, with a linked Lean proof. The statement negates |a(n)|^{1/n}/n² → 0. Faithful."
+    }
+]

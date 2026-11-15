@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/917: Erdős observed that for 3 | k and n = mk/3 with m odd, f_k(n) ≥ ½(1 - 1/(k/3))n² + n. The statement matches for odd m ≥ 3. k = 3 is also included and is true, since odd cycles have m edges. Faithful."
+    }
+]

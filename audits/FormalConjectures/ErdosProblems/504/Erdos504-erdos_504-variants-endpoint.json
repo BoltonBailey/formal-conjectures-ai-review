@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/504, which records α_{2^n−1} = π(1−1/n) from [ErSz60]. Statement is minimaxAngle (2^n − 1) = (1 − 1/n)π for n ≥ 3, with natural subtraction harmless since 2^n ≥ 1. Faithful."
+    }
+]

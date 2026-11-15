@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Stoll (2005), Theorem 3: for t = w/g^m ∈ [1,g), a = g/((g−1)(t+g)), b = g/a = (g−1)(t+g), and −1/g ≤ ε < (g+1)(g−2)/g, u_{2n+1} − g·u_{2n−1} is the n-th g-ary digit. With generalRecurrence k = u_{k+1}, the statement's generalRecurrence(2n+2) − g·generalRecurrence(2n) is u_{2n+3} − g·u_{2n+1}, the (n+1)-th digit, and ⌊t·gⁿ⌋ − g⌊t·gⁿ/g⌋ is exactly that digit (leading digit at n = 0). Parameters and ε-range match the paper. Faithful."
+    }
+]

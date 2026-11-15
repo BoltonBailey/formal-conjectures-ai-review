@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/853: with d_n = p_{n+1} − p_n, let r(x) be the smallest even t not equal to any d_n with n ≤ x; is r(x) → ∞?  takes the least positive even t not attained by primeGap n for n ≤ x (0-indexed primes, an index shift of one that is irrelevant to the limit). Excluding t = 0 is correct. Tendsto r atTop atTop matches. Faithful. Note that the page asks this as a question but the declaration has no @[question] tag."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/598: with κ = (2^ℵ₀)⁺, can the countable subsets of an infinite cardinal m be coloured with κ colours so that every X ⊆ m with |X| = κ contains subsets of every colour? The statement colours {s : Set m // s.Countable}, which in Mathlib includes finite subsets, and requires every κ-sized X to realise all colours among its countable subsets. In the set-theoretic partition-calculus setting, 'countable subsets' most likely means [m]^{ℵ₀}, the countably infinite subsets. Allowing finite subsets (including singletons and pairs) to carry colours gives the colouring more freedom and changes the combinatorial problem; pair colourings relate to different partition relations. A colouring of the infinite sets extends to one of the formal version, but not conversely, so the formal statement may be easier than intended. The rest (κ as Order.succ (2^ℵ₀), quantifying over all infinite m) is faithful."
+    }
+]

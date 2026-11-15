@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green Problem 74: 'I do not know if there can be such a set of size N^{d-100}.' The statement reads this as: for every d, f(d,N) ≥ N^{d-100} for all large N. Truncated subtraction makes d ≤ 100 trivial, and the docstring notes that Green's 100 presumably stands for an absolute constant. This is a reasonable, documented reading. Faithful."
+    }
+]

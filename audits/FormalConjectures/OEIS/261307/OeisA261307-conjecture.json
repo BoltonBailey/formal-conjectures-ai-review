@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A261307: a(1) = 1, a(n+1) = |a(n) - gcd(a(n), 7n+6)|, with the conjecture that for all n > 2, a(n) = 0 implies 7n+6 (= a(n+1)) is prime. The recurrence is indexed correctly (a(k+1) uses 7k+6), and the tests match the data 1, 0, 20, 19, 18. The statement matches. Faithful."
+    }
+]

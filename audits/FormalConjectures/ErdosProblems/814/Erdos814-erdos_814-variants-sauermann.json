@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/814: Sauermann proved the conjecture with c_k ≫ 1/k³. The statement gives one absolute C > 0 such that for all k ≥ 2, n ≥ k−1 and G with at least the threshold number of edges there is a nonempty S with |S| ≤ (1 − C/k³)n and G[S] of minimum degree ≥ k. That is the uniform form of c_k ≫ 1/k³. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/689: for large n, is there a choice of classes a_p for the primes p ≤ n such that every integer in [1,n] satisfies at least two of the congruences ≡ a_p (mod p)? The statement asks, for all large n, for a : ℕ → ℕ such that each m ∈ [1,n] has ≥ 2 primes p ≤ n with a p ≡ m (mod p). Faithful. The 'solved' status rests on the cited Chojecki preprint and the linked Lean proof; the erdosproblems page text does not yet record a resolution (only a proof claim)."
+    }
+]

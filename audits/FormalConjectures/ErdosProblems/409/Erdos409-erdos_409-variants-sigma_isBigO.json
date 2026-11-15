@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/409: as for the φ version, asking for some g with c = O(g) is trivially satisfiable (take g = c), so the formal statement has no content beyond the subjective 'simplest g', as the docstring acknowledges."
+    }
+]

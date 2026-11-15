@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/918: the '= ℵ₀' variant of the second question, here for induced subgraphs. The page only asserts impossibility for general subgraphs, but this version is also true. A colouring with ℵ₁ colours of ℵ_{ω+1} vertices has a colour class of size ℵ_{ω+1}, since cf(ℵ_{ω+1}) > ℵ₁, and an ℵ_ω-subset of it induces an edgeless graph with χ = 1. A Lean proof is linked. Faithful."
+    }
+]

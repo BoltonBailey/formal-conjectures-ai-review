@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/835: for odd k > 2, k+1 is even and composite, so Ma–Tang give χ(J(2k,k)) > k+1. The statement matches, and a proof is linked. Faithful."
+    }
+]

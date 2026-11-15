@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/955 (EGPS90 conjecture): if A ⊆ ℕ has density 0 then s⁻¹(A) has density 0, with s(n) = σ(n) − n. The statement is ∀ A with HasDensity 0, {x | s x ∈ A} has density 0. Faithful (tagged @[question], though the page states it as a conjecture; harmless)."
+    }
+]

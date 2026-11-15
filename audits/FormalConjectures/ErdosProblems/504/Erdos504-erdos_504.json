@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/504: α_N is the supremum of α ∈ [0,π] such that every N-point planar set has three distinct points with angle ≥ α; Erdős–Szekeres [ErSz60] showed α_{2^n} = π(1−1/n). `minimaxAngle` encodes this definition over Finset ℂ with the angle at the middle point and pairwise distinct points; the defining set is nonempty (contains 0) and bounded by π, so sSup is the intended value. The theorem restricts to n ≥ 3, which only weakens the claim (n = 2 also holds). Faithful."
+    }
+]

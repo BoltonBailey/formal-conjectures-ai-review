@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "f(n) counts the sum-free subsets of [1,n] (IsSumFree, i.e. no a = b + c with a, b, c ∈ A), as on erdosproblems.com/748. The trivial bound f(n) ≥ 2^{n/2} comes from the subsets of (n/2, n], which has ⌈n/2⌉ elements. The docstring correctly notes that the page's [n/2, n] is not sum-free for even n. The statement 2^{n/2} ≤ f(n) holds for all n. Faithful."
+    }
+]

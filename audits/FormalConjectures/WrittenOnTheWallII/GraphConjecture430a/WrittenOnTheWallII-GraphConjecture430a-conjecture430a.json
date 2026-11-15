@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against WOWII Conjecture 430a: for connected G on n > 3 vertices with center C, i(G) ≤ α(G[N(C)]) + 2·⌊CW(G) - 1⌋, where CW is the Caro–Wei sum. The statement negates this, using N(C) as the union of open neighbourhoods and the exact rational Caro–Wei sum. I verified the documented counterexample by computation: the P₇ clique blow-up with blobs (1,4,12,19,12,4,1) has 53 vertices, center = the middle blob, α(G[N(C)]) = 2, CW ≈ 1.998 (floor term 0) and independent domination number 3, so 3 ≤ 2 fails. Faithful."
+    }
+]

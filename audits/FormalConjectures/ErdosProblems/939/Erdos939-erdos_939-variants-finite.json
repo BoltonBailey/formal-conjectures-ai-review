@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/939: 'Are there at most finitely many such solutions?' (sums of r−2 coprime r-powerful numbers that are r-powerful, r ≥ 4). The page records the GPT-5.5 Pro construction giving infinitely many for every r ≥ 6. The statement negates ∀ r ≥ 4, (Erdos939Sums r).Finite, which follows. Erdos939Sums uses positive distinct summands, collective gcd 1 (matching Cambie's examples, which are not pairwise coprime), r-full summands, and an r-full sum. Faithful."
+    }
+]

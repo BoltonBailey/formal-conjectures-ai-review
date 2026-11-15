@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/902: f(n) is the least number of vertices of a tournament in which every n-set is dominated by some other vertex; estimate f(n).  is sInf of m ≥ n admitting a tournament on Fin m with HasPropertyS (some x ∉ E beats every vertex of E). Excluding m < n, where S_n holds vacuously, is correct. The statement asks for a Θ-estimate, a reasonable reading of 'estimate' given the gap between n2^n and n²2^n. Faithful."
+    }
+]

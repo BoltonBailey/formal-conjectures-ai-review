@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the AFM25 abstract (f(n) ≤ (c + o(1))n/(log₂ n)² with c < 3.72) and erdosproblems.com/627 ('≈ 3.7'). The statement uses c = 3.71943, attributed to AFM25 Theorem 1.3, which is consistent with c < 3.72. Faithful."
+    }
+]

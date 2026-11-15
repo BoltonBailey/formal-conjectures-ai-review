@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Consequence of Korsky's bound: h(n) is not O((n log n)^{1/3}), since √(n log log n/log n) grows faster. It is correct and properly derived, with a linked proof. Consistent with erdosproblems.com/789. Faithful."
+    }
+]

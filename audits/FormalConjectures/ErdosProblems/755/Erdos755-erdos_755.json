@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/755: any n points in ℝ⁶ form at most (1/27 + o(1))n³ unit equilateral triangles (proved, in a stronger any-size form, by Clemen–Dumitrescu–Liu). TUnit 6 n is the maximum over n-point sets in EuclideanSpace ℝ (Fin 6) of the number of 3-subsets with all pairwise distances 1. The statement gives an o(1) function with TUnit ≤ (1/27 + o(n))n³ eventually. Faithful. The page states this as a claim, while the file tags it @[question]; that is harmless."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/428: is there A ⊆ ℕ such that for infinitely many n, n - a is prime for every a ∈ A with 0 < a < n, and liminf |A ∩ [1,x]|/π(x) > 0? The statement matches. The real-valued liminf is well-defined here: at the infinitely many good n, the n - a are distinct primes below n, so the ratio is frequently ≤ about 1, and the ratio is ≥ 0. Mathlib's junk value is therefore not triggered. Faithful."
+    }
+]

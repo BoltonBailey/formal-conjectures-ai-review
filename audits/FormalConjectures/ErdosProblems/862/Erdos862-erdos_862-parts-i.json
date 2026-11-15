@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A₁(N) is the number of maximal Sidon subsets of [1,N] (IsMaximalSidonSetIn: Sidon, and no further element of [1,N] can be added), as on erdosproblems.com/862. Question: is A₁(N) < 2^{o(N^{1/2})}? The answer is no, via Saxton–Thomason (A₁(N) ≥ 2^{(0.16+o(1))√N}). The statement negates log₂ A₁(N) = o(√N), which is the negation of the question. Faithful."
+    }
+]

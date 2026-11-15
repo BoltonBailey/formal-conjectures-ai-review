@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Proved: the definitional unfolding of membership in ternaryBasis = {2a+1, 4a : a ∈ Ternary01}. Trivially correct. These are private API lemmas supporting the formal disproof of Kelly's conjecture, which erdosproblems.com/338 reports was disproved by Hennecart: there is a basis of order 2 with no restricted order 3. Faithful."
+    }
+]

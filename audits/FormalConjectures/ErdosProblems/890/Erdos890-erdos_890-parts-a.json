@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/890: with ω_k(n) the number of distinct prime factors > k, is liminf_n Σ_{0≤i<k} ω_k(n+i) ≤ k for every k ≥ 1? The page explains this is the corrected form of [ErSe67]. omegaGt k n counts the prime factors > k, and the statement takes the liminf in EReal of the sum over range k and compares it to k. Faithful."
+    }
+]

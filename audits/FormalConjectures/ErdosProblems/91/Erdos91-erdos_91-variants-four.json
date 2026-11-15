@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/91: for n = 4 the square and two equilateral triangles sharing an edge are non-similar minimisers. The statement asserts ¬UniqueMinimizer 4. Faithful."
+    }
+]

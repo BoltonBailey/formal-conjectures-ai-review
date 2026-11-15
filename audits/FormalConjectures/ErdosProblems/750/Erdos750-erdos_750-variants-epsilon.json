@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/750: Erdős conjectured, and it follows from Erdős–Hajnal–Szemerédi, that for f(m) = εm there is a graph of infinite chromatic number in which every m-vertex subgraph has an independent set of size ≥ m/2 − εm. The statement quantifies over ε > 0 in ℝ≥0, asks for G with chromaticNumber = ⊤, and requires every m-subset S to contain an independent I with m/2 − εm ≤ |I|. The comparison is in ℝ≥0, where truncation is harmless. Faithful."
+    }
+]

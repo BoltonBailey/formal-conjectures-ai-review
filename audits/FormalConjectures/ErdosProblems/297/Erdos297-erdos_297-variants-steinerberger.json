@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/297 and Steinerberger arXiv:2403.17041, whose abstract shows that the number of S ⊆ {1,…,n} with Σ 1/s ≤ 1 is smaller than 2^{0.93n}. The statement asserts that this count (with ≤ 1) is at most 2^{0.93N} for all large N, which is weaker than or equal to the paper's claim. Faithful."
+    }
+]

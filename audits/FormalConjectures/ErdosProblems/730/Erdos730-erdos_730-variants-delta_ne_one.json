@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/730, which records the triple (10003, 10004, 10005) with C(2n,n) all sharing the same prime divisors, so (10003, 10005) is a pair with m ≠ n+1. The statement asserts that such a pair exists, and it is proved in the file with that witness. Faithful."
+    }
+]

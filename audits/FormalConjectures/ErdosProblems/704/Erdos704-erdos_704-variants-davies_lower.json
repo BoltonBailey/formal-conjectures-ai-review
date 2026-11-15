@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Davies arXiv:2610.12301, Theorem 1.4 (χ(ℝ^d) ≥ (2+o(1))^d), which is newer than the erdosproblems page. The statement asserts χ ≥ cⁿ eventually for every c < 2, which matches the theorem. Faithful."
+    }
+]

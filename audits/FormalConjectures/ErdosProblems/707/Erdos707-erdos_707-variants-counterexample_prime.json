@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/707: Alexeev–Mixon proved that {1,2,4,8} cannot be extended to a perfect difference set modulo p²+p+1 for any prime p. The statement asserts that A = {1,2,4,8} is finite and Sidon and that no B ⊇ A is a PDS mod p²+p+1 for prime p (_root_.Prime on ℕ is equivalent to Nat.Prime). Faithful."
+    }
+]

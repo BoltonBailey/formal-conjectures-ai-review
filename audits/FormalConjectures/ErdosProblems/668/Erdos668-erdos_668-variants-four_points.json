@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/668: for n = 4 the maximiser is unique up to congruence, namely two equilateral triangles joined by an edge. The statement gives a, b, c, d with the five unit distances ab, ac, bc, bd, cd, four distinct points, and every 4-point B with unitDistNum B = u(4) the isometric image of {a,b,c,d}. That is exactly uniqueness up to congruence (u(4) = 5). Faithful."
+    }
+]

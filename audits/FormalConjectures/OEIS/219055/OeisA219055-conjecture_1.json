@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A219055: representations n = p + q(3−(−1)^n)/2 with p > q and p, q, p−6, q+6 prime. The coefficient (3−(−1)^n)/2 is 1 + n % 2, and p > q is encoded as (c+1)q < n with p = n − cq. The tests match the data (a(16) = 1, a(18) = 2). Sun's conjecture: a(n) > 0 for all even n > 8012 and all odd n > 15727. The statement matches. (The OEIS Open paper only proves the implication to Goldbach/Lemoine, so the 'open' tag is right.) Faithful."
+    }
+]

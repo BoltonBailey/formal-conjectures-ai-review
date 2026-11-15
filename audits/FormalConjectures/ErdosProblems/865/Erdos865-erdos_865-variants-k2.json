@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/865: the folklore fact that A ⊆ {1,…,2N} with |A| ≥ N+2 contains distinct a, b with a+b ∈ A. The statement is exactly this, proved in the file by pigeonholing x ↦ min(x, max A − x). Faithful."
+    }
+]

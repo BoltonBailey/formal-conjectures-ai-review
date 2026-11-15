@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/687: Y(x) is the largest y such that [1,y] can be covered by one residue class a_p mod p for each prime p ≤ x; give good estimates for Y(x). Y is the sSup of y with Green46.IsCoveredByResidues x y. The set contains 0 and is bounded by the primorial (proved in the file), so the sSup is the maximum. The statement asks for Y up to constant factors (Θ), a reasonable precise reading of 'good estimates' that the docstring states. Faithful."
+    }
+]

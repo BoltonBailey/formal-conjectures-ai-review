@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 5,
+        "explanation": "Compared against erdosproblems.com/692: 'For fixed n, where does δ₁(n,m) achieve its maximum?' The answer is necessarily a function of n. The formal answer erdos_692.parts.ii.answer : ℕ is a single constant, and the theorem asserts, for every n, that δ₁(n, answer) is the greatest value of δ₁(n, m) over m > n+1. This is false for every choice of answer. Once n + 1 ≥ answer, the interval (n, answer) contains no integers, so δ₁(n, answer) = 0. But δ₁(n, n+2) > 0, since a positive density of integers are divisible by n+1 and by no other integer in (n, n+2). The answer should have type ℕ → ℕ."
+    }
+]

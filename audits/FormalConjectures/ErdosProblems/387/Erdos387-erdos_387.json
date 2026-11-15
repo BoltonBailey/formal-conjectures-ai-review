@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/387: is there an absolute c > 0 such that, for all 1 ≤ k < n, C(n,k) has a divisor in (cn, n]? Answered no by Bui–Naprienko–Pratt–Zaharescu. The statement negates the existence of such a c > 0. Faithful."
+    }
+]

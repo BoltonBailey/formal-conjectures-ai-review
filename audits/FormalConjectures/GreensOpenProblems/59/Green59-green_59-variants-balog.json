@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green, Problem 59 comments: 'the record is still Balog's exponent 4/(9√e) ≈ 0.2695'. The statement gives Balog's theorem with exponent 4/(9√e) + ε: every large N is a sum of two positive N^{4/(9√e)+ε}-smooth integers. This matches the cited forms in [NS08] and [DVA21]. Faithful."
+    }
+]

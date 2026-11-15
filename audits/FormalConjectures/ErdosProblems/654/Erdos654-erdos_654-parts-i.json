@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/654: with no four points concyclic, is there always a point with > (1−o(1))n distinct distances to the others? Disproved by Aletheia [Fe26], who gave n-point sets with at most 3n/4 distances from every point. The statement negates ∀ ε > 0, ∀ᶠ n, ∀ A with |A| = n and NoFourConcyclic, ∃ x with (1−ε)n < distinctDistancesFrom A x. A counterexample for infinitely many n (n = 4m) refutes the eventual statement with ε = 1/8. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/507: 'It is trivial that α(n) ≪ 1/n'. The statement α ≪ 1/n (IsBigO atTop) matches, with α the Heilbronn function as defined in the file. Faithful."
+    }
+]

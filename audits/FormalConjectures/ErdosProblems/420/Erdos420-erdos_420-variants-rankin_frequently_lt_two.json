@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "[EGIP96, Corollary 2]: K(n) > (log n · log log n · log log log log n)/(9 (log log log n)³) for infinitely many n, with K(n) the least K such that τ((n+K)!) ≥ 2τ(n!). The statement uses the correct equivalent form F(f,n) < 2 infinitely often (K(n) > f(n) iff F(f,n) < 2, since K is an integer). It is a stated paper result consistent with erdosproblems.com/420's liminf F(c log n, n) = 1. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/785: Narkiewicz proved that for exact additive complements, after possibly swapping, A(2x)/A(x) → 1 and B(2x)/B(x) → 2. The statement is the disjunction of the two orderings. Division by counting values that are 0 for small x is harmless, since A and B are infinite. Faithful."
+    }
+]

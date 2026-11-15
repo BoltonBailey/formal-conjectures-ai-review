@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/418: 'It follows from the Goldbach conjecture that every odd number can be written as n - φ(n)'. The statement makes the needed strengthening explicit: every even n > 6 is a sum of two distinct primes. It concludes that every odd m equals n - φ(n), via n = pq with p + q = m + 1, and it is proved in Lean. Faithful."
+    }
+]

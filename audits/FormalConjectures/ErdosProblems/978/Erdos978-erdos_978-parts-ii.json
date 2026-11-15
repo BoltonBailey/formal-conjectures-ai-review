@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/978, second question. It keeps the standing assumptions from the first sentence: irreducible, k ≠ 2^l, positive leading coefficient. It adds k > 3 and that every prime p has some n with p^{k-2} ∤ f(n). It then asks whether infinitely many n give f(n) (k-2)-power-free. The ∀ statement matches the question exactly, answered yes per the cited OAI preprint and its Lean proof. Faithful."
+    }
+]

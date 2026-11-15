@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1166 (via [ErTa60] and [DPRZ01]): Dembo–Peres–Rosen–Zeitouni proved T_n/(log n)² → 1/π a.s., confirming Erdős–Taylor. The statement asserts maxLocalTime/(log n)² → 1/π a.s. Counting the time-0 visit changes T_n by at most 1, which is immaterial. Faithful."
+    }
+]

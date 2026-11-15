@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A212334, with closed form a(n) = Σ_{k=0}^{n−1} C(n,k)C(n−1,k)C(n+k−1,k)² for n ≥ 1 (Bala's %F formula) and a(0) = 1. The tests match the data 1, 1, 9, 163, 3593. Bala's comment: for primes p ≥ 5, a(p) ≡ 1 (mod p⁵). The statement is a p % p^5 = 1, which equals the congruence since p⁵ > 1. Faithful."
+    }
+]

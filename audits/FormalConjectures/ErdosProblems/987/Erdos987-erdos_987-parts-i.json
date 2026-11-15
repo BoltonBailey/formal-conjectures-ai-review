@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/987: for x_j ∈ (0,1) and A_k = limsup_n |Σ_{j≤n} e(kx_j)|, is limsup_k A_k = ∞? Yes (Clunie: A_k ≫ k^{1/2} infinitely often).  is the EReal limsup of the partial-sum norms, with 0-indexing that does not change the limsup. The statement is limsup_k A x k = ⊤ for every such sequence. Faithful."
+    }
+]

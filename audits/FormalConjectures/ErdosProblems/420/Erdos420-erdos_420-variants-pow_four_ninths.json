@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "[EGIP96, Corollary 3]: K(n) < n^{4/9} for large n, so F(n^{4/9}, n) ≥ 2 eventually. The page states the stronger lim F(n^{4/9}, n) = ∞; the docstring says the variant states the corollary as printed. This is a correct, weaker formalisation. Faithful."
+    }
+]

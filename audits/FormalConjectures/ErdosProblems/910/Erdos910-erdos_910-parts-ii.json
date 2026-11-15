@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/910: for n ≥ 2, must every connected set in ℝⁿ have more than 2^ℵ₀ connected subsets? Read literally this is trivially false (a segment has only 𝔠 connected subsets). The statement follows [Er82e] in requiring dimension > 1 (small inductive dimension) and asserts more than 𝔠 nontrivial connected subsets. This is a well-justified reading of the intended question, documented with sources. Faithful."
+    }
+]

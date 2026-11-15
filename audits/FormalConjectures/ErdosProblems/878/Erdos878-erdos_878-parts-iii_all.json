@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/878: is max_{n≤x} f(n) = max_{n≤x} F(n) for all x? Barreto noted this is false at x = 210. The statement negates the universal claim. Faithful."
+    }
+]

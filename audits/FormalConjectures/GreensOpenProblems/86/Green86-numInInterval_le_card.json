@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: the number of a ∈ A with θa mod 1 in a half-open interval [t, t+1/|A|) is at most |A|, since it is the card of a filter of A. Correct and proved in the file. It supports the formulation of Green's Problem 86 (no interval of length 1/n contains more than n^c of the θa mod 1), and the docstring rightly notes the problem is trivial for c ≥ 1."
+    }
+]

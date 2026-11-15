@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/786: the integers ≡ 2 (mod 4) have density 1/4 and the property, since the 2-adic valuation of a product counts its factors. This is proved in Lean. Faithful."
+    }
+]

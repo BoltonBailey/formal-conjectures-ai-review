@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/440: how large can liminf A(x)/x^{1/2} be? It is always ≤ 1 (Erdős–Szemerédi), and A = ℕ attains 1. The statement asserts that 1 is the greatest attainable liminf. The liminfs are well-defined, since by parts.i the ratios are bounded. Faithful."
+    }
+]

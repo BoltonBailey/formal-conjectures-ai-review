@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A262813: a(n) counts ordered representations n = x³ + y² + z(z+1)/2 with x, y ≥ 0 and z > 0; Sun conjectures a(n) > 0 for all n > 0. The definition ranges over x, y ∈ [0,n] and z ∈ [1,n], which covers every possible representation. The tests match the data 1, 2, 2, 2, 2, and the statement is 0 < a n for n > 0. Faithful."
+    }
+]

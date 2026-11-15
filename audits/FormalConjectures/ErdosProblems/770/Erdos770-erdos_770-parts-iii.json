@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/770: if p is the greatest prime with p − 1 | n and p > n^ε, is h(n) = p? h(n) is defined as the least m > 2 with gcd(2^n−1, …, m^n−1) = 1. erdosproblems.com/770 says 'mutually coprime', but that cannot be meant literally (3^n−1 and 5^n−1 are both even), so the collective-gcd reading used here is the correct one. The statement takes, for each ε > 0 and all large n, p = sSup of the primes m with m − 1 | n (a finite set, bounded by n+1, containing 2) and asserts p > n^ε → h n = p. Reading 'large n' for each ε is the natural interpretation. Faithful."
+    }
+]

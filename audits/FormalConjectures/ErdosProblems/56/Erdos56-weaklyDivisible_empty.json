@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: the empty set is k-weakly divisible (no (k+1)-subsets). WeaklyDivisible k A says no (k+1)-element subset of A is pairwise coprime, matching 'no k+1 elements of A are relatively prime' on erdosproblems.com/56. Correct and proved."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/395: for unit complex z_1..z_n, is P(|Σ ε_i z_i| ≤ √2) ≫ 1/n with uniform random signs? Solved affirmatively by He–Juškevičius–Narayanan–Spiro. signedSumCount counts ±1 sign vectors with |Σ ε_i z_i| ≤ r, and the statement asserts a uniform c > 0 with count/2^n ≥ c/n for all n ≥ 1. Faithful."
+    }
+]

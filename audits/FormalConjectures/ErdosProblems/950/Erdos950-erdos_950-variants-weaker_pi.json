@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/950, Erdős's 'weaker conjecture': for every ε > 0 and all large x there exists y < x with π(x) < π(y) + ε π(x-y). The statement matches; natural-number subtraction x - y is exact because y < x. Faithful."
+    }
+]

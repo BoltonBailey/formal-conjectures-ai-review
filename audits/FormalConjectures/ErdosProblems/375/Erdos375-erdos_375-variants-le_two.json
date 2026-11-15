@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/375: 'this is trivial when k ≤ 2'. The statement proves Erdos375Prop restricted to k ≤ 2: for k = 2, prime factors of consecutive numbers are distinct, since a common prime would divide their difference 1. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's 100 open problems, Problem 97: in how many ways (asymptotically) Q(n) can n non-attacking queens be placed on an n×n board? Green notes that an asymptotic, rather than one for the log, remains open. numQueens counts permutations with injective σ(i) - i and σ(i) + i over ℤ (tests: Q(3) = 0, Q(4) = 2). The statement asks for answer with Q(n) ~ answer(n), exactly the open 'asymptotic' question. Faithful."
+    }
+]

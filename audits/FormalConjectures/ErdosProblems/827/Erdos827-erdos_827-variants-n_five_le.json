@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against [MaRo15, Theorem 1.2] (arXiv:1402.6276): n_4 ≤ 9 and n_5 ≤ 37, under their weaker general-position hypothesis. That transfers to the file's definition, since the file's class of point sets is smaller. The statement n 5 ≤ 37 matches. Faithful."
+    }
+]

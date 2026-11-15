@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/987: under the assumption that the sequence takes only finitely many distinct values, Clunie observed (MathSciNet review of Liu) that A_k = ∞ infinitely often. The statement assumes Set.range x finite and concludes A x k = ⊤ frequently. Faithful."
+    }
+]

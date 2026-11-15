@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/59: for non-bipartite H the answer is yes (Erdős–Frankl–Rödl). The statement asserts numFree H n ≤ 2^{(1+ε) ex(n;H)} eventually, for every ε > 0. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/687: the Ford–Green–Konyagin–Maynard–Tao lower bound Y(x) ≫ x log x log log log x/log log x. The statement asserts exactly this O-relation. The page now cites a further improvement (GPT 5.6 Pro, ≫ x log x/log log log x), but the FGKMT bound remains true. Faithful."
+    }
+]

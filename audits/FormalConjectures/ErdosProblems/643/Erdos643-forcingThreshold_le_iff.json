@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: forcingThreshold n t ≤ m iff every t-uniform family on Fin n with ≥ m edges contains the forbidden configuration. This is exactly the minimality characterisation of f(n;t) from erdosproblems.com/643, so it confirms the definition is correct. Proved in the file."
+    }
+]

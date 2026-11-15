@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/854: for the integers coprime to the primorial n_k, estimate the smallest even integer that is not a consecutive gap a_{i+1} - a_i. Open. minEvenNonGap is the sInf of positive even t not in the gap set of n_k, which is well-defined since n_k itself qualifies for k ≥ 1. The statement asks for an answer function with minEvenNonGap =Θ answer. Θ is the mildest standard reading of 'estimate', and the docstring states it. Faithful."
+    }
+]

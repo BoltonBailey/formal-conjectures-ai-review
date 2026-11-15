@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/821: with g(n) = #{m : φ(m) = n}, is g(n) > n^{1-ε} for infinitely many n, for every ε > 0? The fetched page does not yet record a solution. The docstring cites an OpenAI preprint (Sept 2026), and the linked Lean proof exists (HTTP 200) and proves exactly this statement. g is the ncard of the totient fibre, which is finite for every n, and the statement asserts the infinitude claim for every ε > 0. Faithful; the solved tag is supported by the linked proof."
+    }
+]

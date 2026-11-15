@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/974 (Turán's conjecture, proved by Tijdeman): if z₁ = 1 and s_k = Σ z_i^k has infinitely many runs of n−1 consecutive zeros, then the z_i form the described configuration. The statement assumes z 0 = 1 and infinitely many k with s_{k+j} = 0 for all j < n−1. IsTuranConfiguration encodes the page's description of the resolution: for odd n, the z_i are exactly the n-th roots of unity; for even n, they are the m-th roots of 1 together with the m-th roots of some unimodular c ≠ 1, where m = n/2. Equality of ranges forces z to be injective. Not every such c actually occurs (the zero runs need c^t = −1 for some t), so the conclusion is a necessary condition, slightly weaker than a full characterisation, as is the page's own description. The degenerate cases n = 1, 2 also check out. Faithful."
+    }
+]

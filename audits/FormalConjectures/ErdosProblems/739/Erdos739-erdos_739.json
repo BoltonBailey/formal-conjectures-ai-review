@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/739 (Galvin): if χ(G) = m is infinite, does G have a subgraph with chromatic number n for every infinite n < m? The statement encodes this for all V, G in universe u, with arbitrary (not necessarily induced) subgraphs, as on the page. The formalisation is correct. However, Komjáth showed that a failure is consistent with ZFC, so the statement cannot be proved in Lean's foundations (assuming consistency), and refutability is unknown. The 'research open' tag is therefore misleading: this is not a target that could be resolved by proof, which the docstring acknowledges. The issue is minor and documented."
+    }
+]

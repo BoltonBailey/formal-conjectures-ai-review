@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/939: Euler's conjecture that a sum of k−1 k-th powers is never a k-th power is false for k = 5 (27⁵+84⁵+110⁵+133⁵ = 144⁵). The statement negates the claim over k ≥ 4 and sets of k−1 positive distinct integers, and it is proved with that witness. Faithful."
+    }
+]

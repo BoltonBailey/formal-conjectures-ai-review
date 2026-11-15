@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the Gafni–Tao abstract (arXiv:2508.06463): the number N(X) of exceptional gaps with p_n ∈ [X, 2X] is O(X/log² X). The statement counts n with p_n ∈ [X, 2X] such that every m in the gap has minFac < gap, and bounds it by O(X/(log X)²). This matches the paper. erdosproblems.com phrases it as 'exceptional n ∈ [1,X]', which is a looser paraphrase. Faithful to the cited theorem."
+    }
+]

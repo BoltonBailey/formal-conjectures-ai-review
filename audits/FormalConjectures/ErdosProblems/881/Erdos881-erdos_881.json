@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/881: let A ⊆ ℕ be a basis of order k that is minimal in the sense that A∖B is not a basis of order k for any infinite B ⊆ A; must there be an infinite B ⊆ A with A∖B a basis of order k+1? The file reads 'basis' as asymptotic basis (all sufficiently large integers are sums of exactly k elements, the to_additive of IsAsymptoticMulBasisOfOrder), states the minimality condition exactly as on the page, and asks for the infinite B. The asymptotic reading is the standard one for this question and is stated in the docstring. Faithful."
+    }
+]

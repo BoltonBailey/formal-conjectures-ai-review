@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's Problem 87: is p(k) a decreasing function of k? The statement quantifies over the limit function p (which exists and is unique) and asks for StrictAnti p, including k = 0 where p(0) = 1. Reading 'decreasing' strictly is the stronger choice, but it matches Cameron's conjecture as recorded in Britnell–Wildon and the numerics, and the docstring explains it. Faithful."
+    }
+]

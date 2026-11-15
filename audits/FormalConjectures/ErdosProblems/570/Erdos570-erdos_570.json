@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/570: for k ≥ 3 and m sufficiently large, is R(C_k, H) ≤ 2m + ⌊(k−1)/2⌋ for every graph H with m edges and no isolated vertices? Proved for all k (EFRS93, GoKl94/Si91, Ja99, CFMPP26). The statement takes ∀ k ≥ 3, eventually in m, every finite H with all degrees positive and m edges has graphRamsey (cycleGraph k) H ≤ 2m + (k−1)/2, using natural division as the floor. graphRamsey is the usual two-colour Ramsey number R(G,H). Faithful."
+    }
+]

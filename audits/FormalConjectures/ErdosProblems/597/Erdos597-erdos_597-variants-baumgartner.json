@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/597: Baumgartner proved ω₁² ↛ (ω₁ω, K_{ℵ₀,ℵ₀})². `OrdinalGraphRamsey α β G` says every red/blue (IsCompl) edge colouring of the complete graph on α.ToType has a red clique of order type β or a blue (not necessarily induced) injective copy of G, which is the standard graph-target partition relation. Mathlib's ω_1 * ω is ω copies of ω₁, i.e. the usual ω₁·ω, and completeBipartiteGraph ℕ ℕ is K_{ℵ₀,ℵ₀}. The negation is the stated result. Faithful."
+    }
+]

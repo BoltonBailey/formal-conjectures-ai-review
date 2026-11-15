@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/660 (and [93]): Altman proved that the vertices of a convex n-gon determine at least n/2 distinct distances. In the precise form this is ⌊n/2⌋, attained by the regular polygon, and the statement uses natural division n / 2 ≤ distinctDistances. Convex position plus full affine span in ℝ² is exactly the vertex set of a convex polygon. Faithful."
+    }
+]

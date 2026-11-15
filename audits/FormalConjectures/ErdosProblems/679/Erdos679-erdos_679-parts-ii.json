@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/679: can one show the stronger version, ω(n−k) < log k/log log k + O(1), is false? DottedCalculator did. The statement is the exact negation of the strong version: for every C and K, all large n have some K < k < n with ω(n−k) ≥ log k/log log k + C. A Lean proof is linked. Faithful."
+    }
+]

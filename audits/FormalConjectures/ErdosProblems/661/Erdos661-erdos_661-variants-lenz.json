@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/661: Lenz observed that in ℝ⁴ there are x₁,…,x_n, y₁,…,y_n with all d(x_i, y_j) = 1, using two orthogonal circles of radius 1/√2. The statement asserts disjoint n-sets A, B ⊆ ℝ⁴ with all cross distances 1. Faithful."
+    }
+]

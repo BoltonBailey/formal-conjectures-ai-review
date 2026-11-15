@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the erdosproblems.com/602 forum: for a countable index set the answer is yes even without the intersection condition (Bernstein's lemma). The statement indexes by ℕ and keeps the extra hypotheses, so it is a true weakening of Bernstein's lemma, correctly tagged solved. A finite index set is not covered by ℕ-indexing, but that is not needed. Faithful."
+    }
+]

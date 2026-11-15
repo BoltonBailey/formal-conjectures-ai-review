@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/660: in [Er75f] Erdős claims (without reference) that Altman proved that polyhedron vertices determine ≫ n distinct distances. The statement is ∃ c > 0 such that eventually every n-vertex 3-dimensional convex polytope vertex set has ≥ c·n distinct distances. It is tagged open since no proof is known, which is reasonable. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/447: is the size < (1+o(1))C(n,⌊n/2⌋)? Kleitman proved it. The statement asserts c = o(1) with maxUnionFree n < (1 + c n)C(n, n/2) eventually. Faithful."
+    }
+]

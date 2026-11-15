@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/882: the greedy algorithm gives |A| ≥ (1-o(1))log₃n. The statement asserts log₃n - 1 ≤ maxAntichainCard n eventually. That is a slightly different but true form, implied for instance by the ELRSS bound log₂n - 1; it does not capture the greedy method itself, but that is harmless. Faithful."
+    }
+]

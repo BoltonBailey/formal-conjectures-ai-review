@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/588: Kárteszi proved f_k(n) ≫_k n log n for k ≥ 4. The statement gives, for each k ≥ 4, c > 0 with c·n log n ≤ f_k(n) eventually. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/816: must a graph with 2n+1 vertices and n²+n+1 edges contain two equal-degree vertices joined by a path of length 3? Answered yes (Chen–Ma). The statement asserts this for all n ≥ 2; n = 1 is excluded as a genuine exception (the triangle). A Lean proof covering all n ≥ 2 is linked. HasEqualDegreePathThree uses a path (no repeated vertices) of length 3 between distinct u, v. Faithful."
+    }
+]

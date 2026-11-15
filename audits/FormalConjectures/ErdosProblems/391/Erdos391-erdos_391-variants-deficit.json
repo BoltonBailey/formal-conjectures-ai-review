@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/391: is there c > 0 with t(n)/n ≤ 1/e - c/log n for infinitely many n? Answered yes by the same authors (indeed for all large n, with c₀ ≈ 0.3044). The statement asserts the infinitely-often version. Faithful."
+    }
+]

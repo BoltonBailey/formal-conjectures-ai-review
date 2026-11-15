@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/910: does every connected set in ℝⁿ contain a connected subset that is not a point and not homeomorphic to the original? The page says no, but only via Rudin's CH-conditional construction. The statement asserts yes for all nontrivial connected X, using Erdős's convention that points are not connected sets. It is tagged open, which is reasonable in ZFC, since a CH counterexample does not refute it in Lean. The docstring also notes that Rudin's theorem as stated may not directly give the non-homeomorphism property. Faithful and carefully documented."
+    }
+]

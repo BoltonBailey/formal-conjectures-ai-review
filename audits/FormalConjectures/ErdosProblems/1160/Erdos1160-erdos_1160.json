@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1160: if n ≤ 2^m then g(n) ≤ g(2^m), with g(n) the number of groups of order n.  counts isomorphism classes of objects of FiniteGrp.{0} with Nat.card = n via the quotient by Nonempty (G ≅ H). That is the correct count, finite for n ≥ 1. The statement takes n ≥ 1 (n = 0 is trivial) and n ≤ 2^m. Faithful."
+    }
+]

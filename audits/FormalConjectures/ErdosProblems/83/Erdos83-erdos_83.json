@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/83 (Erdős–Ko–Rado, proved by Ahlswede–Khachatrian): a family of 2n-subsets of [4n] with pairwise intersections ≥ 2 has size ≤ ½(C(4n,2n) - C(2n,n)²). The statement matches, using natural division, which is exact since the difference is even. The edge cases n = 0, 1 check out (bounds 0 and 1). Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A217703 (i): S_n(x), defined by S_0 = 1, S_1 = x, S_{n+1} = (x + 2n(n+1))S_n - n⁴S_{n-1}, is irreducible over ℚ for every n ≥ 1. polyS implements the recurrence, and the statement asserts irreducibility of its ℚ-image for n ≥ 1. Faithful."
+    }
+]

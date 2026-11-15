@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/581: f(m) is the maximal k such that every triangle-free graph with m edges has a bipartite subgraph with k edges. Alon showed m/2 + c₁m^{4/5} ≤ f(m) ≤ m/2 + c₂m^{4/5}. `f m` is the sSup of the k valid for all finite triangle-free graphs with m edges; the set is bounded by m and contains 0. The statement asserts Alon's two-sided bound for all m. That is fine at small m: f(0) = 0 matches, and for m ≥ 1, f(m) − m/2 ≥ Edwards' bound > 0, so a small enough c₁ and a large c₂ work uniformly. Faithful."
+    }
+]

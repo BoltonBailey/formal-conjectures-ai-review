@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A229232, Sun's conjecture (2), first part: for a finite field F with q > 7 elements there is a circular arrangement a_1..a_{q-1} of the nonzero elements with every a_i a_{i+1} - 1 a primitive element. The statement takes a bijection Fin (q-1) ≃ Fˣ and requires each cyclic a_i·a_{i+1} - 1 to be a primitive (q-1)-th root of unity, i.e. a generator of F^×. A zero value fails IsPrimitiveRoot automatically, as it should. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against WOWII 85 (Wayback all.html; defs 48, 10, 16): for simple connected G, tree(G) ≥ CEIL[sqrt(1 + 2·min_v dist_even(v))]. The statement negates the universal claim using largestInducedTreeSize and distEven (which counts v itself, at distance 0, as the definition intends). The documented counterexample C₅[K₄] checks out by hand: every vertex has itself plus the 8 vertices of the two blobs at C₅-distance 2 at even distance, so min dist_even = 9. Any induced tree uses at most one vertex per blob and induces a path in C₅, giving order 4. ⌈√19⌉ = 5 > 4. A Lean proof is linked. Faithful."
+    }
+]

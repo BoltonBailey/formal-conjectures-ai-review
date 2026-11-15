@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "F_k(n) (maxLinesAtLeast) and f_k(n) (maxLinesExactly) are the maximum numbers of determined lines with ≥ k, respectively exactly k, of n points in ℝ², matching erdosproblems.com/669; the counts are bounded, so the sSup is attained. Trivially f_k(n) ≤ F_k(n). Proved in the file. Faithful."
+    }
+]

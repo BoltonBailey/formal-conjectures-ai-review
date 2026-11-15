@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/643: f(n;t) is the least m such that every t-uniform hypergraph on n vertices with ≥ m edges has distinct edges A, B, C, D with A ∪ B = C ∪ D and A ∩ B = C ∩ D = ∅; estimate f(n;t). forcingThreshold n t = 1 + the maximum size of a t-uniform family on Fin n avoiding HasRepeatedDisjointUnion (four distinct edges forming two disjoint pairs with equal union), which is f(n;t). The statement asks for an asymptotic equivalent (~) for each t ≥ 1. That matches the page's (1+o(1)) framing. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Related to erdosproblems.com/859: for every t, DivisorSumSet t has a positive natural density. Positivity is easy, since every multiple of t qualifies (t is itself a divisor), giving lower density ≥ 1/t. The existence of the density is Erdős's result. The 'textbook' tag undersells the existence part, but the statement is correct."
+    }
+]

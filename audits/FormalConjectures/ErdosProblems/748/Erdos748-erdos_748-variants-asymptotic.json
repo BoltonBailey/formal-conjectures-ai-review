@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "f(n) counts the sum-free subsets of [1,n] (IsSumFree, i.e. no a = b + c with a, b, c ∈ A), as on erdosproblems.com/748. Both papers prove f(n) ~ c_n 2^{n/2}, with c_n taking one of two values according to the parity of n. The statement gives positive constants c₀ and c₁ for the even and odd subsequences. Faithful."
+    }
+]

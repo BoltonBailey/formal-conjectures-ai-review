@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/824: the variant replacing (a,b) = 1 by 'a and b squarefree'. hSquarefree counts 1 ≤ a < b < x with both squarefree and σ(a) = σ(b), and the statement asks for x^{2−ε} < h'(x) eventually for every ε > 0. That is the natural transfer of the main question. Faithful."
+    }
+]

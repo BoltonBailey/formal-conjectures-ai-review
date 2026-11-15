@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/385: Erdős, Eggleton and Selfridge suggest that possibly F(n) ≥ n + (1-o(1))√n always. The statement asserts e = o(1) with n + (1 - e n)√n ≤ F n for all n; small n, where F n = sSup ∅ = 0, are absorbed by e. Faithful."
+    }
+]

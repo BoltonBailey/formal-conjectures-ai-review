@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A232616 (ii), second equation: x^n + n = y^m with all variables > 1 has only 5² + 2 = 3³ and 5³ + 3 = 2⁷. The statement is the corresponding iff. Faithful."
+    }
+]

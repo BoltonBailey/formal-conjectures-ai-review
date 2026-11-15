@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/735 and ABKPR08. IsMagic: positive weights with equal sums c on every line through two distinct points of S. The answer set is the union of four cases: collinear; all but one point collinear; no three collinear; or a failed Fano configuration (a quadrangle plus its three diagonal points, all in the plane). The last matches 'triangle, angle bisectors and incentre, or a projective equivalent': the vertices plus the incentre form the quadrangle, and the bisector feet are its diagonal points. I checked by hand that each case is magic. For n-1 points on a line, weight t on the line and (m-1)t off it. For the failed Fano, weight w on the quadrangle and 2w on the diagonal points; the incidence structure is forced in ℝ². The ABKPR08 classification gives the converse. A linked Lean proof exists. Faithful."
+    }
+]

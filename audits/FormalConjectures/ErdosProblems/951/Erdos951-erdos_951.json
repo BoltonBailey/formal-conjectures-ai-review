@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/951: if 1 < a₁ < ⋯ and distinct exponent vectors give products differing by ≥ 1, is #{a_i ≤ x} ≤ π(x)? The page notes ambiguity: the 'for all x' version is disproved by a finite counterexample at x = 10, and the 'large x' version is open. The statement takes the open 'for all sufficiently large x' reading, with π(⌊x⌋). Faithful to the meaningful interpretation."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/981: with f_ε(p) the least m such that Σ_{n≤N} (n/p) < εN for all N ≥ m, prove Σ_{p<x} f_ε(p) ~ c_ε x/log x for some c_ε > 0 (Elliott).  is that eventual-time quantity, using jacobiSym, which equals the Legendre symbol for prime p; the n = 0 term is 0. The statement asks for c > 0 with (Σ_{p<⌈x⌉} f ε p)·log x/x → c, which is the asymptotic. p = 2 is a single irrelevant term. Faithful."
+    }
+]

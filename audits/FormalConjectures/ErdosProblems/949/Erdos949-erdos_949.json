@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/949: if S ⊂ ℝ contains no solutions to a + b = c, must there be A ⊆ ℝ∖S with |A| = 𝔠 and A + A ⊆ ℝ∖S? The statement takes S with a + b ∉ S for all a, b ∈ S (allowing a = b, the usual sum-free convention) and asks for A ⊆ Sᶜ with #A = 𝔠 and A + A ⊆ Sᶜ. Faithful."
+    }
+]

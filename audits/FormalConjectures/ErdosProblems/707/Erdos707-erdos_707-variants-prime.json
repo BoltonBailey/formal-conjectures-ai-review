@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/707: the original prime-modulus form (p²+p+1 with p prime) is disproved (Alexeev–Mixon with {1,2,4,8}; Hall). The statement asserts that the universal claim is equivalent to False. Faithful."
+    }
+]

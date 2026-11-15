@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A248123: a(n) is the least m > 0 with gcd(m,n) = 1 and mn | C(m+n) (Catalan number); conjecture: a(n) exists for all n > 0. `a` is the sInf of such m, so it is 0 exactly when no m exists. The statement 0 < a n for n > 0 is therefore equivalent to existence. The tests match the data 1, 3, 2, 21, 9. Faithful."
+    }
+]

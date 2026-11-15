@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/955: Troupe [Tr20] showed that the conjecture holds for A = sums of two squares, i.e. {n : s(n) = a² + b²} has density 0. The statement allows a, b ∈ ℕ (including 0), the standard notion. Faithful."
+    }
+]

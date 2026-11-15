@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/582 (Erdős–Hajnal, solved by Folkman): is there a K₄-free graph such that every 2-colouring of its edges has a monochromatic K₃? EdgeRamseyTriangle requires a triangle u, v, w (distinct, by adjacency) with all three edge colours equal, for every colouring c : edgeSet → Fin 2. The statement asserts a finite K₄-free graph with this property. Faithful."
+    }
+]

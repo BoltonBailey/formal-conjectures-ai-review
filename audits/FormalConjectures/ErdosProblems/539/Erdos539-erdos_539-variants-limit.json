@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "h(n) (cofactorThreshold) is the largest m such that every n-element A ⊆ ℕ has at least m distinct values a/(a,b), as on erdosproblems.com/539. Allowing 0 ∈ A changes counts by O(1) at most, which is irrelevant here. Erdős [Er73] suggested determining lim log h(n)/log n. The page's h(n) = n^{1/2+o(1)} (Erdős–Szemerédi lower bound plus ProofCouncil upper bound) gives the limit 1/2. The statement asserts convergence to 1/2. Faithful."
+    }
+]

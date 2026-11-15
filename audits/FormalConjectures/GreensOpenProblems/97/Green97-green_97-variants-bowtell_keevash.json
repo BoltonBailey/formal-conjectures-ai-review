@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green Problem 97: Bowtell–Keevash showed T(n) = ((1+o(1))ne^{-3})^n for n ≡ 1, 5 (mod 6), with no configurations otherwise. numToroidalQueens uses diagonals in ZMod n (test T(5) = 10). The statement asserts T(n)^{1/n}/n → e^{-3} along those n. Faithful."
+    }
+]

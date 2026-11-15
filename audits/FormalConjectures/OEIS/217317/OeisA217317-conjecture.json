@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A217317: a(n) is the number of primes between n² and n² + (log₂ n)² inclusive, with zeros at 1, 1165, 4292936, 4765516 and the conjecture a(n) > 0 for n > 4765516. The definition is π(⌊n² + log₂(n)²⌋) - π(n²); n² is never prime for n > 1, so inclusivity at the lower end is immaterial. The tests a(2) = 1, a(4) = 2, a(8) = 3, a(16) = 4 match the data. Faithful."
+    }
+]

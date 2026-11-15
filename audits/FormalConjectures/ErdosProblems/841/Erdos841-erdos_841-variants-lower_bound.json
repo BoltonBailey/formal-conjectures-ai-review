@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/841: BPZ24 proved t_n ≫ (log log n)^{6/5}(log log log n)^{−1/5} for all non-square n. The statement gives ∃ C > 0 such that, for all large non-square n, C·(log log n)^{6/5}(log log log n)^{−1/5} ≤ t n. Restricting to large n is the usual reading of ≫ here, since the iterated logs degenerate for small n. Faithful."
+    }
+]

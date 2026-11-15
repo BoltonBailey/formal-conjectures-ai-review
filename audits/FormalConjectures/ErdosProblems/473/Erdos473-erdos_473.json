@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/473: is there a permutation a_1, a_2, … of the positive integers with a_k + a_{k+1} always prime? Yes (Odlyzko). The statement asks for a bijection a : ℕ ≃ ℕ+ (indexing from 0) with a n + a (n+1) prime for all n, which is exactly such a permutation. Faithful."
+    }
+]

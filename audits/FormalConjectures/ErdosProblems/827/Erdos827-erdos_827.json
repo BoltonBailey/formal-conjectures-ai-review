@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/827: n_k is minimal such that any n_k points in general position contain k points whose C(k,3) triples determine circles of distinct radii; determine n_k. `n k` is sInf of the m for which every m-point set with InGeneralPosition (NonTrilinear ∧ NoFourConcyclic, i.e. no three collinear and no four concyclic, as in [Er75h]) contains such a k-subset. The property is upward closed, and it is nonempty by [MaRo15], so sInf is the minimum. `HasDistinctCircumradii` says no two distinct 3-subsets lie on circles of a common radius, which is right for non-collinear triples. The value question `n = erdos_827.answer` follows the repository convention. Faithful."
+    }
+]

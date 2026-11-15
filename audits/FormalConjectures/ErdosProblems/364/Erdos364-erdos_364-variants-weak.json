@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/364: 'It is trivial that there are no quadruples of consecutive powerful numbers since one must be 2 (mod 4).' The statement says no n has n, …, n+3 all powerful, and it is proved in the file by exactly that argument. Faithful."
+    }
+]

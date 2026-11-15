@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/453: is it true that for all large n there is i < n with p_n² < p_{n+i}p_{n−i}? Pomerance proved the answer is no. The statement negates the eventual existence claim using 0-indexed primes. The shift drops the single 1-indexed witness i = n−1 (the one involving p₁ = 2), which makes the negated statement marginally stronger. Pomerance's result, that infinitely often p_n² > p_{n+i}p_{n−i} for all 0 < i < n, implies it, so the formal statement holds exactly when the intended answer is no. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/728: for small ε, C > 0, are there infinitely many a, b, n with a, b ≥ εn, a!b! | n!(a+b−n)! and a + b > n + C log n? The page calls this ambiguous, with trivial solutions, and says the Barreto/ChatGPT result (C₁ log n < a+b−n < C₂ log n, b = n/2) answers it 'in the spirit intended'. The formal statement takes that intended form: for all small ε and all 0 < C < C', there is a triple with εn < a, b and C log n < a+b−n < C' log n. 'Infinitely many' is not stated, but it follows. For bounded n there are only finitely many admissible triples, so letting C' ↓ C forces n → ∞. The ε condition rules out the trivial families (a = n or b = n−1 with the other ~ log n). This is a reasonable and documented reinterpretation, but it is not the literal page statement (the C' upper bound is added and C is arbitrary rather than small)."
+    }
+]

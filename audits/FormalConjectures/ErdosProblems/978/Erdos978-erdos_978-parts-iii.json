@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/978: does n^4 + 2 represent infinitely many squarefree numbers? The statement is that {n : ℕ | Squarefree (n^4+2)} is infinite. Restricting to n ∈ ℕ is equivalent because n^4 is even in n. Faithful."
+    }
+]

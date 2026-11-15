@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Q₂ is Erdos367.B 2 (the product of p^a ∥ m with a ≥ 2), and the product over Icc n (n+ℓ) is n(n+1)⋯(n+ℓ), as on erdosproblems.com/935. The page records that the Pell-equation construction gives limsup Q₂(n(n+1)(n+2))/n² = ∞. The statement is the ℓ = 2 instance: for every C, frequently C·n² < Q₂. Faithful."
+    }
+]

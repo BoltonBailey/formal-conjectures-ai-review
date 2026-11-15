@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/700: is f(n) ≪_A n/(log n)^A for every A > 0 and all composite n? The statement is ∀ A > 0, ∃ C > 0, ∀ composite n > 1, f(n) ≤ C·n/(log n)^A, an explicit rendering of ≪_A uniform over composite n (log n > 0 since n ≥ 4). Faithful."
+    }
+]

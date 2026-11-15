@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A217703 (ii): a(n) < 0 iff 1 < n < 58 or n > 2177. It was disproved by Mishra–Senthilkumar via a(81935) > 0. I confirmed with exact integer arithmetic that a(81935) > 0 and that the pattern holds for n < 3000. The statement negates the biconditional, and a's recurrence and tests match the data. Faithful."
+    }
+]

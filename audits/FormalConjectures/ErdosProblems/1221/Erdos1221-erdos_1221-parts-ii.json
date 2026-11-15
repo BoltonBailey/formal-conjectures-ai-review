@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1221: is r(1 − λ_r) → ∞, with λ_r = sup_a liminf_n n·m_r? Read literally with λ_r unnormalised, this fails: the page's own bound λ_r ≤ (r/(r+1))/log(1+1/r) ≈ r − 1/2 shows λ_r is of order r, so 1 − λ_r < 0 for r ≥ 2. The file normalises by r and asks whether r − λ_r → ∞, i.e. for every K, λ_r < r − K eventually. It explains this in the docstring. smallLambda takes the sup over sequences with distinct points mod 1 of the liminf of n times the smallest r-span on the circle. Given the page's bounds, this is the evident intended reading. Faithful."
+    }
+]

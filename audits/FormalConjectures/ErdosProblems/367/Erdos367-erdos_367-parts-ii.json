@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/367: 'Or perhaps even ≪_k n²?' van Doorn shows this fails for every k ≥ 3, with the product for k = 3 being ≫ n² log n infinitely often. The statement negates ∀ k ≥ 1, ∏_{n ≤ m < n+k} B₂(m) = O(n²), where B r n is the product of the p^a ∥ n with a ≥ r, i.e. the r-full part. Faithful."
+    }
+]

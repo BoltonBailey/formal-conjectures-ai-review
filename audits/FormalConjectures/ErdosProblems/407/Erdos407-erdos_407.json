@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/407 (Newman's conjecture): is the number w(n) of solutions to n = 2^a + 3^b + 2^c 3^d bounded by an absolute constant? Yes (Evertse–Győry–Stewart–Tijdeman). The statement counts ordered quadruples, a set that is finite for each n. Boundedness of ordered counts is equivalent to boundedness of distinct-set counts, since each set gives boundedly many ordered tuples. The statement asserts ∃ C with w n ≤ C for all n. Faithful."
+    }
+]

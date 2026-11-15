@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's 100 open problems, Problem 59: is every n ≤ N the sum of two integers whose prime factors are all at most N^ε? The statement reads this as: for every ε > 0 and all sufficiently large N, every 2 ≤ n ≤ N is a + b with a, b > 0 both N^ε-smooth. Positive summands avoid the trivial n = 0 + n; n = 1 is excluded, and N large is implicit in the asymptotic question. Open. Faithful."
+    }
+]

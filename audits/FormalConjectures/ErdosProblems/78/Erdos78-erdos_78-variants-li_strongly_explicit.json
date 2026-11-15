@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/78 and [Li23b]: Li's construction is strongly explicit and avoids homogeneous sets of size (log n)^C. The statement asserts this in the strongly explicit model. Faithful."
+    }
+]

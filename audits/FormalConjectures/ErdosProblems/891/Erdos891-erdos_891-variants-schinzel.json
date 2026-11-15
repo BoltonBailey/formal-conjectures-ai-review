@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/891: Schinzel (via Pólya) proved the statement with p₁⋯p_k replaced by p₁⋯p_{k-1}p_{k+1}. The statement uses ∏_{i<k-1} p_{i+1} · nth Prime k, i.e. p₁⋯p_{k-1}·p_{k+1} in 1-indexed terms. Faithful."
+    }
+]

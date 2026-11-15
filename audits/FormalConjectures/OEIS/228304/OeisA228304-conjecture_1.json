@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A228304, a(n) = Σ_k C(n,k)⁴(−1)^k, with tests matching the data 1, 0, −14, 0, 786. Sun's conjecture: for odd primes p, the p×p Hankel determinant det(a(i+j))_{0≤i,j<p} ≡ (−1)^{(p−1)/2} (mod p). The statement matches, and the 'solved' tag follows the OEIS Open paper (arXiv:2608.11941), which lists this conjecture. Faithful."
+    }
+]

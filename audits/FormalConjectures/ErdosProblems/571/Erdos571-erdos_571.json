@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/571 (Erdős–Simonovits rational exponents conjecture): for every rational α ∈ [1,2) there is a bipartite G with ex(n;G) ≍ n^α. The page still lists only partial results. The statement matches exactly, with G a bipartite graph on Fin q and ex(n;G) =Θ n^α; α = 1 is handled by trees. The solved tag rests on a linked Lean file (about 10k lines; I checked that it exists and reports only the standard axioms for erdos_571), not on the page. Faithful as a formalisation."
+    }
+]

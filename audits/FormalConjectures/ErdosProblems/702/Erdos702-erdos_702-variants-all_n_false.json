@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "A sanity variant: without 'n large' the statement fails. For k = 4, n = 5, the five 4-subsets of [5] exceed C(3,2) = 3 and pairwise intersect in 3 points. It is proved by decide and justifies the eventual-n reading of erdosproblems.com/702. Faithful."
+    }
+]

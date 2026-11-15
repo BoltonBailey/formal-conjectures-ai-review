@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/658: for δ > 0 and N large, must A ⊆ [N]² with |A| ≥ δN² contain the vertices of a square? Yes, via density Hales–Jewett (Furstenberg–Katznelson) and Solymosi. The statement uses axis-aligned squares (a,b), (a+d,b), (a,b+d), (a+d,b+d) with d > 0, which is Graham's version and implies the version for arbitrary squares, as documented. Faithful."
+    }
+]

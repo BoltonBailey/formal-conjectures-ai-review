@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Deshouillers–Erdős–Melfi [DEM99, Theorem 3] constructed an infinite sum-free set with a_{n+1}/a_n → 1. The statement matches, and is consistent with erdosproblems.com/876, which cites [DEM99]. Faithful."
+    }
+]

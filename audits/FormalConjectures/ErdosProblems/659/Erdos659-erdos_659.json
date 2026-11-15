@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/659: is there a set of n points in the plane in which every 4 points determine at least 3 distances, yet the total number of distinct distances is ≪ n/√(log n)? The page records the positive answer (Moree–Osburn lattice construction plus Grayzel's exclusion of the pentagon configuration). The statement asks for a family A n of n-point sets in which every 4-subset has ≥ 3 distinct distances and distinctDistances (A n) = O(n/√(log n)) at atTop. Asking for a whole family is the right reading of '≪' in n. Faithful."
+    }
+]

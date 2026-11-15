@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/533: EHSSS proved δ₃(5) ≤ 1/12. The statement unpacks the double limit as: for each ε > 0 there is δ > 0 such that, for large n, every K₅-free G on n vertices with all triangle-free sets of size ≤ δn has ≤ (1/12 + ε)n² edges. That is a correct unpacking. Faithful."
+    }
+]

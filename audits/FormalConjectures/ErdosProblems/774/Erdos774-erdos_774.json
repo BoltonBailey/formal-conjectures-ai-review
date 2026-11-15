@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/774 (Alon–Erdős): is every infinite proportionately dissociated A ⊆ ℕ a finite union of dissociated sets? Open. IsDissociated says subset sums are injective on finite subsets, matching the page's definition. IsProportionatelyDissociated asks for a global c > 0 such that every finite B ⊆ A contains a dissociated S with |S| ≥ c|B|. The statement asks for a finite family of dissociated sets covering A exactly. The possible 0 ∈ A is harmless: {0} is not dissociated, so such A fail the hypothesis. Faithful."
+    }
+]

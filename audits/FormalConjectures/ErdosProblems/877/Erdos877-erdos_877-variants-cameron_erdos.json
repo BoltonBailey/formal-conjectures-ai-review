@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/877, which says Cameron and Erdős proved f_m(n) > 2^{n/4}. Per BLST (arXiv:1502.07605), their observation was actually f_m(n) ≥ 2^{⌊n/4⌋}. The statement asserts the strict real bound 2^{n/4} < f_m(n) for all large n. That is still true: BLST18 show f_m(n) = (C_i + o(1))2^{n/4} with C_i ≥ D_i′ ≥ 3·2^{−1/4} > 1 (their eq. (19)). So the statement is correct, though Cameron–Erdős's own bound does not quite give it. Faithful in substance."
+    }
+]

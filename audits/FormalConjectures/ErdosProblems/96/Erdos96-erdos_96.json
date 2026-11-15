@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/96: if n points form a convex polygon, there are O(n) unit-distance pairs (Erdős–Moser). The formalization is correct: maxConvexUnitDistances n is the sSup of unitDistNum over convex-independent n-point sets (bounded by C(n,2)), and the statement is that it is O(n). However the page now records that 'The original conjecture is false': for all large n some convex polygon has ≫ n log log n unit-distance pairs, with a formalised proof linked. The declaration is still tagged open and is not negated, so as written it is a false statement. Status and documentation need updating; the formulation itself is right."
+    }
+]

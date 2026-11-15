@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/731: find a reasonable f(n) such that, for almost all n, the least m with m ∤ C(2n,n) satisfies m ~ f(n). leastNonDivisor is that least m ≥ 1 (the set is nonempty, so sInf is the minimum). The statement asks that for every ε > 0 the n with |m/f(n) − 1| < ε have density 1. That is equivalent, by a standard diagonal argument, to m/f(n) → 1 along a set of density 1. As with every value question, the 'reasonable' requirement is not formalised, which the upstream convention explicitly allows. Faithful."
+    }
+]

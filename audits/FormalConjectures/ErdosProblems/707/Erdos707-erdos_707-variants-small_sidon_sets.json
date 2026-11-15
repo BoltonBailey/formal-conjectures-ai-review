@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/707: 'It is trivial that any Sidon set of size 2 can be extended to a perfect difference set. ... Sawin has proved that any Sidon set of size 3 can also be extended.' The statement asserts that every finite Sidon A with |A| ≤ 3 extends to a PDS modulo p²+p+1 with p a prime power. The page does not say which moduli Sawin's argument uses, and the prime-power restriction is an extra requirement I could not confirm from the cited source. Labelling this MathOverflow research result as 'textbook' is also questionable. The statement is plausibly correct (Singer sets are the natural tool), but the documentation does not justify the precise form."
+    }
+]

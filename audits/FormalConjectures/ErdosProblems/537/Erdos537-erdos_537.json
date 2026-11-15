@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/537: for ε > 0 and large N, must every A ⊆ [1,N] with |A| ≥ εN contain a_1, a_2, a_3 and distinct primes with a_1p_1 = a_2p_2 = a_3p_3? Disproved by Ruzsa's construction. The statement negates the universal claim. Distinct primes force a_1, a_2, a_3 to be distinct, so not requiring distinct a_i is harmless. Faithful."
+    }
+]

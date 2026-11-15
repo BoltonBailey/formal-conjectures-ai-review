@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green Problem 69: Elekes–Szabó conjecture that if A has cn² collinear triples, some 10 points of A lie on a cubic. The statement uses triple lines rather than collinear triples, and the docstring correctly argues equivalence (10 collinear points lie on a cubic; otherwise each line carries ≤ C(9,3) triples). It requires |A| > n₀(c), needed to exclude small configurations. Faithful."
+    }
+]

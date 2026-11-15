@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "F a X k counts i (as an ℕ∞ encard) with lcm(a_i, …, a_{i+k−1}) < X, for strictly increasing positive a, matching erdosproblems.com/873 (0-indexed). Erdős–Szemerédi proved F(A,X,3) ≪ X^{1/3}log X for every A. The statement uses one absolute C, with the bound holding for all large X depending on A, which matches the paper's (2) as described in the docstring. Faithful."
+    }
+]

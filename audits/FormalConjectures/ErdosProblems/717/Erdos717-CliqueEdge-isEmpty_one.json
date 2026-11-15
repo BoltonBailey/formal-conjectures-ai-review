@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: K_1 has no edges, i.e. there is no pair (i, j) in Fin 1 with i < j. This is correct and proved in the file, and it supports the definition of σ(G) used for erdosproblems.com/717."
+    }
+]

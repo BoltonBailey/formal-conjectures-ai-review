@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/559 (Beck): is R̂(G) ≪_d n for G with n vertices and maximum degree d? Disproved for d = 3 by Rödl–Szemerédi. sizeRamsey G G is the minimal edge count of an F such that every red/blue colouring contains G in one colour. The statement negates ∀ d ∃ C, R̂(G) ≤ C|V(G)| over finite G with maxDegree ≤ d. Faithful."
+    }
+]

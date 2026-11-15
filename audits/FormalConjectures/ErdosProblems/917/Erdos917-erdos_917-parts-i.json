@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/917: is f_k(n) ≫_k n² for k ≥ 4? Proved by Toft. The statement asserts, for each k ≥ 4, some c > 0 with f_k(n) ≥ cn² for all large n. IsKCritical requires both vertex- and edge-criticality, the standard notion (as in LMY23), which avoids isolated-vertex artefacts; f k n is the max edge count, or 0 if none. Faithful."
+    }
+]

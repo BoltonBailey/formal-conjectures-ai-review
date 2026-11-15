@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/750: Erdős and Hajnal proved the f(m) ≥ cm case for every c > 1/4. The statement asserts, for each c > 1/4, a graph with infinite chromatic number in which every m-vertex set contains an independent set of size ≥ m/2 − cm. Faithful."
+    }
+]

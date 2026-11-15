@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 3,
+        "explanation": "Compared against erdosproblems.com/507: the best upper bound is α(n) ≪ n^{−7/6+o(1)} [CPZ24]. The statement asks for g with α ≪ g and g = o(n^{−7/6}), i.e. it asserts that the current upper bound can be improved past n^{−7/6}. That is believed true (conjecturally α ≪ n^{−2+ε}) but is a different claim from the source's 'estimate α(n)', and the docstring ('Estimate an upper bound') does not state that an improvement beyond the n^{−7/6} barrier is being asserted."
+    }
+]

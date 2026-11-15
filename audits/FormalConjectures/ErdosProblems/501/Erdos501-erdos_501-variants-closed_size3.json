@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/501 (second question): if the A_x are closed with measure < 1, must there be an independent set of size 3? The page records a strong yes [NPS87]. The statement asks for X with 3 ≤ X.ncard (which forces X to be finite, since ncard of an infinite set is 0) and pairwise independence, under IsClosed and volume < 1. Faithful."
+    }
+]

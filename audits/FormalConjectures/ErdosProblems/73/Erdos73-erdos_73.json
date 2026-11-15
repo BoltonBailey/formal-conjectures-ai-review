@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/73 (proved by Reed): if every subgraph H of G has an independent set of size ≥ (|H| - k)/2, must G be bipartite after deleting O_k(1) vertices? The statement asserts, for each k, a C working for all finite G whose induced subgraphs on every S have such an independent set; this is equivalent to the all-subgraphs condition. The conclusion is that removing some D with |D| ≤ C leaves a 2-colourable induced graph. Restricting to finite G matches the finite-graph setting of Reed's theorem. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/961: 'It is likely that f(k) ≪ (log k)^{O(1)}.' The statement asserts ∃ C with f(k) < (log k)^C for large k; the implied constant is absorbed by the exponent. 'Estimate f(k)' is represented by this conjectured bound, which is reasonable. Faithful."
+    }
+]

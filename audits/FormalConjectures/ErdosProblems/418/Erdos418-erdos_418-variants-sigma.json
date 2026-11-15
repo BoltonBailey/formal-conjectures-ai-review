@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/418: Erdős showed that a positive-density set is not of the form σ(n) - n, and Banks–Luca proved lower density ≥ 1/48. The statement asserts that the complement of {σ(n) - n} has positive lower density, which follows from Banks–Luca. Faithful."
+    }
+]

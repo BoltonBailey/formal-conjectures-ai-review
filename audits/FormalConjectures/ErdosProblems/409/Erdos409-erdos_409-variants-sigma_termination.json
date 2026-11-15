@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/409: do iterates of n ↦ σ(n)-1 always reach a prime? The statement asserts this for all n > 1, correctly tagged open. It duplicates sigma_prime_termination. Faithful."
+    }
+]

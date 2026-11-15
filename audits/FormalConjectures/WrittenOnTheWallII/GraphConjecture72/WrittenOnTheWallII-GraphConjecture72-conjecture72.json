@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against WOWII 72 (Wayback all.html, status O; defs 48, 21, 4, 16): for simple connected G, tree(G) ≥ CEIL[average of ecc(v) + maximum of λ(v)/3]. Here tree(G) is the order of a largest induced tree, λ(v) is the independence number of the graph induced on N(v), and CEIL is the ceiling. The statement uses largestInducedTreeSize, averageEccentricity (mean of eccent over V) and the max of indepNeighborsCard. It reads the expression with standard precedence as avg ecc + (max λ)/3, which is the literal reading of the source string (no parentheses around the sum). Faithful."
+    }
+]

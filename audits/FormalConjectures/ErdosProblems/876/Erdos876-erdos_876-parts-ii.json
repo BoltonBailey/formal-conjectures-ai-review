@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/876: determine the maximum possible value of Σ_{a∈A} 1/a. The statement asks for an answer equal to maxRecipSum, the supremum over infinite sum-free sets with convergent reciprocal sums. Reading 'maximum' as a supremum is documented. IsSubsetSumFree A means every a ∈ A is positive and not a sum of distinct smaller elements of A, which is the page's definition. Faithful."
+    }
+]

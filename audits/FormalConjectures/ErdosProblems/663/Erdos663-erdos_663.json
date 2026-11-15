@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/663: with q(n,k) the least prime not dividing ∏_{i=1}^k (n+i), is q(n,k) < (1+o(1)) log n for fixed k ≥ 2 and large n? The statement asserts, for each k ≥ 2, an o(1) error such that eventually the least such prime q satisfies q < (1 + error n) log n. q's minimality is encoded explicitly. Faithful."
+    }
+]

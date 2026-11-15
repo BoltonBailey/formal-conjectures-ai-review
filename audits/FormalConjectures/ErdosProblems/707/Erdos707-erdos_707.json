@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/707: can every finite Sidon set A ⊆ ℕ be extended to a perfect difference set modulo p²+p+1 (p prime)? The page notes the weaker form with any modulus [Er77c], and that it was disproved (Hall 1947: {1,3,9,10,13} extends to no perfect difference set). The statement says the weakest form (some modulus n > 0) is false, which is the strongest disproof. IsPerfectDifferenceSet B n says that (a,b) ↦ a − b mod n is a bijection from B.offDiag onto the nonzero residues, which is the standard notion. Excluding n = 0 (where ZMod 0 = ℤ) is necessary and correct. Faithful."
+    }
+]

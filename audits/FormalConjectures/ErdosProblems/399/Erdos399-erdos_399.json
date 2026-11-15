@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/399: is it true that n! = x^k ± y^k has no solutions with xy > 1 and k > 2? The answer is no, by Barfield's 10! = 48⁴ - 36⁴. The statement asserts existence of a solution, writing the minus case as n! + y^k = x^k to avoid truncated subtraction, and is proved by decide with that witness. Faithful."
+    }
+]

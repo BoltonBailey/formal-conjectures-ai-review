@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/1221: Λ_r ≥ 1/log(1 + 1/r) for every r ≥ 1. The statement asserts this for the unnormalised bigLambda, which is the quantity the bound refers to. Faithful."
+    }
+]

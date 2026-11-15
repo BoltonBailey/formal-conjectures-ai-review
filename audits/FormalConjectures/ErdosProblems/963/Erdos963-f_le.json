@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: an n-set all of whose dissociated subsets have size ≤ m witnesses f(n) ≤ m. It is proved and correct, with f the min-max quantity of erdosproblems.com/963 (sSup over k such that every n-set of reals has a dissociated subset of size ≥ k). Faithful."
+    }
+]

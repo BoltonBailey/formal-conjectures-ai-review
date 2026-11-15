@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/899: if A ⊆ ℕ is infinite with |A ∩ [1,N]| = o(N), is limsup |(A-A) ∩ [1,N]|/|A ∩ [1,N]| = ∞? Yes (Ruzsa). In ℕ, the pointwise A - A uses truncated subtraction, but intersecting with [1,N] keeps exactly the positive differences, as intended. The ratio is taken in EReal, so N with an empty denominator do not break the limsup. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/741: is there a basis A of order 2 such that, for any split A = A₁ ⊔ A₂, the sets A₁ + A₁ and A₂ + A₂ cannot both have bounded gaps? Answered affirmatively (DeepMind; OpenAI). The statement uses IsAddBasisOfOrder (A ∪ {0}) 2, i.e. every n is a sum of at most two elements, and IsSyndetic for bounded gaps. Faithful."
+    }
+]

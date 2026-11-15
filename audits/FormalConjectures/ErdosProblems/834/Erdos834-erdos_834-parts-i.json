@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/834, first (transversal) notion of 3-critical: some 3 vertices meet every edge, no 2 do, and for each edge e some pair meets every edge except e. Li proved every such 3-uniform hypergraph has a vertex of degree ≤ 6. The statement negates the existence of a 3-uniform H on Fin n with a 3-transversal, no 2-transversal, a 2-transversal of H∖{e} for every e, and all vertex degrees ≥ 7. Requiring every vertex of Fin n to have degree ≥ 7 is the same as requiring it on the vertices of H, since isolated vertices can be dropped. Faithful."
+    }
+]

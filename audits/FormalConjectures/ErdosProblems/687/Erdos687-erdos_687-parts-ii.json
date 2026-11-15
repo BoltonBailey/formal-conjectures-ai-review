@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/687: can one prove Y(x) = o(x²)? The statement is (Y x : ℝ) = o(x²), the correct proposition. The file marks it solved, citing an OpenAI preprint proving Jacobsthal h(k) ≪ k², which gives Y(x) ≪ x²/(log x)², and a linked Lean proof. The erdosproblems.com page does not yet mention this; it still lists Iwaniec's Y(x) ≪ x² as the best upper bound. I could not check the preprint, but the formulation is faithful."
+    }
+]

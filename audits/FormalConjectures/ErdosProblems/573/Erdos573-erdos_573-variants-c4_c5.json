@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/573: Erdős–Simonovits proved ex(n; {C₄, C₅}) = (n/2)^{3/2} + O(n). The statement records only the upper bound, ex ≤ (n/2)^{3/2} + Cn eventually, and the docstring says so explicitly. It is a correct partial rendering of the cited result."
+    }
+]

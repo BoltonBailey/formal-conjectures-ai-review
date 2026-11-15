@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/85: f(n) is minimal such that every n-vertex graph with minimum degree ≥ f(n) contains C₄; is f(n+1) ≥ f(n) for all large n? `f n` is sInf of k such that every graph on Fin n with minDegree ≥ k contains cycleGraph 4 as a subgraph. For n ≥ 4 the set is nonempty (k = n−1 forces K_n). The statement 'eventually f n ≤ f (n+1)' matches, and the page's n ≥ 4 restriction is absorbed by ∀ᶠ. Faithful."
+    }
+]

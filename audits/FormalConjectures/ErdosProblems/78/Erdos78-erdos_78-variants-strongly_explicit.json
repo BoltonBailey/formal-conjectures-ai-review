@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/78: the main question in the strongly explicit model, where n is in binary so adjacency queries take poly(log n) time, the usual meaning of 'explicit Ramsey graph'. Open, and stronger than the weak version. Faithful."
+    }
+]

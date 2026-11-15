@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/966: for k, r ≥ 2, is there A ⊆ ℕ with no non-trivial (k+1)-term AP such that every r-colouring of A has a monochromatic non-trivial k-term AP? (Spencer showed yes.) IsAPOfLength k requires a set of exactly k elements forming an AP, so it is non-trivial for k ≥ 2. IsAPOfLengthFree (k+1) forbids (k+1)-term APs, and ContainsMonoAPofLength asks for a monochromatic k-term AP. The statement matches. Faithful."
+    }
+]

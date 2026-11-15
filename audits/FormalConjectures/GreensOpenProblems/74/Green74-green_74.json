@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Green's 100 open problems, Problem 74: what is the largest subset of [N]^d with no 5 points on a 2-plane? maxNoFiveCoplanar d N is the largest A ⊆ [N]^d in which no 5-subset is coplanar (lies in an affine subspace of dimension ≤ 2). The statement asks for the exact function f(d,N). Faithful."
+    }
+]

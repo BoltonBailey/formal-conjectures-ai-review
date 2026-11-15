@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/946: Heath-Brown showed #{n ≤ x : τ(n) = τ(n+1)} ≫ x/(log x)^7. `erdos946Count x` counts n ∈ [0, ⌊x⌋] with the property (n = 0 never qualifies), and the statement x/(log x)^7 =O[atTop] count is the ≫ bound. Faithful."
+    }
+]

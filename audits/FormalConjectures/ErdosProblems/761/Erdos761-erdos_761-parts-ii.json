@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/761 (Erdős–Gimbel): must a graph with large cochromatic number contain a graph with large dichromatic number? Read for finite graphs, the statement says: for each k there is m such that ζ(G) ≥ m gives a subgraph H with δ(H) ≥ k. `dichromaticNumber` is the least k such that every orientation (`IsOrientation`: each edge directed exactly one way, no loops) admits a k-colouring with no monochromatic directed cycle (IsAcyclicOn forbids closed TransGen walks in a class), which matches the page's definition. cochromaticNumber is the standard one. δ is monotone under subgraphs, so the subgraph quantifier is harmless. Faithful."
+    }
+]

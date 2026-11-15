@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/873: 'there may be a sequence for which this holds for every X'. The file reads 'every X' as all large X (the docstring explains why literally every X fails trivially) and asserts the negative answer, citing a linked Lean proof. The page itself does not record a resolution. The formalisation of the question is sound, and the 'solved' status rests on the linked proof. F a X k counts i (as an ℕ∞ encard) with lcm(a_i, …, a_{i+k−1}) < X, for strictly increasing positive a, matching erdosproblems.com/873 (0-indexed)."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Sawin's Lemma 2 (lattice geometry reduction), per the docstring: from a lattice Λ ⊂ ℝ^{2d} with minimum norm ≥ ρ, an additive injective map π : Λ → ℝ², and matching vectors S with ‖v‖ ≤ 1 and ‖πv‖ = 1, one obtains U ⊂ ℝ² with |U| ≤ (2R/ρ+1)^{2d} and (1-1/R)^{2d}|S||U| ≤ 2·unitDistNum U. The injectivity hypothesis is a harmless extra assumption, and the factor 2 correctly converts ordered to unordered pairs. Consistent with the disproof recorded on erdosproblems.com/90. Faithful as stated."
+    }
+]

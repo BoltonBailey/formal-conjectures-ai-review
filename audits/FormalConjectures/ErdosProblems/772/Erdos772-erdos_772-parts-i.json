@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/772: with H_k(n) the largest r such that every n-set A with ‖1_A∗1_A‖_∞ ≤ k contains a Sidon set of size ≥ r, is H_k(n)/n^{1/2} → ∞? Yes (Alon–Erdős, H_k(n) ≫_k n^{2/3}). The convolution counts ordered pairs, as is standard for 1_A∗1_A. This makes small k degenerate (k = 1 admits no A with |A| ≥ 2, so H = n), but the statement remains true and the substantive cases are covered. The statement asserts H_k(n)/√n → ∞ for every k ≥ 1. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/78: Li improved this to (log n)^C for some C > 0. The statement matches in the weakly explicit model. Faithful."
+    }
+]

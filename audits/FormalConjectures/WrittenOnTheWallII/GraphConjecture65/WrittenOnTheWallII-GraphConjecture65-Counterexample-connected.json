@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma for the WOWII 65 counterexample (a 13-vertex path with triangles attached at v₁ and v₁₁, 17 vertices). It asserts that the graph is connected, which is evident from the construction, and it is checked by decide. Correct."
+    }
+]

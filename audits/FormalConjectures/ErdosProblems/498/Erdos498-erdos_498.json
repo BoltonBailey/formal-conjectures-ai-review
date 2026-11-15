@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/498: for z_i ∈ ℂ with |z_i| ≥ 1 and a disc D of radius 1, is the number of sign sums Σ ε_i z_i (ε_i = ±1) lying in D at most C(n, ⌊n/2⌋)? Proved by Kleitman. The statement counts ε : Fin n → ℤ with values ±1 whose sum lies in the open ball of radius 1, and bounds this by n.choose (n/2). The open disc is the necessary reading: with a closed disc, n = 1 and z = 1 give both ±1 in the disc around 0, exceeding C(1,0) = 1. Faithful."
+    }
+]

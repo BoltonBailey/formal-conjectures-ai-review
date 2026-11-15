@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/525: Littlewood conjectured m(f) = o(1) almost surely, and Kashin proved it. The statement asserts that for every δ > 0, P(m(f) < δ) → 1 under uniform ±1 coefficients, which is the standard 'with high probability' reading. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/865: Choi–Erdős–Szemerédi proved that for every k ≥ 3 there is ε_k > 0 with f_k(N) ≤ (2/3 − ε_k)N for large N.  is the least m such that every A ⊆ [1,N] with |A| ≥ m has a k-subset S whose pairwise distinct sums lie in A. That matches the page's f_k(N) (the set of such m is nonempty, since m = N+1 is vacuous). The statement matches. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against [Er64b] and [Er85e] as cited: Erdős claimed, then retracted, the existence of an irrational α with {α p_n} not well-distributed; Champagne–Le–Liu–Wooley established it. The statement asserts ∃ irrational α with this property. Faithful."
+    }
+]

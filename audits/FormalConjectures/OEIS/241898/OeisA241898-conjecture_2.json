@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A241898 (Newman): can every number be written as a sum of four squares none of which is 7²? The statement asserts every n is a² + b² + c² + d² with a, b, c, d ≠ 7. Allowing 0 matches 'at most four squares', as documented. I checked numerically that no n ≤ 20000 fails. Faithful to the OEIS question."
+    }
+]

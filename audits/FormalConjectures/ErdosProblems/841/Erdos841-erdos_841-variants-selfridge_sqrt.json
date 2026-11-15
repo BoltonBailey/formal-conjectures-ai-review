@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/841: Selfridge proved t_n ≪ n^{1/2} when P(n) ≤ √(2n) + 1. The statement is ∃ C, ∀ n with maxPrimeFac n ≤ √(2n) + 1, t n ≤ C√n. The edge cases n = 0, 1 have t = 0. Faithful."
+    }
+]

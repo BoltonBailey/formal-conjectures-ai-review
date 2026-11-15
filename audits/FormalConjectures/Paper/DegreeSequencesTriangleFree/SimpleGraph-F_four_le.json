@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "F(4) ≤ 19, the bound attributed to the paper, with a linked Lean proof. It is also implied by F_four_le_fifteen. Source: Erdős–Fajtlowicz–Staton, 'Degree sequences in triangle-free graphs', Discrete Math. 92 (1991) 85–88. The full text was not accessible; the zbMATH review summary says that triangle-free graphs in which no degree occurs more than twice are bipartite, and that every triangle-free graph is an induced subgraph of one in which no degree occurs more than three times."
+    }
+]

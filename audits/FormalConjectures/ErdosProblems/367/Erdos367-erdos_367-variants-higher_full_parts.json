@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/367: 'for every fixed r,k ≥ 2 and ε > 0, limsup ∏_{n≤m<n+k} B_r(m)/n^{1+ε} = ∞?', asked in the context of r ≥ 3. Read literally with ε universal this is false, since the product is ≤ ∏ m ≈ n^k. Following van Doorn's comment, the file lets ε depend on (r, k), asking ∃ ε > 0 with limsup = ⊤ (in EReal) for all r ≥ 3, k ≥ 2. The docstring explains the reading and gives the n = (2^j+1)^r − 1 construction, which checks out (v₂(n) ≥ j ≥ r). That is the only sensible reading. Faithful."
+    }
+]

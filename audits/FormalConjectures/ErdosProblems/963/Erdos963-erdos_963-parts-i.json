@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against erdosproblems.com/963: 'Estimate f(n)'. The order log n is easy, and a forum sketch claims (1-o(1))log₂n. The statement asks for an answer function with f ~ answer, which is a stronger reading of 'estimate' than the vague source: it requires the exact asymptotic. This is the same convention issue as in other 'estimate' problems. The definition of f is faithful."
+    }
+]

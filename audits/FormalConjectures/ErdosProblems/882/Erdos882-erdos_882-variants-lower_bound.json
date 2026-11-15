@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/882: the ELRSS99 construction A = {2^m - 2^i : 0 ≤ i < m} has the antichain property. The statement asserts IsSubsetSumAntichain (A m) for all m. Faithful."
+    }
+]

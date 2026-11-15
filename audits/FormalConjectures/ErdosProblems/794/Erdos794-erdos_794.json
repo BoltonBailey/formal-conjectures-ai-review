@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/794: must every 3-uniform hypergraph on 3n vertices with ≥ n³+1 edges contain 4 vertices spanning 3 edges or 5 vertices spanning 7 edges? Harris's counterexample (n = 3, 28 edges) shows the answer is no. The statement negates the universal claim, with ContainsSubgraph m k meaning some m vertices span ≥ k edges. Faithful to the problem as stated."
+    }
+]

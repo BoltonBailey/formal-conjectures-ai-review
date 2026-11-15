@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 5,
+        "explanation": "Compared against erdosproblems.com/409: for n ↦ σ(n)-1, 'if so, how soon?' The answer is necessarily a function of n. The formal answer erdos_409.variants.sigma.answer : ℕ is a single constant, asserted to be the least iteration count for every n > 1 whose orbit reaches a prime. This is false: n = 2 needs 0 iterations, while n = 4 → 6 → 11 needs 2. The answer type should be ℕ → ℕ."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: a set with at most k points cannot contain k+1 collinear points. Trivially correct and proved. It supports the definition of arcs (no 3 collinear) in Green's Problem 68."
+    }
+]

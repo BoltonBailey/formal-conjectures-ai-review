@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/627: Tutte and Zykov showed that for every k there is a graph with ω = 2 and χ = k. The statement asserts this for k ≥ 2, since ω = 2 forces χ ≥ 2, and is proved in the file via Mycielski. Faithful."
+    }
+]

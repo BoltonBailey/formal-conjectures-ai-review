@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "API lemma: a subdivision of K_r has r distinct (injective) branch vertices, so r ≤ |V|. This is correct, proved in the file, and justifies bounding the Nat.findGreatest search in cliqueSubdivisionNumber."
+    }
+]

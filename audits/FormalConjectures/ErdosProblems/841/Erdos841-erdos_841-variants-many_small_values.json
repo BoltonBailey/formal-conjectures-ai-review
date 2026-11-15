@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/841: BPZ24 proved that for at least x^{1−o(1)} many n ≤ x, t_n ≤ exp(O(√(log n log log n))). The statement gives ∃ K with log #{n ≤ x : t_n ≤ exp(K√(log n · log log n))}/log x → 1. Since the count is ≤ x, this is exactly 'count = x^{1−o(1)}'. Faithful."
+    }
+]

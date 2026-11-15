@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/930: Erdős–Selfridge proved that a product of two or more consecutive positive integers is never a perfect power (the r = 1 case). The statement asserts this for (n+1)⋯(n+k) with k ≥ 2 and n ≥ 0, where IsPower means m^l with l > 1. The n = 0 case (k! for k ≥ 2) is also true. Faithful."
+    }
+]

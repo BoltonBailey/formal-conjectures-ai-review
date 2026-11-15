@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/751: for G with χ(G) = 4 and cycle lengths m₁ < m₂ < ⋯, can min(m_{i+1} − m_i) be arbitrarily large? No, by Bondy–Vince. The statement negates: for every k there is G (any vertex type) with chromaticNumber = 4 whose distinct cycle lengths all differ by ≥ k. That is exactly 'arbitrarily large minimal gap'. Faithful."
+    }
+]

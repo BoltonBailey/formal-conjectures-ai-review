@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A247824: a(n) is the least m > 0 with m + n | prime(m) + prime(n), conjectured to exist for every n > 0 (Sun). Indexing nth Prime (m-1) makes prime(1) = 2, and the tests match the data 1, 5, 5, 5, 2. The statement asserts the defining set is nonempty for n > 0, which is exactly existence. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/517 (Fejér–Pólya): if f(z) = Σ a_k z^{n_k} is entire with all a_k ≠ 0 and n_k/k → ∞, does f assume every value infinitely often? Open. The statement uses HasFabryGaps (strictly increasing n with n_k/k → ∞), nonzero coefficients, and pointwise HasSum on all of ℂ, which forces f to be entire. It asserts every fibre {f = z} is infinite. Faithful."
+    }
+]

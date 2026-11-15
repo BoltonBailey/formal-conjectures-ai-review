@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/552: is it true that for any c > 0 there are infinitely many n with R(C₄, S_n) ≤ n + √n − c, where S_n = K_{1,n}? The statement uses graphRamsey (cycleGraph 4) (completeBipartiteGraph (Fin 1) (Fin n)) and asks, for every c > 0, for an infinite set of such n. Faithful."
+    }
+]

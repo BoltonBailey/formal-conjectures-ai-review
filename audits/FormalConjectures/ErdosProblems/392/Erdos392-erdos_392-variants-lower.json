@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/392: with a_t ≤ n, A(n) = n - n/log n + o(n/log n), via the greedy decomposition. The statement matches with the bound a_t ≤ n. Faithful."
+    }
+]

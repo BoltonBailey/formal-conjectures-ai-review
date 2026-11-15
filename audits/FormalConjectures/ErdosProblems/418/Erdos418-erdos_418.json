@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/418: are there infinitely many positive integers not of the form n - φ(n)? Yes, by Browkin–Schinzel (2^k·509203, k ≥ 1). The statement asserts that the complement of {n - φ n} in ℕ is infinite. Including 0 makes no difference, since 0 = 0 - φ(0) is in the range anyway. Faithful."
+    }
+]

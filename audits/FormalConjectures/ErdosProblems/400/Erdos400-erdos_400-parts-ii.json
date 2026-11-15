@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/400: is there c_k such that for almost all n < x, g_k(n) = c_k log x + o(log x)? Here g_k(n) is the max of (a₁+⋯+a_k) - n over a₁!⋯a_k! | n!. The statement asserts, for each k ≥ 2, some c such that for every ε > 0 the proportion of n ≤ x with |g_k(n) - c log x| ≤ ε log x tends to 1. That is the standard 'almost all' reading. Faithful."
+    }
+]

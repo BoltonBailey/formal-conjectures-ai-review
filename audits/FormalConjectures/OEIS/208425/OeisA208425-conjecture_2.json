@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A208425 (ii): for primes p ≡ 1 (mod 3), Σ_{k<p} a(k) ≡ C(2(p-1)/3, (p-1)/3) (mod p²). The statement compares both sides mod p² in ℕ; the divisions by 3 are exact. Faithful."
+    }
+]

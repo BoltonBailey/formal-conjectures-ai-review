@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/717: Erdős–Fajtlowicz showed χ(G) ≫ (n^{1/2}/log n)·σ(G) for almost all graphs. The statement gives ∃ C > 0 such that the proportion of labelled graphs on Fin n with ¬(C·(√n/log n)·σ < χ) tends to 0, out of 2^{C(n,2)} graphs. Strict versus non-strict inequality is immaterial once C is free. Faithful."
+    }
+]

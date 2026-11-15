@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Related to erdosproblems.com/987 (Clunie's A_k ≤ k). This variant asserts A_k ≤ k + 1 for all k ≥ 1 with x_j ∈ (0,1). The docstring explains why the open interval and the +1 differ from Clunie's statement. It is true (it also follows from the OpenAI (k log k)^{1/2} bound for large k, and from the van der Corput construction). Faithful as a labelled weakening."
+    }
+]

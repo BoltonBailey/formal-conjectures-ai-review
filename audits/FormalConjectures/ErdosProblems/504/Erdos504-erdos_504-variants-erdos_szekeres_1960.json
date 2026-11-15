@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/504 and the docstring's reference to Theorem 1 of [ErSz60]: every set of 2^n points in the plane determines an angle strictly greater than π(1−1/n). The statement asks for p, q, r ∈ S with p ≠ q, r ≠ q and the angle at q exceeding (1−1/n)π; p ≠ r is not required but p = r gives angle 0, so it is implied. A Lean proof is linked. Faithful."
+    }
+]

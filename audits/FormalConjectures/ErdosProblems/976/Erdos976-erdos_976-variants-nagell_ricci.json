@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/976: F_f(n) is the greatest prime divisor of ∏_{m≤n} f(m) for irreducible f ∈ ℤ[x] of degree d ≥ 2.  is maxPrimeFac of |∏_{m∈[1,n]} f(m)|; there are no integer roots, so the product is nonzero. Nagell and Ricci proved F_f(n) ≫ n log n. The statement is n log n = O(F f n). Faithful."
+    }
+]

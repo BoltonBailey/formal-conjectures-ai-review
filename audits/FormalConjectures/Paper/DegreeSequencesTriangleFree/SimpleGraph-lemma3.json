@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Lemma 3: for every n > 0 there is a bipartite graph on 8n vertices with minimum degree n+1 and f = 3. This is consistent with the paper's construction feeding Theorem 2. Source: Erdős–Fajtlowicz–Staton, 'Degree sequences in triangle-free graphs', Discrete Math. 92 (1991) 85–88. The full text was not accessible; the zbMATH review summary says that triangle-free graphs in which no degree occurs more than twice are bipartite, and that every triangle-free graph is an induced subgraph of one in which no degree occurs more than three times. It could not be checked verbatim against the paper."
+    }
+]

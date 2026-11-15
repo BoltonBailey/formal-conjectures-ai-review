@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A232616 (ii): x^n - n = y^m with m, n, x, y > 1 has only the solutions 2⁵ - 5 = 3³ and 2⁷ - 7 = 11². The statement is an iff over such x, y, n, m. Natural subtraction is exact since x^n ≥ 2^n > n. Faithful."
+    }
+]

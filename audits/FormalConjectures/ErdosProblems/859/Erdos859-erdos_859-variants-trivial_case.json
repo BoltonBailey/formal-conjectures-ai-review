@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Sanity variant: t = 0 is the empty sum of divisors of any n, so DivisorSumSet 0 is all of ℕ. Correct and proved. The page restricts to t ≥ 1, so this is only a degenerate check."
+    }
+]

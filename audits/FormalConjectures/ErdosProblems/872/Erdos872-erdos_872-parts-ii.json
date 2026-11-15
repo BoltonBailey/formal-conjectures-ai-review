@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/872: 'At least (1-ε)n/2 moves?' The page says this has a negative answer with Prolonger first (Shortener can force ≤ (23/48 + o(1))n). The statement negates the claim under the same convention, with a linked Lean proof. Faithful."
+    }
+]

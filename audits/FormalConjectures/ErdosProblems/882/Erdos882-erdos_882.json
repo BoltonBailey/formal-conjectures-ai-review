@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/882: what is the largest A ⊆ [1,n] whose nonempty subset sums are pairwise non-dividing? ELRSS99 gives |A| > log₂n - 1 and Problem 1 gives |A| ≤ log₂n + ½log₂log n + O(1), so the maximum is (1+o(1))log₂n. IsSubsetSumAntichain forbids divisibility between sums of distinct nonempty subsets. For positive elements this is equivalent to the page's condition on the set of sums (equal sums would give t and 2t). The statement asserts maxAntichainCard n / log₂ n → 1. Faithful."
+    }
+]

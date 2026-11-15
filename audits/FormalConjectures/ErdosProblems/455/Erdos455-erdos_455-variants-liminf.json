@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/455: Richter proved liminf q_n/n² > 0.352⋯ for increasing primes with non-decreasing gaps. The statement takes a strictly increasing prime sequence with q(n+2) − q(n+1) ≥ q(n+1) − q(n) (0-indexed; the shift does not change the liminf, since (n+1)²/n² → 1) and asserts that the ℝ≥0∞ liminf of q n/n² exceeds 0.352. That is implied by Richter's bound. Faithful."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/917: is f_k(n) ~ ½(1 - 1/⌊k/3⌋)n² for every k ≥ 6? Disproved for k ≢ 0 (mod 3) by Stiebitz's constructions. The statement negates the universal claim. Faithful."
+    }
+]

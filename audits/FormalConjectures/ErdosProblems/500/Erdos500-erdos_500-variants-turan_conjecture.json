@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/500: the lower bound (5/9+o(1)) binom(n,3) 'is probably the truth', i.e. Turán's conjecture π(K_4^3) = 5/9. The statement is ex_3(n,K_4^3) ~ (5/9)·binom(n,3), which is exactly this asymptotic, and it is tagged open. Faithful."
+    }
+]

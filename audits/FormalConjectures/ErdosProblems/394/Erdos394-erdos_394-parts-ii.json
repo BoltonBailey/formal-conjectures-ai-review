@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/394: is Σ_{n≤x} t_{k+1}(n) = o(Σ_{n≤x} t_k(n)) for k ≥ 2? The statement asserts this little-o for every k ≥ 2 over real x via ⌊x⌋. The linked Lean proof exists (dense_adjacent_isLittleO), which supports the solved tag; the page itself only lists proof claims. Faithful."
+    }
+]

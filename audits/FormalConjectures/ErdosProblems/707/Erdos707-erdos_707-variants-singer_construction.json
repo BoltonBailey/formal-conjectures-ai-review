@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Textbook fact (Singer): for every prime power p there is a perfect difference set modulo p²+p+1 with p+1 elements. The statement says exactly this. Faithful."
+    }
+]

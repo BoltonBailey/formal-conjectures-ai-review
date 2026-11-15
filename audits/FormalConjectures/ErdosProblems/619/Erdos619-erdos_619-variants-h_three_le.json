@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/619: EGR98 proved h_3(G) ≤ n for connected triangle-free G on n vertices. minNewEdges 3 G is the least number of edges added to reach a triangle-free supergraph with ediam ≤ 3 (diameter 'at most r', the standard meaning of h_r). The statement is minNewEdges 3 G ≤ |V|. Faithful."
+    }
+]

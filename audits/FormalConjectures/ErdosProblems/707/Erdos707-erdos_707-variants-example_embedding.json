@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Sanity example: {1,2,4} is itself a perfect difference set modulo 7 = 2²+2+1, since its differences ±1, ±2, ±3 cover the nonzero residues. Proved in the file. Correct."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Q₂ is Erdos367.B 2 (the product of p^a ∥ m with a ≥ 2), and the product over Icc n (n+ℓ) is n(n+1)⋯(n+ℓ), as on erdosproblems.com/935. Mahler's result implies limsup Q₂(⋯)/n² ≥ 1 for every ℓ ≥ 1. The statement encodes limsup ≥ 1 as: for every ε > 0, frequently (1−ε)n² < Q₂(⋯). Faithful."
+    }
+]

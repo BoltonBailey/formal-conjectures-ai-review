@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/767. g_k(n) is the maximum number of edges of an n-vertex graph containing no cycle with k chords incident to one vertex of the cycle. HasCycleWithIncidentChords encodes this: a cycle through v and k distinct f i with s(v, f i) a chord of the cycle. Question: is g_k(n) = (k+1)n − (k+1)² for large n? Jiang proved this for n ≥ 3k+3. The statement asserts the equality for all k ≥ 1 and n ≥ 3k+3, which is a correct concrete form of 'n sufficiently large'. Faithful."
+    }
+]

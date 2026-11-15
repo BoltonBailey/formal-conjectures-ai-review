@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/835 (Erdős–Rosenfeld): does some k > 2 admit a colouring of the k-subsets of [2k] with k+1 colours such that every (k+1)-set A sees all colours among its k-subsets? Property k encodes this exactly, using the k-subsets s ⊂ A, and the statement asserts ∃ k > 2, Property k. Faithful."
+    }
+]

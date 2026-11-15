@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/739: the page credits Galvin with the case m = ℵ₀, which is vacuous for infinite n < m. The variant reads it as n = ℵ₀ for m > ℵ₀: every G with χ > ℵ₀ has a subgraph with χ = ℵ₀. That is true via de Bruijn–Erdős, taking disjoint finite subgraphs of increasing chromatic number. The reinterpretation is reasonable and documented. Faithful."
+    }
+]

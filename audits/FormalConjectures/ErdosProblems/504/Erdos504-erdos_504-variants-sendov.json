@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "e028240a61822d970c933f4656f51da025cf200b",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/504, which states Sendov's result as α_N = π(1−1/n) for 2^{n−1}+2^{n−3} < N ≤ 2^n and α_N = π(1−1/(2n−1)) for 2^{n−1} < N ≤ 2^{n−1}+2^{n−3}. The formalization uses π(1−2/(2n−1)) in the second branch, following Zbl 0853.52009 (α_N = π(1−2/(2n+1)) for 2^n < N ≤ 2^n+2^{n−2}) with n shifted by one; the docstring explains the discrepancy, and the page's version would give α_5 = 4π/5, contradicting the regular pentagon (all angles ≤ 3π/5). The shift and branch conditions check out for n ≥ 3. Faithful, with the deviation from the problem page documented and justified."
+    }
+]
