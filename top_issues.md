@@ -2,77 +2,7 @@
 
 The issues that audits currently report, ranked as described in the [Prioritizing Issues](README.md#prioritizing-issues) section of the README: each entry is a model's most recent audit of a declaration that is still present in `formal-conjectures`, with severity at least 3, sorted by severity and then by how recent the audited commit is.
 
-1. `Erdos361.erdos_361`: severity 5, misformulated (provability differs)
-
-   <details>
-   <summary>Details</summary>
-
-   - **File:** [FormalConjectures/ErdosProblems/361.lean](https://github.com/google-deepmind/formal-conjectures/blob/e028240a61822d970c933f4656f51da025cf200b/FormalConjectures/ErdosProblems/361.lean)
-   - **Commit:** [`e028240a6182`](https://github.com/google-deepmind/formal-conjectures/commit/e028240a61822d970c933f4656f51da025cf200b) (2026-11-14)
-   - **Model:** claude-opus-5-5
-   - **Audit file:** [Erdos361-erdos_361.json](audits/FormalConjectures/ErdosProblems/361/Erdos361-erdos_361.json)
-
-   Compared against erdosproblems.com/361: for c > 0 and large n, what is the size of the largest A ⊆ {1,…,⌊cn⌋} such that n is not a subset sum of A? The definitions are right: subsetSumAvoidanceNumber c n is that maximum. But the unknown `erdos_361.answer : ℕ → ℕ` does not depend on c, while the theorem asserts subsetSumAvoidanceNumber c = erdos_361.answer for every c > 0. That forces the function to be independent of c, which is false. For n = 1, c = 1/2 gives ⌊c⌋ = 0 and value 0, while c = 2 gives A = {2} and value 1. So the statement is false for every choice of answer and cannot be a formulation of the problem. The answer should take c as a parameter, per the upstream convention for value questions, and 'large n' would most naturally be handled asymptotically. The second question (irregular dependence on n) is not formalised.
-
-   </details>
-
-2. `Erdos409.erdos_409.parts.i`: severity 5, misformulated (provability differs)
-
-   <details>
-   <summary>Details</summary>
-
-   - **File:** [FormalConjectures/ErdosProblems/409.lean](https://github.com/google-deepmind/formal-conjectures/blob/e028240a61822d970c933f4656f51da025cf200b/FormalConjectures/ErdosProblems/409.lean)
-   - **Commit:** [`e028240a6182`](https://github.com/google-deepmind/formal-conjectures/commit/e028240a61822d970c933f4656f51da025cf200b) (2026-11-14)
-   - **Model:** claude-opus-5-5
-   - **Audit file:** [Erdos409-erdos_409-parts-i.json](audits/FormalConjectures/ErdosProblems/409/Erdos409-erdos_409-parts-i.json)
-
-   Compared against erdosproblems.com/409: 'How many iterations of n ↦ φ(n)+1 are needed before a prime is reached?' The answer is necessarily a function of n (A039651). The formal answer erdos_409.parts.i.answer : ℕ is a single constant, and the theorem asserts, for every n > 0, that it is the least i with (φ·+1)^[i] n prime. This is false for every choice of answer: n = 2 is prime, so its least i is 0, while n = 4 gives φ(4)+1 = 3, so its least i is 1. The answer should have type ℕ → ℕ (or the question should be phrased asymptotically, as in the isTheta variant).
-
-   </details>
-
-3. `Erdos409.erdos_409.variants.sigma`: severity 5, misformulated (provability differs)
-
-   <details>
-   <summary>Details</summary>
-
-   - **File:** [FormalConjectures/ErdosProblems/409.lean](https://github.com/google-deepmind/formal-conjectures/blob/e028240a61822d970c933f4656f51da025cf200b/FormalConjectures/ErdosProblems/409.lean)
-   - **Commit:** [`e028240a6182`](https://github.com/google-deepmind/formal-conjectures/commit/e028240a61822d970c933f4656f51da025cf200b) (2026-11-14)
-   - **Model:** claude-opus-5-5
-   - **Audit file:** [Erdos409-erdos_409-variants-sigma.json](audits/FormalConjectures/ErdosProblems/409/Erdos409-erdos_409-variants-sigma.json)
-
-   Compared against erdosproblems.com/409: for n ↦ σ(n)-1, 'if so, how soon?' The answer is necessarily a function of n. The formal answer erdos_409.variants.sigma.answer : ℕ is a single constant, asserted to be the least iteration count for every n > 1 whose orbit reaches a prime. This is false: n = 2 needs 0 iterations, while n = 4 → 6 → 11 needs 2. The answer type should be ℕ → ℕ.
-
-   </details>
-
-4. `Erdos450.erdos_450`: severity 5, misformulated (provability differs)
-
-   <details>
-   <summary>Details</summary>
-
-   - **File:** [FormalConjectures/ErdosProblems/450.lean](https://github.com/google-deepmind/formal-conjectures/blob/e028240a61822d970c933f4656f51da025cf200b/FormalConjectures/ErdosProblems/450.lean)
-   - **Commit:** [`e028240a6182`](https://github.com/google-deepmind/formal-conjectures/commit/e028240a61822d970c933f4656f51da025cf200b) (2026-11-14)
-   - **Model:** claude-opus-5-5
-   - **Audit file:** [Erdos450-erdos_450.json](audits/FormalConjectures/ErdosProblems/450/Erdos450-erdos_450.json)
-
-   Compared against erdosproblems.com/450: 'How large must y = y(ε,n) be…' The answer is inherently a function of ε and n. The formal answer is erdos_450.answer : ℕ∞, a single constant, and the theorem asserts windowThreshold ε n = erdos_450.answer for every ε > 0 and every n, so the statement is false for any choice of answer. Concretely, for n = 1 no integer lies in (1,2), so localCount is always 0 and windowThreshold ε 1 = 0. For n = 2 and ε = 1/10, the multiples of 3 have density 1/3 > 1/10, so no window length works and windowThreshold (1/10) 2 = ⊤. Both values cannot equal the same constant. The answer should have type ℝ → ℕ → ℕ∞, or the question should be phrased asymptotically. The reading over all x is a documented choice, which the page flags as ambiguous.
-
-   </details>
-
-5. `Erdos692.erdos_692.parts.ii`: severity 5, misformulated (provability differs)
-
-   <details>
-   <summary>Details</summary>
-
-   - **File:** [FormalConjectures/ErdosProblems/692.lean](https://github.com/google-deepmind/formal-conjectures/blob/e028240a61822d970c933f4656f51da025cf200b/FormalConjectures/ErdosProblems/692.lean)
-   - **Commit:** [`e028240a6182`](https://github.com/google-deepmind/formal-conjectures/commit/e028240a61822d970c933f4656f51da025cf200b) (2026-11-14)
-   - **Model:** claude-opus-5-5
-   - **Audit file:** [Erdos692-erdos_692-parts-ii.json](audits/FormalConjectures/ErdosProblems/692/Erdos692-erdos_692-parts-ii.json)
-
-   Compared against erdosproblems.com/692: 'For fixed n, where does δ₁(n,m) achieve its maximum?' The answer is necessarily a function of n. The formal answer erdos_692.parts.ii.answer : ℕ is a single constant, and the theorem asserts, for every n, that δ₁(n, answer) is the greatest value of δ₁(n, m) over m > n+1. This is false for every choice of answer. Once n + 1 ≥ answer, the interval (n, answer) contains no integers, so δ₁(n, answer) = 0. But δ₁(n, n+2) > 0, since a positive density of integers are divisible by n+1 and by no other integer in (n, n+2). The answer should have type ℕ → ℕ.
-
-   </details>
-
-6. `Erdos975.erdos_975.variants.quadratic`: severity 5, misformulated (provability differs)
+1. `Erdos975.erdos_975.variants.quadratic`: severity 5, misformulated (provability differs)
 
    <details>
    <summary>Details</summary>
@@ -81,12 +11,13 @@ The issues that audits currently report, ranked as described in the [Prioritizin
    - **Commit:** [`a919f7f47b83`](https://github.com/google-deepmind/formal-conjectures/commit/a919f7f47b836b766f378c2b1360b28168bbdd9d) (2026-11-13)
    - **Model:** claude-fable-5-2
    - **Audit file:** [Erdos975-erdos_975-variants-quadratic.json](audits/FormalConjectures/ErdosProblems/975/Erdos975-erdos_975-variants-quadratic.json)
+   - **Other models:** claude-opus-5-5 severity 1
 
    Compared against erdosproblems.com/975: 'Such an asymptotic formula is known whenever f is an irreducible quadratic, as proved by Hooley. The form of c depends on f in a complicated fashion (see the work of McKee …)'. The Lean statement is: for every irreducible f of degree 2 with f(n) ≥ 1 eventually and every c, c = erdos_975.variants.quadratic.answer → 0 < c ∧ Erdos975Sum f x/(x log x) → c. The placeholder `answer : ℝ` is a single real number that does not depend on f, so the statement asserts that all irreducible quadratics share the same limiting constant. That is false: for f = X² + 1 the constant is 3/π (the file's own n2_plus_1_strong), whereas for other quadratics it is different (e.g. by McKee's class-number formula the constant for X² + 2 is 12·H(8)/(π√8) = 3√2/π ≠ 3/π). Hence no value of the answer makes the theorem true, and the declaration as stated is unprovable although the result it is meant to record (Hooley's theorem) is true. The answer needs to be a function of f (e.g. answer : ℤ[X] → ℝ), or the statement should be existential in c as in erdos_975.
 
    </details>
 
-7. `Erdos503.erdos_503`: severity 5, misformulated (provability differs)
+2. `Erdos503.erdos_503`: severity 5, misformulated (provability differs)
 
    <details>
    <summary>Details</summary>
@@ -95,12 +26,13 @@ The issues that audits currently report, ranked as described in the [Prioritizin
    - **Commit:** [`a425ca3eb797`](https://github.com/google-deepmind/formal-conjectures/commit/a425ca3eb797fe927cb88c950565fdcbbbbada70) (2026-11-12)
    - **Model:** claude-fable-5-2
    - **Audit file:** [Erdos503-erdos_503.json](audits/FormalConjectures/ErdosProblems/503/Erdos503-erdos_503.json)
+   - **Other models:** claude-opus-5-5 severity 1
 
    Compared against erdosproblems.com/503: 'What is the size of the largest A ⊆ R^d such that every three points from A determine an isosceles triangle?' — a quantity that depends on the dimension d (6 for d = 2, 8 for d = 3, between C(d+1,2)+1 and C(d+2,2) in general). In the Lean file the answer is declared as a single natural number, 'def erdos_503.answer : ℕ := sorry', while the theorem is 'theorem erdos_503 (n : ℕ) : IsGreatest {A.ncard | A : Set (ℝ^n), A.IsIsosceles} erdos_503.answer', universally quantified over the dimension n. No value of the constant can satisfy this for all n: the file's own solved variants erdos_503.variants.R2 and erdos_503.variants.R3 state that the greatest element is 6 for n = 2 and 8 for n = 3 (and for n = 0 it is 1), and IsGreatest determines its value uniquely. So the statement as written is false for every choice of erdos_503.answer and cannot express the intended problem. The intended form is an answer depending on the dimension, e.g. 'def erdos_503.answer : ℕ → ℕ := sorry' with conclusion 'IsGreatest {...} (erdos_503.answer n)'. The rest of the encoding (Set.IsIsosceles = nonempty and every triple of distinct points has two equal distances; ncard; ℝ^n as Euclidean space) is fine.
 
    </details>
 
-8. `Erdos506.erdos_506`: severity 5, misformulated (provability differs)
+3. `Erdos506.erdos_506`: severity 5, misformulated (provability differs)
 
    <details>
    <summary>Details</summary>
@@ -109,12 +41,13 @@ The issues that audits currently report, ranked as described in the [Prioritizin
    - **Commit:** [`da703a5f239f`](https://github.com/google-deepmind/formal-conjectures/commit/da703a5f239f734a47ede2f4e99b9ccc9e644cb5) (2026-11-11)
    - **Model:** claude-fable-5-2
    - **Audit file:** [Erdos506-erdos_506.json](audits/FormalConjectures/ErdosProblems/506/Erdos506-erdos_506.json)
+   - **Other models:** claude-opus-5-5 severity 1
 
    Compared against erdosproblems.com/506: 'What is the minimum number of circles determined by any n points in ℝ², not all on a circle?' — a value question whose answer is a function of n (for n > 393 it is C(n−1,2) + 1 − ⌊(n−1)/2⌋ by Elliott with the Purdy–Smith correction). Concrete defect: the Lean unknown is declared as `def erdos_506.answer : ℕ := sorry`, a single natural number independent of n, while the theorem asserts, for every n ≥ 4, IsLeast {numCircles P : |P| = n, P not collinear, not cospherical} erdos_506.answer. Since the minimum changes with n — e.g. the file's own large_n variant gives 76833 for n = 394 and 77225 for n = 395 — no single natural number can be the least element for all n, so the statement is false for every choice of answer and can never be 'solved' as intended. The answer should have type ℕ → ℕ (as erdos_506.variants.large_n.answer does). The same defect affects erdos_506.variants.small_n (constant answer for all 4 ≤ n ≤ 393). The rest (numCircles, non-degeneracy assumptions, n ≥ 4) is reasonable.
 
    </details>
 
-9. `Erdos525.erdos_525.parts.ii`: severity 5, misformulated (provability differs)
+4. `Erdos525.erdos_525.parts.ii`: severity 5, misformulated (provability differs)
 
    <details>
    <summary>Details</summary>
@@ -128,7 +61,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-10. `Erdos552.erdos_552.parts.i`: severity 5, misformulated (provability differs)
+5. `Erdos552.erdos_552.parts.i`: severity 5, misformulated (provability differs)
 
    <details>
    <summary>Details</summary>
@@ -137,12 +70,13 @@ The issues that audits currently report, ranked as described in the [Prioritizin
    - **Commit:** [`2f91d251c07f`](https://github.com/google-deepmind/formal-conjectures/commit/2f91d251c07fbbaf9435166d47c11e884a08a6cf) (2026-11-09)
    - **Model:** claude-fable-5-2
    - **Audit file:** [Erdos552-erdos_552-parts-i.json](audits/FormalConjectures/ErdosProblems/552/Erdos552-erdos_552-parts-i.json)
+   - **Other models:** claude-opus-5-5 severity 1
 
    Compared against erdosproblems.com/552 ("Determine the Ramsey number R(C_4,S_n), where S_n=K_{1,n}"). The intended object is a function of n, but the unknown is declared as a single number `erdos_552.parts.i.answer : ℕ` that does not take n as a parameter, and the statement is `∀ n, graphRamsey C_4 K_{1,n} = erdos_552.parts.i.answer`. This asserts that R(C_4,S_n) is the same for every n, which is false: the site records n+√n−6n^{11/40} ≤ R(C_4,S_n), so the values are unbounded (and the file's own docstring for `succ_le_add_two` notes R(C_4,S_0)=1 ≠ 4=R(C_4,S_1)). So the statement is false for every possible value of the answer, and no determination of R(C_4,S_n) could prove it. The upstream CONTRIBUTING.md says the answer definition should take the theorem's parameters when the unknown depends on them; the fix is `answer : ℕ → ℕ` applied to n. The graphs themselves (cycleGraph 4, completeBipartiteGraph (Fin 1) (Fin n), graphRamsey as least N such that every graph on Fin N contains C_4 or has K_{1,n} in its complement) are a correct rendering.
 
    </details>
 
-11. `Arxiv.«2406.10319».pittel_hyperbola_threshold`: severity 4, essentially misformalized
+6. `Arxiv.«2406.10319».pittel_hyperbola_threshold`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -156,7 +90,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-12. `Erdos422.erdos_422.variants.growth_rate`: severity 4, essentially misformalized
+7. `Erdos422.erdos_422.variants.growth_rate`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -170,7 +104,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-13. `Erdos897.erdos_897.variants.log_growth`: severity 4, essentially misformalized
+8. `Erdos897.erdos_897.variants.log_growth`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -184,7 +118,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-14. `DiophantineTuple.hasUniqueExtension_of_forall`: severity 4, essentially misformalized
+9. `DiophantineTuple.hasUniqueExtension_of_forall`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -198,7 +132,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-15. `DiophantineTuple.noIntegralDiophantineFiveTuple`: severity 4, essentially misformalized
+10. `DiophantineTuple.noIntegralDiophantineFiveTuple`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -212,7 +146,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-16. `DiophantineTuple.rational_7_tuple`: severity 4, essentially misformalized
+11. `DiophantineTuple.rational_7_tuple`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -226,7 +160,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-17. `Erdos142.erdos_142`: severity 4, essentially misformalized
+12. `Erdos142.erdos_142`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -240,7 +174,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-18. `Erdos142.erdos_142.variants.isTheta`: severity 4, essentially misformalized
+13. `Erdos142.erdos_142.variants.isTheta`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -254,7 +188,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-19. `Erdos319.erdos_319`: severity 4, essentially misformalized
+14. `Erdos319.erdos_319`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -268,7 +202,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-20. `Erdos321.erdos_321`: severity 4, essentially misformalized
+15. `Erdos321.erdos_321`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -282,7 +216,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-21. `OeisA103425.conjecture`: severity 4, essentially misformalized
+16. `OeisA103425.conjecture`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -296,7 +230,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-22. `OeisA103425.conjecture.variants.nonconstant`: severity 4, essentially misformalized
+17. `OeisA103425.conjecture.variants.nonconstant`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -310,7 +244,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-23. `OeisA103425.conjecture.variants.nonconstant_distinct_coeffs`: severity 4, essentially misformalized
+18. `OeisA103425.conjecture.variants.nonconstant_distinct_coeffs`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -324,7 +258,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-24. `Erdos1017.erdos_1017.lower_bound`: severity 4, essentially misformalized
+19. `Erdos1017.erdos_1017.lower_bound`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -338,7 +272,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-25. `Erdos1017.erdos_1017.upper_bound`: severity 4, essentially misformalized
+20. `Erdos1017.erdos_1017.upper_bound`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -352,7 +286,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-26. `Erdos328.erdos_328`: severity 4, essentially misformalized
+21. `Erdos328.erdos_328`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -366,7 +300,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-27. `Erdos918.erdos_918.variants.eq_aleph_0.parts.i`: severity 4, essentially misformalized
+22. `Erdos918.erdos_918.variants.eq_aleph_0.parts.i`: severity 4, essentially misformalized
 
    <details>
    <summary>Details</summary>
@@ -380,7 +314,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-28. `Erdos409.erdos_409.parts.iii`: severity 3, edge cases or discrepancies, but still equivalent
+23. `Erdos409.erdos_409.parts.iii`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -394,7 +328,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-29. `Erdos507.erdos_507.lower`: severity 3, edge cases or discrepancies, but still equivalent
+24. `Erdos507.erdos_507.lower`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -408,7 +342,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-30. `Erdos507.erdos_507.upper`: severity 3, edge cases or discrepancies, but still equivalent
+25. `Erdos507.erdos_507.upper`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -422,7 +356,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-31. `Erdos70.erdos_70.variants.omega_one`: severity 3, edge cases or discrepancies, but still equivalent
+26. `Erdos70.erdos_70.variants.omega_one`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -436,7 +370,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-32. `Erdos897.erdos_897.parts.i`: severity 3, edge cases or discrepancies, but still equivalent
+27. `Erdos897.erdos_897.parts.i`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -450,7 +384,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-33. `Erdos897.erdos_897.parts.ii`: severity 3, edge cases or discrepancies, but still equivalent
+28. `Erdos897.erdos_897.parts.ii`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -464,7 +398,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-34. `FanelliMoscardelli.stability_threshold_tight`: severity 3, edge cases or discrepancies, but still equivalent
+29. `FanelliMoscardelli.stability_threshold_tight`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -478,7 +412,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-35. `Erdos462.erdos_462`: severity 3, edge cases or discrepancies, but still equivalent
+30. `Erdos462.erdos_462`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -492,7 +426,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-36. `Erdos601.erdos_601.variants.omega_1_omega_plus_2`: severity 3, edge cases or discrepancies, but still equivalent
+31. `Erdos601.erdos_601.variants.omega_1_omega_plus_2`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -506,7 +440,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-37. `Erdos918.erdos_918.variants.all_subgraphs.parts.i`: severity 3, edge cases or discrepancies, but still equivalent
+32. `Erdos918.erdos_918.variants.all_subgraphs.parts.i`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -520,7 +454,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-38. `Erdos887.erdos_887.parts.i`: severity 3, edge cases or discrepancies, but still equivalent
+33. `Erdos887.erdos_887.parts.i`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -534,7 +468,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-39. `Andrica.andrica_conjecture.ferreira_large_n`: severity 3, edge cases or discrepancies, but still equivalent
+34. `Andrica.andrica_conjecture.ferreira_large_n`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -548,7 +482,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-40. `Brocard.brocard_conjecture.ferreira_large_n`: severity 3, edge cases or discrepancies, but still equivalent
+35. `Brocard.brocard_conjecture.ferreira_large_n`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -562,7 +496,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-41. `Green29.green_29`: severity 3, edge cases or discrepancies, but still equivalent
+36. `Green29.green_29`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -576,7 +510,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-42. `LegendreConjecture.legendre_conjecture.ferreira_large_n`: severity 3, edge cases or discrepancies, but still equivalent
+37. `LegendreConjecture.legendre_conjecture.ferreira_large_n`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -590,7 +524,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-43. `Oppermann.oppermann_conjecture.ferreira_large_x`: severity 3, edge cases or discrepancies, but still equivalent
+38. `Oppermann.oppermann_conjecture.ferreira_large_x`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -604,7 +538,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-44. `Bugeaud06.problem_10_6_variant_1`: severity 3, edge cases or discrepancies, but still equivalent
+39. `Bugeaud06.problem_10_6_variant_1`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -618,7 +552,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-45. `Equidistribution.isAccumulationPoint_three_halves_pow`: severity 3, edge cases or discrepancies, but still equivalent
+40. `Equidistribution.isAccumulationPoint_three_halves_pow`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -632,7 +566,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-46. `Erdos1000.erdos_1000`: severity 3, edge cases or discrepancies, but still equivalent
+41. `Erdos1000.erdos_1000`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -646,7 +580,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-47. `Erdos108.erdos_108`: severity 3, edge cases or discrepancies, but still equivalent
+42. `Erdos108.erdos_108`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -660,7 +594,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-48. `Erdos143.erdos_143.parts.ii`: severity 3, edge cases or discrepancies, but still equivalent
+43. `Erdos143.erdos_143.parts.ii`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -674,7 +608,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-49. `Erdos29.erdos_29`: severity 3, edge cases or discrepancies, but still equivalent
+44. `Erdos29.erdos_29`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -688,7 +622,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-50. `Erdos42.erdos_42.variants.constructive`: severity 3, edge cases or discrepancies, but still equivalent
+45. `Erdos42.erdos_42.variants.constructive`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>
@@ -702,7 +636,7 @@ The issues that audits currently report, ranked as described in the [Prioritizin
 
    </details>
 
-51. `Erdos923.erdos_923`: severity 3, edge cases or discrepancies, but still equivalent
+46. `Erdos923.erdos_923`: severity 3, edge cases or discrepancies, but still equivalent
 
    <details>
    <summary>Details</summary>

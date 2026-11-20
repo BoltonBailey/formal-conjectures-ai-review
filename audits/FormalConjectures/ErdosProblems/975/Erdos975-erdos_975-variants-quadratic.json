@@ -5,5 +5,12 @@
         "effort": null,
         "severity": 5,
         "explanation": "Compared against erdosproblems.com/975: 'Such an asymptotic formula is known whenever f is an irreducible quadratic, as proved by Hooley. The form of c depends on f in a complicated fashion (see the work of McKee …)'. The Lean statement is: for every irreducible f of degree 2 with f(n) ≥ 1 eventually and every c, c = erdos_975.variants.quadratic.answer → 0 < c ∧ Erdos975Sum f x/(x log x) → c. The placeholder `answer : ℝ` is a single real number that does not depend on f, so the statement asserts that all irreducible quadratics share the same limiting constant. That is false: for f = X² + 1 the constant is 3/π (the file's own n2_plus_1_strong), whereas for other quadratics it is different (e.g. by McKee's class-number formula the constant for X² + 2 is 12·H(8)/(π√8) = 3√2/π ≠ 3/π). Hence no value of the answer makes the theorem true, and the declaration as stated is unprovable although the result it is meant to record (Hooley's theorem) is true. The answer needs to be a function of f (e.g. answer : ℤ[X] → ℝ), or the statement should be existential in c as in erdos_975."
+    },
+    {
+        "hash": "d8d031d4998c78575159ccab9a7a9e95ce043883",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Re-audit after #8015. Compared against erdosproblems.com/975: Hooley proved Σ_{n≤X} τ(f(n)) ~ c(f) X log X for every irreducible quadratic f, and 'the form of c depends on f in a complicated fashion' (McKee). The answer is now `erdos_975.variants.quadratic.answer (f : ℤ[X]) : ℝ`, and the statement says that for irreducible f of degree 2 with f(n) ≥ 1 eventually, answer f is positive and is the limit of Erdos975Sum f x/(x log x). This fixes the earlier defect (one constant shared by every quadratic, false since X²+1 gives 3/π and X²+2 a different constant). Erdos975Sum takes ⌊f(n)⌋₊ and includes n = 0, but only finitely many terms are affected, which does not change the asymptotics. Irreducible in ℤ[X] also forces primitivity, which is the natural reading of 'irreducible'. Faithful."
     }
 ]

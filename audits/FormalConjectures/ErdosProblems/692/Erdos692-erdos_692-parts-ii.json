@@ -5,5 +5,12 @@
         "effort": null,
         "severity": 5,
         "explanation": "Compared against erdosproblems.com/692: 'For fixed n, where does δ₁(n,m) achieve its maximum?' The answer is necessarily a function of n. The formal answer erdos_692.parts.ii.answer : ℕ is a single constant, and the theorem asserts, for every n, that δ₁(n, answer) is the greatest value of δ₁(n, m) over m > n+1. This is false for every choice of answer. Once n + 1 ≥ answer, the interval (n, answer) contains no integers, so δ₁(n, answer) = 0. But δ₁(n, n+2) > 0, since a positive density of integers are divisible by n+1 and by no other integer in (n, n+2). The answer should have type ℕ → ℕ."
+    },
+    {
+        "hash": "d8d031d4998c78575159ccab9a7a9e95ce043883",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Re-audit after #8015. Compared against erdosproblems.com/692: 'For fixed n, where does δ₁(n,m) achieve its maximum?', where δ₁(n,m) is the density of integers with exactly one divisor in (n,m), for m > n+1. The answer is now `erdos_692.parts.ii.answer (n : ℕ) : ℕ`, and the statement is IsGreatest (δ n '' Ioi (n+1)) (δ n (answer n)) for any δ realising the densities. The densities exist, since each set is periodic mod the lcm of the integers in (n,m), so the ∀ δ is not vacuous. The maximum is attained, since δ₁(n,m) → 0 as m → ∞. Ties are allowed, so any maximiser is a valid answer, which suits 'where'. Faithful."
     }
 ]

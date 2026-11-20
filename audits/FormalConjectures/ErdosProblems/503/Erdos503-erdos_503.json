@@ -5,5 +5,12 @@
         "effort": null,
         "severity": 5,
         "explanation": "Compared against erdosproblems.com/503: 'What is the size of the largest A ⊆ R^d such that every three points from A determine an isosceles triangle?' — a quantity that depends on the dimension d (6 for d = 2, 8 for d = 3, between C(d+1,2)+1 and C(d+2,2) in general). In the Lean file the answer is declared as a single natural number, 'def erdos_503.answer : ℕ := sorry', while the theorem is 'theorem erdos_503 (n : ℕ) : IsGreatest {A.ncard | A : Set (ℝ^n), A.IsIsosceles} erdos_503.answer', universally quantified over the dimension n. No value of the constant can satisfy this for all n: the file's own solved variants erdos_503.variants.R2 and erdos_503.variants.R3 state that the greatest element is 6 for n = 2 and 8 for n = 3 (and for n = 0 it is 1), and IsGreatest determines its value uniquely. So the statement as written is false for every choice of erdos_503.answer and cannot express the intended problem. The intended form is an answer depending on the dimension, e.g. 'def erdos_503.answer : ℕ → ℕ := sorry' with conclusion 'IsGreatest {...} (erdos_503.answer n)'. The rest of the encoding (Set.IsIsosceles = nonempty and every triple of distinct points has two equal distances; ncard; ℝ^n as Euclidean space) is fine."
+    },
+    {
+        "hash": "d8d031d4998c78575159ccab9a7a9e95ce043883",
+        "model": "claude-opus-5-5",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Re-audit after #7946. Compared against erdosproblems.com/503: 'What is the size of the largest A ⊆ ℝ^d such that every three points from A determine an isosceles triangle?' (6 for d = 2, 8 for d = 3, and between C(d+1,2)+1 and C(d+2,2) in general). The answer is now `erdos_503.answer (n : ℕ) : ℕ`, and the statement is IsGreatest {A.ncard | A ⊆ ℝ^n, A.IsIsosceles} (answer n), which fixes the earlier defect (one constant for all dimensions). Set.IsIsosceles (FormalConjecturesForMathlib/Geometry/2d.lean) is Nonempty A ∧ A.Triplewise IsIsosceles, i.e. every triple of distinct points has two equal distances. That matches the page's 'at least two of the distances are equal', degenerate collinear triples included. Infinite isosceles sets cannot occur (Blokhuis), and ncard would make them 0 in any case. Faithful, and consistent with the R2/R3 variants."
     }
 ]
