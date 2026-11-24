@@ -5,5 +5,12 @@
         "effort": null,
         "severity": 1,
         "explanation": "Pudlák, 'Incompleteness in the finite domain' (arXiv:1601.01487, §6): a proof system for SAT is a polytime function from Σ* onto SAT, and the conjecture (SAT) is that SAT has no p-optimal proof system. IsProofSystem (polytime, range exactly L), PSimulates (polytime translation h with P∘h = Q) and IsPOptimalProofSystem follow Cook–Reckhow. The statement is made for every NP-complete L instead of SAT; this is equivalent because p-optimal proof systems pass down along many-one reductions (Köbler–Messner–Torán 2003) and all NP-complete sets are many-one equivalent to SAT. Faithful."
+    },
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Pudlák, 'Incompleteness in the finite domain' (arXiv:1601.01487v2), §6.3 ('a proof system for SAT is a polynomial time computable function from Σ* onto SAT'; Proposition 6.3; the node SAT in the diagram of conjectures) and Khaniki (arXiv:1904.01362, p. 4): 'there is no p-optimal proof system for SAT, which we call SAT^c'. IsProofSystem (polynomial-time function with range exactly L), PSimulates (P (h π) = Q π with h polynomial-time) and IsPOptimalProofSystem are the Cook–Reckhow notions; IsPolyTime and NP come from the shared complexity file (Mathlib's TM2 polynomial time; NP by polynomially bounded witnesses). Instead of defining SAT, the Lean statement quantifies over every L that is NP-complete under many-one reductions, and the docstring says so. This is equivalent to the source: SAT is NP-complete, and the existence of a p-optimal proof system passes down along ≤_m^p (if f reduces A to B and P_B is p-optimal for B, then (x, π) ↦ x if P_B(π) = f(x), else a fixed element of A, is p-optimal for A). Neither ∅ nor the full language is NP-complete under these reductions, so the hypothesis does not make the statement vacuous. The equivalence is not proved in the repository, but it is standard. Correct."
     }
 ]

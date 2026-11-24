@@ -5,5 +5,12 @@
         "effort": null,
         "severity": 1,
         "explanation": "States that for all n > 122 there is a twin prime pair (p, p+2) with n² < p and p + 2 < (n+1)². This exactly matches the OEIS conjecture \"a(n)>0 for all n>122\", and the counting definition matches A091591 (pairs strictly between consecutive squares). The statement is faithful and tagged open."
+    },
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A091591: 'Number of pairs of twin primes between n^2 and (n+1)^2', with 'It is conjectured that a(n)>0 for all n>122' and the examples a(3) = 1 (the pair (11,13)) and a(9) = 0. a n counts primes p with n² < p, p + 2 prime and p + 2 < (n + 1)². For n ≥ 3 the boundary conventions cannot matter: n², (n + 1)² and (n + 1)² − 1 are composite, so no twin pair touches or straddles a square. I recomputed the Lean definition: its values for 3 ≤ n ≤ 59 agree with the OEIS data, and for 3 ≤ n < 1300 it vanishes exactly at n = 9, 19, 26, 27, 30, 34, 39, 49, 53, 77, 122, so 122 is the right threshold. The statement ∀ n > 122, a n > 0 is the conjecture as written. Correct."
     }
 ]

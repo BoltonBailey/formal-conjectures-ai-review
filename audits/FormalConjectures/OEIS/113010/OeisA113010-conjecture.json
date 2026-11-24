@@ -5,5 +5,12 @@
         "effort": null,
         "severity": 1,
         "explanation": "OEIS A113010 (a(n) = (number of digits of n)^(digit sum of n)): 'n=1 and 32 are two fixed points. Are there any others?' (none below 10^1000 per C. Wu). The formal a uses Nat.digits 10 (for n = 0 the empty list gives 0^0 = 1, matching a(0) = 1), and the statement asks for a fixed point other than 1 and 32: the positive form of the question. Faithful."
+    },
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against OEIS A113010: '{Number of digits of n} raised to the power of {the sum of the digits of n}', with the comment 'n=1 and 32 are two fixed points. Are there any others?' (and 'There are no other fixed points less than 10^1000', C. W. Wu, 2019). a n = (Nat.digits 10 n).length ^ (Nat.digits 10 n).sum. For n = 0 Lean has the empty digit list and 0^0 = 1, which agrees with the OEIS value a(0) = 1^0 = 1, so 0 is not a spurious fixed point (a 0 ≠ 0, a 1 = 1 and a 32 = 32 checked by decide; a fixed point with d digits must be a power of d, and a search over the powers of d with exactly d digits finds no other fixed point for d < 3000). The statement ∃ n, a n = n ∧ n ≠ 1 ∧ n ≠ 32 with @[question] is the question as asked. Correct."
     }
 ]

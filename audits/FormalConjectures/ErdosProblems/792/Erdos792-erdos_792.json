@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/792 ('Let f(n) be maximal such that in any A ⊂ ℤ with |A| = n there exists some sum-free subset B ⊆ A with |B| ≥ f(n), so that there are no solutions to a + b = c with a, b, c ∈ B. Estimate f(n).') and Erdős [Er65, p. 186, (27)]. f n is the sSup of a nonempty set bounded by n, hence the intended maximum; IsSumFree B is Disjoint (B + B) B, which allows a = b, as (27) does (j_1 ≤ j_2). 'Estimate' is formalised as (f n − n/3) =Θ[atTop] answer (real division; confirmed by rfl against the elaborated statement). The docstring explains this choice, and it is the natural one because f(n) ≤ n/3 + o(n) [EGM14] and f(n) ≥ n/3 + c log log n [Be25b]. Edge case worth recording: Lean admits 0 ∈ A (the file proves f 1 = 0), following the site's literal 'A ⊂ ℤ', whereas Erdős takes 'n real numbers all different from 0' and the bounds f(n) ≥ n/3, (n+1)/3, (n+2)/3 are for nonzero or positive integers. This does not change the problem: a sum-free set never contains 0, so the Lean f(n) equals the zero-free f(n − 1), which differs from the zero-free f(n) by at most 1, and the excess tends to infinity; the Θ-class is the same. The file's variants handle the point by restricting to positive integers. Correct."
+    }
+]

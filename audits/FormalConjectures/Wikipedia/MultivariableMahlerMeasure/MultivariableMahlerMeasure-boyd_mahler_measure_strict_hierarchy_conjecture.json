@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia 'Mahler measure', section 'Boyd's proposal' (rev. 1370624899): with L_n := {m(P(z_1, …, z_n)) : P ∈ ℤ[z_1, …, z_n]}, 'Boyd further conjectures that L_1 ⫋ L_2 ⫋ L_3 ⫋ ⋯'. intLogMahlerSet n is the set of logMahlerMeasure of nonzero P ∈ ℤ[X_0, …, X_{n−1}] mapped to ℂ, and logMahlerMeasure P = ∫_{[0,1]^n} log ‖P(e^{2πiθ})‖ dθ is the logarithmic Mahler measure m. The statement L_n ⊂ L_{n+1} for n ≥ 1 uses strict inclusion of sets, matching the chain link by link. P ≠ 0 is the needed domain restriction (m(0) is undefined). The docstring explains why n = 0 is left out. Correct."
+    }
+]

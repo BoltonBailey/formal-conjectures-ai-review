@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 2,
+        "explanation": "Compared against Problem 55 of Green's '100 open problems' (PDF fetched 2026-11-24): 'Let p be an odd prime and suppose that f : F_p^n × F_p^n → C is a function bounded pointwise by 1. Suppose that E_h ‖Δ_{(h,h)} f‖_□^4 ≥ δ. Does f correlate with a function of the form a(x)b(y)c(x + y)(−1)^{q(x,y)}?', with Δ_{(h,h)} f(x, y) = f(x, y) conj f(x + h, y + h). The hypothesis is formalised faithfully: boxNorm4 g = E_{x1,x2,y1,y2} g(x1,y1) conj g(x1,y2) conj g(x2,y1) g(x2,y2), multiplicativeDerivative h f x = f x · conj f(x + h), and the average over h is divided by p^n. The conclusion departs from the printed formula in two places: Lean has c(x − y) and the phase e_p(B(x, y)) with B bilinear, where the source prints c(x + y) and (−1)^{q(x,y)}. Both are the sensible reading for odd p, not errors: (−1)^q has no meaning for an F_p-valued q, and the functions invariant in the diagonal direction are those of x − y (for unimodular c, f(x, y) = c(x − y) has Δ_{(h,h)} f ≡ 1), as in Austin [Au14, Example 1.6], who splits solutions into pieces invariant under U_1, U_2 and U_3 = {(w, w)}; in characteristic 2 the two forms coincide, which would explain the printed text. A bilinear B loses nothing against a quadratic q(x, y), since the pure x and pure y parts go into a and b. 'Correlate' is read as |⟨f, ·⟩| ≥ C(δ) > 0 with C depending on p and δ but not on n, and a, b, c bounded by 1; the guards n ≥ 1 and δ ≤ 1 are harmless. Severity 2 only because the docstring presents the c(x − y) e_p(B(x, y)) form as the problem's wording without saying that it corrects the printed formula."
+    }
+]

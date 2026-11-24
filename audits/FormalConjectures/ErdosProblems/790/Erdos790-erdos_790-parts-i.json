@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/790 and Erdős's own statements [Er65, p. 188] ('from any set of n real numbers a_1, ..., a_n one can always select g(n) = k of them [...] so that no a_{i_k} is the sum of other a_{i_j}'s') and [Er73, p. 130] ('no a_{i_j} is the distinct sum of other a_{i_r}'s'). DistinctSubsetSumFree B forbids a = ΣS for a ∈ B, S ⊆ B \\ {a}, |S| ≥ 2, which is 'a_1 = a_2 + ⋯ + a_r with a_i ∈ B all distinct' (r = 2 is impossible). Guarantees n 0 always holds and k ≤ n is forced by B ⊆ A, so Nat.findGreatest (Guarantees n) n is the intended maximum l(n). Erdős speaks of real numbers and the site of A ⊂ ℤ, as here (zero and negative numbers allowed); the two give the same l(n), since a finite set of reals can be replaced by integers with the same subset-sum relations. 'Estimate l(n)' is rendered as l =Θ[atTop] answer with answer : ℕ → ℝ, the repository's usual reading, and the docstring says so. The order of growth is open: the site records √(n log n / log log n) ≪ l(n) ≪ n / log n [CKS75]. Correct."
+    }
+]

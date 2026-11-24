@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against S. Colton, 'Refactorable Numbers - A Machine Invention', J. Integer Seq. 2 (1999), Article 99.1.2, §2.2: 'Conjecture 2. There are infinitely many pairs of refactorable numbers', where the pairs are consecutive integers (a, a + 1), e.g. (1 2), (8 9), (1520 1521). Wikipedia 'Refactorable number' (rev. 1367435349) words it as a question ('Colton asked if there are arbitrarily large n such that both n and n + 1 are refactorable'). Lean: {n | n.IsRefactorable ∧ (n + 1).IsRefactorable}.Infinite, with IsRefactorable n := 1 ≤ n ∧ n.divisors.card ∣ n; the guard removes n = 0, where Mathlib has divisors 0 = ∅ and 0 ∣ 0. Stating it as a claim without @[question] follows Colton's own formulation, which the docstring cites. Correct."
+    }
+]

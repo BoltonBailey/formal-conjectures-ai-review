@@ -5,5 +5,12 @@
         "effort": null,
         "severity": 1,
         "explanation": "Kurepa's original formulation: gcd(n!, !n) = 2 for n > 2 (Kurepa 1971, Guy B44); equivalent to n ∤ !n for n > 2, proved in the file as gcd_reduction. Note this variant is stated for a single n while the reduction is global, which is fine. Faithful."
+    },
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Kurepa's paper itself (Math. Balkanica 1 (1971), 147–153; annotated scan linked from OEIS A003422). P. 147: '!n = Σ m!, (m < n), with 0! = 1' and 'The main question is to know whether for every natural number n > 2 one has M_n = 2 (cf. 2.1) or equivalently whether !n ≢ 0 (mod n)'; p. 149: 'M_n denotes the greatest common divisor of !n, n!' and 'Our hypothesis states M_n = 2 for 1 < n ∈ N'. left_factorial n = Σ_{m<n} m! and the statement ∀ n > 2, gcd(n!, !n) = 2 (elaborated type confirmed by rfl) reproduce the p. 147 form exactly; the case n = 2 of the p. 149 form is the trivial gcd(2, 2) = 2 (checked by decide). OEIS A003422 records that the conjecture is still open ('A published 2004 proof was retracted in 2011'). The file also proves the equivalence with the divisibility form (kurepa_conjecture.gcd_reduction). Correct."
     }
 ]

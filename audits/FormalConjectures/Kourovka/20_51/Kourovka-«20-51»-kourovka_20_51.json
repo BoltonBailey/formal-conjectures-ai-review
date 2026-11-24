@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 20.51 (D. MacHale) in the Kourovka Notebook No. 21, arXiv:1401.0300v50 (2 Nov 2026), p. 164: 'Is it true that for every odd integer t > 3 there exists a finite non-abelian group G of odd order with exactly t conjugacy classes?' The Lean statement is a literal rendering: t : ℕ (confirmed by rfl against the elaborated type), a Group structure on G : Type, Finite G, ∃ a b, a * b ≠ b * a, Odd (Nat.card G), and Nat.card (ConjClasses G) = t. Restricting G to Type loses nothing for finite groups. The problem is listed without comment among the unsolved problems of v50, and the author index puts 20.51–52 with MacHale's open problems rather than in the archive, so 'research open' with @[question] is right. Correct."
+    }
+]

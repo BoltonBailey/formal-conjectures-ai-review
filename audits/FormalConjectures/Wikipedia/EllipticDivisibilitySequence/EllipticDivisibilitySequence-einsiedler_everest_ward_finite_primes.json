@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia 'Elliptic divisibility sequence' (rev. 1375009133): 'It is conjectured that a nonsingular EDS contains only finitely many primes', and against Einsiedler–Everest–Ward, LMS J. Comput. Math. 4 (2001), 1–13 (open access): 'we are going to argue, from heuristics and from calculations, that an elliptic divisibility sequence should contain only finitely many primes' (p. 2), for sequences that 'do not satisfy a linear recurrence' and arise from 'an elliptic curve and a non-torsion integral point Q' (pp. 3–4). IsNonsingularEDS W requires the EDS conditions, W 1 = 1, and W n = ψ_n(x, y) for a rational point on a Weierstrass curve over ℚ with Δ ≠ 0 (Ward's representation of nonsingular sequences); the conclusion is that {n ≥ 1 : |W n| is prime} is finite. The extra hypothesis ∀ n ≠ 0, W n ≠ 0 (non-torsion point) is absent from Wikipedia's sentence but matches EEW's setting. Wikipedia's unqualified sentence fails for periodic sequences: 1, 2, 1, 0, −1, −2, −1, 0, ... satisfies the EDS recurrence (checked numerically), has discriminant −3840 ≠ 0 by Wikipedia's formula, and equals ±2 at every n ≡ 2 (mod 4). The normalisation W 1 = 1 loses nothing. Correct."
+    }
+]

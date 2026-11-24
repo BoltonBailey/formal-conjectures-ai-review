@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia 'Minimal prime (recreational mathematics)' (rev. 1317344170), note to the base-17 count: 'For base 17, there are 1279 known minimal (probable) primes and one unsolved family: F1{9}'. The Lean number 15·17^{k+1} + 17^k + Σ_{i<k} 9·17^i has base-17 digits F, 1, 9^k (checked by decide for k = 3: Nat.digits 17 gives [9, 9, 9, 1, 15]; k = 0 gives 256). IsMinimalPrimeInBase b p := 2 ≤ b ∧ p prime ∧ no prime q ≠ p has its digit list as a sublist of that of p. Sublists of the little-endian digit lists are the subsequences of the usual expansion, and a subsequence with leading zeros contains its canonical form as a further subsequence, so this is the article's definition. Whether some member of the family is a minimal prime is what decides between 1279 and 1280 in the article's base-17 count. @[question] fits. Correct."
+    }
+]

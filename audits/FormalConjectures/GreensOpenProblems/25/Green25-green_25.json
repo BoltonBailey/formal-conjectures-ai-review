@@ -5,5 +5,12 @@
         "effort": null,
         "severity": 1,
         "explanation": "Green's Problem 25: for which k = k(N) does every partition of [N] into k parts satisfy |⋃(Aᵢ +̂ Aᵢ)| ≥ N/10? This is encoded as the set of functions k(N) for which the property holds for all large N. Finpartition parts are nonempty, and the count is exactly k, which matches \"partition [N] = A₁ ∪ ⋯ ∪ A_k\". The restricted sumset uses distinct summands, as in Green. The statement is a faithful set-valued answer formulation."
+    },
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Problem 25 of Green's '100 open problems' (PDF fetched 2026-11-24): 'For which values of k is the following true: whenever we partition [N] = A_1 ∪ ⋯ ∪ A_k, |⋃_{i=1}^k (A_i +̂ A_i)| ≥ N/10?', with the comment that it holds for k ≪ log log N and can fail for k ≫ N/log N. Property25 k N quantifies over Finpartition (Icc 1 N) with exactly k parts (nonempty by definition) and asks 10·|⋃ restrictedSumset| ≥ N, where restrictedSumset S = {s_1 + s_2 : s_1, s_2 ∈ S, s_1 ≠ s_2}. For 1 ≤ k ≤ N, 'exactly k nonempty parts' is equivalent to 'at most k parts', because refining a partition can only shrink the union of the restricted sumsets. The guard 1 ≤ k ≤ N turns the otherwise vacuous cases into False, which agrees with the all-singletons partition when empty parts are allowed. The question is formalised as determining the set of functions k(N) for which the property holds for all large N, with answer : Set (ℕ → ℕ); k depending on N and eventual truth is the reading implied by Green's comments. Correct."
     }
 ]

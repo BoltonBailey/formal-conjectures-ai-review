@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia 'Skewes's number' (rev. 1382412014): 'it is known that there is a crossing between π(x) < li(x) and π(x) > li(x) near e^{727.95133} [...] It is not known whether this is the smallest crossing', with the table entry [exp(727.95132478), exp(727.95134682)] for the Saouter–Demichel crossing interval. The Lean statement says π(n) ≤ li(n) for every integer 2 ≤ n < exp(727.95132), i.e. no crossing before that interval. The threshold is just below the interval's left end (72795132/100000 < 727.95132478, checked with norm_num) and the docstring flags it as a formalisation choice. Real.logIntegral x = li(2) + ∫_2^x dt/log t, with li(2) defined as the principal value ∫_0^1 (1/log(1+u) + 1/log(1−u)) du ≈ 1.04516, so it is the li of the source and π(2) = 1 < li(2). Restricting to integers loses nothing: if π(x) > li(x) for a real x ≥ 2 then the same holds at ⌊x⌋. Nat.primeCounting counts primes ≤ n. @[question] fits. Correct."
+    }
+]

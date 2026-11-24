@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia 'List of unsolved problems in mathematics', section Prime numbers (rev. 1386859731): 'Are all Mersenne numbers of prime index square-free?' Lean: ∀ p, p.Prime → Squarefree (mersenne p), with Mathlib's mersenne p = 2^p − 1 and the @[question] tag. A literal match; the restriction to prime exponents is part of the statement (the file's test M_6 = 63 = 3^2 · 7 shows why it is needed). Correct."
+    }
+]

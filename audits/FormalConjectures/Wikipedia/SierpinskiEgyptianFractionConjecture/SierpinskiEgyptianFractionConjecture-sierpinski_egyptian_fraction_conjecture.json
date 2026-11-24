@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia 'Erdős–Straus conjecture', section 'Generalizations' (rev. 1383447838): 'it has been conjectured that every fraction 5/n (for n > 1) can be expressed as a sum of three positive unit fractions [...] The conjecture for fractions 5/n was made by Wacław Sierpiński in a 1956 paper'. Lean: for every n ≥ 2 there are x, y, z ≥ 1 with (5 : ℚ)/n = 1/x + 1/y + 1/z. The equation is stated in ℚ, and the guards 1 ≤ x, y, z keep out Lean's 1/0 = 0, so 'positive unit fractions' is rendered exactly; the three denominators need not be distinct, as in the article's wording for 4/n (n = 2 uses 1 + 1 + 1/2, and distinct denominators could not reach 5/2). The bound n ≥ 2 is sharp: the file proves that n = 1 has no decomposition (5 > 3). Stated as a claim, tagged open. Correct."
+    }
+]
