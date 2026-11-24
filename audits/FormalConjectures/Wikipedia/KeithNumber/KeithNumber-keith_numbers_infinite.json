@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia 'Keith number' (rev. 1379610282): n with k digits in base b is a Keith number if it occurs in the sequence that starts with its k digits and continues with the sums of the previous k terms; 'Whether or not there are infinitely many Keith numbers in a particular base b is currently a matter of speculation'; base-10 list 14, 19, 28, 47, 61, 75, 197, ... (OEIS A007629). keithWindowStep keeps the last k terms and appends their sum; IsKeithNumberBase b N asks that, starting from the most-significant-first digit list, the newest term equals N after some m ≥ 1 steps. Every digit is < b ≤ N, so N cannot occur among the initial terms and m ≥ 1 loses nothing. Requiring N ≥ b excludes the trivial single-digit cases, as the listed terms do, and cannot affect infiniteness. The declaration is the base-10 case with @[question], which fits the source's neutral wording. Correct."
+    }
+]

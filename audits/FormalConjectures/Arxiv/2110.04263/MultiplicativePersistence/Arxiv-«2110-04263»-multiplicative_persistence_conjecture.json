@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the abstract of arXiv:2110.04263 (Brier, Clavier, Gutsche, Naccache): 'Pick a decimal integer n and multiply all its digits by each other. Repeat the process until a single digit Δ(n) is obtained. [...] The number of steps Ξ(n) needed to reach Δ(n), called the multiplicative persistence of n [...] is conjectured to always be at most 11.' digitProduct is the product of the base-10 digits, with digitProduct 0 = 0 set explicitly (Nat.digits 10 0 = [] would otherwise give 1), so every n < 10 is a fixed point and '∃ k ≤ 11, digitProduct^[k] n < 10' says exactly that the persistence of n is at most 11. Boundary cases: n < 10 holds with k = 0, and a product containing the digit 0 reaches 0. The tests in the file show that 277777788888899 needs exactly 11 steps, so the constant is the conjectured one. Stated as a claim, as in the source. Correct."
+    }
+]

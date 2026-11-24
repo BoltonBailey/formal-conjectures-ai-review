@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/768: 'Let A ⊂ ℕ be the set of n such that for every prime p | n there exists some d | n with d > 1 such that d ≡ 1 (mod p). Is it true that there exists some constant c > 0 such that for all large N, |A ∩ [1,N]|/N = exp(−(c+o(1))√(log N) log log N)?' HasErdos768Property is the defining property verbatim (d % p = 1 is d ≡ 1 mod p because p ≥ 2); erdos768Count counts n ∈ [1, N]. 1 ∈ A vacuously both in the source and in Lean, so the density is positive for every N ≥ 1 and the logarithm is harmless. The o(1) is an explicit error : ℕ → ℝ with error =o[atTop] 1 and the identity is required for all large N, which is equivalent to log(1/density)/(√(log N)·log log N) → c with c > 0. @[question] matches 'Is it true that'. Note on status: the page lists one unreviewed proof claim (E. Li, submitted 2026-07-17, asserting the limit exists with c = 1/(2√(log 2)) and a Lean formalisation). The external problem database still lists 768 as open, so 'research open' agrees with the source as of today. Correct."
+    }
+]

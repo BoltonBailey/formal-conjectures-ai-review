@@ -5,5 +5,12 @@
         "effort": null,
         "severity": 1,
         "explanation": "Compared against Beaver Math Olympiad problem 8 on wiki.bbchallenge.org: (a_1, b_1) = (10, 12); if a_n > floor(b_n/2) then (a_{n+1}, b_{n+1}) = (a_n - floor(b_n/2) - 3, 3 floor((b_n+1)/2) + 6), else (3a_n + 5, b_n - 2a_n); does some positive i have a_i = floor(b_i/2) + 1? The Lean recursion matches both cases, with the condition `b n / 2 < a n` equivalent to a_n > floor(b_n/2). The sequences are ℤ-valued and Lean's `/` on ℤ rounds down for divisor 2, so `b n / 2` and `(b n + 1) / 2` are the floors even if values go negative (a can reach -2). Indexing is shifted to start at 0; this does not change the question since at index 0, a = 10 ≠ 12/2 + 1 = 7. The open/question tags match the wiki's 'unsolved' listing."
+    },
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the Beaver Math Olympiad wiki page, problem 8 (machine 1RB0LD_0RC1RB_0RD0RA_1LE0RD_1LF---_0LA1LA, marked undecided; fetched 2026-11-24): (a_1, b_1) = (10, 12); (a_{n+1}, b_{n+1}) = (a_n − ⌊b_n/2⌋ − 3, 3⌊(b_n+1)/2⌋ + 6) if a_n > ⌊b_n/2⌋, and (3a_n + 5, b_n − 2a_n) otherwise; 'Does there exist a positive integer i such that a_i = ⌊b_i/2⌋ + 1?'. The Lean statement is the same recurrence with indices starting at 0: the test b n / 2 < a n, both branches for a and b, and the target a i = b i / 2 + 1 are transcribed correctly. Taking the sequences in ℤ is necessary and right: simulating the recurrence, a equals −1 at 0-based index 463 (coming from (675, 1347)) without the target condition having occurred, so truncated subtraction in ℕ would have changed the problem. b stays ≥ 0 in both branches, so integer division by 2 is the floor throughout. No hit occurs in the first 200000 steps, consistent with 'undecided'. @[question] and research open match the wiki. Correct."
     }
 ]

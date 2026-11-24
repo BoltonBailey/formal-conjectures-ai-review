@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia 'Cramér's conjecture', section 'Related conjectures and heuristics' (rev. 1382185128): 'Daniel Shanks conjectured the following asymptotic equality, stronger than Cramér's conjecture, for record gaps: G(x) ~ log² x', and 'Prime gap' (rev. 1386621086): 'g_n is a maximal gap, if g_m < g_n for all m < n'. IsMaximalPrimeGapIndex is that definition verbatim (primeGap n = p_{n+1} − p_n, 0-indexed primes), and the statement says g_n / (log p_n)² → 1 along the record indices (atTop on the subtype, which is unbounded since prime gaps are). The docstring says openly that this is a corollary of the G(x) form and not a sentence of the article. I checked the implication: for a record index n, sup_primeGap (p_n + 1) = g_n and log(p_n + 1) ~ log p_n. It is a consequence, not an equivalent, of the G(x) form (the converse would need consecutive record gaps to have ratio tending to 1). Open, since Shanks's conjecture is. Correct as a stated variant."
+    }
+]

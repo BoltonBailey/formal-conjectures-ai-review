@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against erdosproblems.com/693 and Erdős's original text [Er79e, p. 78] (Astérisque 61, Numdam PDF): 'let k be given n > n_0(k). Is there an absolute constant α so that for every n < m < n^k there is a t, 0 < t < (log n)^α so that m + t has a divisor in (n, 2n)? More generally: if n + 1 = a_1 < a_2 < ... is the sequence of integers which have a divisor d, n < d < 2n. Determine or estimate max_{a_i < n^k} (a_{i+1} − a_i).' The quantifier order ∃ C, ∀ k ≥ 2, ∀ᶠ n matches 'absolute constant' and 'n > n_0(k)'; the site's '(log n)^{O(1)}' alone would leave this open, and the docstring cites the page. divisorWindowSet k n is {x ∈ [n, n^k] : some d with n < d < 2n divides x} (open window, so the least element is n + 1 as in Erdős's a_1), and MaxGapAtMost bounds y − x over consecutive elements. One harmless difference: Erdős also counts the gap that straddles n^k, while the site and the Lean statement cut A off at n^k; because C does not depend on k, the truncated statement for k + 1 gives the untruncated one for k. C : ℕ loses nothing. @[question] fits 'Is this ≤ (log n)^{O(1)}?'. Correct."
+    }
+]

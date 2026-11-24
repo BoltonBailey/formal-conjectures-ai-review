@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia 'Coin problem', section 'Wilf's conjecture' (rev. 1384144103): for coprime integers a_1 < ... < a_d with Frobenius number F and g non-representable positive integers, d ≥ (F + 1)/(F + 1 − g). Lean: conductor S ≤ embeddingDim S * sporadicCount S for every numerical semigroup S ≤ ℕ. With c = F + 1 and sporadicCount S = |S ∩ [0, c)| = c − g this reads e·(F + 1 − g) ≥ F + 1. Lean uses the embedding dimension e (number of minimal generators) where Wikipedia has the number d of given generators; e ≤ d, and the minimal generators are themselves a coprime generating set, so the two forms are equivalent, and e is the form used in the semigroup literature. Definitions checked: IsNumericalSemigroup S is cofiniteness of S in ℕ; conductor is the least c with [c, ∞) ⊆ S (the set is nonempty for a numerical semigroup, so sInf is not a junk value); embeddingDim counts positive elements of S that are not a sum of two positive elements of S. S = ℕ gives 0 ≤ 1 · 0. Correct."
+    }
+]

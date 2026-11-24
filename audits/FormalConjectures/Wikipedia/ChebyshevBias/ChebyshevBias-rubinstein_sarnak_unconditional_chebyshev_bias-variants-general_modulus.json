@@ -1,0 +1,9 @@
+[
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against Wikipedia 'Chebyshev's bias' (rev. 1384586436): 'if 0 < a, b < n are integers, gcd(a, n) = gcd(b, n) = 1, a is a quadratic residue mod n, b is a quadratic nonresidue mod n, then π(x; n, b) > π(x; n, a) occurs more often than not. This has been proved only by assuming strong forms of the Riemann hypothesis', and against Granville–Martin, 'Prime number races' (arXiv:math/0408319, p. 24), which states the Rubinstein–Sarnak theorem as: the logarithmic measure of the set of x with more primes qn + b than qn + a 'is strictly greater than 1/2, although always less than 1'. The Lean statement asserts unconditionally that this set has a logarithmic density in (1/2, 1). Nat.primeCountingMod takes its class in ZMod q, so a and b are cast (confirmed by rfl against the elaborated type) and representatives ≥ q cause no trouble; IsSquare (a : ZMod q) with a coprime to q is the residue condition; q ≥ 3 is the range where nonresidues exist. Set.HasLogDensity sums 1/k over integers k ≤ n, which agrees with the continuous logarithmic density because π(x; q, ·) is constant on [k, k + 1). The docstring says plainly that this is the conditional theorem with GRH and LI removed. Correct."
+    }
+]

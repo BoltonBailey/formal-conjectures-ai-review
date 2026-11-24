@@ -5,5 +5,12 @@
         "effort": null,
         "severity": 1,
         "explanation": "Compared with the conjecture as described in del Pino–Kowalczyk–Wei (Ann. Math. 174, 2011; 'dkw-pnas' note) and Savin (Ann. Math. 169, 2009): bounded entire solutions of the Allen–Cahn equation Δu + u - u^3 = 0 on ℝ^n that are monotone in one direction (∂_n u > 0) have hyperplane level sets, at least for n ≤ 8. IsBoundedSolution (C^2 classical solution, bounded) matches; boundedness is equivalent to the usual |u| ≤ 1 normalisation since bounded solutions satisfy |u| ≤ 1 by the maximum principle. HasPositiveDeriv uses the first coordinate (WLOG by rotation), and HasHyperplaneLevelSets says each nonempty level set is an affine subspace of dimension n-1, the standard conclusion (equivalent to u being one-dimensional). This declaration states the single dimension n = 4, which is open (Savin proved it only under the additional limit assumption u → ±1 as x_n → ±∞). Faithful."
+    },
+    {
+        "hash": "86a2f58a4d7a3a0637d15d5b2ce627592b54b956",
+        "model": "claude-fable-5-2",
+        "effort": null,
+        "severity": 1,
+        "explanation": "Compared against the statement of De Giorgi's conjecture in del Pino–Kowalczyk–Wei (arXiv:0806.3141, abstract): 'any bounded solution of the equation Δu + (1 − u²)u = 0 in R^N with ∂_{y_N} u > 0 must be such that its level sets {u = λ} are all hyperplanes, at least for dimension N ≤ 8', and against Savin's abstract (Ann. of Math. 169 (2009)), which proves it for n ≤ 8 only under the extra hypothesis lim_{x_n→±∞} u = ±1. IsBoundedSolution asks for u ∈ C², bounded, with Δu + u − u³ = 0 everywhere; HasPositiveDeriv is positivity of the derivative along one coordinate vector; HasHyperplaneLevelSets says that each nonempty level set equals an affine subspace whose direction has dimension n − 1. DeGiorgi_four is the instance n = 4 on EuclideanSpace ℝ (Fin 4), the first dimension not covered by the results the file cites for n = 2 and n = 3. 'Bounded' is the hypothesis used by del Pino–Kowalczyk–Wei (Savin writes |u| ≤ 1). Without Savin's limit assumption the case n = 4 is open, so the category is right. Correct."
     }
 ]
